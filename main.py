@@ -122,7 +122,7 @@ def parse_arguments():
         "--max_length_direct", type=int, default=32, help="maximum length of output tokens by model for answer extraction"
     )
     parser.add_argument(
-        "--limit_dataset_size", type=int, default=2, help="whether to limit test dataset size. if 0, the dataset size is unlimited and we use all the samples in the dataset for testing."
+        "--limit_dataset_size", type=int, default=10, help="whether to limit test dataset size. if 0, the dataset size is unlimited and we use all the samples in the dataset for testing."
     )
     parser.add_argument(
         "--api_time_interval", type=float, default=1.0, help=""

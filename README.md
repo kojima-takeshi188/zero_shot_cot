@@ -20,7 +20,7 @@ dataset=multiarith # We can use other datasets. See help for the details.
 limit_dataset_size=10 # This is important to save your budget. If you want to use all the samples in a dataset, set 0.
 ```
 
-## Let's get started !
+## Quick Start
 
 ### Zero-shot-CoT (our proposal)
 ```

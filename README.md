@@ -17,6 +17,7 @@ export OPENAI_API_KEY=(YOUR OPENAI API KEY)
 ```
 model=gpt3-xl # {"gpt3", "gpt3-medium", "gpt3-large", "gpt3-xl"}. "gpt3" is the smallest model.
 dataset=multiarith # We can use other datasets. See help for the details.
+limit_dataset_size=10 # This is important to save your budget. If you want to use all the samples in a dataset, set 0.
 ```
 
 ## Let's get started !

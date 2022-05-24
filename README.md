@@ -37,12 +37,12 @@ python main.py --method=zero_shot --model=${model} --dataset=${dataset}
 
 ### Few-shot-CoT
 ```
-# Only MultiArith and GSM8K are supported ...
+# MultiArith and GSM8K are currently available.
 python main.py --method=few_shot_cot --model=${model} --dataset=${dataset}
 ```
 
 ### Few-shot
 ```
-# Only MultiArith and GSM8K are supported ...
+# MultiArith and GSM8K are currently available.
 python main.py --method=few_shot --model=${model} --dataset=${dataset}
 ```

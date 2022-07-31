@@ -1,0 +1,5511 @@
+*****************************
+Namespace(api_log_content=MyDict(), api_log_file_name='./log/last_letters_zero_shot_20220512212133_api_log.json', api_time_interval=4, cot_trigger="Let's think step by step.", cot_trigger_no=1, dataset='last_letters', dataset_path='./dataset/last_letters/last_letters.json', decode_strategy='greedy', demo_answer_trigger='The answer is', device='cpu', direct_answer_trigger='\nTherefore, the answer is', direct_answer_trigger_for_fewshot='The answer is', direct_answer_trigger_for_zeroshot='The answer is', few_shot_example_flip=False, few_shot_example_pattern=1, few_shot_example_size=8, limit_dataset_size=0, max_length_cot=128, max_length_direct=32, max_num_worker=3, method='zero_shot', minibatch_size=1, model='gpt3-xl', plausible_flag=0, random_seed=1, restart_sample_number=0, sampling_num=10, sampling_temperature=0.5, sampling_top_p=1.0)
+*****************************
+setup data loader ...
+worker_seed : 1
+dataloader_num_workers: 3
+dataset : last_letters
+data size : 500
+average num of words for each sample : 15.03
+*************************
+1st data
+1_th_sampling
+Q: Take the last letters of each words in "Jeff Jen Giselle Noel" and concatenate them.
+A: The answer is "fejneille."
+pred_before :  "fejneille."
+pred_after : fejneille
+pred_list : ['fejneille']
+pred_mode : fejneille
+GT : fnel
+*************************
+*************************
+2st data
+1_th_sampling
+Q: Take the last letters of each words in "Rena Devon Rosalinda Paulina" and concatenate them.
+A: The answer is "adilayulap."
+pred_before :  "adilayulap."
+pred_after : adilayulap
+pred_list : ['adilayulap']
+pred_mode : adilayulap
+GT : anaa
+*************************
+*************************
+3st data
+1_th_sampling
+Q: Take the last letters of each words in "Rachel Alisa Fanny Jeffery" and concatenate them.
+A: The answer is "yfeyrh"
+pred_before :  "yfeyrh"
+pred_after : yfeyrh
+pred_list : ['yfeyrh']
+pred_mode : yfeyrh
+GT : layy
+*************************
+*************************
+4st data
+1_th_sampling
+Q: Take the last letters of each words in "Wilmer Valerie Melissa Eloisa" and concatenate them.
+A: The answer is "asiel."
+pred_before :  "asiel."
+pred_after : asiel
+pred_list : ['asiel']
+pred_mode : asiel
+GT : reaa
+*************************
+*************************
+5st data
+1_th_sampling
+Q: Take the last letters of each words in "Dorian Mayra Freddie Magaly" and concatenate them.
+A: The answer is "yarayly."
+pred_before :  "yarayly."
+pred_after : yarayly
+pred_list : ['yarayly']
+pred_mode : yarayly
+GT : naey
+*************************
+*************************
+6st data
+1_th_sampling
+Q: Take the last letters of each words in "Lamont Frederick Lance Esperanza" and concatenate them.
+A: The answer is "amontrederickanceperanza."
+pred_before :  "amontrederickanceperanza."
+pred_after : amontrederickanceperanza
+pred_list : ['amontrederickanceperanza']
+pred_mode : amontrederickanceperanza
+GT : tkea
+*************************
+*************************
+7st data
+1_th_sampling
+Q: Take the last letters of each words in "Caroline Demetrius Fidel Solomon" and concatenate them.
+A: The answer is "neus redil lomon."
+pred_before :  "neus redil lomon."
+pred_after : neusredillomon
+pred_list : ['neusredillomon']
+pred_mode : neusredillomon
+GT : esln
+*************************
+*************************
+8st data
+1_th_sampling
+Q: Take the last letters of each words in "Leon Payton Stefan Javi" and concatenate them.
+A: The answer is "naytfi."
+pred_before :  "naytfi."
+pred_after : naytfi
+pred_list : ['naytfi']
+pred_mode : naytfi
+GT : nnni
+*************************
+*************************
+9st data
+1_th_sampling
+Q: Take the last letters of each words in "Bill Santos Roxy Randi" and concatenate them.
+A: The answer is "syndiar."
+pred_before :  "syndiar."
+pred_after : syndiar
+pred_list : ['syndiar']
+pred_mode : syndiar
+GT : lsyi
+*************************
+*************************
+10st data
+1_th_sampling
+Q: Take the last letters of each words in "Franklin Rochelle Brent Sarai" and concatenate them.
+A: The answer is "lknrchlaei."
+pred_before :  "lknrchlaei."
+pred_after : lknrchlaei
+pred_list : ['lknrchlaei']
+pred_mode : lknrchlaei
+GT : neti
+*************************
+*************************
+11st data
+1_th_sampling
+Q: Take the last letters of each words in "Cat Alisha Ramon Norberto" and concatenate them.
+A: The answer is "tahNoberto."
+pred_before :  "tahNoberto."
+pred_after : tahNoberto
+pred_list : ['tahNoberto']
+pred_mode : tahNoberto
+GT : tano
+*************************
+*************************
+12st data
+1_th_sampling
+Q: Take the last letters of each words in "Mercedes Adela Susana Rose" and concatenate them.
+A: The answer is "sanaose."
+pred_before :  "sanaose."
+pred_after : sanaose
+pred_list : ['sanaose']
+pred_mode : sanaose
+GT : saae
+*************************
+*************************
+13st data
+1_th_sampling
+Q: Take the last letters of each words in "Ashish Tracey Varun Emil" and concatenate them.
+A: The answer is "hyay nyec uan mil."
+pred_before :  "hyay nyec uan mil."
+pred_after : hyaynyecuanmil
+pred_list : ['hyaynyecuanmil']
+pred_mode : hyaynyecuanmil
+GT : hynl
+*************************
+*************************
+14st data
+1_th_sampling
+Q: Take the last letters of each words in "Nicky Eden James Matt" and concatenate them.
+A: The answer is "ymseJ adneN ttaM."
+pred_before :  "ymseJ adneN ttaM."
+pred_after : ymseJadneNttaM
+pred_list : ['ymseJadneNttaM']
+pred_mode : ymseJadneNttaM
+GT : ynst
+*************************
+*************************
+15st data
+1_th_sampling
+Q: Take the last letters of each words in "Williams Reza Ashton Lillian" and concatenate them.
+A: The answer is "smay ztarh nalil."
+pred_before :  "smay ztarh nalil."
+pred_after : smayztarhnalil
+pred_list : ['smayztarhnalil']
+pred_mode : smayztarhnalil
+GT : sann
+*************************
+*************************
+16st data
+1_th_sampling
+Q: Take the last letters of each words in "Erwin Chad Margarito Shanna" and concatenate them.
+A: The answer is "nitoannah."
+pred_before :  "nitoannah."
+pred_after : nitoannah
+pred_list : ['nitoannah']
+pred_mode : nitoannah
+GT : ndoa
+*************************
+*************************
+17st data
+1_th_sampling
+Q: Take the last letters of each words in "Manuel Aurelio India Rosalba" and concatenate them.
+A: The answer is "loidaR".
+pred_before :  "loidaR".
+pred_after : loidaR
+pred_list : ['loidaR']
+pred_mode : loidaR
+GT : loaa
+*************************
+*************************
+18st data
+1_th_sampling
+Q: Take the last letters of each words in "Colton Dexter Katy Brayden" and concatenate them.
+A: The answer is "xetyrn."
+pred_before :  "xetyrn."
+pred_after : xetyrn
+pred_list : ['xetyrn']
+pred_mode : xetyrn
+GT : nryn
+*************************
+*************************
+19st data
+1_th_sampling
+Q: Take the last letters of each words in "Guillermina Evelin Dominique Johnny" and concatenate them.
+A: The answer is "anininque."
+pred_before :  "anininque."
+pred_after : anininque
+pred_list : ['anininque']
+pred_mode : anininque
+GT : aney
+*************************
+*************************
+20st data
+1_th_sampling
+Q: Take the last letters of each words in "Daniella Dianne Ram Mirian" and concatenate them.
+A: The answer is "alllaidnmri."
+pred_before :  "alllaidnmri."
+pred_after : alllaidnmri
+pred_list : ['alllaidnmri']
+pred_mode : alllaidnmri
+GT : aemn
+*************************
+*************************
+21st data
+1_th_sampling
+Q: Take the last letters of each words in "Jae Dennis Cris Bernadette" and concatenate them.
+A: The answer is "seneD iacS etteDnarB."
+pred_before :  "seneD iacS etteDnarB."
+pred_after : seneDiacSetteDnarB
+pred_list : ['seneDiacSetteDnarB']
+pred_mode : seneDiacSetteDnarB
+GT : esse
+*************************
+*************************
+22st data
+1_th_sampling
+Q: Take the last letters of each words in "Carla Dolores Cooper Damion" and concatenate them.
+A: The answer is "rlcrdmn."
+pred_before :  "rlcrdmn."
+pred_after : rlcrdmn
+pred_list : ['rlcrdmn']
+pred_mode : rlcrdmn
+GT : asrn
+*************************
+*************************
+23st data
+1_th_sampling
+Q: Take the last letters of each words in "Nabil Marlene Wendy Jillian" and concatenate them.
+A: The answer is "ldneillaj."
+pred_before :  "ldneillaj."
+pred_after : ldneillaj
+pred_list : ['ldneillaj']
+pred_mode : ldneillaj
+GT : leyn
+*************************
+*************************
+24st data
+1_th_sampling
+Q: Take the last letters of each words in "Andre Oralia Carrie Bruno" and concatenate them.
+A: The answer is "eiaonuro."
+pred_before :  "eiaonuro."
+pred_after : eiaonuro
+pred_list : ['eiaonuro']
+pred_mode : eiaonuro
+GT : eaeo
+*************************
+*************************
+25st data
+1_th_sampling
+Q: Take the last letters of each words in "Amy Ella Amilcar Roman" and concatenate them.
+A: The answer is "yayo anom."
+pred_before :  "yayo anom."
+pred_after : yayoanom
+pred_list : ['yayoanom']
+pred_mode : yayoanom
+GT : yarn
+*************************
+*************************
+26st data
+1_th_sampling
+Q: Take the last letters of each words in "Bethany Rakesh Christine Dinesh" and concatenate them.
+A: The answer is "hyneksihinedh."
+pred_before :  "hyneksihinedh."
+pred_after : hyneksihinedh
+pred_list : ['hyneksihinedh']
+pred_mode : hyneksihinedh
+GT : yheh
+*************************
+*************************
+27st data
+1_th_sampling
+Q: Take the last letters of each words in "Micaela Kevin Diamond Ty" and concatenate them.
+A: The answer is "ailevnamydyt."
+pred_before :  "ailevnamydyt."
+pred_after : ailevnamydyt
+pred_list : ['ailevnamydyt']
+pred_mode : ailevnamydyt
+GT : andy
+*************************
+*************************
+28st data
+1_th_sampling
+Q: Take the last letters of each words in "Laila Audrey Glenn Rhonda" and concatenate them.
+A: The answer is "adlyen ondrah."
+pred_before :  "adlyen ondrah."
+pred_after : adlyenondrah
+pred_list : ['adlyenondrah']
+pred_mode : adlyenondrah
+GT : ayna
+*************************
+*************************
+29st data
+1_th_sampling
+Q: Take the last letters of each words in "Lara Greg Ethan Terrence" and concatenate them.
+A: The answer is "rath ence."
+pred_before :  "rath ence."
+pred_after : rathence
+pred_list : ['rathence']
+pred_mode : rathence
+GT : agne
+*************************
+*************************
+30st data
+1_th_sampling
+Q: Take the last letters of each words in "Victoria Aurora Amalia Princess" and concatenate them.
+A: The answer is "sarap."
+pred_before :  "sarap."
+pred_after : sarap
+pred_list : ['sarap']
+pred_mode : sarap
+GT : aaas
+*************************
+*************************
+31st data
+1_th_sampling
+Q: Take the last letters of each words in "Luisa Tatiana Drake Hillary" and concatenate them.
+A: The answer is "aiailry."
+pred_before :  "aiailry."
+pred_after : aiailry
+pred_list : ['aiailry']
+pred_mode : aiailry
+GT : aaey
+*************************
+*************************
+32st data
+1_th_sampling
+Q: Take the last letters of each words in "Kelvin Brennan Carina Paty" and concatenate them.
+A: The answer is "nnay."
+pred_before :  "nnay."
+pred_after : nnay
+pred_list : ['nnay']
+pred_mode : nnay
+GT : nnay
+*************************
+*************************
+33st data
+1_th_sampling
+Q: Take the last letters of each words in "Ronnie Kiki Alan Remy" and concatenate them.
+A: The answer is "ymir."
+pred_before :  "ymir."
+pred_after : ymir
+pred_list : ['ymir']
+pred_mode : ymir
+GT : einy
+*************************
+*************************
+34st data
+1_th_sampling
+Q: Take the last letters of each words in "Gus Brock Ava Jenna" and concatenate them.
+A: The answer is "sak."
+pred_before :  "sak."
+pred_after : sak
+pred_list : ['sak']
+pred_mode : sak
+GT : skaa
+*************************
+*************************
+35st data
+1_th_sampling
+Q: Take the last letters of each words in "Wesley Marcelo Rodolfo Erick" and concatenate them.
+A: The answer is "ykeo".
+pred_before :  "ykeo".
+pred_after : ykeo
+pred_list : ['ykeo']
+pred_mode : ykeo
+GT : yook
+*************************
+*************************
+36st data
+1_th_sampling
+Q: Take the last letters of each words in "Prince Rene Vishal Patrick" and concatenate them.
+A: The answer is "ntrick."
+pred_before :  "ntrick."
+pred_after : ntrick
+pred_list : ['ntrick']
+pred_mode : ntrick
+GT : eelk
+*************************
+*************************
+37st data
+1_th_sampling
+Q: Take the last letters of each words in "Cristobal Dania Li Anna" and concatenate them.
+A: The answer is "alaniai."
+pred_before :  "alaniai."
+pred_after : alaniai
+pred_list : ['alaniai']
+pred_mode : alaniai
+GT : laia
+*************************
+*************************
+38st data
+1_th_sampling
+Q: Take the last letters of each words in "Oscar George Sanjay Haydee" and concatenate them.
+A: The answer is "yeaheds."
+pred_before :  "yeaheds."
+pred_after : yeaheds
+pred_list : ['yeaheds']
+pred_mode : yeaheds
+GT : reye
+*************************
+*************************
+39st data
+1_th_sampling
+Q: Take the last letters of each words in "Breanna Trey Omar Patrice" and concatenate them.
+A: The answer is "annayrometric."
+pred_before :  "annayrometric."
+pred_after : annayrometric
+pred_list : ['annayrometric']
+pred_mode : annayrometric
+GT : ayre
+*************************
+*************************
+40st data
+1_th_sampling
+Q: Take the last letters of each words in "Skyler Oliver Cristy Sierra" and concatenate them.
+A: The answer is "yroldier."
+pred_before :  "yroldier."
+pred_after : yroldier
+pred_list : ['yroldier']
+pred_mode : yroldier
+GT : rrya
+*************************
+*************************
+41st data
+1_th_sampling
+Q: Take the last letters of each words in "Andrés Miles Ronaldo Melinda" and concatenate them.
+A: The answer is "sdona."
+pred_before :  "sdona."
+pred_after : sdona
+pred_list : ['sdona']
+pred_mode : sdona
+GT : ssoa
+*************************
+*************************
+42st data
+1_th_sampling
+Q: Take the last letters of each words in "Itzel Anderson Kenia Edy" and concatenate them.
+A: The answer is "laeiaedy."
+pred_before :  "laeiaedy."
+pred_after : laeiaedy
+pred_list : ['laeiaedy']
+pred_mode : laeiaedy
+GT : lnay
+*************************
+*************************
+43st data
+1_th_sampling
+Q: Take the last letters of each words in "Joyce Leroy Alyssa Maggie" and concatenate them.
+A: The answer is "yeoyssa."
+pred_before :  "yeoyssa."
+pred_after : yeoyssa
+pred_list : ['yeoyssa']
+pred_mode : yeoyssa
+GT : eyae
+*************************
+*************************
+44st data
+1_th_sampling
+Q: Take the last letters of each words in "Katia Mina Cam Ronda" and concatenate them.
+A: The answer is "aimondar."
+pred_before :  "aimondar."
+pred_after : aimondar
+pred_list : ['aimondar']
+pred_mode : aimondar
+GT : aama
+*************************
+*************************
+45st data
+1_th_sampling
+Q: Take the last letters of each words in "Yasmin Yesenia Carmela Susie" and concatenate them.
+A: The answer is "aniA aiei aela uie."
+pred_before :  "aniA aiei aela uie."
+pred_after : aniAaieiaelauie
+pred_list : ['aniAaieiaelauie']
+pred_mode : aniAaieiaelauie
+GT : naae
+*************************
+*************************
+46st data
+1_th_sampling
+Q: Take the last letters of each words in "Rosendo Shayla Erica Georgia" and concatenate them.
+A: The answer is "aylaegia."
+pred_before :  "aylaegia."
+pred_after : aylaegia
+pred_list : ['aylaegia']
+pred_mode : aylaegia
+GT : oaaa
+*************************
+*************************
+47st data
+1_th_sampling
+Q: Take the last letters of each words in "Gavin Neha Asha Baltazar" and concatenate them.
+A: The answer is "naha araz."
+pred_before :  "naha araz."
+pred_after : nahaaraz
+pred_list : ['nahaaraz']
+pred_mode : nahaaraz
+GT : naar
+*************************
+*************************
+48st data
+1_th_sampling
+Q: Take the last letters of each words in "Cruz Wilber Marilu Malik" and concatenate them.
+A: The answer is "uzilirekulam."
+pred_before :  "uzilirekulam."
+pred_after : uzilirekulam
+pred_list : ['uzilirekulam']
+pred_mode : uzilirekulam
+GT : zruk
+*************************
+*************************
+49st data
+1_th_sampling
+Q: Take the last letters of each words in "Gee Joseluis Cory Stefanie" and concatenate them.
+A: The answer is "seulie."
+pred_before :  "seulie."
+pred_after : seulie
+pred_list : ['seulie']
+pred_mode : seulie
+GT : esye
+*************************
+*************************
+50st data
+1_th_sampling
+Q: Take the last letters of each words in "Armando Astrid Anibal Dakota" and concatenate them.
+A: The answer is "rdo strd nbal kota".
+pred_before :  "rdo strd nbal kota".
+pred_after : rdostrdnbalkota
+pred_list : ['rdostrdnbalkota']
+pred_mode : rdostrdnbalkota
+GT : odla
+*************************
+*************************
+51st data
+1_th_sampling
+Q: Take the last letters of each words in "Missy Erin Lorna Lenny" and concatenate them.
+A: The answer is "yasnoy nyrin anoy enny."
+pred_before :  "yasnoy nyrin anoy enny."
+pred_after : yasnoynyrinanoyenny
+pred_list : ['yasnoynyrinanoyenny']
+pred_mode : yasnoynyrinanoyenny
+GT : ynay
+*************************
+*************************
+52st data
+1_th_sampling
+Q: Take the last letters of each words in "Sabrina Pete Mary La" and concatenate them.
+A: The answer is "aidypetrala."
+pred_before :  "aidypetrala."
+pred_after : aidypetrala
+pred_list : ['aidypetrala']
+pred_mode : aidypetrala
+GT : aeya
+*************************
+*************************
+53st data
+1_th_sampling
+Q: Take the last letters of each words in "Jim Dwayne Ricky Artemio" and concatenate them.
+A: The answer is "ymay nnui aio."
+pred_before :  "ymay nnui aio."
+pred_after : ymaynnuiaio
+pred_list : ['ymaynnuiaio']
+pred_mode : ymaynnuiaio
+GT : meyo
+*************************
+*************************
+54st data
+1_th_sampling
+Q: Take the last letters of each words in "Camilo Becky Eliza Rebecca" and concatenate them.
+A: The answer is "oloyekehazar."
+pred_before :  "oloyekehazar."
+pred_after : oloyekehazar
+pred_list : ['oloyekehazar']
+pred_mode : oloyekehazar
+GT : oyaa
+*************************
+*************************
+55st data
+1_th_sampling
+Q: Take the last letters of each words in "Donny Lucero Christopher Gregory" and concatenate them.
+A: The answer is "ros hristohery omary."
+pred_before :  "ros hristohery omary."
+pred_after : roshristoheryomary
+pred_list : ['roshristoheryomary']
+pred_mode : roshristoheryomary
+GT : yory
+*************************
+*************************
+56st data
+1_th_sampling
+Q: Take the last letters of each words in "Forrest Juanito Allan Candice" and concatenate them.
+A: The answer is "ntoa dicen."
+pred_before :  "ntoa dicen."
+pred_after : ntoadicen
+pred_list : ['ntoadicen']
+pred_mode : ntoadicen
+GT : tone
+*************************
+*************************
+57st data
+1_th_sampling
+Q: Take the last letters of each words in "Aj Jd Maddie Francisca" and concatenate them.
+A: The answer is "ajdaddiefrancisca."
+pred_before :  "ajdaddiefrancisca."
+pred_after : ajdaddiefrancisca
+pred_list : ['ajdaddiefrancisca']
+pred_mode : ajdaddiefrancisca
+GT : jdea
+*************************
+*************************
+58st data
+1_th_sampling
+Q: Take the last letters of each words in "Geovanny Tom Katelyn Jennifer" and concatenate them.
+A: The answer is "nymnifer."
+pred_before :  "nymnifer."
+pred_after : nymnifer
+pred_list : ['nymnifer']
+pred_mode : nymnifer
+GT : ymnr
+*************************
+*************************
+59st data
+1_th_sampling
+Q: Take the last letters of each words in "Liz Andrea Suresh Vera" and concatenate them.
+A: The answer is "ahsaV".
+pred_before :  "ahsaV".
+pred_after : ahsaV
+pred_list : ['ahsaV']
+pred_mode : ahsaV
+GT : zaha
+*************************
+*************************
+60st data
+1_th_sampling
+Q: Take the last letters of each words in "Sunny Trisha Paul Guy" and concatenate them.
+A: The answer is "yahsulapig."
+pred_before :  "yahsulapig."
+pred_after : yahsulapig
+pred_list : ['yahsulapig']
+pred_mode : yahsulapig
+GT : yaly
+*************************
+*************************
+61st data
+1_th_sampling
+Q: Take the last letters of each words in "Candy Megan Ed Nathan" and concatenate them.
+A: The answer is "ydna".
+pred_before :  "ydna".
+pred_after : ydna
+pred_list : ['ydna']
+pred_mode : ydna
+GT : yndn
+*************************
+*************************
+62st data
+1_th_sampling
+Q: Take the last letters of each words in "Dana German Alvin Braden" and concatenate them.
+A: The answer is "nadnevilrab."
+pred_before :  "nadnevilrab."
+pred_after : nadnevilrab
+pred_list : ['nadnevilrab']
+pred_mode : nadnevilrab
+GT : annn
+*************************
+*************************
+63st data
+1_th_sampling
+Q: Take the last letters of each words in "Len Marquis Kylie Sandra" and concatenate them.
+A: The answer is "rsaidyliequaman."
+pred_before :  "rsaidyliequaman."
+pred_after : rsaidyliequaman
+pred_list : ['rsaidyliequaman']
+pred_mode : rsaidyliequaman
+GT : nsea
+*************************
+*************************
+64st data
+1_th_sampling
+Q: Take the last letters of each words in "Rich Parker Edward Milagros" and concatenate them.
+A: The answer is "srodarwajilis."
+pred_before :  "srodarwajilis."
+pred_after : srodarwajilis
+pred_list : ['srodarwajilis']
+pred_mode : srodarwajilis
+GT : hrds
+*************************
+*************************
+65st data
+1_th_sampling
+Q: Take the last letters of each words in "Marty Justine Edgardo Osman" and concatenate them.
+A: The answer is "ydrojusinedgarotomana."
+pred_before :  "ydrojusinedgarotomana."
+pred_after : ydrojusinedgarotomana
+pred_list : ['ydrojusinedgarotomana']
+pred_mode : ydrojusinedgarotomana
+GT : yeon
+*************************
+*************************
+66st data
+1_th_sampling
+Q: Take the last letters of each words in "Carissa Paige Consuelo Izzy" and concatenate them.
+A: The answer is "assolozy."
+pred_before :  "assolozy."
+pred_after : assolozy
+pred_list : ['assolozy']
+pred_mode : assolozy
+GT : aeoy
+*************************
+*************************
+67st data
+1_th_sampling
+Q: Take the last letters of each words in "Daryl Owen Myra Aaron" and concatenate them.
+A: The answer is "lownayra".
+pred_before :  "lownayra".
+pred_after : lownayra
+pred_list : ['lownayra']
+pred_mode : lownayra
+GT : lnan
+*************************
+*************************
+68st data
+1_th_sampling
+Q: Take the last letters of each words in "Yamileth Dane Aron Dee" and concatenate them.
+A: The answer is "hteeD nhsaA eeD."
+pred_before :  "hteeD nhsaA eeD."
+pred_after : hteeDnhsaAeeD
+pred_list : ['hteeDnhsaAeeD']
+pred_mode : hteeDnhsaAeeD
+GT : hene
+*************************
+*************************
+69st data
+1_th_sampling
+Q: Take the last letters of each words in "Maricruz Alfredo Barry Deepak" and concatenate them.
+A: The answer is "zuzydohypka."
+pred_before :  "zuzydohypka."
+pred_after : zuzydohypka
+pred_list : ['zuzydohypka']
+pred_mode : zuzydohypka
+GT : zoyk
+*************************
+*************************
+70st data
+1_th_sampling
+Q: Take the last letters of each words in "Deandre Moe Jack Vanessa" and concatenate them.
+A: The answer is "redjacksa."
+pred_before :  "redjacksa."
+pred_after : redjacksa
+pred_list : ['redjacksa']
+pred_mode : redjacksa
+GT : eeka
+*************************
+*************************
+71st data
+1_th_sampling
+Q: Take the last letters of each words in "Selene Felix Milton Yessica" and concatenate them.
+A: The answer is "enexilcitsih."
+pred_before :  "enexilcitsih."
+pred_after : enexilcitsih
+pred_list : ['enexilcitsih']
+pred_mode : enexilcitsih
+GT : exna
+*************************
+*************************
+72st data
+1_th_sampling
+Q: Take the last letters of each words in "Lore Erasmo Louis David" and concatenate them.
+A: The answer is "sod."
+pred_before :  "sod."
+pred_after : sod
+pred_list : ['sod']
+pred_mode : sod
+GT : eosd
+*************************
+*************************
+73st data
+1_th_sampling
+Q: Take the last letters of each words in "Alain Jerome Kristina Ida" and concatenate them.
+A: The answer is "aninomerstaid."
+pred_before :  "aninomerstaid."
+pred_after : aninomerstaid
+pred_list : ['aninomerstaid']
+pred_mode : aninomerstaid
+GT : neaa
+*************************
+*************************
+74st data
+1_th_sampling
+Q: Take the last letters of each words in "Denis Gigi Heather Ginger" and concatenate them.
+A: The answer is "sigidere."
+pred_before :  "sigidere."
+pred_after : sigidere
+pred_list : ['sigidere']
+pred_mode : sigidere
+GT : sirr
+*************************
+*************************
+75st data
+1_th_sampling
+Q: Take the last letters of each words in "Albert Felicia Margo Patty" and concatenate them.
+A: The answer is "tca laihgp yttap."
+pred_before :  "tca laihgp yttap."
+pred_after : tcalaihgpyttap
+pred_list : ['tcalaihgpyttap']
+pred_mode : tcalaihgpyttap
+GT : taoy
+*************************
+*************************
+76st data
+1_th_sampling
+Q: Take the last letters of each words in "Felipe Heidi Nino Bradley" and concatenate them.
+A: The answer is "edihinoy".
+pred_before :  "edihinoy".
+pred_after : edihinoy
+pred_list : ['edihinoy']
+pred_mode : edihinoy
+GT : eioy
+*************************
+*************************
+77st data
+1_th_sampling
+Q: Take the last letters of each words in "Thomas Cara Nita Frances" and concatenate them.
+A: The answer is "samoracaf."
+pred_before :  "samoracaf."
+pred_after : samoracaf
+pred_list : ['samoracaf']
+pred_mode : samoracaf
+GT : saas
+*************************
+*************************
+78st data
+1_th_sampling
+Q: Take the last letters of each words in "Regina Joel Justice Eli" and concatenate them.
+A: The answer is "aiejilistu."
+pred_before :  "aiejilistu."
+pred_after : aiejilistu
+pred_list : ['aiejilistu']
+pred_mode : aiejilistu
+GT : alei
+*************************
+*************************
+79st data
+1_th_sampling
+Q: Take the last letters of each words in "Mabel Estela Irene May" and concatenate them.
+A: The answer is "lay."
+pred_before :  "lay."
+pred_after : lay
+pred_list : ['lay']
+pred_mode : lay
+GT : laey
+*************************
+*************************
+80st data
+1_th_sampling
+Q: Take the last letters of each words in "Adalberto Jamal Carter Robyn" and concatenate them.
+A: The answer is "rteroybn."
+pred_before :  "rteroybn."
+pred_after : rteroybn
+pred_list : ['rteroybn']
+pred_mode : rteroybn
+GT : olrn
+*************************
+*************************
+81st data
+1_th_sampling
+Q: Take the last letters of each words in "Eugenio Moises Marion Kirk" and concatenate them.
+A: The answer is "skirk."
+pred_before :  "skirk."
+pred_after : skirk
+pred_list : ['skirk']
+pred_mode : skirk
+GT : osnk
+*************************
+*************************
+82st data
+1_th_sampling
+Q: Take the last letters of each words in "Ace Rosy Kimberly Jean" and concatenate them.
+A: The answer is "eyj."
+pred_before :  "eyj."
+pred_after : eyj
+pred_list : ['eyj']
+pred_mode : eyj
+GT : eyyn
+*************************
+*************************
+83st data
+1_th_sampling
+Q: Take the last letters of each words in "Natalie Gilbert Brian Sanchez" and concatenate them.
+A: The answer is "yzez"
+pred_before :  "yzez"
+pred_after : yzez
+pred_list : ['yzez']
+pred_mode : yzez
+GT : etnz
+*************************
+*************************
+84st data
+1_th_sampling
+Q: Take the last letters of each words in "Virginia Juanita Zak Wayne" and concatenate them.
+A: The answer is "aynzay."
+pred_before :  "aynzay."
+pred_after : aynzay
+pred_list : ['aynzay']
+pred_mode : aynzay
+GT : aake
+*************************
+*************************
+85st data
+1_th_sampling
+Q: Take the last letters of each words in "Andy Cecilia Gretchen Sandi" and concatenate them.
+A: The answer is "ydailehctnas."
+pred_before :  "ydailehctnas."
+pred_after : ydailehctnas
+pred_list : ['ydailehctnas']
+pred_mode : ydailehctnas
+GT : yani
+*************************
+*************************
+86st data
+1_th_sampling
+Q: Take the last letters of each words in "Bernie Melina Kelsey Rusty" and concatenate them.
+A: The answer is "ydniB anileM yseleK ytsuR."
+pred_before :  "ydniB anileM yseleK ytsuR."
+pred_after : ydniBanileMyseleKytsuR
+pred_list : ['ydniBanileMyseleKytsuR']
+pred_mode : ydniBanileMyseleKytsuR
+GT : eayy
+*************************
+*************************
+87st data
+1_th_sampling
+Q: Take the last letters of each words in "Rocio Sandy Anahi Latasha" and concatenate them.
+A: The answer is "yohihtasal."
+pred_before :  "yohihtasal."
+pred_after : yohihtasal
+pred_list : ['yohihtasal']
+pred_mode : yohihtasal
+GT : oyia
+*************************
+*************************
+88st data
+1_th_sampling
+Q: Take the last letters of each words in "Christy Rey Michelle Dolly" and concatenate them.
+A: The answer is "y y l l o d."
+pred_before :  "y y l l o d."
+pred_after : yyllod
+pred_list : ['yyllod']
+pred_mode : yyllod
+GT : yyey
+*************************
+*************************
+89st data
+1_th_sampling
+Q: Take the last letters of each words in "Lizzy Juany Aisha Brenda" and concatenate them.
+A: The answer is "ydnahJ ayihS arnedB."
+pred_before :  "ydnahJ ayihS arnedB."
+pred_after : ydnahJayihSarnedB
+pred_list : ['ydnahJayihSarnedB']
+pred_mode : ydnahJayihSarnedB
+GT : yyaa
+*************************
+*************************
+90st data
+1_th_sampling
+Q: Take the last letters of each words in "Denny Carlo Reinaldo Jessi" and concatenate them.
+A: The answer is "odajilis."
+pred_before :  "odajilis."
+pred_after : odajilis
+pred_list : ['odajilis']
+pred_mode : odajilis
+GT : yooi
+*************************
+*************************
+91st data
+1_th_sampling
+Q: Take the last letters of each words in "Les Jun Noe Juliana" and concatenate them.
+A: The answer is "anaijnaluj."
+pred_before :  "anaijnaluj."
+pred_after : anaijnaluj
+pred_list : ['anaijnaluj']
+pred_mode : anaijnaluj
+GT : snea
+*************************
+*************************
+92st data
+1_th_sampling
+Q: Take the last letters of each words in "Flora Warren Gwendolyn Alissa" and concatenate them.
+A: The answer is "aynnal."
+pred_before :  "aynnal."
+pred_after : aynnal
+pred_list : ['aynnal']
+pred_mode : aynnal
+GT : anna
+*************************
+*************************
+93st data
+1_th_sampling
+Q: Take the last letters of each words in "Jorge Luis Mo Alexia Jerry" and concatenate them.
+A: The answer is "geusolexijerry."
+pred_before :  "geusolexijerry."
+pred_after : geusolexijerry
+pred_list : ['geusolexijerry']
+pred_mode : geusolexijerry
+GT : soay
+*************************
+*************************
+94st data
+1_th_sampling
+Q: Take the last letters of each words in "Reginald Franky Kira Gordon" and concatenate them.
+A: The answer is "ydakrodn."
+pred_before :  "ydakrodn."
+pred_after : ydakrodn
+pred_list : ['ydakrodn']
+pred_mode : ydakrodn
+GT : dyan
+*************************
+*************************
+95st data
+1_th_sampling
+Q: Take the last letters of each words in "Emely Chelsea Vladimir Tyrone" and concatenate them.
+A: The answer is "ymeleahydovar."
+pred_before :  "ymeleahydovar."
+pred_after : ymeleahydovar
+pred_list : ['ymeleahydovar']
+pred_mode : ymeleahydovar
+GT : yare
+*************************
+*************************
+96st data
+1_th_sampling
+Q: Take the last letters of each words in "Ron Carl Joann Young" and concatenate them.
+A: The answer is "nny."
+pred_before :  "nny."
+pred_after : nny
+pred_list : ['nny']
+pred_mode : nny
+GT : nlng
+*************************
+*************************
+97st data
+1_th_sampling
+Q: Take the last letters of each words in "Russell Mitchell Bee Faith" and concatenate them.
+A: The answer is "eaith."
+pred_before :  "eaith."
+pred_after : eaith
+pred_list : ['eaith']
+pred_mode : eaith
+GT : lleh
+*************************
+*************************
+98st data
+1_th_sampling
+Q: Take the last letters of each words in "Philip Antony Iris Alicia" and concatenate them.
+A: The answer is "saiia."
+pred_before :  "saiia."
+pred_after : saiia
+pred_list : ['saiia']
+pred_mode : saiia
+GT : pysa
+*************************
+*************************
+99st data
+1_th_sampling
+Q: Take the last letters of each words in "Nick Ada Stephany Suzie" and concatenate them.
+A: The answer is "ckay."
+pred_before :  "ckay."
+pred_after : ckay
+pred_list : ['ckay']
+pred_mode : ckay
+GT : kaye
+*************************
+*************************
+100st data
+1_th_sampling
+Q: Take the last letters of each words in "Madeline Mckenzie Louie Dylan" and concatenate them.
+A: The answer is "eie ouy nyl."
+pred_before :  "eie ouy nyl."
+pred_after : eieouynyl
+pred_list : ['eieouynyl']
+pred_mode : eieouynyl
+GT : eeen
+*************************
+*************************
+101st data
+1_th_sampling
+Q: Take the last letters of each words in "Desmond Camille Joana Garcia" and concatenate them.
+A: The answer is "rdezmaimlaejnorag."
+pred_before :  "rdezmaimlaejnorag."
+pred_after : rdezmaimlaejnorag
+pred_list : ['rdezmaimlaejnorag']
+pred_mode : rdezmaimlaejnorag
+GT : deaa
+*************************
+*************************
+102st data
+1_th_sampling
+Q: Take the last letters of each words in "Clarissa Shauna Alexis Branden" and concatenate them.
+A: The answer is "snalixeand."
+pred_before :  "snalixeand."
+pred_after : snalixeand
+pred_list : ['snalixeand']
+pred_mode : snalixeand
+GT : aasn
+*************************
+*************************
+103st data
+1_th_sampling
+Q: Take the last letters of each words in "Tiara Araceli Michaela Genaro" and concatenate them.
+A: The answer is "aliehcanao."
+pred_before :  "aliehcanao."
+pred_after : aliehcanao
+pred_list : ['aliehcanao']
+pred_mode : aliehcanao
+GT : aiao
+*************************
+*************************
+104st data
+1_th_sampling
+Q: Take the last letters of each words in "Raymundo Jonathon Lexi Rony" and concatenate them.
+A: The answer is "ymundo hnathon exi ony."
+pred_before :  "ymundo hnathon exi ony."
+pred_after : ymundohnathonexiony
+pred_list : ['ymundohnathonexiony']
+pred_mode : ymundohnathonexiony
+GT : oniy
+*************************
+*************************
+105st data
+1_th_sampling
+Q: Take the last letters of each words in "Noah Aubrey Cesar Eliana" and concatenate them.
+A: The answer is "yareus."
+pred_before :  "yareus."
+pred_after : yareus
+pred_list : ['yareus']
+pred_mode : yareus
+GT : hyra
+*************************
+*************************
+106st data
+1_th_sampling
+Q: Take the last letters of each words in "Gabe Dora Aileen Modesto" and concatenate them.
+A: The answer is "eoAedocto."
+pred_before :  "eoAedocto."
+pred_after : eoAedocto
+pred_list : ['eoAedocto']
+pred_mode : eoAedocto
+GT : eano
+*************************
+*************************
+107st data
+1_th_sampling
+Q: Take the last letters of each words in "Violeta Clay Janelle Mac" and concatenate them.
+A: The answer is "yad enellac."
+pred_before :  "yad enellac."
+pred_after : yadenellac
+pred_list : ['yadenellac']
+pred_mode : yadenellac
+GT : ayec
+*************************
+*************************
+108st data
+1_th_sampling
+Q: Take the last letters of each words in "Evelyn Mason Shelby Aldo" and concatenate them.
+A: The answer is "ymsdo."
+pred_before :  "ymsdo."
+pred_after : ymsdo
+pred_list : ['ymsdo']
+pred_mode : ymsdo
+GT : nnyo
+*************************
+*************************
+109st data
+1_th_sampling
+Q: Take the last letters of each words in "Mari Ximena Leo Antonia" and concatenate them.
+A: The answer is "anedotil."
+pred_before :  "anedotil."
+pred_after : anedotil
+pred_list : ['anedotil']
+pred_mode : anedotil
+GT : iaoa
+*************************
+*************************
+110st data
+1_th_sampling
+Q: Take the last letters of each words in "Theo Sheila Mariana Esmeralda" and concatenate them.
+A: The answer is "adea."
+pred_before :  "adea."
+pred_after : adea
+pred_list : ['adea']
+pred_mode : adea
+GT : oaaa
+*************************
+*************************
+111st data
+1_th_sampling
+Q: Take the last letters of each words in "Jesús Vidal Maxine Gloria" and concatenate them.
+A: The answer is "sus idal xine oria".
+pred_before :  "sus idal xine oria".
+pred_after : susidalxineoria
+pred_list : ['susidalxineoria']
+pred_mode : susidalxineoria
+GT : slea
+*************************
+*************************
+112st data
+1_th_sampling
+Q: Take the last letters of each words in "Drew Jhon Jayden Cliff" and concatenate them.
+A: The answer is "dff."
+pred_before :  "dff."
+pred_after : dff
+pred_list : ['dff']
+pred_mode : dff
+GT : wnnf
+*************************
+*************************
+113st data
+1_th_sampling
+Q: Take the last letters of each words in "Evan Ray Sofia Alonso" and concatenate them.
+A: The answer is "nay ovia onzo."
+pred_before :  "nay ovia onzo."
+pred_after : nayoviaonzo
+pred_list : ['nayoviaonzo']
+pred_mode : nayoviaonzo
+GT : nyao
+*************************
+*************************
+114st data
+1_th_sampling
+Q: Take the last letters of each words in "Britt Tamara Elvis Nayeli" and concatenate them.
+A: The answer is "yeliv."
+pred_before :  "yeliv."
+pred_after : yeliv
+pred_list : ['yeliv']
+pred_mode : yeliv
+GT : tasi
+*************************
+*************************
+115st data
+1_th_sampling
+Q: Take the last letters of each words in "Matilde Jan Marcel Mimi" and concatenate them.
+A: The answer is "edijarcelimi."
+pred_before :  "edijarcelimi."
+pred_after : edijarcelimi
+pred_list : ['edijarcelimi']
+pred_mode : edijarcelimi
+GT : enli
+*************************
+*************************
+116st data
+1_th_sampling
+Q: Take the last letters of each words in "Max Mikey Cynthia Holly" and concatenate them.
+A: The answer is "xymih."
+pred_before :  "xymih."
+pred_after : xymih
+pred_list : ['xymih']
+pred_mode : xymih
+GT : xyay
+*************************
+*************************
+117st data
+1_th_sampling
+Q: Take the last letters of each words in "Sherry Ben Allison Anthony" and concatenate them.
+A: The answer is "yrnehsaoyn."
+pred_before :  "yrnehsaoyn."
+pred_after : yrnehsaoyn
+pred_list : ['yrnehsaoyn']
+pred_mode : yrnehsaoyn
+GT : ynny
+*************************
+*************************
+118st data
+1_th_sampling
+Q: Take the last letters of each words in "Connie Elena Tami Stuart" and concatenate them.
+A: The answer is "ynie atimu."
+pred_before :  "ynie atimu."
+pred_after : ynieatimu
+pred_list : ['ynieatimu']
+pred_mode : ynieatimu
+GT : eait
+*************************
+*************************
+119st data
+1_th_sampling
+Q: Take the last letters of each words in "Juliet Ricardo Tita Dianna" and concatenate them.
+A: The answer is "tem ardo ata anan."
+pred_before :  "tem ardo ata anan."
+pred_after : temardoataanan
+pred_list : ['temardoataanan']
+pred_mode : temardoataanan
+GT : toaa
+*************************
+*************************
+120st data
+1_th_sampling
+Q: Take the last letters of each words in "Courtney Ann John Fer" and concatenate them.
+A: The answer is "ytnaJ nayrC".
+pred_before :  "ytnaJ nayrC".
+pred_after : ytnaJnayrC
+pred_list : ['ytnaJnayrC']
+pred_mode : ytnaJnayrC
+GT : ynnr
+*************************
+*************************
+121st data
+1_th_sampling
+Q: Take the last letters of each words in "Corey Elvin Tino Melvin" and concatenate them.
+A: The answer is "yno lvin."
+pred_before :  "yno lvin."
+pred_after : ynolvin
+pred_list : ['ynolvin']
+pred_mode : ynolvin
+GT : ynon
+*************************
+*************************
+122st data
+1_th_sampling
+Q: Take the last letters of each words in "Emilia Jonas Christi Sophia" and concatenate them.
+A: The answer is "aiosohpia."
+pred_before :  "aiosohpia."
+pred_after : aiosohpia
+pred_list : ['aiosohpia']
+pred_mode : aiosohpia
+GT : asia
+*************************
+*************************
+123st data
+1_th_sampling
+Q: Take the last letters of each words in "Marcos Kerri Fabio Stephen" and concatenate them.
+A: The answer is "sodav."
+pred_before :  "sodav."
+pred_after : sodav
+pred_list : ['sodav']
+pred_mode : sodav
+GT : sion
+*************************
+*************************
+124st data
+1_th_sampling
+Q: Take the last letters of each words in "Adrian Marlon Karla Florence" and concatenate them.
+A: The answer is "nalrlne."
+pred_before :  "nalrlne."
+pred_after : nalrlne
+pred_list : ['nalrlne']
+pred_mode : nalrlne
+GT : nnae
+*************************
+*************************
+125st data
+1_th_sampling
+Q: Take the last letters of each words in "Tomas Nic Zoila Calvin" and concatenate them.
+A: The answer is "samozilaclavin."
+pred_before :  "samozilaclavin."
+pred_after : samozilaclavin
+pred_list : ['samozilaclavin']
+pred_mode : samozilaclavin
+GT : scan
+*************************
+*************************
+126st data
+1_th_sampling
+Q: Take the last letters of each words in "Ángel Carlton Sameer Martinez" and concatenate them.
+A: The answer is "geltoneritz."
+pred_before :  "geltoneritz."
+pred_after : geltoneritz
+pred_list : ['geltoneritz']
+pred_mode : geltoneritz
+GT : lnrz
+*************************
+*************************
+127st data
+1_th_sampling
+Q: Take the last letters of each words in "Timmy Katherine Gabriel Nate" and concatenate them.
+A: The answer is "ymay eharie aeli aten."
+pred_before :  "ymay eharie aeli aten."
+pred_after : ymayeharieaeliaten
+pred_list : ['ymayeharieaeliaten']
+pred_mode : ymayeharieaeliaten
+GT : yele
+*************************
+*************************
+128st data
+1_th_sampling
+Q: Take the last letters of each words in "Janette Stacey Ronny Kim" and concatenate them.
+A: The answer is "yteycym."
+pred_before :  "yteycym."
+pred_after : yteycym
+pred_list : ['yteycym']
+pred_mode : yteycym
+GT : eyym
+*************************
+*************************
+129st data
+1_th_sampling
+Q: Take the last letters of each words in "Abel Mallory Theresa Quinn" and concatenate them.
+A: The answer is "y n a u i n q."
+pred_before :  "y n a u i n q."
+pred_after : ynauinq
+pred_list : ['ynauinq']
+pred_mode : ynauinq
+GT : lyan
+*************************
+*************************
+130st data
+1_th_sampling
+Q: Take the last letters of each words in "Kelly Cheryl Nancy Jojo" and concatenate them.
+A: The answer is "yllyrhajoj."
+pred_before :  "yllyrhajoj."
+pred_after : yllyrhajoj
+pred_list : ['yllyrhajoj']
+pred_mode : yllyrhajoj
+GT : ylyo
+*************************
+*************************
+131st data
+1_th_sampling
+Q: Take the last letters of each words in "Pancho Claudio Elaine Vicky" and concatenate them.
+A: The answer is "ydeia."
+pred_before :  "ydeia."
+pred_after : ydeia
+pred_list : ['ydeia']
+pred_mode : ydeia
+GT : ooey
+*************************
+*************************
+132st data
+1_th_sampling
+Q: Take the last letters of each words in "Darwin Colin Cj Abhishek" and concatenate them.
+A: The answer is "najehek".
+pred_before :  "najehek".
+pred_after : najehek
+pred_list : ['najehek']
+pred_mode : najehek
+GT : nnjk
+*************************
+*************************
+133st data
+1_th_sampling
+Q: Take the last letters of each words in "Justin Neal Jt Lucia" and concatenate them.
+A: The answer is "nalucia."
+pred_before :  "nalucia."
+pred_after : nalucia
+pred_list : ['nalucia']
+pred_mode : nalucia
+GT : nlta
+*************************
+*************************
+134st data
+1_th_sampling
+Q: Take the last letters of each words in "Belkis Wendell Lissette Patricia" and concatenate them.
+A: The answer is "sdellissettaricia."
+pred_before :  "sdellissettaricia."
+pred_after : sdellissettaricia
+pred_list : ['sdellissettaricia']
+pred_mode : sdellissettaricia
+GT : slea
+*************************
+*************************
+135st data
+1_th_sampling
+Q: Take the last letters of each words in "Morgan Perla Joao Marta" and concatenate them.
+A: The answer is "alajotatap."
+pred_before :  "alajotatap."
+pred_after : alajotatap
+pred_list : ['alajotatap']
+pred_mode : alajotatap
+GT : naoa
+*************************
+*************************
+136st data
+1_th_sampling
+Q: Take the last letters of each words in "Dan Ruth Xavier Isidro" and concatenate them.
+A: The answer is "nay rex oro."
+pred_before :  "nay rex oro."
+pred_after : nayrexoro
+pred_list : ['nayrexoro']
+pred_mode : nayrexoro
+GT : nhro
+*************************
+*************************
+137st data
+1_th_sampling
+Q: Take the last letters of each words in "Wally Claire Helen Nacho" and concatenate them.
+A: The answer is "yrai elhco."
+pred_before :  "yrai elhco."
+pred_after : yraielhco
+pred_list : ['yraielhco']
+pred_mode : yraielhco
+GT : yeno
+*************************
+*************************
+138st data
+1_th_sampling
+Q: Take the last letters of each words in "Anand Estefania Stanley Lizette" and concatenate them.
+A: The answer is "daiatneliz."
+pred_before :  "daiatneliz."
+pred_after : daiatneliz
+pred_list : ['daiatneliz']
+pred_mode : daiatneliz
+GT : daye
+*************************
+*************************
+139st data
+1_th_sampling
+Q: Take the last letters of each words in "Charity Svetlana Jamie Jose A" and concatenate them.
+A: The answer is "yatnavajoz."
+pred_before :  "yatnavajoz."
+pred_after : yatnavajoz
+pred_list : ['yatnavajoz']
+pred_mode : yatnavajoz
+GT : yaeA
+*************************
+*************************
+140st data
+1_th_sampling
+Q: Take the last letters of each words in "Markus Kathryn Giovanna Kent" and concatenate them.
+A: The answer is "snaht ynnaih annek."
+pred_before :  "snaht ynnaih annek."
+pred_after : snahtynnaihannek
+pred_list : ['snahtynnaihannek']
+pred_mode : snahtynnaihannek
+GT : snat
+*************************
+*************************
+141st data
+1_th_sampling
+Q: Take the last letters of each words in "Carole William Tiffany Hilary" and concatenate them.
+A: The answer is "laryilay".
+pred_before :  "laryilay".
+pred_after : laryilay
+pred_list : ['laryilay']
+pred_mode : laryilay
+GT : emyy
+*************************
+*************************
+142st data
+1_th_sampling
+Q: Take the last letters of each words in "Alexa Pilar Rod Nicola" and concatenate them.
+A: The answer is "adacilopodacila."
+pred_before :  "adacilopodacila."
+pred_after : adacilopodacila
+pred_list : ['adacilopodacila']
+pred_mode : adacilopodacila
+GT : arda
+*************************
+*************************
+143st data
+1_th_sampling
+Q: Take the last letters of each words in "Lorena Shana Priscilla Summer" and concatenate them.
+A: The answer is "anapilummres."
+pred_before :  "anapilummres."
+pred_after : anapilummres
+pred_list : ['anapilummres']
+pred_mode : anapilummres
+GT : aaar
+*************************
+*************************
+144st data
+1_th_sampling
+Q: Take the last letters of each words in "Irvin Brittney Vince Lucas" and concatenate them.
+A: The answer is "nyn ecis."
+pred_before :  "nyn ecis."
+pred_after : nynecis
+pred_list : ['nynecis']
+pred_mode : nynecis
+GT : nyes
+*************************
+*************************
+145st data
+1_th_sampling
+Q: Take the last letters of each words in "Pretty Jada Sarita Allen" and concatenate them.
+A: The answer is "llenada ariS ataJ ytterp."
+pred_before :  "llenada ariS ataJ ytterp."
+pred_after : llenadaariSataJytterp
+pred_list : ['llenadaariSataJytterp']
+pred_mode : llenadaariSataJytterp
+GT : yaan
+*************************
+*************************
+146st data
+1_th_sampling
+Q: Take the last letters of each words in "Liliana Quincy Bart Makayla" and concatenate them.
+A: The answer is "anaytabakarilil."
+pred_before :  "anaytabakarilil."
+pred_after : anaytabakarilil
+pred_list : ['anaytabakarilil']
+pred_mode : anaytabakarilil
+GT : ayta
+*************************
+*************************
+147st data
+1_th_sampling
+Q: Take the last letters of each words in "Ruben Bernardo Ariel Shelley" and concatenate them.
+A: The answer is "yelrah."
+pred_before :  "yelrah."
+pred_after : yelrah
+pred_list : ['yelrah']
+pred_mode : yelrah
+GT : noly
+*************************
+*************************
+148st data
+1_th_sampling
+Q: Take the last letters of each words in "Jose Luis Kiara Arun Josefina" and concatenate them.
+A: The answer is "aiaf."
+pred_before :  "aiaf."
+pred_after : aiaf
+pred_list : ['aiaf']
+pred_mode : aiaf
+GT : sana
+*************************
+*************************
+149st data
+1_th_sampling
+Q: Take the last letters of each words in "Kristi Eduardo Angelo Clare" and concatenate them.
+A: The answer is "idoaer."
+pred_before :  "idoaer."
+pred_after : idoaer
+pred_list : ['idoaer']
+pred_mode : idoaer
+GT : iooe
+*************************
+*************************
+150st data
+1_th_sampling
+Q: Take the last letters of each words in "Sherri Genesis Jeffrey Samir" and concatenate them.
+A: The answer is "irihsajyffedam."
+pred_before :  "irihsajyffedam."
+pred_after : irihsajyffedam
+pred_list : ['irihsajyffedam']
+pred_mode : irihsajyffedam
+GT : isyr
+*************************
+*************************
+151st data
+1_th_sampling
+Q: Take the last letters of each words in "Gisela Gerald Mackenzie Ashley" and concatenate them.
+A: The answer is "aey."
+pred_before :  "aey."
+pred_after : aey
+pred_list : ['aey']
+pred_mode : aey
+GT : adey
+*************************
+*************************
+152st data
+1_th_sampling
+Q: Take the last letters of each words in "Deanna Terri Gabriela Jonah" and concatenate them.
+A: The answer is "annatirelaejah."
+pred_before :  "annatirelaejah."
+pred_after : annatirelaejah
+pred_list : ['annatirelaejah']
+pred_mode : annatirelaejah
+GT : aiah
+*************************
+*************************
+153st data
+1_th_sampling
+Q: Take the last letters of each words in "Brandon Ivonne Jefferson Isabella" and concatenate them.
+A: The answer is "donsavnefsalal."
+pred_before :  "donsavnefsalal."
+pred_after : donsavnefsalal
+pred_list : ['donsavnefsalal']
+pred_mode : donsavnefsalal
+GT : nena
+*************************
+*************************
+154st data
+1_th_sampling
+Q: Take the last letters of each words in "Rogelio Freddy Ivan Madeleine" and concatenate them.
+A: The answer is "eoilin."
+pred_before :  "eoilin."
+pred_after : eoilin
+pred_list : ['eoilin']
+pred_mode : eoilin
+GT : oyne
+*************************
+*************************
+155st data
+1_th_sampling
+Q: Take the last letters of each words in "Orlando Colby Julius Ofelia" and concatenate them.
+A: The answer is "ldoJseiluvoia."
+pred_before :  "ldoJseiluvoia."
+pred_after : ldoJseiluvoia
+pred_list : ['ldoJseiluvoia']
+pred_mode : ldoJseiluvoia
+GT : oysa
+*************************
+*************************
+156st data
+1_th_sampling
+Q: Take the last letters of each words in "Conrad Marcella Annette Esteban" and concatenate them.
+A: The answer is "dallaneteba."
+pred_before :  "dallaneteba."
+pred_after : dallaneteba
+pred_list : ['dallaneteba']
+pred_mode : dallaneteba
+GT : daen
+*************************
+*************************
+157st data
+1_th_sampling
+Q: Take the last letters of each words in "Amparo Gianna Dion Tessa" and concatenate them.
+A: The answer is "omniad."
+pred_before :  "omniad."
+pred_after : omniad
+pred_list : ['omniad']
+pred_mode : omniad
+GT : oana
+*************************
+*************************
+158st data
+1_th_sampling
+Q: Take the last letters of each words in "Glen Ariana Reggie Polo" and concatenate them.
+A: The answer is "onopag."
+pred_before :  "onopag."
+pred_after : onopag
+pred_list : ['onopag']
+pred_mode : onopag
+GT : naeo
+*************************
+*************************
+159st data
+1_th_sampling
+Q: Take the last letters of each words in "Memo Joey Phil Samuel" and concatenate them.
+A: The answer is "ymeJ oyeP lahS."
+pred_before :  "ymeJ oyeP lahS."
+pred_after : ymeJoyePlahS
+pred_list : ['ymeJoyePlahS']
+pred_mode : ymeJoyePlahS
+GT : oyll
+*************************
+*************************
+160st data
+1_th_sampling
+Q: Take the last letters of each words in "Jorge Natalia Bryant Kiran" and concatenate them.
+A: The answer is "jorjealiatyain"
+pred_before :  "jorjealiatyain"
+pred_after : jorjealiatyain
+pred_list : ['jorjealiatyain']
+pred_mode : jorjealiatyain
+GT : eatn
+*************************
+*************************
+161st data
+1_th_sampling
+Q: Take the last letters of each words in "Annie Toño Sharon Delores" and concatenate them.
+A: The answer is "ynohsrod."
+pred_before :  "ynohsrod."
+pred_after : ynohsrod
+pred_list : ['ynohsrod']
+pred_mode : ynohsrod
+GT : eons
+*************************
+*************************
+162st data
+1_th_sampling
+Q: Take the last letters of each words in "Silvia Carolina Stan Chuck" and concatenate them.
+A: The answer is "airinihctk."
+pred_before :  "airinihctk."
+pred_after : airinihctk
+pred_list : ['airinihctk']
+pred_mode : airinihctk
+GT : aank
+*************************
+*************************
+163st data
+1_th_sampling
+Q: Take the last letters of each words in "Noelle Byron Jane Darin" and concatenate them.
+A: The answer is "enarin."
+pred_before :  "enarin."
+pred_after : enarin
+pred_list : ['enarin']
+pred_mode : enarin
+GT : enen
+*************************
+*************************
+164st data
+1_th_sampling
+Q: Take the last letters of each words in "Diego Val Vincent Stacie" and concatenate them.
+A: The answer is "egoavincetie."
+pred_before :  "egoavincetie."
+pred_after : egoavincetie
+pred_list : ['egoavincetie']
+pred_mode : egoavincetie
+GT : olte
+*************************
+*************************
+165st data
+1_th_sampling
+Q: Take the last letters of each words in "Myriam José Cecy Faisal" and concatenate them.
+A: The answer is "yamjosfaisal."
+pred_before :  "yamjosfaisal."
+pred_after : yamjosfaisal
+pred_list : ['yamjosfaisal']
+pred_mode : yamjosfaisal
+GT : méyl
+*************************
+*************************
+166st data
+1_th_sampling
+Q: Take the last letters of each words in "Braulio Staci Jocelyn Brittany" and concatenate them.
+A: The answer is "oilynnah."
+pred_before :  "oilynnah."
+pred_after : oilynnah
+pred_list : ['oilynnah']
+pred_mode : oilynnah
+GT : oiny
+*************************
+*************************
+167st data
+1_th_sampling
+Q: Take the last letters of each words in "Kristine Van Marisol Preston" and concatenate them.
+A: The answer is "ntevanrisol".
+pred_before :  "ntevanrisol".
+pred_after : ntevanrisol
+pred_list : ['ntevanrisol']
+pred_mode : ntevanrisol
+GT : enln
+*************************
+*************************
+168st data
+1_th_sampling
+Q: Take the last letters of each words in "Daphne Lola Joanna Sheena" and concatenate them.
+A: The answer is "aena."
+pred_before :  "aena."
+pred_after : aena
+pred_list : ['aena']
+pred_mode : aena
+GT : eaaa
+*************************
+*************************
+169st data
+1_th_sampling
+Q: Take the last letters of each words in "Emiliano Jasmin Wade Vilma" and concatenate them.
+A: The answer is "amadeilin."
+pred_before :  "amadeilin."
+pred_after : amadeilin
+pred_list : ['amadeilin']
+pred_mode : amadeilin
+GT : onea
+*************************
+*************************
+170st data
+1_th_sampling
+Q: Take the last letters of each words in "Cristal Roxana Rajesh Danny" and concatenate them.
+A: The answer is "yasheh".
+pred_before :  "yasheh".
+pred_after : yasheh
+pred_list : ['yasheh']
+pred_mode : yasheh
+GT : lahy
+*************************
+*************************
+171st data
+1_th_sampling
+Q: Take the last letters of each words in "Julia Kirsten Pam Adan" and concatenate them.
+A: The answer is "aidan."
+pred_before :  "aidan."
+pred_after : aidan
+pred_list : ['aidan']
+pred_mode : aidan
+GT : anmn
+*************************
+*************************
+172st data
+1_th_sampling
+Q: Take the last letters of each words in "Wilma Margie Amber Sergio" and concatenate them.
+A: The answer is "amaro."
+pred_before :  "amaro."
+pred_after : amaro
+pred_list : ['amaro']
+pred_mode : amaro
+GT : aero
+*************************
+*************************
+173st data
+1_th_sampling
+Q: Take the last letters of each words in "Jeannie Kenneth Porfirio Ezequiel" and concatenate them.
+A: The answer is "lohsnietkeirzei."
+pred_before :  "lohsnietkeirzei."
+pred_after : lohsnietkeirzei
+pred_list : ['lohsnietkeirzei']
+pred_mode : lohsnietkeirzei
+GT : ehol
+*************************
+*************************
+174st data
+1_th_sampling
+Q: Take the last letters of each words in "Carlitos Damaris Nikhil Jennie" and concatenate them.
+A: The answer is "sirajevonih."
+pred_before :  "sirajevonih."
+pred_after : sirajevonih
+pred_list : ['sirajevonih']
+pred_mode : sirajevonih
+GT : ssle
+*************************
+*************************
+175st data
+1_th_sampling
+Q: Take the last letters of each words in "Guille Lisa Harvey Gina" and concatenate them.
+A: The answer is "sivarG aLille yvraH anigI".
+pred_before :  "sivarG aLille yvraH anigI".
+pred_after : sivarGaLilleyvraHanigI
+pred_list : ['sivarGaLilleyvraHanigI']
+pred_mode : sivarGaLilleyvraHanigI
+GT : eaya
+*************************
+*************************
+176st data
+1_th_sampling
+Q: Take the last letters of each words in "María Fredy Bridgette Kenya" and concatenate them.
+A: The answer is "ayeteedenak."
+pred_before :  "ayeteedenak."
+pred_after : ayeteedenak
+pred_list : ['ayeteedenak']
+pred_mode : ayeteedenak
+GT : ayea
+*************************
+*************************
+177st data
+1_th_sampling
+Q: Take the last letters of each words in "Tere Niko Keith Conner" and concatenate them.
+A: The answer is "hrokne."
+pred_before :  "hrokne."
+pred_after : hrokne
+pred_list : ['hrokne']
+pred_mode : hrokne
+GT : eohr
+*************************
+*************************
+178st data
+1_th_sampling
+Q: Take the last letters of each words in "Otto Marjorie Leonor Esther" and concatenate them.
+A: The answer is "redrum."
+pred_before :  "redrum."
+pred_after : redrum
+pred_list : ['redrum']
+pred_mode : redrum
+GT : oerr
+*************************
+*************************
+179st data
+1_th_sampling
+Q: Take the last letters of each words in "Paris Jimmie Andrew Ramón" and concatenate them.
+A: The answer is "saimdrew."
+pred_before :  "saimdrew."
+pred_after : saimdrew
+pred_list : ['saimdrew']
+pred_mode : saimdrew
+GT : sewn
+*************************
+*************************
+180st data
+1_th_sampling
+Q: Take the last letters of each words in "Constance Nicholas Will Love" and concatenate them.
+A: The answer is "esnciaihsagol."
+pred_before :  "esnciaihsagol."
+pred_after : esnciaihsagol
+pred_list : ['esnciaihsagol']
+pred_mode : esnciaihsagol
+GT : esle
+*************************
+*************************
+181st data
+1_th_sampling
+Q: Take the last letters of each words in "Ramona Lucy Gail Octavio" and concatenate them.
+A: The answer is "amonalicygaillavio."
+pred_before :  "amonalicygaillavio."
+pred_after : amonalicygaillavio
+pred_list : ['amonalicygaillavio']
+pred_mode : amonalicygaillavio
+GT : aylo
+*************************
+*************************
+182st data
+1_th_sampling
+Q: Take the last letters of each words in "Bruce Dena Kyla Robbie" and concatenate them.
+A: The answer is "eana ylobbie."
+pred_before :  "eana ylobbie."
+pred_after : eanaylobbie
+pred_list : ['eanaylobbie']
+pred_mode : eanaylobbie
+GT : eaae
+*************************
+*************************
+183st data
+1_th_sampling
+Q: Take the last letters of each words in "Glenda Beverly Agustin Igor" and concatenate them.
+A: The answer is "adnirog."
+pred_before :  "adnirog."
+pred_after : adnirog
+pred_list : ['adnirog']
+pred_mode : adnirog
+GT : aynr
+*************************
+*************************
+184st data
+1_th_sampling
+Q: Take the last letters of each words in "Faustino Lamar Fransisco Rina" and concatenate them.
+A: The answer is "osinomaricosina."
+pred_before :  "osinomaricosina."
+pred_after : osinomaricosina
+pred_list : ['osinomaricosina']
+pred_mode : osinomaricosina
+GT : oroa
+*************************
+*************************
+185st data
+1_th_sampling
+Q: Take the last letters of each words in "Jeremiah Kelley Josue Veronica" and concatenate them.
+A: The answer is "ymeleh."
+pred_before :  "ymeleh."
+pred_after : ymeleh
+pred_list : ['ymeleh']
+pred_mode : ymeleh
+GT : hyea
+*************************
+*************************
+186st data
+1_th_sampling
+Q: Take the last letters of each words in "Beatriz Gillian Coco Vivian" and concatenate them.
+A: The answer is "zazav."
+pred_before :  "zazav."
+pred_after : zazav
+pred_list : ['zazav']
+pred_mode : zazav
+GT : znon
+*************************
+*************************
+187st data
+1_th_sampling
+Q: Take the last letters of each words in "Nico Lorenzo Johanna Teresita" and concatenate them.
+A: The answer is "atohsiter."
+pred_before :  "atohsiter."
+pred_after : atohsiter
+pred_list : ['atohsiter']
+pred_mode : atohsiter
+GT : ooaa
+*************************
+*************************
+188st data
+1_th_sampling
+Q: Take the last letters of each words in "Craig Dillon Troy Griselda" and concatenate them.
+A: The answer is "ydilgnoreds."
+pred_before :  "ydilgnoreds."
+pred_after : ydilgnoreds
+pred_list : ['ydilgnoreds']
+pred_mode : ydilgnoreds
+GT : gnya
+*************************
+*************************
+189st data
+1_th_sampling
+Q: Take the last letters of each words in "Julio Sidney Aiden Shay" and concatenate them.
+A: The answer is "yodas."
+pred_before :  "yodas."
+pred_after : yodas
+pred_list : ['yodas']
+pred_mode : yodas
+GT : oyny
+*************************
+*************************
+190st data
+1_th_sampling
+Q: Take the last letters of each words in "Angelique Marissa Phyllis Bonnie" and concatenate them.
+A: The answer is "lilililili."
+pred_before :  "lilililili."
+pred_after : lilililili
+pred_list : ['lilililili']
+pred_mode : lilililili
+GT : ease
+*************************
+*************************
+191st data
+1_th_sampling
+Q: Take the last letters of each words in "Letty Aimee Elvia Ted" and concatenate them.
+A: The answer is "ytiaeed."
+pred_before :  "ytiaeed."
+pred_after : ytiaeed
+pred_list : ['ytiaeed']
+pred_mode : ytiaeed
+GT : yead
+*************************
+*************************
+192st data
+1_th_sampling
+Q: Take the last letters of each words in "Paulo Tatyana Bernice Raúl" and concatenate them.
+A: The answer is "ayonir."
+pred_before :  "ayonir."
+pred_after : ayonir
+pred_list : ['ayonir']
+pred_mode : ayonir
+GT : oael
+*************************
+*************************
+193st data
+1_th_sampling
+Q: Take the last letters of each words in "Amanda Geoff Belinda Gaurav" and concatenate them.
+A: The answer is "adagelindaurav."
+pred_before :  "adagelindaurav."
+pred_after : adagelindaurav
+pred_list : ['adagelindaurav']
+pred_mode : adagelindaurav
+GT : afav
+*************************
+*************************
+194st data
+1_th_sampling
+Q: Take the last letters of each words in "Suzanne Julissa Chino America" and concatenate them.
+A: The answer is "annoica."
+pred_before :  "annoica."
+pred_after : annoica
+pred_list : ['annoica']
+pred_mode : annoica
+GT : eaoa
+*************************
+*************************
+195st data
+1_th_sampling
+Q: Take the last letters of each words in "Logan Ely Abbie Colleen" and concatenate them.
+A: The answer is "naneelie."
+pred_before :  "naneelie."
+pred_after : naneelie
+pred_list : ['naneelie']
+pred_mode : naneelie
+GT : nyen
+*************************
+*************************
+196st data
+1_th_sampling
+Q: Take the last letters of each words in "Kristy Brandi Lizeth Petra" and concatenate them.
+A: The answer is "yidartep."
+pred_before :  "yidartep."
+pred_after : yidartep
+pred_list : ['yidartep']
+pred_mode : yidartep
+GT : yiha
+*************************
+*************************
+197st data
+1_th_sampling
+Q: Take the last letters of each words in "Anastasia Thelma Sheri Rosita" and concatenate them.
+A: The answer is "aisrr."
+pred_before :  "aisrr."
+pred_after : aisrr
+pred_list : ['aisrr']
+pred_mode : aisrr
+GT : aaia
+*************************
+*************************
+198st data
+1_th_sampling
+Q: Take the last letters of each words in "Jordan Yoni Lawrence Aura" and concatenate them.
+A: The answer is "nadrew."
+pred_before :  "nadrew."
+pred_after : nadrew
+pred_list : ['nadrew']
+pred_mode : nadrew
+GT : niea
+*************************
+*************************
+199st data
+1_th_sampling
+Q: Take the last letters of each words in "Sid Isabelle Jackson Heidy" and concatenate them.
+A: The answer is "ydiaJ ellebA diS."
+pred_before :  "ydiaJ ellebA diS."
+pred_after : ydiaJellebAdiS
+pred_list : ['ydiaJellebAdiS']
+pred_mode : ydiaJellebAdiS
+GT : deny
+*************************
+*************************
+200st data
+1_th_sampling
+Q: Take the last letters of each words in "Vijay Sherrie Doug Suzy" and concatenate them.
+A: The answer is "yrieugzy."
+pred_before :  "yrieugzy."
+pred_after : yrieugzy
+pred_list : ['yrieugzy']
+pred_mode : yrieugzy
+GT : yegy
+*************************
+*************************
+201st data
+1_th_sampling
+Q: Take the last letters of each words in "Cristina Saad Bridget Katie" and concatenate them.
+A: The answer is "adet aitd eigt."
+pred_before :  "adet aitd eigt."
+pred_after : adetaitdeigt
+pred_list : ['adetaitdeigt']
+pred_mode : adetaitdeigt
+GT : adte
+*************************
+*************************
+202st data
+1_th_sampling
+Q: Take the last letters of each words in "Dalila Emily Casey Clifford" and concatenate them.
+A: The answer is "yfdal."
+pred_before :  "yfdal."
+pred_after : yfdal
+pred_list : ['yfdal']
+pred_mode : yfdal
+GT : ayyd
+*************************
+*************************
+203st data
+1_th_sampling
+Q: Take the last letters of each words in "Shawn Tracie Lynne Leila" and concatenate them.
+A: The answer is "naycieynneail".
+pred_before :  "naycieynneail".
+pred_after : naycieynneail
+pred_list : ['naycieynneail']
+pred_mode : naycieynneail
+GT : neea
+*************************
+*************************
+204st data
+1_th_sampling
+Q: Take the last letters of each words in "Rubi Daisy Yadira Santa" and concatenate them.
+A: The answer is "aidyats."
+pred_before :  "aidyats."
+pred_after : aidyats
+pred_list : ['aidyats']
+pred_mode : aidyats
+GT : iyaa
+*************************
+*************************
+205st data
+1_th_sampling
+Q: Take the last letters of each words in "Dany Hilda Butch Mahesh" and concatenate them.
+A: The answer is "ydah dild ahct esah."
+pred_before :  "ydah dild ahct esah."
+pred_after : ydahdildahctesah
+pred_list : ['ydahdildahctesah']
+pred_mode : ydahdildahctesah
+GT : yahh
+*************************
+*************************
+206st data
+1_th_sampling
+Q: Take the last letters of each words in "Jermaine Pat Tammie Olivia" and concatenate them.
+A: The answer is "einetaittiea."
+pred_before :  "einetaittiea."
+pred_after : einetaittiea
+pred_list : ['einetaittiea']
+pred_mode : einetaittiea
+GT : etea
+*************************
+*************************
+207st data
+1_th_sampling
+Q: Take the last letters of each words in "Seth Dario Anne Jodie" and concatenate them.
+A: The answer is "htairodaeie."
+pred_before :  "htairodaeie."
+pred_after : htairodaeie
+pred_list : ['htairodaeie']
+pred_mode : htairodaeie
+GT : hoee
+*************************
+*************************
+208st data
+1_th_sampling
+Q: Take the last letters of each words in "Issa Kendra Ignacio Henry" and concatenate them.
+A: The answer is "idahy."
+pred_before :  "idahy."
+pred_after : idahy
+pred_list : ['idahy']
+pred_mode : idahy
+GT : aaoy
+*************************
+*************************
+209st data
+1_th_sampling
+Q: Take the last letters of each words in "Johan Damien Serena Grace" and concatenate them.
+A: The answer is "annaienaecar."
+pred_before :  "annaienaecar."
+pred_after : annaienaecar
+pred_list : ['annaienaecar']
+pred_mode : annaienaecar
+GT : nnae
+*************************
+*************************
+210st data
+1_th_sampling
+Q: Take the last letters of each words in "Bri Roger Eve Diana" and concatenate them.
+A: The answer is "gerovedian."
+pred_before :  "gerovedian."
+pred_after : gerovedian
+pred_list : ['gerovedian']
+pred_mode : gerovedian
+GT : irea
+*************************
+*************************
+211st data
+1_th_sampling
+Q: Take the last letters of each words in "Ale Gaspar Sonny Simon" and concatenate them.
+A: The answer is "mon."
+pred_before :  "mon."
+pred_after : mon
+pred_list : ['mon']
+pred_mode : mon
+GT : eryn
+*************************
+*************************
+212st data
+1_th_sampling
+Q: Take the last letters of each words in "Altagracia Howard Patti Douglas" and concatenate them.
+A: The answer is "saiht atip udluog."
+pred_before :  "saiht atip udluog."
+pred_after : saihtatipudluog
+pred_list : ['saihtatipudluog']
+pred_mode : saihtatipudluog
+GT : adis
+*************************
+*************************
+213st data
+1_th_sampling
+Q: Take the last letters of each words in "Guillermo Gerry Lizbeth Charly" and concatenate them.
+A: The answer is "omoy erryth arly."
+pred_before :  "omoy erryth arly."
+pred_after : omoyerrytharly
+pred_list : ['omoyerrytharly']
+pred_mode : omoyerrytharly
+GT : oyhy
+*************************
+*************************
+214st data
+1_th_sampling
+Q: Take the last letters of each words in "Marcia Belen Reyna Britney" and concatenate them.
+A: The answer is "aidyrtney."
+pred_before :  "aidyrtney."
+pred_after : aidyrtney
+pred_list : ['aidyrtney']
+pred_mode : aidyrtney
+GT : anay
+*************************
+*************************
+215st data
+1_th_sampling
+Q: Take the last letters of each words in "Sonya Eddy Carol Yung" and concatenate them.
+A: The answer is "aydyung."
+pred_before :  "aydyung."
+pred_after : aydyung
+pred_list : ['aydyung']
+pred_mode : aydyung
+GT : aylg
+*************************
+*************************
+216st data
+1_th_sampling
+Q: Take the last letters of each words in "June Robin Josie Bo" and concatenate them.
+A: The answer is "nebinoseob."
+pred_before :  "nebinoseob."
+pred_after : nebinoseob
+pred_list : ['nebinoseob']
+pred_mode : nebinoseob
+GT : eneo
+*************************
+*************************
+217st data
+1_th_sampling
+Q: Take the last letters of each words in "Meagan Naomi Israel Marie" and concatenate them.
+A: The answer is "nagomire."
+pred_before :  "nagomire."
+pred_after : nagomire
+pred_list : ['nagomire']
+pred_mode : nagomire
+GT : nile
+*************************
+*************************
+218st data
+1_th_sampling
+Q: Take the last letters of each words in "Alec Arianna Corina Juancarlos" and concatenate them.
+A: The answer is "lacannairac."
+pred_before :  "lacannairac."
+pred_after : lacannairac
+pred_list : ['lacannairac']
+pred_mode : lacannairac
+GT : caas
+*************************
+*************************
+219st data
+1_th_sampling
+Q: Take the last letters of each words in "Todd Joni Gil Fran" and concatenate them.
+A: The answer is "dnoiFlraJ".
+pred_before :  "dnoiFlraJ".
+pred_after : dnoiFlraJ
+pred_list : ['dnoiFlraJ']
+pred_mode : dnoiFlraJ
+GT : diln
+*************************
+*************************
+220st data
+1_th_sampling
+Q: Take the last letters of each words in "Vicki Dwight Johnson Alexandra" and concatenate them.
+A: The answer is "nohtnax."
+pred_before :  "nohtnax."
+pred_after : nohtnax
+pred_list : ['nohtnax']
+pred_mode : nohtnax
+GT : itna
+*************************
+*************************
+221st data
+1_th_sampling
+Q: Take the last letters of each words in "Chance Valentin Micah Clara" and concatenate them.
+A: The answer is "nacinahal."
+pred_before :  "nacinahal."
+pred_after : nacinahal
+pred_list : ['nacinahal']
+pred_mode : nacinahal
+GT : enha
+*************************
+*************************
+222st data
+1_th_sampling
+Q: Take the last letters of each words in "Elizabeth Mitch Brooke Jordyn" and concatenate them.
+A: The answer is "yhtorbjydn."
+pred_before :  "yhtorbjydn."
+pred_after : yhtorbjydn
+pred_list : ['yhtorbjydn']
+pred_mode : yhtorbjydn
+GT : hhen
+*************************
+*************************
+223st data
+1_th_sampling
+Q: Take the last letters of each words in "Mia Art Samantha Lety" and concatenate them.
+A: The answer is "aytaay."
+pred_before :  "aytaay."
+pred_after : aytaay
+pred_list : ['aytaay']
+pred_mode : aytaay
+GT : atay
+*************************
+*************************
+224st data
+1_th_sampling
+Q: Take the last letters of each words in "Juan Jose Dalia Destiny Amelia" and concatenate them.
+A: The answer is "anoselaiy."
+pred_before :  "anoselaiy."
+pred_after : anoselaiy
+pred_list : ['anoselaiy']
+pred_mode : anoselaiy
+GT : eaya
+*************************
+*************************
+225st data
+1_th_sampling
+Q: Take the last letters of each words in "Donovan Lonnie Jairo Mariah" and concatenate them.
+A: The answer is "najom."
+pred_before :  "najom."
+pred_after : najom
+pred_list : ['najom']
+pred_mode : najom
+GT : neoh
+*************************
+*************************
+226st data
+1_th_sampling
+Q: Take the last letters of each words in "Renata Mariela Mona Kristin" and concatenate them.
+A: The answer is "atirilinon".
+pred_before :  "atirilinon".
+pred_after : atirilinon
+pred_list : ['atirilinon']
+pred_mode : atirilinon
+GT : aaan
+*************************
+*************************
+227st data
+1_th_sampling
+Q: Take the last letters of each words in "Cassie Clifton Erik Everardo" and concatenate them.
+A: The answer is "ytono."
+pred_before :  "ytono."
+pred_after : ytono
+pred_list : ['ytono']
+pred_mode : ytono
+GT : enko
+*************************
+*************************
+228st data
+1_th_sampling
+Q: Take the last letters of each words in "Lewis Azucena Kai Ravi" and concatenate them.
+A: The answer is "seneuziiv."
+pred_before :  "seneuziiv."
+pred_after : seneuziiv
+pred_list : ['seneuziiv']
+pred_mode : seneuziiv
+GT : saii
+*************************
+*************************
+229st data
+1_th_sampling
+Q: Take the last letters of each words in "Yajaira Terrell Adam Lexie" and concatenate them.
+A: The answer is "yarelldaixie."
+pred_before :  "yarelldaixie."
+pred_after : yarelldaixie
+pred_list : ['yarelldaixie']
+pred_mode : yarelldaixie
+GT : alme
+*************************
+*************************
+230st data
+1_th_sampling
+Q: Take the last letters of each words in "Clayton Edison Debbie Elvira" and concatenate them.
+A: The answer is "ntonedebeira."
+pred_before :  "ntonedebeira."
+pred_after : ntonedebeira
+pred_list : ['ntonedebeira']
+pred_mode : ntonedebeira
+GT : nnea
+*************************
+*************************
+231st data
+1_th_sampling
+Q: Take the last letters of each words in "Ira Paola Jose Antonio Maria" and concatenate them.
+A: The answer is "airajoseotiam."
+pred_before :  "airajoseotiam."
+pred_after : airajoseotiam
+pred_list : ['airajoseotiam']
+pred_mode : airajoseotiam
+GT : aaoa
+*************************
+*************************
+232st data
+1_th_sampling
+Q: Take the last letters of each words in "Roberta Mauro Clint Marcela" and concatenate them.
+A: The answer is "artomaurolintcela."
+pred_before :  "artomaurolintcela."
+pred_after : artomaurolintcela
+pred_list : ['artomaurolintcela']
+pred_mode : artomaurolintcela
+GT : aota
+*************************
+*************************
+233st data
+1_th_sampling
+Q: Take the last letters of each words in "Yan Eunice Joseph Hugh" and concatenate them.
+A: The answer is "ymejuh."
+pred_before :  "ymejuh."
+pred_after : ymejuh
+pred_list : ['ymejuh']
+pred_mode : ymejuh
+GT : nehh
+*************************
+*************************
+234st data
+1_th_sampling
+Q: Take the last letters of each words in "Frank Trevor Al Gabriella" and concatenate them.
+A: The answer is "alab."
+pred_before :  "alab."
+pred_after : alab
+pred_list : ['alab']
+pred_mode : alab
+GT : krla
+*************************
+*************************
+235st data
+1_th_sampling
+Q: Take the last letters of each words in "Michele Karan Abraham Ellen" and concatenate them.
+A: The answer is "lleh."
+pred_before :  "lleh."
+pred_after : lleh
+pred_list : ['lleh']
+pred_mode : lleh
+GT : enmn
+*************************
+*************************
+236st data
+1_th_sampling
+Q: Take the last letters of each words in "Angeles Richard Luciana Darlene" and concatenate them.
+A: The answer is "egnarh ydnacil uanerd."
+pred_before :  "egnarh ydnacil uanerd."
+pred_after : egnarhydnaciluanerd
+pred_list : ['egnarhydnaciluanerd']
+pred_mode : egnarhydnaciluanerd
+GT : sdae
+*************************
+*************************
+237st data
+1_th_sampling
+Q: Take the last letters of each words in "Debi Raymond Luis Federico" and concatenate them.
+A: The answer is "idoysuoifo."
+pred_before :  "idoysuoifo."
+pred_after : idoysuoifo
+pred_list : ['idoysuoifo']
+pred_mode : idoysuoifo
+GT : idso
+*************************
+*************************
+238st data
+1_th_sampling
+Q: Take the last letters of each words in "Andres Mary Ann Sydney Dina" and concatenate them.
+A: The answer is "snay aniay".
+pred_before :  "snay aniay".
+pred_after : snayaniay
+pred_list : ['snayaniay']
+pred_mode : snayaniay
+GT : snya
+*************************
+*************************
+239st data
+1_th_sampling
+Q: Take the last letters of each words in "Jaime Brad Levi Emmanuel" and concatenate them.
+A: The answer is "meldvirliaJ."
+pred_before :  "meldvirliaJ."
+pred_after : meldvirliaJ
+pred_list : ['meldvirliaJ']
+pred_mode : meldvirliaJ
+GT : edil
+*************************
+*************************
+240st data
+1_th_sampling
+Q: Take the last letters of each words in "Gerson Roxanne Deborah Nathaniel" and concatenate them.
+A: The answer is "nielroxannedeborah".
+pred_before :  "nielroxannedeborah".
+pred_after : nielroxannedeborah
+pred_list : ['nielroxannedeborah']
+pred_mode : nielroxannedeborah
+GT : nehl
+*************************
+*************************
+241st data
+1_th_sampling
+Q: Take the last letters of each words in "Wilson Abbey Harold Nelly" and concatenate them.
+A: The answer is yrdonlly.
+pred_before :  yrdonlly.
+pred_after : yrdonlly
+pred_list : ['yrdonlly']
+pred_mode : yrdonlly
+GT : nydy
+*************************
+*************************
+242st data
+1_th_sampling
+Q: Take the last letters of each words in "Dustin Luiz Rolando Connor" and concatenate them.
+A: The answer is "noyzdnorac."
+pred_before :  "noyzdnorac."
+pred_after : noyzdnorac
+pred_list : ['noyzdnorac']
+pred_mode : noyzdnorac
+GT : nzor
+*************************
+*************************
+243st data
+1_th_sampling
+Q: Take the last letters of each words in "Carmelo Tony Susan Sara" and concatenate them.
+A: The answer is "oloy anar asur ara."
+pred_before :  "oloy anar asur ara."
+pred_after : oloyanarasurara
+pred_list : ['oloyanarasurara']
+pred_mode : oloyanarasurara
+GT : oyna
+*************************
+*************************
+244st data
+1_th_sampling
+Q: Take the last letters of each words in "Nery Cindy Jess Chris" and concatenate them.
+A: The answer is "ydniJ sihC."
+pred_before :  "ydniJ sihC."
+pred_after : ydniJsihC
+pred_list : ['ydniJsihC']
+pred_mode : ydniJsihC
+GT : yyss
+*************************
+*************************
+245st data
+1_th_sampling
+Q: Take the last letters of each words in "Arnold Aidan Ally Ami" and concatenate them.
+A: The answer is "dna yla mi."
+pred_before :  "dna yla mi."
+pred_after : dnaylami
+pred_list : ['dnaylami']
+pred_mode : dnaylami
+GT : dnyi
+*************************
+*************************
+246st data
+1_th_sampling
+Q: Take the last letters of each words in "Meg Andrey Gerard Lilia" and concatenate them.
+A: The answer is "gailia."
+pred_before :  "gailia."
+pred_after : gailia
+pred_list : ['gailia']
+pred_mode : gailia
+GT : gyda
+*************************
+*************************
+247st data
+1_th_sampling
+Q: Take the last letters of each words in "Lilian Ian Bryce Aracely" and concatenate them.
+A: The answer is "ylyac."
+pred_before :  "ylyac."
+pred_after : ylyac
+pred_list : ['ylyac']
+pred_mode : ylyac
+GT : nney
+*************************
+*************************
+248st data
+1_th_sampling
+Q: Take the last letters of each words in "Trish Vero Victor Clemente" and concatenate them.
+A: The answer is "etre".
+pred_before :  "etre".
+pred_after : etre
+pred_list : ['etre']
+pred_mode : etre
+GT : hore
+*************************
+*************************
+249st data
+1_th_sampling
+Q: Take the last letters of each words in "Estrella Madison Paco Rj" and concatenate them.
+A: The answer is "jdonarap."
+pred_before :  "jdonarap."
+pred_after : jdonarap
+pred_list : ['jdonarap']
+pred_mode : jdonarap
+GT : anoj
+*************************
+*************************
+250st data
+1_th_sampling
+Q: Take the last letters of each words in "Kali Jeanette Tess Devin" and concatenate them.
+A: The answer is "tenet."
+pred_before :  "tenet."
+pred_after : tenet
+pred_list : ['tenet']
+pred_mode : tenet
+GT : iesn
+*************************
+*************************
+251st data
+1_th_sampling
+Q: Take the last letters of each words in "Ubaldo Katrina Francis Lynn" and concatenate them.
+A: The answer is "dolayn."
+pred_before :  "dolayn."
+pred_after : dolayn
+pred_list : ['dolayn']
+pred_mode : dolayn
+GT : oasn
+*************************
+*************************
+252st data
+1_th_sampling
+Q: Take the last letters of each words in "Leticia Jacinto Natasha Raphael" and concatenate them.
+A: The answer is "aiciror."
+pred_before :  "aiciror."
+pred_after : aiciror
+pred_list : ['aiciror']
+pred_mode : aiciror
+GT : aoal
+*************************
+*************************
+253st data
+1_th_sampling
+Q: Take the last letters of each words in "Miguel Angel Saul Brady Darryl" and concatenate them.
+A: The answer is "l l n l r y."
+pred_before :  "l l n l r y."
+pred_after : llnlry
+pred_list : ['llnlry']
+pred_mode : llnlry
+GT : llyl
+*************************
+*************************
+254st data
+1_th_sampling
+Q: Take the last letters of each words in "Mya Fernando Bubba Tommy" and concatenate them.
+A: The answer is "yab ubb otmy."
+pred_before :  "yab ubb otmy."
+pred_after : yabubbotmy
+pred_list : ['yabubbotmy']
+pred_mode : yabubbotmy
+GT : aoay
+*************************
+*************************
+255st data
+1_th_sampling
+Q: Take the last letters of each words in "Julieta Zachary Jared Tyson" and concatenate them.
+A: The answer is "tayrd."
+pred_before :  "tayrd."
+pred_after : tayrd
+pred_list : ['tayrd']
+pred_mode : tayrd
+GT : aydn
+*************************
+*************************
+256st data
+1_th_sampling
+Q: Take the last letters of each words in "Salvatore Gustavo Jill Celeste" and concatenate them.
+A: The answer is "eoavatlleste."
+pred_before :  "eoavatlleste."
+pred_after : eoavatlleste
+pred_list : ['eoavatlleste']
+pred_mode : eoavatlleste
+GT : eole
+*************************
+*************************
+257st data
+1_th_sampling
+Q: Take the last letters of each words in "Pauline Kerry Jeannette Hope" and concatenate them.
+A: The answer is "neatohpe."
+pred_before :  "neatohpe."
+pred_after : neatohpe
+pred_list : ['neatohpe']
+pred_mode : neatohpe
+GT : eyee
+*************************
+*************************
+258st data
+1_th_sampling
+Q: Take the last letters of each words in "Conor Randall Oleg Stephanie" and concatenate them.
+A: The answer is "drandllestie."
+pred_before :  "drandllestie."
+pred_after : drandllestie
+pred_list : ['drandllestie']
+pred_mode : drandllestie
+GT : rlge
+*************************
+*************************
+259st data
+1_th_sampling
+Q: Take the last letters of each words in "Mauricio Lee Madi Lizzie" and concatenate them.
+A: The answer is "eoimdiie."
+pred_before :  "eoimdiie."
+pred_after : eoimdiie
+pred_list : ['eoimdiie']
+pred_mode : eoimdiie
+GT : oeie
+*************************
+*************************
+260st data
+1_th_sampling
+Q: Take the last letters of each words in "Dusty Yanet Hortencia Lili" and concatenate them.
+A: The answer is "ytaniaetecil".
+pred_before :  "ytaniaetecil".
+pred_after : ytaniaetecil
+pred_list : ['ytaniaetecil']
+pred_mode : ytaniaetecil
+GT : ytai
+*************************
+*************************
+261st data
+1_th_sampling
+Q: Take the last letters of each words in "Abdi Clyde Ana Maria Pepe" and concatenate them.
+A: The answer is "yda eyd eah aia epe".
+pred_before :  "yda eyd eah aia epe".
+pred_after : ydaeydeahaiaepe
+pred_list : ['ydaeydeahaiaepe']
+pred_mode : ydaeydeahaiaepe
+GT : ieae
+*************************
+*************************
+262st data
+1_th_sampling
+Q: Take the last letters of each words in "Barb Gage Kristian Asia" and concatenate them.
+A: The answer is "eagetiliania."
+pred_before :  "eagetiliania."
+pred_after : eagetiliania
+pred_list : ['eagetiliania']
+pred_mode : eagetiliania
+GT : bena
+*************************
+*************************
+263st data
+1_th_sampling
+Q: Take the last letters of each words in "Debora Jayson Donna Sai" and concatenate them.
+A: The answer is "aroynnai."
+pred_before :  "aroynnai."
+pred_after : aroynnai
+pred_list : ['aroynnai']
+pred_mode : aroynnai
+GT : anai
+*************************
+*************************
+264st data
+1_th_sampling
+Q: Take the last letters of each words in "Noelia Cassidy Ashok Francisco" and concatenate them.
+A: The answer is "yadocsihskorac."
+pred_before :  "yadocsihskorac."
+pred_after : yadocsihskorac
+pred_list : ['yadocsihskorac']
+pred_mode : yadocsihskorac
+GT : ayko
+*************************
+*************************
+265st data
+1_th_sampling
+Q: Take the last letters of each words in "Lupita Cyndi Kay Derrick" and concatenate them.
+A: The answer is "ytakyd."
+pred_before :  "ytakyd."
+pred_after : ytakyd
+pred_list : ['ytakyd']
+pred_mode : ytakyd
+GT : aiyk
+*************************
+*************************
+266st data
+1_th_sampling
+Q: Take the last letters of each words in "Margarita Anabel Shaun Celina" and concatenate them.
+A: The answer is "atilacin."
+pred_before :  "atilacin."
+pred_after : atilacin
+pred_list : ['atilacin']
+pred_mode : atilacin
+GT : alna
+*************************
+*************************
+267st data
+1_th_sampling
+Q: Take the last letters of each words in "Lesley Luna Nadia Adriana" and concatenate them.
+A: The answer is "yun aria."
+pred_before :  "yun aria."
+pred_after : yunaria
+pred_list : ['yunaria']
+pred_mode : yunaria
+GT : yaaa
+*************************
+*************************
+268st data
+1_th_sampling
+Q: Take the last letters of each words in "Arthur Shan Norman Manny" and concatenate them.
+A: The answer is "ymanr".
+pred_before :  "ymanr".
+pred_after : ymanr
+pred_list : ['ymanr']
+pred_mode : ymanr
+GT : rnny
+*************************
+*************************
+269st data
+1_th_sampling
+Q: Take the last letters of each words in "Eugenia Kellie Quentin Mike" and concatenate them.
+A: The answer is "eieunt."
+pred_before :  "eieunt."
+pred_after : eieunt
+pred_list : ['eieunt']
+pred_mode : eieunt
+GT : aene
+*************************
+*************************
+270st data
+1_th_sampling
+Q: Take the last letters of each words in "Hank Janine Frankie Isa" and concatenate them.
+A: The answer is "knajeckai."
+pred_before :  "knajeckai."
+pred_after : knajeckai
+pred_list : ['knajeckai']
+pred_mode : knajeckai
+GT : keea
+*************************
+*************************
+271st data
+1_th_sampling
+Q: Take the last letters of each words in "Lazaro Ana Charlotte Precious" and concatenate them.
+A: The answer is "saro aha arlotte reciou".
+pred_before :  "saro aha arlotte reciou".
+pred_after : saroahaarlottereciou
+pred_list : ['saroahaarlottereciou']
+pred_mode : saroahaarlottereciou
+GT : oaes
+*************************
+*************************
+272st data
+1_th_sampling
+Q: Take the last letters of each words in "Tim Candace Cecil Misael" and concatenate them.
+A: The answer is "mdacilisae."
+pred_before :  "mdacilisae."
+pred_after : mdacilisae
+pred_list : ['mdacilisae']
+pred_mode : mdacilisae
+GT : mell
+*************************
+*************************
+273st data
+1_th_sampling
+Q: Take the last letters of each words in "Steph Pablo Ceci Francine" and concatenate them.
+A: The answer is "ihfdaner."
+pred_before :  "ihfdaner."
+pred_after : ihfdaner
+pred_list : ['ihfdaner']
+pred_mode : ihfdaner
+GT : hoie
+*************************
+*************************
+274st data
+1_th_sampling
+Q: Take the last letters of each words in "Janice Shelly Arnulfo Nestor" and concatenate them.
+A: The answer is "ylfotsron."
+pred_before :  "ylfotsron."
+pred_after : ylfotsron
+pred_list : ['ylfotsron']
+pred_mode : ylfotsron
+GT : eyor
+*************************
+*************************
+275st data
+1_th_sampling
+Q: Take the last letters of each words in "Gabi Dante Rafa Tricia" and concatenate them.
+A: The answer is "ifart."
+pred_before :  "ifart."
+pred_after : ifart
+pred_list : ['ifart']
+pred_mode : ifart
+GT : ieaa
+*************************
+*************************
+276st data
+1_th_sampling
+Q: Take the last letters of each words in "Kristie Johnnie Marisa Derick" and concatenate them.
+A: The answer is "eidkcJ oinneM asirD."
+pred_before :  "eidkcJ oinneM asirD."
+pred_after : eidkcJoinneMasirD
+pred_list : ['eidkcJoinneMasirD']
+pred_mode : eidkcJoinneMasirD
+GT : eeak
+*************************
+*************************
+277st data
+1_th_sampling
+Q: Take the last letters of each words in "Jr Meredith Zoe Robby" and concatenate them.
+A: The answer is "ydoeby."
+pred_before :  "ydoeby."
+pred_after : ydoeby
+pred_list : ['ydoeby']
+pred_mode : ydoeby
+GT : rhey
+*************************
+*************************
+278st data
+1_th_sampling
+Q: Take the last letters of each words in "Emanuel Cheyenne Perez Yvette" and concatenate them.
+A: The answer is "ezette."
+pred_before :  "ezette."
+pred_after : ezette
+pred_list : ['ezette']
+pred_mode : ezette
+GT : leze
+*************************
+*************************
+279st data
+1_th_sampling
+Q: Take the last letters of each words in "Lucio Víctor Lester Allie" and concatenate them.
+A: The answer is "retse llia."
+pred_before :  "retse llia."
+pred_after : retsellia
+pred_list : ['retsellia']
+pred_mode : retsellia
+GT : orre
+*************************
+*************************
+280st data
+1_th_sampling
+Q: Take the last letters of each words in "Arturo Dominick Christa Myles" and concatenate them.
+A: The answer is "sotrahc yleM".
+pred_before :  "sotrahc yleM".
+pred_after : sotrahcyleM
+pred_list : ['sotrahcyleM']
+pred_mode : sotrahcyleM
+GT : okas
+*************************
+*************************
+281st data
+1_th_sampling
+Q: Take the last letters of each words in "Angela Krista Cora Denisse" and concatenate them.
+A: The answer is "alecrodin."
+pred_before :  "alecrodin."
+pred_after : alecrodin
+pred_list : ['alecrodin']
+pred_mode : alecrodin
+GT : aaae
+*************************
+*************************
+282st data
+1_th_sampling
+Q: Take the last letters of each words in "Larissa Shawna Alma Paulette" and concatenate them.
+A: The answer is "assalmp."
+pred_before :  "assalmp."
+pred_after : assalmp
+pred_list : ['assalmp']
+pred_mode : assalmp
+GT : aaae
+*************************
+*************************
+283st data
+1_th_sampling
+Q: Take the last letters of each words in "Niki Graham Vernon Beau" and concatenate them.
+A: The answer is "mongeau."
+pred_before :  "mongeau."
+pred_after : mongeau
+pred_list : ['mongeau']
+pred_mode : mongeau
+GT : imnu
+*************************
+*************************
+284st data
+1_th_sampling
+Q: Take the last letters of each words in "Sue Cassandra Cody Cali" and concatenate them.
+A: The answer is "adacal."
+pred_before :  "adacal."
+pred_after : adacal
+pred_list : ['adacal']
+pred_mode : adacal
+GT : eayi
+*************************
+*************************
+285st data
+1_th_sampling
+Q: Take the last letters of each words in "Marcy Gonzalez Alice Arlene" and concatenate them.
+A: The answer is "yznaea."
+pred_before :  "yznaea."
+pred_after : yznaea
+pred_list : ['yznaea']
+pred_mode : yznaea
+GT : yzee
+*************************
+*************************
+286st data
+1_th_sampling
+Q: Take the last letters of each words in "Fernanda Magda Elmer Alvaro" and concatenate them.
+A: The answer is "adna agda elre avor."
+pred_before :  "adna agda elre avor."
+pred_after : adnaagdaelreavor
+pred_list : ['adnaagdaelreavor']
+pred_mode : adnaagdaelreavor
+GT : aaro
+*************************
+*************************
+287st data
+1_th_sampling
+Q: Take the last letters of each words in "Martin Sage Tanisha Rick" and concatenate them.
+A: The answer is "niahk."
+pred_before :  "niahk."
+pred_after : niahk
+pred_list : ['niahk']
+pred_mode : niahk
+GT : neak
+*************************
+*************************
+288st data
+1_th_sampling
+Q: Take the last letters of each words in "Latoya Eliseo Trina Melisa" and concatenate them.
+A: The answer is "ayoe inalisa."
+pred_before :  "ayoe inalisa."
+pred_after : ayoeinalisa
+pred_list : ['ayoeinalisa']
+pred_mode : ayoeinalisa
+GT : aoaa
+*************************
+*************************
+289st data
+1_th_sampling
+Q: Take the last letters of each words in "Juan Manuel Benjamin Rory Rafael" and concatenate them.
+A: The answer is "najryfle."
+pred_before :  "najryfle."
+pred_after : najryfle
+pred_list : ['najryfle']
+pred_mode : najryfle
+GT : lnyl
+*************************
+*************************
+290st data
+1_th_sampling
+Q: Take the last letters of each words in "Fred Nolan Johnathan Carson" and concatenate them.
+A: The answer is "nadroN redhoJ nathanaC."
+pred_before :  "nadroN redhoJ nathanaC."
+pred_after : nadroNredhoJnathanaC
+pred_list : ['nadroNredhoJnathanaC']
+pred_mode : nadroNredhoJnathanaC
+GT : dnnn
+*************************
+*************************
+291st data
+1_th_sampling
+Q: Take the last letters of each words in "Jeremy Simone Alondra Wyatt" and concatenate them.
+A: The answer is "ymeondray."
+pred_before :  "ymeondray."
+pred_after : ymeondray
+pred_list : ['ymeondray']
+pred_mode : ymeondray
+GT : yeat
+*************************
+*************************
+292st data
+1_th_sampling
+Q: Take the last letters of each words in "Jon Heath Reynaldo Catherine" and concatenate them.
+A: The answer is "dohay".
+pred_before :  "dohay".
+pred_after : dohay
+pred_list : ['dohay']
+pred_mode : dohay
+GT : nhoe
+*************************
+*************************
+293st data
+1_th_sampling
+Q: Take the last letters of each words in "Ernest Yuri Camila Ashlee" and concatenate them.
+A: The answer is "ymee."
+pred_before :  "ymee."
+pred_after : ymee
+pred_list : ['ymee']
+pred_mode : ymee
+GT : tiae
+*************************
+*************************
+294st data
+1_th_sampling
+Q: Take the last letters of each words in "Salma Pj Gladis Monica" and concatenate them.
+A: The answer is "adilajocanom."
+pred_before :  "adilajocanom."
+pred_after : adilajocanom
+pred_list : ['adilajocanom']
+pred_mode : adilajocanom
+GT : ajsa
+*************************
+*************************
+295st data
+1_th_sampling
+Q: Take the last letters of each words in "Lucky Mireya Jj Kc" and concatenate them.
+A: The answer is "yayakk."
+pred_before :  "yayakk."
+pred_after : yayakk
+pred_list : ['yayakk']
+pred_mode : yayakk
+GT : yajc
+*************************
+*************************
+296st data
+1_th_sampling
+Q: Take the last letters of each words in "Bj Rigo Nigel Christian" and concatenate them.
+A: The answer is "igoalhtsin."
+pred_before :  "igoalhtsin."
+pred_after : igoalhtsin
+pred_list : ['igoalhtsin']
+pred_mode : igoalhtsin
+GT : joln
+*************************
+*************************
+297st data
+1_th_sampling
+Q: Take the last letters of each words in "Elise Lupe Renee Noemi" and concatenate them.
+A: The answer is "esenuei."
+pred_before :  "esenuei."
+pred_after : esenuei
+pred_list : ['esenuei']
+pred_mode : esenuei
+GT : eeei
+*************************
+*************************
+298st data
+1_th_sampling
+Q: Take the last letters of each words in "Pedro Leopoldo Tee Mar" and concatenate them.
+A: The answer is "doeopoldoTeeMar."
+pred_before :  "doeopoldoTeeMar."
+pred_after : doeopoldoTeeMar
+pred_list : ['doeopoldoTeeMar']
+pred_mode : doeopoldoTeeMar
+GT : ooer
+*************************
+*************************
+299st data
+1_th_sampling
+Q: Take the last letters of each words in "Jesse Roderick Travis Rita" and concatenate them.
+A: The answer is "saeivsitar."
+pred_before :  "saeivsitar."
+pred_after : saeivsitar
+pred_list : ['saeivsitar']
+pred_mode : saeivsitar
+GT : eksa
+*************************
+*************************
+300st data
+1_th_sampling
+Q: Take the last letters of each words in "Mickey Dom Lilly Eloy" and concatenate them.
+A: The answer is "yod ylm yoy."
+pred_before :  "yod ylm yoy."
+pred_after : yodylmyoy
+pred_list : ['yodylmyoy']
+pred_mode : yodylmyoy
+GT : ymyy
+*************************
+*************************
+301st data
+1_th_sampling
+Q: Take the last letters of each words in "Kristopher Deb Jake Tammy" and concatenate them.
+A: The answer is "rthbrebmak."
+pred_before :  "rthbrebmak."
+pred_after : rthbrebmak
+pred_list : ['rthbrebmak']
+pred_mode : rthbrebmak
+GT : rbey
+*************************
+*************************
+302st data
+1_th_sampling
+Q: Take the last letters of each words in "Whitney Erika Tj Benito" and concatenate them.
+A: The answer is "yteiinito."
+pred_before :  "yteiinito."
+pred_after : yteiinito
+pred_list : ['yteiinito']
+pred_mode : yteiinito
+GT : yajo
+*************************
+*************************
+303st data
+1_th_sampling
+Q: Take the last letters of each words in "Bob Aman Richie Sana" and concatenate them.
+A: The answer is "bomarichsana."
+pred_before :  "bomarichsana."
+pred_after : bomarichsana
+pred_list : ['bomarichsana']
+pred_mode : bomarichsana
+GT : bnea
+*************************
+*************************
+304st data
+1_th_sampling
+Q: Take the last letters of each words in "Chuy Shane Jaden Maynor" and concatenate them.
+A: The answer is "yoraynohs".
+pred_before :  "yoraynohs".
+pred_after : yoraynohs
+pred_list : ['yoraynohs']
+pred_mode : yoraynohs
+GT : yenr
+*************************
+*************************
+305st data
+1_th_sampling
+Q: Take the last letters of each words in "Elva Kari Shirley Gilberto" and concatenate them.
+A: The answer is "lvakyrhilberto."
+pred_before :  "lvakyrhilberto."
+pred_after : lvakyrhilberto
+pred_list : ['lvakyrhilberto']
+pred_mode : lvakyrhilberto
+GT : aiyo
+*************************
+*************************
+306st data
+1_th_sampling
+Q: Take the last letters of each words in "Leanne Lulu Lopez Jp" and concatenate them.
+A: The answer is "ezujp."
+pred_before :  "ezujp."
+pred_after : ezujp
+pred_list : ['ezujp']
+pred_mode : ezujp
+GT : euzp
+*************************
+*************************
+307st data
+1_th_sampling
+Q: Take the last letters of each words in "Hayden Maya Zack Roberto" and concatenate them.
+A: The answer is "yde aya cko ertebo."
+pred_before :  "yde aya cko ertebo."
+pred_after : ydeayackoertebo
+pred_list : ['ydeayackoertebo']
+pred_mode : ydeayackoertebo
+GT : nako
+*************************
+*************************
+308st data
+1_th_sampling
+Q: Take the last letters of each words in "Rashad Savannah Flavio Bert" and concatenate them.
+A: The answer is "hadavnahFoiwtret."
+pred_before :  "hadavnahFoiwtret."
+pred_after : hadavnahFoiwtret
+pred_list : ['hadavnahFoiwtret']
+pred_mode : hadavnahFoiwtret
+GT : dhot
+*************************
+*************************
+309st data
+1_th_sampling
+Q: Take the last letters of each words in "Beatrice Taylor Juan Carlos Kaitlin" and concatenate them.
+A: The answer is "ece aylor uan arlos aitlin".
+pred_before :  "ece aylor uan arlos aitlin".
+pred_after : eceayloruanarlosaitlin
+pred_list : ['eceayloruanarlosaitlin']
+pred_mode : eceayloruanarlosaitlin
+GT : ersn
+*************************
+*************************
+310st data
+1_th_sampling
+Q: Take the last letters of each words in "Lora Alberto Cathy Kara" and concatenate them.
+A: The answer is "aray."
+pred_before :  "aray."
+pred_after : aray
+pred_list : ['aray']
+pred_mode : aray
+GT : aoya
+*************************
+*************************
+311st data
+1_th_sampling
+Q: Take the last letters of each words in "Yessenia Geraldine Minerva Tanya" and concatenate them.
+A: The answer is "aidervnaty."
+pred_before :  "aidervnaty."
+pred_after : aidervnaty
+pred_list : ['aidervnaty']
+pred_mode : aidervnaty
+GT : aeaa
+*************************
+*************************
+312st data
+1_th_sampling
+Q: Take the last letters of each words in "Mel Josh Alejandra Harley" and concatenate them.
+A: The answer is "yjrdaey."
+pred_before :  "yjrdaey."
+pred_after : yjrdaey
+pred_list : ['yjrdaey']
+pred_mode : yjrdaey
+GT : lhay
+*************************
+*************************
+313st data
+1_th_sampling
+Q: Take the last letters of each words in "Delia Kathleen Mateo Marvin" and concatenate them.
+A: The answer is "oavr."
+pred_before :  "oavr."
+pred_after : oavr
+pred_list : ['oavr']
+pred_mode : oavr
+GT : anon
+*************************
+*************************
+314st data
+1_th_sampling
+Q: Take the last letters of each words in "Maria Elena Dewayne Mj Elliott" and concatenate them.
+A: The answer is "anayjt".
+pred_before :  "anayjt".
+pred_after : anayjt
+pred_list : ['anayjt']
+pred_mode : anayjt
+GT : aejt
+*************************
+*************************
+315st data
+1_th_sampling
+Q: Take the last letters of each words in "Jason Betty Elisa Jay" and concatenate them.
+A: The answer is "sonyay."
+pred_before :  "sonyay."
+pred_after : sonyay
+pred_list : ['sonyay']
+pred_mode : sonyay
+GT : nyay
+*************************
+*************************
+316st data
+1_th_sampling
+Q: Take the last letters of each words in "Buddy Violet Johana Tina" and concatenate them.
+A: The answer is "ydytanai."
+pred_before :  "ydytanai."
+pred_after : ydytanai
+pred_list : ['ydytanai']
+pred_mode : ydytanai
+GT : ytaa
+*************************
+*************************
+317st data
+1_th_sampling
+Q: Take the last letters of each words in "Antonio Ronald Ken Rachael" and concatenate them.
+A: The answer is "odnaelhcar."
+pred_before :  "odnaelhcar."
+pred_after : odnaelhcar
+pred_list : ['odnaelhcar']
+pred_mode : odnaelhcar
+GT : odnl
+*************************
+*************************
+318st data
+1_th_sampling
+Q: Take the last letters of each words in "Salvador Sol Tyler Kareem" and concatenate them.
+A: The answer is "rado loy yler meem."
+pred_before :  "rado loy yler meem."
+pred_after : radoloyylermeem
+pred_list : ['radoloyylermeem']
+pred_mode : radoloyylermeem
+GT : rlrm
+*************************
+*************************
+319st data
+1_th_sampling
+Q: Take the last letters of each words in "Ralph Jeanne Kyle Alejandro" and concatenate them.
+A: The answer is "dohpueaylo."
+pred_before :  "dohpueaylo."
+pred_after : dohpueaylo
+pred_list : ['dohpueaylo']
+pred_mode : dohpueaylo
+GT : heeo
+*************************
+*************************
+320st data
+1_th_sampling
+Q: Take the last letters of each words in "Alonzo Dorothy Alfred Rodriguez" and concatenate them.
+A: The answer is "odArediguez."
+pred_before :  "odArediguez."
+pred_after : odArediguez
+pred_list : ['odArediguez']
+pred_mode : odArediguez
+GT : oydz
+*************************
+*************************
+321st data
+1_th_sampling
+Q: Take the last letters of each words in "Sonia Griffin Claude Josephine" and concatenate them.
+A: The answer is "einajfpohs."
+pred_before :  "einajfpohs."
+pred_after : einajfpohs
+pred_list : ['einajfpohs']
+pred_mode : einajfpohs
+GT : anee
+*************************
+*************************
+322st data
+1_th_sampling
+Q: Take the last letters of each words in "Maureen Fabian Claudette Peyton" and concatenate them.
+A: The answer is "neanaulette."
+pred_before :  "neanaulette."
+pred_after : neanaulette
+pred_list : ['neanaulette']
+pred_mode : neanaulette
+GT : nnen
+*************************
+*************************
+323st data
+1_th_sampling
+Q: Take the last letters of each words in "Blaine Syed Priya Ruby" and concatenate them.
+A: The answer is "yad ihay arub."
+pred_before :  "yad ihay arub."
+pred_after : yadihayarub
+pred_list : ['yadihayarub']
+pred_mode : yadihayarub
+GT : eday
+*************************
+*************************
+324st data
+1_th_sampling
+Q: Take the last letters of each words in "Gabby Reese Leah Celia" and concatenate them.
+A: The answer is "yseahilia."
+pred_before :  "yseahilia."
+pred_after : yseahilia
+pred_list : ['yseahilia']
+pred_mode : yseahilia
+GT : yeha
+*************************
+*************************
+325st data
+1_th_sampling
+Q: Take the last letters of each words in "Jacky Socorro Mark Wanda" and concatenate them.
+A: The answer is "yorrokanda."
+pred_before :  "yorrokanda."
+pred_after : yorrokanda
+pred_list : ['yorrokanda']
+pred_mode : yorrokanda
+GT : yoka
+*************************
+*************************
+326st data
+1_th_sampling
+Q: Take the last letters of each words in "Axel Osvaldo Mildred Sylvia" and concatenate them.
+A: The answer is "dlyvix."
+pred_before :  "dlyvix."
+pred_after : dlyvix
+pred_list : ['dlyvix']
+pred_mode : dlyvix
+GT : loda
+*************************
+*************************
+327st data
+1_th_sampling
+Q: Take the last letters of each words in "Tristan Marleny Santiago Viviana" and concatenate them.
+A: The answer is "yanyoivi."
+pred_before :  "yanyoivi."
+pred_after : yanyoivi
+pred_list : ['yanyoivi']
+pred_mode : yanyoivi
+GT : nyoa
+*************************
+*************************
+328st data
+1_th_sampling
+Q: Take the last letters of each words in "Blanca Monika Ervin Lori" and concatenate them.
+A: The answer is "aidurov."
+pred_before :  "aidurov."
+pred_after : aidurov
+pred_list : ['aidurov']
+pred_mode : aidurov
+GT : aani
+*************************
+*************************
+329st data
+1_th_sampling
+Q: Take the last letters of each words in "Lionel Fiona Bobby Janeth" and concatenate them.
+A: The answer is "nytehtaheb."
+pred_before :  "nytehtaheb."
+pred_after : nytehtaheb
+pred_list : ['nytehtaheb']
+pred_mode : nytehtaheb
+GT : layh
+*************************
+*************************
+330st data
+1_th_sampling
+Q: Take the last letters of each words in "Blake Hunter Lou Spencer" and concatenate them.
+A: The answer is "terpenes."
+pred_before :  "terpenes."
+pred_after : terpenes
+pred_list : ['terpenes']
+pred_mode : terpenes
+GT : erur
+*************************
+*************************
+331st data
+1_th_sampling
+Q: Take the last letters of each words in "Edwin Lovely Curt Damon" and concatenate them.
+A: The answer is "yman."
+pred_before :  "yman."
+pred_after : yman
+pred_list : ['yman']
+pred_mode : yman
+GT : nytn
+*************************
+*************************
+332st data
+1_th_sampling
+Q: Take the last letters of each words in "Marc Doris Ernie Gary" and concatenate them.
+A: The answer is "sireg."
+pred_before :  "sireg."
+pred_after : sireg
+pred_list : ['sireg']
+pred_mode : sireg
+GT : csey
+*************************
+*************************
+333st data
+1_th_sampling
+Q: Take the last letters of each words in "Shari Bella Liza Maira" and concatenate them.
+A: The answer is "ahrim."
+pred_before :  "ahrim."
+pred_after : ahrim
+pred_list : ['ahrim']
+pred_mode : ahrim
+GT : iaaa
+*************************
+*************************
+334st data
+1_th_sampling
+Q: Take the last letters of each words in "Alexander Marina Valentina Mila" and concatenate them.
+A: The answer is "drinivala."
+pred_before :  "drinivala."
+pred_after : drinivala
+pred_list : ['drinivala']
+pred_mode : drinivala
+GT : raaa
+*************************
+*************************
+335st data
+1_th_sampling
+Q: Take the last letters of each words in "Cristian Nik Gwen Josiah" and concatenate them.
+A: The answer is "niah."
+pred_before :  "niah."
+pred_after : niah
+pred_list : ['niah']
+pred_mode : niah
+GT : nknh
+*************************
+*************************
+336st data
+1_th_sampling
+Q: Take the last letters of each words in "Stevie Julie Leonard Karina" and concatenate them.
+A: The answer is "eiviuleonardarina."
+pred_before :  "eiviuleonardarina."
+pred_after : eiviuleonardarina
+pred_list : ['eiviuleonardarina']
+pred_mode : eiviuleonardarina
+GT : eeda
+*************************
+*************************
+337st data
+1_th_sampling
+Q: Take the last letters of each words in "Dallas Uriel Brendan Julian" and concatenate them.
+A: The answer is "slaurielndrean."
+pred_before :  "slaurielndrean."
+pred_after : slaurielndrean
+pred_list : ['slaurielndrean']
+pred_mode : slaurielndrean
+GT : slnn
+*************************
+*************************
+338st data
+1_th_sampling
+Q: Take the last letters of each words in "Fausto Tito Jade Terrance" and concatenate them.
+A: The answer is "sot ade erance."
+pred_before :  "sot ade erance."
+pred_after : sotadeerance
+pred_list : ['sotadeerance']
+pred_mode : sotadeerance
+GT : ooee
+*************************
+*************************
+339st data
+1_th_sampling
+Q: Take the last letters of each words in "Christina Edna Ileana Lynette" and concatenate them.
+A: The answer is "annette."
+pred_before :  "annette."
+pred_after : annette
+pred_list : ['annette']
+pred_mode : annette
+GT : aaae
+*************************
+*************************
+340st data
+1_th_sampling
+Q: Take the last letters of each words in "Dave Ernesto Liam Marsha" and concatenate them.
+A: The answer is "avedoiamahsr."
+pred_before :  "avedoiamahsr."
+pred_after : avedoiamahsr
+pred_list : ['avedoiamahsr']
+pred_mode : avedoiamahsr
+GT : eoma
+*************************
+*************************
+341st data
+1_th_sampling
+Q: Take the last letters of each words in "Paula Irina Laurel Maribel" and concatenate them.
+A: The answer is "alau rimel."
+pred_before :  "alau rimel."
+pred_after : alaurimel
+pred_list : ['alaurimel']
+pred_mode : alaurimel
+GT : aall
+*************************
+*************************
+342st data
+1_th_sampling
+Q: Take the last letters of each words in "Lino Mariel Aditya Elisabeth" and concatenate them.
+A: The answer is "ayahBtehT".
+pred_before :  "ayahBtehT".
+pred_after : ayahBtehT
+pred_list : ['ayahBtehT']
+pred_mode : ayahBtehT
+GT : olah
+*************************
+*************************
+343st data
+1_th_sampling
+Q: Take the last letters of each words in "Imelda Andi Mack Rigoberto" and concatenate them.
+A: The answer is "daMocito."
+pred_before :  "daMocito."
+pred_after : daMocito
+pred_list : ['daMocito']
+pred_mode : daMocito
+GT : aiko
+*************************
+*************************
+344st data
+1_th_sampling
+Q: Take the last letters of each words in "Manish Lu Karl Don" and concatenate them.
+A: The answer is "hsuldoN."
+pred_before :  "hsuldoN."
+pred_after : hsuldoN
+pred_list : ['hsuldoN']
+pred_mode : hsuldoN
+GT : huln
+*************************
+*************************
+345st data
+1_th_sampling
+Q: Take the last letters of each words in "Donald Lia Gonzalo Lily" and concatenate them.
+A: The answer is "yalozily".
+pred_before :  "yalozily".
+pred_after : yalozily
+pred_list : ['yalozily']
+pred_mode : yalozily
+GT : daoy
+*************************
+*************************
+346st data
+1_th_sampling
+Q: Take the last letters of each words in "Irving Hans Moses Nicole" and concatenate them.
+A: The answer is "sseo."
+pred_before :  "sseo."
+pred_after : sseo
+pred_list : ['sseo']
+pred_mode : sseo
+GT : gsse
+*************************
+*************************
+347st data
+1_th_sampling
+Q: Take the last letters of each words in "Elle Alex Irma Stephan" and concatenate them.
+A: The answer is "alexirmastephan."
+pred_before :  "alexirmastephan."
+pred_after : alexirmastephan
+pred_list : ['alexirmastephan']
+pred_mode : alexirmastephan
+GT : exan
+*************************
+*************************
+348st data
+1_th_sampling
+Q: Take the last letters of each words in "Marshall Herman Faye Grant" and concatenate them.
+A: The answer is "ntayrrahay."
+pred_before :  "ntayrrahay."
+pred_after : ntayrrahay
+pred_list : ['ntayrrahay']
+pred_mode : ntayrrahay
+GT : lnet
+*************************
+*************************
+349st data
+1_th_sampling
+Q: Take the last letters of each words in "Chloe Flaco Theodore Nathalie" and concatenate them.
+A: The answer is "oeoalie."
+pred_before :  "oeoalie."
+pred_after : oeoalie
+pred_list : ['oeoalie']
+pred_mode : oeoalie
+GT : eoee
+*************************
+*************************
+350st data
+1_th_sampling
+Q: Take the last letters of each words in "Marcus Ramirez Junior Arely" and concatenate them.
+A: The answer is "sajnrly."
+pred_before :  "sajnrly."
+pred_after : sajnrly
+pred_list : ['sajnrly']
+pred_mode : sajnrly
+GT : szry
+*************************
+*************************
+351st data
+1_th_sampling
+Q: Take the last letters of each words in "Chava Rosalia Kurt Linda" and concatenate them.
+A: The answer is "avarosaliurtinda."
+pred_before :  "avarosaliurtinda."
+pred_after : avarosaliurtinda
+pred_list : ['avarosaliurtinda']
+pred_mode : avarosaliurtinda
+GT : aata
+*************************
+*************************
+352st data
+1_th_sampling
+Q: Take the last letters of each words in "Miranda Jacques Clarence Chandra" and concatenate them.
+A: The answer is "srdajsehdar."
+pred_before :  "srdajsehdar."
+pred_after : srdajsehdar
+pred_list : ['srdajsehdar']
+pred_mode : srdajsehdar
+GT : asea
+*************************
+*************************
+353st data
+1_th_sampling
+Q: Take the last letters of each words in "Lalo Yolanda Elida Ester" and concatenate them.
+A: The answer is "adaleidere."
+pred_before :  "adaleidere."
+pred_after : adaleidere
+pred_list : ['adaleidere']
+pred_mode : adaleidere
+GT : oaar
+*************************
+*************************
+354st data
+1_th_sampling
+Q: Take the last letters of each words in "Jodi Judi Nia Raj" and concatenate them.
+A: The answer is "aidujainar."
+pred_before :  "aidujainar."
+pred_after : aidujainar
+pred_list : ['aidujainar']
+pred_mode : aidujainar
+GT : iiaj
+*************************
+*************************
+355st data
+1_th_sampling
+Q: Take the last letters of each words in "Sal Scott Myrna Maximo" and concatenate them.
+A: The answer is "ltayrmxo."
+pred_before :  "ltayrmxo."
+pred_after : ltayrmxo
+pred_list : ['ltayrmxo']
+pred_mode : ltayrmxo
+GT : ltao
+*************************
+*************************
+356st data
+1_th_sampling
+Q: Take the last letters of each words in "Malcolm Hussein Franco Hugo" and concatenate them.
+A: The answer is "omdahsuiragnoh."
+pred_before :  "omdahsuiragnoh."
+pred_after : omdahsuiragnoh
+pred_list : ['omdahsuiragnoh']
+pred_mode : omdahsuiragnoh
+GT : mnoo
+*************************
+*************************
+357st data
+1_th_sampling
+Q: Take the last letters of each words in "Maryam Susy Trinity Pearl" and concatenate them.
+A: The answer is "yamsusytinrperl".
+pred_before :  "yamsusytinrperl".
+pred_after : yamsusytinrperl
+pred_list : ['yamsusytinrperl']
+pred_mode : yamsusytinrperl
+GT : myyl
+*************************
+*************************
+358st data
+1_th_sampling
+Q: Take the last letters of each words in "Clinton Yanira Barbara Betsy" and concatenate them.
+A: The answer is "nyrar etsey."
+pred_before :  "nyrar etsey."
+pred_after : nyraretsey
+pred_list : ['nyraretsey']
+pred_mode : nyraretsey
+GT : naay
+*************************
+*************************
+359st data
+1_th_sampling
+Q: Take the last letters of each words in "Emma Maryann Olga Nataly" and concatenate them.
+A: The answer is "amyalay."
+pred_before :  "amyalay."
+pred_after : amyalay
+pred_list : ['amyalay']
+pred_mode : amyalay
+GT : anay
+*************************
+*************************
+360st data
+1_th_sampling
+Q: Take the last letters of each words in "Isela Leslie Stacy Ingrid" and concatenate them.
+A: The answer is "ayes aylie aysac anrid."
+pred_before :  "ayes aylie aysac anrid."
+pred_after : ayesaylieaysacanrid
+pred_list : ['ayesaylieaysacanrid']
+pred_mode : ayesaylieaysacanrid
+GT : aeyd
+*************************
+*************************
+361st data
+1_th_sampling
+Q: Take the last letters of each words in "Kristen Herbert Benny El" and concatenate them.
+A: The answer is "nny le."
+pred_before :  "nny le."
+pred_after : nnyle
+pred_list : ['nnyle']
+pred_mode : nnyle
+GT : ntyl
+*************************
+*************************
+362st data
+1_th_sampling
+Q: Take the last letters of each words in "Norma Timothy Willie Mathew" and concatenate them.
+A: The answer is "amym."
+pred_before :  "amym."
+pred_after : amym
+pred_list : ['amym']
+pred_mode : amym
+GT : ayew
+*************************
+*************************
+363st data
+1_th_sampling
+Q: Take the last letters of each words in "Phillip Ajay Janie Augusto" and concatenate them.
+A: The answer is "mpaynieugusto."
+pred_before :  "mpaynieugusto."
+pred_after : mpaynieugusto
+pred_list : ['mpaynieugusto']
+pred_mode : mpaynieugusto
+GT : pyeo
+*************************
+*************************
+364st data
+1_th_sampling
+Q: Take the last letters of each words in "Alexandria Meghan Autumn Robert" and concatenate them.
+A: The answer is "naryhan trebor."
+pred_before :  "naryhan trebor."
+pred_after : naryhantrebor
+pred_list : ['naryhantrebor']
+pred_mode : naryhantrebor
+GT : annt
+*************************
+*************************
+365st data
+1_th_sampling
+Q: Take the last letters of each words in "Kendall Matias Kaleb Randy" and concatenate them.
+A: The answer is "sailbedy."
+pred_before :  "sailbedy."
+pred_after : sailbedy
+pred_list : ['sailbedy']
+pred_mode : sailbedy
+GT : lsby
+*************************
+*************************
+366st data
+1_th_sampling
+Q: Take the last letters of each words in "Claudia Cole Matthew Juan Pablo" and concatenate them.
+A: The answer is "aidajnarbaloc."
+pred_before :  "aidajnarbaloc."
+pred_after : aidajnarbaloc
+pred_list : ['aidajnarbaloc']
+pred_mode : aidajnarbaloc
+GT : aewo
+*************************
+*************************
+367st data
+1_th_sampling
+Q: Take the last letters of each words in "Sean Rebeca Marco Sami" and concatenate them.
+A: The answer is "nacecaromami."
+pred_before :  "nacecaromami."
+pred_after : nacecaromami
+pred_list : ['nacecaromami']
+pred_mode : nacecaromami
+GT : naoi
+*************************
+*************************
+368st data
+1_th_sampling
+Q: Take the last letters of each words in "Leigh Mindy Rocky Lex" and concatenate them.
+A: The answer is "yydyx."
+pred_before :  "yydyx."
+pred_after : yydyx
+pred_list : ['yydyx']
+pred_mode : yydyx
+GT : hyyx
+*************************
+*************************
+369st data
+1_th_sampling
+Q: Take the last letters of each words in "Guadalupe Ebony Wil Luke" and concatenate them.
+A: The answer is "upebyiluke."
+pred_before :  "upebyiluke."
+pred_after : upebyiluke
+pred_list : ['upebyiluke']
+pred_mode : upebyiluke
+GT : eyle
+*************************
+*************************
+370st data
+1_th_sampling
+Q: Take the last letters of each words in "Kathy Elsa Alba Ivette" and concatenate them.
+A: The answer is "yhta."
+pred_before :  "yhta."
+pred_after : yhta
+pred_list : ['yhta']
+pred_mode : yhta
+GT : yaae
+*************************
+*************************
+371st data
+1_th_sampling
+Q: Take the last letters of each words in "Angelina Layla Jenny Zane" and concatenate them.
+A: The answer is "aglajnyane."
+pred_before :  "aglajnyane."
+pred_after : aglajnyane
+pred_list : ['aglajnyane']
+pred_mode : aglajnyane
+GT : aaye
+*************************
+*************************
+372st data
+1_th_sampling
+Q: Take the last letters of each words in "Sandeep Graciela Jai Xiomara" and concatenate them.
+A: The answer is "eepacielaiomara."
+pred_before :  "eepacielaiomara."
+pred_after : eepacielaiomara
+pred_list : ['eepacielaiomara']
+pred_mode : eepacielaiomara
+GT : paia
+*************************
+*************************
+373st data
+1_th_sampling
+Q: Take the last letters of each words in "Skylar Chrissy Misty Kike" and concatenate them.
+A: The answer is "yarhssytmie."
+pred_before :  "yarhssytmie."
+pred_after : yarhssytmie
+pred_list : ['yarhssytmie']
+pred_mode : yarhssytmie
+GT : ryye
+*************************
+*************************
+374st data
+1_th_sampling
+Q: Take the last letters of each words in "Barbie Desiree Yaneth Dre" and concatenate them.
+A: The answer is "eathrD eytnahB esireD."
+pred_before :  "eathrD eytnahB esireD."
+pred_after : eathrDeytnahBesireD
+pred_list : ['eathrDeytnahBesireD']
+pred_mode : eathrDeytnahBesireD
+GT : eehe
+*************************
+*************************
+375st data
+1_th_sampling
+Q: Take the last letters of each words in "Zach Trenton Cary Beth" and concatenate them.
+A: The answer is "notonaryth."
+pred_before :  "notonaryth."
+pred_after : notonaryth
+pred_list : ['notonaryth']
+pred_mode : notonaryth
+GT : hnyh
+*************************
+*************************
+376st data
+1_th_sampling
+Q: Take the last letters of each words in "Nichole Heriberto Darian Peter" and concatenate them.
+A: The answer is "etrop rednaH eloihcN."
+pred_before :  "etrop rednaH eloihcN."
+pred_after : etroprednaHeloihcN
+pred_list : ['etroprednaHeloihcN']
+pred_mode : etroprednaHeloihcN
+GT : eonr
+*************************
+*************************
+377st data
+1_th_sampling
+Q: Take the last letters of each words in "Fermin Berenice Marianne Eleanor" and concatenate them.
+A: The answer is "nereanor."
+pred_before :  "nereanor."
+pred_after : nereanor
+pred_list : ['nereanor']
+pred_mode : nereanor
+GT : neer
+*************************
+*************************
+378st data
+1_th_sampling
+Q: Take the last letters of each words in "Nubia Sarah Jalen Kris" and concatenate them.
+A: The answer is "aidahjeskir."
+pred_before :  "aidahjeskir."
+pred_after : aidahjeskir
+pred_list : ['aidahjeskir']
+pred_mode : aidahjeskir
+GT : ahns
+*************************
+*************************
+379st data
+1_th_sampling
+Q: Take the last letters of each words in "Garrett Eva Joaquin Monique" and concatenate them.
+A: The answer is "retta ova uinque."
+pred_before :  "retta ova uinque."
+pred_after : rettaovauinque
+pred_list : ['rettaovauinque']
+pred_mode : rettaovauinque
+GT : tane
+*************************
+*************************
+380st data
+1_th_sampling
+Q: Take the last letters of each words in "Georgina Joshua Lindsey César" and concatenate them.
+A: The answer is "arohsajydésC."
+pred_before :  "arohsajydésC."
+pred_after : arohsajydésC
+pred_list : ['arohsajydésC']
+pred_mode : arohsajydésC
+GT : aayr
+*************************
+*************************
+381st data
+1_th_sampling
+Q: Take the last letters of each words in "Bailey Lourdes Brianna Martín" and concatenate them.
+A: The answer is "ynnahT".
+pred_before :  "ynnahT".
+pred_after : ynnahT
+pred_list : ['ynnahT']
+pred_mode : ynnahT
+GT : ysan
+*************************
+*************************
+382st data
+1_th_sampling
+Q: Take the last letters of each words in "Sunil Tiana Darla Darnell" and concatenate them.
+A: The answer is "laniardalell."
+pred_before :  "laniardalell."
+pred_after : laniardalell
+pred_list : ['laniardalell']
+pred_mode : laniardalell
+GT : laal
+*************************
+*************************
+383st data
+1_th_sampling
+Q: Take the last letters of each words in "Luz Terence Elder Jazmin" and concatenate them.
+A: The answer is "rne lermin."
+pred_before :  "rne lermin."
+pred_after : rnelermin
+pred_list : ['rnelermin']
+pred_mode : rnelermin
+GT : zern
+*************************
+*************************
+384st data
+1_th_sampling
+Q: Take the last letters of each words in "Sally Sadie Christie Ellie" and concatenate them.
+A: The answer is "ydiee."
+pred_before :  "ydiee."
+pred_after : ydiee
+pred_list : ['ydiee']
+pred_mode : ydiee
+GT : yeee
+*************************
+*************************
+385st data
+1_th_sampling
+Q: Take the last letters of each words in "Billy Kassandra Joy Abe" and concatenate them.
+A: The answer is "ydraJ Abe."
+pred_before :  "ydraJ Abe."
+pred_after : ydraJAbe
+pred_list : ['ydraJAbe']
+pred_mode : ydraJAbe
+GT : yaye
+*************************
+*************************
+386st data
+1_th_sampling
+Q: Take the last letters of each words in "Chandler Martina Leonardo Gregg" and concatenate them.
+A: The answer is "ragnolo."
+pred_before :  "ragnolo."
+pred_after : ragnolo
+pred_list : ['ragnolo']
+pred_mode : ragnolo
+GT : raog
+*************************
+*************************
+387st data
+1_th_sampling
+Q: Take the last letters of each words in "Carolyn Sasha Mercy Keri" and concatenate them.
+A: The answer is "nayhseri."
+pred_before :  "nayhseri."
+pred_after : nayhseri
+pred_list : ['nayhseri']
+pred_mode : nayhseri
+GT : nayi
+*************************
+*************************
+388st data
+1_th_sampling
+Q: Take the last letters of each words in "Allyson Mara Jo Toni" and concatenate them.
+A: The answer is "ynarohtnai."
+pred_before :  "ynarohtnai."
+pred_after : ynarohtnai
+pred_list : ['ynarohtnai']
+pred_mode : ynarohtnai
+GT : naoi
+*************************
+*************************
+389st data
+1_th_sampling
+Q: Take the last letters of each words in "Garry Arielle Elba Rodney" and concatenate them.
+A: The answer is "yrayleba."
+pred_before :  "yrayleba."
+pred_after : yrayleba
+pred_list : ['yrayleba']
+pred_mode : yrayleba
+GT : yeay
+*************************
+*************************
+390st data
+1_th_sampling
+Q: Take the last letters of each words in "Jody Juan Rebekah Kaylee" and concatenate them.
+A: The answer is "ydnueahyeel."
+pred_before :  "ydnueahyeel."
+pred_after : ydnueahyeel
+pred_list : ['ydnueahyeel']
+pred_mode : ydnueahyeel
+GT : ynhe
+*************************
+*************************
+391st data
+1_th_sampling
+Q: Take the last letters of each words in "Maritza Nana Loretta Eric" and concatenate them.
+A: The answer is "atzay anay orettay icay".
+pred_before :  "atzay anay orettay icay".
+pred_after : atzayanayorettayicay
+pred_list : ['atzayanayorettayicay']
+pred_mode : atzayanayorettayicay
+GT : aaac
+*************************
+*************************
+392st data
+1_th_sampling
+Q: Take the last letters of each words in "Damian Crystal Nisha Hernan" and concatenate them.
+A: The answer is "namyril."
+pred_before :  "namyril."
+pred_after : namyril
+pred_list : ['namyril']
+pred_mode : namyril
+GT : nlan
+*************************
+*************************
+393st data
+1_th_sampling
+Q: Take the last letters of each words in "Geo Kody Isaias Giovanni" and concatenate them.
+A: The answer is "saiasiovanni."
+pred_before :  "saiasiovanni."
+pred_after : saiasiovanni
+pred_list : ['saiasiovanni']
+pred_mode : saiasiovanni
+GT : oysi
+*************************
+*************************
+394st data
+1_th_sampling
+Q: Take the last letters of each words in "Peggy Trent Darrell Pamela" and concatenate them.
+A: The answer is "yldam."
+pred_before :  "yldam."
+pred_after : yldam
+pred_list : ['yldam']
+pred_mode : yldam
+GT : ytla
+*************************
+*************************
+395st data
+1_th_sampling
+Q: Take the last letters of each words in "Michel Roy Sergey Jessie" and concatenate them.
+A: The answer is "yegay."
+pred_before :  "yegay."
+pred_after : yegay
+pred_list : ['yegay']
+pred_mode : yegay
+GT : lyye
+*************************
+*************************
+396st data
+1_th_sampling
+Q: Take the last letters of each words in "Ulises Derek Adrianna Eugene" and concatenate them.
+A: The answer is "sesege."
+pred_before :  "sesege."
+pred_after : sesege
+pred_list : ['sesege']
+pred_mode : sesege
+GT : skae
+*************************
+*************************
+397st data
+1_th_sampling
+Q: Take the last letters of each words in "Oswaldo José Luis Sheldon Tara" and concatenate them.
+A: The answer is "ldoalhu."
+pred_before :  "ldoalhu."
+pred_after : ldoalhu
+pred_list : ['ldoalhu']
+pred_mode : ldoalhu
+GT : osna
+*************************
+*************************
+398st data
+1_th_sampling
+Q: Take the last letters of each words in "Bobbi Tamika Zac Lala" and concatenate them.
+A: The answer is "abamilac."
+pred_before :  "abamilac."
+pred_after : abamilac
+pred_list : ['abamilac']
+pred_mode : abamilac
+GT : iaca
+*************************
+*************************
+399st data
+1_th_sampling
+Q: Take the last letters of each words in "Charles Emilio Vivek Steve" and concatenate them.
+A: The answer is "keo etivs."
+pred_before :  "keo etivs."
+pred_after : keoetivs
+pred_list : ['keoetivs']
+pred_mode : keoetivs
+GT : soke
+*************************
+*************************
+400st data
+1_th_sampling
+Q: Take the last letters of each words in "Selena Keisha Gladys Cedric" and concatenate them.
+A: The answer is "anaydriC".
+pred_before :  "anaydriC".
+pred_after : anaydriC
+pred_list : ['anaydriC']
+pred_mode : anaydriC
+GT : aasc
+*************************
+*************************
+401st data
+1_th_sampling
+Q: Take the last letters of each words in "Idalia Arnoldo Marla Duane" and concatenate them.
+A: The answer is "ldiamrnou."
+pred_before :  "ldiamrnou."
+pred_after : ldiamrnou
+pred_list : ['ldiamrnou']
+pred_mode : ldiamrnou
+GT : aoae
+*************************
+*************************
+402st data
+1_th_sampling
+Q: Take the last letters of each words in "Debby Geoffrey Alana Silvestre" and concatenate them.
+A: The answer is "yrtee."
+pred_before :  "yrtee."
+pred_after : yrtee
+pred_list : ['yrtee']
+pred_mode : yrtee
+GT : yyae
+*************************
+*************************
+403st data
+1_th_sampling
+Q: Take the last letters of each words in "Vicente Dayana Kasey Lin" and concatenate them.
+A: The answer is "yenayyin."
+pred_before :  "yenayyin."
+pred_after : yenayyin
+pred_list : ['yenayyin']
+pred_mode : yenayyin
+GT : eayn
+*************************
+*************************
+404st data
+1_th_sampling
+Q: Take the last letters of each words in "Walter Mikayla Larry Ryan" and concatenate them.
+A: The answer is "yalaryan."
+pred_before :  "yalaryan."
+pred_after : yalaryan
+pred_list : ['yalaryan']
+pred_mode : yalaryan
+GT : rayn
+*************************
+*************************
+405st data
+1_th_sampling
+Q: Take the last letters of each words in "Rohan Antoinette Nikki Aida" and concatenate them.
+A: The answer is "nettinikkiida."
+pred_before :  "nettinikkiida."
+pred_after : nettinikkiida
+pred_list : ['nettinikkiida']
+pred_mode : nettinikkiida
+GT : neia
+*************************
+*************************
+406st data
+1_th_sampling
+Q: Take the last letters of each words in "Marian Joanne Darrin Rohit" and concatenate them.
+A: The answer is "niahnneainoit."
+pred_before :  "niahnneainoit."
+pred_after : niahnneainoit
+pred_list : ['niahnneainoit']
+pred_mode : niahnneainoit
+GT : nent
+*************************
+*************************
+407st data
+1_th_sampling
+Q: Take the last letters of each words in "Nicolas Aaliyah Pascual Rob" and concatenate them.
+A: The answer is "sasualob."
+pred_before :  "sasualob."
+pred_after : sasualob
+pred_list : ['sasualob']
+pred_mode : sasualob
+GT : shlb
+*************************
+*************************
+408st data
+1_th_sampling
+Q: Take the last letters of each words in "Yazmin Lea Rodrigo Sammy" and concatenate them.
+A: The answer is "yin arogy aym."
+pred_before :  "yin arogy aym."
+pred_after : yinarogyaym
+pred_list : ['yinarogyaym']
+pred_mode : yinarogyaym
+GT : naoy
+*************************
+*************************
+409st data
+1_th_sampling
+Q: Take the last letters of each words in "Alina Alessandra Amina Bianca" and concatenate them.
+A: The answer is "aninaciacilab."
+pred_before :  "aninaciacilab."
+pred_after : aninaciacilab
+pred_list : ['aninaciacilab']
+pred_mode : aninaciacilab
+GT : aaaa
+*************************
+*************************
+410st data
+1_th_sampling
+Q: Take the last letters of each words in "Raven Marisela Ross Angie" and concatenate them.
+A: The answer is "ssaie."
+pred_before :  "ssaie."
+pred_after : ssaie
+pred_list : ['ssaie']
+pred_mode : ssaie
+GT : nase
+*************************
+*************************
+411st data
+1_th_sampling
+Q: Take the last letters of each words in "Tucker Daniel Hernandez Alison" and concatenate them.
+A: The answer is "snlae."
+pred_before :  "snlae."
+pred_after : snlae
+pred_list : ['snlae']
+pred_mode : snlae
+GT : rlzn
+*************************
+*************************
+412st data
+1_th_sampling
+Q: Take the last letters of each words in "Domingo Briana Michael Joan" and concatenate them.
+A: The answer is "agobiranaihom."
+pred_before :  "agobiranaihom."
+pred_after : agobiranaihom
+pred_list : ['agobiranaihom']
+pred_mode : agobiranaihom
+GT : oaln
+*************************
+*************************
+413st data
+1_th_sampling
+Q: Take the last letters of each words in "Talia Nicki Tia Divya" and concatenate them.
+A: The answer is "alyinckivia."
+pred_before :  "alyinckivia."
+pred_after : alyinckivia
+pred_list : ['alyinckivia']
+pred_mode : alyinckivia
+GT : aiaa
+*************************
+*************************
+414st data
+1_th_sampling
+Q: Take the last letters of each words in "Krishna Catalina Eileen Teddy" and concatenate them.
+A: The answer is "anatay."
+pred_before :  "anatay."
+pred_after : anatay
+pred_list : ['anatay']
+pred_mode : anatay
+GT : aany
+*************************
+*************************
+415st data
+1_th_sampling
+Q: Take the last letters of each words in "Celso Tracy Winston Anton" and concatenate them.
+A: The answer is "notycninston."
+pred_before :  "notycninston."
+pred_after : notycninston
+pred_list : ['notycninston']
+pred_mode : notycninston
+GT : oynn
+*************************
+*************************
+416st data
+1_th_sampling
+Q: Take the last letters of each words in "Antoine Javier Brett Stewart" and concatenate them.
+A: The answer is "ttea."
+pred_before :  "ttea."
+pred_after : ttea
+pred_list : ['ttea']
+pred_mode : ttea
+GT : ertt
+*************************
+*************************
+417st data
+1_th_sampling
+Q: Take the last letters of each words in "Hailey Avi Bree Samira" and concatenate them.
+A: The answer is "yia eer ari ara."
+pred_before :  "yia eer ari ara."
+pred_after : yiaeerariara
+pred_list : ['yiaeerariara']
+pred_mode : yiaeerariara
+GT : yiea
+*************************
+*************************
+418st data
+1_th_sampling
+Q: Take the last letters of each words in "Dino Toby Abigail Manuela" and concatenate them.
+A: The answer is "onay ala."
+pred_before :  "onay ala."
+pred_after : onayala
+pred_list : ['onayala']
+pred_mode : onayala
+GT : oyla
+*************************
+*************************
+419st data
+1_th_sampling
+Q: Take the last letters of each words in "Anil Enrique Jimmy Jhonny" and concatenate them.
+A: The answer is "lilililili".
+pred_before :  "lilililili".
+pred_after : lilililili
+pred_list : ['lilililili']
+pred_mode : lilililili
+GT : leyy
+*************************
+*************************
+420st data
+1_th_sampling
+Q: Take the last letters of each words in "Lynda Danilo Jonny Judith" and concatenate them.
+A: The answer is "adilojuh."
+pred_before :  "adilojuh."
+pred_after : adilojuh
+pred_list : ['adilojuh']
+pred_mode : adilojuh
+GT : aoyh
+*************************
+*************************
+421st data
+1_th_sampling
+Q: Take the last letters of each words in "Miriam Brandy Bertha Renato" and concatenate them.
+A: The answer is "nahtoyerb."
+pred_before :  "nahtoyerb."
+pred_after : nahtoyerb
+pred_list : ['nahtoyerb']
+pred_mode : nahtoyerb
+GT : myao
+*************************
+*************************
+422st data
+1_th_sampling
+Q: Take the last letters of each words in "Melody Ramiro Humberto Jacob" and concatenate them.
+A: The answer is "odoyamiretobac."
+pred_before :  "odoyamiretobac."
+pred_after : odoyamiretobac
+pred_list : ['odoyamiretobac']
+pred_mode : odoyamiretobac
+GT : yoob
+*************************
+*************************
+423st data
+1_th_sampling
+Q: Take the last letters of each words in "Jazmine Carmen Kitty Nina" and concatenate them.
+A: The answer is "ymnit."
+pred_before :  "ymnit."
+pred_after : ymnit
+pred_list : ['ymnit']
+pred_mode : ymnit
+GT : enya
+*************************
+*************************
+424st data
+1_th_sampling
+Q: Take the last letters of each words in "Neil Dani Eddie Marcelino" and concatenate them.
+A: The answer is "loidaninome."
+pred_before :  "loidaninome."
+pred_after : loidaninome
+pred_list : ['loidaninome']
+pred_mode : loidaninome
+GT : lieo
+*************************
+*************************
+425st data
+1_th_sampling
+Q: Take the last letters of each words in "Charmaine Vic Homero Jeanine" and concatenate them.
+A: The answer is "neain."
+pred_before :  "neain."
+pred_after : neain
+pred_list : ['neain']
+pred_mode : neain
+GT : ecoe
+*************************
+*************************
+426st data
+1_th_sampling
+Q: Take the last letters of each words in "Gayle Doreen Chelsey Helena" and concatenate them.
+A: The answer is "nelea."
+pred_before :  "nelea."
+pred_after : nelea
+pred_list : ['nelea']
+pred_mode : nelea
+GT : enya
+*************************
+*************************
+427st data
+1_th_sampling
+Q: Take the last letters of each words in "Martha Elijah Dominic Tonya" and concatenate them.
+A: The answer is "ahtajilomocinay."
+pred_before :  "ahtajilomocinay."
+pred_after : ahtajilomocinay
+pred_list : ['ahtajilomocinay']
+pred_mode : ahtajilomocinay
+GT : ahca
+*************************
+*************************
+428st data
+1_th_sampling
+Q: Take the last letters of each words in "Cinthia Lloyd Jacqueline Jc" and concatenate them.
+A: The answer is "aydiaydelinec."
+pred_before :  "aydiaydelinec."
+pred_after : aydiaydelinec
+pred_list : ['aydiaydelinec']
+pred_mode : aydiaydelinec
+GT : adec
+*************************
+*************************
+429st data
+1_th_sampling
+Q: Take the last letters of each words in "Rosario Manoj Adolfo Reina" and concatenate them.
+A: The answer is "jodolfoina".
+pred_before :  "jodolfoina".
+pred_after : jodolfoina
+pred_list : ['jodolfoina']
+pred_mode : jodolfoina
+GT : ojoa
+*************************
+*************************
+430st data
+1_th_sampling
+Q: Take the last letters of each words in "Ivy Romeo Jana Ej" and concatenate them.
+A: The answer is "ymej."
+pred_before :  "ymej."
+pred_after : ymej
+pred_list : ['ymej']
+pred_mode : ymej
+GT : yoaj
+*************************
+*************************
+431st data
+1_th_sampling
+Q: Take the last letters of each words in "Nidia Rachelle Lauren Shelia" and concatenate them.
+A: The answer is "aidarhcnalu."
+pred_before :  "aidarhcnalu."
+pred_after : aidarhcnalu
+pred_list : ['aidarhcnalu']
+pred_mode : aidarhcnalu
+GT : aena
+*************************
+*************************
+432st data
+1_th_sampling
+Q: Take the last letters of each words in "Roni Nikita Hannah Kiana" and concatenate them.
+A: The answer is "ahnaian."
+pred_before :  "ahnaian."
+pred_after : ahnaian
+pred_list : ['ahnaian']
+pred_mode : ahnaian
+GT : iaha
+*************************
+*************************
+433st data
+1_th_sampling
+Q: Take the last letters of each words in "Angel Sheryl Dulce Kenny" and concatenate them.
+A: The answer is "yelcedyn."
+pred_before :  "yelcedyn."
+pred_after : yelcedyn
+pred_list : ['yelcedyn']
+pred_mode : yelcedyn
+GT : lley
+*************************
+*************************
+434st data
+1_th_sampling
+Q: Take the last letters of each words in "Manolo Bobbie Ash Jaqueline" and concatenate them.
+A: The answer is "olobiehileine."
+pred_before :  "olobiehileine."
+pred_after : olobiehileine
+pred_list : ['olobiehileine']
+pred_mode : olobiehileine
+GT : oehe
+*************************
+*************************
+435st data
+1_th_sampling
+Q: Take the last letters of each words in "Maura Selvin Tabitha Gino" and concatenate them.
+A: The answer is "nivatshino."
+pred_before :  "nivatshino."
+pred_after : nivatshino
+pred_list : ['nivatshino']
+pred_mode : nivatshino
+GT : anao
+*************************
+*************************
+436st data
+1_th_sampling
+Q: Take the last letters of each words in "Deon Lane Everett Lindsay" and concatenate them.
+A: The answer is "ntey".
+pred_before :  "ntey".
+pred_after : ntey
+pred_list : ['ntey']
+pred_mode : ntey
+GT : nety
+*************************
+*************************
+437st data
+1_th_sampling
+Q: Take the last letters of each words in "Jenni Leonel Micheal Kat" and concatenate them.
+A: The answer is "nni eonl ael at".
+pred_before :  "nni eonl ael at".
+pred_after : nnieonlaelat
+pred_list : ['nnieonlaelat']
+pred_mode : nnieonlaelat
+GT : illt
+*************************
+*************************
+438st data
+1_th_sampling
+Q: Take the last letters of each words in "April Molly Maurice Jaclyn" and concatenate them.
+A: The answer is "yruhyln."
+pred_before :  "yruhyln."
+pred_after : yruhyln
+pred_list : ['yruhyln']
+pred_mode : yruhyln
+GT : lyen
+*************************
+*************************
+439st data
+1_th_sampling
+Q: Take the last letters of each words in "Isaac Reyes Carly Tania" and concatenate them.
+A: The answer is "sekyrayaniat."
+pred_before :  "sekyrayaniat."
+pred_after : sekyrayaniat
+pred_list : ['sekyrayaniat']
+pred_mode : sekyrayaniat
+GT : csya
+*************************
+*************************
+440st data
+1_th_sampling
+Q: Take the last letters of each words in "Wilfredo Abby Karthik Perry" and concatenate them.
+A: The answer is "doykyrp."
+pred_before :  "doykyrp."
+pred_after : doykyrp
+pred_list : ['doykyrp']
+pred_mode : doykyrp
+GT : oyky
+*************************
+*************************
+441st data
+1_th_sampling
+Q: Take the last letters of each words in "Efren Rex Marilyn Emerson" and concatenate them.
+A: The answer is "nxyns".
+pred_before :  "nxyns".
+pred_after : nxyns
+pred_list : ['nxyns']
+pred_mode : nxyns
+GT : nxnn
+*************************
+*************************
+442st data
+1_th_sampling
+Q: Take the last letters of each words in "Leandro Maricela Genevieve Lesly" and concatenate them.
+A: The answer is "eoahveely."
+pred_before :  "eoahveely."
+pred_after : eoahveely
+pred_list : ['eoahveely']
+pred_mode : eoahveely
+GT : oaey
+*************************
+*************************
+443st data
+1_th_sampling
+Q: Take the last letters of each words in "Cheri Rico Teo Jesus" and concatenate them.
+A: The answer is "susej."
+pred_before :  "susej."
+pred_after : susej
+pred_list : ['susej']
+pred_mode : susej
+GT : ioos
+*************************
+*************************
+444st data
+1_th_sampling
+Q: Take the last letters of each words in "Jessy Libby Danielle Red" and concatenate them.
+A: The answer is "ybyed."
+pred_before :  "ybyed."
+pred_after : ybyed
+pred_list : ['ybyed']
+pred_mode : ybyed
+GT : yyed
+*************************
+*************************
+445st data
+1_th_sampling
+Q: Take the last letters of each words in "Scotty Edgar Hanna Austin" and concatenate them.
+A: The answer is "annay."
+pred_before :  "annay."
+pred_after : annay
+pred_list : ['annay']
+pred_mode : annay
+GT : yran
+*************************
+*************************
+446st data
+1_th_sampling
+Q: Take the last letters of each words in "Rosie Charlie Mick Jacquelyn" and concatenate them.
+A: The answer is "yenohay."
+pred_before :  "yenohay."
+pred_after : yenohay
+pred_list : ['yenohay']
+pred_mode : yenohay
+GT : eekn
+*************************
+*************************
+447st data
+1_th_sampling
+Q: Take the last letters of each words in "Rosa Lana Curtis Rae" and concatenate them.
+A: The answer is "sar."
+pred_before :  "sar."
+pred_after : sar
+pred_list : ['sar']
+pred_mode : sar
+GT : aase
+*************************
+*************************
+448st data
+1_th_sampling
+Q: Take the last letters of each words in "Teri Lina Mery Melanie" and concatenate them.
+A: The answer is "anelayi."
+pred_before :  "anelayi."
+pred_after : anelayi
+pred_list : ['anelayi']
+pred_mode : anelayi
+GT : iaye
+*************************
+*************************
+449st data
+1_th_sampling
+Q: Take the last letters of each words in "Sterling Jenifer Patsy Denise" and concatenate them.
+A: The answer is "nejsyltardip."
+pred_before :  "nejsyltardip."
+pred_after : nejsyltardip
+pred_list : ['nejsyltardip']
+pred_mode : nejsyltardip
+GT : grye
+*************************
+*************************
+450st data
+1_th_sampling
+Q: Take the last letters of each words in "Caleb Chase Eleazar Chanel" and concatenate them.
+A: The answer is "leazarhanel."
+pred_before :  "leazarhanel."
+pred_after : leazarhanel
+pred_list : ['leazarhanel']
+pred_mode : leazarhanel
+GT : berl
+*************************
+*************************
+451st data
+1_th_sampling
+Q: Take the last letters of each words in "King Edith Traci Flor" and concatenate them.
+A: The answer is "driftor."
+pred_before :  "driftor."
+pred_after : driftor
+pred_list : ['driftor']
+pred_mode : driftor
+GT : ghir
+*************************
+*************************
+452st data
+1_th_sampling
+Q: Take the last letters of each words in "Shannon Millie Rosemary Priyanka" and concatenate them.
+A: The answer is "naykorimay."
+pred_before :  "naykorimay."
+pred_after : naykorimay
+pred_list : ['naykorimay']
+pred_mode : naykorimay
+GT : neya
+*************************
+*************************
+453st data
+1_th_sampling
+Q: Take the last letters of each words in "Janet Ant Vickie Elias" and concatenate them.
+A: The answer is "saintveila."
+pred_before :  "saintveila."
+pred_after : saintveila
+pred_list : ['saintveila']
+pred_mode : saintveila
+GT : ttes
+*************************
+*************************
+454st data
+1_th_sampling
+Q: Take the last letters of each words in "Agnes Adrienne Haley Riley" and concatenate them.
+A: The answer is "ydei."
+pred_before :  "ydei."
+pred_after : ydei
+pred_list : ['ydei']
+pred_mode : ydei
+GT : seyy
+*************************
+*************************
+455st data
+1_th_sampling
+Q: Take the last letters of each words in "Gabino Kayla Laurie Familia" and concatenate them.
+A: The answer is "yalieilamifa."
+pred_before :  "yalieilamifa."
+pred_after : yalieilamifa
+pred_list : ['yalieilamifa']
+pred_mode : yalieilamifa
+GT : oaea
+*************************
+*************************
+456st data
+1_th_sampling
+Q: Take the last letters of each words in "Mario Pierre Amit Nelson" and concatenate them.
+A: The answer is "roidelpnam."
+pred_before :  "roidelpnam."
+pred_after : roidelpnam
+pred_list : ['roidelpnam']
+pred_mode : roidelpnam
+GT : oetn
+*************************
+*************************
+457st data
+1_th_sampling
+Q: Take the last letters of each words in "Angelica Tariq Ursula Nena" and concatenate them.
+A: The answer is "aglica ari ula ena".
+pred_before :  "aglica ari ula ena".
+pred_after : aglicaariulaena
+pred_list : ['aglicaariulaena']
+pred_mode : aglicaariulaena
+GT : aqaa
+*************************
+*************************
+458st data
+1_th_sampling
+Q: Take the last letters of each words in "Bernard Lidia Sebastian Judy" and concatenate them.
+A: The answer is "drayuj."
+pred_before :  "drayuj."
+pred_after : drayuj
+pred_list : ['drayuj']
+pred_mode : drayuj
+GT : dany
+*************************
+*************************
+459st data
+1_th_sampling
+Q: Take the last letters of each words in "Maxwell Jose Beto Joe" and concatenate them.
+A: The answer is "xwell ose etoe oe."
+pred_before :  "xwell ose etoe oe."
+pred_after : xwelloseetoeoe
+pred_list : ['xwelloseetoeoe']
+pred_mode : xwelloseetoeoe
+GT : leoe
+*************************
+*************************
+460st data
+1_th_sampling
+Q: Take the last letters of each words in "Margaret Rosi Willy Charlene" and concatenate them.
+A: The answer is "etarohsiylen."
+pred_before :  "etarohsiylen."
+pred_after : etarohsiylen
+pred_list : ['etarohsiylen']
+pred_mode : etarohsiylen
+GT : tiye
+*************************
+*************************
+461st data
+1_th_sampling
+Q: Take the last letters of each words in "Quinton Sam Soledad Becca" and concatenate them.
+A: The answer is "ntonsamledacce."
+pred_before :  "ntonsamledacce."
+pred_after : ntonsamledacce
+pred_list : ['ntonsamledacce']
+pred_mode : ntonsamledacce
+GT : nmda
+*************************
+*************************
+462st data
+1_th_sampling
+Q: Take the last letters of each words in "Donnie Alli Terry Krystal" and concatenate them.
+A: The answer is "yltal."
+pred_before :  "yltal."
+pred_after : yltal
+pred_list : ['yltal']
+pred_mode : yltal
+GT : eiyl
+*************************
+*************************
+463st data
+1_th_sampling
+Q: Take the last letters of each words in "Billie Paloma Tanner Raul" and concatenate them.
+A: The answer is "anneraul."
+pred_before :  "anneraul."
+pred_after : anneraul
+pred_list : ['anneraul']
+pred_mode : anneraul
+GT : earl
+*************************
+*************************
+464st data
+1_th_sampling
+Q: Take the last letters of each words in "Marco Antonio Suzette Roland Isabel" and concatenate them.
+A: The answer is "odetailazil."
+pred_before :  "odetailazil."
+pred_after : odetailazil
+pred_list : ['odetailazil']
+pred_mode : odetailazil
+GT : oedl
+*************************
+*************************
+465st data
+1_th_sampling
+Q: Take the last letters of each words in "Chantal Ines Valeria Francesca" and concatenate them.
+A: The answer is "alaniaecafr."
+pred_before :  "alaniaecafr."
+pred_after : alaniaecafr
+pred_list : ['alaniaecafr']
+pred_mode : alaniaecafr
+GT : lsaa
+*************************
+*************************
+466st data
+1_th_sampling
+Q: Take the last letters of each words in "Tori Mariam Gaby Brayan" and concatenate them.
+A: The answer is "yarn."
+pred_before :  "yarn."
+pred_after : yarn
+pred_list : ['yarn']
+pred_mode : yarn
+GT : imyn
+*************************
+*************************
+467st data
+1_th_sampling
+Q: Take the last letters of each words in "Rahul Praveen Isaiah Elsie" and concatenate them.
+A: The answer is "luevneaihse."
+pred_before :  "luevneaihse."
+pred_after : luevneaihse
+pred_list : ['luevneaihse']
+pred_mode : luevneaihse
+GT : lnhe
+*************************
+*************************
+468st data
+1_th_sampling
+Q: Take the last letters of each words in "Yvonne Rafaela Jb Salomon" and concatenate them.
+A: The answer is "afajlomon."
+pred_before :  "afajlomon."
+pred_after : afajlomon
+pred_list : ['afajlomon']
+pred_mode : afajlomon
+GT : eabn
+*************************
+*************************
+469st data
+1_th_sampling
+Q: Take the last letters of each words in "Carlos Jackie Callie Caitlin" and concatenate them.
+A: The answer is "slaj yllac aitni."
+pred_before :  "slaj yllac aitni."
+pred_after : slajyllacaitni
+pred_list : ['slajyllacaitni']
+pred_mode : slajyllacaitni
+GT : seen
+*************************
+*************************
+470st data
+1_th_sampling
+Q: Take the last letters of each words in "Bret Lois Ismael Mirna" and concatenate them.
+A: The answer is "tliiM".
+pred_before :  "tliiM".
+pred_after : tliiM
+pred_list : ['tliiM']
+pred_mode : tliiM
+GT : tsla
+*************************
+*************************
+471st data
+1_th_sampling
+Q: Take the last letters of each words in "Ericka Aly Darius Reed" and concatenate them.
+A: The answer is "akaydu."
+pred_before :  "akaydu."
+pred_after : akaydu
+pred_list : ['akaydu']
+pred_mode : akaydu
+GT : aysd
+*************************
+*************************
+472st data
+1_th_sampling
+Q: Take the last letters of each words in "Héctor Daniela Rossy Jose Manuel" and concatenate them.
+A: The answer is "yoselauhctrdaniamanuel".
+pred_before :  "yoselauhctrdaniamanuel".
+pred_after : yoselauhctrdaniamanuel
+pred_list : ['yoselauhctrdaniamanuel']
+pred_mode : yoselauhctrdaniamanuel
+GT : rayl
+*************************
+*************************
+473st data
+1_th_sampling
+Q: Take the last letters of each words in "Louise Mariano Laura Gerardo" and concatenate them.
+A: The answer is "aidoragero."
+pred_before :  "aidoragero."
+pred_after : aidoragero
+pred_list : ['aidoragero']
+pred_mode : aidoragero
+GT : eoao
+*************************
+*************************
+474st data
+1_th_sampling
+Q: Take the last letters of each words in "Boris Sabina Kaitlyn Cameron" and concatenate them.
+A: The answer is "nimotac."
+pred_before :  "nimotac."
+pred_after : nimotac
+pred_list : ['nimotac']
+pred_mode : nimotac
+GT : sann
+*************************
+*************************
+475st data
+1_th_sampling
+Q: Take the last letters of each words in "Alfonso Collin Amado Dick" and concatenate them.
+A: The answer is "dock".
+pred_before :  "dock".
+pred_after : dock
+pred_list : ['dock']
+pred_mode : dock
+GT : onok
+*************************
+*************************
+476st data
+1_th_sampling
+Q: Take the last letters of each words in "Earl Rudy Harrison Nadine" and concatenate them.
+A: The answer is "radine."
+pred_before :  "radine."
+pred_after : radine
+pred_list : ['radine']
+pred_mode : radine
+GT : lyne
+*************************
+*************************
+477st data
+1_th_sampling
+Q: Take the last letters of each words in "Penny Harry Jessica Horacio" and concatenate them.
+A: The answer is "yny yraJ ocaiH."
+pred_before :  "yny yraJ ocaiH."
+pred_after : ynyyraJocaiH
+pred_list : ['ynyyraJocaiH']
+pred_mode : ynyyraJocaiH
+GT : yyao
+*************************
+*************************
+478st data
+1_th_sampling
+Q: Take the last letters of each words in "Star Jude Rosemarie Raquel" and concatenate them.
+A: The answer is "eluojardaruel."
+pred_before :  "eluojardaruel."
+pred_after : eluojardaruel
+pred_list : ['eluojardaruel']
+pred_mode : eluojardaruel
+GT : reel
+*************************
+*************************
+479st data
+1_th_sampling
+Q: Take the last letters of each words in "Ever Gio Elia Ramesh" and concatenate them.
+A: The answer is "hsemeoia."
+pred_before :  "hsemeoia."
+pred_after : hsemeoia
+pred_list : ['hsemeoia']
+pred_mode : hsemeoia
+GT : roah
+*************************
+*************************
+480st data
+1_th_sampling
+Q: Take the last letters of each words in "Juana Chip Lila Jayme" and concatenate them.
+A: The answer is "anujayp."
+pred_before :  "anujayp."
+pred_after : anujayp
+pred_list : ['anujayp']
+pred_mode : anujayp
+GT : apae
+*************************
+*************************
+481st data
+1_th_sampling
+Q: Take the last letters of each words in "Selina Tasha Jarrod Maddy" and concatenate them.
+A: The answer is "anitajrodaddy."
+pred_before :  "anitajrodaddy."
+pred_after : anitajrodaddy
+pred_list : ['anitajrodaddy']
+pred_mode : anitajrodaddy
+GT : aady
+*************************
+*************************
+482st data
+1_th_sampling
+Q: Take the last letters of each words in "Marlen Sonja Anita Dale" and concatenate them.
+A: The answer is "aleda."
+pred_before :  "aleda."
+pred_after : aleda
+pred_list : ['aleda']
+pred_mode : aleda
+GT : naae
+*************************
+*************************
+483st data
+1_th_sampling
+Q: Take the last letters of each words in "Lacey Nora Debra Ashleigh" and concatenate them.
+A: The answer is "yrad hgiel darB ehthlaiA."
+pred_before :  "yrad hgiel darB ehthlaiA."
+pred_after : yradhgieldarBehthlaiA
+pred_list : ['yradhgieldarBehthlaiA']
+pred_mode : yradhgieldarBehthlaiA
+GT : yaah
+*************************
+*************************
+484st data
+1_th_sampling
+Q: Take the last letters of each words in "Hilario Magdalena Morris Patricio" and concatenate them.
+A: The answer is "sop."
+pred_before :  "sop."
+pred_after : sop
+pred_list : ['sop']
+pred_mode : sop
+GT : oaso
+*************************
+*************************
+485st data
+1_th_sampling
+Q: Take the last letters of each words in "Ari Jasmine Elliot Kendrick" and concatenate them.
+A: The answer is "ntykd."
+pred_before :  "ntykd."
+pred_after : ntykd
+pred_list : ['ntykd']
+pred_mode : ntykd
+GT : ietk
+*************************
+*************************
+486st data
+1_th_sampling
+Q: Take the last letters of each words in "Stella Janis Darren Lena" and concatenate them.
+A: The answer is "anisrena."
+pred_before :  "anisrena."
+pred_after : anisrena
+pred_list : ['anisrena']
+pred_mode : anisrena
+GT : asna
+*************************
+*************************
+487st data
+1_th_sampling
+Q: Take the last letters of each words in "Kyra Luciano Ciara Bryan" and concatenate them.
+A: The answer is "nooairay".
+pred_before :  "nooairay".
+pred_after : nooairay
+pred_list : ['nooairay']
+pred_mode : nooairay
+GT : aoan
+*************************
+*************************
+488st data
+1_th_sampling
+Q: Take the last letters of each words in "Kennedy Ginny Iliana Sky" and concatenate them.
+A: The answer is "ydniak."
+pred_before :  "ydniak."
+pred_after : ydniak
+pred_list : ['ydniak']
+pred_mode : ydniak
+GT : yyay
+*************************
+*************************
+489st data
+1_th_sampling
+Q: Take the last letters of each words in "Karen Hector Mai Steven" and concatenate them.
+A: The answer is "nereht vias."
+pred_before :  "nereht vias."
+pred_after : nerehtvias
+pred_list : ['nerehtvias']
+pred_mode : nerehtvias
+GT : nrin
+*************************
+*************************
+490st data
+1_th_sampling
+Q: Take the last letters of each words in "Lorraine Corinne Kate Floyd" and concatenate them.
+A: The answer is "einneayd."
+pred_before :  "einneayd."
+pred_after : einneayd
+pred_list : ['einneayd']
+pred_mode : einneayd
+GT : eeed
+*************************
+*************************
+491st data
+1_th_sampling
+Q: Take the last letters of each words in "Davis Jules Fabiola Cherie" and concatenate them.
+A: The answer is "saiulfoieh."
+pred_before :  "saiulfoieh."
+pred_after : saiulfoieh
+pred_list : ['saiulfoieh']
+pred_mode : saiulfoieh
+GT : ssae
+*************************
+*************************
+492st data
+1_th_sampling
+Q: Take the last letters of each words in "Clark Jenn Diane Blair" and concatenate them.
+A: The answer is "larkenneilair."
+pred_before :  "larkenneilair."
+pred_after : larkenneilair
+pred_list : ['larkenneilair']
+pred_mode : larkenneilair
+GT : kner
+*************************
+*************************
+493st data
+1_th_sampling
+Q: Take the last letters of each words in "Loren Wes Dean Hayley" and concatenate them.
+A: The answer is "yenahay."
+pred_before :  "yenahay."
+pred_after : yenahay
+pred_list : ['yenahay']
+pred_mode : yenahay
+GT : nsny
+*************************
+*************************
+494st data
+1_th_sampling
+Q: Take the last letters of each words in "Efrain Rickey Jonathan Kelli" and concatenate them.
+A: The answer is "ykei."
+pred_before :  "ykei."
+pred_after : ykei
+pred_list : ['ykei']
+pred_mode : ykei
+GT : nyni
+*************************
+*************************
+495st data
+1_th_sampling
+Q: Take the last letters of each words in "Brooklyn Dawn Tay Gene" and concatenate them.
+A: The answer is "nwnayene."
+pred_before :  "nwnayene."
+pred_after : nwnayene
+pred_list : ['nwnayene']
+pred_mode : nwnayene
+GT : nnye
+*************************
+*************************
+496st data
+1_th_sampling
+Q: Take the last letters of each words in "Sophie Gregorio Avery Pooja" and concatenate them.
+A: The answer is "eoiavyuj."
+pred_before :  "eoiavyuj."
+pred_after : eoiavyuj
+pred_list : ['eoiavyuj']
+pred_mode : eoiavyuj
+GT : eoya
+*************************
+*************************
+497st data
+1_th_sampling
+Q: Take the last letters of each words in "Teresa Reid Karin Gracie" and concatenate them.
+A: The answer is "aidairacie."
+pred_before :  "aidairacie."
+pred_after : aidairacie
+pred_list : ['aidairacie']
+pred_mode : aidairacie
+GT : adne
+*************************
+*************************
+498st data
+1_th_sampling
+Q: Take the last letters of each words in "Russ Berta Mandy Lydia" and concatenate them.
+A: The answer is "ydiarbmays."
+pred_before :  "ydiarbmays."
+pred_after : ydiarbmays
+pred_list : ['ydiarbmays']
+pred_mode : ydiarbmays
+GT : saya
+*************************
+*************************
+499st data
+1_th_sampling
+Q: Take the last letters of each words in "Hazel Gabrielle Tre Dalton" and concatenate them.
+A: The answer is "Lelayet".
+pred_before :  "Lelayet".
+pred_after : Lelayet
+pred_list : ['Lelayet']
+pred_mode : Lelayet
+GT : leen
+*************************
+*************************
+500st data
+1_th_sampling
+Q: Take the last letters of each words in "Vinny Landon Miguel Caitlyn" and concatenate them.
+A: The answer is "nydonigulayt".
+pred_before :  "nydonigulayt".
+pred_after : nydonigulayt
+pred_list : ['nydonigulayt']
+pred_mode : nydonigulayt
+GT : ynln
+*************************
+accuracy : 0.2
+./log/last_letters_zero_shot_20220512212133_api_log.json

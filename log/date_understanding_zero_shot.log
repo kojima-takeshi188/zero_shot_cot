@@ -1,0 +1,4130 @@
+*****************************
+Namespace(api_log_content=MyDict(), api_log_file_name='./log/bigbench_date_zero_shot_20220504084740_api_log.json', cot_trigger="Let's think step by step.", cot_trigger_no=1, dataset='bigbench_date', dataset_path='./dataset/Bigbench_Date/task.json', decode_strategy='greedy', demo_answer_trigger='The answer is', device='cpu', direct_answer_trigger='\nTherefore, among A through F, the answer is', direct_answer_trigger_for_zeroshot='Among A through F, the answer is', limit_dataset_size=0, max_length_cot=128, max_length_direct=32, max_num_worker=3, method='zero_shot', minibatch_size=1, model='gpt3-xl', plausible_flag=0, random_seed=1, sampling_num=10, sampling_temperature=0.5, sampling_top_p=1.0)
+*****************************
+setup data loader ...
+worker_seed : 1
+dataloader_num_workers: 3
+dataset : bigbench_date
+data size : 369
+average num of words for each sample : 35.03794037940379
+*************************
+1st data
+1_th_sampling
+Q: It was Sept. 1st, 2021 a week ago. What is the date today in MM/DD/YYYY? Answer Choices: (A) 09/22/2021 (B) 09/09/2021 (C) 09/08/2006 (D) 09/08/2021 (E) 09/07/2021 (F) 08/11/2021
+A: Among A through F, the answer is D: 09/08/2021.
+pred_before :  D: 09/08/2021.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+2st data
+1_th_sampling
+Q: May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 08/26/2001 (B) 04/26/2007 (C) 05/01/2002 (D) 04/25/2002 (E) 04/18/2002 (F) 04/26/2002
+A: Among A through F, the answer is D: 04/25/2002.
+pred_before :  D: 04/25/2002.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+3st data
+1_th_sampling
+Q: Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 01/23/2011 (B) 01/23/2078 (C) 01/22/2020 (D) 03/23/2020 (E) 01/23/2020
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : E
+*************************
+*************************
+4st data
+1_th_sampling
+Q: Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 03/05/2007 (B) 01/02/1973 (C) 03/08/1983 (D) 03/05/1973 (E) 02/05/1973 (F) 04/05/1973
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : E
+*************************
+*************************
+5st data
+1_th_sampling
+Q: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 06/20/2019 (B) 06/25/2019 (C) 12/20/2018 (D) 06/10/2019 (E) 02/20/2019
+A: Among A through F, the answer is A.
+pred_before :  A.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+6st data
+1_th_sampling
+Q: Today is the first day of 2007. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 12/25/1945 (B) 06/25/2006 (C) 12/25/2016 (D) 03/05/2007 (E) 12/25/2006 (F) 12/24/2006
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : E
+*************************
+*************************
+7st data
+1_th_sampling
+Q: The deadline is Jun 1, 2021, which is 2 days away from now. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 06/02/2021 (B) 05/31/2021 (C) 06/16/2021 (D) 05/31/1966 (E) 08/18/2021 (F) 05/31/1941
+A: Among A through F, the answer is A, 06/02/2021.
+pred_before :  A, 06/02/2021.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : B
+*************************
+*************************
+8st data
+1_th_sampling
+Q: Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 02/02/2019 (B) 02/09/2019 (C) 05/03/2019 (D) 01/29/2019 (E) 09/02/2019 (F) 01/16/2019
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : A
+*************************
+*************************
+9st data
+1_th_sampling
+Q: Today is the second day of the third month of 1966. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 03/12/1965 (B) 01/07/1965 (C) 11/02/1964 (D) 03/02/1965 (E) 03/01/1965 (F) 03/02/2012
+A: Among A through F, the answer is D: 03/02/1965.
+pred_before :  D: 03/02/1965.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+10st data
+1_th_sampling
+Q: Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 03/02/2003 (B) 03/02/2001 (C) 11/25/2001 (D) 02/23/2002 (E) 03/02/2002 (F) 03/16/2002
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : E
+*************************
+*************************
+11st data
+1_th_sampling
+Q: Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 01/02/1930 (B) 01/08/1930 (C) 04/08/1930 (D) 01/08/1860 (E) 01/08/1872
+A: Among A through F, the answer is A. 01/02/1930.
+pred_before :  A. 01/02/1930.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : B
+*************************
+*************************
+12st data
+1_th_sampling
+Q: It was Sept. 1st, 2021 a week ago. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 08/31/2021 (B) 09/09/2021 (C) 09/10/2021 (D) 09/17/2021 (E) 03/09/2022 (F) 09/02/2021
+A: Among A through F, the answer is F.
+pred_before :  F.
+pred_after : F
+pred_list : ['F']
+pred_mode : F
+GT : B
+*************************
+*************************
+13st data
+1_th_sampling
+Q: Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 02/03/2020 (B) 02/04/2020 (C) 02/03/1964 (D) 04/03/2020 (E) 11/03/2020 (F) 01/03/2020
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : A
+*************************
+*************************
+14st data
+1_th_sampling
+Q: Today is Sep 9, 1909. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 12/10/1908 (B) 09/10/1909 (C) 09/11/1909 (D) 07/03/1909 (E) 09/09/1909 (F) 12/14/1909
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+15st data
+1_th_sampling
+Q: The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 03/31/2018 (B) 12/30/2018 (C) 12/31/1961 (D) 12/31/2018 (E) 01/01/2019 (F) 12/29/2018
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+16st data
+1_th_sampling
+Q: Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 01/02/1973 (B) 03/05/1972 (C) 04/05/1973 (D) 03/02/1973 (E) 03/08/1983 (F) 02/26/1973
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+17st data
+1_th_sampling
+Q: Today, 8/3/1997, is a day that we will never forget. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 08/10/1997 (B) 03/10/1997 (C) 08/07/1997 (D) 08/24/1997 (E) 08/10/1928 (F) 08/10/1955
+A: Among A through F, the answer is A, 08/10/1997.
+pred_before :  A, 08/10/1997.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+18st data
+1_th_sampling
+Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 02/21/2017 (B) 03/21/2017 (C) 03/03/2017 (D) 04/27/2017 (E) 02/21/1961
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : A
+*************************
+*************************
+19st data
+1_th_sampling
+Q: On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 06/11/1923 (B) 07/11/2017 (C) 11/11/2016 (D) 06/07/2017 (E) 07/02/2017 (F) 06/11/2017
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+20st data
+1_th_sampling
+Q: In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 12/02/2032 (B) 12/02/1986 (C) 02/06/1987 (D) 12/02/2062 (E) 12/01/1986 (F) 03/02/1986
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : B
+*************************
+*************************
+21st data
+1_th_sampling
+Q: Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 03/05/2007 (B) 03/02/1973 (C) 03/05/1972 (D) 03/05/1973 (E) 01/02/1973 (F) 03/04/1983
+A: Among A through F, the answer is C.
+pred_before :  C.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+22st data
+1_th_sampling
+Q: Tomorrow is 11/12/2019. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 11/18/2011 (B) 11/04/2019 (C) 02/18/2020 (D) 08/21/2019 (E) 11/18/2025 (F) 11/18/2019
+A: Among A through F, the answer is 11/18/2019.
+pred_before :  11/18/2019.
+pred_after : 
+pred_list : ['']
+pred_mode : 
+GT : F
+*************************
+*************************
+23st data
+1_th_sampling
+Q: Jane is celebrating the last day of Jan 2012. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 01/22/2012 (B) 02/06/2012 (C) 01/24/1947 (D) 01/24/2012 (E) 08/24/2011 (F) 01/24/1923
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+24st data
+1_th_sampling
+Q: This is the last day of 1899. What is the date today in MM/DD/YYYY? Answer Choices: (A) 09/26/1899 (B) 11/30/1899 (C) 12/22/1899 (D) 01/09/1900 (E) 12/31/1885 (F) 12/31/1899
+A: Among A through F, the answer is F.
+pred_before :  F.
+pred_after : F
+pred_list : ['F']
+pred_mode : F
+GT : F
+*************************
+*************************
+25st data
+1_th_sampling
+Q: Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 12/25/2006 (B) 12/11/1937 (C) 12/25/1937 (D) 12/04/1937 (E) 07/25/1937 (F) 01/04/1938
+A: Among A through F, the answer is C, 12/25/1937.
+pred_before :  C, 12/25/1937.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+26st data
+1_th_sampling
+Q: Today is Christmas Eve of 1937. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 12/16/1937 (B) 09/18/1937 (C) 12/17/1937 (D) 08/17/1937 (E) 12/18/1937
+A: Among A through F, the answer is A: 12/16/1937.
+pred_before :  A: 12/16/1937.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : C
+*************************
+*************************
+27st data
+1_th_sampling
+Q: Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 09/11/2020 (B) 09/10/2020 (C) 09/17/2020 (D) 09/11/2094 (E) 08/14/2020 (F) 10/09/2020
+A: Among A through F, the answer is B: 09/10/2020.
+pred_before :  B: 09/10/2020.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : A
+*************************
+*************************
+28st data
+1_th_sampling
+Q: Today, 8/3/1997, is a day that we will never forget. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 08/03/1996 (B) 07/03/1997 (C) 09/22/1997 (D) 07/12/1997 (E) 07/02/1997 (F) 06/12/1997
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+29st data
+1_th_sampling
+Q: Yesterday was April 30, 2021. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 01/21/2021 (B) 04/13/2021 (C) 04/21/1990 (D) 04/21/2021 (E) 04/18/2021 (F) 04/22/2021
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : D
+*************************
+*************************
+30st data
+1_th_sampling
+Q: On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 06/08/1933 (B) 06/14/2017 (C) 06/08/2017 (D) 06/22/2017 (E) 06/06/2017 (F) 05/15/2017
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : C
+*************************
+*************************
+31st data
+1_th_sampling
+Q: This is the last day of 1899. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 12/21/1899 (B) 12/11/1899 (C) 12/24/1899 (D) 12/21/1887 (E) 03/22/1900
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : A
+*************************
+*************************
+32st data
+1_th_sampling
+Q: Jane booked a flight for tomorrow, Jul 29, 2002. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 07/08/2002 (B) 10/08/2002 (C) 08/08/2002 (D) 09/06/2002 (E) 10/18/2001 (F) 07/18/2002
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : F
+*************************
+*************************
+33st data
+1_th_sampling
+Q: It was Sept. 1st, 2021 a week ago. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 08/10/2021 (B) 09/08/2021 (C) 09/21/2021 (D) 09/06/2021 (E) 09/07/2021 (F) 08/07/2021
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+34st data
+1_th_sampling
+Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 03/18/2017 (B) 02/18/2017 (C) 02/13/2017 (D) 03/04/2017 (E) 02/25/2017 (F) 02/28/2017
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+35st data
+1_th_sampling
+Q: The deadline is Jun 1, 2021, which is 2 days away from now. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 05/21/2021 (B) 06/24/2021 (C) 05/20/2021 (D) 04/06/2021 (E) 04/29/2021
+A: Among A through F, the answer is C. 05/20/2021 is 10 days ago from 06/01/2021.
+pred_before :  C. 05/20/2021 is 10 days ago from 06/01/2021.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+36st data
+1_th_sampling
+Q: The current local time is 3:02 pm of 5/4/2004. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 05/04/2003 (B) 12/04/2002 (C) 05/03/2003 (D) 06/02/2003 (E) 06/14/2003
+A: Among A through F, the answer is A. 05/04/2003
+pred_before :  A. 05/04/2003
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+37st data
+1_th_sampling
+Q: Jane booked a flight for tomorrow, Jul 29, 2002. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 12/27/2001 (B) 07/27/1921 (C) 07/28/2002 (D) 07/27/2002 (E) 12/27/2002
+A: Among A through F, the answer is D. 07/27/2002.
+pred_before :  D. 07/27/2002.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+38st data
+1_th_sampling
+Q: On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 06/25/2017 (B) 08/05/2017 (C) 06/19/2017 (D) 06/13/2017 (E) 06/18/2017 (F) 06/21/2017
+A: Among A through F, the answer is D: 06/13/2017
+pred_before :  D: 06/13/2017
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : C
+*************************
+*************************
+39st data
+1_th_sampling
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 12/02/1960 (B) 12/02/2000 (C) 12/01/1960 (D) 05/02/1961 (E) 12/02/2055 (F) 11/18/1960
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : A
+*************************
+*************************
+40st data
+1_th_sampling
+Q: Today is 9/7. Jane is watching NFL 2003. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 09/08/2003 (B) 09/10/2003 (C) 08/29/2003 (D) 09/07/2003 (E) 09/08/1917
+A: Among A through F, the answer is A.
+pred_before :  A.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+41st data
+1_th_sampling
+Q: The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 12/24/2018 (B) 06/28/2019 (C) 12/28/2018 (D) 01/01/2019 (E) 12/14/2018 (F) 10/28/2019
+A: Among A through F, the answer is C: 12/28/2018.
+pred_before :  C: 12/28/2018.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+42st data
+1_th_sampling
+Q: It was Sept. 1st, 2021 a week ago. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 09/05/2021 (B) 10/04/2021 (C) 08/09/2021 (D) 08/08/2021 (E) 07/25/2021 (F) 09/25/2021
+A: Among A through F, the answer is D: 08/08/2021.
+pred_before :  D: 08/08/2021.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+43st data
+1_th_sampling
+Q: Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date today in MM/DD/YYYY? Answer Choices: (A) 05/13/1985 (B) 04/12/1986 (C) 04/10/1985 (D) 04/13/1985 (E) 03/10/1986 (F) 04/07/1985
+A: Among A through F, the answer is C.
+pred_before :  C.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+44st data
+1_th_sampling
+Q: Jane got her job in 2016. Today is her 3-year work anniversary. She still remember that on Dec 2, her second day at work, she spilled coffee on her laptop. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 02/01/2019 (B) 12/01/2018 (C) 01/01/2018 (D) 12/08/2018 (E) 09/23/2018
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+45st data
+1_th_sampling
+Q: The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 01/13/2019 (B) 02/04/2019 (C) 02/11/2019 (D) 12/31/2018 (E) 01/14/2019 (F) 01/16/2019
+A: Among A through F, the answer is E, 01/14/2019.
+pred_before :  E, 01/14/2019.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+46st data
+1_th_sampling
+Q: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. Jane is correct. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 06/02/2019 (B) 06/11/1942 (C) 05/28/2019 (D) 06/12/2019 (E) 07/29/2019 (F) 06/11/2019
+A: Among A through F, the answer is C.
+pred_before :  C.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : F
+*************************
+*************************
+47st data
+1_th_sampling
+Q: Today is the last day of the first quarter of 2008. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 02/29/2008 (B) 02/01/2008 (C) 02/28/2008 (D) 02/08/2008 (E) 08/29/2008 (F) 12/26/2007
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : A
+*************************
+*************************
+48st data
+1_th_sampling
+Q: Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 01/02/1930 (B) 08/02/1930 (C) 11/06/1929 (D) 01/02/1877 (E) 03/30/1930 (F) 01/02/1884
+A: Among A through F, the answer is A. 01/02/1930.
+pred_before :  A. 01/02/1930.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+49st data
+1_th_sampling
+Q: The day before yesterday was 11/23/1933. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 11/06/1933 (B) 11/14/1933 (C) 11/15/1860 (D) 11/15/1936 (E) 11/21/1933 (F) 11/15/1933
+A: Among A through F, the answer is B. 11/14/1933.
+pred_before :  B. 11/14/1933.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : F
+*************************
+*************************
+50st data
+1_th_sampling
+Q: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 06/19/2018 (B) 05/22/2018 (C) 06/24/2018 (D) 06/19/1956 (E) 06/18/2018 (F) 06/19/1934
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : A
+*************************
+*************************
+51st data
+1_th_sampling
+Q: Today, 8/3/1997, is a day that we will never forget. What is the date today in MM/DD/YYYY? Answer Choices: (A) 08/02/1997 (B) 08/03/2097 (C) 08/05/1997 (D) 08/03/1997 (E) 08/04/1997 (F) 08/17/1997
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+52st data
+1_th_sampling
+Q: Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 12/28/1929 (B) 01/22/1930 (C) 12/16/1929 (D) 09/20/1929 (E) 12/25/2006 (F) 12/25/1929
+A: Among A through F, the answer is A.
+pred_before :  A.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : F
+*************************
+*************************
+53st data
+1_th_sampling
+Q: In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date today in MM/DD/YYYY? Answer Choices: (A) 01/30/1987 (B) 11/10/1986 (C) 01/05/1987 (D) 01/03/1987 (E) 12/29/1986 (F) 01/02/1987
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+54st data
+1_th_sampling
+Q: Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 10/08/2019 (B) 10/07/1924 (C) 11/06/1924 (D) 08/08/1925 (E) 04/08/1925 (F) 10/08/1924
+A: Among A through F, the answer is B, 10/07/1924.
+pred_before :  B, 10/07/1924.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : F
+*************************
+*************************
+55st data
+1_th_sampling
+Q: Today is 9/7. Jane is watching NFL 2003. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 09/08/2002 (B) 09/07/1918 (C) 09/28/2002 (D) 08/24/2002 (E) 12/07/2002 (F) 09/07/2002
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : F
+*************************
+*************************
+56st data
+1_th_sampling
+Q: Today is the second day of the third month of 1966. What is the date today in MM/DD/YYYY? Answer Choices: (A) 06/09/1966 (B) 03/16/1966 (C) 12/02/1966 (D) 03/02/1966 (E) 03/09/1966 (F) 07/02/1965
+A: Among A through F, the answer is D. 03/02/1966
+pred_before :  D. 03/02/1966
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+57st data
+1_th_sampling
+Q: Today is the last day of the first quarter of 2008. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 01/17/2008 (B) 04/01/2063 (C) 03/22/2008 (D) 04/01/2008 (E) 03/31/2008 (F) 04/01/2007
+A: Among A through F, the answer is D, 04/01/2008.
+pred_before :  D, 04/01/2008.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+58st data
+1_th_sampling
+Q: Today, 8/3/1997, is a day that we will never forget. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 08/02/2026 (B) 08/02/1999 (C) 08/01/1997 (D) 08/02/1997 (E) 02/02/1997 (F) 07/02/1997
+A: Among A through F, the answer is C.
+pred_before :  C.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : D
+*************************
+*************************
+59st data
+1_th_sampling
+Q: On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 07/18/2015 (B) 06/18/2030 (C) 09/18/2016 (D) 06/22/2016 (E) 06/25/2016 (F) 06/18/2016
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+60st data
+1_th_sampling
+Q: Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 02/01/2020 (B) 04/17/2020 (C) 08/01/2019 (D) 01/04/2020 (E) 02/11/2020 (F) 12/10/2019
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : A
+*************************
+*************************
+61st data
+1_th_sampling
+Q: Jane got her job in 2016. Today is her 3-year work anniversary. She still remember that on Dec 2, her second day at work, she spilled coffee on her laptop. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 03/21/2020 (B) 02/21/2020 (C) 11/22/2019 (D) 11/21/2019 (E) 11/20/2019 (F) 11/21/2080
+A: Among A through F, the answer is D, 11/21/2019.
+pred_before :  D, 11/21/2019.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+62st data
+1_th_sampling
+Q: 2015 is coming in 36 hours. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 01/01/2015 (B) 12/31/2014 (C) 12/30/2059 (D) 01/09/2015 (E) 01/04/2015 (F) 12/30/2014
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : F
+*************************
+*************************
+63st data
+1_th_sampling
+Q: Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 02/19/1979 (B) 02/12/2016 (C) 02/19/2105 (D) 01/09/2016 (E) 02/20/2016 (F) 02/19/2016
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+64st data
+1_th_sampling
+Q: 2015 is coming in 36 hours. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 12/18/2014 (B) 12/20/2014 (C) 12/19/2014 (D) 11/21/2014 (E) 12/23/2014 (F) 01/02/2015
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : C
+*************************
+*************************
+65st data
+1_th_sampling
+Q: It is 4/19/1969 today. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 04/20/1969 (B) 04/20/2035 (C) 04/18/1969 (D) 04/06/1969 (E) 04/21/1969 (F) 03/23/1969
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : A
+*************************
+*************************
+66st data
+1_th_sampling
+Q: Today is the last day of the first quarter of 2008. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 04/01/2007 (B) 03/31/2103 (C) 07/09/2007 (D) 03/31/2007 (E) 03/31/2051
+A: Among A through F, the answer is D. 
+
+The first quarter of 2007 ended on March 31, 2007, so one year ago from today would be March 31, 2007.
+pred_before :  D. 
+
+The first quarter of 2007 ended on March 31, 2007, so one year ago from today would be March 31, 2007.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+67st data
+1_th_sampling
+Q: Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 04/17/1985 (B) 03/10/1986 (C) 04/12/1986 (D) 04/10/1985 (E) 04/07/1985 (F) 05/10/1975
+A: Among A through F, the answer is A.
+pred_before :  A.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+68st data
+1_th_sampling
+Q: Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 12/11/2002 (B) 03/10/2002 (C) 04/23/2002 (D) 03/12/2002 (E) 02/11/2002 (F) 03/11/2002
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : F
+*************************
+*************************
+69st data
+1_th_sampling
+Q: Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 07/16/1925 (B) 10/16/2010 (C) 10/16/1922 (D) 10/15/1924 (E) 10/17/1924 (F) 10/16/1924
+A: Among A through F, the answer is F.
+pred_before :  F.
+pred_after : F
+pred_list : ['F']
+pred_mode : F
+GT : F
+*************************
+*************************
+70st data
+1_th_sampling
+Q: Tomorrow is 11/12/2019. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 11/12/2018 (B) 11/12/1991 (C) 11/12/2019 (D) 11/16/2019 (E) 11/12/2117
+A: Among A through F, the answer is D. 11/12/2019 + 24 hours = 11/13/2019.
+pred_before :  D. 11/12/2019 + 24 hours = 11/13/2019.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : C
+*************************
+*************************
+71st data
+1_th_sampling
+Q: The day before yesterday was 11/23/1933. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 11/25/1933 (B) 11/24/2020 (C) 12/22/1933 (D) 10/27/1933 (E) 11/24/1933 (F) 12/27/1933
+A: Among A through F, the answer is E. 11/24/1933.
+pred_before :  E. 11/24/1933.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+72st data
+1_th_sampling
+Q: Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 12/17/2007 (B) 12/22/2007 (C) 08/23/2007 (D) 12/23/2007 (E) 03/29/2008
+A: Among A through F, the answer is D, 12/23/2007.
+pred_before :  D, 12/23/2007.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+73st data
+1_th_sampling
+Q: Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 02/23/2010 (B) 02/24/2010 (C) 03/01/2010 (D) 01/26/2010 (E) 02/22/2010 (F) 02/19/2010
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : A
+*************************
+*************************
+74st data
+1_th_sampling
+Q: Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 11/21/1924 (B) 10/22/1924 (C) 10/07/1924 (D) 10/21/1924 (E) 10/22/1944 (F) 08/22/1925
+A: Among A through F, the answer is B, 10/22/1924.
+pred_before :  B, 10/22/1924.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+75st data
+1_th_sampling
+Q: On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 06/25/2063 (B) 06/25/2017 (C) 05/25/2018 (D) 06/25/1964 (E) 07/25/2017 (F) 06/24/2017
+A: Among A through F, the answer is B, 06/25/2017.
+pred_before :  B, 06/25/2017.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+76st data
+1_th_sampling
+Q: Today, 8/3/1997, is a day that we will never forget. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 10/24/1997 (B) 07/24/1997 (C) 08/21/1997 (D) 06/11/1997 (E) 07/23/1997 (F) 08/14/1997
+A: Among A through F, the answer is B: 07/24/1997.
+pred_before :  B: 07/24/1997.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+77st data
+1_th_sampling
+Q: Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 12/26/2099 (B) 09/26/2008 (C) 12/26/2007 (D) 12/26/1951 (E) 12/05/2007 (F) 05/26/2007
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : C
+*************************
+*************************
+78st data
+1_th_sampling
+Q: Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 01/02/1973 (B) 03/08/1983 (C) 04/05/1973 (D) 03/05/2007 (E) 03/06/1973 (F) 03/02/1973
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+79st data
+1_th_sampling
+Q: Jane is celebrating the last day of Jan 2012. What is the date today in MM/DD/YYYY? Answer Choices: (A) 01/21/2012 (B) 01/29/2012 (C) 01/30/2012 (D) 03/22/2012 (E) 02/10/2012 (F) 01/31/2012
+A: Among A through F, the answer is F. 01/31/2012
+pred_before :  F. 01/31/2012
+pred_after : F
+pred_list : ['F']
+pred_mode : F
+GT : F
+*************************
+*************************
+80st data
+1_th_sampling
+Q: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 06/18/2019 (B) 06/18/2066 (C) 06/18/1933 (D) 11/18/2019 (E) 02/18/2019 (F) 05/28/2019
+A: Among A through F, the answer is A.
+pred_before :  A.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+81st data
+1_th_sampling
+Q: Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 10/06/1924 (B) 05/05/1924 (C) 10/04/1924 (D) 10/05/1924 (E) 10/12/1924 (F) 11/02/1924
+A: Among A through F, the answer is A: 10/06/1924.
+pred_before :  A: 10/06/1924.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : D
+*************************
+*************************
+82st data
+1_th_sampling
+Q: The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date today in MM/DD/YYYY? Answer Choices: (A) 05/25/1943 (B) 06/02/2013 (C) 06/02/1943 (D) 06/07/1943 (E) 06/02/1965 (F) 07/25/1943
+A: Among A through F, the answer is C. 
+
+The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. Today is 06/
+pred_before :  C. 
+
+The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. Today is 06/
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+83st data
+1_th_sampling
+Q: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. Jane is correct. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 06/13/2018 (B) 06/18/2018 (C) 06/19/2018 (D) 05/23/2018 (E) 07/09/2018 (F) 06/17/2018
+A: Among A through F, the answer is B, 06/18/2018.
+pred_before :  B, 06/18/2018.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+84st data
+1_th_sampling
+Q: Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 06/19/2020 (B) 09/18/2020 (C) 09/30/2020 (D) 09/19/2020 (E) 09/20/2020
+A: Among A through F, the answer is D, 09/19/2020.
+pred_before :  D, 09/19/2020.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+85st data
+1_th_sampling
+Q: Tomorrow is 11/12/2019. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 03/04/2020 (B) 02/04/2020 (C) 10/30/2019 (D) 11/04/2019 (E) 11/04/2103 (F) 11/07/2019
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+86st data
+1_th_sampling
+Q: Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 02/15/2010 (B) 12/05/2009 (C) 02/08/2010 (D) 02/01/2010 (E) 04/15/2010 (F) 05/23/2010
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : A
+*************************
+*************************
+87st data
+1_th_sampling
+Q: 2015 is coming in 36 hours. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 12/09/2013 (B) 12/29/2013 (C) 02/28/2014 (D) 01/19/2014 (E) 07/29/2013 (F) 12/28/2013
+A: Among A through F, the answer is D. 01/19/2014
+pred_before :  D. 01/19/2014
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : B
+*************************
+*************************
+88st data
+1_th_sampling
+Q: The deadline is Jun 1, 2021, which is 2 days away from now. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 05/23/2020 (B) 05/24/2021 (C) 05/23/2021 (D) 05/23/1940 (E) 04/13/2021 (F) 05/23/2054
+A: Among A through F, the answer is D. 05/23/1940 is one week ago from today.
+pred_before :  D. 05/23/1940 is one week ago from today.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : C
+*************************
+*************************
+89st data
+1_th_sampling
+Q: On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 06/26/2017 (B) 06/17/2017 (C) 07/18/2017 (D) 07/13/2017 (E) 06/17/2111 (F) 06/25/2017
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : B
+*************************
+*************************
+90st data
+1_th_sampling
+Q: Today is Sep 9, 1909. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 09/24/1909 (B) 07/03/1909 (C) 12/10/1909 (D) 08/13/1909 (E) 09/10/1892 (F) 09/10/1909
+A: Among A through F, the answer is F. 
+
+The date 24 hours later from September 9, 1909 would be September 10, 1909.
+pred_before :  F. 
+
+The date 24 hours later from September 9, 1909 would be September 10, 1909.
+pred_after : F
+pred_list : ['F']
+pred_mode : F
+GT : F
+*************************
+*************************
+91st data
+1_th_sampling
+Q: Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 12/23/1929 (B) 01/02/1885 (C) 12/12/1929 (D) 01/02/1930 (E) 01/01/1930 (F) 01/02/1998
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+92st data
+1_th_sampling
+Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 03/01/2017 (B) 03/01/1919 (C) 05/04/2017 (D) 02/15/2017 (E) 06/02/2017 (F) 03/01/2005
+A: Among A through F, the answer is A.
+pred_before :  A.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+93st data
+1_th_sampling
+Q: The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 10/23/1942 (B) 05/21/1943 (C) 07/01/1943 (D) 05/23/1943 (E) 05/24/1943
+A: Among A through F, the answer is D. 05/23/1943 is 10 days before 06/01/1943.
+pred_before :  D. 05/23/1943 is 10 days before 06/01/1943.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+94st data
+1_th_sampling
+Q: Today is Sep 9, 1909. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 05/09/1910 (B) 08/19/1909 (C) 08/09/1820 (D) 08/09/1909 (E) 08/08/1909 (F) 08/10/1909
+A: Among A through F, the answer is D: 08/09/1909.
+pred_before :  D: 08/09/1909.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+95st data
+1_th_sampling
+Q: May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 05/15/2002 (B) 09/07/2001 (C) 05/07/1982 (D) 05/04/2002 (E) 05/07/2002 (F) 05/17/2002
+A: Among A through F, the answer is E. 05/07/2002
+pred_before :  E. 05/07/2002
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+96st data
+1_th_sampling
+Q: The day before yesterday was 11/23/1933. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 11/22/1933 (B) 10/25/1989 (C) 10/25/1933 (D) 10/26/1933 (E) 10/25/1921
+A: Among A through F, the answer is C.
+pred_before :  C.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+97st data
+1_th_sampling
+Q: The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 01/07/2018 (B) 01/02/2018 (C) 05/07/2017 (D) 01/08/2018 (E) 01/12/2018 (F) 10/29/2017
+A: Among A through F, the answer is D: 01/08/2018.
+pred_before :  D: 01/08/2018.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : A
+*************************
+*************************
+98st data
+1_th_sampling
+Q: Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 01/01/1891 (B) 08/01/1929 (C) 01/08/1929 (D) 01/01/1994 (E) 01/01/1929 (F) 01/01/1898
+A: Among A through F, the answer is E. 01/01/1929.
+pred_before :  E. 01/01/1929.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+99st data
+1_th_sampling
+Q: Today is the last day of the first quarter of 2008. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 03/30/2009 (B) 03/30/2008 (C) 07/30/2008 (D) 03/31/2008 (E) 11/30/2007 (F) 04/07/2008
+A: Among A through F, the answer is D. 03/31/2008 is the last day of the first quarter of 2008.
+pred_before :  D. 03/31/2008 is the last day of the first quarter of 2008.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : B
+*************************
+*************************
+100st data
+1_th_sampling
+Q: Jane booked a flight for tomorrow, Jul 29, 2002. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 07/28/2095 (B) 07/24/2001 (C) 10/10/2001 (D) 01/28/2002 (E) 09/28/2001 (F) 07/28/2001
+A: Among A through F, the answer is F.
+pred_before :  F.
+pred_after : F
+pred_list : ['F']
+pred_mode : F
+GT : F
+*************************
+*************************
+101st data
+1_th_sampling
+Q: The deadline is Jun 1, 2021, which is 2 days away from now. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 05/30/2020 (B) 05/20/2020 (C) 05/09/2020 (D) 05/30/1948 (E) 10/30/2019 (F) 06/02/2020
+A: Among A through F, the answer is A: 05/30/2020.
+pred_before :  A: 05/30/2020.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+102st data
+1_th_sampling
+Q: Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 12/30/2007 (B) 01/09/2008 (C) 11/09/2008 (D) 08/09/2008 (E) 09/09/2008 (F) 12/12/2007
+A: Among A through F, the answer is B, 01/09/2008.
+pred_before :  B, 01/09/2008.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+103st data
+1_th_sampling
+Q: Jane got her job in 2016. Today is her 3-year work anniversary. She still remember that on Dec 2, her second day at work, she spilled coffee on her laptop. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 12/02/2093 (B) 12/30/2019 (C) 12/01/2019 (D) 04/02/2020 (E) 12/02/2103 (F) 12/02/2019
+A: Among A through F, the answer is C.
+pred_before :  C.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : F
+*************************
+*************************
+104st data
+1_th_sampling
+Q: Today is the last day of the first quarter of 2008. What is the date today in MM/DD/YYYY? Answer Choices: (A) 08/31/2008 (B) 12/23/2007 (C) 03/31/2008 (D) 05/05/2008 (E) 10/31/2008 (F) 03/24/2008
+A: Among A through F, the answer is C. 03/31/2008
+pred_before :  C. 03/31/2008
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+105st data
+1_th_sampling
+Q: Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 04/03/1985 (B) 03/10/1986 (C) 04/12/1986 (D) 04/13/1985 (E) 05/13/1985 (F) 04/01/1985
+A: Among A through F, the answer is A.
+pred_before :  A.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+106st data
+1_th_sampling
+Q: Jane is celebrating the last day of Jan 2012. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 11/10/2011 (B) 01/04/2012 (C) 02/01/2016 (D) 01/31/2012 (E) 02/01/2079 (F) 02/01/2012
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+107st data
+1_th_sampling
+Q: Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 01/17/2010 (B) 01/16/2010 (C) 01/15/2010 (D) 10/09/2009 (E) 12/19/2009 (F) 02/11/2010
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+108st data
+1_th_sampling
+Q: Jane is celebrating the last day of Jan 2012. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 02/11/2012 (B) 02/15/2012 (C) 02/02/2012 (D) 02/01/2012 (E) 04/22/2012 (F) 01/25/2012
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+109st data
+1_th_sampling
+Q: Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 02/17/2010 (B) 02/26/2010 (C) 11/17/2009 (D) 02/17/2096 (E) 02/14/2010 (F) 02/16/2010
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : A
+*************************
+*************************
+110st data
+1_th_sampling
+Q: Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 03/05/1973 (B) 03/04/1973 (C) 03/05/1983 (D) 04/05/1973 (E) 01/02/1973 (F) 03/04/2007
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+111st data
+1_th_sampling
+Q: Yesterday was April 30, 2021. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 04/27/2021 (B) 05/10/2021 (C) 05/09/2021 (D) 05/08/2021 (E) 03/13/2021 (F) 04/10/2021
+A: Among A through F, the answer is B: 05/10/2021.
+pred_before :  B: 05/10/2021.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : D
+*************************
+*************************
+112st data
+1_th_sampling
+Q: Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 10/04/2020 (B) 09/13/2057 (C) 09/13/2020 (D) 08/14/2020 (E) 07/26/2020 (F) 09/13/2084
+A: Among A through F, the answer is C: 09/13/2020.
+pred_before :  C: 09/13/2020.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+113st data
+1_th_sampling
+Q: May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 11/13/2001 (B) 03/13/2003 (C) 05/13/2044 (D) 06/10/2002 (E) 05/13/2002
+A: Among A through F, the answer is E. 05/13/2002 is one week from today in MM/DD/YYYY.
+pred_before :  E. 05/13/2002 is one week from today in MM/DD/YYYY.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+114st data
+1_th_sampling
+Q: Tomorrow is 11/12/2019. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 02/12/2020 (B) 10/22/2019 (C) 11/14/2019 (D) 11/12/2019 (E) 12/10/2019
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+115st data
+1_th_sampling
+Q: Jane got her job in 2016. Today is her 3-year work anniversary. She still remember that on Dec 2, her second day at work, she spilled coffee on her laptop. What is the date today in MM/DD/YYYY? Answer Choices: (A) 10/06/2019 (B) 12/02/2019 (C) 12/03/2019 (D) 12/01/2019 (E) 12/01/2101
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : D
+*************************
+*************************
+116st data
+1_th_sampling
+Q: Today is the first day of 2007. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 12/22/2006 (B) 12/22/1961 (C) 12/23/2006 (D) 02/24/2007 (E) 12/21/2006 (F) 01/31/2007
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : A
+*************************
+*************************
+117st data
+1_th_sampling
+Q: Today is 9/7. Jane is watching NFL 2003. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 08/31/2074 (B) 06/30/2004 (C) 08/30/2003 (D) 08/31/2003 (E) 09/05/2003
+A: Among A through F, the answer is D. 
+
+The date one week ago from today would be 8/31/2003.
+pred_before :  D. 
+
+The date one week ago from today would be 8/31/2003.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+118st data
+1_th_sampling
+Q: Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 02/23/1973 (B) 01/02/1973 (C) 03/02/1973 (D) 04/05/1973 (E) 03/08/1983 (F) 02/24/1973
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : A
+*************************
+*************************
+119st data
+1_th_sampling
+Q: Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 01/04/2008 (B) 01/31/2008 (C) 01/03/2008 (D) 01/02/2008 (E) 03/05/2008 (F) 02/29/2008
+A: Among A through F, the answer is D. 01/02/2008 is one day after their golden anniversary, which would be 01/01/2008.
+pred_before :  D. 01/02/2008 is one day after their golden anniversary, which would be 01/01/2008.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : C
+*************************
+*************************
+120st data
+1_th_sampling
+Q: May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 05/05/1902 (B) 05/05/2002 (C) 05/26/2002 (D) 05/01/2002 (E) 05/05/2001 (F) 05/05/2084
+A: Among A through F, the answer is B. 05/05/2002
+pred_before :  B. 05/05/2002
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+121st data
+1_th_sampling
+Q: Jane got her job in 2016. Today is her 3-year work anniversary. She still remember that on Dec 2, her second day at work, she spilled coffee on her laptop. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 11/30/2019 (B) 11/30/2065 (C) 02/29/2020 (D) 02/18/2020 (E) 09/21/2019 (F) 11/29/2019
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : A
+*************************
+*************************
+122st data
+1_th_sampling
+Q: It is 4/19/1969 today. What is the date today in MM/DD/YYYY? Answer Choices: (A) 04/18/1969 (B) 07/19/1969 (C) 04/20/1969 (D) 05/17/1969 (E) 04/19/1969 (F) 04/12/1969
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+123st data
+1_th_sampling
+Q: The deadline is Jun 1, 2021, which is 2 days away from now. What is the date today in MM/DD/YYYY? Answer Choices: (A) 04/15/2021 (B) 05/22/2021 (C) 04/30/2021 (D) 06/20/2021 (E) 05/30/1980 (F) 05/30/2021
+A: Among A through F, the answer is C.
+pred_before :  C.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : F
+*************************
+*************************
+124st data
+1_th_sampling
+Q: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. Jane is correct. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 06/26/2019 (B) 06/19/1934 (C) 09/20/2019 (D) 06/11/2019 (E) 06/19/2019 (F) 05/05/2019
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+125st data
+1_th_sampling
+Q: It was Sept. 1st, 2021 a week ago. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 08/28/2021 (B) 08/30/2021 (C) 09/19/2021 (D) 08/29/2021 (E) 08/29/1925 (F) 05/25/2021
+A: Among A through F, the answer is D: 08/29/2021.
+pred_before :  D: 08/29/2021.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+126st data
+1_th_sampling
+Q: It was Sept. 1st, 2021 a week ago. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 09/07/2020 (B) 07/08/2020 (C) 08/18/2020 (D) 09/08/2049 (E) 08/31/2020 (F) 09/08/2020
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : F
+*************************
+*************************
+127st data
+1_th_sampling
+Q: The current local time is 3:02 pm of 5/4/2004. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 05/06/2004 (B) 05/04/2004 (C) 05/05/1915 (D) 02/15/2004 (E) 01/05/2005 (F) 05/05/2004
+A: Among A through F, the answer is F. 05/05/2004
+pred_before :  F. 05/05/2004
+pred_after : F
+pred_list : ['F']
+pred_mode : F
+GT : F
+*************************
+*************************
+128st data
+1_th_sampling
+Q: Today is Sep 9, 1909. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 08/29/1909 (B) 08/30/1967 (C) 08/16/1909 (D) 08/02/1909 (E) 08/30/1909 (F) 08/30/1977
+A: Among A through F, the answer is A.
+pred_before :  A.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : E
+*************************
+*************************
+129st data
+1_th_sampling
+Q: 2015 is coming in 36 hours. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 11/07/2014 (B) 10/03/2014 (C) 10/26/2014 (D) 12/28/2014 (E) 02/13/2015 (F) 12/29/2014
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+130st data
+1_th_sampling
+Q: Today is Christmas Eve of 1937. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 12/25/1937 (B) 11/12/1937 (C) 02/26/1938 (D) 12/18/1937 (E) 11/09/1937 (F) 12/24/1937
+A: Among A through F, the answer is A: 12/25/1937.
+pred_before :  A: 12/25/1937.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+131st data
+1_th_sampling
+Q: Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 03/12/1973 (B) 03/05/1972 (C) 03/02/1973 (D) 03/08/1983 (E) 01/02/1973 (F) 04/05/1973
+A: Among A through F, the answer is A, 03/12/1973.
+pred_before :  A, 03/12/1973.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+132st data
+1_th_sampling
+Q: Today is the last day of the first quarter of 2008. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 09/07/2008 (B) 04/06/2008 (C) 10/07/2008 (D) 04/07/2008 (E) 04/15/2008 (F) 03/24/2008
+A: Among A through F, the answer is D: 04/07/2008.
+pred_before :  D: 04/07/2008.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+133st data
+1_th_sampling
+Q: Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 01/29/2011 (B) 01/30/2011 (C) 04/10/2011 (D) 06/29/2010 (E) 01/28/2011
+A: Among A through F, the answer is E. 01/28/2011 is one week from today, 01/21/2011.
+pred_before :  E. 01/28/2011 is one week from today, 01/21/2011.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : A
+*************************
+*************************
+134st data
+1_th_sampling
+Q: 2015 is coming in 36 hours. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 12/22/2040 (B) 12/23/2014 (C) 01/05/2015 (D) 12/22/2014 (E) 02/06/2015 (F) 12/22/2086
+A: Among A through F, the answer is D, 12/22/2014.
+pred_before :  D, 12/22/2014.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+135st data
+1_th_sampling
+Q: Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 04/09/1985 (B) 03/10/1986 (C) 04/10/1985 (D) 04/07/1985 (E) 05/13/1985 (F) 04/11/1986
+A: Among A through F, the answer is A.
+pred_before :  A.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+136st data
+1_th_sampling
+Q: On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date today in MM/DD/YYYY? Answer Choices: (A) 06/18/2054 (B) 06/18/2016 (C) 06/18/2017 (D) 07/16/2017 (E) 12/18/2016 (F) 06/17/2017
+A: Among A through F, the answer is B, 06/18/2016.
+pred_before :  B, 06/18/2016.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : C
+*************************
+*************************
+137st data
+1_th_sampling
+Q: Tomorrow is 11/12/2019. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 11/06/2019 (B) 11/10/2076 (C) 11/10/2019 (D) 11/17/2019 (E) 09/10/2019 (F) 11/11/2019
+A: Among A through F, the answer is F.
+pred_before :  F.
+pred_after : F
+pred_list : ['F']
+pred_mode : F
+GT : C
+*************************
+*************************
+138st data
+1_th_sampling
+Q: Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 08/05/1972 (B) 09/01/1972 (C) 07/09/1972 (D) 09/04/1972 (E) 07/09/1923 (F) 07/09/2007
+A: Among A through F, the answer is C.
+pred_before :  C.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+139st data
+1_th_sampling
+Q: Yesterday was April 30, 2021. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 05/09/2021 (B) 04/30/2021 (C) 04/30/2022 (D) 04/27/2021 (E) 04/30/1996 (F) 04/29/2021
+A: Among A through F, the answer is B, 04/30/2021.
+pred_before :  B, 04/30/2021.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+140st data
+1_th_sampling
+Q: Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 02/23/2016 (B) 03/06/2016 (C) 03/07/2070 (D) 03/08/2016 (E) 03/07/2016
+A: Among A through F, the answer is E. 03/07/2016 is one week from today. 
+
+pred_before :  E. 03/07/2016 is one week from today. 
+
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+141st data
+1_th_sampling
+Q: Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date today in MM/DD/YYYY? Answer Choices: (A) 07/07/1972 (B) 07/12/1972 (C) 07/08/1884 (D) 07/08/1979 (E) 07/08/1972
+A: Among A through F, the answer is E. 07/08/1972.
+pred_before :  E. 07/08/1972.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+142st data
+1_th_sampling
+Q: The day before yesterday was 11/23/1933. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 08/23/1933 (B) 11/26/1976 (C) 11/25/1933 (D) 07/26/1934 (E) 11/26/1933 (F) 12/06/1933
+A: Among A through F, the answer is C. 11/25/1933.
+pred_before :  C. 11/25/1933.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : E
+*************************
+*************************
+143st data
+1_th_sampling
+Q: The current local time is 3:02 pm of 5/4/2004. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 05/07/2004 (B) 05/05/2004 (C) 05/06/2004 (D) 06/10/2004 (E) 03/18/2004
+A: Among A through F, the answer is B. 05/05/2004
+pred_before :  B. 05/05/2004
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+144st data
+1_th_sampling
+Q: Tomorrow is 11/12/2019. What is the date today in MM/DD/YYYY? Answer Choices: (A) 11/11/2020 (B) 11/25/2019 (C) 11/11/2042 (D) 11/11/2019 (E) 11/12/2019 (F) 11/01/2019
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+145st data
+1_th_sampling
+Q: Today is Christmas Eve of 1937. What is the date today in MM/DD/YYYY? Answer Choices: (A) 12/17/1937 (B) 12/24/1937 (C) 12/27/1937 (D) 12/30/1937 (E) 12/31/1937 (F) 05/24/1938
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+146st data
+1_th_sampling
+Q: Today is 9/7. Jane is watching NFL 2003. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 09/08/2003 (B) 09/08/1916 (C) 09/15/2003 (D) 09/13/2003 (E) 08/18/2003 (F) 09/01/2003
+A: Among A through F, the answer is A.
+pred_before :  A.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+147st data
+1_th_sampling
+Q: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. Jane is correct. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 06/08/2019 (B) 06/01/2019 (C) 07/08/2019 (D) 06/07/2019 (E) 06/09/2019 (F) 06/08/2021
+A: Among A through F, the answer is A.
+pred_before :  A.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+148st data
+1_th_sampling
+Q: Jane is celebrating the last day of Jan 2012. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 02/07/2012 (B) 02/07/2014 (C) 02/06/2012 (D) 02/01/2012 (E) 01/31/2012 (F) 03/16/2012
+A: Among A through F, the answer is A, 02/07/2012.
+pred_before :  A, 02/07/2012.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : C
+*************************
+*************************
+149st data
+1_th_sampling
+Q: Today is Christmas Eve of 1937. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 12/14/1950 (B) 07/14/1938 (C) 12/14/2026 (D) 12/14/2007 (E) 12/14/1937 (F) 12/14/1988
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+150st data
+1_th_sampling
+Q: Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 02/10/2010 (B) 10/09/2010 (C) 03/09/2010 (D) 01/13/2010 (E) 02/09/2010 (F) 01/30/2010
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : E
+*************************
+*************************
+151st data
+1_th_sampling
+Q: Today is the first day of 2007. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 01/18/2007 (B) 01/07/2007 (C) 01/01/2007 (D) 01/09/2007 (E) 05/31/2006 (F) 12/31/2006
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+152st data
+1_th_sampling
+Q: The deadline is Jun 1, 2021, which is 2 days away from now. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 07/29/2021 (B) 06/12/2021 (C) 05/29/2021 (D) 06/17/2021 (E) 05/22/2021 (F) 06/05/2021
+A: Among A through F, the answer is C, 05/29/2021.
+pred_before :  C, 05/29/2021.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+153st data
+1_th_sampling
+Q: Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 07/01/1972 (B) 07/07/1972 (C) 07/12/1972 (D) 05/07/1973 (E) 01/07/1973 (F) 08/25/1972
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+154st data
+1_th_sampling
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date today in MM/DD/YYYY? Answer Choices: (A) 01/03/1961 (B) 01/02/1990 (C) 12/23/1960 (D) 01/02/1961 (E) 01/02/1960 (F) 01/02/1894
+A: Among A through F, the answer is E. 01/02/1963.
+pred_before :  E. 01/02/1963.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : D
+*************************
+*************************
+155st data
+1_th_sampling
+Q: Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 12/01/2010 (B) 12/22/2010 (C) 02/08/2011 (D) 01/05/2011 (E) 06/22/2010 (F) 12/21/2010
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : B
+*************************
+*************************
+156st data
+1_th_sampling
+Q: Today is Christmas Eve of 1937. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 11/24/1930 (B) 10/09/1937 (C) 11/24/1937 (D) 01/14/1938 (E) 09/04/1937 (F) 03/24/1938
+A: Among A through F, the answer is C, 11/24/1937.
+pred_before :  C, 11/24/1937.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+157st data
+1_th_sampling
+Q: Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 09/15/1924 (B) 07/07/1924 (C) 10/13/1924 (D) 09/14/1924 (E) 07/30/1924 (F) 03/15/1925
+A: Among A through F, the answer is A: 09/15/1924.
+pred_before :  A: 09/15/1924.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+158st data
+1_th_sampling
+Q: Today is the second day of the third month of 1966. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 03/01/1966 (B) 03/02/1966 (C) 03/04/1966 (D) 10/01/1966 (E) 03/01/1871 (F) 11/01/1966
+A: Among A through F, the answer is A.
+pred_before :  A.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+159st data
+1_th_sampling
+Q: The deadline is Jun 1, 2021, which is 2 days away from now. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 06/05/2021 (B) 06/06/2021 (C) 12/06/2021 (D) 05/30/2021 (E) 03/07/2021
+A: Among A through F, the answer is B, 06/06/2021.
+pred_before :  B, 06/06/2021.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+160st data
+1_th_sampling
+Q: Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 01/03/2008 (B) 01/06/2008 (C) 07/03/2007 (D) 01/02/2008 (E) 01/11/2008 (F) 01/17/2008
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : A
+*************************
+*************************
+161st data
+1_th_sampling
+Q: The current local time is 3:02 pm of 5/4/2004. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 05/10/2004 (B) 05/26/2004 (C) 05/11/2004 (D) 06/03/2004 (E) 05/03/2004 (F) 04/30/2004
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : E
+*************************
+*************************
+162st data
+1_th_sampling
+Q: This is the last day of 1899. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 10/07/1900 (B) 01/07/1900 (C) 02/22/1900 (D) 01/07/1828 (E) 01/13/1900 (F) 02/07/1900
+A: Among A through F, the answer is B, 01/07/1900.
+pred_before :  B, 01/07/1900.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+163st data
+1_th_sampling
+Q: The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 01/08/2019 (B) 10/22/2018 (C) 02/08/2018 (D) 01/08/2043 (E) 01/08/1960 (F) 01/01/2019
+A: Among A through F, the answer is D. 01/08/2043 is 24 hours later than 01/08/2019.
+pred_before :  D. 01/08/2043 is 24 hours later than 01/08/2019.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : A
+*************************
+*************************
+164st data
+1_th_sampling
+Q: Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 04/11/1985 (B) 04/13/1985 (C) 04/07/1985 (D) 03/10/1986 (E) 01/02/2071 (F) 04/10/1985
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : A
+*************************
+*************************
+165st data
+1_th_sampling
+Q: Jane got her job in 2016. Today is her 3-year work anniversary. She still remember that on Dec 2, her second day at work, she spilled coffee on her laptop. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 03/24/2019 (B) 02/29/2020 (C) 11/23/2019 (D) 06/24/2019 (E) 11/24/2019
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : E
+*************************
+*************************
+166st data
+1_th_sampling
+Q: Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 12/31/1856 (B) 04/01/1930 (C) 01/10/1930 (D) 01/03/1930 (E) 12/31/1838 (F) 12/31/1929
+A: Among A through F, the answer is F.
+pred_before :  F.
+pred_after : F
+pred_list : ['F']
+pred_mode : F
+GT : F
+*************************
+*************************
+167st data
+1_th_sampling
+Q: Yesterday was April 30, 2021. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 05/02/2020 (B) 05/02/2000 (C) 05/03/2021 (D) 05/02/2022 (E) 04/04/2021 (F) 05/02/2021
+A: Among A through F, the answer is D: 05/02/2022.
+pred_before :  D: 05/02/2022.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+168st data
+1_th_sampling
+Q: It was Sept. 1st, 2021 a week ago. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 02/09/2021 (B) 08/19/2021 (C) 09/09/2021 (D) 09/13/2021 (E) 09/08/2021 (F) 09/09/1934
+A: Among A through F, the answer is C, 09/09/2021.
+pred_before :  C, 09/09/2021.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+169st data
+1_th_sampling
+Q: Today is the first day of 2007. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 01/02/1946 (B) 01/08/2007 (C) 01/02/2007 (D) 03/12/2007 (E) 01/01/2007
+A: Among A through F, the answer is B. 01/08/2007 is the date tomorrow in MM/DD/YYYY.
+pred_before :  B. 01/08/2007 is the date tomorrow in MM/DD/YYYY.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : C
+*************************
+*************************
+170st data
+1_th_sampling
+Q: Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 10/15/1924 (B) 09/25/1924 (C) 10/16/1924 (D) 10/29/1924 (E) 10/16/1897 (F) 10/16/1974
+A: Among A through F, the answer is C.
+pred_before :  C.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+171st data
+1_th_sampling
+Q: Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 04/12/1986 (B) 04/10/1984 (C) 04/10/1985 (D) 05/13/1985 (E) 03/10/1986 (F) 04/07/1985
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+172st data
+1_th_sampling
+Q: May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 05/06/2001 (B) 05/05/2001 (C) 07/07/2001 (D) 02/11/2001 (E) 08/06/2000
+A: Among A through F, the answer is B. 05/05/2001
+pred_before :  B. 05/05/2001
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : A
+*************************
+*************************
+173st data
+1_th_sampling
+Q: The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 01/06/1960 (B) 12/27/2018 (C) 01/07/2019 (D) 01/06/2019 (E) 10/06/2019 (F) 01/06/2058
+A: Among A through F, the answer is D. 01/06/2019.
+pred_before :  D. 01/06/2019.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+174st data
+1_th_sampling
+Q: Tomorrow is 11/12/2019. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 11/02/2019 (B) 10/27/2019 (C) 10/23/2019 (D) 11/01/2019 (E) 11/01/2048
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : D
+*************************
+*************************
+175st data
+1_th_sampling
+Q: Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 01/17/2011 (B) 12/24/2010 (C) 01/15/2011 (D) 03/15/2011 (E) 12/06/2010
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : C
+*************************
+*************************
+176st data
+1_th_sampling
+Q: Today is the first day of 2007. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 04/01/2006 (B) 01/01/2006 (C) 10/01/2005 (D) 01/01/2098 (E) 11/13/2005 (F) 10/21/2005
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+177st data
+1_th_sampling
+Q: The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 06/09/1943 (B) 06/09/2002 (C) 06/23/1943 (D) 06/09/1942 (E) 06/10/1943 (F) 06/02/1943
+A: Among A through F, the answer is E, 06/10/1943.
+pred_before :  E, 06/10/1943.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : A
+*************************
+*************************
+178st data
+1_th_sampling
+Q: Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 03/12/2001 (B) 03/12/2085 (C) 03/12/2000 (D) 05/18/2001 (E) 03/13/2001 (F) 03/18/2001
+A: Among A through F, the answer is A.
+pred_before :  A.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+179st data
+1_th_sampling
+Q: Yesterday was April 30, 2021. What is the date today in MM/DD/YYYY? Answer Choices: (A) 04/29/2021 (B) 05/01/2021 (C) 02/23/2021 (D) 06/12/2021 (E) 03/11/2021 (F) 05/09/2021
+A: Among A through F, the answer is B, 05/01/2021.
+pred_before :  B, 05/01/2021.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+180st data
+1_th_sampling
+Q: Jane booked a flight for tomorrow, Jul 29, 2002. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 08/07/2002 (B) 07/30/2002 (C) 07/29/2002 (D) 03/29/2002 (E) 09/29/2002 (F) 10/16/2002
+A: Among A through F, the answer is B: 07/30/2002.
+pred_before :  B: 07/30/2002.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : C
+*************************
+*************************
+181st data
+1_th_sampling
+Q: Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 09/22/1929 (B) 10/31/1929 (C) 12/22/1973 (D) 11/19/1929 (E) 12/22/1929
+A: Among A through F, the answer is D. 11/19/1929.
+pred_before :  D. 11/19/1929.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : E
+*************************
+*************************
+182st data
+1_th_sampling
+Q: In the US, Thanksgiving is on the fourth Thursday of November. Today is the US Thanksgiving of 2001. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 12/06/2002 (B) 11/15/2009 (C) 02/10/2003 (D) 12/13/2002 (E) 11/15/1961 (F) 11/15/2002
+A: Among A through F, the answer is D: 12/13/2002.
+pred_before :  D: 12/13/2002.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+183st data
+1_th_sampling
+Q: It is 4/19/1969 today. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 06/21/1969 (B) 05/18/1969 (C) 04/20/1969 (D) 01/18/1969 (E) 04/16/1969 (F) 05/11/1969
+A: Among A through F, the answer is C, 04/20/1969.
+pred_before :  C, 04/20/1969.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+184st data
+1_th_sampling
+Q: Today is 9/7. Jane is watching NFL 2003. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 08/28/1959 (B) 08/28/2043 (C) 08/28/2003 (D) 06/14/2003 (E) 03/28/2003 (F) 08/29/2003
+A: Among A through F, the answer is C.
+pred_before :  C.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+185st data
+1_th_sampling
+Q: Today is the last day of the first quarter of 2008. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 03/24/2008 (B) 05/05/2008 (C) 12/23/2007 (D) 03/24/2047 (E) 04/14/2008 (F) 03/24/2043
+A: Among A through F, the answer is A. 03/24/2008 is one week ago from today.
+pred_before :  A. 03/24/2008 is one week ago from today.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+186st data
+1_th_sampling
+Q: Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 03/08/2015 (B) 02/28/2015 (C) 03/28/2015 (D) 04/28/2015 (E) 02/21/2015 (F) 03/10/2015
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+187st data
+1_th_sampling
+Q: It is 4/19/1969 today. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 04/27/1969 (B) 04/19/1969 (C) 03/21/1969 (D) 04/18/1969 (E) 04/18/1961
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+188st data
+1_th_sampling
+Q: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 08/19/2018 (B) 05/19/2019 (C) 04/19/2019 (D) 01/19/2020 (E) 05/11/2019 (F) 02/14/2019
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : B
+*************************
+*************************
+189st data
+1_th_sampling
+Q: Yesterday was April 30, 2021. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 03/14/2021 (B) 05/02/1960 (C) 05/02/2021 (D) 04/29/2021 (E) 04/11/2021 (F) 05/01/2021
+A: Among A through F, the answer is C: 05/02/2021.
+pred_before :  C: 05/02/2021.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+190st data
+1_th_sampling
+Q: Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 07/29/2015 (B) 02/02/2016 (C) 01/29/2016 (D) 11/08/2015 (E) 01/30/2016 (F) 05/04/2016
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : C
+*************************
+*************************
+191st data
+1_th_sampling
+Q: It is 4/19/1969 today. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 04/13/1969 (B) 03/28/1969 (C) 04/12/1969 (D) 04/02/1969 (E) 02/12/1970 (F) 03/04/1969
+A: Among A through F, the answer is A: 04/13/1969.
+pred_before :  A: 04/13/1969.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : C
+*************************
+*************************
+192st data
+1_th_sampling
+Q: In the US, Thanksgiving is on the fourth Thursday of November. Today is the US Thanksgiving of 2001. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 11/23/2002 (B) 08/29/2002 (C) 10/15/2002 (D) 12/07/2002 (E) 06/23/2002 (F) 11/09/2002
+A: Among A through F, the answer is D: 12/07/2002.
+pred_before :  D: 12/07/2002.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : A
+*************************
+*************************
+193st data
+1_th_sampling
+Q: 2015 is coming in 36 hours. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 01/05/2015 (B) 01/04/2015 (C) 12/05/2014 (D) 01/05/1938 (E) 01/06/2015 (F) 01/07/2015
+A: Among A through F, the answer is E. 01/06/2015
+pred_before :  E. 01/06/2015
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : A
+*************************
+*************************
+194st data
+1_th_sampling
+Q: The day before yesterday was 11/23/1933. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 12/02/1933 (B) 12/23/1933 (C) 12/02/1974 (D) 11/11/1933 (E) 12/16/1933 (F) 11/25/1933
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : A
+*************************
+*************************
+195st data
+1_th_sampling
+Q: Today is 9/7. Jane is watching NFL 2003. What is the date today in MM/DD/YYYY? Answer Choices: (A) 12/05/2003 (B) 08/08/2003 (C) 09/06/2003 (D) 11/20/2003 (E) 07/07/2003 (F) 09/07/2003
+A: Among A through F, the answer is F.
+pred_before :  F.
+pred_after : F
+pred_list : ['F']
+pred_mode : F
+GT : F
+*************************
+*************************
+196st data
+1_th_sampling
+Q: Jane is celebrating the last day of Jan 2012. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 02/01/2011 (B) 04/20/2011 (C) 10/31/2011 (D) 06/30/2011 (E) 01/31/2011 (F) 02/08/2011
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+197st data
+1_th_sampling
+Q: 2015 is coming in 36 hours. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 12/05/2014 (B) 11/29/2014 (C) 03/07/2015 (D) 11/23/2014 (E) 11/28/2014 (F) 12/20/2014
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+198st data
+1_th_sampling
+Q: The deadline is Jun 1, 2021, which is 2 days away from now. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 07/06/2021 (B) 05/01/2021 (C) 05/09/2021 (D) 08/03/2021 (E) 02/19/2021 (F) 04/30/2021
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+199st data
+1_th_sampling
+Q: This is the last day of 1899. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 01/08/1900 (B) 01/22/1900 (C) 02/06/1900 (D) 01/01/1827 (E) 01/01/1899 (F) 01/01/1900
+A: Among A through F, the answer is F. 01/01/1900.
+pred_before :  F. 01/01/1900.
+pred_after : F
+pred_list : ['F']
+pred_mode : F
+GT : F
+*************************
+*************************
+200st data
+1_th_sampling
+Q: Today is Sep 9, 1909. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 09/02/1906 (B) 08/19/1909 (C) 09/02/1909 (D) 09/02/1864 (E) 09/02/1832 (F) 05/02/1909
+A: Among A through F, the answer is C. 09/02/1909
+pred_before :  C. 09/02/1909
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+201st data
+1_th_sampling
+Q: Today, 8/3/1997, is a day that we will never forget. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 05/03/1997 (B) 08/03/2035 (C) 10/07/1996 (D) 08/04/1996 (E) 08/03/1996
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+202st data
+1_th_sampling
+Q: Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 06/01/2016 (B) 02/28/2016 (C) 03/13/2016 (D) 11/28/2015 (E) 04/28/2016 (F) 02/21/2016
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+203st data
+1_th_sampling
+Q: 2015 is coming in 36 hours. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 12/29/2014 (B) 12/30/1933 (C) 01/30/2014 (D) 10/30/2015 (E) 12/31/2014 (F) 12/30/2014
+A: Among A through F, the answer is F. 12/30/2014 is tomorrow's date in MM/DD/YYYY.
+pred_before :  F. 12/30/2014 is tomorrow's date in MM/DD/YYYY.
+pred_after : F
+pred_list : ['F']
+pred_mode : F
+GT : F
+*************************
+*************************
+204st data
+1_th_sampling
+Q: Today is Sep 9, 1909. What is the date today in MM/DD/YYYY? Answer Choices: (A) 09/30/1909 (B) 09/09/1939 (C) 09/09/1909 (D) 12/11/1909 (E) 09/09/1886 (F) 11/19/1909
+A: Among A through F, the answer is C. 
+
+The date today is September 9, 1909, so the date in MM/DD/YYYY format is 09/09/1909
+pred_before :  C. 
+
+The date today is September 9, 1909, so the date in MM/DD/YYYY format is 09/09/1909
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+205st data
+1_th_sampling
+Q: The current local time is 3:02 pm of 5/4/2004. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 04/04/1968 (B) 04/03/2004 (C) 04/04/2004 (D) 03/25/2004 (E) 03/28/2004
+A: Among A through F, the answer is D. 
+
+The current local time is 3:02 pm of 5/4/2004. The date a month ago would be 3/4/
+pred_before :  D. 
+
+The current local time is 3:02 pm of 5/4/2004. The date a month ago would be 3/4/
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : C
+*************************
+*************************
+206st data
+1_th_sampling
+Q: Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 12/03/2007 (B) 12/02/1928 (C) 11/04/2007 (D) 12/02/2007 (E) 11/18/2007 (F) 01/02/2007
+A: Among A through F, the answer is D: 12/02/2007.
+pred_before :  D: 12/02/2007.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+207st data
+1_th_sampling
+Q: Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 02/09/2095 (B) 02/23/2020 (C) 02/09/2020 (D) 12/09/2020 (E) 02/13/2020 (F) 02/27/2020
+A: Among A through F, the answer is C, 02/09/2020.
+pred_before :  C, 02/09/2020.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+208st data
+1_th_sampling
+Q: The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 06/01/1943 (B) 06/04/1943 (C) 06/01/2005 (D) 05/27/1943 (E) 03/20/1943 (F) 05/24/1943
+A: Among A through F, the answer is D: 05/27/1943.
+pred_before :  D: 05/27/1943.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : A
+*************************
+*************************
+209st data
+1_th_sampling
+Q: Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date today in MM/DD/YYYY? Answer Choices: (A) 03/14/2002 (B) 05/12/2001 (C) 03/12/1908 (D) 03/12/2002 (E) 01/31/2002 (F) 04/02/2002
+A: Among A through F, the answer is D.
+
+The date today is 03/12/2002.
+pred_before :  D.
+
+The date today is 03/12/2002.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+210st data
+1_th_sampling
+Q: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date today in MM/DD/YYYY? Answer Choices: (A) 06/20/2019 (B) 06/19/2040 (C) 06/19/2019 (D) 07/03/2019 (E) 01/19/2020 (F) 06/18/2019
+A: Among A through F, the answer is C.
+pred_before :  C.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+211st data
+1_th_sampling
+Q: Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 08/18/1972 (B) 07/10/1972 (C) 07/09/1972 (D) 06/25/1972 (E) 07/30/1972 (F) 07/03/1972
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : C
+*************************
+*************************
+212st data
+1_th_sampling
+Q: Today, 8/3/1997, is a day that we will never forget. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 06/29/1997 (B) 09/02/1997 (C) 12/27/1997 (D) 07/27/1997 (E) 07/27/1973 (F) 03/27/1998
+A: Among A through F, the answer is D: 07/27/1997.
+pred_before :  D: 07/27/1997.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+213st data
+1_th_sampling
+Q: Jane booked a flight for tomorrow, Jul 29, 2002. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 08/03/2002 (B) 08/04/2002 (C) 08/04/1930 (D) 10/22/2002 (E) 07/04/2003 (F) 06/03/2002
+A: Among A through F, the answer is B, 08/04/2002.
+pred_before :  B, 08/04/2002.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+214st data
+1_th_sampling
+Q: Jane is celebrating the last day of Jan 2012. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 01/30/2012 (B) 01/30/1925 (C) 01/29/2012 (D) 02/06/2012 (E) 09/30/2011
+A: Among A through F, the answer is C.
+pred_before :  C.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : A
+*************************
+*************************
+215st data
+1_th_sampling
+Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date today in MM/DD/YYYY? Answer Choices: (A) 02/07/2017 (B) 08/28/2017 (C) 02/28/2017 (D) 03/01/2017 (E) 01/28/2018 (F) 02/22/2017
+A: Among A through F, the answer is C. 02/28/2017
+pred_before :  C. 02/28/2017
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+216st data
+1_th_sampling
+Q: Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 02/11/2002 (B) 02/12/2002 (C) 02/18/2002 (D) 02/08/2002 (E) 05/22/2002 (F) 04/12/2001
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : B
+*************************
+*************************
+217st data
+1_th_sampling
+Q: Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 04/13/1985 (B) 04/07/1985 (C) 03/10/1986 (D) 03/31/1985 (E) 05/13/1985 (F) 04/10/1986
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : D
+*************************
+*************************
+218st data
+1_th_sampling
+Q: Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 08/12/1972 (B) 05/13/1972 (C) 07/01/2008 (D) 07/09/1972 (E) 12/01/1972 (F) 07/01/1972
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+219st data
+1_th_sampling
+Q: The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date today in MM/DD/YYYY? Answer Choices: (A) 01/07/2019 (B) 10/28/2018 (C) 01/12/2019 (D) 12/24/2018 (E) 12/31/2018 (F) 01/06/2019
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : A
+*************************
+*************************
+220st data
+1_th_sampling
+Q: It is 4/19/1969 today. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 03/18/1969 (B) 03/19/1948 (C) 06/01/1969 (D) 03/20/1969 (E) 03/19/1969 (F) 03/26/1969
+A: Among A through F, the answer is A.
+pred_before :  A.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : E
+*************************
+*************************
+221st data
+1_th_sampling
+Q: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. Jane is correct. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 05/18/1989 (B) 05/10/2019 (C) 03/31/2019 (D) 03/18/2019 (E) 05/18/2019 (F) 05/17/2019
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+222st data
+1_th_sampling
+Q: Today is the last day of the first quarter of 2008. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 03/21/2008 (B) 03/22/2008 (C) 10/21/2008 (D) 06/04/2008 (E) 03/21/2104 (F) 06/24/2008
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : A
+*************************
+*************************
+223st data
+1_th_sampling
+Q: May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 04/05/2002 (B) 04/06/1975 (C) 04/13/2002 (D) 09/06/2002 (E) 04/15/2002 (F) 04/06/2002
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+224st data
+1_th_sampling
+Q: In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 01/13/1987 (B) 12/24/1986 (C) 11/18/1986 (D) 12/23/1986 (E) 01/01/1987 (F) 12/21/1986
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+225st data
+1_th_sampling
+Q: Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date today in MM/DD/YYYY? Answer Choices: (A) 12/31/1929 (B) 01/08/1930 (C) 01/01/1930 (D) 10/01/1930 (E) 01/06/1930 (F) 02/27/1930
+A: Among A through F, the answer is C. 01/01/1930.
+pred_before :  C. 01/01/1930.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+226st data
+1_th_sampling
+Q: Today is the first day of 2007. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 10/21/2006 (B) 01/01/2007 (C) 01/02/2007 (D) 01/11/2007 (E) 01/02/1931 (F) 12/12/2006
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : C
+*************************
+*************************
+227st data
+1_th_sampling
+Q: Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 02/22/2016 (B) 11/22/2016 (C) 04/22/2015 (D) 02/23/2016 (E) 06/22/2015 (F) 04/22/2016
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : A
+*************************
+*************************
+228st data
+1_th_sampling
+Q: Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 06/21/2011 (B) 01/21/2070 (C) 01/20/2011 (D) 01/26/2011 (E) 01/21/2011 (F) 01/28/2011
+A: Among A through F, the answer is C.
+pred_before :  C.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : E
+*************************
+*************************
+229st data
+1_th_sampling
+Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 03/15/2017 (B) 03/07/2017 (C) 03/07/1992 (D) 03/07/2058 (E) 03/07/2018 (F) 03/08/2017
+A: Among A through F, the answer is B, 03/07/2017.
+pred_before :  B, 03/07/2017.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+230st data
+1_th_sampling
+Q: Tomorrow is 11/12/2019. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 10/11/2019 (B) 10/12/2019 (C) 10/16/2019 (D) 10/10/2019 (E) 10/11/1974 (F) 10/11/2018
+A: Among A through F, the answer is 10/11/2018.
+pred_before :  10/11/2018.
+pred_after : 
+pred_list : ['']
+pred_mode : 
+GT : A
+*************************
+*************************
+231st data
+1_th_sampling
+Q: Jane is celebrating the last day of Jan 2012. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 12/31/2108 (B) 03/29/2012 (C) 12/31/2074 (D) 12/21/2011 (E) 12/30/2011 (F) 12/31/2011
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+232st data
+1_th_sampling
+Q: In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 01/03/1987 (B) 01/03/1986 (C) 04/03/1987 (D) 10/16/1986 (E) 01/02/1987 (F) 01/04/1987
+A: Among A through F, the answer is E. 01/02/1987 is 24 hours later than 02/01/1987.
+pred_before :  E. 01/02/1987 is 24 hours later than 02/01/1987.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : A
+*************************
+*************************
+233st data
+1_th_sampling
+Q: Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 06/13/2021 (B) 09/13/2020 (C) 09/13/1991 (D) 09/19/2020 (E) 10/05/2020 (F) 12/13/2020
+A: Among A through F, the answer is D: 09/19/2020.
+pred_before :  D: 09/19/2020.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : B
+*************************
+*************************
+234st data
+1_th_sampling
+Q: Today is the first day of 2007. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 01/09/2007 (B) 01/21/2007 (C) 01/07/2007 (D) 01/29/2007 (E) 01/08/2008 (F) 01/08/2007
+A: Among A through F, the answer is D: 01/29/2007.
+pred_before :  D: 01/29/2007.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+235st data
+1_th_sampling
+Q: The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 07/04/1943 (B) 03/15/1943 (C) 08/03/1942 (D) 06/03/1943 (E) 06/02/1943 (F) 05/06/1943
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : D
+*************************
+*************************
+236st data
+1_th_sampling
+Q: Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 04/05/1973 (B) 03/08/1983 (C) 03/05/1972 (D) 01/02/1973 (E) 03/02/1973 (F) 03/06/1973
+A: Among A through F, the answer is F. 03/06/1973 is 24 hours later from 03/05/1973.
+pred_before :  F. 03/06/1973 is 24 hours later from 03/05/1973.
+pred_after : F
+pred_list : ['F']
+pred_mode : F
+GT : F
+*************************
+*************************
+237st data
+1_th_sampling
+Q: In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 01/09/1986 (B) 01/02/1986 (C) 12/20/1985 (D) 10/22/1985 (E) 11/10/1985 (F) 12/05/1985
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : B
+*************************
+*************************
+238st data
+1_th_sampling
+Q: Jane is celebrating the last day of Jan 2012. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 07/21/2011 (B) 01/21/2012 (C) 12/31/2011 (D) 04/21/2012 (E) 01/25/2012 (F) 10/13/2011
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : B
+*************************
+*************************
+239st data
+1_th_sampling
+Q: Today is the second day of the third month of 1966. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 12/17/1965 (B) 03/18/1966 (C) 02/02/1966 (D) 02/03/1966 (E) 02/01/1966
+A: Among A through F, the answer is A.
+pred_before :  A.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : C
+*************************
+*************************
+240st data
+1_th_sampling
+Q: This is the last day of 1899. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 02/07/1900 (B) 11/30/1843 (C) 11/29/1899 (D) 11/30/1899 (E) 12/01/1899 (F) 11/30/1983
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+241st data
+1_th_sampling
+Q: The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 05/25/1943 (B) 05/23/1943 (C) 10/26/1942 (D) 03/20/1943 (E) 05/26/1943 (F) 06/07/1943
+A: Among A through F, the answer is B: 05/23/1943.
+pred_before :  B: 05/23/1943.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : E
+*************************
+*************************
+242st data
+1_th_sampling
+Q: The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 12/25/2018 (B) 11/16/2018 (C) 01/08/2119 (D) 01/02/2019 (E) 01/07/2019 (F) 01/08/2019
+A: Among A through F, the answer is D. 01/02/2019.
+pred_before :  D. 01/02/2019.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+243st data
+1_th_sampling
+Q: Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 09/05/2020 (B) 09/06/2020 (C) 09/04/2020 (D) 08/15/2020 (E) 02/05/2021
+A: Among A through F, the answer is B, 09/06/2020.
+pred_before :  B, 09/06/2020.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : A
+*************************
+*************************
+244st data
+1_th_sampling
+Q: It is 4/19/1969 today. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 04/09/1969 (B) 04/08/1969 (C) 03/24/1969 (D) 04/04/1969 (E) 03/19/1969 (F) 04/10/1969
+A: Among A through F, the answer is B, 04/08/1969.
+pred_before :  B, 04/08/1969.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : A
+*************************
+*************************
+245st data
+1_th_sampling
+Q: Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 12/31/2010 (B) 02/13/2011 (C) 01/22/2011 (D) 01/23/2011 (E) 12/26/2010 (F) 01/24/2011
+A: Among A through F, the answer is C.
+pred_before :  C.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : D
+*************************
+*************************
+246st data
+1_th_sampling
+Q: Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date today in MM/DD/YYYY? Answer Choices: (A) 04/05/1973 (B) 03/05/1973 (C) 01/22/2007 (D) 01/02/1973 (E) 03/02/1973 (F) 03/08/1983
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+247st data
+1_th_sampling
+Q: Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date today in MM/DD/YYYY? Answer Choices: (A) 08/02/2008 (B) 01/02/2085 (C) 12/04/2007 (D) 01/02/2008 (E) 01/11/2008 (F) 01/30/2008
+A: Among A through F, the answer is D: 01/02/2008.
+pred_before :  D: 01/02/2008.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+248st data
+1_th_sampling
+Q: This is the last day of 1899. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 12/24/1802 (B) 03/12/1900 (C) 12/24/1899 (D) 12/17/1899 (E) 01/02/1900 (F) 05/24/1900
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : C
+*************************
+*************************
+249st data
+1_th_sampling
+Q: Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 03/13/2002 (B) 08/13/2001 (C) 03/10/2002 (D) 12/13/2001 (E) 03/14/2002 (F) 02/27/2002
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : A
+*************************
+*************************
+250st data
+1_th_sampling
+Q: Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date today in MM/DD/YYYY? Answer Choices: (A) 02/02/2020 (B) 01/23/2020 (C) 01/19/2020 (D) 02/01/2020 (E) 05/02/2019 (F) 11/08/2019
+A: Among A through F, the answer is A.
+pred_before :  A.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+251st data
+1_th_sampling
+Q: The deadline is Jun 1, 2021, which is 2 days away from now. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 05/30/2021 (B) 06/01/2021 (C) 05/31/1993 (D) 05/31/2021 (E) 07/07/2021 (F) 05/17/2021
+A: Among A through F, the answer is D, 05/31/2021.
+pred_before :  D, 05/31/2021.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+252st data
+1_th_sampling
+Q: Yesterday was April 30, 2021. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 04/01/2020 (B) 05/08/2020 (C) 05/01/2020 (D) 05/15/2020 (E) 05/01/1971
+A: Among A through F, the answer is A.
+pred_before :  A.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : C
+*************************
+*************************
+253st data
+1_th_sampling
+Q: Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 09/01/2020 (B) 09/02/1939 (C) 09/02/2021 (D) 09/09/2020 (E) 09/30/2020 (F) 09/02/2020
+A: Among A through F, the answer is D. 09/09/2020 is 10 days ago from today, 09/19/2020.
+pred_before :  D. 09/09/2020 is 10 days ago from today, 09/19/2020.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+254st data
+1_th_sampling
+Q: Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 01/02/2007 (B) 03/24/2007 (C) 01/01/2007 (D) 04/05/2007 (E) 01/02/1957 (F) 01/02/2037
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : A
+*************************
+*************************
+255st data
+1_th_sampling
+Q: 2015 is coming in 36 hours. What is the date today in MM/DD/YYYY? Answer Choices: (A) 12/27/2014 (B) 12/26/2014 (C) 12/29/2014 (D) 12/22/2014 (E) 12/08/2014 (F) 12/29/1974
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : C
+*************************
+*************************
+256st data
+1_th_sampling
+Q: Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date today in MM/DD/YYYY? Answer Choices: (A) 02/28/2016 (B) 02/29/1980 (C) 02/29/2036 (D) 02/29/2016 (E) 01/16/2016 (F) 03/07/2016
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+257st data
+1_th_sampling
+Q: Today is Sep 9, 1909. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 08/11/1909 (B) 09/15/1909 (C) 09/08/1909 (D) 07/24/1909 (E) 09/08/1962 (F) 09/09/1909
+A: Among A through F, the answer is C. 09/08/1909
+pred_before :  C. 09/08/1909
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+258st data
+1_th_sampling
+Q: Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 07/15/1972 (B) 06/24/1972 (C) 07/16/1972 (D) 07/15/2037 (E) 06/18/1972 (F) 07/29/1972
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : A
+*************************
+*************************
+259st data
+1_th_sampling
+Q: Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 02/16/2010 (B) 02/17/2010 (C) 02/21/2010 (D) 03/27/2010 (E) 02/23/2010 (F) 02/03/2010
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+260st data
+1_th_sampling
+Q: Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 01/13/2011 (B) 01/12/2069 (C) 01/12/2011 (D) 01/18/2011 (E) 08/12/2010 (F) 05/12/2010
+A: Among A through F, the answer is C.
+pred_before :  C.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+261st data
+1_th_sampling
+Q: Today is Christmas Eve of 1937. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 01/10/1937 (B) 12/24/1862 (C) 12/29/1936 (D) 10/24/1936 (E) 12/24/1936 (F) 03/24/1936
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : E
+*************************
+*************************
+262st data
+1_th_sampling
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 01/02/1961 (B) 10/01/1960 (C) 12/26/1960 (D) 12/26/1936 (E) 07/26/1960 (F) 01/09/1961
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : C
+*************************
+*************************
+263st data
+1_th_sampling
+Q: Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924. What is the date today in MM/DD/YYYY? Answer Choices: (A) 10/15/1835 (B) 10/14/1924 (C) 09/17/1924 (D) 10/15/1924 (E) 10/29/1924
+A: Among A through F, the answer is D. 
+
+The correct answer is D.
+pred_before :  D. 
+
+The correct answer is D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+264st data
+1_th_sampling
+Q: Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 12/01/1973 (B) 12/11/1929 (C) 04/01/1930 (D) 12/02/1929 (E) 12/04/1929 (F) 12/01/1929
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+265st data
+1_th_sampling
+Q: Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date today in MM/DD/YYYY? Answer Choices: (A) 12/12/2020 (B) 09/17/2020 (C) 09/12/1961 (D) 11/12/2020 (E) 09/12/2020
+A: Among A through F, the answer is E. 
+
+The date today is 09/12/2020.
+pred_before :  E. 
+
+The date today is 09/12/2020.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+266st data
+1_th_sampling
+Q: The day before yesterday was 11/23/1933. What is the date today in MM/DD/YYYY? Answer Choices: (A) 01/04/1934 (B) 11/25/1967 (C) 11/25/1933 (D) 11/04/1933 (E) 12/09/1933 (F) 08/29/1933
+A: Among A through F, the answer is D. 11/04/1933.
+pred_before :  D. 11/04/1933.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : C
+*************************
+*************************
+267st data
+1_th_sampling
+Q: The current local time is 3:02 pm of 5/4/2004. What is the date today in MM/DD/YYYY? Answer Choices: (A) 05/03/2004 (B) 05/11/2004 (C) 05/05/2004 (D) 05/04/2004 (E) 04/28/2004 (F) 05/04/2005
+A: Among A through F, the answer is D, 05/04/2004.
+pred_before :  D, 05/04/2004.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+268st data
+1_th_sampling
+Q: Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 03/13/2002 (B) 03/06/2002 (C) 02/13/2002 (D) 03/11/2002 (E) 03/14/2002 (F) 12/13/2001
+A: Among A through F, the answer is A, 03/13/2002.
+pred_before :  A, 03/13/2002.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+269st data
+1_th_sampling
+Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 12/05/2016 (B) 02/27/1955 (C) 02/27/2017 (D) 02/26/2017 (E) 12/27/2016 (F) 02/18/2017
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : C
+*************************
+*************************
+270st data
+1_th_sampling
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 12/26/1959 (B) 01/02/1967 (C) 06/02/1960 (D) 01/02/2016 (E) 01/02/1960 (F) 12/19/1959
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+271st data
+1_th_sampling
+Q: Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 07/15/1971 (B) 07/08/1910 (C) 07/07/1971 (D) 07/01/1971 (E) 07/08/1971 (F) 07/09/1971
+A: Among A through F, the answer is C: 07/07/1971.
+pred_before :  C: 07/07/1971.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : E
+*************************
+*************************
+272st data
+1_th_sampling
+Q: Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 02/20/2016 (B) 03/01/2104 (C) 03/01/2048 (D) 03/02/2016 (E) 03/01/1968 (F) 03/01/2016
+A: Among A through F, the answer is D. 03/02/2016
+pred_before :  D. 03/02/2016
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+273st data
+1_th_sampling
+Q: In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 01/01/1987 (B) 01/01/1934 (C) 01/01/2015 (D) 10/19/1986 (E) 12/29/1986 (F) 01/08/1987
+A: Among A through F, the answer is A.
+pred_before :  A.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+274st data
+1_th_sampling
+Q: Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 09/20/2019 (B) 10/24/2019 (C) 09/12/2019 (D) 09/12/1970 (E) 10/01/2019
+A: Among A through F, the answer is D. 09/12/2019 is one year ago from today's date, 10/12/2020.
+pred_before :  D. 09/12/2019 is one year ago from today's date, 10/12/2020.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : C
+*************************
+*************************
+275st data
+1_th_sampling
+Q: In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 11/28/1986 (B) 12/20/1986 (C) 12/26/1986 (D) 01/02/1987 (E) 12/25/1986
+A: Among A through F, the answer is D. 01/02/1987.
+pred_before :  D. 01/02/1987.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : C
+*************************
+*************************
+276st data
+1_th_sampling
+Q: The day before yesterday was 11/23/1933. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 11/25/1993 (B) 05/25/1932 (C) 11/26/1932 (D) 11/25/1932 (E) 02/25/1933 (F) 09/20/1932
+A: Among A through F, the answer is D. 11/25/1932.
+pred_before :  D. 11/25/1932.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+277st data
+1_th_sampling
+Q: In the US, Thanksgiving is on the fourth Thursday of November. Today is the US Thanksgiving of 2001. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 06/23/2003 (B) 11/24/2002 (C) 12/01/2002 (D) 11/23/2002 (E) 05/23/2002
+A: Among A through F, the answer is D. 11/23/2002 is Friday.
+pred_before :  D. 11/23/2002 is Friday.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+278st data
+1_th_sampling
+Q: On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 06/15/2017 (B) 07/17/2017 (C) 07/10/2017 (D) 06/18/2017 (E) 06/20/2017 (F) 06/19/2017
+A: Among A through F, the answer is D, 06/18/2017.
+pred_before :  D, 06/18/2017.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+279st data
+1_th_sampling
+Q: Today is 9/7. Jane is watching NFL 2003. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 09/11/2003 (B) 09/14/1992 (C) 09/17/2003 (D) 09/05/2003 (E) 09/14/2003 (F) 09/14/2011
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+280st data
+1_th_sampling
+Q: Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 02/16/2004 (B) 01/26/2009 (C) 08/16/2009 (D) 02/15/2009 (E) 02/16/2009 (F) 03/13/2009
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : E
+*************************
+*************************
+281st data
+1_th_sampling
+Q: In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 01/09/1987 (B) 01/09/2023 (C) 01/09/1948 (D) 01/23/1987 (E) 03/17/1987 (F) 01/08/1987
+A: Among A through F, the answer is F.
+pred_before :  F.
+pred_after : F
+pred_list : ['F']
+pred_mode : F
+GT : A
+*************************
+*************************
+282st data
+1_th_sampling
+Q: Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 03/05/2002 (B) 03/26/2002 (C) 03/06/2002 (D) 03/12/2002 (E) 03/05/1932 (F) 03/05/2095
+A: Among A through F, the answer is A.
+pred_before :  A.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+283st data
+1_th_sampling
+Q: In the US, Thanksgiving is on the fourth Thursday of November. Today is the US Thanksgiving of 2001. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 10/15/2002 (B) 10/21/2002 (C) 10/22/2002 (D) 10/22/1923 (E) 07/21/2002 (F) 11/22/2001
+A: Among A through F, the answer is D. 
+
+The fourth Thursday of November in 2001 was November 22, so a month before that would have been October 22, 1923.
+pred_before :  D. 
+
+The fourth Thursday of November in 2001 was November 22, so a month before that would have been October 22, 1923.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : C
+*************************
+*************************
+284st data
+1_th_sampling
+Q: Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 01/02/1931 (B) 11/05/2019 (C) 01/02/2020 (D) 01/03/2020 (E) 01/01/2020 (F) 10/02/2019
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : C
+*************************
+*************************
+285st data
+1_th_sampling
+Q: Today is Sep 9, 1909. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 09/13/1908 (B) 09/09/1908 (C) 09/04/1908 (D) 07/05/1908 (E) 09/09/1920 (F) 09/09/1870
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+286st data
+1_th_sampling
+Q: The day before yesterday was 11/23/1933. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 11/26/1989 (B) 11/15/1933 (C) 11/25/1933 (D) 12/26/1933 (E) 11/27/1933 (F) 11/26/1933
+A: Among A through F, the answer is F. 11/26/1933 is tomorrow's date if today is 11/25/1933.
+pred_before :  F. 11/26/1933 is tomorrow's date if today is 11/25/1933.
+pred_after : F
+pred_list : ['F']
+pred_mode : F
+GT : F
+*************************
+*************************
+287st data
+1_th_sampling
+Q: It is 4/19/1969 today. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 04/27/1969 (B) 05/11/1969 (C) 04/25/1969 (D) 04/26/1969 (E) 05/14/1969 (F) 04/05/1969
+A: Among A through F, the answer is D, 04/26/1969.
+pred_before :  D, 04/26/1969.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+288st data
+1_th_sampling
+Q: This is the last day of 1899. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 01/01/1900 (B) 01/02/1900 (C) 03/27/1900 (D) 01/01/1845 (E) 12/31/1899 (F) 01/01/1964
+A: Among A through F, the answer is A. 01/01/1900
+pred_before :  A. 01/01/1900
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+289st data
+1_th_sampling
+Q: Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 12/26/2010 (B) 01/23/2072 (C) 01/23/2011 (D) 02/20/2011 (E) 01/24/2011
+A: Among A through F, the answer is E. 01/24/2011 is the date 24 hours later.
+pred_before :  E. 01/24/2011 is the date 24 hours later.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : C
+*************************
+*************************
+290st data
+1_th_sampling
+Q: The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 04/04/1943 (B) 12/02/1943 (C) 05/02/1943 (D) 02/22/1943 (E) 04/28/1943
+A: Among A through F, the answer is D. 
+
+The correct answer is D.
+pred_before :  D. 
+
+The correct answer is D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : C
+*************************
+*************************
+291st data
+1_th_sampling
+Q: In the US, Thanksgiving is on the fourth Thursday of November. Today is the US Thanksgiving of 2001. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 11/29/2078 (B) 11/30/2002 (C) 12/11/2002 (D) 12/27/2002 (E) 11/15/2002 (F) 11/29/2002
+A: Among A through F, the answer is B, 11/30/2002.
+pred_before :  B, 11/30/2002.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : F
+*************************
+*************************
+292st data
+1_th_sampling
+Q: On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 05/19/2017 (B) 05/18/2017 (C) 06/24/2017 (D) 05/04/2017 (E) 10/18/2017 (F) 05/11/2017
+A: Among A through F, the answer is B: 05/18/2017.
+pred_before :  B: 05/18/2017.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+293st data
+1_th_sampling
+Q: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. Jane is correct. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 06/19/2011 (B) 12/19/2019 (C) 05/14/2019 (D) 06/19/2019 (E) 06/18/2019 (F) 06/20/2019
+A: Among A through F, the answer is D, 06/19/2019.
+pred_before :  D, 06/19/2019.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+294st data
+1_th_sampling
+Q: Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 01/31/2010 (B) 01/06/2010 (C) 02/06/2010 (D) 02/06/1967 (E) 01/27/2010 (F) 02/06/1984
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : C
+*************************
+*************************
+295st data
+1_th_sampling
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 07/09/1960 (B) 03/09/1960 (C) 01/09/1961 (D) 02/28/1961 (E) 01/09/1963 (F) 01/16/1961
+A: Among A through F, the answer is D: 02/28/1961.
+pred_before :  D: 02/28/1961.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : C
+*************************
+*************************
+296st data
+1_th_sampling
+Q: Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 09/16/1923 (B) 10/14/1923 (C) 07/11/1923 (D) 10/06/1923 (E) 10/15/1923 (F) 10/13/1923
+A: Among A through F, the answer is A: 09/16/1923.
+pred_before :  A: 09/16/1923.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : E
+*************************
+*************************
+297st data
+1_th_sampling
+Q: This is the last day of 1899. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 02/11/1899 (B) 12/03/1898 (C) 01/11/1899 (D) 12/25/1898 (E) 12/31/1898
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : E
+*************************
+*************************
+298st data
+1_th_sampling
+Q: The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 09/06/2018 (B) 12/08/2018 (C) 12/07/2075 (D) 12/07/2018 (E) 11/30/2018
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+299st data
+1_th_sampling
+Q: Today is the second day of the third month of 1966. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 02/28/1966 (B) 03/03/1966 (C) 03/02/1966 (D) 03/04/1966 (E) 03/24/1966
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+300st data
+1_th_sampling
+Q: Jane got her job in 2016. Today is her 3-year work anniversary. She still remember that on Dec 2, her second day at work, she spilled coffee on her laptop. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 08/08/2019 (B) 12/08/2019 (C) 12/08/2075 (D) 12/10/2019 (E) 12/08/2022 (F) 12/22/2019
+A: Among A through F, the answer is D: 12/10/2019.
+pred_before :  D: 12/10/2019.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : B
+*************************
+*************************
+301st data
+1_th_sampling
+Q: It was Sept. 1st, 2021 a week ago. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 12/06/2021 (B) 09/01/2021 (C) 09/01/2098 (D) 09/01/2020 (E) 09/02/2021 (F) 09/07/2021
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+302st data
+1_th_sampling
+Q: Today is Sep 9, 1909. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 09/16/1909 (B) 09/16/1952 (C) 08/22/1909 (D) 09/16/1876 (E) 10/14/1909 (F) 12/16/1909
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : A
+*************************
+*************************
+303st data
+1_th_sampling
+Q: Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 10/14/1924 (B) 10/14/2004 (C) 10/14/1935 (D) 09/14/1925 (E) 10/15/1924 (F) 10/22/1924
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : A
+*************************
+*************************
+304st data
+1_th_sampling
+Q: Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date today in MM/DD/YYYY? Answer Choices: (A) 02/16/1933 (B) 11/30/2009 (C) 02/16/2010 (D) 12/21/2009 (E) 05/24/2010 (F) 02/06/2010
+A: Among A through F, the answer is D. 
+
+The 16th of each month starting from the October of 2009 would be February 2010, May 2010, August 2010, and so on.
+pred_before :  D. 
+
+The 16th of each month starting from the October of 2009 would be February 2010, May 2010, August 2010, and so on.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : C
+*************************
+*************************
+305st data
+1_th_sampling
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 01/04/1961 (B) 01/02/1961 (C) 01/01/1961 (D) 01/03/1964 (E) 01/03/1961 (F) 12/03/1960
+A: Among A through F, the answer is D. 01/03/1964 is the 5-year anniversary of their marriage, and the date 24 hours later would be 01/04/1964.
+pred_before :  D. 01/03/1964 is the 5-year anniversary of their marriage, and the date 24 hours later would be 01/04/1964.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : E
+*************************
+*************************
+306st data
+1_th_sampling
+Q: Jane booked a flight for tomorrow, Jul 29, 2002. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 06/21/2002 (B) 10/28/2002 (C) 06/28/2002 (D) 08/25/2002 (E) 06/27/2002 (F) 10/28/2001
+A: Among A through F, the answer is A: 06/21/2002.
+pred_before :  A: 06/21/2002.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : C
+*************************
+*************************
+307st data
+1_th_sampling
+Q: Today is the second day of the third month of 1966. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 10/23/1966 (B) 02/02/1966 (C) 02/26/1966 (D) 01/13/1966 (E) 02/23/1966 (F) 02/23/1968
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : E
+*************************
+*************************
+308st data
+1_th_sampling
+Q: The current local time is 3:02 pm of 5/4/2004. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 05/05/2004 (B) 05/10/2004 (C) 05/21/2004 (D) 05/25/2004 (E) 05/11/2004 (F) 04/12/2004
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+309st data
+1_th_sampling
+Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 02/03/2017 (B) 01/28/2017 (C) 01/21/2017 (D) 11/12/2016 (E) 01/14/2017
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : B
+*************************
+*************************
+310st data
+1_th_sampling
+Q: Tomorrow is 11/12/2019. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 11/04/2018 (B) 11/02/2018 (C) 08/25/2018 (D) 11/11/2018 (E) 09/04/2018
+A: Among A through F, the answer is A: 11/04/2018.
+pred_before :  A: 11/04/2018.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : D
+*************************
+*************************
+311st data
+1_th_sampling
+Q: It was Sept. 1st, 2021 a week ago. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 10/13/2021 (B) 09/09/2021 (C) 09/22/2021 (D) 10/15/2020 (E) 09/15/2021 (F) 09/05/2021
+A: Among A through F, the answer is B, 09/09/2021.
+pred_before :  B, 09/09/2021.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : E
+*************************
+*************************
+312st data
+1_th_sampling
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 01/03/1961 (B) 01/11/1961 (C) 01/18/1961 (D) 10/14/1960 (E) 01/03/1982 (F) 12/03/1960
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : A
+*************************
+*************************
+313st data
+1_th_sampling
+Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 02/20/2017 (B) 03/17/2017 (C) 03/01/2017 (D) 03/25/2017 (E) 03/01/2076 (F) 03/01/2116
+A: Among A through F, the answer is B. 03/17/2017
+pred_before :  B. 03/17/2017
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : C
+*************************
+*************************
+314st data
+1_th_sampling
+Q: In the US, Thanksgiving is on the fourth Thursday of November. Today is the US Thanksgiving of 2001. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 11/07/2002 (B) 11/21/2002 (C) 11/30/2002 (D) 09/12/2002 (E) 11/21/2076 (F) 11/15/2002
+A: Among A through F, the answer is D. 11/21/2002 is Thursday, and 11/22/2002 is Friday. 11/15/2002 is the Thursday before Thanksgiving, which is
+pred_before :  D. 11/21/2002 is Thursday, and 11/22/2002 is Friday. 11/15/2002 is the Thursday before Thanksgiving, which is
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : B
+*************************
+*************************
+315st data
+1_th_sampling
+Q: Today is the first day of 2007. What is the date today in MM/DD/YYYY? Answer Choices: (A) 05/01/2007 (B) 01/01/1951 (C) 12/18/2006 (D) 01/01/2007 (E) 01/22/2007 (F) 01/01/2096
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+316st data
+1_th_sampling
+Q: Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 01/26/1980 (B) 11/21/2019 (C) 01/19/2020 (D) 01/27/2020 (E) 01/26/2020 (F) 11/15/2019
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : E
+*************************
+*************************
+317st data
+1_th_sampling
+Q: This is the last day of 1899. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 11/30/1899 (B) 01/22/1900 (C) 11/02/1899 (D) 12/30/1899 (E) 01/06/1900 (F) 12/31/1899
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+318st data
+1_th_sampling
+Q: Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 03/19/2002 (B) 11/19/2002 (C) 05/13/2002 (D) 03/26/2002 (E) 03/20/2002
+A: Among A through F, the answer is D. 03/26/2002 is one week from today. 
+
+pred_before :  D. 03/26/2002 is one week from today. 
+
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : A
+*************************
+*************************
+319st data
+1_th_sampling
+Q: It is 4/19/1969 today. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 04/19/1968 (B) 04/20/1968 (C) 07/01/1968 (D) 06/19/1967 (E) 05/06/1968 (F) 04/18/1968
+A: Among A through F, the answer is D: 06/19/1967.
+pred_before :  D: 06/19/1967.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : A
+*************************
+*************************
+320st data
+1_th_sampling
+Q: Yesterday was April 30, 2021. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 03/18/2021 (B) 04/01/2021 (C) 03/31/2021 (D) 02/21/2021 (E) 03/22/2021 (F) 04/01/2094
+A: Among A through F, the answer is D: 02/21/2021.
+pred_before :  D: 02/21/2021.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : B
+*************************
+*************************
+321st data
+1_th_sampling
+Q: May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 04/28/2002 (B) 02/13/2002 (C) 04/19/2002 (D) 04/24/2002 (E) 05/20/2002 (F) 04/29/2002
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+322st data
+1_th_sampling
+Q: Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 08/12/2045 (B) 08/12/2020 (C) 08/12/2093 (D) 08/20/2020 (E) 07/29/2020 (F) 09/06/2020
+A: Among A through F, the answer is B: 08/12/2020.
+pred_before :  B: 08/12/2020.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+323st data
+1_th_sampling
+Q: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. Jane is correct. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 04/21/2019 (B) 05/28/2019 (C) 06/25/2019 (D) 06/26/2019 (E) 06/24/2019 (F) 07/04/2019
+A: Among A through F, the answer is D, 06/26/2019.
+pred_before :  D, 06/26/2019.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : C
+*************************
+*************************
+324st data
+1_th_sampling
+Q: Today is 9/7. Jane is watching NFL 2003. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 08/10/2003 (B) 08/08/2003 (C) 06/01/2003 (D) 04/07/2003 (E) 08/14/2003 (F) 08/07/2003
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : F
+*************************
+*************************
+325st data
+1_th_sampling
+Q: Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 03/10/1985 (B) 04/13/1985 (C) 04/10/1985 (D) 04/12/1986 (E) 05/13/1985 (F) 04/07/1985
+A: Among A through F, the answer is F.
+pred_before :  F.
+pred_after : F
+pred_list : ['F']
+pred_mode : F
+GT : A
+*************************
+*************************
+326st data
+1_th_sampling
+Q: Yesterday was April 30, 2021. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 04/15/2021 (B) 04/24/2021 (C) 04/23/2021 (D) 06/05/2021 (E) 04/19/2021 (F) 05/15/2021
+A: Among A through F, the answer is C, 04/23/2021.
+pred_before :  C, 04/23/2021.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : B
+*************************
+*************************
+327st data
+1_th_sampling
+Q: Today is 9/7. Jane is watching NFL 2003. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 09/05/2003 (B) 10/23/2003 (C) 09/06/2102 (D) 09/21/2003 (E) 09/06/2003
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+328st data
+1_th_sampling
+Q: The day before yesterday was 11/23/1933. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 12/16/1933 (B) 11/11/1933 (C) 11/17/1933 (D) 11/18/1933 (E) 11/13/1933 (F) 11/04/1933
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : D
+*************************
+*************************
+329st data
+1_th_sampling
+Q: Today is the second day of the third month of 1966. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 03/02/1966 (B) 03/03/1965 (C) 03/03/2021 (D) 03/04/1966 (E) 03/03/1966 (F) 04/03/1966
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+330st data
+1_th_sampling
+Q: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 06/22/2019 (B) 06/20/2028 (C) 06/21/2019 (D) 06/20/2019 (E) 06/20/1921 (F) 06/29/2019
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+331st data
+1_th_sampling
+Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 02/28/1992 (B) 03/31/2016 (C) 02/28/2015 (D) 02/28/2016 (E) 03/06/2016 (F) 03/27/2016
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+332st data
+1_th_sampling
+Q: In the US, Thanksgiving is on the fourth Thursday of November. Today is the US Thanksgiving of 2001. What is the date today in MM/DD/YYYY? Answer Choices: (A) 01/16/2003 (B) 08/24/2002 (C) 11/23/2002 (D) 11/22/2002 (E) 09/04/2002 (F) 11/21/2002
+A: Among A through F, the answer is D: 11/22/2002.
+pred_before :  D: 11/22/2002.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+333st data
+1_th_sampling
+Q: Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 07/03/1972 (B) 10/28/1971 (C) 06/14/1972 (D) 06/28/1972 (E) 06/23/1972 (F) 09/28/1972
+A: Among A through F, the answer is D: 06/28/1972.
+pred_before :  D: 06/28/1972.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+334st data
+1_th_sampling
+Q: The current local time is 3:02 pm of 5/4/2004. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 04/27/2003 (B) 04/27/2004 (C) 04/28/2004 (D) 05/18/2004 (E) 05/27/2004 (F) 04/24/2004
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+335st data
+1_th_sampling
+Q: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. Jane is correct. What is the date today in MM/DD/YYYY? Answer Choices: (A) 06/08/2019 (B) 06/19/2019 (C) 07/09/2019 (D) 07/03/2019 (E) 09/23/2019 (F) 06/18/2019
+A: Among A through F, the answer is F.
+pred_before :  F.
+pred_after : F
+pred_list : ['F']
+pred_mode : F
+GT : F
+*************************
+*************************
+336st data
+1_th_sampling
+Q: Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 02/03/2100 (B) 02/03/1982 (C) 02/04/2020 (D) 02/03/2020 (E) 01/02/2020 (F) 02/03/2094
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+337st data
+1_th_sampling
+Q: Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 01/08/2010 (B) 02/05/2010 (C) 01/22/2010 (D) 01/23/2010 (E) 01/21/2010 (F) 10/29/2009
+A: Among A through F, the answer is D: 01/23/2010.
+pred_before :  D: 01/23/2010.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : C
+*************************
+*************************
+338st data
+1_th_sampling
+Q: Jane got her job in 2016. Today is her 3-year work anniversary. She still remember that on Dec 2, her second day at work, she spilled coffee on her laptop. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 12/02/2019 (B) 12/01/2019 (C) 12/02/1950 (D) 08/02/2020 (E) 01/02/2020 (F) 11/18/2019
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : A
+*************************
+*************************
+339st data
+1_th_sampling
+Q: Today is the second day of the third month of 1966. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 03/26/1966 (B) 02/22/1966 (C) 12/09/1965 (D) 03/02/1966 (E) 03/28/1966 (F) 03/09/1966
+A: Among A through F, the answer is D, 03/02/1966.
+pred_before :  D, 03/02/1966.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+340st data
+1_th_sampling
+Q: Today, 8/3/1997, is a day that we will never forget. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 08/04/1997 (B) 12/04/1996 (C) 08/04/1901 (D) 08/04/2004 (E) 08/01/1997 (F) 08/07/1997
+A: Among A through F, the answer is A.
+pred_before :  A.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+341st data
+1_th_sampling
+Q: Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 06/08/1972 (B) 06/07/1972 (C) 12/08/1971 (D) 06/08/2034 (E) 06/22/1972 (F) 06/08/2059
+A: Among A through F, the answer is B: 06/07/1972.
+pred_before :  B: 06/07/1972.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : A
+*************************
+*************************
+342st data
+1_th_sampling
+Q: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. Jane is correct. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 05/13/2019 (B) 05/18/2019 (C) 06/17/2019 (D) 06/08/2019 (E) 05/20/2019 (F) 06/17/2063
+A: Among A through F, the answer is C.
+pred_before :  C.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+343st data
+1_th_sampling
+Q: Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date today in MM/DD/YYYY? Answer Choices: (A) 01/12/2011 (B) 01/23/2011 (C) 01/08/2011 (D) 01/22/2086 (E) 01/22/2011 (F) 01/22/1990
+A: Among A through F, the answer is B, 01/23/2011.
+pred_before :  B, 01/23/2011.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : E
+*************************
+*************************
+344st data
+1_th_sampling
+Q: Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 12/31/2007 (B) 12/27/2007 (C) 01/01/2008 (D) 02/03/2008 (E) 01/02/2008
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : C
+*************************
+*************************
+345st data
+1_th_sampling
+Q: In the US, Thanksgiving is on the fourth Thursday of November. Today is the US Thanksgiving of 2001. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 11/22/2056 (B) 11/27/2001 (C) 11/21/2001 (D) 11/26/2001 (E) 11/22/2001 (F) 11/22/1923
+A: Among A through F, the answer is B. 11/27/2001 is the fourth Thursday of November in 2000.
+pred_before :  B. 11/27/2001 is the fourth Thursday of November in 2000.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : E
+*************************
+*************************
+346st data
+1_th_sampling
+Q: May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date today in MM/DD/YYYY? Answer Choices: (A) 05/06/2002 (B) 05/06/1935 (C) 05/06/1912 (D) 05/06/1964 (E) 05/06/2095 (F) 08/06/2002
+A: Among A through F, the answer is A.
+pred_before :  A.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+347st data
+1_th_sampling
+Q: The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 09/03/1943 (B) 04/11/1943 (C) 06/04/1943 (D) 03/09/1943 (E) 08/03/1942 (F) 06/03/1943
+A: Among A through F, the answer is D. 
+
+The correct answer is D.
+pred_before :  D. 
+
+The correct answer is D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+348st data
+1_th_sampling
+Q: Jane booked a flight for tomorrow, Jul 29, 2002. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 07/20/2002 (B) 11/21/2001 (C) 10/21/2002 (D) 07/21/2002 (E) 10/17/2002 (F) 08/18/2002
+A: Among A through F, the answer is A: 07/20/2002.
+pred_before :  A: 07/20/2002.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : D
+*************************
+*************************
+349st data
+1_th_sampling
+Q: May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 05/28/2002 (B) 04/07/2003 (C) 04/16/2002 (D) 05/07/2036 (E) 05/07/2002
+A: Among A through F, the answer is E. 05/07/2002
+pred_before :  E. 05/07/2002
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+350st data
+1_th_sampling
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 12/23/1915 (B) 12/22/1960 (C) 10/09/1960 (D) 12/23/1960 (E) 12/30/1960 (F) 12/23/2003
+A: Among A through F, the answer is C.
+pred_before :  C.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : D
+*************************
+*************************
+351st data
+1_th_sampling
+Q: The current local time is 3:02 pm of 5/4/2004. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 04/25/2004 (B) 05/15/2004 (C) 04/24/2004 (D) 04/10/2004 (E) 11/24/2003 (F) 04/24/2023
+A: Among A through F, the answer is C.
+pred_before :  C.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+352st data
+1_th_sampling
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 01/01/1958 (B) 02/01/1961 (C) 11/01/1960 (D) 04/09/1961 (E) 01/01/1961 (F) 01/01/2003
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : E
+*************************
+*************************
+353st data
+1_th_sampling
+Q: Jane booked a flight for tomorrow, Jul 29, 2002. What is the date today in MM/DD/YYYY? Answer Choices: (A) 08/18/2002 (B) 07/16/2002 (C) 10/09/2002 (D) 09/11/2002 (E) 11/28/2002 (F) 07/28/2002
+A: Among A through F, the answer is F.
+pred_before :  F.
+pred_after : F
+pred_list : ['F']
+pred_mode : F
+GT : F
+*************************
+*************************
+354st data
+1_th_sampling
+Q: Jane got her job in 2016. Today is her 3-year work anniversary. She still remember that on Dec 2, her second day at work, she spilled coffee on her laptop. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 08/04/2019 (B) 11/01/2089 (C) 09/06/2019 (D) 11/01/2019 (E) 11/01/1933 (F) 11/02/2019
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+355st data
+1_th_sampling
+Q: Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 04/13/1985 (B) 04/11/1985 (C) 04/07/1975 (D) 04/12/1987 (E) 04/12/1986 (F) 04/10/1985
+A: Among A through F, the answer is B, 04/11/1985.
+pred_before :  B, 04/11/1985.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+356st data
+1_th_sampling
+Q: In the US, Thanksgiving is on the fourth Thursday of November. Today is the US Thanksgiving of 2001. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 11/13/2002 (B) 11/12/2002 (C) 11/26/2002 (D) 08/18/2002 (E) 11/19/2002 (F) 11/12/2099
+A: Among A through F, the answer is B, 11/12/2002.
+pred_before :  B, 11/12/2002.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+357st data
+1_th_sampling
+Q: In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 01/04/1987 (B) 12/06/1986 (C) 01/03/2035 (D) 02/03/1986 (E) 01/03/1987 (F) 01/09/1987
+A: Among A through F, the answer is E. 01/03/1987.
+pred_before :  E. 01/03/1987.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+358st data
+1_th_sampling
+Q: Today is Christmas Eve of 1937. What is the date yesterday in MM/DD/YYYY? Answer Choices: (A) 12/31/1937 (B) 09/23/1938 (C) 12/24/1937 (D) 12/23/1937 (E) 12/23/1896 (F) 01/06/1938
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+359st data
+1_th_sampling
+Q: Today is the last day of the first quarter of 2008. What is the date tomorrow in MM/DD/YYYY? Answer Choices: (A) 03/31/2008 (B) 09/01/2008 (C) 03/14/2008 (D) 04/01/2058 (E) 04/09/2008 (F) 04/01/2008
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : F
+*************************
+*************************
+360st data
+1_th_sampling
+Q: The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date one year ago from today in MM/DD/YYYY? Answer Choices: (A) 07/03/1942 (B) 09/02/1942 (C) 06/30/1942 (D) 06/09/1942 (E) 06/02/1942 (F) 06/23/1942
+A: Among A through F, the answer is D: 06/09/1942.
+pred_before :  D: 06/09/1942.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : E
+*************************
+*************************
+361st data
+1_th_sampling
+Q: Today, 8/3/1997, is a day that we will never forget. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 05/01/1997 (B) 08/04/1935 (C) 08/04/2043 (D) 08/04/1978 (E) 08/04/1997 (F) 08/07/1997
+A: Among A through F, the answer is E.
+pred_before :  E.
+pred_after : E
+pred_list : ['E']
+pred_mode : E
+GT : E
+*************************
+*************************
+362st data
+1_th_sampling
+Q: Today is Christmas Eve of 1937. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 12/28/1937 (B) 12/27/1937 (C) 12/31/1937 (D) 12/31/1938 (E) 12/03/1937
+A: Among A through F, the answer is D. 
+
+The date one week from December 24, 1937 is December 31, 1937.
+pred_before :  D. 
+
+The date one week from December 24, 1937 is December 31, 1937.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : C
+*************************
+*************************
+363st data
+1_th_sampling
+Q: Today is the first day of 2007. What is the date a month ago in MM/DD/YYYY? Answer Choices: (A) 12/01/1948 (B) 12/01/2006 (C) 05/01/2007 (D) 11/10/2006 (E) 12/01/2053 (F) 08/01/2007
+A: Among A through F, the answer is B.
+pred_before :  B.
+pred_after : B
+pred_list : ['B']
+pred_mode : B
+GT : B
+*************************
+*************************
+364st data
+1_th_sampling
+Q: Jane booked a flight for tomorrow, Jul 29, 2002. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 07/29/1947 (B) 04/24/2002 (C) 07/30/2002 (D) 07/29/2001 (E) 07/29/2002 (F) 07/28/2002
+A: Among A through F, the answer is C, 07/30/2002.
+pred_before :  C, 07/30/2002.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : E
+*************************
+*************************
+365st data
+1_th_sampling
+Q: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date one week from today in MM/DD/YYYY? Answer Choices: (A) 08/26/2019 (B) 06/19/2019 (C) 06/26/2019 (D) 06/24/2019 (E) 07/03/2019 (F) 06/25/2019
+A: Among A through F, the answer is C, 06/26/2019.
+pred_before :  C, 06/26/2019.
+pred_after : C
+pred_list : ['C']
+pred_mode : C
+GT : C
+*************************
+*************************
+366st data
+1_th_sampling
+Q: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date one week ago from today in MM/DD/YYYY? Answer Choices: (A) 06/11/2019 (B) 06/12/2019 (C) 06/12/2022 (D) 08/25/2019 (E) 03/24/2019 (F) 06/13/2019
+A: Among A through F, the answer is 06/11/2019.
+pred_before :  06/11/2019.
+pred_after : 
+pred_list : ['']
+pred_mode : 
+GT : B
+*************************
+*************************
+367st data
+1_th_sampling
+Q: Today is the second day of the third month of 1966. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 02/20/1966 (B) 02/20/1887 (C) 02/20/1965 (D) 02/20/2022 (E) 02/13/1966
+A: Among A through F, the answer is A.
+pred_before :  A.
+pred_after : A
+pred_list : ['A']
+pred_mode : A
+GT : A
+*************************
+*************************
+368st data
+1_th_sampling
+Q: Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date 24 hours later in MM/DD/YYYY? Answer Choices: (A) 02/01/2017 (B) 08/01/2015 (C) 02/20/2016 (D) 03/01/2016 (E) 06/06/2016
+A: Among A through F, the answer is D. 03/01/2016
+pred_before :  D. 03/01/2016
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : D
+*************************
+*************************
+369st data
+1_th_sampling
+Q: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date 10 days ago in MM/DD/YYYY? Answer Choices: (A) 06/09/2019 (B) 06/15/2019 (C) 05/19/2019 (D) 08/09/2018 (E) 06/08/2019 (F) 06/09/2044
+A: Among A through F, the answer is D.
+pred_before :  D.
+pred_after : D
+pred_list : ['D']
+pred_mode : D
+GT : A
+*************************
+accuracy : 49.32249322493225
+./log/bigbench_date_zero_shot_20220504084740_api_log.json

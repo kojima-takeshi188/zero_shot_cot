@@ -4,8 +4,9 @@ This is the official implementation of `Large Language Models are Zero-Shot Reas
 
 The paper is available at [NeurIPS 2022](https://proceedings.neurips.cc/paper_files/paper/2022/hash/8bb0d291acd4acf06ef112099c16f326-Abstract-Conference.html) and [arXiv](https://arxiv.org/abs/2205.11916).
 
-{: align="center"}
-![](image_stepbystep.png)
+<div align="center">
+<img src="image_stepbystep.png">
+</div>
 
 ## Installation
 Make sure you have Python>=3.8 installed on your machine.

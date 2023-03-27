@@ -52,3 +52,18 @@ python main.py --method=few_shot_cot --model=${model} --dataset=${dataset}
 # MultiArith and GSM8K are currently available.
 python main.py --method=few_shot --model=${model} --dataset=${dataset}
 ```
+
+## Citation
+```
+@inproceedings{NEURIPS2022_8bb0d291,
+ author = {Kojima, Takeshi and Gu, Shixiang (Shane) and Reid, Machel and Matsuo, Yutaka and Iwasawa, Yusuke},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},
+ pages = {22199--22213},
+ publisher = {Curran Associates, Inc.},
+ title = {Large Language Models are Zero-Shot Reasoners},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2022/file/8bb0d291acd4acf06ef112099c16f326-Paper-Conference.pdf},
+ volume = {35},
+ year = {2022}
+}
+```

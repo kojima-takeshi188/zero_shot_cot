@@ -23,6 +23,8 @@ export OPENAI_API_KEY=(YOUR OPENAI API KEY)
 
 ## Set arguments.
 ```
+# Notes: this experiment uses InstructGPT models.
+# https://platform.openai.com/docs/model-index-for-researchers
 model=gpt3-xl # {"gpt3", "gpt3-medium", "gpt3-large", "gpt3-xl"}. "gpt3" is the smallest model.
 dataset=multiarith # We can use other datasets. See help for the details.
 limit_dataset_size=10 # This is important to save your budget. If you want to use all the samples in a dataset, set 0.

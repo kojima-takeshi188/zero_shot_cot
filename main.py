@@ -24,13 +24,23 @@ def main():
     dataloader = setup_data_loader(args)
     print_now()
     
+    # if args.method == "few_shot":
+    #     demo = create_demo_text(args, cot_flag=False)
+    # elif args.method == "few_shot_cot":
+    #     demo = create_demo_text(args, cot_flag=True)
+    # else:
+    #     pass
+    
     if args.method == "few_shot":
-        demo = create_demo_text(args, cot_flag=False)
+        demo = create_demo_text(args, cot_type="non-cot")
     elif args.method == "few_shot_cot":
-        demo = create_demo_text(args, cot_flag=True)
+        demo = create_demo_text(args, cot_type="informative-cot")
+    elif args.method == "few_shot_uninformative_cot":  # you'll need to add support for this in your argument parser
+        demo = create_demo_text(args, cot_type="uninformative-cot")
     else:
         pass
-    
+
+
     total = 0
     correct_list = []        
     for i, data in enumerate(dataloader):
@@ -50,8 +60,12 @@ def main():
             x = demo + x
         elif args.method == "few_shot_cot":
             x = demo + x
+        elif args.method == "few_shot_uninformative_cot":
+            x = demo + x
         else:
             raise ValueError("method is not properly defined ...")
+
+
         
         # Answer prediction by generating text ...
         max_length = args.max_length_cot if "cot" in args.method else args.max_length_direct
@@ -110,7 +124,7 @@ def parse_arguments():
     )
     
     parser.add_argument(
-        "--method", type=str, default="zero_shot_cot", choices=["zero_shot", "zero_shot_cot", "few_shot", "few_shot_cot"], help="method"
+        "--method", type=str, default="zero_shot_cot", choices=["zero_shot", "zero_shot_cot", "few_shot", "few_shot_cot", "few_shot_uninformative_cot"], help="method"
     )
     parser.add_argument(
         "--cot_trigger_no", type=int, default=1, help="A trigger sentence that elicits a model to execute chain of thought"

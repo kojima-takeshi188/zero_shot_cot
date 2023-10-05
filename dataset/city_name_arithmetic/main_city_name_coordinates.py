@@ -18,7 +18,7 @@ def main():
     
     print(city_coordinates_data)
 
-    questions_city_example, questions_num_example, answers_example = generate_equations("city_coordinates.json", 300, 4, flag=1)
+    questions_city_example, questions_num_example, answers_example = generate_equations("city_coordinates.json", 30, 4, flag=1)
     
     print(questions_city_example)
     print(questions_num_example)
@@ -30,16 +30,16 @@ def main():
 
     print(verification_result_example)
 
-    questions_city_example, questions_num_example, answers_example = generate_equations("city_coordinates.json", 300, 4, flag=2)
+    questions_city_example, questions_num_example, answers_example = generate_equations("city_coordinates.json", 30, 4, flag=2)
     
     print(questions_city_example)
     print(questions_num_example)
     print(answers_example)
 
-    verification_result_example = verify_equations("arithmetic_equations_longitude.json", "city_coordinates.json", flag=21)
+    verification_result_example = verify_equations("arithmetic_equations_latitude.json", "city_coordinates.json", flag=2)
 
     print(verification_result_example)
-    
+
 if __name__ == "__main__":
     # Define a list of 20 big cities from different continents
     city_list = [

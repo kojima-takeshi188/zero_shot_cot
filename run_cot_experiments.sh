@@ -5,12 +5,13 @@
 
 # Define the model and other parameters
 model="gpt3-xl"
-log_dir="./log/cot/"
+log_dir="/log/fewshot_cot/"
 limit_dataset_size=0
 
 # Array of methods
-methods=("few_shot" "few_shot_cot" "few_shot_uninformative_cot")
+methods=("few_shot" "few_shot_cot" "few_shot_uninformative_cot", "few_shot_uninformative_cot")
 
+# methods=("few_shot_uninformative_cot")
 # Array of datasets
 datasets=("multiarith" "gsm8k")
 
@@ -26,4 +27,3 @@ do
 done
 
 echo "All tasks completed!"
-

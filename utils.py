@@ -71,6 +71,8 @@ def decoder_for_gpt3(args, input, max_length, i, k):
         engine = "text-curie-001"
     elif args.model == "gpt3-xl":
         engine = "text-davinci-002"
+    elif args.model == "gpt3.5":
+        engine = "gpt-3.5-turbo"
     else:
         raise ValueError("model is not properly defined ...")
         
@@ -373,7 +375,7 @@ def answer_cleansing(args, pred):
 
     print("pred_before : " + pred)
     
-    if args.method in ("few_shot", "few_shot_cot"):
+    if args.method in ("few_shot", "few_shot_cot", "few_shot_uninformative_cot"):
         preds = pred.split(args.direct_answer_trigger_for_fewshot)
         answer_flag = True if len(preds) > 1 else False 
         pred = preds[-1]
@@ -402,14 +404,14 @@ def answer_cleansing(args, pred):
     if len(pred) == 0:
         pred = ""
     else:
-        if args.method in ("few_shot", "few_shot_cot"):
+        if args.method in ("few_shot", "few_shot_cot", "few_shot_uninformative_cot"):
             if answer_flag:
                 # choose the first element in list ...
                 pred = pred[0]
             else:
                 # choose the last element in list ...
                 pred = pred[-1]
-        elif args.method in ("zero_shot", "zero_shot_cot"):
+        elif args.method in ("zero_shot", "zero_shot_cot", "few_shot_uninformative_cot"):
             # choose the first element in list ...
             pred = pred[0]
         else:

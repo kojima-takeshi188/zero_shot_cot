@@ -9,7 +9,7 @@ log_dir="/log/fewshot_cot/"
 limit_dataset_size=20
 
 # Array of methods
-methods=("few_shot", "few_shot_cot", "few_shot_uninformative_cot")
+methods=("few_shot" "few_shot_cot" "few_shot_uninformative_cot")
 
 # methods=("few_shot_uninformative_cot")
 # Array of datasets

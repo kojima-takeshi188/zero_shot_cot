@@ -211,6 +211,15 @@ def data_reader(args):
           a = line["answer"]
           questions.append(q)
           answers.append(a)
+
+    elif args.dataset == "city_equation":
+        with open(args.dataset_path) as f:
+            json_data = json.load(f)
+            for line in json_data:
+                q = line["question"].strip()
+                a = str(line["answer"])  # Convert the answer to string format for consistency with other datasets
+                questions.append(q)
+                answers.append(a)
         
     else:
         raise ValueError("dataset is not properly defined ...")
@@ -538,7 +547,17 @@ def create_demo_text(args, cot_type):
         z_uninformative.append("There were computers in the server room. More were added over days. Let's compute the new total.")
         z_uninformative.append("Michael had golf balls. He lost some over days. Let's find out how many he has left.")
         z_uninformative.append("Olivia has some money. She bought bagels. Let's compute her remaining amount.")
-    
+    elif args.dataset in ("city_equation"):
+        with open(args.few_shot_prompt_path, 'r') as f:
+            prompt_data = json.load(f)
+
+        # Extract the prompts into separate lists
+        x = [item['x'] for item in prompt_data]
+        y = [item['y'] for item in prompt_data]
+        z = [item['z'] for item in prompt_data]
+        z_uninformative = [item['z_uninformative'] for item in prompt_data]
+       
+        
     else:
         raise ValueError("dataset is not properly defined ...")
 

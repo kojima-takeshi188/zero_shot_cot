@@ -167,8 +167,80 @@ def verify_equations(equations_file, city_coords_file, flag=1):
     if all_correct:
         print("All equations are correct!")
     
-    return verification_results
+    return verification_results, all_correct
 
  
 
+
+import json
+
+def generate_prompts_from_json(input_file, output_file):
+    # Load the data from the input JSON file
+    with open(input_file, 'r') as f:
+        data = json.load(f)
+    
+    # Lists to store the generated prompts
+    x = []
+    y = []
+    z = []
+    z_uninformative = []
+    
+    # Dictionary to store general uninformative facts about cities
+    city_facts = {
+        "Buenos Aires": "Buenos Aires is the capital of Argentina. It is located in the southern hemisphere.",
+        "Toronto": "Toronto is the largest city in Canada. It's known for its modern skyline and the iconic CN Tower.",
+        "New York": "New York, often called New York City, is the most populous city in the United States. It's known for the Statue of Liberty.",
+        "Mumbai": "Mumbai, formerly known as Bombay, is the financial capital of India. It's located on the west coast.",
+        "Los Angeles": "Los Angeles is located in California, USA. It's famous for Hollywood and its entertainment industry.",
+        "Moscow": "Moscow is the capital of Russia. The Kremlin and Red Square are among its most well-known landmarks.",
+        "Istanbul": "Istanbul is a major city in Turkey. It's known for its rich history and the Hagia Sophia.",
+        "Rome": "Rome is the capital of Italy. It has a rich history and is home to the Colosseum.",
+        "Paris": "Paris is the capital of France. It's often referred to as 'The City of Love'.",
+        "Beijing": "Beijing is the capital of China. It's known for its ancient sites including the Forbidden City.",
+        "Tokyo": "Tokyo is the capital of Japan. It's a bustling metropolis known for its modern architecture.",
+        "London": "London is the capital of England and the United Kingdom. It's renowned for its history, from its Roman beginnings to its cosmopolitan present.",
+        "Sydney": "Sydney is the largest city in Australia. It's famous for its Harbour Bridge and the Sydney Opera House.",
+        "Cairo": "Cairo is the capital of Egypt. It's located near the Nile Delta and is known for its ancient Egyptian history.",
+        "Sao Paulo": "Sao Paulo is a sprawling city in Brazil. It's a major financial center and is known for its cultural institutions.",
+        "Lagos": "Lagos is the largest city in Nigeria. It's a major financial center in Africa and is home to one of the largest and busiest ports on the continent.",
+        "Johannesburg": "Johannesburg, often known as Jo'burg, is the largest city in South Africa. It's the economic heart of Africa and is known for its modern architecture.",
+        "Seoul": "Seoul is the capital and largest metropolis of South Korea. It's a vibrant city known for its modern skyscrapers and ancient palaces.",
+        "Bangkok": "Bangkok is the capital of Thailand. It's known for its ornate temples, bustling street markets, and the grand palace.",
+        "Mexico City": "Mexico City is the capital of Mexico. It's known for its Templo Mayor, a 13th-century Aztec temple, and the Palacio Nacional, which houses historic murals."
+    }
+
+    
+    for item in data:
+        # Extract the city equation and reason from the data
+        city_equation = item["city equation"].split("=")[0].strip()
+        reason = item["reason"].split(", then")[0]
+        
+        # Generate the z prompts
+        z_prompt = "Using the longitudes of cities, the equation {} translates as {}. This gives the result.".format(city_equation, reason)
+        z.append(z_prompt)
+        
+        # Extract cities involved in the equation
+        cities_involved = [word.replace("\"", "").strip() for word in city_equation.split() if word.replace("\"", "").strip() in city_facts]
+        
+        # Generate the uninformative z prompts
+        z_uninfo_prompt = " ".join([city_facts[city] for city in cities_involved])
+        z_uninformative.append(z_uninfo_prompt)
+        
+        # Append to x and y
+        x.append(city_equation)
+        y.append(item["city equation"].split("=")[1].strip())
+    
+    # Create the output data structure
+    output_data = {
+        "x": x,
+        "y": y,
+        "z": z,
+        "z_uninformative": z_uninformative
+    }
+    
+    # Save to the output JSON file
+    with open(output_file, "w") as f:
+        json.dump(output_data, f, indent=2)
+        
+    return output_data
 

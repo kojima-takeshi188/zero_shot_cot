@@ -112,7 +112,7 @@ def parse_arguments():
     parser.add_argument("--random_seed", type=int, default=1, help="random seed")
     
     parser.add_argument(
-        "--dataset", type=str, default="aqua", choices=["aqua", "gsm8k", "commonsensqa", "addsub", "multiarith",  "strategyqa", "svamp", "singleeq", "bigbench_date", "object_tracking", "coin_flip", "last_letters"], help="dataset used for experiment"
+        "--dataset", type=str, default="aqua", choices=["aqua", "gsm8k", "commonsensqa", "addsub", "multiarith",  "strategyqa", "svamp", "singleeq", "bigbench_date", "object_tracking", "coin_flip", "last_letters", "city_equation"], help="dataset used for experiment"
     )
     
     parser.add_argument("--minibatch_size", type=int, default=1, choices=[1], help="minibatch size should be 1 because GPT-3 API takes only 1 input for each request")
@@ -184,6 +184,10 @@ def parse_arguments():
     elif args.dataset == "last_letters":
         args.dataset_path = "./dataset/last_letters/last_letters.json"
         args.direct_answer_trigger = "\nTherefore, the answer is"
+    elif args.dataset == "city_equation":
+        args.dataset_path = "./dataset/city_name_arithmetic/arithmetic_equations_latitude.json"
+        args.direct_answer_trigger = "\nTherefore, the answer (arabic numerals)is"
+        args.few_shot_prompt_path = "./dataset/city_name_arithmetic/city_equation_prompts.json"
     else:
         raise ValueError("dataset is not properly defined ...")
         

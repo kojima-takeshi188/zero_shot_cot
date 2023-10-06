@@ -18,7 +18,7 @@ def main():
     
     print(city_coordinates_data)
 
-    questions_city_example, questions_num_example, answers_example = generate_equations("city_coordinates.json", 30, 4, flag=1)
+    questions_city_example, questions_num_example, answers_example = generate_equations("city_coordinates.json", 200, 4, flag=1)
     
     print(questions_city_example)
     print(questions_num_example)
@@ -26,19 +26,31 @@ def main():
 
 
  
-    verification_result_example = verify_equations("arithmetic_equations_longitude.json", "city_coordinates.json", flag=1)
+    verification_result_example, correct = verify_equations("arithmetic_equations_longitude.json", "city_coordinates.json", flag=1)
 
     print(verification_result_example)
+    if(correct):
+        print("All correct!")
 
-    questions_city_example, questions_num_example, answers_example = generate_equations("city_coordinates.json", 30, 4, flag=2)
+
+    # Latitude equations
+    questions_city_example, questions_num_example, answers_example = generate_equations("city_coordinates.json", 200, 4, flag=2)
     
     print(questions_city_example)
     print(questions_num_example)
     print(answers_example)
 
-    verification_result_example = verify_equations("arithmetic_equations_latitude.json", "city_coordinates.json", flag=2)
+    verification_result_example, correct = verify_equations("arithmetic_equations_latitude.json", "city_coordinates.json", flag=2)
 
     print(verification_result_example)
+    if(correct):
+        print("All correct!")
+
+    generate_prompt = False
+    if(generate_prompt):
+        # Generate the prompts
+        output_data_example = generate_prompts_from_json("verify_arithmetic_equations_longitude.json", "city_equation_prompts.json")
+        print(output_data_example)
 
 if __name__ == "__main__":
     # Define a list of 20 big cities from different continents

@@ -1,0 +1,82 @@
+[
+  {
+    "question": "London + Tokyo * London * Tokyo",
+    "answer": 66147
+  },
+  {
+    "question": "Lagos - Sydney + Buenos Aires + Tokyo",
+    "answer": 41
+  },
+  {
+    "question": "Johannesburg + Bangkok - Beijing - London",
+    "answer": -103
+  },
+  {
+    "question": "New York * Istanbul - Toronto + Lagos",
+    "answer": 1643
+  },
+  {
+    "question": "Moscow - Seoul - Sao Paulo + Tokyo",
+    "answer": 78
+  },
+  {
+    "question": "Istanbul * Paris * Toronto * Buenos Aires",
+    "answer": -3093860
+  },
+  {
+    "question": "Lagos + Toronto - Beijing - Beijing",
+    "answer": -30
+  },
+  {
+    "question": "Moscow + Tokyo * London - Mexico City",
+    "answer": 1873
+  },
+  {
+    "question": "Buenos Aires + Cairo + Istanbul + Seoul",
+    "answer": 74
+  },
+  {
+    "question": "Istanbul - Los Angeles + London * Paris",
+    "answer": 2506
+  },
+  {
+    "question": "Sydney + Sydney * Sydney + Toronto",
+    "answer": 1166
+  },
+  {
+    "question": "London + Cairo + Toronto + Sydney",
+    "answer": 91
+  },
+  {
+    "question": "Los Angeles * Sao Paulo + Beijing - Paris",
+    "answer": -825
+  },
+  {
+    "question": "Toronto - Moscow - Toronto + Rome",
+    "answer": -14
+  },
+  {
+    "question": "Beijing * Los Angeles - Toronto - Toronto",
+    "answer": 1272
+  },
+  {
+    "question": "Beijing + Johannesburg + Tokyo * Istanbul",
+    "answer": 1490
+  },
+  {
+    "question": "Johannesburg - New York + Los Angeles - New York",
+    "answer": -74
+  },
+  {
+    "question": "Cairo - Tokyo + Bangkok + Seoul",
+    "answer": 46
+  },
+  {
+    "question": "Rome - Rome * Bangkok * Tokyo",
+    "answer": -21126
+  },
+  {
+    "question": "Sydney * Istanbul + Lagos * Johannesburg",
+    "answer": -1550
+  }
+]

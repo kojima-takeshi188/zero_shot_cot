@@ -1,0 +1,7 @@
+{
+  "question": "Q",
+  "gold_ans": "1",
+  "llm_output": " The answer is -6.",
+  "pred_ans": "-6",
+  "wrap_que": "Q: \"Rome - Los Angeles\"\nA: The answer is 130.\n\nQ: \"Sao Paulo - Beijing\"\nA: The answer is -163.\n\nQ: \"Sydney + Lagos\"\nA: The answer is 154.\n\nQ: \"Paris - Toronto\"\nA: The answer is 81.\n\nQ: Beijing - Paris\nA:"
+}

@@ -71,8 +71,10 @@ def decoder_for_gpt3(args, input, max_length, i, k):
         engine = "text-curie-001"
     elif args.model == "gpt3-xl":
         engine = "text-davinci-002"
-    elif args.model == "gpt3.5":
+    elif args.model == "gpt3-xxl":
         engine = "text-davinci-003"
+    elif args.model == "gpt3.5":
+        engine = "gpt-3.5-turbo-instruct"
     else:
         raise ValueError("model is not properly defined ...")
         

@@ -1,0 +1,26 @@
+{
+  "x": [
+    "\"Sao Paulo - Beijing\"",
+    "\"Paris - Toronto\"",
+    "\"Sydney + Lagos\"",
+    "\"Rome - Los Angeles\""
+  ],
+  "y": [
+    "-163",
+    "81",
+    "154",
+    "130"
+  ],
+  "z": [
+    "Using the longitudes of cities, the equation \"Sao Paulo - Beijing\" translates as \"Sao Paulo\" = -47, \"Beijing\" = 116. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result.",
+    "Using the longitudes of cities, the equation \"Paris - Toronto\" translates as \"Paris\" = 2, \"Toronto\" = -79. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result.",
+    "Using the longitudes of cities, the equation \"Sydney + Lagos\" translates as \"Sydney\" = 151, \"Lagos\" = 3. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result.",
+    "Using the longitudes of cities, the equation \"Rome - Los Angeles\" translates as \"Rome\" = 12, \"Los Angeles\" = -118. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result."
+  ],
+  "z_uninformative": [
+    "Sao Paulo is a sprawling city in Brazil. It's a major financial center and is known for its cultural institutions. Beijing is the capital of China. It's known for its ancient sites including the Forbidden City.",
+    "Paris is the capital of France. It's often referred to as 'The City of Love'. Toronto is the largest city in Canada. It's known for its modern skyline and the iconic CN Tower.",
+    "Sydney is the largest city in Australia. It's famous for its Harbour Bridge and the Sydney Opera House. Lagos is the largest city in Nigeria. It's a major financial center in Africa and is home to one of the largest and busiest ports on the continent.",
+    "Rome is the capital of Italy. It has a rich history and is home to the Colosseum. Los Angeles is located in California, USA. It's famous for Hollywood and its entertainment industry."
+  ]
+}

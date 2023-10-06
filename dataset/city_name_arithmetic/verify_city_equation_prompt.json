@@ -1,0 +1,22 @@
+[
+  {
+    "city equation": "\"Sao Paulo - Beijing\" = -163",
+    "reason": "\"Sao Paulo\" = -47, \"Beijing\" = 116, then we have -47-116 = -163",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Paris - Toronto\" = 81",
+    "reason": "\"Paris\" = 2, \"Toronto\" = -79, then we have 2--79 = 81",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sydney + Lagos\" = 154",
+    "reason": "\"Sydney\" = 151, \"Lagos\" = 3, then we have 151+3 = 154",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Rome - Los Angeles\" = 130",
+    "reason": "\"Rome\" = 12, \"Los Angeles\" = -118, then we have 12--118 = 130",
+    "final result": "Correct"
+  }
+]

@@ -1,0 +1,1002 @@
+[
+  {
+    "city equation": "\"Moscow + Los Angeles\" = -80",
+    "reason": "\"Moscow\" = 38, \"Los Angeles\" = -118, then we have 38+-118 = -80",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sao Paulo + Johannesburg\" = -19",
+    "reason": "\"Sao Paulo\" = -47, \"Johannesburg\" = 28, then we have -47+28 = -19",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Bangkok - Tokyo\" = -40",
+    "reason": "\"Bangkok\" = 100, \"Tokyo\" = 140, then we have 100-140 = -40",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Mumbai + Sao Paulo\" = 26",
+    "reason": "\"Mumbai\" = 73, \"Sao Paulo\" = -47, then we have 73+-47 = 26",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Mumbai - Bangkok\" = -27",
+    "reason": "\"Mumbai\" = 73, \"Bangkok\" = 100, then we have 73-100 = -27",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Mumbai - Seoul\" = -54",
+    "reason": "\"Mumbai\" = 73, \"Seoul\" = 127, then we have 73-127 = -54",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Beijing + Beijing\" = 232",
+    "reason": "\"Beijing\" = 116, \"Beijing\" = 116, then we have 116+116 = 232",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sao Paulo + New York\" = -121",
+    "reason": "\"Sao Paulo\" = -47, \"New York\" = -74, then we have -47+-74 = -121",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Moscow + Istanbul\" = 67",
+    "reason": "\"Moscow\" = 38, \"Istanbul\" = 29, then we have 38+29 = 67",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Cairo - Beijing\" = -85",
+    "reason": "\"Cairo\" = 31, \"Beijing\" = 116, then we have 31-116 = -85",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Buenos Aires + Cairo\" = -27",
+    "reason": "\"Buenos Aires\" = -58, \"Cairo\" = 31, then we have -58+31 = -27",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Lagos - New York\" = 77",
+    "reason": "\"Lagos\" = 3, \"New York\" = -74, then we have 3--74 = 77",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Seoul - Bangkok\" = 27",
+    "reason": "\"Seoul\" = 127, \"Bangkok\" = 100, then we have 127-100 = 27",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Buenos Aires + Beijing\" = 58",
+    "reason": "\"Buenos Aires\" = -58, \"Beijing\" = 116, then we have -58+116 = 58",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sao Paulo + Buenos Aires\" = -105",
+    "reason": "\"Sao Paulo\" = -47, \"Buenos Aires\" = -58, then we have -47+-58 = -105",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Mumbai - Rome\" = 61",
+    "reason": "\"Mumbai\" = 73, \"Rome\" = 12, then we have 73-12 = 61",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"London - Moscow\" = -38",
+    "reason": "\"London\" = 0, \"Moscow\" = 38, then we have 0-38 = -38",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Mumbai - Tokyo\" = -67",
+    "reason": "\"Mumbai\" = 73, \"Tokyo\" = 140, then we have 73-140 = -67",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"London + Toronto\" = -79",
+    "reason": "\"London\" = 0, \"Toronto\" = -79, then we have 0+-79 = -79",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sydney + Istanbul\" = 180",
+    "reason": "\"Sydney\" = 151, \"Istanbul\" = 29, then we have 151+29 = 180",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Mexico City + Sydney\" = 52",
+    "reason": "\"Mexico City\" = -99, \"Sydney\" = 151, then we have -99+151 = 52",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Mexico City - Seoul\" = -226",
+    "reason": "\"Mexico City\" = -99, \"Seoul\" = 127, then we have -99-127 = -226",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Beijing - Los Angeles\" = 234",
+    "reason": "\"Beijing\" = 116, \"Los Angeles\" = -118, then we have 116--118 = 234",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"London + Buenos Aires\" = -58",
+    "reason": "\"London\" = 0, \"Buenos Aires\" = -58, then we have 0+-58 = -58",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Tokyo - Lagos\" = 137",
+    "reason": "\"Tokyo\" = 140, \"Lagos\" = 3, then we have 140-3 = 137",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Toronto + Tokyo\" = 61",
+    "reason": "\"Toronto\" = -79, \"Tokyo\" = 140, then we have -79+140 = 61",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Tokyo + Bangkok\" = 240",
+    "reason": "\"Tokyo\" = 140, \"Bangkok\" = 100, then we have 140+100 = 240",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Lagos + Cairo\" = 34",
+    "reason": "\"Lagos\" = 3, \"Cairo\" = 31, then we have 3+31 = 34",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Johannesburg + Beijing\" = 144",
+    "reason": "\"Johannesburg\" = 28, \"Beijing\" = 116, then we have 28+116 = 144",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Seoul - Toronto\" = 206",
+    "reason": "\"Seoul\" = 127, \"Toronto\" = -79, then we have 127--79 = 206",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Lagos - Sao Paulo\" = 50",
+    "reason": "\"Lagos\" = 3, \"Sao Paulo\" = -47, then we have 3--47 = 50",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Mexico City - London\" = -99",
+    "reason": "\"Mexico City\" = -99, \"London\" = 0, then we have -99-0 = -99",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Buenos Aires + New York\" = -132",
+    "reason": "\"Buenos Aires\" = -58, \"New York\" = -74, then we have -58+-74 = -132",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sydney - London\" = 151",
+    "reason": "\"Sydney\" = 151, \"London\" = 0, then we have 151-0 = 151",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Beijing - London\" = 116",
+    "reason": "\"Beijing\" = 116, \"London\" = 0, then we have 116-0 = 116",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"New York - Sao Paulo\" = -27",
+    "reason": "\"New York\" = -74, \"Sao Paulo\" = -47, then we have -74--47 = -27",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Paris - Rome\" = -10",
+    "reason": "\"Paris\" = 2, \"Rome\" = 12, then we have 2-12 = -10",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"New York + Toronto\" = -153",
+    "reason": "\"New York\" = -74, \"Toronto\" = -79, then we have -74+-79 = -153",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Johannesburg + Paris\" = 30",
+    "reason": "\"Johannesburg\" = 28, \"Paris\" = 2, then we have 28+2 = 30",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Rome - New York\" = 86",
+    "reason": "\"Rome\" = 12, \"New York\" = -74, then we have 12--74 = 86",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Bangkok + Buenos Aires\" = 42",
+    "reason": "\"Bangkok\" = 100, \"Buenos Aires\" = -58, then we have 100+-58 = 42",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sydney - Paris\" = 149",
+    "reason": "\"Sydney\" = 151, \"Paris\" = 2, then we have 151-2 = 149",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sydney + Lagos\" = 154",
+    "reason": "\"Sydney\" = 151, \"Lagos\" = 3, then we have 151+3 = 154",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Beijing - Lagos\" = 113",
+    "reason": "\"Beijing\" = 116, \"Lagos\" = 3, then we have 116-3 = 113",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"New York - Toronto\" = 5",
+    "reason": "\"New York\" = -74, \"Toronto\" = -79, then we have -74--79 = 5",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Bangkok + Los Angeles\" = -18",
+    "reason": "\"Bangkok\" = 100, \"Los Angeles\" = -118, then we have 100+-118 = -18",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Lagos - Moscow\" = -35",
+    "reason": "\"Lagos\" = 3, \"Moscow\" = 38, then we have 3-38 = -35",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Moscow - Cairo\" = 7",
+    "reason": "\"Moscow\" = 38, \"Cairo\" = 31, then we have 38-31 = 7",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Istanbul - Beijing\" = -87",
+    "reason": "\"Istanbul\" = 29, \"Beijing\" = 116, then we have 29-116 = -87",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Los Angeles - Tokyo\" = -258",
+    "reason": "\"Los Angeles\" = -118, \"Tokyo\" = 140, then we have -118-140 = -258",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Los Angeles + Sao Paulo\" = -165",
+    "reason": "\"Los Angeles\" = -118, \"Sao Paulo\" = -47, then we have -118+-47 = -165",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Istanbul - Sydney\" = -122",
+    "reason": "\"Istanbul\" = 29, \"Sydney\" = 151, then we have 29-151 = -122",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Paris - Johannesburg\" = -26",
+    "reason": "\"Paris\" = 2, \"Johannesburg\" = 28, then we have 2-28 = -26",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Tokyo - Buenos Aires\" = 198",
+    "reason": "\"Tokyo\" = 140, \"Buenos Aires\" = -58, then we have 140--58 = 198",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Bangkok - Beijing\" = -16",
+    "reason": "\"Bangkok\" = 100, \"Beijing\" = 116, then we have 100-116 = -16",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Lagos + Moscow\" = 41",
+    "reason": "\"Lagos\" = 3, \"Moscow\" = 38, then we have 3+38 = 41",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Tokyo - Sydney\" = -11",
+    "reason": "\"Tokyo\" = 140, \"Sydney\" = 151, then we have 140-151 = -11",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Bangkok + Seoul\" = 227",
+    "reason": "\"Bangkok\" = 100, \"Seoul\" = 127, then we have 100+127 = 227",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Los Angeles + Johannesburg\" = -90",
+    "reason": "\"Los Angeles\" = -118, \"Johannesburg\" = 28, then we have -118+28 = -90",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Toronto + Los Angeles\" = -197",
+    "reason": "\"Toronto\" = -79, \"Los Angeles\" = -118, then we have -79+-118 = -197",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Mexico City + Mexico City\" = -198",
+    "reason": "\"Mexico City\" = -99, \"Mexico City\" = -99, then we have -99+-99 = -198",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"London + Toronto\" = -79",
+    "reason": "\"London\" = 0, \"Toronto\" = -79, then we have 0+-79 = -79",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sao Paulo - New York\" = 27",
+    "reason": "\"Sao Paulo\" = -47, \"New York\" = -74, then we have -47--74 = 27",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"London + Toronto\" = -79",
+    "reason": "\"London\" = 0, \"Toronto\" = -79, then we have 0+-79 = -79",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Moscow - Los Angeles\" = 156",
+    "reason": "\"Moscow\" = 38, \"Los Angeles\" = -118, then we have 38--118 = 156",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Seoul + Bangkok\" = 227",
+    "reason": "\"Seoul\" = 127, \"Bangkok\" = 100, then we have 127+100 = 227",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Seoul - Moscow\" = 89",
+    "reason": "\"Seoul\" = 127, \"Moscow\" = 38, then we have 127-38 = 89",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Cairo + Seoul\" = 158",
+    "reason": "\"Cairo\" = 31, \"Seoul\" = 127, then we have 31+127 = 158",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Toronto + Istanbul\" = -50",
+    "reason": "\"Toronto\" = -79, \"Istanbul\" = 29, then we have -79+29 = -50",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Toronto - Buenos Aires\" = -21",
+    "reason": "\"Toronto\" = -79, \"Buenos Aires\" = -58, then we have -79--58 = -21",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Bangkok - Los Angeles\" = 218",
+    "reason": "\"Bangkok\" = 100, \"Los Angeles\" = -118, then we have 100--118 = 218",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Cairo - Buenos Aires\" = 89",
+    "reason": "\"Cairo\" = 31, \"Buenos Aires\" = -58, then we have 31--58 = 89",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Moscow + Seoul\" = 165",
+    "reason": "\"Moscow\" = 38, \"Seoul\" = 127, then we have 38+127 = 165",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Los Angeles - Beijing\" = -234",
+    "reason": "\"Los Angeles\" = -118, \"Beijing\" = 116, then we have -118-116 = -234",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Cairo + Seoul\" = 158",
+    "reason": "\"Cairo\" = 31, \"Seoul\" = 127, then we have 31+127 = 158",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Seoul - Cairo\" = 96",
+    "reason": "\"Seoul\" = 127, \"Cairo\" = 31, then we have 127-31 = 96",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Seoul - Mexico City\" = 226",
+    "reason": "\"Seoul\" = 127, \"Mexico City\" = -99, then we have 127--99 = 226",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Rome + Mexico City\" = -87",
+    "reason": "\"Rome\" = 12, \"Mexico City\" = -99, then we have 12+-99 = -87",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Bangkok + Istanbul\" = 129",
+    "reason": "\"Bangkok\" = 100, \"Istanbul\" = 29, then we have 100+29 = 129",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Los Angeles + Sydney\" = 33",
+    "reason": "\"Los Angeles\" = -118, \"Sydney\" = 151, then we have -118+151 = 33",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Tokyo + Seoul\" = 267",
+    "reason": "\"Tokyo\" = 140, \"Seoul\" = 127, then we have 140+127 = 267",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sao Paulo + New York\" = -121",
+    "reason": "\"Sao Paulo\" = -47, \"New York\" = -74, then we have -47+-74 = -121",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Lagos - New York\" = 77",
+    "reason": "\"Lagos\" = 3, \"New York\" = -74, then we have 3--74 = 77",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Lagos - Toronto\" = 82",
+    "reason": "\"Lagos\" = 3, \"Toronto\" = -79, then we have 3--79 = 82",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Mexico City + Lagos\" = -96",
+    "reason": "\"Mexico City\" = -99, \"Lagos\" = 3, then we have -99+3 = -96",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Bangkok + Lagos\" = 103",
+    "reason": "\"Bangkok\" = 100, \"Lagos\" = 3, then we have 100+3 = 103",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Mexico City + Tokyo\" = 41",
+    "reason": "\"Mexico City\" = -99, \"Tokyo\" = 140, then we have -99+140 = 41",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Rome - Tokyo\" = -128",
+    "reason": "\"Rome\" = 12, \"Tokyo\" = 140, then we have 12-140 = -128",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Johannesburg + Sao Paulo\" = -19",
+    "reason": "\"Johannesburg\" = 28, \"Sao Paulo\" = -47, then we have 28+-47 = -19",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Mexico City - Moscow\" = -137",
+    "reason": "\"Mexico City\" = -99, \"Moscow\" = 38, then we have -99-38 = -137",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"London + Sydney\" = 151",
+    "reason": "\"London\" = 0, \"Sydney\" = 151, then we have 0+151 = 151",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"London + Istanbul\" = 29",
+    "reason": "\"London\" = 0, \"Istanbul\" = 29, then we have 0+29 = 29",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"New York + Johannesburg\" = -46",
+    "reason": "\"New York\" = -74, \"Johannesburg\" = 28, then we have -74+28 = -46",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sao Paulo + Buenos Aires\" = -105",
+    "reason": "\"Sao Paulo\" = -47, \"Buenos Aires\" = -58, then we have -47+-58 = -105",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Moscow + Lagos\" = 41",
+    "reason": "\"Moscow\" = 38, \"Lagos\" = 3, then we have 38+3 = 41",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Mexico City + Moscow\" = -61",
+    "reason": "\"Mexico City\" = -99, \"Moscow\" = 38, then we have -99+38 = -61",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Johannesburg + Paris\" = 30",
+    "reason": "\"Johannesburg\" = 28, \"Paris\" = 2, then we have 28+2 = 30",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Buenos Aires + Toronto\" = -137",
+    "reason": "\"Buenos Aires\" = -58, \"Toronto\" = -79, then we have -58+-79 = -137",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sao Paulo + Toronto\" = -126",
+    "reason": "\"Sao Paulo\" = -47, \"Toronto\" = -79, then we have -47+-79 = -126",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Tokyo - Moscow\" = 102",
+    "reason": "\"Tokyo\" = 140, \"Moscow\" = 38, then we have 140-38 = 102",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Moscow + London\" = 38",
+    "reason": "\"Moscow\" = 38, \"London\" = 0, then we have 38+0 = 38",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Lagos + Buenos Aires\" = -55",
+    "reason": "\"Lagos\" = 3, \"Buenos Aires\" = -58, then we have 3+-58 = -55",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sao Paulo - Lagos\" = -50",
+    "reason": "\"Sao Paulo\" = -47, \"Lagos\" = 3, then we have -47-3 = -50",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sao Paulo - Mumbai\" = -120",
+    "reason": "\"Sao Paulo\" = -47, \"Mumbai\" = 73, then we have -47-73 = -120",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Beijing + London\" = 116",
+    "reason": "\"Beijing\" = 116, \"London\" = 0, then we have 116+0 = 116",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Buenos Aires - Sydney\" = -209",
+    "reason": "\"Buenos Aires\" = -58, \"Sydney\" = 151, then we have -58-151 = -209",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sao Paulo + Johannesburg\" = -19",
+    "reason": "\"Sao Paulo\" = -47, \"Johannesburg\" = 28, then we have -47+28 = -19",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Mumbai - Lagos\" = 70",
+    "reason": "\"Mumbai\" = 73, \"Lagos\" = 3, then we have 73-3 = 70",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sao Paulo + Lagos\" = -44",
+    "reason": "\"Sao Paulo\" = -47, \"Lagos\" = 3, then we have -47+3 = -44",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Rome + Sydney\" = 163",
+    "reason": "\"Rome\" = 12, \"Sydney\" = 151, then we have 12+151 = 163",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Seoul - Moscow\" = 89",
+    "reason": "\"Seoul\" = 127, \"Moscow\" = 38, then we have 127-38 = 89",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Rome - Paris\" = 10",
+    "reason": "\"Rome\" = 12, \"Paris\" = 2, then we have 12-2 = 10",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Bangkok - Beijing\" = -16",
+    "reason": "\"Bangkok\" = 100, \"Beijing\" = 116, then we have 100-116 = -16",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Bangkok + Seoul\" = 227",
+    "reason": "\"Bangkok\" = 100, \"Seoul\" = 127, then we have 100+127 = 227",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Cairo + Toronto\" = -48",
+    "reason": "\"Cairo\" = 31, \"Toronto\" = -79, then we have 31+-79 = -48",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Paris - Rome\" = -10",
+    "reason": "\"Paris\" = 2, \"Rome\" = 12, then we have 2-12 = -10",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Seoul - Paris\" = 125",
+    "reason": "\"Seoul\" = 127, \"Paris\" = 2, then we have 127-2 = 125",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"New York + Cairo\" = -43",
+    "reason": "\"New York\" = -74, \"Cairo\" = 31, then we have -74+31 = -43",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Toronto - Los Angeles\" = 39",
+    "reason": "\"Toronto\" = -79, \"Los Angeles\" = -118, then we have -79--118 = 39",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Toronto + Sydney\" = 72",
+    "reason": "\"Toronto\" = -79, \"Sydney\" = 151, then we have -79+151 = 72",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Buenos Aires - New York\" = 16",
+    "reason": "\"Buenos Aires\" = -58, \"New York\" = -74, then we have -58--74 = 16",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sydney - Istanbul\" = 122",
+    "reason": "\"Sydney\" = 151, \"Istanbul\" = 29, then we have 151-29 = 122",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Mumbai + Bangkok\" = 173",
+    "reason": "\"Mumbai\" = 73, \"Bangkok\" = 100, then we have 73+100 = 173",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Tokyo - New York\" = 214",
+    "reason": "\"Tokyo\" = 140, \"New York\" = -74, then we have 140--74 = 214",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Buenos Aires - Cairo\" = -89",
+    "reason": "\"Buenos Aires\" = -58, \"Cairo\" = 31, then we have -58-31 = -89",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Beijing + Sao Paulo\" = 69",
+    "reason": "\"Beijing\" = 116, \"Sao Paulo\" = -47, then we have 116+-47 = 69",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Moscow + Cairo\" = 69",
+    "reason": "\"Moscow\" = 38, \"Cairo\" = 31, then we have 38+31 = 69",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Buenos Aires - Mexico City\" = 41",
+    "reason": "\"Buenos Aires\" = -58, \"Mexico City\" = -99, then we have -58--99 = 41",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"London - Los Angeles\" = 118",
+    "reason": "\"London\" = 0, \"Los Angeles\" = -118, then we have 0--118 = 118",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Cairo + Lagos\" = 34",
+    "reason": "\"Cairo\" = 31, \"Lagos\" = 3, then we have 31+3 = 34",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sao Paulo + Toronto\" = -126",
+    "reason": "\"Sao Paulo\" = -47, \"Toronto\" = -79, then we have -47+-79 = -126",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"London + Los Angeles\" = -118",
+    "reason": "\"London\" = 0, \"Los Angeles\" = -118, then we have 0+-118 = -118",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Bangkok + Sao Paulo\" = 53",
+    "reason": "\"Bangkok\" = 100, \"Sao Paulo\" = -47, then we have 100+-47 = 53",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Mumbai + Cairo\" = 104",
+    "reason": "\"Mumbai\" = 73, \"Cairo\" = 31, then we have 73+31 = 104",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Cairo + Rome\" = 43",
+    "reason": "\"Cairo\" = 31, \"Rome\" = 12, then we have 31+12 = 43",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sydney - Bangkok\" = 51",
+    "reason": "\"Sydney\" = 151, \"Bangkok\" = 100, then we have 151-100 = 51",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Los Angeles - Mumbai\" = -191",
+    "reason": "\"Los Angeles\" = -118, \"Mumbai\" = 73, then we have -118-73 = -191",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Lagos - New York\" = 77",
+    "reason": "\"Lagos\" = 3, \"New York\" = -74, then we have 3--74 = 77",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Toronto + Mumbai\" = -6",
+    "reason": "\"Toronto\" = -79, \"Mumbai\" = 73, then we have -79+73 = -6",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sao Paulo + Paris\" = -45",
+    "reason": "\"Sao Paulo\" = -47, \"Paris\" = 2, then we have -47+2 = -45",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Beijing - Paris\" = 114",
+    "reason": "\"Beijing\" = 116, \"Paris\" = 2, then we have 116-2 = 114",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"London + London\" = 0",
+    "reason": "\"London\" = 0, \"London\" = 0, then we have 0+0 = 0",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Toronto + Johannesburg\" = -51",
+    "reason": "\"Toronto\" = -79, \"Johannesburg\" = 28, then we have -79+28 = -51",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Moscow - New York\" = 112",
+    "reason": "\"Moscow\" = 38, \"New York\" = -74, then we have 38--74 = 112",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Cairo + Sao Paulo\" = -16",
+    "reason": "\"Cairo\" = 31, \"Sao Paulo\" = -47, then we have 31+-47 = -16",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Istanbul + Sao Paulo\" = -18",
+    "reason": "\"Istanbul\" = 29, \"Sao Paulo\" = -47, then we have 29+-47 = -18",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sao Paulo - Beijing\" = -163",
+    "reason": "\"Sao Paulo\" = -47, \"Beijing\" = 116, then we have -47-116 = -163",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Mumbai + Lagos\" = 76",
+    "reason": "\"Mumbai\" = 73, \"Lagos\" = 3, then we have 73+3 = 76",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Lagos - Rome\" = -9",
+    "reason": "\"Lagos\" = 3, \"Rome\" = 12, then we have 3-12 = -9",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Johannesburg + Rome\" = 40",
+    "reason": "\"Johannesburg\" = 28, \"Rome\" = 12, then we have 28+12 = 40",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Tokyo + Beijing\" = 256",
+    "reason": "\"Tokyo\" = 140, \"Beijing\" = 116, then we have 140+116 = 256",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Mexico City - Seoul\" = -226",
+    "reason": "\"Mexico City\" = -99, \"Seoul\" = 127, then we have -99-127 = -226",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sydney + Paris\" = 153",
+    "reason": "\"Sydney\" = 151, \"Paris\" = 2, then we have 151+2 = 153",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"New York - Moscow\" = -112",
+    "reason": "\"New York\" = -74, \"Moscow\" = 38, then we have -74-38 = -112",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Istanbul + New York\" = -45",
+    "reason": "\"Istanbul\" = 29, \"New York\" = -74, then we have 29+-74 = -45",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Los Angeles - Buenos Aires\" = -60",
+    "reason": "\"Los Angeles\" = -118, \"Buenos Aires\" = -58, then we have -118--58 = -60",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Paris - Moscow\" = -36",
+    "reason": "\"Paris\" = 2, \"Moscow\" = 38, then we have 2-38 = -36",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Istanbul + Beijing\" = 145",
+    "reason": "\"Istanbul\" = 29, \"Beijing\" = 116, then we have 29+116 = 145",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Bangkok + Tokyo\" = 240",
+    "reason": "\"Bangkok\" = 100, \"Tokyo\" = 140, then we have 100+140 = 240",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Istanbul + Mexico City\" = -70",
+    "reason": "\"Istanbul\" = 29, \"Mexico City\" = -99, then we have 29+-99 = -70",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Moscow + Buenos Aires\" = -20",
+    "reason": "\"Moscow\" = 38, \"Buenos Aires\" = -58, then we have 38+-58 = -20",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Buenos Aires - Toronto\" = 21",
+    "reason": "\"Buenos Aires\" = -58, \"Toronto\" = -79, then we have -58--79 = 21",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"New York + London\" = -74",
+    "reason": "\"New York\" = -74, \"London\" = 0, then we have -74+0 = -74",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Toronto - Seoul\" = -206",
+    "reason": "\"Toronto\" = -79, \"Seoul\" = 127, then we have -79-127 = -206",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"London - Mumbai\" = -73",
+    "reason": "\"London\" = 0, \"Mumbai\" = 73, then we have 0-73 = -73",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"New York - Lagos\" = -77",
+    "reason": "\"New York\" = -74, \"Lagos\" = 3, then we have -74-3 = -77",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sydney - Beijing\" = 35",
+    "reason": "\"Sydney\" = 151, \"Beijing\" = 116, then we have 151-116 = 35",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Paris - Istanbul\" = -27",
+    "reason": "\"Paris\" = 2, \"Istanbul\" = 29, then we have 2-29 = -27",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Bangkok - Paris\" = 98",
+    "reason": "\"Bangkok\" = 100, \"Paris\" = 2, then we have 100-2 = 98",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sao Paulo + Buenos Aires\" = -105",
+    "reason": "\"Sao Paulo\" = -47, \"Buenos Aires\" = -58, then we have -47+-58 = -105",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Toronto - Los Angeles\" = 39",
+    "reason": "\"Toronto\" = -79, \"Los Angeles\" = -118, then we have -79--118 = 39",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sydney + Toronto\" = 72",
+    "reason": "\"Sydney\" = 151, \"Toronto\" = -79, then we have 151+-79 = 72",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Paris + Istanbul\" = 31",
+    "reason": "\"Paris\" = 2, \"Istanbul\" = 29, then we have 2+29 = 31",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Seoul - Rome\" = 115",
+    "reason": "\"Seoul\" = 127, \"Rome\" = 12, then we have 127-12 = 115",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Istanbul - Toronto\" = 108",
+    "reason": "\"Istanbul\" = 29, \"Toronto\" = -79, then we have 29--79 = 108",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Lagos + Beijing\" = 119",
+    "reason": "\"Lagos\" = 3, \"Beijing\" = 116, then we have 3+116 = 119",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Mexico City + London\" = -99",
+    "reason": "\"Mexico City\" = -99, \"London\" = 0, then we have -99+0 = -99",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"New York - Seoul\" = -201",
+    "reason": "\"New York\" = -74, \"Seoul\" = 127, then we have -74-127 = -201",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Buenos Aires - London\" = -58",
+    "reason": "\"Buenos Aires\" = -58, \"London\" = 0, then we have -58-0 = -58",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"London + Toronto\" = -79",
+    "reason": "\"London\" = 0, \"Toronto\" = -79, then we have 0+-79 = -79",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Cairo - Beijing\" = -85",
+    "reason": "\"Cairo\" = 31, \"Beijing\" = 116, then we have 31-116 = -85",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Moscow + Toronto\" = -41",
+    "reason": "\"Moscow\" = 38, \"Toronto\" = -79, then we have 38+-79 = -41",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Lagos + Johannesburg\" = 31",
+    "reason": "\"Lagos\" = 3, \"Johannesburg\" = 28, then we have 3+28 = 31",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sao Paulo - Toronto\" = 32",
+    "reason": "\"Sao Paulo\" = -47, \"Toronto\" = -79, then we have -47--79 = 32",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sydney + London\" = 151",
+    "reason": "\"Sydney\" = 151, \"London\" = 0, then we have 151+0 = 151",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sao Paulo - Bangkok\" = -147",
+    "reason": "\"Sao Paulo\" = -47, \"Bangkok\" = 100, then we have -47-100 = -147",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Beijing + Paris\" = 118",
+    "reason": "\"Beijing\" = 116, \"Paris\" = 2, then we have 116+2 = 118",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sydney - Cairo\" = 120",
+    "reason": "\"Sydney\" = 151, \"Cairo\" = 31, then we have 151-31 = 120",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Rome - Istanbul\" = -17",
+    "reason": "\"Rome\" = 12, \"Istanbul\" = 29, then we have 12-29 = -17",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Mumbai - Cairo\" = 42",
+    "reason": "\"Mumbai\" = 73, \"Cairo\" = 31, then we have 73-31 = 42",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Tokyo + Istanbul\" = 169",
+    "reason": "\"Tokyo\" = 140, \"Istanbul\" = 29, then we have 140+29 = 169",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Toronto + Buenos Aires\" = -137",
+    "reason": "\"Toronto\" = -79, \"Buenos Aires\" = -58, then we have -79+-58 = -137",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Paris + Tokyo\" = 142",
+    "reason": "\"Paris\" = 2, \"Tokyo\" = 140, then we have 2+140 = 142",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"London + Seoul\" = 127",
+    "reason": "\"London\" = 0, \"Seoul\" = 127, then we have 0+127 = 127",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Mexico City - Mexico City\" = 0",
+    "reason": "\"Mexico City\" = -99, \"Mexico City\" = -99, then we have -99--99 = 0",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Seoul + Moscow\" = 165",
+    "reason": "\"Seoul\" = 127, \"Moscow\" = 38, then we have 127+38 = 165",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Cairo - New York\" = 105",
+    "reason": "\"Cairo\" = 31, \"New York\" = -74, then we have 31--74 = 105",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Moscow - New York\" = 112",
+    "reason": "\"Moscow\" = 38, \"New York\" = -74, then we have 38--74 = 112",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Istanbul - Beijing\" = -87",
+    "reason": "\"Istanbul\" = 29, \"Beijing\" = 116, then we have 29-116 = -87",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Beijing - New York\" = 190",
+    "reason": "\"Beijing\" = 116, \"New York\" = -74, then we have 116--74 = 190",
+    "final result": "Correct"
+  }
+]

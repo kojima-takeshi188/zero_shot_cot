@@ -5,6 +5,8 @@ import random
 import time
 import os
 from utils import *
+import logging
+
 
 def main():
     args = parse_arguments()
@@ -42,8 +44,19 @@ def main():
 
 
     total = 0
-    correct_list = []        
+    # diff = 0
+    correct_list = []
+
+    # Ensure the output directory exists
+    if not os.path.exists(args.log_dir):
+        os.makedirs(args.log_dir)
+    output_file_path = os.path.join(args.log_dir, args.dataset+"_output.json")
+
+# Open the file for appending
+         
     for i, data in enumerate(dataloader):
+
+        output_line = {}
         print('*************************')
         print("{}st data".format(i+1))
                 
@@ -51,6 +64,9 @@ def main():
         x, y = data
         x = "Q: " + x[0] + "\n" + "A:"
         y = y[0].strip()
+
+        output_line["question"] = x[0]
+        output_line["gold_ans"] = y[0].strip()
 
         print("testing question : " + x)
 
@@ -67,7 +83,7 @@ def main():
         else:
             raise ValueError("method is not properly defined ...")
 
-
+        print("\n the prompt/input given to the language model is \n"+x+"\n")
         
         # Answer prediction by generating text ...
         max_length = args.max_length_cot if "cot" in args.method else args.max_length_direct
@@ -81,10 +97,16 @@ def main():
             print(z2 + pred)
         else:
             pred = z
-            print(x + pred)
-
+            print("the output of language model is: "+pred)
+            
+        output_line["llm_output"] = pred
         # Clensing of predicted answer ...
         pred = answer_cleansing(args, pred)
+        
+        output_line["pred_ans"] = pred
+        output_line["wrap_que"] = x
+        with open(output_file_path, "w") as outfile:
+            json.dump(output_line, outfile, indent=2)
         
         # Choose the most frequent answer from the list ...
         
@@ -97,15 +119,19 @@ def main():
         correct = (np.array([pred]) == np.array([y])).sum().item()
         correct_list.append(correct)
         total += 1 #np.array([y]).size(0)
-        
+        # diff += np.abs(int(pred) - int(y))
         if (args.limit_dataset_size != 0) and ((i+1) >= args.limit_dataset_size):
             break
             #raise ValueError("Stop !!")
-    
+
     # Calculate accuracy ...
     accuracy = (sum(correct_list) * 1.0 / total) * 100
     print("accuracy : {}".format(accuracy))
     
+    total_average_diff = diff / total
+    print("total_average_diff : {}".format(total_average_diff))
+
+
 def parse_arguments():
     parser = argparse.ArgumentParser(description="Zero-shot-CoT")
 
@@ -124,7 +150,7 @@ def parse_arguments():
     parser.add_argument("--max_num_worker", type=int, default=3, help="maximum number of workers for dataloader")
     
     parser.add_argument(
-        "--model", type=str, default="gpt3", choices=["gpt3", "gpt3-medium", "gpt3-large", "gpt3-xl", "gpt3.5"], help="model used for decoding. Note that 'gpt3' are the smallest models."
+        "--model", type=str, default="gpt3", choices=["gpt3", "gpt3-medium", "gpt3-large", "gpt3-xl", "gpt3-xxl", "gpt3.5"], help="model used for decoding. Note that 'gpt3' are the smallest models."
     )
     
     parser.add_argument(
@@ -189,9 +215,9 @@ def parse_arguments():
         args.dataset_path = "./dataset/last_letters/last_letters.json"
         args.direct_answer_trigger = "\nTherefore, the answer is"
     elif args.dataset == "city_equation":
-        args.dataset_path = "./dataset/city_name_arithmetic/test_city_equation.json"
+        args.dataset_path = "./dataset/city_name_arithmetic/test_set.json"
         args.direct_answer_trigger = "\nTherefore, the answer (arabic numerals)is"
-        args.few_shot_prompt_path = "./dataset/city_name_arithmetic/city_equation_prompts.json"
+        args.few_shot_prompt_path = "./dataset/city_name_arithmetic/demos.json"
     else:
         raise ValueError("dataset is not properly defined ...")
         

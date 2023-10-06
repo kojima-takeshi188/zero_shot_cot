@@ -40,7 +40,7 @@ def get_city_coordinates(city_list, save_to_json=False):
     return city_coordinates
 
 
-def generate_equations(city_coords_file, N, m, flag=1):
+def generate_equations(city_coords_file, N, m, flag=1, file_name="arithmetic_equations_longitude.json"):
     # Load city coordinates from the JSON file
     with open(city_coords_file, 'r') as f:
         city_coords = json.load(f)
@@ -49,8 +49,8 @@ def generate_equations(city_coords_file, N, m, flag=1):
     all_cities = list(city_coords.keys())
 
     # Define operations
-    operations = ['+', '-', '*']
-
+    # operations = ['+', '-', '*']
+    operations = ['+', '-']
     # Initialize lists to store questions in city names and numbers
     questions_city = []
     questions_num = []
@@ -89,7 +89,10 @@ def generate_equations(city_coords_file, N, m, flag=1):
     data_to_save = [{"question": q, "answer": a} for q, a in zip(questions_city, answers)]
     
     # Determine filename based on flag
-    filename = "arithmetic_equations_longitude.json" if flag == 1 else "arithmetic_equations_latitude.json"
+    if(file_name):
+        filename = file_name
+    else:
+        filename = "arithmetic_equations_longitude.json" if flag == 1 else "arithmetic_equations_latitude.json"
     
     # Save to JSON
     with open(filename, "w") as outfile:
@@ -97,7 +100,7 @@ def generate_equations(city_coords_file, N, m, flag=1):
 
     return questions_city, questions_num, answers
 
-def verify_equations(equations_file, city_coords_file, flag=1):
+def verify_equations(equations_file, city_coords_file, flag=1, file_name="verify_arithmetic_equations_longitude.json"):
     # Load the equations and city coordinates from the JSON files
     with open(equations_file, 'r') as f_eq:
         equations = json.load(f_eq)
@@ -159,7 +162,10 @@ def verify_equations(equations_file, city_coords_file, flag=1):
         verification_results.append(verification_entry)
     
     # Determine the filename for saving based on flag
-    filename = "verify_arithmetic_equations_longitude.json" if flag == 1 else "verify_arithmetic_equations_latitude.json"
+    if(file_name):
+        filename = file_name
+    else:
+        filename = "verify_arithmetic_equations_longitude.json" if flag == 1 else "verify_arithmetic_equations_latitude.json"
     
     # Save verification results to JSON
     with open(filename, "w") as outfile:
@@ -226,7 +232,7 @@ def generate_prompts_from_json(input_file, output_file):
         reason = item["reason"].split(", then")[0]
         
         # Generate the z prompts
-        z_prompt = "Using the longitudes of cities, the equation {} translates as {}. This gives the result.".format(city_equation, reason)
+        z_prompt = "Using the longitudes of cities, the equation {} translates as {}. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result.".format(city_equation, reason)
         z.append(z_prompt)
         
         # Extract cities involved in the equation

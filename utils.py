@@ -72,7 +72,7 @@ def decoder_for_gpt3(args, input, max_length, i, k):
     elif args.model == "gpt3-xl":
         engine = "text-davinci-002"
     elif args.model == "gpt3.5":
-        engine = "gpt-3.5-turbo"
+        engine = "text-davinci-003"
     else:
         raise ValueError("model is not properly defined ...")
         
@@ -93,6 +93,7 @@ class Decoder():
     def decode(self, args, input, max_length, i, k):
         response = decoder_for_gpt3(args, input, max_length, i, k)
         return response
+
 
 def data_reader(args):
 

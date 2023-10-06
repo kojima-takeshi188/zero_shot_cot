@@ -189,7 +189,7 @@ def parse_arguments():
         args.dataset_path = "./dataset/last_letters/last_letters.json"
         args.direct_answer_trigger = "\nTherefore, the answer is"
     elif args.dataset == "city_equation":
-        args.dataset_path = "./dataset/city_name_arithmetic/arithmetic_equations_latitude.json"
+        args.dataset_path = "./dataset/city_name_arithmetic/test_city_equation.json"
         args.direct_answer_trigger = "\nTherefore, the answer (arabic numerals)is"
         args.few_shot_prompt_path = "./dataset/city_name_arithmetic/city_equation_prompts.json"
     else:

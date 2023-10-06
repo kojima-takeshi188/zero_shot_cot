@@ -10,6 +10,8 @@ import random
 import json
 import requests
 from geopy.geocoders import Nominatim
+import re
+
 
 def get_city_coordinates(city_list, save_to_json=False):
     # Create an instance of the Nominatim geocoder
@@ -186,6 +188,13 @@ def generate_prompts_from_json(input_file, output_file):
     z_uninformative = []
     
     # Dictionary to store general uninformative facts about cities
+    city_list = [
+        "New York", "Los Angeles", "London", "Tokyo", "Beijing",
+        "Sydney", "Cairo", "Sao Paulo", "Mumbai", "Moscow",
+        "Lagos", "Johannesburg", "Buenos Aires", "Paris", "Istanbul",
+        "Seoul", "Bangkok", "Rome", "Toronto", "Mexico City"
+    ]
+
     city_facts = {
         "Buenos Aires": "Buenos Aires is the capital of Argentina. It is located in the southern hemisphere.",
         "Toronto": "Toronto is the largest city in Canada. It's known for its modern skyline and the iconic CN Tower.",
@@ -213,6 +222,7 @@ def generate_prompts_from_json(input_file, output_file):
     for item in data:
         # Extract the city equation and reason from the data
         city_equation = item["city equation"].split("=")[0].strip()
+        
         reason = item["reason"].split(", then")[0]
         
         # Generate the z prompts
@@ -220,16 +230,23 @@ def generate_prompts_from_json(input_file, output_file):
         z.append(z_prompt)
         
         # Extract cities involved in the equation
-        cities_involved = [word.replace("\"", "").strip() for word in city_equation.split() if word.replace("\"", "").strip() in city_facts]
+        #cities_involved = [word.replace("\"", "").strip() for word in city_equation.split() if word.replace("\"", "").strip() in city_facts]
+        city_pattern = r'\b(' + '|'.join(city_list) + r')\b'
+        cities_involved = re.findall(city_pattern, city_equation)
         
         # Generate the uninformative z prompts
         z_uninfo_prompt = " ".join([city_facts[city] for city in cities_involved])
+        
         z_uninformative.append(z_uninfo_prompt)
         
         # Append to x and y
         x.append(city_equation)
         y.append(item["city equation"].split("=")[1].strip())
-    
+        # print(city_equation)
+        # print("\n")
+        # print(cities_involved)
+        # print("\n")
+        # print(city_pattern)
     # Create the output data structure
     output_data = {
         "x": x,

@@ -4,3 +4,5 @@ scipy
 matplotlib 
 torch
 jupyter
+pandas
+torchtext

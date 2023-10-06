@@ -5,7 +5,7 @@
 
 # Define the model and other parameters
 model="gpt3.5"
-log_dir="/log/fewshot_cot/"
+log_dir="/log/city_name_zhuoran_experiment/"
 limit_dataset_size=20
 
 # Array of methods

@@ -6,14 +6,14 @@
 # Define the model and other parameters
 model="gpt3-xl"
 log_dir="/log/fewshot_cot/"
-limit_dataset_size=0
+limit_dataset_size=20
 
 # Array of methods
 methods=("few_shot" "few_shot_cot" "few_shot_uninformative_cot", "few_shot_uninformative_cot")
 
 # methods=("few_shot_uninformative_cot")
 # Array of datasets
-datasets=("multiarith" "gsm8k")
+datasets=("multiarith" "gsm8k", "city_equation")
 
 # Loop over each method and dataset combination
 for method in "${methods[@]}"

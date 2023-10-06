@@ -51,7 +51,9 @@ def main():
         x, y = data
         x = "Q: " + x[0] + "\n" + "A:"
         y = y[0].strip()
-        
+
+        print("testing question : " + x)
+
         if args.method == "zero_shot":
             x = x + " " + args.direct_answer_trigger_for_zeroshot
         elif args.method == "zero_shot_cot":
@@ -85,8 +87,10 @@ def main():
         pred = answer_cleansing(args, pred)
         
         # Choose the most frequent answer from the list ...
+        
         print("pred : {}".format(pred))
         print("GT : " + y)
+        #print("type of GT" , type(y))
         print('*************************')
         
         # Checking answer ...

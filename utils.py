@@ -381,6 +381,7 @@ def setup_data_loader(args):
 
 # ver 0.2
 def answer_cleansing(args, pred):
+    print("**************************")
 
     print("pred_before : " + pred)
     
@@ -391,6 +392,8 @@ def answer_cleansing(args, pred):
 
     if args.dataset in ("aqua", "commonsensqa"):
         pred = re.findall(r'A|B|C|D|E', pred)
+    elif args.dataset == "city_equation":
+        pred = [pred.strip()]
     elif args.dataset == "bigbench_date":
         pred = re.findall(r'A|B|C|D|E|F', pred)
     elif args.dataset in ("object_tracking"):
@@ -547,15 +550,21 @@ def create_demo_text(args, cot_type):
         z_uninformative.append("There were computers in the server room. More were added over days. Let's compute the new total.")
         z_uninformative.append("Michael had golf balls. He lost some over days. Let's find out how many he has left.")
         z_uninformative.append("Olivia has some money. She bought bagels. Let's compute her remaining amount.")
+    
     elif args.dataset in ("city_equation"):
         with open(args.few_shot_prompt_path, 'r') as f:
             prompt_data = json.load(f)
 
         # Extract the prompts into separate lists
-        x = [item['x'] for item in prompt_data]
-        y = [item['y'] for item in prompt_data]
-        z = [item['z'] for item in prompt_data]
-        z_uninformative = [item['z_uninformative'] for item in prompt_data]
+        #x = [item['x'] for item in prompt_data]
+        #y = [item['y'] for item in prompt_data]
+        #z = [item['z'] for item in prompt_data]
+        #z_uninformative = [item['z_uninformative'] for item in prompt_data]
+        x = prompt_data['x']
+        y = prompt_data['y']
+        z = prompt_data['z']
+        z_uninformative = prompt_data['z_uninformative']
+        
        
         
     else:

@@ -9,11 +9,12 @@ log_dir="/log/fewshot_cot/"
 limit_dataset_size=20
 
 # Array of methods
-methods=("few_shot" "few_shot_cot" "few_shot_uninformative_cot", "few_shot_uninformative_cot")
+methods=("few_shot", "few_shot_cot", "few_shot_uninformative_cot")
 
 # methods=("few_shot_uninformative_cot")
 # Array of datasets
-datasets=("multiarith" "gsm8k", "city_equation")
+#datasets=("multiarith" "gsm8k", "city_equation")
+datasets=("city_equation")
 
 # Loop over each method and dataset combination
 for method in "${methods[@]}"
@@ -21,7 +22,7 @@ do
     for dataset in "${datasets[@]}"
     do
         echo "Running with method=${method} on dataset=${dataset}"
-        python main.py --method=${method} --model=${model} --dataset=${dataset} --log_dir=${log_dir} --limit_dataset_size=${limit_dataset_size}
+        python3 main.py --method=${method} --model=${model} --dataset=${dataset} --log_dir=${log_dir} --limit_dataset_size=${limit_dataset_size}
         echo "Finished with method=${method} on dataset=${dataset}"
     done
 done

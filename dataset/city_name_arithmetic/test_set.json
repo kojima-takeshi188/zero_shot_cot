@@ -1,802 +1,802 @@
 [
   {
-    "question": "Sao Paulo + Paris",
-    "answer": -45
+    "question": "Istanbul + Sydney",
+    "answer": 180
   },
   {
-    "question": "Seoul - Bangkok",
-    "answer": 27
+    "question": "Sao Paulo + Tokyo",
+    "answer": 93
   },
   {
-    "question": "New York - Istanbul",
-    "answer": -103
+    "question": "Mexico City - Beijing",
+    "answer": -215
   },
   {
-    "question": "London + Mumbai",
-    "answer": 73
+    "question": "Moscow - Sydney",
+    "answer": -113
   },
   {
-    "question": "Sydney - New York",
-    "answer": 225
+    "question": "Beijing - Cairo",
+    "answer": 85
   },
   {
-    "question": "Mexico City + Los Angeles",
-    "answer": -217
+    "question": "London - Johannesburg",
+    "answer": -28
   },
   {
-    "question": "Toronto + London",
-    "answer": -79
+    "question": "Mexico City + New York",
+    "answer": -173
   },
   {
-    "question": "Cairo - Mexico City",
-    "answer": 130
+    "question": "Rome - Buenos Aires",
+    "answer": 70
   },
   {
-    "question": "Mumbai + Beijing",
-    "answer": 189
-  },
-  {
-    "question": "Paris + Buenos Aires",
-    "answer": -56
-  },
-  {
-    "question": "Bangkok - Los Angeles",
-    "answer": 218
-  },
-  {
-    "question": "Lagos - Mexico City",
-    "answer": 102
-  },
-  {
-    "question": "Cairo + Moscow",
-    "answer": 69
-  },
-  {
-    "question": "Beijing - New York",
-    "answer": 190
-  },
-  {
-    "question": "Sydney - Seoul",
-    "answer": 24
-  },
-  {
-    "question": "Toronto + Moscow",
-    "answer": -41
-  },
-  {
-    "question": "Johannesburg + Paris",
-    "answer": 30
-  },
-  {
-    "question": "Tokyo - Toronto",
-    "answer": 219
-  },
-  {
-    "question": "Buenos Aires - Sydney",
-    "answer": -209
-  },
-  {
-    "question": "Mumbai + Sydney",
-    "answer": 224
-  },
-  {
-    "question": "Sao Paulo + Toronto",
-    "answer": -126
-  },
-  {
-    "question": "Paris - Los Angeles",
-    "answer": 120
-  },
-  {
-    "question": "London + Moscow",
-    "answer": 38
-  },
-  {
-    "question": "Los Angeles + Buenos Aires",
-    "answer": -176
-  },
-  {
-    "question": "Istanbul + New York",
-    "answer": -45
-  },
-  {
-    "question": "Lagos - Sao Paulo",
-    "answer": 50
-  },
-  {
-    "question": "Beijing - Tokyo",
-    "answer": -24
-  },
-  {
-    "question": "Sao Paulo + Lagos",
-    "answer": -44
-  },
-  {
-    "question": "Toronto + Beijing",
-    "answer": 37
-  },
-  {
-    "question": "Sao Paulo - Los Angeles",
-    "answer": 71
-  },
-  {
-    "question": "Sao Paulo + Bangkok",
-    "answer": 53
-  },
-  {
-    "question": "Rome - Cairo",
-    "answer": -19
-  },
-  {
-    "question": "Beijing + Los Angeles",
-    "answer": -2
-  },
-  {
-    "question": "Seoul - Moscow",
-    "answer": 89
-  },
-  {
-    "question": "Mexico City + Beijing",
-    "answer": 17
-  },
-  {
-    "question": "Cairo + Mumbai",
+    "question": "Sao Paulo + Sydney",
     "answer": 104
   },
   {
-    "question": "Beijing + Moscow",
-    "answer": 154
+    "question": "Moscow - Mexico City",
+    "answer": 137
   },
   {
-    "question": "London - Beijing",
-    "answer": -116
+    "question": "Cairo + Sydney",
+    "answer": 182
   },
   {
-    "question": "Los Angeles - Beijing",
-    "answer": -234
+    "question": "Mumbai - Paris",
+    "answer": 71
   },
   {
-    "question": "Seoul - Beijing",
-    "answer": 11
+    "question": "London - Cairo",
+    "answer": -31
   },
   {
-    "question": "Los Angeles + Mexico City",
-    "answer": -217
+    "question": "Sydney - Rome",
+    "answer": 139
   },
   {
-    "question": "Paris - Tokyo",
-    "answer": -138
+    "question": "Lagos + Los Angeles",
+    "answer": -115
   },
   {
-    "question": "Toronto - Paris",
-    "answer": -81
+    "question": "Toronto - Cairo",
+    "answer": -110
   },
   {
-    "question": "Seoul + Johannesburg",
-    "answer": 155
+    "question": "Paris + Paris",
+    "answer": 4
   },
   {
-    "question": "Seoul - Sao Paulo",
-    "answer": 174
+    "question": "Bangkok - Beijing",
+    "answer": -16
   },
   {
-    "question": "Buenos Aires + Beijing",
-    "answer": 58
-  },
-  {
-    "question": "Istanbul + Seoul",
-    "answer": 156
-  },
-  {
-    "question": "Sydney - Seoul",
-    "answer": 24
-  },
-  {
-    "question": "Cairo - Paris",
-    "answer": 29
-  },
-  {
-    "question": "Tokyo - Los Angeles",
-    "answer": 258
-  },
-  {
-    "question": "Toronto - Lagos",
-    "answer": -82
-  },
-  {
-    "question": "Rome - Mexico City",
-    "answer": 111
-  },
-  {
-    "question": "Cairo + Cairo",
-    "answer": 62
-  },
-  {
-    "question": "Bangkok - Johannesburg",
-    "answer": 72
-  },
-  {
-    "question": "Buenos Aires + Johannesburg",
-    "answer": -30
-  },
-  {
-    "question": "Sydney - London",
-    "answer": 151
-  },
-  {
-    "question": "Beijing - Toronto",
-    "answer": 195
-  },
-  {
-    "question": "Istanbul - Sydney",
-    "answer": -122
-  },
-  {
-    "question": "Bangkok - London",
-    "answer": 100
-  },
-  {
-    "question": "New York + New York",
-    "answer": -148
-  },
-  {
-    "question": "Sydney + Johannesburg",
-    "answer": 179
-  },
-  {
-    "question": "Toronto + Lagos",
-    "answer": -76
-  },
-  {
-    "question": "Seoul + Tokyo",
-    "answer": 267
-  },
-  {
-    "question": "Tokyo - Bangkok",
-    "answer": 40
-  },
-  {
-    "question": "Sydney - Buenos Aires",
-    "answer": 209
-  },
-  {
-    "question": "Cairo - Buenos Aires",
-    "answer": 89
-  },
-  {
-    "question": "Beijing + London",
-    "answer": 116
-  },
-  {
-    "question": "Johannesburg - Sao Paulo",
-    "answer": 75
-  },
-  {
-    "question": "Toronto - Istanbul",
-    "answer": -108
-  },
-  {
-    "question": "Tokyo - Istanbul",
-    "answer": 111
-  },
-  {
-    "question": "Istanbul + Tokyo",
-    "answer": 169
-  },
-  {
-    "question": "Istanbul - Istanbul",
-    "answer": 0
-  },
-  {
-    "question": "Moscow + Sydney",
-    "answer": 189
-  },
-  {
-    "question": "Sydney + Seoul",
-    "answer": 278
-  },
-  {
-    "question": "Seoul + Sao Paulo",
-    "answer": 80
-  },
-  {
-    "question": "Los Angeles + Beijing",
-    "answer": -2
-  },
-  {
-    "question": "Paris + Istanbul",
-    "answer": 31
-  },
-  {
-    "question": "Los Angeles + Paris",
-    "answer": -116
-  },
-  {
-    "question": "Moscow + Tokyo",
-    "answer": 178
-  },
-  {
-    "question": "Buenos Aires - Johannesburg",
-    "answer": -86
-  },
-  {
-    "question": "Cairo - Rome",
-    "answer": 19
-  },
-  {
-    "question": "Rome + Sao Paulo",
-    "answer": -35
-  },
-  {
-    "question": "Los Angeles - Sao Paulo",
-    "answer": -71
-  },
-  {
-    "question": "Lagos - Mumbai",
-    "answer": -70
-  },
-  {
-    "question": "Lagos - Mexico City",
-    "answer": 102
-  },
-  {
-    "question": "Tokyo - Sydney",
-    "answer": -11
-  },
-  {
-    "question": "New York + Mumbai",
-    "answer": -1
-  },
-  {
-    "question": "London + Lagos",
-    "answer": 3
-  },
-  {
-    "question": "London - Sao Paulo",
-    "answer": 47
-  },
-  {
-    "question": "Toronto - Lagos",
-    "answer": -82
-  },
-  {
-    "question": "Mexico City - Los Angeles",
-    "answer": 19
-  },
-  {
-    "question": "Rome + Beijing",
-    "answer": 128
-  },
-  {
-    "question": "Beijing - Mexico City",
-    "answer": 215
-  },
-  {
-    "question": "Sydney - Tokyo",
-    "answer": 11
-  },
-  {
-    "question": "Mexico City - Buenos Aires",
-    "answer": -41
-  },
-  {
-    "question": "Rome - Sao Paulo",
-    "answer": 59
-  },
-  {
-    "question": "Paris - Johannesburg",
-    "answer": -26
-  },
-  {
-    "question": "London + Paris",
-    "answer": 2
-  },
-  {
-    "question": "Mexico City - Moscow",
-    "answer": -137
-  },
-  {
-    "question": "Istanbul - Cairo",
-    "answer": -2
-  },
-  {
-    "question": "Toronto + Tokyo",
-    "answer": 61
-  },
-  {
-    "question": "Tokyo - Los Angeles",
-    "answer": 258
-  },
-  {
-    "question": "Rome - Paris",
-    "answer": 10
+    "question": "Toronto - Seoul",
+    "answer": -206
   },
   {
     "question": "Johannesburg - Tokyo",
     "answer": -112
   },
   {
-    "question": "Beijing - Bangkok",
-    "answer": 16
+    "question": "Sao Paulo - New York",
+    "answer": 27
   },
   {
-    "question": "Los Angeles + Los Angeles",
-    "answer": -236
+    "question": "Toronto + Mumbai",
+    "answer": -6
   },
   {
-    "question": "Beijing + Beijing",
-    "answer": 232
-  },
-  {
-    "question": "Sydney + Toronto",
-    "answer": 72
-  },
-  {
-    "question": "Tokyo - Lagos",
-    "answer": 137
-  },
-  {
-    "question": "Beijing + Bangkok",
-    "answer": 216
-  },
-  {
-    "question": "Lagos - Rome",
-    "answer": -9
-  },
-  {
-    "question": "Moscow - Mumbai",
-    "answer": -35
-  },
-  {
-    "question": "Moscow + Johannesburg",
-    "answer": 66
-  },
-  {
-    "question": "Mexico City - Moscow",
-    "answer": -137
-  },
-  {
-    "question": "Mexico City + Cairo",
-    "answer": -68
-  },
-  {
-    "question": "Seoul - Mumbai",
-    "answer": 54
-  },
-  {
-    "question": "Istanbul + Los Angeles",
-    "answer": -89
-  },
-  {
-    "question": "Lagos + Beijing",
-    "answer": 119
-  },
-  {
-    "question": "Lagos + Bangkok",
-    "answer": 103
-  },
-  {
-    "question": "New York + Paris",
-    "answer": -72
-  },
-  {
-    "question": "Istanbul + New York",
-    "answer": -45
-  },
-  {
-    "question": "Buenos Aires - Toronto",
-    "answer": 21
-  },
-  {
-    "question": "Lagos + Paris",
-    "answer": 5
-  },
-  {
-    "question": "New York + Toronto",
-    "answer": -153
-  },
-  {
-    "question": "Lagos - Paris",
-    "answer": 1
-  },
-  {
-    "question": "Rome + Paris",
-    "answer": 14
-  },
-  {
-    "question": "Cairo - Paris",
-    "answer": 29
-  },
-  {
-    "question": "Lagos + Mexico City",
-    "answer": -96
-  },
-  {
-    "question": "Toronto + Cairo",
-    "answer": -48
-  },
-  {
-    "question": "Rome - Beijing",
-    "answer": -104
-  },
-  {
-    "question": "Seoul - Lagos",
-    "answer": 124
-  },
-  {
-    "question": "London - Mumbai",
-    "answer": -73
-  },
-  {
-    "question": "London + Johannesburg",
-    "answer": 28
-  },
-  {
-    "question": "Paris + Johannesburg",
-    "answer": 30
-  },
-  {
-    "question": "Beijing + Sao Paulo",
-    "answer": 69
-  },
-  {
-    "question": "New York - Seoul",
-    "answer": -201
-  },
-  {
-    "question": "London + Cairo",
-    "answer": 31
-  },
-  {
-    "question": "London - Moscow",
-    "answer": -38
-  },
-  {
-    "question": "Lagos - Los Angeles",
-    "answer": 121
-  },
-  {
-    "question": "Cairo - Seoul",
-    "answer": -96
-  },
-  {
-    "question": "Sydney - Istanbul",
-    "answer": 122
-  },
-  {
-    "question": "Moscow - London",
-    "answer": 38
-  },
-  {
-    "question": "Seoul + London",
-    "answer": 127
-  },
-  {
-    "question": "Mumbai - Mexico City",
-    "answer": 172
-  },
-  {
-    "question": "Istanbul + Johannesburg",
-    "answer": 57
-  },
-  {
-    "question": "Lagos - Moscow",
-    "answer": -35
-  },
-  {
-    "question": "Lagos - Rome",
-    "answer": -9
-  },
-  {
-    "question": "Johannesburg - Mumbai",
-    "answer": -45
-  },
-  {
-    "question": "Tokyo - New York",
-    "answer": 214
-  },
-  {
-    "question": "Istanbul + Paris",
-    "answer": 31
-  },
-  {
-    "question": "Mumbai - Tokyo",
-    "answer": -67
-  },
-  {
-    "question": "Tokyo - Sao Paulo",
-    "answer": 187
-  },
-  {
-    "question": "Lagos - Toronto",
-    "answer": 82
-  },
-  {
-    "question": "Paris + Cairo",
-    "answer": 33
-  },
-  {
-    "question": "Buenos Aires + Mumbai",
-    "answer": 15
-  },
-  {
-    "question": "Bangkok + Tokyo",
-    "answer": 240
-  },
-  {
-    "question": "Mumbai + Buenos Aires",
-    "answer": 15
-  },
-  {
-    "question": "Sydney - Cairo",
-    "answer": 120
-  },
-  {
-    "question": "Lagos + Paris",
-    "answer": 5
-  },
-  {
-    "question": "Bangkok - London",
-    "answer": 100
-  },
-  {
-    "question": "Beijing + Johannesburg",
-    "answer": 144
-  },
-  {
-    "question": "Paris + Mexico City",
-    "answer": -97
-  },
-  {
-    "question": "Paris + Sydney",
-    "answer": 153
-  },
-  {
-    "question": "Bangkok - Cairo",
-    "answer": 69
-  },
-  {
-    "question": "Rome + Toronto",
-    "answer": -67
-  },
-  {
-    "question": "Bangkok - Bangkok",
-    "answer": 0
-  },
-  {
-    "question": "Cairo + Bangkok",
-    "answer": 131
-  },
-  {
-    "question": "Seoul - Tokyo",
-    "answer": -13
-  },
-  {
-    "question": "Cairo + Toronto",
-    "answer": -48
-  },
-  {
-    "question": "Bangkok + Bangkok",
-    "answer": 200
-  },
-  {
-    "question": "Los Angeles + Lagos",
-    "answer": -115
-  },
-  {
-    "question": "Mexico City + Rome",
-    "answer": -87
-  },
-  {
-    "question": "Mexico City + Rome",
-    "answer": -87
+    "question": "Sydney - Tokyo",
+    "answer": 11
   },
   {
     "question": "London + Buenos Aires",
     "answer": -58
   },
   {
-    "question": "Rome - Toronto",
-    "answer": 91
+    "question": "New York + Toronto",
+    "answer": -153
   },
   {
-    "question": "Paris - Tokyo",
-    "answer": -138
+    "question": "London - Bangkok",
+    "answer": -100
   },
   {
-    "question": "Seoul + Cairo",
-    "answer": 158
-  },
-  {
-    "question": "Tokyo + Seoul",
-    "answer": 267
-  },
-  {
-    "question": "Sao Paulo + Mexico City",
-    "answer": -146
-  },
-  {
-    "question": "Sao Paulo + Sao Paulo",
-    "answer": -94
-  },
-  {
-    "question": "London - Istanbul",
-    "answer": -29
-  },
-  {
-    "question": "Tokyo - London",
-    "answer": 140
-  },
-  {
-    "question": "Paris + New York",
-    "answer": -72
-  },
-  {
-    "question": "Los Angeles + Rome",
-    "answer": -106
-  },
-  {
-    "question": "Bangkok - London",
-    "answer": 100
-  },
-  {
-    "question": "Toronto - Sydney",
-    "answer": -230
-  },
-  {
-    "question": "Cairo - Paris",
-    "answer": 29
-  },
-  {
-    "question": "Rome + Moscow",
-    "answer": 50
-  },
-  {
-    "question": "Seoul + Rome",
-    "answer": 139
-  },
-  {
-    "question": "Sao Paulo + Moscow",
+    "question": "Istanbul - Moscow",
     "answer": -9
   },
   {
-    "question": "Cairo - Moscow",
-    "answer": -7
+    "question": "Rome - Sydney",
+    "answer": -139
   },
   {
-    "question": "Sydney - Johannesburg",
-    "answer": 123
+    "question": "Los Angeles - Tokyo",
+    "answer": -258
   },
   {
-    "question": "Tokyo + Bangkok",
-    "answer": 240
+    "question": "Cairo + Beijing",
+    "answer": 147
   },
   {
-    "question": "Seoul + Seoul",
-    "answer": 254
+    "question": "Beijing + Seoul",
+    "answer": 243
+  },
+  {
+    "question": "Toronto + Rome",
+    "answer": -67
+  },
+  {
+    "question": "Cairo + Rome",
+    "answer": 43
+  },
+  {
+    "question": "Toronto - Beijing",
+    "answer": -195
+  },
+  {
+    "question": "Los Angeles + Lagos",
+    "answer": -115
+  },
+  {
+    "question": "Mexico City - London",
+    "answer": -99
+  },
+  {
+    "question": "Johannesburg - Bangkok",
+    "answer": -72
+  },
+  {
+    "question": "Los Angeles - Istanbul",
+    "answer": -147
+  },
+  {
+    "question": "Mexico City + Mumbai",
+    "answer": -26
+  },
+  {
+    "question": "Sydney - Paris",
+    "answer": 149
   },
   {
     "question": "Tokyo + Mexico City",
     "answer": 41
   },
   {
-    "question": "London + Rome",
+    "question": "Buenos Aires + Mumbai",
+    "answer": 15
+  },
+  {
+    "question": "Istanbul + Rome",
+    "answer": 41
+  },
+  {
+    "question": "Istanbul - New York",
+    "answer": 103
+  },
+  {
+    "question": "Cairo - Rome",
+    "answer": 19
+  },
+  {
+    "question": "Moscow + Tokyo",
+    "answer": 178
+  },
+  {
+    "question": "Toronto + Cairo",
+    "answer": -48
+  },
+  {
+    "question": "Johannesburg + Cairo",
+    "answer": 59
+  },
+  {
+    "question": "Toronto + Sao Paulo",
+    "answer": -126
+  },
+  {
+    "question": "Rome + Seoul",
+    "answer": 139
+  },
+  {
+    "question": "Moscow - Lagos",
+    "answer": 35
+  },
+  {
+    "question": "Mumbai + Sao Paulo",
+    "answer": 26
+  },
+  {
+    "question": "Los Angeles - Los Angeles",
+    "answer": 0
+  },
+  {
+    "question": "Sydney + Paris",
+    "answer": 153
+  },
+  {
+    "question": "Sao Paulo + Cairo",
+    "answer": -16
+  },
+  {
+    "question": "Beijing + London",
+    "answer": 116
+  },
+  {
+    "question": "Tokyo - Sydney",
+    "answer": -11
+  },
+  {
+    "question": "Los Angeles + Moscow",
+    "answer": -80
+  },
+  {
+    "question": "Istanbul + Cairo",
+    "answer": 60
+  },
+  {
+    "question": "Los Angeles - Toronto",
+    "answer": -39
+  },
+  {
+    "question": "Moscow + Cairo",
+    "answer": 69
+  },
+  {
+    "question": "Cairo - Buenos Aires",
+    "answer": 89
+  },
+  {
+    "question": "Bangkok - Lagos",
+    "answer": 97
+  },
+  {
+    "question": "Beijing + Moscow",
+    "answer": 154
+  },
+  {
+    "question": "Buenos Aires + Rome",
+    "answer": -46
+  },
+  {
+    "question": "Johannesburg - New York",
+    "answer": 102
+  },
+  {
+    "question": "Moscow + Toronto",
+    "answer": -41
+  },
+  {
+    "question": "Johannesburg - Tokyo",
+    "answer": -112
+  },
+  {
+    "question": "Buenos Aires - Cairo",
+    "answer": -89
+  },
+  {
+    "question": "New York - Rome",
+    "answer": -86
+  },
+  {
+    "question": "Moscow - Rome",
+    "answer": 26
+  },
+  {
+    "question": "Bangkok + Cairo",
+    "answer": 131
+  },
+  {
+    "question": "London - Johannesburg",
+    "answer": -28
+  },
+  {
+    "question": "Mumbai - Buenos Aires",
+    "answer": 131
+  },
+  {
+    "question": "Istanbul - Tokyo",
+    "answer": -111
+  },
+  {
+    "question": "Beijing - Seoul",
+    "answer": -11
+  },
+  {
+    "question": "Seoul + Sydney",
+    "answer": 278
+  },
+  {
+    "question": "Bangkok - Cairo",
+    "answer": 69
+  },
+  {
+    "question": "Lagos + Mumbai",
+    "answer": 76
+  },
+  {
+    "question": "Moscow - Los Angeles",
+    "answer": 156
+  },
+  {
+    "question": "Mexico City - Johannesburg",
+    "answer": -127
+  },
+  {
+    "question": "New York + Tokyo",
+    "answer": 66
+  },
+  {
+    "question": "Mexico City - Toronto",
+    "answer": -20
+  },
+  {
+    "question": "Istanbul - Mumbai",
+    "answer": -44
+  },
+  {
+    "question": "Cairo + Mexico City",
+    "answer": -68
+  },
+  {
+    "question": "Sydney + Istanbul",
+    "answer": 180
+  },
+  {
+    "question": "New York - Johannesburg",
+    "answer": -102
+  },
+  {
+    "question": "Istanbul + Paris",
+    "answer": 31
+  },
+  {
+    "question": "Beijing + Beijing",
+    "answer": 232
+  },
+  {
+    "question": "Lagos + Moscow",
+    "answer": 41
+  },
+  {
+    "question": "Mumbai + Bangkok",
+    "answer": 173
+  },
+  {
+    "question": "Toronto - Istanbul",
+    "answer": -108
+  },
+  {
+    "question": "Lagos - London",
+    "answer": 3
+  },
+  {
+    "question": "Mumbai - Paris",
+    "answer": 71
+  },
+  {
+    "question": "Istanbul + Rome",
+    "answer": 41
+  },
+  {
+    "question": "Mexico City + Lagos",
+    "answer": -96
+  },
+  {
+    "question": "Toronto + Lagos",
+    "answer": -76
+  },
+  {
+    "question": "Los Angeles - Moscow",
+    "answer": -156
+  },
+  {
+    "question": "Tokyo + Beijing",
+    "answer": 256
+  },
+  {
+    "question": "Johannesburg - Tokyo",
+    "answer": -112
+  },
+  {
+    "question": "Moscow + Johannesburg",
+    "answer": 66
+  },
+  {
+    "question": "Toronto - Sao Paulo",
+    "answer": -32
+  },
+  {
+    "question": "Sydney + Beijing",
+    "answer": 267
+  },
+  {
+    "question": "Cairo - Mexico City",
+    "answer": 130
+  },
+  {
+    "question": "Johannesburg + London",
+    "answer": 28
+  },
+  {
+    "question": "New York - Lagos",
+    "answer": -77
+  },
+  {
+    "question": "Istanbul + Tokyo",
+    "answer": 169
+  },
+  {
+    "question": "Mumbai - Moscow",
+    "answer": 35
+  },
+  {
+    "question": "Istanbul - Sao Paulo",
+    "answer": 76
+  },
+  {
+    "question": "Beijing + Lagos",
+    "answer": 119
+  },
+  {
+    "question": "Rome + Sydney",
+    "answer": 163
+  },
+  {
+    "question": "Paris - Seoul",
+    "answer": -125
+  },
+  {
+    "question": "Istanbul + Seoul",
+    "answer": 156
+  },
+  {
+    "question": "Rome - Tokyo",
+    "answer": -128
+  },
+  {
+    "question": "New York + New York",
+    "answer": -148
+  },
+  {
+    "question": "London - Cairo",
+    "answer": -31
+  },
+  {
+    "question": "New York - Buenos Aires",
+    "answer": -16
+  },
+  {
+    "question": "Beijing + Rome",
+    "answer": 128
+  },
+  {
+    "question": "Lagos - Moscow",
+    "answer": -35
+  },
+  {
+    "question": "Seoul + Mexico City",
+    "answer": 28
+  },
+  {
+    "question": "Tokyo - Bangkok",
+    "answer": 40
+  },
+  {
+    "question": "Bangkok - Johannesburg",
+    "answer": 72
+  },
+  {
+    "question": "Bangkok - Los Angeles",
+    "answer": 218
+  },
+  {
+    "question": "Johannesburg + Moscow",
+    "answer": 66
+  },
+  {
+    "question": "Toronto - London",
+    "answer": -79
+  },
+  {
+    "question": "Johannesburg + London",
+    "answer": 28
+  },
+  {
+    "question": "New York - Mumbai",
+    "answer": -147
+  },
+  {
+    "question": "New York + London",
+    "answer": -74
+  },
+  {
+    "question": "Los Angeles + Mumbai",
+    "answer": -45
+  },
+  {
+    "question": "Beijing - Lagos",
+    "answer": 113
+  },
+  {
+    "question": "Beijing - Beijing",
+    "answer": 0
+  },
+  {
+    "question": "Beijing - Paris",
+    "answer": 114
+  },
+  {
+    "question": "Los Angeles + Los Angeles",
+    "answer": -236
+  },
+  {
+    "question": "Sao Paulo + Sao Paulo",
+    "answer": -94
+  },
+  {
+    "question": "Tokyo + Toronto",
+    "answer": 61
+  },
+  {
+    "question": "Tokyo - Johannesburg",
+    "answer": 112
+  },
+  {
+    "question": "Cairo - New York",
+    "answer": 105
+  },
+  {
+    "question": "Beijing - Los Angeles",
+    "answer": 234
+  },
+  {
+    "question": "Paris + Sydney",
+    "answer": 153
+  },
+  {
+    "question": "Cairo - Lagos",
+    "answer": 28
+  },
+  {
+    "question": "Cairo + Tokyo",
+    "answer": 171
+  },
+  {
+    "question": "Rome - London",
     "answer": 12
   },
   {
-    "question": "New York + Istanbul",
-    "answer": -45
+    "question": "Johannesburg - Toronto",
+    "answer": 107
+  },
+  {
+    "question": "Seoul + Buenos Aires",
+    "answer": 69
+  },
+  {
+    "question": "Mexico City + Seoul",
+    "answer": 28
+  },
+  {
+    "question": "New York - Moscow",
+    "answer": -112
+  },
+  {
+    "question": "London + New York",
+    "answer": -74
+  },
+  {
+    "question": "Mexico City - London",
+    "answer": -99
+  },
+  {
+    "question": "Beijing + Mumbai",
+    "answer": 189
+  },
+  {
+    "question": "Beijing - New York",
+    "answer": 190
+  },
+  {
+    "question": "Moscow - Sydney",
+    "answer": -113
+  },
+  {
+    "question": "Sao Paulo + Toronto",
+    "answer": -126
+  },
+  {
+    "question": "Mumbai + Seoul",
+    "answer": 200
+  },
+  {
+    "question": "Cairo - Beijing",
+    "answer": -85
+  },
+  {
+    "question": "Mexico City + Seoul",
+    "answer": 28
+  },
+  {
+    "question": "Johannesburg + Johannesburg",
+    "answer": 56
+  },
+  {
+    "question": "Buenos Aires - Bangkok",
+    "answer": -158
+  },
+  {
+    "question": "Tokyo + Sao Paulo",
+    "answer": 93
+  },
+  {
+    "question": "Istanbul + Mexico City",
+    "answer": -70
+  },
+  {
+    "question": "Tokyo + Sydney",
+    "answer": 291
+  },
+  {
+    "question": "Los Angeles - Seoul",
+    "answer": -245
+  },
+  {
+    "question": "Seoul - Moscow",
+    "answer": 89
+  },
+  {
+    "question": "Mumbai + Rome",
+    "answer": 85
+  },
+  {
+    "question": "Buenos Aires + New York",
+    "answer": -132
+  },
+  {
+    "question": "London - Mumbai",
+    "answer": -73
+  },
+  {
+    "question": "Seoul - Rome",
+    "answer": 115
+  },
+  {
+    "question": "Johannesburg + Seoul",
+    "answer": 155
+  },
+  {
+    "question": "Rome - Los Angeles",
+    "answer": 130
+  },
+  {
+    "question": "Los Angeles - Mexico City",
+    "answer": -19
+  },
+  {
+    "question": "London - Sao Paulo",
+    "answer": 47
+  },
+  {
+    "question": "London + Paris",
+    "answer": 2
+  },
+  {
+    "question": "Moscow - Cairo",
+    "answer": 7
+  },
+  {
+    "question": "Toronto - London",
+    "answer": -79
+  },
+  {
+    "question": "Los Angeles - Toronto",
+    "answer": -39
+  },
+  {
+    "question": "Mexico City + Sydney",
+    "answer": 52
+  },
+  {
+    "question": "Toronto - London",
+    "answer": -79
+  },
+  {
+    "question": "Rome - Los Angeles",
+    "answer": 130
+  },
+  {
+    "question": "Toronto + Los Angeles",
+    "answer": -197
+  },
+  {
+    "question": "Los Angeles + Mexico City",
+    "answer": -217
+  },
+  {
+    "question": "Moscow + Sydney",
+    "answer": 189
+  },
+  {
+    "question": "Sao Paulo - Johannesburg",
+    "answer": -75
+  },
+  {
+    "question": "Cairo + Rome",
+    "answer": 43
+  },
+  {
+    "question": "Sao Paulo + Mexico City",
+    "answer": -146
+  },
+  {
+    "question": "Los Angeles - Los Angeles",
+    "answer": 0
+  },
+  {
+    "question": "Seoul - Johannesburg",
+    "answer": 99
+  },
+  {
+    "question": "Buenos Aires - Los Angeles",
+    "answer": 60
+  },
+  {
+    "question": "Sao Paulo - Los Angeles",
+    "answer": 71
+  },
+  {
+    "question": "Lagos - Lagos",
+    "answer": 0
+  },
+  {
+    "question": "New York + Moscow",
+    "answer": -36
+  },
+  {
+    "question": "Seoul - Sydney",
+    "answer": -24
+  },
+  {
+    "question": "Beijing - Istanbul",
+    "answer": 87
+  },
+  {
+    "question": "Bangkok + Sydney",
+    "answer": 251
+  },
+  {
+    "question": "Seoul - Paris",
+    "answer": 125
+  },
+  {
+    "question": "Rome - Paris",
+    "answer": 10
+  },
+  {
+    "question": "New York - Tokyo",
+    "answer": -214
+  },
+  {
+    "question": "Toronto - Paris",
+    "answer": -81
+  },
+  {
+    "question": "Istanbul + Rome",
+    "answer": 41
+  },
+  {
+    "question": "Bangkok - Lagos",
+    "answer": 97
+  },
+  {
+    "question": "Toronto + Sydney",
+    "answer": 72
   },
   {
     "question": "Beijing + Mexico City",
     "answer": 17
-  },
-  {
-    "question": "Sao Paulo - Paris",
-    "answer": -49
-  },
-  {
-    "question": "Tokyo - Buenos Aires",
-    "answer": 198
   }
 ]

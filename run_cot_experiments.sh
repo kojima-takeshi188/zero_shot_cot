@@ -7,7 +7,7 @@
 model="gpt3.5"
 log_dir="./logs"
 # limit_dataset_size is the number of samples used for testing; it will use all testing samples if put 0.
-limit_dataset_size=5
+limit_dataset_size=50
 
 # Array of methods
 methods=("few_shot" "few_shot_cot" "few_shot_uninformative_cot" "zero_shot_and_uninformative_cot" "zero_shot_cot")

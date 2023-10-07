@@ -1,35 +1,305 @@
 {
-  "accuracy": 80.0,
+  "accuracy": 98.0,
   "outputs": [
     {
       "new_prompt": "Q: For Halloween Megan received 11 pieces of candy from neighbors and 5 pieces from her older sister. If she only ate 8 pieces a day, how long would the candy last her?\nA:",
       "ground truth": "2",
-      "llm_output": " Megan received a total of 11 + 5 = 16 pieces of candy. If she ate 8 pieces a day, then the candy would last her 16 \u00f7 8 = 2 days. The answer is 2 days.",
+      "llm_output": " Megan received a total of 11 + 5 = 16 pieces of candy. If she eats 8 pieces a day, the candy will last her for 16 \u00f7 8 = 2 days. The answer is 2 days.",
       "pred_ans": "2"
     },
     {
       "new_prompt": "Q: Bianca and her mom were picking carrots from their garden. Bianca picked 26 and her mother picked 15. If only 16 of the carrots were good, how many bad carrots did they have?\nA:",
       "ground truth": "25",
-      "llm_output": " Bianca and her mom picked a total of 26 + 15 = 41 carrots. If only 16 of them were good, then 41 - 16 = 25 must have been bad carrots. The answer is 25.",
+      "llm_output": " Bianca and her mom picked a total of 26 + 15 = 41 carrots. However, only 16 of them were good. So, 41 - 16 = 25 carrots must have been bad. The answer is 25.",
       "pred_ans": "25"
     },
     {
       "new_prompt": "Q: Paige and her friends were recycling paper for their class. For every 4 pounds they recycled they earned one point. If Paige recycled 14 pounds and her friends recycled 2 pounds, how many points did they earn?\nA:",
       "ground truth": "4",
-      "llm_output": " For every 4 pounds of paper recycled, Paige and her friends earned 1 point. Paige recycled 14 pounds and her friends recycled 2 pounds, so they earned 14/4 = 3.5 points from Paige's recycling and 2/4 = 0.5 points from her friends' recycling. In total, they earned 3.5 + 0.5 = 4 points. The answer is 4 points.",
+      "llm_output": " For every 4 pounds of paper recycled, they earned 1 point. Paige recycled 14 pounds and her friends recycled 2 pounds. So, 14 + 2 = 16 pounds of paper were recycled in total. This means they earned 16 \u00f7 4 = 4 points. The answer is 4 points.",
       "pred_ans": "4"
     },
     {
       "new_prompt": "Q: In fourth grade there were 4 students at the start of the year. During the year 3 students left and 42 new students came to school. How many students were in fourth grade at the end?\nA:",
       "ground truth": "43",
-      "llm_output": " In fourth grade there were 4 students at the start of the year. During the year 3 students left and 42 new students came to school. Therefore, 4 - 3 = 1 student left and 4 + 42 = 46 students were in fourth grade at the end of the year. The answer is 46.",
-      "pred_ans": "46"
+      "llm_output": " In fourth grade there were 4 students at the start of the year. During the year 3 students left and 42 new students came to school. So, 4 - 3 = 1 student must have been left at the end of the year. Then, 1 + 42 = 43 students must have been in fourth grade at the end. The answer is 43.",
+      "pred_ans": "43"
     },
     {
       "new_prompt": "Q: A toy store had 4 giant stuffed bears in stock when they got another shipment with 10 bears in it. The put the bears onto shelves with 7 on each shelf. How many shelves did they use?\nA:",
       "ground truth": "2",
-      "llm_output": " The toy store started with 4 giant stuffed bears in stock. After receiving a shipment of 10 more bears, they had a total of 4 + 10 = 14 bears. If they put 7 bears on each shelf, then they would need 14/7 = 2 shelves. The answer is 2 shelves.",
+      "llm_output": " The toy store originally had 4 giant stuffed bears in stock. After receiving a shipment of 10 more bears, they put them on shelves with 7 bears on each shelf. So, 4 + 10 = 14 bears in total. Since there were 7 bears on each shelf, they must have used 14 \u00f7 7 = 2 shelves. The answer is 2.",
       "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Bianca was organizing her book case making sure each of the shelves had exactly 8 books on it. If she had 5 shelves of mystery books and 4 shelves of picture books, how many books did she have total?\nA:",
+      "ground truth": "72",
+      "llm_output": " If each shelf has 8 books and there are 5 shelves of mystery books and 4 shelves of picture books, then the total number of books is 8 x 5 + 8 x 4 = 40 + 32 = 72 books. The answer is 72.",
+      "pred_ans": "72"
+    },
+    {
+      "new_prompt": "Q: Megan baked 68 cupcakes for her school's bake sale. If her brother, Todd, ate 32 of them how many packages could she make if she put 6 cupcake in each package?\nA:",
+      "ground truth": "6",
+      "llm_output": " Megan baked 68 cupcakes for her school's bake sale. If her brother, Todd, ate 32 of them, then there were 68 - 32 = 36 cupcakes left. If she puts 6 cupcakes in each package, she can make 36 \u00f7 6 = 6 packages. The answer is 6.",
+      "pred_ans": "6"
+    },
+    {
+      "new_prompt": "Q: A pet store had 13 siamese cats and 5 house cats. During a sale they sold 10 cats. How many cats do they have left?\nA:",
+      "ground truth": "8",
+      "llm_output": " A pet store had 13 siamese cats and 5 house cats, for a total of 13+5=18 cats. After selling 10 cats, they would have 18-10=8 cats left. The answer is 8.",
+      "pred_ans": "8"
+    },
+    {
+      "new_prompt": "Q: Billy was organizing his baseball cards in a binder with 5 on each page. If he had 3 new cards and 42 old cards to put in the binder, how many pages would he use?\nA:",
+      "ground truth": "9",
+      "llm_output": " Billy has 3 new cards and 42 old cards, so he has a total of 45 cards to put in the binder. Since there are 5 cards on each page, he would need 45 \u00f7 5 = 9 pages to fit all the cards. The answer is 9 pages.",
+      "pred_ans": "9"
+    },
+    {
+      "new_prompt": "Q: Adam bought 2 boxes of chocolate candy and 5 boxes of caramel candy. If each box has 4 pieces inside it, how much candy did he have total?\nA:",
+      "ground truth": "28",
+      "llm_output": " Adam bought 2 boxes of chocolate candy and 5 boxes of caramel candy. So, he had 2 + 5 = 7 boxes of candy in total. Since each box has 4 pieces, he had 7 x 4 = 28 pieces of candy in total. The answer is 28.",
+      "pred_ans": "28"
+    },
+    {
+      "new_prompt": "Q: Wendy picked 103 flowers for her friend\u2019s wedding. She was making bouquets with 8 flowers in each one. If 47 of the flowers wilted before the wedding, how many bouquets could she still make?\nA:",
+      "ground truth": "7",
+      "llm_output": " Wendy picked 103 flowers for her friend\u2019s wedding. She was making bouquets with 8 flowers in each one. If 47 of the flowers wilted before the wedding, she could still make 103 - 47 = 56 bouquets. The answer is 56.",
+      "pred_ans": "56"
+    },
+    {
+      "new_prompt": "Q: Edward and his friend were buying trick decks from the magic shop for 6 dollars each. How much did they spend if Edward bought 3 decks and his friend bought 6 decks?\nA:",
+      "ground truth": "54",
+      "llm_output": " Each deck costs 6 dollars. Edward bought 3 decks and his friend bought 6 decks. So, 3 x 6 = 18 dollars were spent by Edward and 6 x 6 = 36 dollars were spent by his friend. In total, they spent 18 + 36 = 54 dollars. The answer is 54 dollars.",
+      "pred_ans": "54"
+    },
+    {
+      "new_prompt": "Q: A pet store had 41 siamese cats and 28 house cats. During a sale they sold 15 cats. How many cats do they have left?\nA:",
+      "ground truth": "54",
+      "llm_output": " A pet store had 41 siamese cats and 28 house cats. During a sale they sold 15 cats. So, 41 + 28 = 69 cats to begin with. After the sale, there were 69 - 15 = 54 cats left. The answer is 54.",
+      "pred_ans": "54"
+    },
+    {
+      "new_prompt": "Q: Wendy was playing a video game where she scores 5 points for each treasure she finds. If she found 4 treasures on the first level and 3 on the second, what would her score be?\nA:",
+      "ground truth": "35",
+      "llm_output": " On the first level, Wendy found 4 treasures, so she scored 4 x 5 = 20 points. On the second level, she found 3 treasures, so she scored 3 x 5 = 15 points. Therefore, her total score would be 20 + 15 = 35 points. The answer is 35.",
+      "pred_ans": "35"
+    },
+    {
+      "new_prompt": "Q: The school cafeteria ordered 6 red apples and 15 green apples for students lunches. But, if only 5 students wanted fruit, how many extra did the cafeteria end up with?\nA:",
+      "ground truth": "16",
+      "llm_output": " The school cafeteria ordered 6 red apples and 15 green apples for students lunches. But, if only 5 students wanted fruit, then there were 6 + 15 = 21 apples ordered in total. However, only 5 apples were needed, so 21 - 5 = 16 extra apples were left over. The answer is 16.",
+      "pred_ans": "16"
+    },
+    {
+      "new_prompt": "Q: Paul had saved up 3 dollars. If he received another 7 dollars for his allowance, how many 5 dollar toys could he buy?\nA:",
+      "ground truth": "2",
+      "llm_output": " Paul had saved up 3 dollars. If he received another 7 dollars for his allowance, he would have a total of 3 + 7 = 10 dollars. Therefore, he could buy 10 \u00f7 5 = 2 five dollar toys. The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Victor was helping the cafeteria workers pick up lunch trays, but he could only carry 7 trays at a time. If he had to pick up 23 trays from one table and 5 trays from another, how many trips will he make?\nA:",
+      "ground truth": "4",
+      "llm_output": " Victor can carry 7 trays at a time. He needs to pick up 23 trays from one table and 5 trays from another. So, he will make 23 \u00f7 7 = 3 trips for the first table and 5 \u00f7 7 = 0.71 trips for the second table. Since he cannot make 0.71 trips, he will make 1 trip for the second table. Therefore, he will make a total of 3 + 1 = 4 trips. The answer is 4 trips.",
+      "pred_ans": "4"
+    },
+    {
+      "new_prompt": "Q: Kaleb bought 14 boxes of chocolate candy and gave 5 to his little brother. If each box has 6 pieces inside it, how many pieces did Kaleb still have?\nA:",
+      "ground truth": "54",
+      "llm_output": " Kaleb bought 14 boxes of chocolate candy and gave 5 to his little brother. So, he had 14 - 5 = 9 boxes left. Each box has 6 pieces, so 9 x 6 = 54 pieces of candy were left. The answer is 54.",
+      "pred_ans": "54"
+    },
+    {
+      "new_prompt": "Q: In a video game, each enemy defeated gives you 8 points. If a level has 7 enemies total and you destroy all but 2 of them, how many points would you earn?\nA:",
+      "ground truth": "40",
+      "llm_output": " Each enemy defeated gives you 8 points, so if there were 7 enemies in total, you would earn 7 x 8 = 56 points. However, you only destroyed 5 enemies, so you would earn 5 x 8 = 40 points. The answer is 40 points.",
+      "pred_ans": "40"
+    },
+    {
+      "new_prompt": "Q: Nancy was planting vegetables in her garden. She started with 52 seeds and planted 28 of them in the big garden and in each of her small gardens put 4 seeds each. How many small gardens did Nancy have?\nA:",
+      "ground truth": "6",
+      "llm_output": " Nancy started with 52 seeds and planted 28 of them in the big garden. This means she had 52 - 28 = 24 seeds left. Since she planted 4 seeds in each small garden, she must have had 24 \u00f7 4 = 6 small gardens. The answer is 6.",
+      "pred_ans": "6"
+    },
+    {
+      "new_prompt": "Q: A store had 120 coloring books in stock. They ended up putting them on sale and getting rid of 39 of them. The put the ones they still had onto shelves with 9 on each shelf. How many shelves did they use?\nA:",
+      "ground truth": "9",
+      "llm_output": " The store had 120 coloring books originally. After selling 39 of them, they were left with 120 - 39 = 81 coloring books. Since there were 9 books on each shelf, the number of shelves used must be 81 \u00f7 9 = 9. The answer is 9 shelves.",
+      "pred_ans": "9"
+    },
+    {
+      "new_prompt": "Q: John had 5 action figures, but needed 7 total for a complete collection. If each one costs $5, how much money would he need to finish his collection?\nA:",
+      "ground truth": "10",
+      "llm_output": " John had 5 action figures, but needed 7 total for a complete collection. So, he needs 7 - 5 = 2 more action figures. Each action figure costs $5, so he would need 2 x $5 = $10 to finish his collection. The answer is $10.",
+      "pred_ans": "10"
+    },
+    {
+      "new_prompt": "Q: George was working as a sacker at a grocery store where he made 5 dollars an hour. On Monday he worked 7 hours and on Tuesday he worked 2 hours. How much money did George make in those two days?\nA:",
+      "ground truth": "45",
+      "llm_output": " On Monday, George made 5 dollars an hour for 7 hours, so he made 5 x 7 = 35 dollars. On Tuesday, he made 5 dollars an hour for 2 hours, so he made 5 x 2 = 10 dollars. In total, George made 35 + 10 = 45 dollars in those two days. The answer is 45 dollars.",
+      "pred_ans": "45"
+    },
+    {
+      "new_prompt": "Q: Will invited 9 friends to a birthday party, but 4 couldn't come. If he wanted to buy enough cupcakes so each person could have exactly 8, how many should he buy?\nA:",
+      "ground truth": "40",
+      "llm_output": " Will invited 9 friends to a birthday party, but 4 couldn't come. So, 9 - 4 = 5 friends will be attending the party. If each person should have 8 cupcakes, then 5 x 8 = 40 cupcakes should be bought. The answer is 40.",
+      "pred_ans": "40"
+    },
+    {
+      "new_prompt": "Q: Bianca had 45 coloring books. If she gave away 6 of them, but then bought 20 more, how many would she have total?\nA:",
+      "ground truth": "59",
+      "llm_output": " Bianca had 45 coloring books. If she gave away 6 of them, but then bought 20 more, she would have 45 - 6 + 20 = 59 coloring books total. The answer is 59.",
+      "pred_ans": "59"
+    },
+    {
+      "new_prompt": "Q: Kaleb had 12 dollars. If he spent 8 bucks on a new game, how many 2 dollar toys could he buy with the money he had left?\nA:",
+      "ground truth": "2",
+      "llm_output": " Kaleb had 12 dollars. If he spent 8 bucks on a new game, he would have 12 - 8 = 4 dollars left. Since each toy costs 2 dollars, he could buy 4 \u00f7 2 = 2 toys with the money he had left. The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: The school cafeteria had 12 apples. If they used 8 to make lunch for the students and then bought 19 more, how many apples would they have?\nA:",
+      "ground truth": "23",
+      "llm_output": " The school cafeteria had 12 apples. If they used 8 to make lunch for the students and then bought 19 more, they would have 12 - 8 + 19 = 23 apples. The answer is 23.",
+      "pred_ans": "23"
+    },
+    {
+      "new_prompt": "Q: In fourth grade there were 33 students at the start of the year. During the year 18 students left and 14 new students came to school. How many students were in fourth grade at the end?\nA:",
+      "ground truth": "29",
+      "llm_output": " In fourth grade there were 33 students at the start of the year. During the year 18 students left and 14 new students came to school. So, 33 - 18 + 14 = 29 students were in fourth grade at the end of the year. The answer is 29.",
+      "pred_ans": "29"
+    },
+    {
+      "new_prompt": "Q: A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest?\nA:",
+      "ground truth": "18",
+      "llm_output": " The builder had already installed 6 windows, so there are 9\u22126=3 windows left to install. If it takes 6 hours to install each window, then it will take 3\u00d76=18 hours to install the rest of the windows. The answer is 18 hours.",
+      "pred_ans": "18"
+    },
+    {
+      "new_prompt": "Q: There were 10 friends playing a video game online when 7 players quit. If each player left had 8 lives, how many lives did they have total?\nA:",
+      "ground truth": "24",
+      "llm_output": " There were originally 10 friends playing the video game. After 7 players quit, there were only 3 players left. Each player had 8 lives, so 3 x 8 = 24 lives total. The answer is 24.",
+      "pred_ans": "24"
+    },
+    {
+      "new_prompt": "Q: Faye was selling her necklaces at a garage sale. She sold 3 bead necklaces and 7 gem stone necklaces. If each necklace cost 7 dollars, how much money did she earn?\nA:",
+      "ground truth": "70",
+      "llm_output": " Faye sold a total of 3 + 7 = 10 necklaces. Each necklace cost 7 dollars, so she earned 10 x 7 = 70 dollars. The answer is 70 dollars.",
+      "pred_ans": "70"
+    },
+    {
+      "new_prompt": "Q: There were 8 friends playing a video game online when 5 players quit. If each player left had 5 lives, how many lives did they have total?\nA:",
+      "ground truth": "15",
+      "llm_output": " There were originally 8 friends playing the video game. After 5 players quit, there were only 3 players left. Each player had 5 lives, so 3 x 5 = 15 lives total. The answer is 15.",
+      "pred_ans": "15"
+    },
+    {
+      "new_prompt": "Q: Edward made 37 dollars mowing lawns over the summer. If he spent 21 dollars buying new mower blades, how many 2 dollar games could he buy with the money he had left?\nA:",
+      "ground truth": "8",
+      "llm_output": " Edward made 37 dollars mowing lawns over the summer. If he spent 21 dollars buying new mower blades, he would have 37 - 21 = 16 dollars left. Therefore, he could buy 16 \u00f7 2 = 8 2-dollar games with the money he had left. The answer is 8.",
+      "pred_ans": "8"
+    },
+    {
+      "new_prompt": "Q: Isabel had 72 homework problems. She finished 32 of them but still had 5 pages of problems to do. If each page has the same number of problems on it, how many problems are on each page?\nA:",
+      "ground truth": "8",
+      "llm_output": " Isabel had 72 homework problems. She finished 32 of them but still had 5 pages of problems to do. So, 72 - 32 = 40 problems were left to do. Since each page has the same number of problems, 40 \u00f7 5 = 8 problems must be on each page. The answer is 8.",
+      "pred_ans": "8"
+    },
+    {
+      "new_prompt": "Q: Robin was making baggies of cookies with 6 cookies in each bag. If she had 23 chocolate chip cookies and 25 oatmeal cookies, how many baggies could she make?\nA:",
+      "ground truth": "8",
+      "llm_output": " Robin had a total of 23 + 25 = 48 cookies. If she puts 6 cookies in each bag, she can make 48 \u00f7 6 = 8 baggies. The answer is 8.",
+      "pred_ans": "8"
+    },
+    {
+      "new_prompt": "Q: Olivia and her mom were picking carrots from their garden. Olivia picked 20 and her mother picked 14. If only 19 of the carrots were good, how many bad carrots did they have?\nA:",
+      "ground truth": "15",
+      "llm_output": " Olivia picked 20 carrots and her mother picked 14, so the total number of carrots they picked was 20 + 14 = 34. However, only 19 of them were good, so 34 - 19 = 15 must have been bad carrots. The answer is 15.",
+      "pred_ans": "15"
+    },
+    {
+      "new_prompt": "Q: For homework Nancy had 17 math problems and 15 spelling problems. If she can finish 8 problems in an hour how long will it take her to finish all the problems?\nA:",
+      "ground truth": "4",
+      "llm_output": " Nancy has a total of 17 + 15 = 32 problems to finish. If she can finish 8 problems in an hour, it will take her 32 \u00f7 8 = 4 hours to finish all the problems. The answer is 4 hours.",
+      "pred_ans": "4"
+    },
+    {
+      "new_prompt": "Q: A trivia team had 12 members total, but during a game 4 members didn't show up. If each member that did show up scored 8 points, how many points were scored total?\nA:",
+      "ground truth": "64",
+      "llm_output": " There were originally 12 members on the trivia team, but 4 didn't show up. So, 12 - 4 = 8 members showed up and scored 8 points each. Therefore, 8 x 8 = 64 points were scored in total. The answer is 64.",
+      "pred_ans": "64"
+    },
+    {
+      "new_prompt": "Q: Frank made 5 dollars mowing lawns and 58 dollars weed eating. If he only spent 7 dollar a week, how long would the money last him?\nA:",
+      "ground truth": "9",
+      "llm_output": " Frank made a total of 5 + 58 = 63 dollars. If he only spends 7 dollars a week, the money would last him 63 \u00f7 7 = 9 weeks. The answer is 9 weeks.",
+      "pred_ans": "9"
+    },
+    {
+      "new_prompt": "Q: Faye had 46 math problems and 9 science problems for homework. If she finished 40 of the problems at school, how many problems did she have to do for homework?\nA:",
+      "ground truth": "15",
+      "llm_output": " Faye had a total of 46 + 9 = 55 problems for homework. She finished 40 of them at school, so she had 55 - 40 = 15 problems left to do for homework. The answer is 15.",
+      "pred_ans": "15"
+    },
+    {
+      "new_prompt": "Q: Roger had 16 dollars. For his birthday he got 28 more dollars but spent 25 on a new game. How much money does he have now?\nA:",
+      "ground truth": "19",
+      "llm_output": " Roger had 16 dollars. For his birthday he got 28 more dollars but spent 25 on a new game. So, 16 + 28 - 25 = 19 dollars. The answer is 19 dollars.",
+      "pred_ans": "19"
+    },
+    {
+      "new_prompt": "Q: Kaleb was collecting cans for recycling. On Saturday he filled 4 bags up and on Sunday he filled 6 more bags. If each bag had 4 cans in it, how many cans did he pick up total?\nA:",
+      "ground truth": "40",
+      "llm_output": " On Saturday, Kaleb filled 4 bags with 4 cans each, for a total of 4 x 4 = 16 cans. On Sunday, he filled 6 more bags with 4 cans each, for a total of 6 x 4 = 24 cans. Therefore, Kaleb picked up a total of 16 + 24 = 40 cans. The answer is 40.",
+      "pred_ans": "40"
+    },
+    {
+      "new_prompt": "Q: Paige had 11 songs on her mp3 player. If she deleted 9 old songs from it and then added 8 new songs, how many songs does she have on her mp3 player?\nA:",
+      "ground truth": "10",
+      "llm_output": " Paige had 11 songs on her mp3 player. If she deleted 9 old songs from it and then added 8 new songs, she would have 11 - 9 + 8 = 10 songs on her mp3 player. The answer is 10.",
+      "pred_ans": "10"
+    },
+    {
+      "new_prompt": "Q: Cody had 45 dollars. For his birthday he got 9 more dollars but spent 19 on a new game. How much money does he have now?\nA:",
+      "ground truth": "35",
+      "llm_output": " Cody had 45 dollars. For his birthday he got 9 more dollars but spent 19 on a new game. So, 45 + 9 - 19 = 35. Cody now has 35 dollars.",
+      "pred_ans": "35"
+    },
+    {
+      "new_prompt": "Q: A pet store had 56 puppies. In one day they sold 24 of them and put the rest into cages with 4 in each cage. How many cages did they use?\nA:",
+      "ground truth": "8",
+      "llm_output": " A pet store had 56 puppies. In one day they sold 24 of them and put the rest into cages with 4 in each cage. So, 56 - 24 = 32 puppies were put into cages. Since there are 4 puppies in each cage, the number of cages used is 32 \u00f7 4 = 8. The answer is 8.",
+      "pred_ans": "8"
+    },
+    {
+      "new_prompt": "Q: There were 16 friends playing a video game online when 7 players quit. If each player left had 8 lives, how many lives did they have total?\nA:",
+      "ground truth": "72",
+      "llm_output": " There were originally 16 friends playing the video game. After 7 players quit, there were only 9 players left. Each player had 8 lives, so 9 x 8 = 72 lives total. The answer is 72.",
+      "pred_ans": "72"
+    },
+    {
+      "new_prompt": "Q: For the school bake sale Amy made pastries. She baked 15 cupcakes and 48 cookies. After the sale she had 12 to take back home. How many pastries did she sell?\nA:",
+      "ground truth": "51",
+      "llm_output": " Amy baked a total of 15 cupcakes and 48 cookies, so she had 15 + 48 = 63 pastries in total. After the sale, she had 12 pastries left, so she must have sold 63 - 12 = 51 pastries. The answer is 51.",
+      "pred_ans": "51"
+    },
+    {
+      "new_prompt": "Q: While on vacation, Megan took 15 pictures at the zoo and 18 at the museum. If she later deleted 31 of the pictures, how many pictures from her vacation did she still have?\nA:",
+      "ground truth": "2",
+      "llm_output": " Megan took a total of 15 + 18 = 33 pictures on her vacation. After deleting 31 pictures, she was left with 33 - 31 = 2 pictures. The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: A pet store had 102 puppies. In one day they sold 21 of them and put the rest into cages with 9 in each cage. How many cages did they use?\nA:",
+      "ground truth": "9",
+      "llm_output": " A pet store had 102 puppies. In one day they sold 21 of them and put the rest into cages with 9 in each cage. So, 102 - 21 = 81 puppies were put into cages. Since there were 9 puppies in each cage, the number of cages used must be 81 \u00f7 9 = 9. The answer is 9.",
+      "pred_ans": "9"
+    },
+    {
+      "new_prompt": "Q: Emily was playing a video game and had 42 lives. In a hard part of the game she lost 25 lives. If she got 24 more lives in the next level, how many lives would she have?\nA:",
+      "ground truth": "41",
+      "llm_output": " Emily started with 42 lives. She lost 25 lives, so she was left with 42 - 25 = 17 lives. Then she gained 24 more lives, so she would have 17 + 24 = 41 lives. The answer is 41.",
+      "pred_ans": "41"
     }
   ]
 }

@@ -2,34 +2,304 @@
   "accuracy": 0.0,
   "outputs": [
     {
-      "new_prompt": "Q: Seoul + Mexico City\nA:",
-      "ground truth": "28",
-      "llm_output": " Seoul is the capital and largest metropolis of South Korea. It's a vibrant city known for its modern skyscrapers and ancient palaces. Mexico City is the capital and largest city of Mexico. It's a bustling metropolis with a rich history and culture. The answer is 11.",
-      "pred_ans": "11"
-    },
-    {
-      "new_prompt": "Q: Toronto + Buenos Aires\nA:",
-      "ground truth": "-137",
-      "llm_output": " Toronto is the capital of the province of Ontario in Canada. It's a major Canadian city known for its diverse population and iconic CN Tower. Buenos Aires is the capital and largest city of Argentina. It's known for its European-style architecture and vibrant cultural scene. The answer is 1.",
+      "new_prompt": "Q: London - Istanbul\nA:",
+      "ground truth": "-29",
+      "llm_output": " London is the capital of England and the United Kingdom. It's renowned for its history, from its Roman beginnings to its cosmopolitan present. Istanbul is the largest city in Turkey. It's known for its rich history and cultural influences from both Europe and Asia. The answer is 1.",
       "pred_ans": "1"
     },
     {
-      "new_prompt": "Q: Rome - London\nA:",
-      "ground truth": "12",
-      "llm_output": " Rome is the capital of Italy. It has a rich history and is home to the Colosseum. London is the capital of England and the United Kingdom. It's renowned for its history, from its Roman beginnings to its cosmopolitan present. The answer is 0.",
-      "pred_ans": "0"
+      "new_prompt": "Q: Cairo + Seoul\nA:",
+      "ground truth": "158",
+      "llm_output": " Cairo is the capital of Egypt. It's known for its ancient pyramids and the Great Sphinx. Seoul is the capital of South Korea. It's a modern city with a rich history and culture. The answer is 8.",
+      "pred_ans": "8"
     },
     {
-      "new_prompt": "Q: Mexico City - Rome\nA:",
-      "ground truth": "-111",
-      "llm_output": " Mexico City is the capital of Mexico, and Rome is the capital of Italy. Mexico City is located in North America, while Rome is in Europe. The answer is -7.",
+      "new_prompt": "Q: Beijing + Istanbul\nA:",
+      "ground truth": "145",
+      "llm_output": " Beijing is the capital of China. It's known for its ancient sites such as the Forbidden City and the Great Wall of China. Istanbul is the largest city in Turkey. It's located on the border of Europe and Asia and is known for its historic mosques and bazaars. The answer is 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: Moscow + Toronto\nA:",
+      "ground truth": "-41",
+      "llm_output": " Moscow is the capital of Russia. The Kremlin and Red Square are among its most well-known landmarks. Toronto is the largest city in Canada. It's known for its modern skyline and the iconic CN Tower. The answer is -7.",
       "pred_ans": "-7"
     },
     {
-      "new_prompt": "Q: Beijing - Sao Paulo\nA:",
-      "ground truth": "163",
-      "llm_output": " Beijing is the capital of China. It's known for its ancient sites such as the Forbidden City and the Great Wall. Sao Paulo is the largest city in Brazil. It's a major financial center and is known for its vibrant culture and cuisine. The answer is 11.",
+      "new_prompt": "Q: London - Istanbul\nA:",
+      "ground truth": "-29",
+      "llm_output": " London is the capital of England and the United Kingdom. It's renowned for its history, from its Roman beginnings to its cosmopolitan present. Istanbul is the largest city in Turkey. It's known for its rich history and cultural influences from both Europe and Asia. The answer is 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: Istanbul + Mumbai\nA:",
+      "ground truth": "102",
+      "llm_output": " Istanbul is the largest city in Turkey. It's known for its historic sites, such as the Hagia Sophia and the Blue Mosque. Mumbai is the largest city in India. It's a major financial center and is known for its Bollywood film industry. The answer is 1,500.",
+      "pred_ans": "1,500"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Lagos\nA:",
+      "ground truth": "76",
+      "llm_output": " Mumbai is the largest city in India. It's known for its Bollywood film industry and the Gateway of India monument. Lagos is the largest city in Nigeria. It's a major financial center in Africa and is home to one of the largest and busiest ports on the continent. The answer is 1,500.",
+      "pred_ans": "1,500"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Lagos\nA:",
+      "ground truth": "137",
+      "llm_output": " Tokyo is the capital of Japan. It's a bustling metropolis known for its modern architecture. Lagos is the largest city in Nigeria. It's a major financial center in Africa and is home to one of the largest and busiest ports on the continent. The answer is 7,000.",
+      "pred_ans": "7,000"
+    },
+    {
+      "new_prompt": "Q: Sydney - London\nA:",
+      "ground truth": "151",
+      "llm_output": " First, we need to find the distance between Sydney and London. Sydney is the largest city in Australia, while London is the capital of England and the United Kingdom. The distance between these two cities is approximately 10,554 miles. Now, we need to determine the direction of the answer. Since we are subtracting London from Sydney, the answer will be negative. Therefore, the answer is -10,554.",
+      "pred_ans": "First, we need to find the distance between Sydney and London. Sydney is the largest city in Australia, while London is the capital of England and the United Kingdom. The distance between these two cities is approximately 10,554 miles. Now, we need to determine the direction of the answer. Since we are subtracting London from Sydney, the answer will be negative. Therefore, the answer is -10,554"
+    },
+    {
+      "new_prompt": "Q: Paris - New York\nA:",
+      "ground truth": "76",
+      "llm_output": " Paris is the capital of France. It's known for its iconic Eiffel Tower and the Louvre Museum. New York, often called New York City, is the most populous city in the United States. It's known for the Statue of Liberty. The answer is 6.",
+      "pred_ans": "6"
+    },
+    {
+      "new_prompt": "Q: Sydney - Beijing\nA:",
+      "ground truth": "35",
+      "llm_output": " Sydney is the largest city in Australia. It's famous for its Harbour Bridge and the Sydney Opera House. Beijing is the capital of China. It's known for its ancient sites such as the Forbidden City and the Great Wall. The answer is 4.",
+      "pred_ans": "4"
+    },
+    {
+      "new_prompt": "Q: Bangkok - Rome\nA:",
+      "ground truth": "88",
+      "llm_output": " Bangkok is the capital of Thailand. It's known for its ornate temples, bustling street markets, and the grand palace. Rome is the capital of Italy. It has a rich history and is home to the Colosseum. The answer is 1,000.",
+      "pred_ans": "1,000"
+    },
+    {
+      "new_prompt": "Q: Seoul + London\nA:",
+      "ground truth": "127",
+      "llm_output": " Seoul is the capital of South Korea. It's known for its modern skyscrapers and traditional palaces. London is the capital of England and the United Kingdom. It's renowned for its history, from its Roman beginnings to its cosmopolitan present. The answer is 8.",
+      "pred_ans": "8"
+    },
+    {
+      "new_prompt": "Q: Beijing + Paris\nA:",
+      "ground truth": "118",
+      "llm_output": " Beijing is the capital of China. It's known for its ancient sites such as the Forbidden City and the Great Wall of China. Paris is the capital of France. It's known for its iconic Eiffel Tower and the Louvre Museum. The answer is 11.",
       "pred_ans": "11"
+    },
+    {
+      "new_prompt": "Q: Mumbai + London\nA:",
+      "ground truth": "73",
+      "llm_output": " Mumbai is the largest city in India. It's known for its bustling street markets and Bollywood film industry. London is the capital of England and the United Kingdom. It's renowned for its history, from its Roman beginnings to its cosmopolitan present. The answer is 4.",
+      "pred_ans": "4"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Toronto\nA:",
+      "ground truth": "108",
+      "llm_output": " Istanbul is the largest city in Turkey. It's known for its historic sites, such as the Hagia Sophia and the Blue Mosque. Toronto is the largest city in Canada. It's known for its modern skyline and the iconic CN Tower. The answer is 7.",
+      "pred_ans": "7"
+    },
+    {
+      "new_prompt": "Q: Mexico City + Moscow\nA:",
+      "ground truth": "-61",
+      "llm_output": " Mexico City is the capital of Mexico. It's known for its Templo Mayor, a 13th-century Aztec temple, and the Palacio Nacional, which houses historic murals. Moscow is the capital of Russia. The Kremlin and Red Square are among its most well-known landmarks. The answer is -10.",
+      "pred_ans": "-10"
+    },
+    {
+      "new_prompt": "Q: Seoul + New York\nA:",
+      "ground truth": "53",
+      "llm_output": " Seoul is the capital of South Korea. It's known for its modern skyscrapers and traditional palaces. New York, often called New York City, is the most populous city in the United States. It's known for the Statue of Liberty. The answer is 14.",
+      "pred_ans": "14"
+    },
+    {
+      "new_prompt": "Q: Lagos - Mumbai\nA:",
+      "ground truth": "-70",
+      "llm_output": " Lagos is the largest city in Nigeria. It's a major financial center in Africa and is home to one of the largest and busiest ports on the continent. Mumbai is the largest city in India. It's known for its Bollywood film industry and the Gateway of India monument. The answer is 1,500.",
+      "pred_ans": "1,500"
+    },
+    {
+      "new_prompt": "Q: London - Cairo\nA:",
+      "ground truth": "-31",
+      "llm_output": " London is the capital of England and the United Kingdom. It's renowned for its history, from its Roman beginnings to its cosmopolitan present. Cairo is the capital of Egypt. It's known for its ancient pyramids and the Great Sphinx. The answer is 2,200.",
+      "pred_ans": "2,200"
+    },
+    {
+      "new_prompt": "Q: Rome + Rome\nA:",
+      "ground truth": "24",
+      "llm_output": " Rome is the capital of Italy. It has a rich history and is home to the Colosseum. Rome is the capital of Italy. It has a rich history and is home to the Colosseum. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo - Rome\nA:",
+      "ground truth": "-59",
+      "llm_output": " Sao Paulo is the largest city in Brazil. It's known for its vibrant culture and diverse population. Rome is the capital of Italy. It has a rich history and is home to the Colosseum. The answer is -10.",
+      "pred_ans": "-10"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Los Angeles\nA:",
+      "ground truth": "-45",
+      "llm_output": " Mumbai is the largest city in India. It's known for its Bollywood film industry and the Gateway of India monument. Los Angeles is the second-largest city in the United States. It's known for its entertainment industry, including Hollywood and Disneyland. The answer is 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: Cairo - Istanbul\nA:",
+      "ground truth": "2",
+      "llm_output": " First, we need to find the coordinates of Cairo and Istanbul. Cairo is the capital of Egypt and its coordinates are 30.0444\u00b0 N, 31.2357\u00b0 E. Istanbul is the largest city in Turkey and its coordinates are 41.0082\u00b0 N, 28.9784\u00b0 E. Now, we can subtract the latitude and longitude values separately. 30.0444 - 41.0082 = -10.9638 and 31.2357 - 28.9784 = 2.2573. The answer is -10.9638, 2.2573",
+      "pred_ans": "-10.9638, 2.2573"
+    },
+    {
+      "new_prompt": "Q: Istanbul + Mumbai\nA:",
+      "ground truth": "102",
+      "llm_output": " Istanbul is the largest city in Turkey. It's known for its historic sites, such as the Hagia Sophia and the Blue Mosque. Mumbai is the largest city in India. It's a major financial center and is known for its Bollywood film industry. The answer is 1,500.",
+      "pred_ans": "1,500"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Moscow\nA:",
+      "ground truth": "-156",
+      "llm_output": " Los Angeles is the second-largest city in the United States. It's known for its sunny weather, beaches, and Hollywood. Moscow is the capital of Russia. The Kremlin and Red Square are among its most well-known landmarks. The answer is -11.",
+      "pred_ans": "-11"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Paris\nA:",
+      "ground truth": "26",
+      "llm_output": " Johannesburg is the largest city in South Africa. It's the economic heart of Africa and is known for its modern architecture. Paris is the capital of France. It's known for its iconic Eiffel Tower and the Louvre Museum. The answer is 6.",
+      "pred_ans": "6"
+    },
+    {
+      "new_prompt": "Q: Toronto - Rome\nA:",
+      "ground truth": "-91",
+      "llm_output": " Toronto is the largest city in Canada. It's known for its modern skyline and the iconic CN Tower. Rome is the capital of Italy. It has a rich history and is home to the Colosseum. The answer is 5.",
+      "pred_ans": "5"
+    },
+    {
+      "new_prompt": "Q: Lagos + New York\nA:",
+      "ground truth": "-71",
+      "llm_output": " Lagos is the largest city in Nigeria. It's a major financial center in Africa and is home to one of the largest and busiest ports on the continent. New York, often called New York City, is the most populous city in the United States. It's known for the Statue of Liberty. The answer is -3.",
+      "pred_ans": "-3"
+    },
+    {
+      "new_prompt": "Q: Seoul + Sao Paulo\nA:",
+      "ground truth": "80",
+      "llm_output": " Seoul is the capital of South Korea. It's known for its modern skyscrapers and traditional palaces. Sao Paulo is the largest city in Brazil. It's a major financial center and is known for its vibrant culture and nightlife. The answer is 17.",
+      "pred_ans": "17"
+    },
+    {
+      "new_prompt": "Q: Seoul + London\nA:",
+      "ground truth": "127",
+      "llm_output": " Seoul is the capital of South Korea. It's known for its modern skyscrapers and traditional palaces. London is the capital of England and the United Kingdom. It's renowned for its history, from its Roman beginnings to its cosmopolitan present. The answer is 8.",
+      "pred_ans": "8"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Los Angeles\nA:",
+      "ground truth": "22",
+      "llm_output": " Tokyo is the capital of Japan. It's a bustling metropolis known for its modern architecture. Los Angeles is the second-largest city in the United States. It's known for its film and television industry, as well as its diverse culture. The answer is 17.",
+      "pred_ans": "17"
+    },
+    {
+      "new_prompt": "Q: Sydney + Buenos Aires\nA:",
+      "ground truth": "93",
+      "llm_output": " Sydney is the largest city in Australia. It's famous for its Harbour Bridge and the Sydney Opera House. Buenos Aires is the capital of Argentina. It is located in the southern hemisphere. The answer is 14.",
+      "pred_ans": "14"
+    },
+    {
+      "new_prompt": "Q: Seoul + Moscow\nA:",
+      "ground truth": "165",
+      "llm_output": " Seoul is the capital of South Korea. It's known for its modern skyscrapers and traditional palaces. Moscow is the capital of Russia. The Kremlin and Red Square are among its most well-known landmarks. The answer is 7.",
+      "pred_ans": "7"
+    },
+    {
+      "new_prompt": "Q: Lagos - Sydney\nA:",
+      "ground truth": "-148",
+      "llm_output": " Lagos is the largest city in Nigeria. It's a major financial center in Africa and is home to one of the largest and busiest ports on the continent. Sydney is the largest city in Australia. It's famous for its Harbour Bridge and the Sydney Opera House. The answer is -14.",
+      "pred_ans": "-14"
+    },
+    {
+      "new_prompt": "Q: Paris - Buenos Aires\nA:",
+      "ground truth": "60",
+      "llm_output": " Paris is the capital of France. It's known for its iconic Eiffel Tower and the Louvre Museum. Buenos Aires is the capital of Argentina. It is located in the southern hemisphere. The answer is 10.",
+      "pred_ans": "10"
+    },
+    {
+      "new_prompt": "Q: London - Toronto\nA:",
+      "ground truth": "79",
+      "llm_output": " London is the capital of England and the United Kingdom. It's renowned for its history, from its Roman beginnings to its cosmopolitan present. Toronto is the largest city in Canada. It's known for its modern skyline and the iconic CN Tower. The answer is -5.",
+      "pred_ans": "-5"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Tokyo\nA:",
+      "ground truth": "-112",
+      "llm_output": " Johannesburg is the largest city in South Africa. It's the economic heart of Africa and is known for its modern architecture. Tokyo is the capital of Japan. It's a bustling metropolis known for its modern architecture. The answer is -14.",
+      "pred_ans": "-14"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + New York\nA:",
+      "ground truth": "-46",
+      "llm_output": " Johannesburg is the largest city in South Africa. It's the economic heart of Africa and is known for its modern architecture. New York, often called New York City, is the most populous city in the United States. It's known for the Statue of Liberty. The answer is 7.",
+      "pred_ans": "7"
+    },
+    {
+      "new_prompt": "Q: Rome - Lagos\nA:",
+      "ground truth": "9",
+      "llm_output": " Rome is the capital of Italy. It has a rich history and is home to the Colosseum. Lagos is the largest city in Nigeria. It's a major financial center in Africa and is home to one of the largest and busiest ports on the continent. The answer is 91.",
+      "pred_ans": "91"
+    },
+    {
+      "new_prompt": "Q: Mumbai - Tokyo\nA:",
+      "ground truth": "-67",
+      "llm_output": " Mumbai is the largest city in India. It's known for its bustling street markets and Bollywood film industry. Tokyo is the capital of Japan. It's a bustling metropolis known for its modern architecture. The answer is -5.",
+      "pred_ans": "-5"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Toronto\nA:",
+      "ground truth": "-6",
+      "llm_output": " Mumbai is the largest city in India. It's known for its Bollywood film industry and the Gateway of India monument. Toronto is the largest city in Canada. It's known for its modern skyline and the iconic CN Tower. The answer is 10.",
+      "pred_ans": "10"
+    },
+    {
+      "new_prompt": "Q: Istanbul + Istanbul\nA:",
+      "ground truth": "58",
+      "llm_output": " Istanbul is a city in Turkey. It's known for its rich history and cultural heritage, with landmarks such as the Hagia Sophia and the Blue Mosque. Istanbul is a city in Turkey. It's known for its rich history and cultural heritage, with landmarks such as the Hagia Sophia and the Blue Mosque. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Johannesburg\nA:",
+      "ground truth": "-86",
+      "llm_output": " Buenos Aires is the capital of Argentina. It is located in the southern hemisphere. Johannesburg, often known as Jo'burg, is the largest city in South Africa. It's the economic heart of Africa and is known for its modern architecture. The answer is -11.",
+      "pred_ans": "-11"
+    },
+    {
+      "new_prompt": "Q: Cairo - Sydney\nA:",
+      "ground truth": "-120",
+      "llm_output": " Cairo is the capital of Egypt. It's known for its ancient pyramids and the Great Sphinx. Sydney is the largest city in Australia. It's famous for its Harbour Bridge and the Sydney Opera House. The answer is -10.",
+      "pred_ans": "-10"
+    },
+    {
+      "new_prompt": "Q: Cairo - New York\nA:",
+      "ground truth": "105",
+      "llm_output": " Cairo is the capital of Egypt. It's known for its ancient pyramids and the Great Sphinx. New York, often called New York City, is the most populous city in the United States. It's known for the Statue of Liberty. The answer is 6.",
+      "pred_ans": "6"
+    },
+    {
+      "new_prompt": "Q: Mexico City + Rome\nA:",
+      "ground truth": "-87",
+      "llm_output": " Mexico City is the capital of Mexico. It's known for its Templo Mayor, a 13th-century Aztec temple, and the Palacio Nacional, which houses historic murals. Rome is the capital of Italy. It has a rich history and is home to the Colosseum. The answer is -6.",
+      "pred_ans": "-6"
+    },
+    {
+      "new_prompt": "Q: Bangkok + Sydney\nA:",
+      "ground truth": "251",
+      "llm_output": " Bangkok is the capital of Thailand. It's known for its ornate temples, bustling street markets, and the grand palace. Sydney is the largest city in Australia. It's famous for its Harbour Bridge and the Sydney Opera House. The answer is 3.",
+      "pred_ans": "3"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - New York\nA:",
+      "ground truth": "-44",
+      "llm_output": " Los Angeles is the second-largest city in the United States, known for its sunny weather and Hollywood entertainment industry. New York, often called New York City, is the most populous city in the United States. It's known for its iconic landmarks such as the Statue of Liberty and Times Square. The answer is -2.",
+      "pred_ans": "-2"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Sao Paulo\nA:",
+      "ground truth": "-71",
+      "llm_output": " Los Angeles is the second-largest city in the United States. It's known for its sunny weather, beaches, and Hollywood. Sao Paulo is the largest city in Brazil. It's a major financial center and is known for its vibrant culture. The answer is -6.",
+      "pred_ans": "-6"
     }
   ]
 }

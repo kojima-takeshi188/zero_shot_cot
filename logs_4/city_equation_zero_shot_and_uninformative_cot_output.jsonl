@@ -2,34 +2,304 @@
   "accuracy": 0.0,
   "outputs": [
     {
+      "new_prompt": "Q: Mexico City - Beijing\nA:",
+      "ground truth": "-215",
+      "llm_output": " Mexico City is the capital of Mexico, and Beijing is the capital of China. Mexico City has a population of approximately 8.9 million people, while Beijing has a population of approximately 21.5 million people. Therefore, the difference in population between the two cities is 12.6 million people. The answer is 12.6 million.",
+      "pred_ans": "12.6 million"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Beijing\nA:",
+      "ground truth": "-174",
+      "llm_output": " Buenos Aires is the capital of Argentina, while Beijing is the capital of China. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Moscow + Toronto\nA:",
+      "ground truth": "-41",
+      "llm_output": " Moscow is the capital of Russia. It's known for its iconic Red Square and the Kremlin. Toronto is the capital of the Canadian province of Ontario. It's a diverse city with a thriving arts and culture scene. The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Mumbai\nA:",
+      "ground truth": "213",
+      "llm_output": " Tokyo is the capital of Japan. It's a bustling city known for its modern technology and traditional culture. Mumbai is the largest city in India. It's a major financial center and home to Bollywood. The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Toronto\nA:",
+      "ground truth": "108",
+      "llm_output": " Istanbul is the largest city in Turkey and is known for its rich history and cultural heritage. Toronto is the capital of the province of Ontario in Canada and is known for its diverse population and vibrant arts scene. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Johannesburg\nA:",
+      "ground truth": "112",
+      "llm_output": " First, we need to find the numerical value of Tokyo. Tokyo is the capital of Japan and is known for its bustling city life and unique culture. The answer is 20. Next, we need to find the numerical value of Johannesburg. Johannesburg, often known as Jo'burg, is the largest city in South Africa. It's the economic heart of Africa and is known for its modern architecture. The answer is 155. Now, we can subtract 155 from 20 to get the answer, which is -135.",
+      "pred_ans": "155. Now, we can subtract 155 from 20 to get the answer, which is -135"
+    },
+    {
+      "new_prompt": "Q: Cairo + Sao Paulo\nA:",
+      "ground truth": "-16",
+      "llm_output": " Cairo is the capital of Egypt, a country in Africa. Sao Paulo is the largest city in Brazil, a country in South America. The answer is 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: Beijing - Mexico City\nA:",
+      "ground truth": "215",
+      "llm_output": " Beijing is the capital of China and Mexico City is the capital of Mexico. Both cities are located in different continents, with Beijing in Asia and Mexico City in North America. The answer is not a number, but rather a difference in location and culture.",
+      "pred_ans": "not a number, but rather a difference in location and culture"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Johannesburg\nA:",
+      "ground truth": "-86",
+      "llm_output": " First, we need to find the numerical value of Buenos Aires. Buenos Aires is the capital and largest city of Argentina. It's known for its European-style architecture and vibrant cultural scene. The answer is 2. Next, we need to find the numerical value of Johannesburg. Johannesburg, often known as Jo'burg, is the largest city in South Africa. It's the economic heart of Africa and is known for its modern architecture. The answer is 155. Now, we can subtract 155 from 2 to get the answer, which is -153.",
+      "pred_ans": "155. Now, we can subtract 155 from 2 to get the answer, which is -153"
+    },
+    {
+      "new_prompt": "Q: Seoul - Moscow\nA:",
+      "ground truth": "89",
+      "llm_output": " Seoul is the capital and largest metropolis of South Korea. It's a vibrant city known for its modern skyscrapers and ancient palaces. Moscow is the capital and largest city of Russia. It's known for its iconic Red Square and the Kremlin. The answer is 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo - London\nA:",
+      "ground truth": "-47",
+      "llm_output": " Sao Paulo is the largest city in Brazil and is known for its vibrant culture and diverse population. London is the capital of England and the United Kingdom. It's renowned for its history, from its Roman beginnings to its cosmopolitan present. The answer is 5.",
+      "pred_ans": "5"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Mexico City\nA:",
+      "ground truth": "127",
+      "llm_output": " Johannesburg is the largest city in South Africa. Mexico City is the capital of Mexico. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Cairo + Toronto\nA:",
+      "ground truth": "-48",
+      "llm_output": " Cairo is the capital of Egypt, a country in Africa. Toronto is the capital of Ontario, a province in Canada. The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Beijing - Bangkok\nA:",
+      "ground truth": "16",
+      "llm_output": " Beijing is the capital of China and Bangkok is the capital of Thailand. Both cities are located in Asia. Beijing is known for its ancient landmarks such as the Great Wall of China and the Forbidden City. Bangkok is known for its ornate temples, bustling street markets, and the grand palace. The answer is 1,000.",
+      "pred_ans": "1,000"
+    },
+    {
+      "new_prompt": "Q: Sydney + London\nA:",
+      "ground truth": "151",
+      "llm_output": " First, we need to find the numerical value of \"Sydney\". Since there are 6 letters in \"Sydney\", we can use the alphabetical order to assign a numerical value to each letter. S=19, Y=25, D=4, N=14, E=5, Y=25. Adding these values together, we get 19+25+4+14+5+25=92. Now, let's do the same for \"London\". L=12, O=15, N=14, D=4, O=15, N=14. Adding these values together, we get",
+      "pred_ans": "First, we need to find the numerical value of \"Sydney\". Since there are 6 letters in \"Sydney\", we can use the alphabetical order to assign a numerical value to each letter. S=19, Y=25, D=4, N=14, E=5, Y=25. Adding these values together, we get 19+25+4+14+5+25=92. Now, let's do the same for \"London\". L=12, O=15, N=14, D=4, O=15, N=14. Adding these values together, we get"
+    },
+    {
+      "new_prompt": "Q: Lagos + London\nA:",
+      "ground truth": "3",
+      "llm_output": " Lagos is the largest city in Nigeria and one of the fastest-growing cities in the world. It's known for its bustling markets, vibrant nightlife, and diverse culture. London is the capital of England and the United Kingdom. It's renowned for its history, from its Roman beginnings to its cosmopolitan present. The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Seoul - Tokyo\nA:",
+      "ground truth": "-13",
+      "llm_output": " Seoul is the capital and largest metropolis of South Korea. It's a vibrant city known for its modern skyscrapers and ancient palaces. Tokyo is the capital of Japan. It's a bustling city known for its technology and traditional culture. The answer is 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: Toronto + Sao Paulo\nA:",
+      "ground truth": "-126",
+      "llm_output": " Toronto is the capital of the province of Ontario in Canada. It's known for its diverse population and iconic CN Tower. Sao Paulo is the largest city in Brazil and the Southern Hemisphere. It's a major financial center and is known for its vibrant culture and cuisine. The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Lagos + Paris\nA:",
+      "ground truth": "5",
+      "llm_output": " Lagos is the largest city in Nigeria and one of the fastest-growing cities in the world. It's known for its bustling markets, vibrant nightlife, and beautiful beaches. Paris is the capital of France. It's often referred to as 'The City of Love'. The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Buenos Aires\nA:",
+      "ground truth": "198",
+      "llm_output": " Tokyo is the capital of Japan and Buenos Aires is the capital of Argentina. Tokyo has a population of approximately 13.5 million people, while Buenos Aires has a population of approximately 3 million people. Therefore, Tokyo has a larger population than Buenos Aires. The answer is 10.5 million.",
+      "pred_ans": "10.5 million"
+    },
+    {
+      "new_prompt": "Q: Toronto - Tokyo\nA:",
+      "ground truth": "-219",
+      "llm_output": " Toronto is the capital of the province of Ontario in Canada. It's known for its diverse population and iconic CN Tower. Tokyo is the capital of Japan and one of the largest cities in the world. It's known for its bustling city life and traditional temples. The answer is -6.",
+      "pred_ans": "-6"
+    },
+    {
+      "new_prompt": "Q: Seoul - Toronto\nA:",
+      "ground truth": "206",
+      "llm_output": " Seoul is the capital and largest metropolis of South Korea. It's a vibrant city known for its modern skyscrapers and ancient palaces. Toronto is the capital of the province of Ontario in Canada. It's a diverse and multicultural city known for its iconic CN Tower. The answer is 7.",
+      "pred_ans": "7"
+    },
+    {
+      "new_prompt": "Q: Mumbai - Bangkok\nA:",
+      "ground truth": "-27",
+      "llm_output": " Mumbai is the largest city in India and is known for its bustling streets, Bollywood film industry, and historic landmarks such as the Gateway of India. Bangkok is the capital of Thailand and is famous for its ornate temples, bustling street markets, and the grand palace. So, the answer is 1,000.",
+      "pred_ans": "Mumbai is the largest city in India and is known for its bustling streets, Bollywood film industry, and historic landmarks such as the Gateway of India. Bangkok is the capital of Thailand and is famous for its ornate temples, bustling street markets, and the grand palace. So, the answer is 1,000"
+    },
+    {
+      "new_prompt": "Q: Mexico City - London\nA:",
+      "ground truth": "-99",
+      "llm_output": " Mexico City is the capital of Mexico, and London is the capital of England and the United Kingdom. Mexico City has a population of approximately 8.9 million people, while London has a population of approximately 8.9 million people. Therefore, the answer is 0.",
+      "pred_ans": "Mexico City is the capital of Mexico, and London is the capital of England and the United Kingdom. Mexico City has a population of approximately 8.9 million people, while London has a population of approximately 8.9 million people. Therefore, the answer is 0"
+    },
+    {
+      "new_prompt": "Q: Beijing + Paris\nA:",
+      "ground truth": "118",
+      "llm_output": " Beijing is the capital of China. It's known for its ancient landmarks such as the Forbidden City and the Great Wall of China. Paris is the capital of France. It's often referred to as 'The City of Love'. The answer is 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: Sydney + Rome\nA:",
+      "ground truth": "163",
+      "llm_output": " First, we need to find the numerical value of each letter in the word \"Sydney\". S = 19, Y = 25, D = 4, N = 14, E = 5, Y = 25. So the total value of \"Sydney\" is 19 + 25 + 4 + 14 + 5 + 25 = 92.\n\nNext, we do the same for \"Rome\". R = 18, O = 15, M = 13, E = 5. So the total value of \"Rome\" is 18 + 15 + ",
+      "pred_ans": "First, we need to find the numerical value of each letter in the word \"Sydney\". S = 19, Y = 25, D = 4, N = 14, E = 5, Y = 25. So the total value of \"Sydney\" is 19 + 25 + 4 + 14 + 5 + 25 = 92.\n\nNext, we do the same for \"Rome\". R = 18, O = 15, M = 13, E = 5. So the total value of \"Rome\" is 18 + 15 +"
+    },
+    {
+      "new_prompt": "Q: Rome + Seoul\nA:",
+      "ground truth": "139",
+      "llm_output": " Rome is the capital of Italy. It has a rich history and is home to the Colosseum. Seoul is the capital and largest metropolis of South Korea. It's a vibrant city known for its modern skyscrapers and ancient palaces. The answer is 155.",
+      "pred_ans": "155"
+    },
+    {
+      "new_prompt": "Q: Seoul - Moscow\nA:",
+      "ground truth": "89",
+      "llm_output": " Seoul is the capital and largest metropolis of South Korea. It's a vibrant city known for its modern skyscrapers and ancient palaces. Moscow is the capital and largest city of Russia. It's known for its iconic Red Square and the Kremlin. The answer is 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Johannesburg\nA:",
+      "ground truth": "0",
+      "llm_output": " Johannesburg is the largest city in South Africa. It's the economic heart of Africa and is known for its modern architecture. If we subtract Johannesburg from itself, we are left with 0. So the answer is 0.",
+      "pred_ans": "Johannesburg is the largest city in South Africa. It's the economic heart of Africa and is known for its modern architecture. If we subtract Johannesburg from itself, we are left with 0. So the answer is 0"
+    },
+    {
+      "new_prompt": "Q: Bangkok + Johannesburg\nA:",
+      "ground truth": "128",
+      "llm_output": " Bangkok is the capital of Thailand. It's known for its ornate temples, bustling street markets, and the grand palace. Johannesburg, often known as Jo'burg, is the largest city in South Africa. It's the economic heart of Africa and is known for its modern architecture. The answer is 145.",
+      "pred_ans": "145"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Mexico City\nA:",
+      "ground truth": "128",
+      "llm_output": " Istanbul is the largest city in Turkey and is located in Europe. Mexico City is the capital of Mexico and is located in North America. The answer is -1.",
+      "pred_ans": "-1"
+    },
+    {
+      "new_prompt": "Q: New York - Lagos\nA:",
+      "ground truth": "-77",
+      "llm_output": " New York is a city in the United States, while Lagos is a city in Nigeria. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Toronto - Los Angeles\nA:",
+      "ground truth": "39",
+      "llm_output": " Toronto is the capital of the province of Ontario in Canada. Los Angeles is a city in California, USA. The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Moscow - Lagos\nA:",
+      "ground truth": "35",
+      "llm_output": " First, we need to find the numerical value of Moscow. Moscow is the capital and largest city of Russia. It's known for its iconic Red Square and the Kremlin. The numerical value of Moscow is 108. Next, we need to find the numerical value of Lagos. Lagos is the largest city in Nigeria and one of the fastest-growing cities in the world. The numerical value of Lagos is 60. Now, we can subtract 60 from 108 to get the answer, which is 48.",
+      "pred_ans": "First, we need to find the numerical value of Moscow. Moscow is the capital and largest city of Russia. It's known for its iconic Red Square and the Kremlin. The numerical value of Moscow is 108. Next, we need to find the numerical value of Lagos. Lagos is the largest city in Nigeria and one of the fastest-growing cities in the world. The numerical value of Lagos is 60. Now, we can subtract 60 from 108 to get the answer, which is 48"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo + New York\nA:",
+      "ground truth": "-121",
+      "llm_output": " Sao Paulo is the largest city in Brazil and is known for its vibrant culture, diverse population, and bustling city life. New York City is the largest city in the United States and is known for its iconic landmarks, such as the Statue of Liberty and the Empire State Building. The answer is 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Sao Paulo\nA:",
+      "ground truth": "93",
+      "llm_output": " Tokyo is the capital of Japan. It's a bustling city known for its modern technology, fashion, and food. Sao Paulo is the largest city in Brazil. It's a cultural hub with a diverse population and a thriving arts scene. The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Beijing - Mexico City\nA:",
+      "ground truth": "215",
+      "llm_output": " Beijing is the capital of China and Mexico City is the capital of Mexico. Both cities are located in different continents, with Beijing in Asia and Mexico City in North America. The answer is not a number, but rather a difference in location and culture.",
+      "pred_ans": "not a number, but rather a difference in location and culture"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Mexico City\nA:",
+      "ground truth": "-26",
+      "llm_output": " Mumbai is the largest city in India and is known for its bustling streets, Bollywood film industry, and historical landmarks such as the Gateway of India. Mexico City is the capital of Mexico and is known for its rich history, vibrant culture, and delicious cuisine. The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Bangkok + Istanbul\nA:",
+      "ground truth": "129",
+      "llm_output": " Bangkok is the capital of Thailand. It's known for its ornate temples, bustling street markets, and the grand palace. Istanbul is the largest city in Turkey. It's located on the Bosphorus Strait and is known for its rich history and cultural heritage. The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + New York\nA:",
+      "ground truth": "-132",
+      "llm_output": " Buenos Aires is the capital and largest city of Argentina. It's known for its European-style architecture, tango dancing, and delicious food. New York City is the largest city in the United States. It's a global hub for finance, culture, and fashion. The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Mexico City\nA:",
+      "ground truth": "127",
+      "llm_output": " Johannesburg is the largest city in South Africa. Mexico City is the capital of Mexico. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Paris - Lagos\nA:",
+      "ground truth": "-1",
+      "llm_output": " Paris is the capital of France and Lagos is the largest city in Nigeria. The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Sydney\nA:",
+      "ground truth": "224",
+      "llm_output": " Mumbai is the largest city in India and is known for its bustling streets, Bollywood film industry, and historical landmarks such as the Gateway of India. Sydney is the largest city in Australia and is famous for its Harbour Bridge and the Sydney Opera House. The answer is 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: Istanbul + Seoul\nA:",
+      "ground truth": "156",
+      "llm_output": " Istanbul is the largest city in Turkey and is known for its rich history and cultural heritage. Seoul is the capital and largest metropolis of South Korea. It's a vibrant city known for its modern skyscrapers and ancient palaces. The answer is 145.",
+      "pred_ans": "145"
+    },
+    {
+      "new_prompt": "Q: Mexico City + Seoul\nA:",
+      "ground truth": "28",
+      "llm_output": " Mexico City is the capital and largest city of Mexico. It's known for its rich history, vibrant culture, and delicious cuisine. Seoul is the capital and largest metropolis of South Korea. It's a vibrant city known for its modern skyscrapers and ancient palaces. The answer is 135.",
+      "pred_ans": "135"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Seoul\nA:",
+      "ground truth": "-185",
+      "llm_output": " Buenos Aires is the capital and largest city of Argentina. It's known for its European-style architecture and vibrant cultural scene. Seoul is the capital and largest metropolis of South Korea. It's a vibrant city known for its modern skyscrapers and ancient palaces. The answer is -155.",
+      "pred_ans": "-155"
+    },
+    {
+      "new_prompt": "Q: London - Rome\nA:",
+      "ground truth": "-12",
+      "llm_output": " First, we need to find the value of London. London is the capital of England and the United Kingdom. It's renowned for its history, from its Roman beginnings to its cosmopolitan present. The answer is 2. Next, we need to find the value of Rome. Rome is the capital of Italy. It has a rich history and is home to the Colosseum. The answer is 111. Now, we can subtract 111 from 2 to get the answer of -109.",
+      "pred_ans": "111. Now, we can subtract 111 from 2 to get the answer of -109"
+    },
+    {
+      "new_prompt": "Q: Beijing - Rome\nA:",
+      "ground truth": "104",
+      "llm_output": " Beijing is the capital of China. It's known for its ancient sites such as the Forbidden City and the Great Wall of China. Rome is the capital of Italy. It has a rich history and is home to the Colosseum. The answer is 1,100.",
+      "pred_ans": "1,100"
+    },
+    {
       "new_prompt": "Q: Cairo - Sydney\nA:",
       "ground truth": "-120",
-      "llm_output": " First, we need to find the distance between Cairo and the Prime Meridian (0 degrees longitude). Cairo is located at 31.2357 degrees east longitude, so the distance from Cairo to the Prime Meridian is 31.2357 degrees. Next, we need to find the distance between Sydney and the Prime Meridian. Sydney is located at 151.2093 degrees east longitude, so the distance from Sydney to the Prime Meridian is 151.2093 degrees. Finally, we need to find the difference between these two distances. 151.2093 - 31.2357 = 119.9736",
-      "pred_ans": "First, we need to find the distance between Cairo and the Prime Meridian (0 degrees longitude). Cairo is located at 31.2357 degrees east longitude, so the distance from Cairo to the Prime Meridian is 31.2357 degrees. Next, we need to find the distance between Sydney and the Prime Meridian. Sydney is located at 151.2093 degrees east longitude, so the distance from Sydney to the Prime Meridian is 151.2093 degrees. Finally, we need to find the difference between these two distances. 151.2093 - 31.2357 = 119.9736"
+      "llm_output": " First, we need to find the numerical value of Cairo. Cairo is the capital of Egypt and has a population of approximately 9.5 million people. So, the numerical value of Cairo is 9.5 million. Next, we need to find the numerical value of Sydney. Sydney is the largest city in Australia and has a population of approximately 5.3 million people. So, the numerical value of Sydney is 5.3 million. Now, we can subtract the numerical value of Sydney from the numerical value of Cairo. 9.5 million - 5.3 million = 4.2 million. Therefore,",
+      "pred_ans": "First, we need to find the numerical value of Cairo. Cairo is the capital of Egypt and has a population of approximately 9.5 million people. So, the numerical value of Cairo is 9.5 million. Next, we need to find the numerical value of Sydney. Sydney is the largest city in Australia and has a population of approximately 5.3 million people. So, the numerical value of Sydney is 5.3 million. Now, we can subtract the numerical value of Sydney from the numerical value of Cairo. 9.5 million - 5.3 million = 4.2 million. Therefore,"
     },
     {
-      "new_prompt": "Q: Buenos Aires + Rome\nA:",
-      "ground truth": "-46",
-      "llm_output": " Buenos Aires is the capital of Argentina. It's known for its European-style architecture and tango dancing. Rome is the capital of Italy. It's famous for its ancient ruins such as the Colosseum and the Pantheon. The answer is 18.",
-      "pred_ans": "18"
-    },
-    {
-      "new_prompt": "Q: New York - Mexico City\nA:",
-      "ground truth": "25",
-      "llm_output": " First, we need to find the longitude of New York and Mexico City. The longitude of New York is -74 and the longitude of Mexico City is -99. Next, we need to find the difference between these two longitudes. -74 - (-99) = 25. So the answer is 25.",
-      "pred_ans": "First, we need to find the longitude of New York and Mexico City. The longitude of New York is -74 and the longitude of Mexico City is -99. Next, we need to find the difference between these two longitudes. -74 - (-99) = 25. So the answer is 25"
-    },
-    {
-      "new_prompt": "Q: Buenos Aires + Sao Paulo\nA:",
-      "ground truth": "-105",
-      "llm_output": " Buenos Aires is the capital of Argentina, while Sao Paulo is the largest city in Brazil. Since they are both located in South America, we can add their longitudes together. The longitude of Buenos Aires is -58.3816, and the longitude of Sao Paulo is -46.6333. When we add these together, we get -104.0149. Therefore, the answer is -104.",
-      "pred_ans": "Buenos Aires is the capital of Argentina, while Sao Paulo is the largest city in Brazil. Since they are both located in South America, we can add their longitudes together. The longitude of Buenos Aires is -58.3816, and the longitude of Sao Paulo is -46.6333. When we add these together, we get -104.0149. Therefore, the answer is -104"
-    },
-    {
-      "new_prompt": "Q: Johannesburg - New York\nA:",
-      "ground truth": "102",
-      "llm_output": " Johannesburg is the largest city in South Africa. It's known for its gold and diamond trade. New York, often called New York City, is the most populous city in the United States. It's known for the Statue of Liberty. The answer is 7.",
-      "pred_ans": "7"
+      "new_prompt": "Q: New York + Lagos\nA:",
+      "ground truth": "-71",
+      "llm_output": " New York is a city in the United States, while Lagos is a city in Nigeria. New York is located in the northern hemisphere, while Lagos is located in the southern hemisphere. Therefore, the sum of their longitudes would be 0. Also, New York is located at a latitude of approximately 40 degrees north, while Lagos is located at a latitude of approximately 6 degrees north. The sum of their latitudes would be 46. Therefore, the answer is 46.",
+      "pred_ans": "New York is a city in the United States, while Lagos is a city in Nigeria. New York is located in the northern hemisphere, while Lagos is located in the southern hemisphere. Therefore, the sum of their longitudes would be 0. Also, New York is located at a latitude of approximately 40 degrees north, while Lagos is located at a latitude of approximately 6 degrees north. The sum of their latitudes would be 46. Therefore, the answer is 46"
     }
   ]
 }

@@ -2,34 +2,304 @@
   "accuracy": 0.0,
   "outputs": [
     {
+      "new_prompt": "Q: Mexico City - Beijing\nA:",
+      "ground truth": "-215",
+      "llm_output": " 12,000 kilometers (7,456 miles) by air.",
+      "pred_ans": "12,000 kilometers (7,456 miles) by air"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Beijing\nA:",
+      "ground truth": "-174",
+      "llm_output": " 18,000 kilometers and the time difference is 11 hours.",
+      "pred_ans": "18,000 kilometers and the time difference is 11 hours"
+    },
+    {
+      "new_prompt": "Q: Moscow + Toronto\nA:",
+      "ground truth": "-41",
+      "llm_output": " 8 hours.",
+      "pred_ans": "8 hours"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Mumbai\nA:",
+      "ground truth": "213",
+      "llm_output": " 3:00 PM in Mumbai.\n\nIn conclusion, if you were to travel from Tokyo to Mumbai, it would take approximately 5.6 hours and you",
+      "pred_ans": "3:00 PM in Mumbai.\n\nIn conclusion, if you were to travel from Tokyo to Mumbai, it would take approximately 5.6 hours and you"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Toronto\nA:",
+      "ground truth": "108",
+      "llm_output": " 8000 kilometers.",
+      "pred_ans": "8000 kilometers"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Johannesburg\nA:",
+      "ground truth": "112",
+      "llm_output": " 11,000 kilometers (6,835 miles).",
+      "pred_ans": "11,000 kilometers (6,835 miles)"
+    },
+    {
+      "new_prompt": "Q: Cairo + Sao Paulo\nA:",
+      "ground truth": "-16",
+      "llm_output": " 9000 km.",
+      "pred_ans": "9000 km"
+    },
+    {
+      "new_prompt": "Q: Beijing - Mexico City\nA:",
+      "ground truth": "215",
+      "llm_output": " 12,000 kilometers by air.",
+      "pred_ans": "12,000 kilometers by air"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Johannesburg\nA:",
+      "ground truth": "-86",
+      "llm_output": " 7,500 miles (12,070 kilometers) by air.",
+      "pred_ans": "7,500 miles (12,070 kilometers) by air"
+    },
+    {
+      "new_prompt": "Q: Seoul - Moscow\nA:",
+      "ground truth": "89",
+      "llm_output": " 2-3 hours.",
+      "pred_ans": "2-3 hours"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo - London\nA:",
+      "ground truth": "-47",
+      "llm_output": ":\n\n1. Decide on mode of transportation (air)\n2. Book flights in advance\n3. Check for necessary documents (passport and visa)\n4. Arr",
+      "pred_ans": ":\n\n1. Decide on mode of transportation (air)\n2. Book flights in advance\n3. Check for necessary documents (passport and visa)\n4. Arr"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Mexico City\nA:",
+      "ground truth": "127",
+      "llm_output": " 17 hours.\n\n2. Driving: It is not possible to drive directly from Johannesburg to Mexico City as they are located on different continents. However, if we",
+      "pred_ans": "17 hours.\n\n2. Driving: It is not possible to drive directly from Johannesburg to Mexico City as they are located on different continents. However, if we"
+    },
+    {
+      "new_prompt": "Q: Cairo + Toronto\nA:",
+      "ground truth": "-48",
+      "llm_output": " 12 hours and 7 hours, which equals 19 hours. So, it would take approximately 19 hours to travel from Cairo to Toronto by plane.",
+      "pred_ans": "12 hours and 7 hours, which equals 19 hours. So, it would take approximately 19 hours to travel from Cairo to Toronto by plane"
+    },
+    {
+      "new_prompt": "Q: Beijing - Bangkok\nA:",
+      "ground truth": "16",
+      "llm_output": "\n\n1. Determine mode of transportation (flight)\n2. Find a flight from Beijing to Bangkok\n3. Book tickets\n4. Arrive at airport early",
+      "pred_ans": "1. Determine mode of transportation (flight)\n2. Find a flight from Beijing to Bangkok\n3. Book tickets\n4. Arrive at airport early"
+    },
+    {
+      "new_prompt": "Q: Sydney + London\nA:",
+      "ground truth": "151",
+      "llm_output": " $800 to $2000.",
+      "pred_ans": "$800 to $2000"
+    },
+    {
+      "new_prompt": "Q: Lagos + London\nA:",
+      "ground truth": "3",
+      "llm_output": " 1. trade and commerce.",
+      "pred_ans": "1. trade and commerce"
+    },
+    {
+      "new_prompt": "Q: Seoul - Tokyo\nA:",
+      "ground truth": "-13",
+      "llm_output": " 5 hours.\n\nIf we decide to drive, we need to consider the distance and the route. The distance between Seoul and Tokyo is approximately 1,",
+      "pred_ans": "5 hours.\n\nIf we decide to drive, we need to consider the distance and the route. The distance between Seoul and Tokyo is approximately 1,"
+    },
+    {
+      "new_prompt": "Q: Toronto + Sao Paulo\nA:",
+      "ground truth": "-126",
+      "llm_output": " 8,500 kilometers (5,280 miles) and 10-12 hours.",
+      "pred_ans": "8,500 kilometers (5,280 miles) and 10-12 hours"
+    },
+    {
+      "new_prompt": "Q: Lagos + Paris\nA:",
+      "ground truth": "5",
+      "llm_output": " 4500 kilometers (2,800 miles) and 6-7 hours.",
+      "pred_ans": "4500 kilometers (2,800 miles) and 6-7 hours"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Buenos Aires\nA:",
+      "ground truth": "198",
+      "llm_output": " 18,000 kilometers and 20 hours.",
+      "pred_ans": "18,000 kilometers and 20 hours"
+    },
+    {
+      "new_prompt": "Q: Toronto - Tokyo\nA:",
+      "ground truth": "-219",
+      "llm_output": " 12.5 hours.",
+      "pred_ans": "12.5 hours"
+    },
+    {
+      "new_prompt": "Q: Seoul - Toronto\nA:",
+      "ground truth": "206",
+      "llm_output": " 10,000 kilometers and the mode of transportation is by air with a flight duration of 13-14 hours.",
+      "pred_ans": "10,000 kilometers and the mode of transportation is by air with a flight duration of 13-14 hours"
+    },
+    {
+      "new_prompt": "Q: Mumbai - Bangkok\nA:",
+      "ground truth": "-27",
+      "llm_output": " 1. Flight booking 2. Necessary documents 3. Transportation from airport to accommodation.",
+      "pred_ans": "1. Flight booking 2. Necessary documents 3. Transportation from airport to accommodation"
+    },
+    {
+      "new_prompt": "Q: Mexico City - London\nA:",
+      "ground truth": "-99",
+      "llm_output": " 8000 kilometers.",
+      "pred_ans": "8000 kilometers"
+    },
+    {
+      "new_prompt": "Q: Beijing + Paris\nA:",
+      "ground truth": "118",
+      "llm_output": " 8000 kilometers by air and 10 days by train.",
+      "pred_ans": "8000 kilometers by air and 10 days by train"
+    },
+    {
+      "new_prompt": "Q: Sydney + Rome\nA:",
+      "ground truth": "163",
+      "llm_output": " 10,000 miles and 18 hours. The time difference is 9 hours.",
+      "pred_ans": "10,000 miles and 18 hours. The time difference is 9 hours"
+    },
+    {
+      "new_prompt": "Q: Rome + Seoul\nA:",
+      "ground truth": "139",
+      "llm_output": " 12 hours.",
+      "pred_ans": "12 hours"
+    },
+    {
+      "new_prompt": "Q: Seoul - Moscow\nA:",
+      "ground truth": "89",
+      "llm_output": " 1. Determine mode of transportation (air) 2. Find suitable flight options 3. Obtain necessary travel documents 4. Arrive at airport early",
+      "pred_ans": "1. Determine mode of transportation (air) 2. Find suitable flight options 3. Obtain necessary travel documents 4. Arrive at airport early"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Johannesburg\nA:",
+      "ground truth": "0",
+      "llm_output": " 1886.",
+      "pred_ans": "1886"
+    },
+    {
+      "new_prompt": "Q: Bangkok + Johannesburg\nA:",
+      "ground truth": "128",
+      "llm_output": " 1. Apartheid Museum. You can also take a tour of Soweto, visit the Nelson Mandela Square, or go on a safari at the",
+      "pred_ans": "1. Apartheid Museum. You can also take a tour of Soweto, visit the Nelson Mandela Square, or go on a safari at the"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Mexico City\nA:",
+      "ground truth": "128",
+      "llm_output": " 14-16 hours.",
+      "pred_ans": "14-16 hours"
+    },
+    {
+      "new_prompt": "Q: New York - Lagos\nA:",
+      "ground truth": "-77",
+      "llm_output": " 11 hours and 10 minutes.",
+      "pred_ans": "11 hours and 10 minutes"
+    },
+    {
+      "new_prompt": "Q: Toronto - Los Angeles\nA:",
+      "ground truth": "39",
+      "llm_output": " 5-6 hours.",
+      "pred_ans": "5-6 hours"
+    },
+    {
+      "new_prompt": "Q: Moscow - Lagos\nA:",
+      "ground truth": "35",
+      "llm_output": ":\n\n1. Research and compare airlines\n2. Book tickets and gather necessary travel documents\n3. Arrive at the airport early for check-in and security\n",
+      "pred_ans": ":\n\n1. Research and compare airlines\n2. Book tickets and gather necessary travel documents\n3. Arrive at the airport early for check-in and security"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo + New York\nA:",
+      "ground truth": "-121",
+      "llm_output": " 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Sao Paulo\nA:",
+      "ground truth": "93",
+      "llm_output": " 9:00 AM on Monday, we would arrive in Sao Paulo at 9:00 AM on Tuesday.\n\nHowever, if we take into account the time",
+      "pred_ans": "9:00 AM on Monday, we would arrive in Sao Paulo at 9:00 AM on Tuesday.\n\nHowever, if we take into account the time"
+    },
+    {
+      "new_prompt": "Q: Beijing - Mexico City\nA:",
+      "ground truth": "215",
+      "llm_output": " 12,000 kilometers by air and 20,000 kilometers by land.",
+      "pred_ans": "12,000 kilometers by air and 20,000 kilometers by land"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Mexico City\nA:",
+      "ground truth": "-26",
+      "llm_output": " 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Bangkok + Istanbul\nA:",
+      "ground truth": "129",
+      "llm_output": " 10 hours.\ntemples, and delicious street food, while Istanbul is famous for its rich history, stunning architecture, and bustling bazaars. We",
+      "pred_ans": "10 hours.\ntemples, and delicious street food, while Istanbul is famous for its rich history, stunning architecture, and bustling bazaars. We"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + New York\nA:",
+      "ground truth": "-132",
+      "llm_output": " 10 hours.\n\nSo, if it is 12:00 PM in Buenos Aires, it would be 10:00 AM in New York. This",
+      "pred_ans": "10 hours.\n\nSo, if it is 12:00 PM in Buenos Aires, it would be 10:00 AM in New York. This"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Mexico City\nA:",
+      "ground truth": "127",
+      "llm_output": " 17 hours.\n\n2. Driving: It is not possible to drive directly from Johannesburg to Mexico City as they are located on different continents. However, if we",
+      "pred_ans": "17 hours.\n\n2. Driving: It is not possible to drive directly from Johannesburg to Mexico City as they are located on different continents. However, if we"
+    },
+    {
+      "new_prompt": "Q: Paris - Lagos\nA:",
+      "ground truth": "-1",
+      "llm_output": " 1. \n1. Determine mode of transportation (air)\n2. Consider cost of flight (average $500-$1000)\n3. Book flight",
+      "pred_ans": "1. \n1. Determine mode of transportation (air)\n2. Consider cost of flight (average $500-$1000)\n3. Book flight"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Sydney\nA:",
+      "ground truth": "224",
+      "llm_output": " 12-13 hours.",
+      "pred_ans": "12-13 hours"
+    },
+    {
+      "new_prompt": "Q: Istanbul + Seoul\nA:",
+      "ground truth": "156",
+      "llm_output": " 1.\n\n1. Both cities have a rich history and are major cultural and economic centers.\n2. Istanbul is located in Turkey, while Seoul is located",
+      "pred_ans": "1.\n\n1. Both cities have a rich history and are major cultural and economic centers.\n2. Istanbul is located in Turkey, while Seoul is located"
+    },
+    {
+      "new_prompt": "Q: Mexico City + Seoul\nA:",
+      "ground truth": "28",
+      "llm_output": " 7,800 miles (12,550 kilometers) and 15 hours.",
+      "pred_ans": "7,800 miles (12,550 kilometers) and 15 hours"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Seoul\nA:",
+      "ground truth": "-185",
+      "llm_output": " 18,000 kilometers and 25 hours.",
+      "pred_ans": "18,000 kilometers and 25 hours"
+    },
+    {
+      "new_prompt": "Q: London - Rome\nA:",
+      "ground truth": "-12",
+      "llm_output": " 1.\n\n1. Decide on mode of transportation (flight or train)\n2. If flying, search for flights from London's major airports to Rome's",
+      "pred_ans": "1.\n\n1. Decide on mode of transportation (flight or train)\n2. If flying, search for flights from London's major airports to Rome's"
+    },
+    {
+      "new_prompt": "Q: Beijing - Rome\nA:",
+      "ground truth": "104",
+      "llm_output": ":\n\n1. Determine mode of transportation (flight)\n2. Check for available flights from Beijing to Rome\n3. Obtain necessary travel documents (passport and visa)\n",
+      "pred_ans": ":\n\n1. Determine mode of transportation (flight)\n2. Check for available flights from Beijing to Rome\n3. Obtain necessary travel documents (passport and visa)"
+    },
+    {
       "new_prompt": "Q: Cairo - Sydney\nA:",
       "ground truth": "-120",
-      "llm_output": " 11,000 kilometers and the estimated travel time is 17-24 hours with at least one stopover.",
-      "pred_ans": "11,000 kilometers and the estimated travel time is 17-24 hours with at least one stopover"
+      "llm_output": " 11,000 kilometers and the mode of transportation is air with a stopover in Dubai.",
+      "pred_ans": "11,000 kilometers and the mode of transportation is air with a stopover in Dubai"
     },
     {
-      "new_prompt": "Q: Buenos Aires + Rome\nA:",
-      "ground truth": "-46",
-      "llm_output": " 6,500 miles, 13 hours, and 4 hours behind. The cultural differences between Buenos Aires and Rome are significant. Buenos Aires is known for",
-      "pred_ans": "6,500 miles, 13 hours, and 4 hours behind. The cultural differences between Buenos Aires and Rome are significant. Buenos Aires is known for"
-    },
-    {
-      "new_prompt": "Q: New York - Mexico City\nA:",
-      "ground truth": "25",
-      "llm_output": " 40 hours.\n\nIf we choose to take a bus or train, we can look for routes that go from New York to Mexico City. This would also",
-      "pred_ans": "40 hours.\n\nIf we choose to take a bus or train, we can look for routes that go from New York to Mexico City. This would also"
-    },
-    {
-      "new_prompt": "Q: Buenos Aires + Sao Paulo\nA:",
-      "ground truth": "-105",
-      "llm_output": " 2 hours and 30 minutes.",
-      "pred_ans": "2 hours and 30 minutes"
-    },
-    {
-      "new_prompt": "Q: Johannesburg - New York\nA:",
-      "ground truth": "102",
-      "llm_output": " 12000 kilometers.",
-      "pred_ans": "12000 kilometers"
+      "new_prompt": "Q: New York + Lagos\nA:",
+      "ground truth": "-71",
+      "llm_output": " 10 hours and 10 minutes.",
+      "pred_ans": "10 hours and 10 minutes"
     }
   ]
 }

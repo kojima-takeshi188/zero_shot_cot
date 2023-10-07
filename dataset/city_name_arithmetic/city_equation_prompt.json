@@ -1,82 +1,82 @@
 [
   {
-    "question": "Mexico City - Lagos",
-    "answer": -102
+    "question": "Cairo - New York",
+    "answer": 105
   },
   {
-    "question": "Moscow + Seoul",
-    "answer": 165
+    "question": "Sao Paulo + Johannesburg",
+    "answer": -19
   },
   {
-    "question": "Sao Paulo - Cairo",
-    "answer": -78
+    "question": "Rome + Beijing",
+    "answer": 128
   },
   {
-    "question": "Sao Paulo + New York",
-    "answer": -121
+    "question": "Sao Paulo - London",
+    "answer": -47
   },
   {
-    "question": "Cairo + Seoul",
-    "answer": 158
-  },
-  {
-    "question": "Paris - Beijing",
-    "answer": -114
-  },
-  {
-    "question": "Toronto - Mexico City",
-    "answer": 20
-  },
-  {
-    "question": "Sydney - Rome",
-    "answer": 139
-  },
-  {
-    "question": "Mumbai - Sydney",
-    "answer": -78
-  },
-  {
-    "question": "Bangkok - Mexico City",
-    "answer": 199
+    "question": "Rome + Mumbai",
+    "answer": 85
   },
   {
     "question": "New York + Buenos Aires",
     "answer": -132
   },
   {
-    "question": "Rome + Cairo",
-    "answer": 43
+    "question": "Los Angeles + Bangkok",
+    "answer": -18
   },
   {
-    "question": "New York + Sydney",
-    "answer": 77
-  },
-  {
-    "question": "Moscow + Mexico City",
-    "answer": -61
-  },
-  {
-    "question": "Sydney + Sydney",
-    "answer": 302
-  },
-  {
-    "question": "Rome + Tokyo",
-    "answer": 152
-  },
-  {
-    "question": "New York - New York",
+    "question": "Paris - Paris",
     "answer": 0
   },
   {
-    "question": "Lagos + Istanbul",
-    "answer": 32
+    "question": "Sydney + Lagos",
+    "answer": 154
   },
   {
-    "question": "Mumbai + Johannesburg",
-    "answer": 101
+    "question": "Beijing + Johannesburg",
+    "answer": 144
   },
   {
-    "question": "Cairo - Lagos",
-    "answer": 28
+    "question": "Toronto + Sao Paulo",
+    "answer": -126
+  },
+  {
+    "question": "Tokyo + Cairo",
+    "answer": 171
+  },
+  {
+    "question": "London - Sydney",
+    "answer": -151
+  },
+  {
+    "question": "Cairo - Los Angeles",
+    "answer": 149
+  },
+  {
+    "question": "Toronto - Sydney",
+    "answer": -230
+  },
+  {
+    "question": "Mexico City + Rome",
+    "answer": -87
+  },
+  {
+    "question": "Bangkok - Rome",
+    "answer": 88
+  },
+  {
+    "question": "Sao Paulo + Paris",
+    "answer": -45
+  },
+  {
+    "question": "Istanbul + Bangkok",
+    "answer": 129
+  },
+  {
+    "question": "Bangkok + Mexico City",
+    "answer": 1
   }
 ]

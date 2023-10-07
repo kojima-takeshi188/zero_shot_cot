@@ -2,34 +2,304 @@
   "accuracy": 0.0,
   "outputs": [
     {
-      "new_prompt": "Q: Lagos + Lagos\nA:",
-      "ground truth": "6",
-      "llm_output": " 2 x Lagos.\n\n2. Adding the population of Lagos to itself: This would mean taking the total number of people living in Lagos and adding it to itself",
-      "pred_ans": "2 x Lagos.\n\n2. Adding the population of Lagos to itself: This would mean taking the total number of people living in Lagos and adding it to itself"
+      "new_prompt": "Q: Rome - Bangkok\nA:",
+      "ground truth": "-88",
+      "llm_output": " 1. Choose mode of transportation (e.g. flying, train, driving) 2. Look for flights from Rome to Bangkok using a flight search engine",
+      "pred_ans": "1. Choose mode of transportation (e.g. flying, train, driving) 2. Look for flights from Rome to Bangkok using a flight search engine"
     },
     {
-      "new_prompt": "Q: Sydney + Lagos\nA:",
-      "ground truth": "154",
-      "llm_output": " 8 hours.",
-      "pred_ans": "8 hours"
+      "new_prompt": "Q: Rome + Istanbul\nA:",
+      "ground truth": "41",
+      "llm_output": " 1.",
+      "pred_ans": "1"
     },
     {
-      "new_prompt": "Q: Seoul - Buenos Aires\nA:",
-      "ground truth": "185",
-      "llm_output": " 1. Determine mode of transportation (flight) 2. Search for flights from Seoul to Buenos Aires 3. Book tickets in advance 4. Prepare",
-      "pred_ans": "1. Determine mode of transportation (flight) 2. Search for flights from Seoul to Buenos Aires 3. Book tickets in advance 4. Prepare"
+      "new_prompt": "Q: Seoul - Paris\nA:",
+      "ground truth": "125",
+      "llm_output": " 1. Research and compare airlines\n2. Book tickets\n3. Prepare necessary documents\n4. Arrive at airport early.",
+      "pred_ans": "1. Research and compare airlines\n2. Book tickets\n3. Prepare necessary documents\n4. Arrive at airport early"
     },
     {
-      "new_prompt": "Q: Sao Paulo + Los Angeles\nA:",
-      "ground truth": "-165",
+      "new_prompt": "Q: Seoul - Seoul\nA:",
+      "ground truth": "0",
+      "llm_output": " 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: London - Los Angeles\nA:",
+      "ground truth": "118",
+      "llm_output": " 10.9 hours. However, this does not take into account factors such as air traffic, weather conditions, and potential layovers, which could affect the",
+      "pred_ans": "10.9 hours. However, this does not take into account factors such as air traffic, weather conditions, and potential layovers, which could affect the"
+    },
+    {
+      "new_prompt": "Q: Bangkok + Buenos Aires\nA:",
+      "ground truth": "42",
+      "llm_output": " 19,000 kilometers and the mode of transportation is a flight.",
+      "pred_ans": "19,000 kilometers and the mode of transportation is a flight"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Bangkok\nA:",
+      "ground truth": "-158",
+      "llm_output": " 19,000 kilometers and 20-30 hours.",
+      "pred_ans": "19,000 kilometers and 20-30 hours"
+    },
+    {
+      "new_prompt": "Q: Cairo - Istanbul\nA:",
+      "ground truth": "2",
+      "llm_output": " 1. Plane or 2. Train",
+      "pred_ans": "1. Plane or 2. Train"
+    },
+    {
+      "new_prompt": "Q: Lagos + Bangkok\nA:",
+      "ground truth": "103",
+      "llm_output": " 8,500 kilometers. This is the approximate distance between Lagos and Bangkok, as they are located on different continents. It would take approximately 12 hours to",
+      "pred_ans": "8,500 kilometers. This is the approximate distance between Lagos and Bangkok, as they are located on different continents. It would take approximately 12 hours to"
+    },
+    {
+      "new_prompt": "Q: New York - Johannesburg\nA:",
+      "ground truth": "-102",
+      "llm_output": " 7,950 miles and 15-17 hours.",
+      "pred_ans": "7,950 miles and 15-17 hours"
+    },
+    {
+      "new_prompt": "Q: Seoul + Los Angeles\nA:",
+      "ground truth": "9",
+      "llm_output": " 16 hours.\n\nSo, if it is 9:00 AM in Seoul, it would be 5:00 PM the previous day in Los Angeles",
+      "pred_ans": "16 hours.\n\nSo, if it is 9:00 AM in Seoul, it would be 5:00 PM the previous day in Los Angeles"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Buenos Aires\nA:",
+      "ground truth": "15",
+      "llm_output": " 14,000 kilometers and the most common mode of transportation is by air with an average flight time of 20 hours.",
+      "pred_ans": "14,000 kilometers and the most common mode of transportation is by air with an average flight time of 20 hours"
+    },
+    {
+      "new_prompt": "Q: Moscow + London\nA:",
+      "ground truth": "38",
+      "llm_output": " 2200 kilometers.\n\nIf we were to travel by car, the estimated travel time is around 30 hours, assuming an average speed of 70 kilometers",
+      "pred_ans": "2200 kilometers.\n\nIf we were to travel by car, the estimated travel time is around 30 hours, assuming an average speed of 70 kilometers"
+    },
+    {
+      "new_prompt": "Q: Beijing + Bangkok\nA:",
+      "ground truth": "216",
+      "llm_output": " 1. Fly from Beijing to Bangkok. 2. Explore Bangkok and its attractions. 3. Try Thai food and experience the nightlife. 4.",
+      "pred_ans": "1. Fly from Beijing to Bangkok. 2. Explore Bangkok and its attractions. 3. Try Thai food and experience the nightlife. 4"
+    },
+    {
+      "new_prompt": "Q: Rome + Moscow\nA:",
+      "ground truth": "50",
+      "llm_output": " 2500 kilometers.",
+      "pred_ans": "2500 kilometers"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Istanbul\nA:",
+      "ground truth": "57",
+      "llm_output": " not possible to determine without more specific information.\n\nHowever, as a rough estimate, the cost can range from $600 to $1000 per person. It is",
+      "pred_ans": "not possible to determine without more specific information.\n\nHowever, as a rough estimate, the cost can range from $600 to $1000 per person. It is"
+    },
+    {
+      "new_prompt": "Q: Rome + Los Angeles\nA:",
+      "ground truth": "-106",
       "llm_output": " 2.",
       "pred_ans": "2"
     },
     {
-      "new_prompt": "Q: Moscow - Rome\nA:",
+      "new_prompt": "Q: Paris - New York\nA:",
+      "ground truth": "76",
+      "llm_output": " 1. Decide on mode of transportation\n2. Book flights\n3. Plan accommodations\n4. Plan itinerary",
+      "pred_ans": "1. Decide on mode of transportation\n2. Book flights\n3. Plan accommodations\n4. Plan itinerary"
+    },
+    {
+      "new_prompt": "Q: London - Lagos\nA:",
+      "ground truth": "-3",
+      "llm_output": " 1. Research and compare airlines\n2. Book tickets and gather necessary travel documents\n3. Arrive at the airport early for check-in and security.",
+      "pred_ans": "1. Research and compare airlines\n2. Book tickets and gather necessary travel documents\n3. Arrive at the airport early for check-in and security"
+    },
+    {
+      "new_prompt": "Q: Cairo - Los Angeles\nA:",
+      "ground truth": "149",
+      "llm_output": " 12,000 kilometers or 7,456 miles.",
+      "pred_ans": "12,000 kilometers or 7,456 miles"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Bangkok\nA:",
+      "ground truth": "42",
+      "llm_output": " 10 hours.",
+      "pred_ans": "10 hours"
+    },
+    {
+      "new_prompt": "Q: Toronto - Sao Paulo\nA:",
+      "ground truth": "-32",
+      "llm_output": " 2 hours before our scheduled departure time to allow enough time for check-in, security, and boarding.\n\nDuring the flight, we can relax, watch movies,",
+      "pred_ans": "2 hours before our scheduled departure time to allow enough time for check-in, security, and boarding.\n\nDuring the flight, we can relax, watch movies,"
+    },
+    {
+      "new_prompt": "Q: Sydney + Rome\nA:",
+      "ground truth": "163",
+      "llm_output": " 9:00 PM in Rome when we arrive.\n\nHowever, we also need to consider the time difference when we return from Rome to Sydney. Since Rome is",
+      "pred_ans": "9:00 PM in Rome when we arrive.\n\nHowever, we also need to consider the time difference when we return from Rome to Sydney. Since Rome is"
+    },
+    {
+      "new_prompt": "Q: Rome - London\nA:",
+      "ground truth": "12",
+      "llm_output": " 1480 kilometers and 2 hours and 30 minutes.",
+      "pred_ans": "1480 kilometers and 2 hours and 30 minutes"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Lagos\nA:",
       "ground truth": "26",
-      "llm_output": " 1. We need to take one flight from Moscow to Rome.",
-      "pred_ans": "1. We need to take one flight from Moscow to Rome"
+      "llm_output": " 4,500 kilometers (2,800 miles).",
+      "pred_ans": "4,500 kilometers (2,800 miles)"
+    },
+    {
+      "new_prompt": "Q: New York - Johannesburg\nA:",
+      "ground truth": "-102",
+      "llm_output": " 7,950 miles and 15-18 hours.",
+      "pred_ans": "7,950 miles and 15-18 hours"
+    },
+    {
+      "new_prompt": "Q: New York + Lagos\nA:",
+      "ground truth": "-71",
+      "llm_output": " 10 hours and 10 minutes.",
+      "pred_ans": "10 hours and 10 minutes"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Johannesburg\nA:",
+      "ground truth": "168",
+      "llm_output": " 11,000 kilometers, 14 hours, and 7 hours.",
+      "pred_ans": "11,000 kilometers, 14 hours, and 7 hours"
+    },
+    {
+      "new_prompt": "Q: Lagos + Beijing\nA:",
+      "ground truth": "119",
+      "llm_output": " 21 million.",
+      "pred_ans": "21 million"
+    },
+    {
+      "new_prompt": "Q: Seoul - Istanbul\nA:",
+      "ground truth": "98",
+      "llm_output": " 1. Check for available flights 2. Prepare necessary documents 3. Travel by air.",
+      "pred_ans": "1. Check for available flights 2. Prepare necessary documents 3. Travel by air"
+    },
+    {
+      "new_prompt": "Q: Paris - Beijing\nA:",
+      "ground truth": "-114",
+      "llm_output": " 10-11 hours by flight or 10-12 days by train.",
+      "pred_ans": "10-11 hours by flight or 10-12 days by train"
+    },
+    {
+      "new_prompt": "Q: Moscow - Sydney\nA:",
+      "ground truth": "-113",
+      "llm_output": " 14,500 kilometers by air.",
+      "pred_ans": "14,500 kilometers by air"
+    },
+    {
+      "new_prompt": "Q: Istanbul - London\nA:",
+      "ground truth": "29",
+      "llm_output": " 3 hours before our scheduled departure time. This will give us enough time to check-in, go through security, and board the plane.\n\nDuring the flight,",
+      "pred_ans": "3 hours before our scheduled departure time. This will give us enough time to check-in, go through security, and board the plane.\n\nDuring the flight,"
+    },
+    {
+      "new_prompt": "Q: Rome + Buenos Aires\nA:",
+      "ground truth": "-46",
+      "llm_output": " 1. Decide on mode of transportation (flight) 2. Book flights 3. Plan itinerary for Buenos Aires.",
+      "pred_ans": "1. Decide on mode of transportation (flight) 2. Book flights 3. Plan itinerary for Buenos Aires"
+    },
+    {
+      "new_prompt": "Q: Beijing + Sao Paulo\nA:",
+      "ground truth": "69",
+      "llm_output": " 18,000 kilometers and $1,000 to $1,500 USD.",
+      "pred_ans": "18,000 kilometers and $1,000 to $1,500 USD"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Sao Paulo\nA:",
+      "ground truth": "93",
+      "llm_output": " 9:00 AM on Monday, we would arrive in Sao Paulo at 9:00 AM on Tuesday.\n\nHowever, if we take into account the time",
+      "pred_ans": "9:00 AM on Monday, we would arrive in Sao Paulo at 9:00 AM on Tuesday.\n\nHowever, if we take into account the time"
+    },
+    {
+      "new_prompt": "Q: Paris - Sydney\nA:",
+      "ground truth": "-149",
+      "llm_output": " 16,900 kilometers (10,500 miles).",
+      "pred_ans": "16,900 kilometers (10,500 miles)"
+    },
+    {
+      "new_prompt": "Q: London + Paris\nA:",
+      "ground truth": "2",
+      "llm_output": " 1.5 hours.",
+      "pred_ans": "1.5 hours"
+    },
+    {
+      "new_prompt": "Q: Sydney - Johannesburg\nA:",
+      "ground truth": "123",
+      "llm_output": " 11,500 kilometers (7,145 miles).",
+      "pred_ans": "11,500 kilometers (7,145 miles)"
+    },
+    {
+      "new_prompt": "Q: London - Mexico City\nA:",
+      "ground truth": "99",
+      "llm_output": " 1. Research and book a flight, 2. Gather necessary documents for international travel.",
+      "pred_ans": "1. Research and book a flight, 2. Gather necessary documents for international travel"
+    },
+    {
+      "new_prompt": "Q: Lagos - Lagos\nA:",
+      "ground truth": "0",
+      "llm_output": " 11.",
+      "pred_ans": "11"
+    },
+    {
+      "new_prompt": "Q: Cairo + Rome\nA:",
+      "ground truth": "43",
+      "llm_output": " 2200 kilometers.\n\nBy car, the estimated driving time is around 25 hours, depending on the route taken and any stops along the way.\n\nIn",
+      "pred_ans": "2200 kilometers.\n\nBy car, the estimated driving time is around 25 hours, depending on the route taken and any stops along the way.\n\nIn"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Beijing\nA:",
+      "ground truth": "-88",
+      "llm_output": " 11,000 kilometers (6,835 miles).",
+      "pred_ans": "11,000 kilometers (6,835 miles)"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Rome\nA:",
+      "ground truth": "-130",
+      "llm_output": " 6000 miles, 12-13 hours, airplane.",
+      "pred_ans": "6000 miles, 12-13 hours, airplane"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Beijing\nA:",
+      "ground truth": "58",
+      "llm_output": " 12,000 kilometers and the estimated flight time is 20 hours.",
+      "pred_ans": "12,000 kilometers and the estimated flight time is 20 hours"
+    },
+    {
+      "new_prompt": "Q: Mumbai - Seoul\nA:",
+      "ground truth": "-54",
+      "llm_output": " 1. Search for flights and book tickets 2. Plan transportation from airport to accommodation.",
+      "pred_ans": "1. Search for flights and book tickets 2. Plan transportation from airport to accommodation"
+    },
+    {
+      "new_prompt": "Q: Cairo - Beijing\nA:",
+      "ground truth": "-85",
+      "llm_output": " 10-11 hours.",
+      "pred_ans": "10-11 hours"
+    },
+    {
+      "new_prompt": "Q: Bangkok + Beijing\nA:",
+      "ground truth": "216",
+      "llm_output": " 1. Determine mode of transportation (flight) 2. Decide on dates 3. Book flights 4. Research accommodations in Bangkok and Beijing.",
+      "pred_ans": "1. Determine mode of transportation (flight) 2. Decide on dates 3. Book flights 4. Research accommodations in Bangkok and Beijing"
+    },
+    {
+      "new_prompt": "Q: Bangkok - Sao Paulo\nA:",
+      "ground truth": "147",
+      "llm_output": " 19,000 kilometers and the total travel time can vary depending on the layover and flight schedule, but it can take anywhere from 20-30 hours",
+      "pred_ans": "19,000 kilometers and the total travel time can vary depending on the layover and flight schedule, but it can take anywhere from 20-30 hours"
+    },
+    {
+      "new_prompt": "Q: Cairo + Buenos Aires\nA:",
+      "ground truth": "-27",
+      "llm_output": " 11,000 kilometers and 17-18 hours.",
+      "pred_ans": "11,000 kilometers and 17-18 hours"
     }
   ]
 }

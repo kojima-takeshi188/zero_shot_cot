@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: Seoul + Seoul\nA:",
+      "ground truth": "254",
+      "llm_output": " Seoul is the capital and largest city of South Korea. It has a population of approximately 10 million people. So, if we add another Seoul, the total population would be 20 million people. The answer is 20 million.",
+      "pred_ans": "20 million"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: London - Lagos\nA:",
+      "ground truth": "-3",
+      "llm_output": " The answer is 0.",
+      "pred_ans": "0"
+    }
+  ]
+}

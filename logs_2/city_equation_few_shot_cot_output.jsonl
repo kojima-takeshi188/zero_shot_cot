@@ -1,0 +1,11 @@
+{
+  "accuracy": 100.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: London - Lagos\nA:",
+      "ground truth": "-3",
+      "llm_output": " Using the longitudes of cities, the equation \"London - Lagos\" translates as \"London\" = 0, \"Lagos\" = 3. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is -3.",
+      "pred_ans": "-3"
+    }
+  ]
+}

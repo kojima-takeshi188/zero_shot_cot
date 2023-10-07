@@ -1,0 +1,35 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: Seoul + Mexico City\nA:",
+      "ground truth": "28",
+      "llm_output": " Seoul is the capital and largest metropolis of South Korea. It's a vibrant city known for its modern skyscrapers and ancient palaces. Mexico City is the capital and largest city of Mexico. It's a bustling metropolis with a rich history and culture. The answer is 11.",
+      "pred_ans": "11"
+    },
+    {
+      "new_prompt": "Q: Toronto + Buenos Aires\nA:",
+      "ground truth": "-137",
+      "llm_output": " Toronto is the capital of the province of Ontario in Canada. It's a major Canadian city known for its diverse population and iconic CN Tower. Buenos Aires is the capital and largest city of Argentina. It's known for its European-style architecture and vibrant cultural scene. The answer is 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: Rome - London\nA:",
+      "ground truth": "12",
+      "llm_output": " Rome is the capital of Italy. It has a rich history and is home to the Colosseum. London is the capital of England and the United Kingdom. It's renowned for its history, from its Roman beginnings to its cosmopolitan present. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Mexico City - Rome\nA:",
+      "ground truth": "-111",
+      "llm_output": " Mexico City is the capital of Mexico, and Rome is the capital of Italy. Mexico City is located in North America, while Rome is in Europe. The answer is -7.",
+      "pred_ans": "-7"
+    },
+    {
+      "new_prompt": "Q: Beijing - Sao Paulo\nA:",
+      "ground truth": "163",
+      "llm_output": " Beijing is the capital of China. It's known for its ancient sites such as the Forbidden City and the Great Wall. Sao Paulo is the largest city in Brazil. It's a major financial center and is known for its vibrant culture and cuisine. The answer is 11.",
+      "pred_ans": "11"
+    }
+  ]
+}

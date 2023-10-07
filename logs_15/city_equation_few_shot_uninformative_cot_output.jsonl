@@ -2,16 +2,34 @@
   "accuracy": 0.0,
   "outputs": [
     {
-      "new_prompt": "Q: Toronto - Cairo\nA:",
-      "ground truth": "-110",
-      "llm_output": " Toronto is the largest city in Canada. It's known for its modern skyline and the iconic CN Tower. Cairo is the capital of Egypt. It's a bustling city with a rich history and is home to the Great Pyramids of Giza. The answer is -6.",
-      "pred_ans": "-6"
+      "new_prompt": "Q: Lagos + Lagos\nA:",
+      "ground truth": "6",
+      "llm_output": " Lagos is the largest city in Nigeria and one of the fastest-growing cities in the world. It's known for its vibrant culture and bustling markets. The answer is 0.",
+      "pred_ans": "0"
     },
     {
-      "new_prompt": "Q: Istanbul + Johannesburg\nA:",
-      "ground truth": "57",
-      "llm_output": " Istanbul is a major city in Turkey. It's known for its rich history and the Hagia Sophia. Johannesburg, often known as Jo'burg, is the largest city in South Africa. It's the economic heart of Africa and is known for its modern architecture. The answer is 155.",
-      "pred_ans": "155"
+      "new_prompt": "Q: Sydney + Lagos\nA:",
+      "ground truth": "154",
+      "llm_output": " Sydney is the largest city in Australia. It's famous for its Harbour Bridge and the Sydney Opera House. Lagos is the largest city in Nigeria. It's known for its bustling markets and vibrant nightlife. The answer is 47.",
+      "pred_ans": "47"
+    },
+    {
+      "new_prompt": "Q: Seoul - Buenos Aires\nA:",
+      "ground truth": "185",
+      "llm_output": " Seoul is the capital and largest metropolis of South Korea. It's a vibrant city known for its modern skyscrapers and ancient palaces. Buenos Aires is the capital of Argentina. It is located in the southern hemisphere. The answer is 44.",
+      "pred_ans": "44"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo + Los Angeles\nA:",
+      "ground truth": "-165",
+      "llm_output": " Sao Paulo is a sprawling city in Brazil. It's a major financial center and is known for its cultural institutions. Los Angeles is a major city in California, USA. It's known for its film and television industry, as well as its diverse population. The answer is -5.",
+      "pred_ans": "-5"
+    },
+    {
+      "new_prompt": "Q: Moscow - Rome\nA:",
+      "ground truth": "26",
+      "llm_output": " Moscow is the capital of Russia. The Kremlin and Red Square are among its most well-known landmarks. Rome is the capital of Italy. It's known for its ancient ruins, including the Colosseum and the Pantheon. The answer is 1.",
+      "pred_ans": "1"
     }
   ]
 }

@@ -1,0 +1,35 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: Seoul + Mexico City\nA:",
+      "ground truth": "28",
+      "llm_output": " 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: Toronto + Buenos Aires\nA:",
+      "ground truth": "-137",
+      "llm_output": " 8,500 kilometers, 11 hours (by plane), 90 hours (by car), and 2 hours (time difference).",
+      "pred_ans": "8,500 kilometers, 11 hours (by plane), 90 hours (by car), and 2 hours (time difference)"
+    },
+    {
+      "new_prompt": "Q: Rome - London\nA:",
+      "ground truth": "12",
+      "llm_output": " 1480 kilometers (919 miles) by air.",
+      "pred_ans": "1480 kilometers (919 miles) by air"
+    },
+    {
+      "new_prompt": "Q: Mexico City - Rome\nA:",
+      "ground truth": "-111",
+      "llm_output": " 1. Research and book a flight from Mexico City to Rome. 2. Gather necessary documents for international travel. 3. Pack appropriate clothing and essentials",
+      "pred_ans": "1. Research and book a flight from Mexico City to Rome. 2. Gather necessary documents for international travel. 3. Pack appropriate clothing and essentials"
+    },
+    {
+      "new_prompt": "Q: Beijing - Sao Paulo\nA:",
+      "ground truth": "163",
+      "llm_output": " 17000 kilometers.",
+      "pred_ans": "17000 kilometers"
+    }
+  ]
+}

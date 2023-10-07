@@ -1,0 +1,35 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: Lagos + Lagos\nA:",
+      "ground truth": "6",
+      "llm_output": " 2 x Lagos.\n\n2. Adding the population of Lagos to itself: This would mean taking the total number of people living in Lagos and adding it to itself",
+      "pred_ans": "2 x Lagos.\n\n2. Adding the population of Lagos to itself: This would mean taking the total number of people living in Lagos and adding it to itself"
+    },
+    {
+      "new_prompt": "Q: Sydney + Lagos\nA:",
+      "ground truth": "154",
+      "llm_output": " 8 hours.",
+      "pred_ans": "8 hours"
+    },
+    {
+      "new_prompt": "Q: Seoul - Buenos Aires\nA:",
+      "ground truth": "185",
+      "llm_output": " 1. Determine mode of transportation (flight) 2. Search for flights from Seoul to Buenos Aires 3. Book tickets in advance 4. Prepare",
+      "pred_ans": "1. Determine mode of transportation (flight) 2. Search for flights from Seoul to Buenos Aires 3. Book tickets in advance 4. Prepare"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo + Los Angeles\nA:",
+      "ground truth": "-165",
+      "llm_output": " 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Moscow - Rome\nA:",
+      "ground truth": "26",
+      "llm_output": " 1. We need to take one flight from Moscow to Rome.",
+      "pred_ans": "1. We need to take one flight from Moscow to Rome"
+    }
+  ]
+}

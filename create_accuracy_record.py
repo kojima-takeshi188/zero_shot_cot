@@ -2,7 +2,7 @@ import argparse
 import json
 import pandas
 
-METHODS = ["few_shot", "few_shot_cot", "few_shot_uninformative_cot"]
+METHODS = ["few_shot", "few_shot_cot", "few_shot_uninformative_cot", "zero_shot_and_uninformative_cot", "zero_shot_cot"]
 DATASETS = ["multiarith", "gsm8k", "city_equation"]
 NUM_SAMPLES = [4, 10, 15, 20]
 

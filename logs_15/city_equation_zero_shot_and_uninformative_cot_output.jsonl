@@ -1,0 +1,35 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: Lagos + Lagos\nA:",
+      "ground truth": "6",
+      "llm_output": " Lagos is the largest city in Nigeria. It's known for its bustling markets and vibrant nightlife. Adding Lagos to itself would be like doubling its size, so the answer would be 2 times the population of Lagos. However, since the question is asking for the sum, the answer would be 2 times the population of Lagos plus the population of Lagos. In mathematical terms, the answer would be 2 x Lagos + Lagos.",
+      "pred_ans": "Lagos is the largest city in Nigeria. It's known for its bustling markets and vibrant nightlife. Adding Lagos to itself would be like doubling its size, so the answer would be 2 times the population of Lagos. However, since the question is asking for the sum, the answer would be 2 times the population of Lagos plus the population of Lagos. In mathematical terms, the answer would be 2 x Lagos + Lagos"
+    },
+    {
+      "new_prompt": "Q: Sydney + Lagos\nA:",
+      "ground truth": "154",
+      "llm_output": " Sydney is the largest city in Australia. It's famous for its Harbour Bridge and the Sydney Opera House. Lagos is the largest city in Nigeria. It's known for its bustling markets and vibrant nightlife. The answer is 33.",
+      "pred_ans": "33"
+    },
+    {
+      "new_prompt": "Q: Seoul - Buenos Aires\nA:",
+      "ground truth": "185",
+      "llm_output": " Seoul is the capital and largest metropolis of South Korea. It's a vibrant city known for its modern skyscrapers and ancient palaces. Buenos Aires is the capital of Argentina. It is located in the southern hemisphere. The answer is 14.",
+      "pred_ans": "14"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo + Los Angeles\nA:",
+      "ground truth": "-165",
+      "llm_output": " Sao Paulo is a sprawling city in Brazil. It's a major financial center and is known for its cultural institutions. Los Angeles is a city in California, USA. It's known for its film and television industry, as well as its diverse population. The answer is 11.",
+      "pred_ans": "11"
+    },
+    {
+      "new_prompt": "Q: Moscow - Rome\nA:",
+      "ground truth": "26",
+      "llm_output": " Moscow is the capital of Russia. The Kremlin and Red Square are among its most well-known landmarks. Rome is the capital of Italy. It's known for its ancient ruins such as the Colosseum and the Pantheon. The answer is 1.",
+      "pred_ans": "1"
+    }
+  ]
+}

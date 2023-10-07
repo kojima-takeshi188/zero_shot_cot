@@ -39,6 +39,8 @@ def main():
         demo = create_demo_text(args, cot_type="informative-cot")
     elif args.method == "few_shot_uninformative_cot":  # you'll need to add support for this in your argument parser
         demo = create_demo_text(args, cot_type="uninformative-cot")
+    elif args.method == "zero_shot_and_uninformative_cot":  
+        demo = create_demo_text(args, cot_type="zero-shot-and-uninformative-cot")
     else:
         pass
 
@@ -81,6 +83,8 @@ def main():
             x = demo + x
         elif args.method == "few_shot_uninformative_cot":
             x = demo + x
+        elif args.method == "zero_shot_and_uninformative_cot":
+            x = demo + x + " " + args.cot_trigger
         else:
             raise ValueError("method is not properly defined ...")
 
@@ -163,7 +167,7 @@ def parse_arguments():
     )
     
     parser.add_argument(
-        "--method", type=str, default="zero_shot_cot", choices=["zero_shot", "zero_shot_cot", "few_shot", "few_shot_cot", "few_shot_uninformative_cot"], help="method"
+        "--method", type=str, default="zero_shot_cot", choices=["zero_shot", "zero_shot_cot", "few_shot", "few_shot_cot", "few_shot_uninformative_cot", "zero_shot_and_uninformative_cot"], help="method"
     )
     parser.add_argument(
         "--cot_trigger_no", type=int, default=1, help="A trigger sentence that elicits a model to execute chain of thought"
@@ -192,6 +196,7 @@ def parse_arguments():
     elif args.dataset == "gsm8k":
         args.dataset_path = "./dataset/grade-school-math/test.jsonl"
         args.direct_answer_trigger = "\nTherefore, the answer (arabic numerals) is"
+        args.few_shot_prompt_path = "./dataset/grade-school-math/demos.json"
     elif args.dataset == "commonsensqa":
         args.dataset_path = "./dataset/CommonsenseQA/dev_rand_split.jsonl"
         args.direct_answer_trigger = "\nTherefore, among A through E, the answer is"
@@ -202,6 +207,7 @@ def parse_arguments():
     elif args.dataset == "multiarith":
         args.dataset_path = "./dataset/MultiArith/MultiArith.json"
         args.direct_answer_trigger = "\nTherefore, the answer (arabic numerals) is"
+        args.few_shot_prompt_path = "./dataset/MultiArith/demos.json"
     elif args.dataset == "strategyqa":
         args.dataset_path = "./dataset/StrategyQA/task.json"
         args.direct_answer_trigger = "\nTherefore, the answer (Yes or No) is"

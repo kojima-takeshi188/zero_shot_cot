@@ -1,0 +1,35 @@
+{
+  "accuracy": 100.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: For Halloween Megan received 11 pieces of candy from neighbors and 5 pieces from her older sister. If she only ate 8 pieces a day, how long would the candy last her?\nA:",
+      "ground truth": "2",
+      "llm_output": " Megan received some candy from neighbors. She also received some candy from her older sister. Let's compute how many pieces of candy she received in total. Now, let's figure out how long the candy would last her if she ate 8 pieces a day. The answer is 2 days.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Bianca and her mom were picking carrots from their garden. Bianca picked 26 and her mother picked 15. If only 16 of the carrots were good, how many bad carrots did they have?\nA:",
+      "ground truth": "25",
+      "llm_output": " Bianca picked some carrots. Her mother picked some carrots. Only 16 of the carrots were good. Let's compute how many bad carrots they had. The answer is 25.",
+      "pred_ans": "25"
+    },
+    {
+      "new_prompt": "Q: Paige and her friends were recycling paper for their class. For every 4 pounds they recycled they earned one point. If Paige recycled 14 pounds and her friends recycled 2 pounds, how many points did they earn?\nA:",
+      "ground truth": "4",
+      "llm_output": " Paige recycled some pounds. Her friends recycled some pounds. Let's compute how many points they earned. The answer is 4.",
+      "pred_ans": "4"
+    },
+    {
+      "new_prompt": "Q: In fourth grade there were 4 students at the start of the year. During the year 3 students left and 42 new students came to school. How many students were in fourth grade at the end?\nA:",
+      "ground truth": "43",
+      "llm_output": " In fourth grade there were some students at the start of the year. During the year some students left and some new students came to school. Let's compute how many students were in fourth grade at the end. The answer is 43.",
+      "pred_ans": "43"
+    },
+    {
+      "new_prompt": "Q: A toy store had 4 giant stuffed bears in stock when they got another shipment with 10 bears in it. The put the bears onto shelves with 7 on each shelf. How many shelves did they use?\nA:",
+      "ground truth": "2",
+      "llm_output": " A toy store had some giant stuffed bears in stock. They got another shipment with bears in it. They put the bears onto shelves with on each shelf. Let's compute how many shelves they used. The answer is 2.",
+      "pred_ans": "2"
+    }
+  ]
+}

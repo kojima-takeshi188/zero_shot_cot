@@ -2,64 +2,34 @@
   "accuracy": 0.0,
   "outputs": [
     {
-      "new_prompt": "Q: Paris + Johannesburg\nA:",
-      "ground truth": "30",
-      "llm_output": " The answer is undefined. This is because the given expression does not have any operations or numbers to calculate a value. It is simply adding two locations together.",
-      "pred_ans": "undefined. This is because the given expression does not have any operations or numbers to calculate a value. It is simply adding two locations together"
-    },
-    {
-      "new_prompt": "Q: Sao Paulo + Tokyo\nA:",
-      "ground truth": "93",
-      "llm_output": " The answer is undefined as there is no operation given.",
-      "pred_ans": "undefined as there is no operation given"
-    },
-    {
-      "new_prompt": "Q: Istanbul - Cairo\nA:",
-      "ground truth": "-2",
-      "llm_output": " The answer is 1.",
-      "pred_ans": "1"
-    },
-    {
-      "new_prompt": "Q: Cairo + Sao Paulo\nA:",
-      "ground truth": "-16",
-      "llm_output": " The answer is Cairo + Sao Paulo.",
-      "pred_ans": "Cairo + Sao Paulo"
-    },
-    {
-      "new_prompt": "Q: Mexico City + Rome\nA:",
-      "ground truth": "-87",
-      "llm_output": " The answer is 2.",
-      "pred_ans": "2"
-    },
-    {
-      "new_prompt": "Q: Istanbul - Johannesburg\nA:",
+      "new_prompt": "Q: Lagos - Paris\nA:",
       "ground truth": "1",
-      "llm_output": " The answer is 0.",
-      "pred_ans": "0"
+      "llm_output": " The answer is -114.",
+      "pred_ans": "-114"
     },
     {
-      "new_prompt": "Q: Rome + Toronto\nA:",
-      "ground truth": "-67",
-      "llm_output": " The answer is 2.",
-      "pred_ans": "2"
+      "new_prompt": "Q: Buenos Aires - Toronto\nA:",
+      "ground truth": "21",
+      "llm_output": " The answer is -108.",
+      "pred_ans": "-108"
     },
     {
-      "new_prompt": "Q: Sao Paulo - Buenos Aires\nA:",
-      "ground truth": "11",
-      "llm_output": " The answer is 0.",
-      "pred_ans": "0"
+      "new_prompt": "Q: Sao Paulo + Lagos\nA:",
+      "ground truth": "-44",
+      "llm_output": " The answer is -10.",
+      "pred_ans": "-10"
     },
     {
       "new_prompt": "Q: Bangkok + Bangkok\nA:",
       "ground truth": "200",
-      "llm_output": " The answer is 2*Bangkok, or simply 2.",
-      "pred_ans": "2*Bangkok, or simply 2"
-    },
-    {
-      "new_prompt": "Q: Los Angeles + Mexico City\nA:",
-      "ground truth": "-217",
       "llm_output": " The answer is 0.",
       "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Sao Paulo\nA:",
+      "ground truth": "75",
+      "llm_output": " The answer is 60.",
+      "pred_ans": "60"
     }
   ]
 }

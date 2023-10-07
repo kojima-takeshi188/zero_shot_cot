@@ -1,0 +1,35 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: Lagos - Paris\nA:",
+      "ground truth": "1",
+      "llm_output": " 1. Decide on mode of transportation (air) \n2. Book flight tickets \n3. Gather necessary documents for international travel (passport, visa, etc",
+      "pred_ans": "1. Decide on mode of transportation (air) \n2. Book flight tickets \n3. Gather necessary documents for international travel (passport, visa, etc"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Toronto\nA:",
+      "ground truth": "21",
+      "llm_output": " 8,500 kilometers (5,280 miles) and the average flight time is 12-14 hours.",
+      "pred_ans": "8,500 kilometers (5,280 miles) and the average flight time is 12-14 hours"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo + Lagos\nA:",
+      "ground truth": "-44",
+      "llm_output": " 12 million and 21 million.",
+      "pred_ans": "12 million and 21 million"
+    },
+    {
+      "new_prompt": "Q: Bangkok + Bangkok\nA:",
+      "ground truth": "200",
+      "llm_output": " 3.",
+      "pred_ans": "3"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Sao Paulo\nA:",
+      "ground truth": "75",
+      "llm_output": " 5800 miles.",
+      "pred_ans": "5800 miles"
+    }
+  ]
+}

@@ -13,13 +13,18 @@ import argparse
 from geopy.geocoders import Nominatim
 from city_name_coordinates_utils import *
 
-def main(n):
+def main(num_samples):
     
+    # n refers to number of equations that will be generated 
+    # m refers to the number of cities that will be used to generate a single equation, for now we set m = 2
+    m=2
+
+
     city_coordinates_data = get_city_coordinates(city_list, save_to_json=True)
     
-    print(city_coordinates_data)
+    #print(city_coordinates_data)
 
-    questions_city_example, questions_num_example, answers_example = generate_equations("city_coordinates.json", n, 10, flag=1, file_name = "city_equation_prompt.json")
+    questions_city_example, questions_num_example, answers_example = generate_equations("city_coordinates.json", num_samples, m, flag=1, file_name = "city_equation_prompt.json")
     
     print(questions_city_example)
     print(questions_num_example)
@@ -29,7 +34,7 @@ def main(n):
  
     verification_result_example, correct = verify_equations("city_equation_prompt.json", "city_coordinates.json", flag=1, file_name="verify_city_equation_prompt.json")
 
-    print(verification_result_example)
+    #print(verification_result_example)
     if(correct):
         print("All correct!")
 
@@ -51,20 +56,21 @@ def main(n):
     if(generate_prompt):
         # Generate the prompts
         output_data_example = generate_prompts_from_json("verify_city_equation_prompt.json", "demos.json")
-        print(output_data_example)
+        #print(output_data_example)
 
 
     questions_city_example, questions_num_example, answers_example = generate_equations("city_coordinates.json", 200, 2, flag=1, file_name = "test_set.json")
     
-    print(questions_city_example)
-    print(questions_num_example)
-    print(answers_example)
+    
+    #print(questions_city_example)
+    #print(questions_num_example)
+    #print(answers_example)
 
 
  
     verification_result_example, correct = verify_equations("test_set.json", "city_coordinates.json", flag=1, file_name="verify_city_equation_test.json")
 
-    print(verification_result_example)
+    #print(verification_result_example)
     if(correct):
         print("The test cases are All Correct!")
 

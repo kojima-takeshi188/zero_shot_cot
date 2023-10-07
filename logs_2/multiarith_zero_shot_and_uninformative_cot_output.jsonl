@@ -1,0 +1,11 @@
+{
+  "accuracy": 100.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: For Halloween Megan received 11 pieces of candy from neighbors and 5 pieces from her older sister. If she only ate 8 pieces a day, how long would the candy last her?\nA:",
+      "ground truth": "2",
+      "llm_output": " Megan received 11 pieces of candy from neighbors. She also received 5 pieces from her older sister. Let's add to find the total. The answer is 16. If she eats 8 pieces a day, we can divide the total by 8 to find out how many days the candy will last. The answer is 2 days.",
+      "pred_ans": "2"
+    }
+  ]
+}

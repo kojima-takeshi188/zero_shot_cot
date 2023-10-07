@@ -41,6 +41,8 @@ def get_city_coordinates(city_list, save_to_json=False):
 
 
 def generate_equations(city_coords_file, N, m, flag=1, file_name="arithmetic_equations_longitude.json"):
+    # file_name="arithmetic_equations_longitude.json"
+
     # Load city coordinates from the JSON file
     with open(city_coords_file, 'r') as f:
         city_coords = json.load(f)
@@ -58,6 +60,7 @@ def generate_equations(city_coords_file, N, m, flag=1, file_name="arithmetic_equ
 
     # Generate m-city equations
     for _ in range(N):
+        
         # Randomly sample m cities from all cities with replacement
         equation_cities = random.choices(all_cities, k=m)
         

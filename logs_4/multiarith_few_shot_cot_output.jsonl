@@ -1,65 +1,35 @@
 {
-  "accuracy": 100.0,
+  "accuracy": 80.0,
   "outputs": [
     {
       "new_prompt": "Q: For Halloween Megan received 11 pieces of candy from neighbors and 5 pieces from her older sister. If she only ate 8 pieces a day, how long would the candy last her?\nA:",
       "ground truth": "2",
-      "llm_output": " Megan received 11 pieces of candy from neighbors and 5 pieces from her older sister. So she had 11 + 5 = 16 pieces of candy. If she ate 8 pieces a day, then the candy would last her 16 / 8 = 2 days. The answer is 2 days.",
+      "llm_output": " Megan received a total of 11 + 5 = 16 pieces of candy. If she ate 8 pieces a day, then the candy would last her 16 \u00f7 8 = 2 days. The answer is 2 days.",
       "pred_ans": "2"
     },
     {
       "new_prompt": "Q: Bianca and her mom were picking carrots from their garden. Bianca picked 26 and her mother picked 15. If only 16 of the carrots were good, how many bad carrots did they have?\nA:",
       "ground truth": "25",
-      "llm_output": " Bianca picked 26 carrots and her mom picked 15. So they had 26 + 15 = 41 carrots in total. If only 16 were good, then 41 - 16 = 25 must have been bad. The answer is 25.",
+      "llm_output": " Bianca and her mom picked a total of 26 + 15 = 41 carrots. If only 16 of them were good, then 41 - 16 = 25 must have been bad carrots. The answer is 25.",
       "pred_ans": "25"
     },
     {
       "new_prompt": "Q: Paige and her friends were recycling paper for their class. For every 4 pounds they recycled they earned one point. If Paige recycled 14 pounds and her friends recycled 2 pounds, how many points did they earn?\nA:",
       "ground truth": "4",
-      "llm_output": " Paige recycled 14 pounds and her friends recycled 2 pounds. So in total they recycled 14 + 2 = 16 pounds. For every 4 pounds, they earned 1 point. So 16 pounds is 16 / 4 = 4 points. The answer is 4.",
+      "llm_output": " For every 4 pounds of paper recycled, Paige and her friends earned 1 point. Paige recycled 14 pounds and her friends recycled 2 pounds, so they earned 14/4 = 3.5 points from Paige's recycling and 2/4 = 0.5 points from her friends' recycling. In total, they earned 3.5 + 0.5 = 4 points. The answer is 4 points.",
       "pred_ans": "4"
     },
     {
       "new_prompt": "Q: In fourth grade there were 4 students at the start of the year. During the year 3 students left and 42 new students came to school. How many students were in fourth grade at the end?\nA:",
       "ground truth": "43",
-      "llm_output": " At the start of the year, there were 4 students. Then 3 left and 42 new students came. So the total number of students is 4 - 3 + 42 = 43. The answer is 43.",
-      "pred_ans": "43"
+      "llm_output": " In fourth grade there were 4 students at the start of the year. During the year 3 students left and 42 new students came to school. Therefore, 4 - 3 = 1 student left and 4 + 42 = 46 students were in fourth grade at the end of the year. The answer is 46.",
+      "pred_ans": "46"
     },
     {
       "new_prompt": "Q: A toy store had 4 giant stuffed bears in stock when they got another shipment with 10 bears in it. The put the bears onto shelves with 7 on each shelf. How many shelves did they use?\nA:",
       "ground truth": "2",
-      "llm_output": " The toy store originally had 4 giant stuffed bears. Then they got 10 more. So they had 4 + 10 = 14 bears in total. They put 7 bears on each shelf. So they used 14 / 7 = 2 shelves. The answer is 2.",
+      "llm_output": " The toy store started with 4 giant stuffed bears in stock. After receiving a shipment of 10 more bears, they had a total of 4 + 10 = 14 bears. If they put 7 bears on each shelf, then they would need 14/7 = 2 shelves. The answer is 2 shelves.",
       "pred_ans": "2"
-    },
-    {
-      "new_prompt": "Q: Bianca was organizing her book case making sure each of the shelves had exactly 8 books on it. If she had 5 shelves of mystery books and 4 shelves of picture books, how many books did she have total?\nA:",
-      "ground truth": "72",
-      "llm_output": " Bianca had 5 shelves of mystery books and 4 shelves of picture books. Each shelf had 8 books. So 5 shelves of 8 books is 5 x 8 = 40 mystery books. And 4 shelves of 8 books is 4 x 8 = 32 picture books. So in total, she had 40 + 32 = 72 books. The answer is 72.",
-      "pred_ans": "72"
-    },
-    {
-      "new_prompt": "Q: Megan baked 68 cupcakes for her school's bake sale. If her brother, Todd, ate 32 of them how many packages could she make if she put 6 cupcake in each package?\nA:",
-      "ground truth": "6",
-      "llm_output": " Megan baked 68 cupcakes. After Todd ate 32, she had 68 - 32 = 36 cupcakes left. If she puts 6 cupcakes in each package, she can make 36 / 6 = 6 packages. The answer is 6.",
-      "pred_ans": "6"
-    },
-    {
-      "new_prompt": "Q: A pet store had 13 siamese cats and 5 house cats. During a sale they sold 10 cats. How many cats do they have left?\nA:",
-      "ground truth": "8",
-      "llm_output": " The pet store had 13 siamese cats and 5 house cats. So they had 13 + 5 = 18 cats in total. After selling 10, they had 18 - 10 = 8 cats left. The answer is 8.",
-      "pred_ans": "8"
-    },
-    {
-      "new_prompt": "Q: Billy was organizing his baseball cards in a binder with 5 on each page. If he had 3 new cards and 42 old cards to put in the binder, how many pages would he use?\nA:",
-      "ground truth": "9",
-      "llm_output": " Billy had 42 old cards and 3 new cards. That is 42 + 3 = 45 cards in total. If he puts 5 cards on each page, he will need 45 / 5 = 9 pages. The answer is 9.",
-      "pred_ans": "9"
-    },
-    {
-      "new_prompt": "Q: Adam bought 2 boxes of chocolate candy and 5 boxes of caramel candy. If each box has 4 pieces inside it, how much candy did he have total?\nA:",
-      "ground truth": "28",
-      "llm_output": " Adam bought 2 boxes of chocolate candy and 5 boxes of caramel candy. That is 2 + 5 = 7 boxes in total. Each box has 4 pieces inside it. So 7 x 4 = 28 pieces of candy in total. The answer is 28.",
-      "pred_ans": "28"
     }
   ]
 }

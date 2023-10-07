@@ -2,64 +2,34 @@
   "accuracy": 0.0,
   "outputs": [
     {
-      "new_prompt": "Q: Cairo + Sao Paulo\nA:",
-      "ground truth": "-16",
-      "llm_output": " The answer is undefined, as there is no operation given.",
-      "pred_ans": "undefined, as there is no operation given"
+      "new_prompt": "Q: Cairo - Sydney\nA:",
+      "ground truth": "-120",
+      "llm_output": " The answer is -8.",
+      "pred_ans": "-8"
     },
     {
-      "new_prompt": "Q: Tokyo + Tokyo\nA:",
-      "ground truth": "280",
-      "llm_output": " The answer is 2.",
-      "pred_ans": "2"
+      "new_prompt": "Q: Buenos Aires + Rome\nA:",
+      "ground truth": "-46",
+      "llm_output": " The answer is -6.",
+      "pred_ans": "-6"
     },
     {
-      "new_prompt": "Q: Paris - Beijing\nA:",
-      "ground truth": "-114",
-      "llm_output": " The answer is -1.",
-      "pred_ans": "-1"
+      "new_prompt": "Q: New York - Mexico City\nA:",
+      "ground truth": "25",
+      "llm_output": " The answer is 80.",
+      "pred_ans": "80"
     },
     {
-      "new_prompt": "Q: Toronto - Seoul\nA:",
-      "ground truth": "-206",
-      "llm_output": " The answer is 0.",
-      "pred_ans": "0"
+      "new_prompt": "Q: Buenos Aires + Sao Paulo\nA:",
+      "ground truth": "-105",
+      "llm_output": " The answer is 10.",
+      "pred_ans": "10"
     },
     {
-      "new_prompt": "Q: New York - Mumbai\nA:",
-      "ground truth": "-147",
-      "llm_output": " The answer is undefined, as the cities are not connected by a mathematical operation.",
-      "pred_ans": "undefined, as the cities are not connected by a mathematical operation"
-    },
-    {
-      "new_prompt": "Q: Mumbai - Mexico City\nA:",
-      "ground truth": "172",
-      "llm_output": " The answer is 0.",
-      "pred_ans": "0"
-    },
-    {
-      "new_prompt": "Q: Mexico City - Rome\nA:",
-      "ground truth": "-111",
-      "llm_output": " The answer is 0.",
-      "pred_ans": "0"
-    },
-    {
-      "new_prompt": "Q: Lagos - Toronto\nA:",
-      "ground truth": "82",
-      "llm_output": " The answer is -1.",
-      "pred_ans": "-1"
-    },
-    {
-      "new_prompt": "Q: Tokyo + Moscow\nA:",
-      "ground truth": "178",
-      "llm_output": " The answer is 0.",
-      "pred_ans": "0"
-    },
-    {
-      "new_prompt": "Q: Tokyo - Mexico City\nA:",
-      "ground truth": "239",
-      "llm_output": " The answer is 8.",
-      "pred_ans": "8"
+      "new_prompt": "Q: Johannesburg - New York\nA:",
+      "ground truth": "102",
+      "llm_output": " The answer is 6.",
+      "pred_ans": "6"
     }
   ]
 }

@@ -1,0 +1,35 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: Cairo - Sydney\nA:",
+      "ground truth": "-120",
+      "llm_output": " 11,000 kilometers and the estimated travel time is 17-24 hours with at least one stopover.",
+      "pred_ans": "11,000 kilometers and the estimated travel time is 17-24 hours with at least one stopover"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Rome\nA:",
+      "ground truth": "-46",
+      "llm_output": " 6,500 miles, 13 hours, and 4 hours behind. The cultural differences between Buenos Aires and Rome are significant. Buenos Aires is known for",
+      "pred_ans": "6,500 miles, 13 hours, and 4 hours behind. The cultural differences between Buenos Aires and Rome are significant. Buenos Aires is known for"
+    },
+    {
+      "new_prompt": "Q: New York - Mexico City\nA:",
+      "ground truth": "25",
+      "llm_output": " 40 hours.\n\nIf we choose to take a bus or train, we can look for routes that go from New York to Mexico City. This would also",
+      "pred_ans": "40 hours.\n\nIf we choose to take a bus or train, we can look for routes that go from New York to Mexico City. This would also"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Sao Paulo\nA:",
+      "ground truth": "-105",
+      "llm_output": " 2 hours and 30 minutes.",
+      "pred_ans": "2 hours and 30 minutes"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - New York\nA:",
+      "ground truth": "102",
+      "llm_output": " 12000 kilometers.",
+      "pred_ans": "12000 kilometers"
+    }
+  ]
+}

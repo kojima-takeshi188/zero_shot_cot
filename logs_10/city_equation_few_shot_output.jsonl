@@ -1,65 +1,35 @@
 {
-  "accuracy": 20.0,
+  "accuracy": 0.0,
   "outputs": [
     {
-      "new_prompt": "Q: Bangkok - Bangkok\nA:",
-      "ground truth": "0",
-      "llm_output": " The answer is 0.",
-      "pred_ans": "0"
+      "new_prompt": "Q: Seoul + Mexico City\nA:",
+      "ground truth": "28",
+      "llm_output": " The answer is 10.",
+      "pred_ans": "10"
     },
     {
-      "new_prompt": "Q: Istanbul - Istanbul\nA:",
-      "ground truth": "0",
-      "llm_output": " The answer is 0.",
-      "pred_ans": "0"
+      "new_prompt": "Q: Toronto + Buenos Aires\nA:",
+      "ground truth": "-137",
+      "llm_output": " The answer is -10.",
+      "pred_ans": "-10"
     },
     {
-      "new_prompt": "Q: New York - Istanbul\nA:",
-      "ground truth": "-103",
-      "llm_output": " The answer is 0.",
-      "pred_ans": "0"
-    },
-    {
-      "new_prompt": "Q: Beijing - Tokyo\nA:",
-      "ground truth": "-24",
-      "llm_output": " The answer is 0.",
-      "pred_ans": "0"
-    },
-    {
-      "new_prompt": "Q: Bangkok - Beijing\nA:",
-      "ground truth": "-16",
+      "new_prompt": "Q: Rome - London\nA:",
+      "ground truth": "12",
       "llm_output": " The answer is -1.",
       "pred_ans": "-1"
     },
     {
-      "new_prompt": "Q: Moscow + Tokyo\nA:",
-      "ground truth": "178",
-      "llm_output": " The answer is 0.",
-      "pred_ans": "0"
+      "new_prompt": "Q: Mexico City - Rome\nA:",
+      "ground truth": "-111",
+      "llm_output": " The answer is -7.",
+      "pred_ans": "-7"
     },
     {
-      "new_prompt": "Q: Buenos Aires + Lagos\nA:",
-      "ground truth": "-55",
-      "llm_output": " The answer is undefined.",
-      "pred_ans": "undefined"
-    },
-    {
-      "new_prompt": "Q: Buenos Aires + Sao Paulo\nA:",
-      "ground truth": "-105",
-      "llm_output": " The answer is 0.",
-      "pred_ans": "0"
-    },
-    {
-      "new_prompt": "Q: Toronto - Mumbai\nA:",
-      "ground truth": "-152",
-      "llm_output": " The answer is -1.",
-      "pred_ans": "-1"
-    },
-    {
-      "new_prompt": "Q: Johannesburg - Mexico City\nA:",
-      "ground truth": "127",
-      "llm_output": " The answer is 0.",
-      "pred_ans": "0"
+      "new_prompt": "Q: Beijing - Sao Paulo\nA:",
+      "ground truth": "163",
+      "llm_output": " The answer is 11.",
+      "pred_ans": "11"
     }
   ]
 }

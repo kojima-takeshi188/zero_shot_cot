@@ -1,0 +1,35 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: Cairo - Sydney\nA:",
+      "ground truth": "-120",
+      "llm_output": " First, we need to find the distance between Cairo and the Prime Meridian (0 degrees longitude). Cairo is located at 31.2357 degrees east longitude, so the distance from Cairo to the Prime Meridian is 31.2357 degrees. Next, we need to find the distance between Sydney and the Prime Meridian. Sydney is located at 151.2093 degrees east longitude, so the distance from Sydney to the Prime Meridian is 151.2093 degrees. Finally, we need to find the difference between these two distances. 151.2093 - 31.2357 = 119.9736",
+      "pred_ans": "First, we need to find the distance between Cairo and the Prime Meridian (0 degrees longitude). Cairo is located at 31.2357 degrees east longitude, so the distance from Cairo to the Prime Meridian is 31.2357 degrees. Next, we need to find the distance between Sydney and the Prime Meridian. Sydney is located at 151.2093 degrees east longitude, so the distance from Sydney to the Prime Meridian is 151.2093 degrees. Finally, we need to find the difference between these two distances. 151.2093 - 31.2357 = 119.9736"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Rome\nA:",
+      "ground truth": "-46",
+      "llm_output": " Buenos Aires is the capital of Argentina. It's known for its European-style architecture and tango dancing. Rome is the capital of Italy. It's famous for its ancient ruins such as the Colosseum and the Pantheon. The answer is 18.",
+      "pred_ans": "18"
+    },
+    {
+      "new_prompt": "Q: New York - Mexico City\nA:",
+      "ground truth": "25",
+      "llm_output": " First, we need to find the longitude of New York and Mexico City. The longitude of New York is -74 and the longitude of Mexico City is -99. Next, we need to find the difference between these two longitudes. -74 - (-99) = 25. So the answer is 25.",
+      "pred_ans": "First, we need to find the longitude of New York and Mexico City. The longitude of New York is -74 and the longitude of Mexico City is -99. Next, we need to find the difference between these two longitudes. -74 - (-99) = 25. So the answer is 25"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Sao Paulo\nA:",
+      "ground truth": "-105",
+      "llm_output": " Buenos Aires is the capital of Argentina, while Sao Paulo is the largest city in Brazil. Since they are both located in South America, we can add their longitudes together. The longitude of Buenos Aires is -58.3816, and the longitude of Sao Paulo is -46.6333. When we add these together, we get -104.0149. Therefore, the answer is -104.",
+      "pred_ans": "Buenos Aires is the capital of Argentina, while Sao Paulo is the largest city in Brazil. Since they are both located in South America, we can add their longitudes together. The longitude of Buenos Aires is -58.3816, and the longitude of Sao Paulo is -46.6333. When we add these together, we get -104.0149. Therefore, the answer is -104"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - New York\nA:",
+      "ground truth": "102",
+      "llm_output": " Johannesburg is the largest city in South Africa. It's known for its gold and diamond trade. New York, often called New York City, is the most populous city in the United States. It's known for the Statue of Liberty. The answer is 7.",
+      "pred_ans": "7"
+    }
+  ]
+}

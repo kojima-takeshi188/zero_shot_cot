@@ -1,0 +1,17 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: James is counting his Pokemon cards. He has 30 fire type, 20 grass type, and 40 water type. If he loses 8 of the water type and buys 14 grass type, what's the percentage chance (rounded to the nearest integer) that a randomly picked card will be a water type?\nA:",
+      "ground truth": "33",
+      "llm_output": " James has fire type, grass type, and water type cards. He loses some and buys some. Let's compute the new percentage of water type cards. The answer is 44%.",
+      "pred_ans": "44"
+    },
+    {
+      "new_prompt": "Q: Four students scored a total of 251 points in a board game. Naomi scored 68 of the points. Yuri scored 10 more than half as many points as Naomi and Brianna scored 17 points more than Naomi. How many points did Jojo score?\nA:",
+      "ground truth": "54",
+      "llm_output": " Four students scored 251 points. Naomi scored 68 points. Yuri scored more than half of Naomi's points. Brianna scored 17 more than Naomi. Let's compute Jojo's points by subtracting the other three students' points from the total. The answer is 156.",
+      "pred_ans": "156"
+    }
+  ]
+}

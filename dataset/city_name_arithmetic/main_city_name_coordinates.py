@@ -9,16 +9,17 @@ Original file is located at
 
 import json
 import requests
+import argparse
 from geopy.geocoders import Nominatim
 from city_name_coordinates_utils import *
 
-def main():
+def main(n):
     
     city_coordinates_data = get_city_coordinates(city_list, save_to_json=True)
     
     print(city_coordinates_data)
 
-    questions_city_example, questions_num_example, answers_example = generate_equations("city_coordinates.json", 4, 2, flag=1, file_name = "city_equation_prompt.json")
+    questions_city_example, questions_num_example, answers_example = generate_equations("city_coordinates.json", n, 10, flag=1, file_name = "city_equation_prompt.json")
     
     print(questions_city_example)
     print(questions_num_example)
@@ -76,5 +77,9 @@ if __name__ == "__main__":
         "Lagos", "Johannesburg", "Buenos Aires", "Paris", "Istanbul",
         "Seoul", "Bangkok", "Rome", "Toronto", "Mexico City"
     ]
+    parser = argparse.ArgumentParser()
 
-    main()
+    parser.add_argument("num_samples", type = int)
+    args = parser.parse_args()
+
+    main(args.num_samples)

@@ -1,0 +1,65 @@
+{
+  "accuracy": 90.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: For Halloween Megan received 11 pieces of candy from neighbors and 5 pieces from her older sister. If she only ate 8 pieces a day, how long would the candy last her?\nA:",
+      "ground truth": "2",
+      "llm_output": " The answer is 3 days.",
+      "pred_ans": "3"
+    },
+    {
+      "new_prompt": "Q: Bianca and her mom were picking carrots from their garden. Bianca picked 26 and her mother picked 15. If only 16 of the carrots were good, how many bad carrots did they have?\nA:",
+      "ground truth": "25",
+      "llm_output": " The answer is 25.",
+      "pred_ans": "25"
+    },
+    {
+      "new_prompt": "Q: Paige and her friends were recycling paper for their class. For every 4 pounds they recycled they earned one point. If Paige recycled 14 pounds and her friends recycled 2 pounds, how many points did they earn?\nA:",
+      "ground truth": "4",
+      "llm_output": " The answer is 4.",
+      "pred_ans": "4"
+    },
+    {
+      "new_prompt": "Q: In fourth grade there were 4 students at the start of the year. During the year 3 students left and 42 new students came to school. How many students were in fourth grade at the end?\nA:",
+      "ground truth": "43",
+      "llm_output": " The answer is 43.",
+      "pred_ans": "43"
+    },
+    {
+      "new_prompt": "Q: A toy store had 4 giant stuffed bears in stock when they got another shipment with 10 bears in it. The put the bears onto shelves with 7 on each shelf. How many shelves did they use?\nA:",
+      "ground truth": "2",
+      "llm_output": " The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Bianca was organizing her book case making sure each of the shelves had exactly 8 books on it. If she had 5 shelves of mystery books and 4 shelves of picture books, how many books did she have total?\nA:",
+      "ground truth": "72",
+      "llm_output": " The answer is 72.",
+      "pred_ans": "72"
+    },
+    {
+      "new_prompt": "Q: Megan baked 68 cupcakes for her school's bake sale. If her brother, Todd, ate 32 of them how many packages could she make if she put 6 cupcake in each package?\nA:",
+      "ground truth": "6",
+      "llm_output": " The answer is 6.",
+      "pred_ans": "6"
+    },
+    {
+      "new_prompt": "Q: A pet store had 13 siamese cats and 5 house cats. During a sale they sold 10 cats. How many cats do they have left?\nA:",
+      "ground truth": "8",
+      "llm_output": " The answer is 8.",
+      "pred_ans": "8"
+    },
+    {
+      "new_prompt": "Q: Billy was organizing his baseball cards in a binder with 5 on each page. If he had 3 new cards and 42 old cards to put in the binder, how many pages would he use?\nA:",
+      "ground truth": "9",
+      "llm_output": " The answer is 9.",
+      "pred_ans": "9"
+    },
+    {
+      "new_prompt": "Q: Adam bought 2 boxes of chocolate candy and 5 boxes of caramel candy. If each box has 4 pieces inside it, how much candy did he have total?\nA:",
+      "ground truth": "28",
+      "llm_output": " The answer is 28.",
+      "pred_ans": "28"
+    }
+  ]
+}

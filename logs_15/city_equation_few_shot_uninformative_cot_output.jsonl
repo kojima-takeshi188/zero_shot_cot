@@ -1,0 +1,17 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: Toronto - Cairo\nA:",
+      "ground truth": "-110",
+      "llm_output": " Toronto is the largest city in Canada. It's known for its modern skyline and the iconic CN Tower. Cairo is the capital of Egypt. It's a bustling city with a rich history and is home to the Great Pyramids of Giza. The answer is -6.",
+      "pred_ans": "-6"
+    },
+    {
+      "new_prompt": "Q: Istanbul + Johannesburg\nA:",
+      "ground truth": "57",
+      "llm_output": " Istanbul is a major city in Turkey. It's known for its rich history and the Hagia Sophia. Johannesburg, often known as Jo'burg, is the largest city in South Africa. It's the economic heart of Africa and is known for its modern architecture. The answer is 155.",
+      "pred_ans": "155"
+    }
+  ]
+}

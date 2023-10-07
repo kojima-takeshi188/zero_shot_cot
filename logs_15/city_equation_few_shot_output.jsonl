@@ -1,0 +1,65 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: New York + Buenos Aires\nA:",
+      "ground truth": "-132",
+      "llm_output": " The answer is New York + Buenos Aires.",
+      "pred_ans": "New York + Buenos Aires"
+    },
+    {
+      "new_prompt": "Q: New York + Paris\nA:",
+      "ground truth": "-72",
+      "llm_output": " The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Toronto - Cairo\nA:",
+      "ground truth": "-110",
+      "llm_output": " The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Rome\nA:",
+      "ground truth": "17",
+      "llm_output": " The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Toronto + Lagos\nA:",
+      "ground truth": "-76",
+      "llm_output": " The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Beijing + Mumbai\nA:",
+      "ground truth": "189",
+      "llm_output": " The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Bangkok - Rome\nA:",
+      "ground truth": "88",
+      "llm_output": " The answer is -1.",
+      "pred_ans": "-1"
+    },
+    {
+      "new_prompt": "Q: Cairo + Seoul\nA:",
+      "ground truth": "158",
+      "llm_output": " The answer is Cairo + Seoul.",
+      "pred_ans": "Cairo + Seoul"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Bangkok\nA:",
+      "ground truth": "128",
+      "llm_output": " The answer is Johannesburg + Bangkok.",
+      "pred_ans": "Johannesburg + Bangkok"
+    },
+    {
+      "new_prompt": "Q: Toronto - Cairo\nA:",
+      "ground truth": "-110",
+      "llm_output": " The answer is -1.",
+      "pred_ans": "-1"
+    }
+  ]
+}

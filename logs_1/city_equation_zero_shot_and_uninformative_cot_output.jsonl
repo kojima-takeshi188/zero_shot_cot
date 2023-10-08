@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: Toronto - Paris\nA:",
+      "ground truth": "-81",
+      "llm_output": "Toronto is the largest city in Canada and is known for its high-rise skyline including the iconic CN Tower. Paris, on the other hand, is the capital of France and is famous for its fashion, art, and landmarks like the Eiffel Tower. The answer is -6.",
+      "pred_ans": "-6"
+    }
+  ]
+}

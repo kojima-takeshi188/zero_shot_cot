@@ -24,7 +24,7 @@ def main(num_samples):
     
     #print(city_coordinates_data)
 
-    questions_city_example, questions_num_example, answers_example = generate_equations("city_coordinates.json", num_samples, m, flag=1, file_name = "city_equation_prompt.json")
+    questions_city_example, questions_num_example, answers_example = generate_equations("city_coordinates.json", 10, m, flag=1, file_name = "city_equation_prompt.json")
     
     print(questions_city_example)
     print(questions_num_example)

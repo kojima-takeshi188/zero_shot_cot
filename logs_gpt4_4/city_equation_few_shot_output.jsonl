@@ -1,0 +1,65 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: Sydney + Johannesburg\nA:",
+      "ground truth": "179",
+      "llm_output": "The problem is asking to add the values of Sydney and Johannesburg.\n\nThe value for Sydney is 151.\nThe value for Johannesburg is 28.\n\nSo, ",
+      "pred_ans": "The problem is asking to add the values of Sydney and Johannesburg.\n\nThe value for Sydney is 151.\nThe value for Johannesburg is 28.\n\nSo,"
+    },
+    {
+      "new_prompt": "Q: London + Sao Paulo\nA:",
+      "ground truth": "-47",
+      "llm_output": "The longitude of London is 0 degrees and the longitude of Sao Paulo is -46 degrees. \n\n0 + (-46) = -46\n\nSo, London",
+      "pred_ans": "The longitude of London is 0 degrees and the longitude of Sao Paulo is -46 degrees. \n\n0 + (-46) = -46\n\nSo, London"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Seoul\nA:",
+      "ground truth": "9",
+      "llm_output": "The longitude of Los Angeles is approximately -118 degrees. The longitude of Seoul is approximately 127 degrees. \n\nLos Angeles + Seoul = -118 + 127",
+      "pred_ans": "The longitude of Los Angeles is approximately -118 degrees. The longitude of Seoul is approximately 127 degrees. \n\nLos Angeles + Seoul = -118 + 127"
+    },
+    {
+      "new_prompt": "Q: Rome + Cairo\nA:",
+      "ground truth": "43",
+      "llm_output": "The longitude of Rome is 12 degrees East and the longitude of Cairo is 31 degrees East.\n\nTo find the sum, you add the longitudes together:\n\n",
+      "pred_ans": "The longitude of Rome is 12 degrees East and the longitude of Cairo is 31 degrees East.\n\nTo find the sum, you add the longitudes together:"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Tokyo\nA:",
+      "ground truth": "-258",
+      "llm_output": "The longitude of Los Angeles is approximately -118 degrees. The longitude of Tokyo is approximately 139 degrees. \n\nTo find the difference, subtract the longitude of Los",
+      "pred_ans": "The longitude of Los Angeles is approximately -118 degrees. The longitude of Tokyo is approximately 139 degrees. \n\nTo find the difference, subtract the longitude of Los"
+    },
+    {
+      "new_prompt": "Q: Cairo + Sao Paulo\nA:",
+      "ground truth": "-16",
+      "llm_output": "The longitude of Cairo is 30 degrees east and the longitude of Sao Paulo is 46 degrees west. \n\nWhen adding these together, we need to consider the",
+      "pred_ans": "The longitude of Cairo is 30 degrees east and the longitude of Sao Paulo is 46 degrees west. \n\nWhen adding these together, we need to consider the"
+    },
+    {
+      "new_prompt": "Q: Istanbul + Rome\nA:",
+      "ground truth": "41",
+      "llm_output": "To solve this, we need to know the numerical values assigned to each city. Without this information, we cannot perform the operation.",
+      "pred_ans": "To solve this, we need to know the numerical values assigned to each city. Without this information, we cannot perform the operation"
+    },
+    {
+      "new_prompt": "Q: Mexico City - Tokyo\nA:",
+      "ground truth": "-239",
+      "llm_output": "The longitude of Mexico City is -99 degrees. The longitude of Tokyo is 139 degrees. \n\nTo find the difference, subtract the longitude of Mexico City from",
+      "pred_ans": "The longitude of Mexico City is -99 degrees. The longitude of Tokyo is 139 degrees. \n\nTo find the difference, subtract the longitude of Mexico City from"
+    },
+    {
+      "new_prompt": "Q: Moscow - Mumbai\nA:",
+      "ground truth": "-35",
+      "llm_output": "The problem is asking to subtract the longitude of Mumbai from the longitude of Moscow.\n\nThe longitude of Moscow is 37.6 degrees east.\nThe longitude of Mumbai",
+      "pred_ans": "The problem is asking to subtract the longitude of Mumbai from the longitude of Moscow.\n\nThe longitude of Moscow is 37.6 degrees east.\nThe longitude of Mumbai"
+    },
+    {
+      "new_prompt": "Q: Paris + Los Angeles\nA:",
+      "ground truth": "-116",
+      "llm_output": "To solve this, we need to know the numerical values assigned to each city. Without that information, we cannot provide a numerical answer.",
+      "pred_ans": "To solve this, we need to know the numerical values assigned to each city. Without that information, we cannot provide a numerical answer"
+    }
+  ]
+}

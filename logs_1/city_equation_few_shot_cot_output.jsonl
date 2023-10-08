@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: Johannesburg - Mumbai\nA:",
+      "ground truth": "-45",
+      "llm_output": "Using the longitudes of cities, the equation \"Johannesburg - Mumbai\" translates as \"Johannesburg\" = 28, \"Mumbai\" = 72. Here the longitudes of the eastern hemisphere are positive numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is -44.",
+      "pred_ans": "-44"
+    }
+  ]
+}

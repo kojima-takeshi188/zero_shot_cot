@@ -37,10 +37,16 @@ def main():
         demo = create_demo_text(args, cot_type="non-cot")
     elif args.method == "few_shot_cot":
         demo = create_demo_text(args, cot_type="informative-cot")
+    elif args.method == "few_shot_cot_with_trigger":
+        demo = create_demo_text(args, cot_type="informative-cot")
     elif args.method == "few_shot_uninformative_cot":  # you'll need to add support for this in your argument parser
         demo = create_demo_text(args, cot_type="uninformative-cot")
-    elif args.method == "zero_shot_and_uninformative_cot":  
-        demo = create_demo_text(args, cot_type="zero-shot-and-uninformative-cot")
+    elif args.method == "uninformative_cot_with_trigger":  
+        demo = create_demo_text(args, cot_type="uninformative-cot-with-trigger")
+    elif args.method == "ICL_with_trigger":
+        demo = create_demo_text(args, cot_type="non-cot")
+    elif args.method == "uninformative_demographics_cot_with_trigger":  
+        demo = create_demo_text(args, cot_type="uninformative-demographics-cot")
     else:
         pass
 
@@ -81,10 +87,16 @@ def main():
             x = demo + x
         elif args.method == "few_shot_cot":
             x = demo + x
+        elif args.method == "ICL_with_trigger":
+            x = demo + x + " Concisely explain your steps and write your answer as a integer in the last sentence starting with 'The answer is'. "
+        elif args.method == "few_shot_cot_with_trigger":
+            x = demo + x + " Concisely explain your steps and write your answer as a integer in the last sentence starting with 'The answer is'. "
         elif args.method == "few_shot_uninformative_cot":
             x = demo + x
-        elif args.method == "zero_shot_and_uninformative_cot":
-            x = demo + x + " " + args.cot_trigger
+        elif args.method == "uninformative_cot_with_trigger":
+            x = demo + x + " Concisely explain your steps and write your answer as a integer in the last sentence starting with 'The answer is'. "
+        elif args.method == "uninformative_demographics_cot_with_trigger":
+            x = demo + x + " Concisely explain your steps and write your answer as a integer in the last sentence starting with 'The answer is'. "
         else:
             raise ValueError("method is not properly defined ...")
 
@@ -163,17 +175,17 @@ def parse_arguments():
     parser.add_argument("--max_num_worker", type=int, default=3, help="maximum number of workers for dataloader")
     
     parser.add_argument(
-        "--model", type=str, default="gpt3", choices=["gpt3", "gpt3-medium", "gpt3-large", "gpt3-xl", "gpt3-xxl", "gpt3.5"], help="model used for decoding. Note that 'gpt3' are the smallest models."
+        "--model", type=str, default="gpt3", choices=["gpt3", "gpt3-medium", "gpt3-large", "gpt3-xl", "gpt3-xxl", "gpt3.5", "gpt4"], help="model used for decoding. Note that 'gpt3' are the smallest models."
     )
     
     parser.add_argument(
-        "--method", type=str, default="zero_shot_cot", choices=["zero_shot", "zero_shot_cot", "few_shot", "few_shot_cot", "few_shot_uninformative_cot", "zero_shot_and_uninformative_cot"], help="method"
+        "--method", type=str, default="zero_shot_cot", choices=["zero_shot", "zero_shot_cot", "few_shot", "few_shot_cot", "few_shot_cot_with_trigger", "few_shot_uninformative_cot", "uninformative_cot_with_trigger","ICL_with_trigger","uninformative_demographics_cot_with_trigger"], help="method"
     )
     parser.add_argument(
         "--cot_trigger_no", type=int, default=1, help="A trigger sentence that elicits a model to execute chain of thought"
     )
     parser.add_argument(
-        "--max_length_cot", type=int, default=128, help="maximum length of output tokens by model for reasoning extraction"
+        "--max_length_cot", type=int, default=1024, help="maximum length of output tokens by model for reasoning extraction"
     )
     parser.add_argument(
         "--max_length_direct", type=int, default=32, help="maximum length of output tokens by model for answer extraction"

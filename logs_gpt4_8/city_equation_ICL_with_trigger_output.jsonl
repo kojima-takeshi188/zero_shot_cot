@@ -1,0 +1,23 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: Lagos - Los Angeles\nA:",
+      "ground truth": "121",
+      "llm_output": "To answer this question, we need to understand that the cities are being represented by their respective ASCII values. The ASCII value of a string is the sum of the ASCII values of each character in the string. \n\nLet's calculate the ASCII values for both \"Lagos\" and \"Los Angeles\":\n\n1. \"Lagos\": L(76) + a(97) + g(103) + o(111) + s(115) = 502\n2. \"Los Angeles\": L(76) + o(111) + s(115) + A(65) + n(110) + g(103) + e(101) + l(108) + e(101) + s(115) = 904\n\nNow, subtract the ASCII value of \"Lagos\" from \"Los Angeles\":\n\n904 - 502 = 402\n\nSo, the answer is 402.",
+      "pred_ans": "402"
+    },
+    {
+      "new_prompt": "Q: Mexico City + Los Angeles\nA:",
+      "ground truth": "-217",
+      "llm_output": "I'm sorry for the confusion, but the questions seem to be using city names in a mathematical context. However, city names don't have numerical values inherently associated with them. If you're referring to a specific attribute of these cities (like population, area, or altitude), please specify so I can provide a more accurate answer.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: New York + Sydney\nA:",
+      "ground truth": "77",
+      "llm_output": "I'm sorry for the confusion, but the questions seem to be using city names in a mathematical context. However, city names don't have numerical values inherently associated with them, so they can't be added or subtracted in the way numbers can. Could you please provide more context or clarify your question?",
+      "pred_ans": ""
+    }
+  ]
+}

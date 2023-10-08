@@ -2,9 +2,9 @@ import argparse
 import json
 import pandas
 
-METHODS = ["few_shot", "few_shot_cot", "few_shot_uninformative_cot", "zero_shot_and_uninformative_cot", "zero_shot_cot"]
-DATASETS = ["multiarith", "gsm8k", "city_equation"]
-NUM_SAMPLES = [4, 10, 15, 20]
+METHODS = ["few_shot", "few_shot_cot", "few_shot_cot_with_trigger","ICL_with_trigger","uninformative_cot_with_trigger", "uninformative_demographics_cot_with_trigger"]
+DATASETS = ["city_equation"]
+NUM_SAMPLES = [10]
 
 def main(log_prefix, output_dir):
     for d in DATASETS:
@@ -19,9 +19,6 @@ def main(log_prefix, output_dir):
         data_frame = pandas.DataFrame(df)
         data_frame.index = NUM_SAMPLES
         data_frame.to_csv(f"{output_dir}/{d}_accuracy_record.csv")
-
-                    
-            
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

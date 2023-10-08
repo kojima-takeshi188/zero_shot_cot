@@ -75,18 +75,34 @@ def decoder_for_gpt3(args, input, max_length, i, k):
         engine = "text-davinci-003"
     elif args.model == "gpt3.5":
         engine = "gpt-3.5-turbo-instruct"
+    elif args.model == "gpt4":
+        engine = "gpt-4"
     else:
         raise ValueError("model is not properly defined ...")
-        
-    response = openai.Completion.create(
-      engine=engine,
-      prompt=input,
-      max_tokens=max_length,
-      temperature=0,
-      stop=None
-    )
     
-    return response["choices"][0]["text"]
+    if engine == "gpt-4":
+        response = openai.ChatCompletion.create(
+            model=engine,
+            messages = [
+                {"role": "system", "content": "You are ChatGPT, a large language model trained by OpenAI, based on the GPT-4 architecture."},
+                {"role": "user", "content": input}
+                ],
+            #max_tokens=max_length,
+            temperature=0,
+            top_p = .99,
+            stop=None
+        )
+        #print(response)
+        return response["choices"][0].message["content"]
+    else:
+        response = openai.Completion.create(
+            engine=engine,
+            prompt=input,
+            max_tokens=max_length,
+            temperature=0,
+            stop=None
+        )
+        return response["choices"][0]["text"]
 
 class Decoder():
     def __init__(self, args):
@@ -388,7 +404,7 @@ def answer_cleansing(args, pred):
 
     print("pred_before : " + pred)
     
-    if args.method in ("few_shot", "few_shot_cot", "few_shot_uninformative_cot", "zero_shot_and_uninformative_cot"):
+    if args.method in ("few_shot", "few_shot_cot", "few_shot_cot_with_trigger", "few_shot_uninformative_cot", "uninformative_cot_with_trigger","ICL_with_trigger","uninformative_demographics_cot_with_trigger"):
         preds = pred.split(args.direct_answer_trigger_for_fewshot)
         answer_flag = True if len(preds) > 1 else False 
         pred = preds[-1]
@@ -396,7 +412,9 @@ def answer_cleansing(args, pred):
     if args.dataset in ("aqua", "commonsensqa"):
         pred = re.findall(r'A|B|C|D|E', pred)
     elif args.dataset == "city_equation":
-        pred = [pred.strip()]
+        #pred = [pred.strip()]
+        pred = pred.replace(",", "")
+        pred = [s for s in re.findall(r'-?\d+\.?\d*', pred)]
     elif args.dataset == "bigbench_date":
         pred = re.findall(r'A|B|C|D|E|F', pred)
     elif args.dataset in ("object_tracking"):
@@ -419,14 +437,14 @@ def answer_cleansing(args, pred):
     if len(pred) == 0:
         pred = ""
     else:
-        if args.method in ("few_shot", "few_shot_cot", "few_shot_uninformative_cot","zero_shot_and_uninformative_cot"):
+        if args.method in ("few_shot", "few_shot_cot", "few_shot_cot_with_trigger", "few_shot_uninformative_cot","uninformative_cot_with_trigger","ICL_with_trigger","uninformative_demographics_cot_with_trigger"):
             if answer_flag:
                 # choose the first element in list ...
                 pred = pred[0]
             else:
                 # choose the last element in list ...
                 pred = pred[-1]
-        elif args.method in ("zero_shot", "zero_shot_cot", "few_shot_uninformative_cot","zero_shot_and_uninformative_cot"):
+        elif args.method in ("zero_shot", "zero_shot_cot"):
             # choose the first element in list ...
             pred = pred[0]
         else:
@@ -506,7 +524,7 @@ def answer_cleansing(args, pred):
 def create_demo_text(args, cot_type):
     x, z, y = [], [], []
     z_uninformative = []  # for uninformative COT
-    
+    z_demographics = []
     # ... [unchanged code for x, z, and y]
     
     # example sentences ...    
@@ -574,7 +592,8 @@ def create_demo_text(args, cot_type):
         x = prompt_data['x']
         y = prompt_data['y']
         z = prompt_data['z']
-        z_uninformative = prompt_data['z_uninformative']  
+        z_uninformative = prompt_data['z_uninformative']
+        z_demographics = prompt_data['z_demographics']  
     else:
         raise ValueError("dataset is not properly defined ...")
 
@@ -594,8 +613,11 @@ def create_demo_text(args, cot_type):
         elif cot_type == "uninformative-cot":
             demo_text += "Q: " + x[i] + "\nA: " + z_uninformative[i] + " " + \
                          args.direct_answer_trigger_for_fewshot + " " + y[i] + ".\n\n"
-        elif cot_type == "zero-shot-and-uninformative-cot":
+        elif cot_type == "uninformative-cot-with-trigger":
             demo_text += "Q: " + x[i] + "\nA: " + z_uninformative[i] + " " + \
+                         args.direct_answer_trigger_for_fewshot + " " + y[i] + ".\n\n"
+        elif cot_type == "uninformative-demographics-cot":
+            demo_text += "Q: " + x[i] + "\nA: " + z_demographics[i] + " " + \
                          args.direct_answer_trigger_for_fewshot + " " + y[i] + ".\n\n"
         elif cot_type == "non-cot":
             demo_text += "Q: " + x[i] + "\nA: " + \

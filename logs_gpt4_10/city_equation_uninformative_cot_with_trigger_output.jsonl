@@ -1,0 +1,605 @@
+{
+  "accuracy": 46.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: Sao Paulo - New York\nA:",
+      "ground truth": "27",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Sao Paulo is located at approximately 46 degrees west, and New York is located at approximately 74 degrees west. If we subtract the longitude of Sao Paulo from that of New York, we get -28. The answer is -28.",
+      "pred_ans": "-28"
+    },
+    {
+      "new_prompt": "Q: Moscow + New York\nA:",
+      "ground truth": "-36",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Moscow is at 37.6 degrees east, and New York is at 74 degrees west. When we add these together, we get 111.6. However, since we're looking for an integer answer, we'll round this to the nearest whole number. The answer is 112.",
+      "pred_ans": "112"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo - Buenos Aires\nA:",
+      "ground truth": "11",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Sao Paulo is at -46 longitude and Buenos Aires is at -58 longitude. If we subtract Buenos Aires' longitude from Sao Paulo's, we get 12. The answer is 12.",
+      "pred_ans": "12"
+    },
+    {
+      "new_prompt": "Q: London + Istanbul\nA:",
+      "ground truth": "29",
+      "llm_output": "To calculate the sum of the geographic coordinates of London and Istanbul, we need to consider their longitude values. \n\nLondon, United Kingdom, is located at a longitude of approximately -0.1276 degrees (west of the Prime Meridian), while Istanbul, Turkey, is located at a longitude of approximately 28.9784 degrees (east of the Prime Meridian).\n\nWhen we add these two values together, we get:\n\n-0.1276 (London's longitude) + 28.9784 (Istanbul's longitude) = 28.8508\n\nRounding this to the nearest whole number, we get 29.\n\nThe answer is 29.",
+      "pred_ans": "29"
+    },
+    {
+      "new_prompt": "Q: Beijing + Istanbul\nA:",
+      "ground truth": "145",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Beijing is at 116\u00b0 east of the Prime Meridian, and Istanbul is at 29\u00b0 east. If we add these two together, we get 145. The answer is 145.",
+      "pred_ans": "145"
+    },
+    {
+      "new_prompt": "Q: Beijing + London\nA:",
+      "ground truth": "116",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Beijing is at 116\u00b0 east of the Prime Meridian, and London is at 0\u00b0. When we add these two together, we get 116. The answer is 116.",
+      "pred_ans": "116"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + London\nA:",
+      "ground truth": "28",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Johannesburg is at 28 degrees east, and London is at 0 degrees (it's on the Prime Meridian). So, if we add these together, we get 28. The answer is 28.",
+      "pred_ans": "28"
+    },
+    {
+      "new_prompt": "Q: Sydney - Mumbai\nA:",
+      "ground truth": "78",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Sydney is at 151 degrees east, and Mumbai is at 72 degrees east. If we subtract the longitude of Mumbai from that of Sydney, we get 151 - 72 = 79. The answer is 79.",
+      "pred_ans": "79"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Cairo\nA:",
+      "ground truth": "-3",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Johannesburg is at 28 degrees east, and Cairo is at 31 degrees east. If we subtract the longitude of Cairo from that of Johannesburg, we get -3. However, since we're dealing with absolute differences in location, we take the absolute value, which gives us 3. The answer is 3.",
+      "pred_ans": "3"
+    },
+    {
+      "new_prompt": "Q: Mexico City + Bangkok\nA:",
+      "ground truth": "1",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Mexico City is at -99 degrees longitude and Bangkok is at 100 degrees longitude. When we add these two together, we get 1. The answer is 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: Cairo - Mumbai\nA:",
+      "ground truth": "-42",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Cairo, Egypt is located at approximately 30 degrees east, and Mumbai, India is located at approximately 73 degrees east. To find the difference, we subtract the longitude of Cairo from the longitude of Mumbai: 73 - 30 = 43. The answer is 43.",
+      "pred_ans": "43"
+    },
+    {
+      "new_prompt": "Q: Paris - Mexico City\nA:",
+      "ground truth": "101",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Paris is located at 2 degrees east, and Mexico City is located at 99 degrees west. If we subtract the longitude of Mexico City from that of Paris, we get -97. The answer is -97.",
+      "pred_ans": "-97"
+    },
+    {
+      "new_prompt": "Q: Cairo + Bangkok\nA:",
+      "ground truth": "131",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Cairo, Egypt is located at approximately 30 degrees east, and Bangkok, Thailand is located at approximately 100 degrees east. If we add these two values together, we get 130. Therefore, the answer is 130.",
+      "pred_ans": "130"
+    },
+    {
+      "new_prompt": "Q: Sydney - Cairo\nA:",
+      "ground truth": "120",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Sydney is at 151 degrees east, and Cairo is at 31 degrees east. If we subtract Cairo's longitude from Sydney's, we get 151 - 31 = 120. The answer is 120.",
+      "pred_ans": "120"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Johannesburg\nA:",
+      "ground truth": "-90",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. The answer is -56.",
+      "pred_ans": "-56"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Mexico City\nA:",
+      "ground truth": "-19",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Los Angeles is approximately at -118 degrees longitude, and Mexico City is approximately at -99 degrees longitude. If we subtract the longitude of Mexico City from that of Los Angeles, we get -118 - (-99) = -19. The answer is -19.",
+      "pred_ans": "-19"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Mexico City\nA:",
+      "ground truth": "-217",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. The answer is -210.",
+      "pred_ans": "-210"
+    },
+    {
+      "new_prompt": "Q: Beijing - Cairo\nA:",
+      "ground truth": "85",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Beijing is at 116\u00b0E and Cairo is at 31\u00b0E. If we subtract the longitude of Cairo from that of Beijing, we get 116 - 31 = 85. The answer is 85.",
+      "pred_ans": "85"
+    },
+    {
+      "new_prompt": "Q: Tokyo + London\nA:",
+      "ground truth": "140",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Tokyo is located at 139 degrees east of the Prime Meridian, and London is located at 0 degrees (it's on the Prime Meridian). So, if we add these two together, we get 139. The answer is 139.",
+      "pred_ans": "139"
+    },
+    {
+      "new_prompt": "Q: Rome - Seoul\nA:",
+      "ground truth": "-115",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Rome is located at 12 degrees east, and Seoul is located at 127 degrees east. If we subtract the longitude of Seoul from that of Rome, we get -115. The answer is -115.",
+      "pred_ans": "-115"
+    },
+    {
+      "new_prompt": "Q: New York - Tokyo\nA:",
+      "ground truth": "-214",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. New York is approximately at -74 degrees longitude, and Tokyo is at approximately 139 degrees longitude. If we subtract New York's longitude from Tokyo's, we get 139 - (-74) = 213. The answer is 213.",
+      "pred_ans": "213"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Sao Paulo\nA:",
+      "ground truth": "-11",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Buenos Aires, Argentina is approximately at -58 degrees longitude, while Sao Paulo, Brazil is approximately at -46 degrees longitude. If we subtract the longitude of Sao Paulo from Buenos Aires, we get -58 - (-46) = -12. The answer is -12.",
+      "pred_ans": "-12"
+    },
+    {
+      "new_prompt": "Q: Sydney + Lagos\nA:",
+      "ground truth": "154",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Sydney is at 151 degrees east, and Lagos is at 3 degrees east. If we add these together, we get 154. The answer is 154.",
+      "pred_ans": "154"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Tokyo\nA:",
+      "ground truth": "22",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Los Angeles is at -118 degrees longitude and Tokyo is at 139 degrees longitude. When we add these together, we get 21. The answer is 21.",
+      "pred_ans": "21"
+    },
+    {
+      "new_prompt": "Q: New York - Seoul\nA:",
+      "ground truth": "-201",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. New York is located at approximately 74 degrees west longitude, and Seoul is located at approximately 127 degrees east longitude. If we subtract the longitude of Seoul from that of New York, we get -201 degrees. However, the maximum difference in longitude can only be 180 degrees (since the Earth is a sphere), so we subtract this from 360 degrees to get the shortest distance. The answer is 159.",
+      "pred_ans": "159"
+    },
+    {
+      "new_prompt": "Q: Lagos + Moscow\nA:",
+      "ground truth": "41",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Lagos is located at 3 degrees east, and Moscow is located at 37 degrees east. If we add these two together, we get 40. The answer is 40.",
+      "pred_ans": "40"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Beijing\nA:",
+      "ground truth": "-87",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Istanbul is located at 28.9784\u00b0 E, and Beijing is at 116.4074\u00b0 E. To find the difference, we subtract the longitude of Istanbul from the longitude of Beijing. \n\nThe answer is -88.",
+      "pred_ans": "-88"
+    },
+    {
+      "new_prompt": "Q: Paris + New York\nA:",
+      "ground truth": "-72",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Paris is located at 2 degrees east, and New York is located at 74 degrees west. When we add these together, we get -72 (since west is considered negative in geographic coordinates). The answer is -72.",
+      "pred_ans": "-72"
+    },
+    {
+      "new_prompt": "Q: Toronto + Beijing\nA:",
+      "ground truth": "37",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. The answer is 226.",
+      "pred_ans": "226"
+    },
+    {
+      "new_prompt": "Q: Sydney + Toronto\nA:",
+      "ground truth": "72",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. The answer is 211.",
+      "pred_ans": "211"
+    },
+    {
+      "new_prompt": "Q: Beijing + Cairo\nA:",
+      "ground truth": "147",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Beijing is at 116\u00b0 east of the Prime Meridian, and Cairo is at 31\u00b0 east of the Prime Meridian. If we add these two together, we get 147\u00b0. The answer is 147.",
+      "pred_ans": "147"
+    },
+    {
+      "new_prompt": "Q: Lagos + Mumbai\nA:",
+      "ground truth": "76",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Lagos is located at 3 degrees east, and Mumbai is located at 72 degrees east. If we add these two together, we get 75. The answer is 75.",
+      "pred_ans": "75"
+    },
+    {
+      "new_prompt": "Q: Cairo + Lagos\nA:",
+      "ground truth": "34",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Cairo, Egypt is located at approximately 30 degrees east, and Lagos, Nigeria is located at approximately 3 degrees east. If we add these together, we get 33. Therefore, the answer is 33.",
+      "pred_ans": "33"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Rome\nA:",
+      "ground truth": "-106",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. The answer is 142.",
+      "pred_ans": "142"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Sao Paulo\nA:",
+      "ground truth": "-71",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. The answer is -23.",
+      "pred_ans": "-23"
+    },
+    {
+      "new_prompt": "Q: Lagos + Toronto\nA:",
+      "ground truth": "-76",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Lagos has a longitude of 3 degrees East, and Toronto has a longitude of 79 degrees West. When we add these together, we get -76 (since west is conventionally represented as negative). The answer is -76.",
+      "pred_ans": "-76"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + London\nA:",
+      "ground truth": "-58",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Buenos Aires, Argentina is approximately at -58 degrees longitude, and London, United Kingdom is at 0 degrees longitude. When we add these two values together, we get -58. The answer is -58.",
+      "pred_ans": "-58"
+    },
+    {
+      "new_prompt": "Q: Bangkok - Johannesburg\nA:",
+      "ground truth": "72",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Bangkok is at 100 degrees east, and Johannesburg is at 28 degrees east. So, if we subtract Johannesburg's longitude from Bangkok's, we get 100 - 28 = 72. The answer is 72.",
+      "pred_ans": "72"
+    },
+    {
+      "new_prompt": "Q: London - Cairo\nA:",
+      "ground truth": "-31",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. London is located at a longitude of -0.1278, and Cairo is located at a longitude of 31.2357. \n\nTo find the difference between the two, we subtract the longitude of Cairo from the longitude of London: -0.1278 - 31.2357 = -31.3635. \n\nHowever, since we're looking for an absolute difference, we take the absolute value of this result, which gives us 31.3635. \n\nRounding this to the nearest whole number, we get 31. \n\nThe answer is 31.",
+      "pred_ans": "31"
+    },
+    {
+      "new_prompt": "Q: Beijing + Johannesburg\nA:",
+      "ground truth": "144",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Beijing is at 116\u00b0 east of the Prime Meridian, and Johannesburg is at 28\u00b0 east. If we add these together, we get 144. The answer is 144.",
+      "pred_ans": "144"
+    },
+    {
+      "new_prompt": "Q: Rome - Rome\nA:",
+      "ground truth": "0",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Since we are subtracting the same city's coordinates from itself, the result will be zero. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Toronto + Sydney\nA:",
+      "ground truth": "72",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. The answer is 214.",
+      "pred_ans": "214"
+    },
+    {
+      "new_prompt": "Q: Paris - Tokyo\nA:",
+      "ground truth": "-138",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Paris is located at 2 degrees east, and Tokyo is located at 139 degrees east. If we subtract the longitude of Paris from that of Tokyo, we get -137. The answer is -137.",
+      "pred_ans": "-137"
+    },
+    {
+      "new_prompt": "Q: Paris - London\nA:",
+      "ground truth": "2",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Paris is at 2 degrees east, and London is at 0 degrees. So, if we subtract the longitude of London from the longitude of Paris, we get 2 - 0 = 2. The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Bangkok - Rome\nA:",
+      "ground truth": "88",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Bangkok is at 100 degrees east, and Rome is at 12 degrees east. If we subtract Rome's longitude from Bangkok's, we get 100 - 12 = 88. The answer is 88.",
+      "pred_ans": "88"
+    },
+    {
+      "new_prompt": "Q: Sydney - Los Angeles\nA:",
+      "ground truth": "269",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Sydney is located at 151 degrees east, and Los Angeles is located at 118 degrees west. When we subtract the longitude of Los Angeles from Sydney, we get 151 - (-118) = 269. The answer is 269.",
+      "pred_ans": "269"
+    },
+    {
+      "new_prompt": "Q: Beijing - London\nA:",
+      "ground truth": "116",
+      "llm_output": "To calculate the difference between the geographic coordinates of Beijing and London, we need to consider their longitude coordinates. Beijing is approximately at 116\u00b0E, and London is at 0\u00b0. \n\nSo, we subtract the longitude of London from that of Beijing: 116 - 0 = 116.\n\nThe answer is 116.",
+      "pred_ans": "116"
+    },
+    {
+      "new_prompt": "Q: New York + Buenos Aires\nA:",
+      "ground truth": "-132",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. New York is located at approximately 74 degrees west longitude, and Buenos Aires is located at approximately 58 degrees west longitude. If we add these two values together, we get -132. However, since we're dealing with degrees of longitude, we need to convert this to a positive value to represent the total degrees of longitude spanned by these two cities. The answer is 132.",
+      "pred_ans": "132"
+    },
+    {
+      "new_prompt": "Q: Sydney + Moscow\nA:",
+      "ground truth": "189",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Sydney is located at 151 degrees east, and Moscow is located at 37 degrees east. If we add these two together, we get 188. Therefore, the answer is 188.",
+      "pred_ans": "188"
+    },
+    {
+      "new_prompt": "Q: Toronto + London\nA:",
+      "ground truth": "-79",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. The answer is -49.",
+      "pred_ans": "-49"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Buenos Aires\nA:",
+      "ground truth": "87",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Istanbul, Turkey is at 28.9784\u00b0 E, and Buenos Aires, Argentina is at 58.3816\u00b0 W. To find the difference, we convert Buenos Aires' longitude to positive (as it's in the Western Hemisphere) and subtract Istanbul's longitude from it. \n\nSo, 58.3816 (Buenos Aires) - 28.9784 (Istanbul) = 29.4032. \n\nRounding to the nearest whole number, the answer is 29.",
+      "pred_ans": "29"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Mumbai\nA:",
+      "ground truth": "146",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. The answer is 144.",
+      "pred_ans": "144"
+    },
+    {
+      "new_prompt": "Q: Lagos + Beijing\nA:",
+      "ground truth": "119",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Lagos is located at 3 degrees east, and Beijing is at 116 degrees east. If we add these two together, we get 119. Therefore, the answer is 119.",
+      "pred_ans": "119"
+    },
+    {
+      "new_prompt": "Q: Lagos - Paris\nA:",
+      "ground truth": "1",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Lagos is at 3 degrees east, and Paris is at 2 degrees east. So, if we subtract the longitude of Paris from the longitude of Lagos, we get 3 - 2 = 1. The answer is 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Moscow\nA:",
+      "ground truth": "66",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Johannesburg is at 28 degrees east, and Moscow is at 37 degrees east. If we add these together, we get 65. Therefore, the answer is 65.",
+      "pred_ans": "65"
+    },
+    {
+      "new_prompt": "Q: Lagos - Buenos Aires\nA:",
+      "ground truth": "61",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Lagos has a longitude of 3 degrees East, and Buenos Aires has a longitude of 58 degrees West. If we subtract the longitude of Buenos Aires from that of Lagos, we get -55 (3 - 58 = -55). The answer is -55.",
+      "pred_ans": "-55"
+    },
+    {
+      "new_prompt": "Q: London + Istanbul\nA:",
+      "ground truth": "29",
+      "llm_output": "To calculate the sum of the geographic coordinates of London and Istanbul, we need to consider their longitude coordinates. \n\nLondon's longitude is approximately -0.1276 degrees, and Istanbul's longitude is approximately 28.9784 degrees. \n\nWhen we add these two together, we get 28.8508 degrees. However, since we're looking for an integer answer, we'll round this to the nearest whole number.\n\nThe answer is 29.",
+      "pred_ans": "29"
+    },
+    {
+      "new_prompt": "Q: Moscow - London\nA:",
+      "ground truth": "38",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Moscow is at 37.6 degrees east, and London is at 0.1 degrees west. If we subtract London's longitude from Moscow's, we get 37.7. The answer is 38.",
+      "pred_ans": "38"
+    },
+    {
+      "new_prompt": "Q: Bangkok + Sydney\nA:",
+      "ground truth": "251",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. The answer is 241.",
+      "pred_ans": "241"
+    },
+    {
+      "new_prompt": "Q: Paris - Tokyo\nA:",
+      "ground truth": "-138",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. The answer is -143.",
+      "pred_ans": "-143"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Tokyo\nA:",
+      "ground truth": "-111",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Istanbul is located at 28.9784\u00b0 E, and Tokyo is located at 139.6917\u00b0 E. To find the difference, we subtract the longitude of Istanbul from the longitude of Tokyo.\n\n139.6917 - 28.9784 = 110.7133\n\nRounding to the nearest whole number, we get 111. \n\nThe answer is 111.",
+      "pred_ans": "111"
+    },
+    {
+      "new_prompt": "Q: New York - Lagos\nA:",
+      "ground truth": "-77",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. New York is located at approximately 74 degrees west, and Lagos is located at approximately 3 degrees east. If we subtract the longitude of Lagos from that of New York, we get -77. The answer is -77.",
+      "pred_ans": "-77"
+    },
+    {
+      "new_prompt": "Q: Seoul - New York\nA:",
+      "ground truth": "201",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Seoul is at 127 degrees east, and New York is at 74 degrees west. If we subtract New York's longitude from Seoul's, we get 201 degrees. The answer is 201.",
+      "pred_ans": "201"
+    },
+    {
+      "new_prompt": "Q: London - London\nA:",
+      "ground truth": "0",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Since we are subtracting the same location from itself, the difference would be zero. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Johannesburg\nA:",
+      "ground truth": "-90",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. The answer is -56.",
+      "pred_ans": "-56"
+    },
+    {
+      "new_prompt": "Q: Cairo + Johannesburg\nA:",
+      "ground truth": "59",
+      "llm_output": "To calculate the sum of the geographic coordinates of Cairo and Johannesburg, we need to consider their longitude values. Cairo, Egypt is located at approximately 31 degrees east, and Johannesburg, South Africa is located at approximately 28 degrees east. \n\nAdding these two values together, we get 31 + 28 = 59. \n\nThe answer is 59.",
+      "pred_ans": "59"
+    },
+    {
+      "new_prompt": "Q: Moscow - Moscow\nA:",
+      "ground truth": "0",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Since we are subtracting the same city from itself, the difference in their coordinates would be zero. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Bangkok\nA:",
+      "ground truth": "40",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Tokyo is located at 139 degrees east, and Bangkok is located at 100 degrees east. If we subtract the longitude of Bangkok from that of Tokyo, we get 39. The answer is 39.",
+      "pred_ans": "39"
+    },
+    {
+      "new_prompt": "Q: Rome - Moscow\nA:",
+      "ground truth": "-26",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Rome is located at 12 degrees east, and Moscow is located at 37 degrees east. If we subtract the longitude of Rome from the longitude of Moscow, we get -25. The answer is -25.",
+      "pred_ans": "-25"
+    },
+    {
+      "new_prompt": "Q: Toronto + Mexico City\nA:",
+      "ground truth": "-178",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. The answer is -141.",
+      "pred_ans": "-141"
+    },
+    {
+      "new_prompt": "Q: Cairo + Cairo\nA:",
+      "ground truth": "62",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. The answer is 62.",
+      "pred_ans": "62"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Rome\nA:",
+      "ground truth": "128",
+      "llm_output": "To calculate the difference between the longitudes of Tokyo and Rome, we first need to know their respective coordinates. Tokyo is located at approximately 139 degrees east, and Rome is located at approximately 12 degrees east. \n\nSubtracting the longitude of Rome from that of Tokyo gives us: \n\n139 - 12 = 127\n\nSo, the answer is 127.",
+      "pred_ans": "127"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Johannesburg\nA:",
+      "ground truth": "-86",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Buenos Aires, Argentina is approximately at -58 degrees longitude, while Johannesburg, South Africa is at 28 degrees longitude. If we subtract Johannesburg's longitude from Buenos Aires', we get -58 - 28 = -86. The answer is -86.",
+      "pred_ans": "-86"
+    },
+    {
+      "new_prompt": "Q: Moscow - Cairo\nA:",
+      "ground truth": "7",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Moscow is at 37 degrees east, and Cairo is at 31 degrees east. So, if we subtract Cairo's longitude from Moscow's, we get 37 - 31 = 6. The answer is 6.",
+      "pred_ans": "6"
+    },
+    {
+      "new_prompt": "Q: New York + Lagos\nA:",
+      "ground truth": "-71",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. New York is located at approximately -74 degrees longitude, and Lagos is located at approximately 3 degrees longitude. If we add these together, we get -71. The answer is -71.",
+      "pred_ans": "-71"
+    },
+    {
+      "new_prompt": "Q: Rome + London\nA:",
+      "ground truth": "12",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Rome's longitude is 12 degrees east, and London's longitude is 0 degrees. When we add these together, we get 12. The answer is 12.",
+      "pred_ans": "12"
+    },
+    {
+      "new_prompt": "Q: Mumbai - London\nA:",
+      "ground truth": "73",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. The answer is 43.",
+      "pred_ans": "43"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Johannesburg\nA:",
+      "ground truth": "-86",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Buenos Aires, Argentina is approximately at -58 degrees longitude, while Johannesburg, South Africa is at 28 degrees longitude. If we subtract Johannesburg's longitude from Buenos Aires', we get -58 - 28 = -86. The answer is -86.",
+      "pred_ans": "-86"
+    },
+    {
+      "new_prompt": "Q: Paris - Johannesburg\nA:",
+      "ground truth": "-26",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Paris is located at 2 degrees east, and Johannesburg is at 28 degrees east. If we subtract the longitude of Johannesburg from that of Paris, we get -26. The answer is -26.",
+      "pred_ans": "-26"
+    },
+    {
+      "new_prompt": "Q: Moscow + Rome\nA:",
+      "ground truth": "50",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Moscow is at 37.6 degrees east, and Rome is at 12.5 degrees east. If we add these together, we get 50.1 degrees. However, since we're looking for an integer answer, we'll round this to the nearest whole number. The answer is 50.",
+      "pred_ans": "50"
+    },
+    {
+      "new_prompt": "Q: Toronto - Bangkok\nA:",
+      "ground truth": "-179",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Toronto, Canada, is located at approximately 79 degrees west, and Bangkok, Thailand, is located at approximately 100 degrees east. If we subtract the longitude of Toronto from that of Bangkok, we get -179. The answer is -179.",
+      "pred_ans": "-179"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Buenos Aires\nA:",
+      "ground truth": "86",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Johannesburg is at 28 degrees east, and Buenos Aires is at 58 degrees west. If we subtract Buenos Aires' longitude from Johannesburg's, we get 28 - (-58) = 86. The answer is 86.",
+      "pred_ans": "86"
+    },
+    {
+      "new_prompt": "Q: Beijing - Los Angeles\nA:",
+      "ground truth": "234",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Beijing is at 116\u00b0 east of the Prime Meridian, and Los Angeles is at 118\u00b0 west of the Prime Meridian. To find the difference, we subtract the longitude of Los Angeles from that of Beijing. \n\nThe answer is 234.",
+      "pred_ans": "234"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Moscow\nA:",
+      "ground truth": "-20",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Buenos Aires, Argentina is approximately at -58 degrees longitude, and Moscow, Russia is approximately at 37 degrees longitude. If we add these together, we get -21. The answer is -21.",
+      "pred_ans": "-21"
+    },
+    {
+      "new_prompt": "Q: New York + Los Angeles\nA:",
+      "ground truth": "-192",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. The answer is -158.",
+      "pred_ans": "-158"
+    },
+    {
+      "new_prompt": "Q: Mexico City + Paris\nA:",
+      "ground truth": "-97",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. The answer is -11.",
+      "pred_ans": "-11"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Cairo\nA:",
+      "ground truth": "-2",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Istanbul is located at 28.9784\u00b0 E, and Cairo is located at 31.2357\u00b0 E. To find the difference, we subtract the longitude of Cairo from the longitude of Istanbul: 28.9784 - 31.2357 = -2.2573. However, since we're looking for an integer, we'll round this to -2. The answer is -2.",
+      "pred_ans": "-2"
+    },
+    {
+      "new_prompt": "Q: Moscow + London\nA:",
+      "ground truth": "38",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Moscow is at 37 degrees east, and London is at 0 degrees. Adding these together, we get 37. The answer is 37.",
+      "pred_ans": "37"
+    },
+    {
+      "new_prompt": "Q: Moscow + Paris\nA:",
+      "ground truth": "40",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Moscow is at 37 degrees east, and Paris is at 2 degrees east. Adding these together, we get 39. The answer is 39.",
+      "pred_ans": "39"
+    },
+    {
+      "new_prompt": "Q: Moscow - Paris\nA:",
+      "ground truth": "36",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Moscow is at 37 degrees east, and Paris is at 2 degrees east. If we subtract the longitude of Paris from the longitude of Moscow, we get 37 - 2 = 35. The answer is 35.",
+      "pred_ans": "35"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo - Tokyo\nA:",
+      "ground truth": "-187",
+      "llm_output": "To calculate the difference between the longitudes of Sao Paulo and Tokyo, we first need to know their respective coordinates. \n\nSao Paulo, Brazil is located at approximately 46.6 degrees west longitude. Tokyo, Japan is located at approximately 139.7 degrees east longitude. \n\nTo find the difference, we convert Sao Paulo's west longitude to east by subtracting it from 360, which gives us 313.4 degrees. Then we subtract Tokyo's longitude from this value: 313.4 - 139.7 = 173.7. \n\nRounding to the nearest whole number, the answer is 174.",
+      "pred_ans": "174"
+    },
+    {
+      "new_prompt": "Q: Cairo + Moscow\nA:",
+      "ground truth": "69",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Cairo, Egypt is located at 30.0444\u00b0 E, and Moscow, Russia is located at 37.6176\u00b0 E. If we add these two coordinates together, we get 67.6620\u00b0 E. However, since we are looking for an integer value, we will round this to the nearest whole number. The answer is 68.",
+      "pred_ans": "68"
+    },
+    {
+      "new_prompt": "Q: Cairo + Sydney\nA:",
+      "ground truth": "182",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Cairo, Egypt is at 30.0444\u00b0 E, and Sydney, Australia is at 151.2093\u00b0 E. If we add these two coordinates together, we get 181.2537\u00b0 E. However, since we are asked to provide the answer as an integer, we will round this to the nearest whole number. The answer is 181.",
+      "pred_ans": "181"
+    },
+    {
+      "new_prompt": "Q: Seoul - Lagos\nA:",
+      "ground truth": "124",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Seoul is at 126 degrees east and Lagos is at 3 degrees east. If we subtract the longitude of Lagos from that of Seoul, we get 123. The answer is 123.",
+      "pred_ans": "123"
+    },
+    {
+      "new_prompt": "Q: Sydney - Toronto\nA:",
+      "ground truth": "230",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Sydney is located at 151 degrees east, and Toronto is located at 79 degrees west. If we subtract the longitude of Toronto from that of Sydney, we get 151 - (-79) = 230. The answer is 230.",
+      "pred_ans": "230"
+    },
+    {
+      "new_prompt": "Q: Toronto + Tokyo\nA:",
+      "ground truth": "61",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. The answer is 219.",
+      "pred_ans": "219"
+    },
+    {
+      "new_prompt": "Q: Sydney + New York\nA:",
+      "ground truth": "77",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Sydney is at 151 degrees east, and New York is at 74 degrees west. When we convert New York's longitude to a positive number by adding 360 degrees, we get 286 degrees. Adding Sydney's longitude to this, we get 437 degrees. However, since the maximum longitude is 360 degrees, we subtract 360 from 437 to get the final answer. The answer is 77.",
+      "pred_ans": "77"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Rome\nA:",
+      "ground truth": "-106",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Los Angeles is approximately at -118 degrees longitude, and Rome is at 12 degrees longitude. If we add these together, we get -106. The answer is -106.",
+      "pred_ans": "-106"
+    },
+    {
+      "new_prompt": "Q: Mexico City + Cairo\nA:",
+      "ground truth": "-68",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. Mexico City is at -99 degrees longitude and Cairo is at 31 degrees longitude. When we add these together, we get -68. The answer is -68.",
+      "pred_ans": "-68"
+    },
+    {
+      "new_prompt": "Q: New York - Bangkok\nA:",
+      "ground truth": "-174",
+      "llm_output": "Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface. New York is located at approximately 74 degrees west longitude, and Bangkok is located at approximately 100 degrees east longitude. If we subtract the longitude of New York from that of Bangkok, we get -174. The answer is -174.",
+      "pred_ans": "-174"
+    }
+  ]
+}

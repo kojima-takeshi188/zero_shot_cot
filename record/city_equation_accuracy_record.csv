@@ -1,5 +1,2 @@
-,few_shot,few_shot_cot,few_shot_uninformative_cot,zero_shot_and_uninformative_cot,zero_shot_cot
-4,4.0,68.0,6.0,0.0,0.0
-10,0.0,76.0,2.0,0.0,0.0
-15,6.0,100.0,6.0,2.0,0.0
-20,10.0,94.0,8.0,8.0,0.0
+,ICL,few_shot_cot,few_shot_cot_with_trigger,ICL_with_trigger,uninformative_cot_with_trigger,uninformative_demographics_cot_with_trigger
+10,11.0,83.0,81.0,22.0,46.0,1.0

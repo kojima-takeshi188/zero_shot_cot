@@ -195,6 +195,7 @@ def generate_prompts_from_json(input_file, output_file):
     y = []
     z = []
     z_uninformative = []
+    z_demographics = []
     
     # Dictionary to store general uninformative facts about cities
     city_list = [
@@ -204,27 +205,97 @@ def generate_prompts_from_json(input_file, output_file):
         "Seoul", "Bangkok", "Rome", "Toronto", "Mexico City"
     ]
 
+    # city_facts = {
+    #     "Buenos Aires": "Buenos Aires is the capital of Argentina. It is located in the southern hemisphere.",
+    #     "Toronto": "Toronto is the largest city in Canada. It's known for its modern skyline and the iconic CN Tower.",
+    #     "New York": "New York, often called New York City, is the most populous city in the United States. It's known for the Statue of Liberty.",
+    #     "Mumbai": "Mumbai, formerly known as Bombay, is the financial capital of India. It's located on the west coast.",
+    #     "Los Angeles": "Los Angeles is located in California, USA. It's famous for Hollywood and its entertainment industry.",
+    #     "Moscow": "Moscow is the capital of Russia. The Kremlin and Red Square are among its most well-known landmarks.",
+    #     "Istanbul": "Istanbul is a major city in Turkey. It's known for its rich history and the Hagia Sophia.",
+    #     "Rome": "Rome is the capital of Italy. It has a rich history and is home to the Colosseum.",
+    #     "Paris": "Paris is the capital of France. It's often referred to as 'The City of Love'.",
+    #     "Beijing": "Beijing is the capital of China. It's known for its ancient sites including the Forbidden City.",
+    #     "Tokyo": "Tokyo is the capital of Japan. It's a bustling metropolis known for its modern architecture.",
+    #     "London": "London is the capital of England and the United Kingdom. It's renowned for its history, from its Roman beginnings to its cosmopolitan present.",
+    #     "Sydney": "Sydney is the largest city in Australia. It's famous for its Harbour Bridge and the Sydney Opera House.",
+    #     "Cairo": "Cairo is the capital of Egypt. It's located near the Nile Delta and is known for its ancient Egyptian history.",
+    #     "Sao Paulo": "Sao Paulo is a sprawling city in Brazil. It's a major financial center and is known for its cultural institutions.",
+    #     "Lagos": "Lagos is the largest city in Nigeria. It's a major financial center in Africa and is home to one of the largest and busiest ports on the continent.",
+    #     "Johannesburg": "Johannesburg, often known as Jo'burg, is the largest city in South Africa. It's the economic heart of Africa and is known for its modern architecture.",
+    #     "Seoul": "Seoul is the capital and largest metropolis of South Korea. It's a vibrant city known for its modern skyscrapers and ancient palaces.",
+    #     "Bangkok": "Bangkok is the capital of Thailand. It's known for its ornate temples, bustling street markets, and the grand palace.",
+    #     "Mexico City": "Mexico City is the capital of Mexico. It's known for its Templo Mayor, a 13th-century Aztec temple, and the Palacio Nacional, which houses historic murals."
+    # }
+
     city_facts = {
-        "Buenos Aires": "Buenos Aires is the capital of Argentina. It is located in the southern hemisphere.",
-        "Toronto": "Toronto is the largest city in Canada. It's known for its modern skyline and the iconic CN Tower.",
-        "New York": "New York, often called New York City, is the most populous city in the United States. It's known for the Statue of Liberty.",
-        "Mumbai": "Mumbai, formerly known as Bombay, is the financial capital of India. It's located on the west coast.",
-        "Los Angeles": "Los Angeles is located in California, USA. It's famous for Hollywood and its entertainment industry.",
-        "Moscow": "Moscow is the capital of Russia. The Kremlin and Red Square are among its most well-known landmarks.",
-        "Istanbul": "Istanbul is a major city in Turkey. It's known for its rich history and the Hagia Sophia.",
-        "Rome": "Rome is the capital of Italy. It has a rich history and is home to the Colosseum.",
-        "Paris": "Paris is the capital of France. It's often referred to as 'The City of Love'.",
-        "Beijing": "Beijing is the capital of China. It's known for its ancient sites including the Forbidden City.",
-        "Tokyo": "Tokyo is the capital of Japan. It's a bustling metropolis known for its modern architecture.",
-        "London": "London is the capital of England and the United Kingdom. It's renowned for its history, from its Roman beginnings to its cosmopolitan present.",
-        "Sydney": "Sydney is the largest city in Australia. It's famous for its Harbour Bridge and the Sydney Opera House.",
-        "Cairo": "Cairo is the capital of Egypt. It's located near the Nile Delta and is known for its ancient Egyptian history.",
-        "Sao Paulo": "Sao Paulo is a sprawling city in Brazil. It's a major financial center and is known for its cultural institutions.",
-        "Lagos": "Lagos is the largest city in Nigeria. It's a major financial center in Africa and is home to one of the largest and busiest ports on the continent.",
-        "Johannesburg": "Johannesburg, often known as Jo'burg, is the largest city in South Africa. It's the economic heart of Africa and is known for its modern architecture.",
-        "Seoul": "Seoul is the capital and largest metropolis of South Korea. It's a vibrant city known for its modern skyscrapers and ancient palaces.",
-        "Bangkok": "Bangkok is the capital of Thailand. It's known for its ornate temples, bustling street markets, and the grand palace.",
-        "Mexico City": "Mexico City is the capital of Mexico. It's known for its Templo Mayor, a 13th-century Aztec temple, and the Palacio Nacional, which houses historic murals."
+        "Buenos Aires": "Buenos Aires is the capital of Argentina. It is located in the western hemisphere.",
+        "Toronto": "Toronto is the largest city in Canada. It is located in the western Hemisphere.",
+        "New York": "New York, often called New York City, is the most populous city in the United States. It is located in the western Hemisphere.",
+        "Mumbai": "Mumbai, formerly known as Bombay, is the financial capital of India. It is located in the eastern Hemisphere.",
+        "Los Angeles": "Los Angeles is located in California, USA. It is located in the western Hemisphere.",
+        "Moscow": "Moscow is the capital of Russia. It is located in the eastern Hemisphere.",
+        "Istanbul": "Istanbul is a major city in Turkey. It is located in the eastern Hemisphere.",
+        "Rome": "Rome is the capital of Italy. It is located in the eastern Hemisphere.",
+        "Paris": "Paris is the capital of France. It is located in the eastern Hemisphere.",
+        "Beijing": "Beijing is the capital of China. It is located in the eastern Hemisphere.",
+        "Tokyo": "Tokyo is the capital of Japan. It is located in the eastern Hemisphere.",
+        "London": "London is the capital of England and the United Kingdom. It is located in the western Hemisphere.",
+        "Sydney": "Sydney is the largest city in Australia. It is located in the eastern Hemisphere.",
+        "Cairo": "Cairo is the capital of Egypt. It's located near the Nile Delta. It is located in the eastern Hemisphere.",
+        "Sao Paulo": "Sao Paulo is a sprawling city in Brazil. It is located in the western hemisphere.",
+        "Lagos": "Lagos is the largest city in Nigeria. It is located in the eastern Hemisphere.",
+        "Johannesburg": "Johannesburg, often known as Jo'burg, is the largest city in South Africa. It is located in the eastern hemisphere.",
+        "Seoul": "Seoul is the capital and largest metropolis of South Korea. It is located in the eastern Hemisphere.",
+        "Bangkok": "Bangkok is the capital of Thailand. It is located in the eastern Hemisphere.",
+        "Mexico City": "Mexico City is the capital of Mexico. It is located in the western Hemisphere."
+    }
+
+    # city_facts = {
+    #     "Buenos Aires": "Buenos Aires is located in the western hemisphere.",
+    #     "Toronto": "Toronto is located in the western Hemisphere.",
+    #     "New York": "New York is located in the western Hemisphere.",
+    #     "Mumbai": "Mumbai is located in the eastern Hemisphere.",
+    #     "Los Angeles": "Los Angeles is located in the western Hemisphere.",
+    #     "Moscow": "Moscow is located in the eastern Hemisphere.",
+    #     "Istanbul": "Istanbul is located in the eastern Hemisphere.",
+    #     "Rome": "Rome is located in the eastern Hemisphere.",
+    #     "Paris": "Paris is located in the eastern Hemisphere.",
+    #     "Beijing": "Beijing is located in the eastern Hemisphere.",
+    #     "Tokyo": "Tokyo is located in the eastern Hemisphere.",
+    #     "London": "London is located in the western Hemisphere.",
+    #     "Sydney": "Sydney is located in the eastern Hemisphere.",
+    #     "Cairo": "Cairo is located in the eastern Hemisphere.",
+    #     "Sao Paulo": "Sao Paulo is located in the western hemisphere.",
+    #     "Lagos": "Lagos is located in the eastern Hemisphere.",
+    #     "Johannesburg": "Johannesburg is located in the eastern hemisphere.",
+    #     "Seoul": "Seoul is located in the eastern Hemisphere.",
+    #     "Bangkok": "Bangkok is located in the eastern Hemisphere.",
+    #     "Mexico City": "Mexico City is located in the western Hemisphere."
+    # }
+
+    city_demographics = {
+        "New York": "With a population of approximately 8.4 million people, New York is diverse. Around 32.1% identify as White, 29.1% as Hispanic, 24.3% as Black, 14.1% as Asian, with the rest being a mixture of Native American, Pacific Islander, and other ethnicities. The median age is 36 years.",
+        "Los Angeles": "Los Angeles has a population of around 4 million people. It is predominantly Hispanic (48.6%), followed by White (28.5%), Asian (11.3%), and Black residents (9.8%). The median age is approximately 36 years.",
+        "London": "London is home to approximately 9 million residents, with 59.8% being White, 18.5% Asian, 13.3% Black, 5% Mixed, and 3.4% identifying as Other. The median age in the city is 36.5 years.",
+        "Tokyo": "The 23 special wards of Tokyo have a combined population of around 14 million, predominantly of Japanese ethnicity. The median age in Tokyo is 45.5 years.",
+        "Beijing": "Beijing houses approximately 21.5 million people, primarily of Han Chinese ethnicity. The median age in the city is 37.4 years.",
+        "Sydney": "Sydney has a population of around 5.3 million people, with a breakdown of 58% White, 34.2% Asian, and 2.6% Aboriginal/Torres Strait Islander. The remaining percentages include others. The median age is 36 years.",
+        "Cairo": "Greater Cairo has an estimated population of 20 million, predominantly Arab, with a median age of 24 years.",
+        "Sao Paulo": "The greater metropolitan area of Sao Paulo is home to approximately 21.7 million people, with a diverse population that includes individuals identifying as White, Pardo (mixed), Black, and Asian. The median age is 36 years.",
+        "Mumbai": "The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years.",
+        "Moscow": "With a population of approximately 12.5 million, Moscow is primarily inhabited by individuals of White (Slavic) ethnicity. The median age is around 40 years.",
+        "Lagos": "Lagos has a population of approximately 14.8 million in its greater metropolitan area, primarily consisting of Yoruba, Igbo, and other Nigerian ethnic groups. The median age is 18 years.",
+        "Johannesburg": "The greater metropolitan area of Johannesburg houses around 5.7 million people, with a diverse population including Black, White, Coloured, and Asian individuals. The median age is 27 years.",
+        "Buenos Aires": "Buenos Aires has a population of approximately 15 million in its greater metropolitan area. The majority of residents are of European descent, with some Mestizos, and the median age is 31 years.",
+        "Paris": "Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years.",
+        "Istanbul": "Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years.",
+        "Seoul": "Seoul has a population of around 9.7 million, predominantly Korean, with a median age of 41 years.",
+        "Bangkok": "With a population of approximately 10.8 million, Bangkok is predominantly Thai, with Chinese and other minorities. The median age is 40 years.",
+        "Rome": "Rome has around 2.8 million residents, predominantly White (Italian), and various immigrant groups. The median age is 45 years.",
+        "Toronto": "Torontos population of approximately 2.9 million is diverse, including White, South Asian, East Asian, Black, Southeast Asian, Latin American, West Asian, Arab, and other ethnic groups. The median age is 40 years.",
+        "Mexico City": "The greater metropolitan area of Mexico City has a population of around 21.6 million, predominantly Mestizo, with some Indigenous and White populations. The median age is 31 years."
+
     }
 
     
@@ -246,8 +317,12 @@ def generate_prompts_from_json(input_file, output_file):
         # Generate the uninformative z prompts
         z_uninfo_prompt = " ".join([city_facts[city] for city in cities_involved])
         
+        # Generate the z prompts with demographics
+        z_demographics_prompt = " ".join([city_demographics[city] for city in cities_involved])
+       
         z_uninformative.append(z_uninfo_prompt)
-        
+        z_demographics.append(z_demographics_prompt)
+
         # Append to x and y
         x.append(city_equation)
         y.append(item["city equation"].split("=")[1].strip())
@@ -261,7 +336,8 @@ def generate_prompts_from_json(input_file, output_file):
         "x": x,
         "y": y,
         "z": z,
-        "z_uninformative": z_uninformative
+        "z_uninformative": z_uninformative,
+        "z_demographics": z_demographics
     }
     
     # Save to the output JSON file

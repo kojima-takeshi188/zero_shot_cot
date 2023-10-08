@@ -1,0 +1,23 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: Sydney + Johannesburg\nA:",
+      "ground truth": "179",
+      "llm_output": "Firstly, you need to assign numerical values to these city names. The common way to do this is by using the alphabetic order where 'A' is 1 and 'Z' is 26 and summing the numerical values for each letter in the city's name.\n\nFor Sydney,\nS - 19\nY - 25\nD - 4\nN - 14\nE - 5\nY - 25\n\nSumming these up, Sydney equals 92. \n\nFor Johannesburg,\nJ - 10\nO - 15\nH - 8\nA - 1\nN - 14\nN - 14\nE - 5\nS - 19\nB - 2\nU - 21\nR - 18\nG - 7\n\nJohannesburg equals 124.\n\nThen, add the numerical values for Sydney (92) and Johannesburg (124) to get 216.\n\nThe answer is 216.",
+      "pred_ans": "216"
+    },
+    {
+      "new_prompt": "Q: London + Sao Paulo\nA:",
+      "ground truth": "-47",
+      "llm_output": "For converting city names to numbers, we can assign each letter a number from 1 to 26 (A=1, B=2,..., Z=26). Then, we can add up the numbers corresponding to each letter in the city names. The city \"London\" converts to 76 and \"Sao Paulo\" converts to 108. By adding these together, we get 184. Therefore, the answer is 184.",
+      "pred_ans": "184"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Seoul\nA:",
+      "ground truth": "9",
+      "llm_output": "To answer such questions, you typically need to use the established numerical values for letters in the alphabet, then add or subtract as indicated. However, no values were given, so it's impossible to produce an answer. This could be a trick question, or there may be missing information.",
+      "pred_ans": ""
+    }
+  ]
+}

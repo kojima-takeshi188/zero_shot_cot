@@ -81,7 +81,8 @@ def decoder_for_gpt3(args, input, max_length, i, k):
         raise ValueError("model is not properly defined ...")
     
     if engine == "gpt-4":
-        response = openai.ChatCompletion.create(
+        try:
+            response = openai.ChatCompletion.create(
             model=engine,
             messages = [
                 {"role": "system", "content": "You are ChatGPT, a large language model trained by OpenAI, based on the GPT-4 architecture."},
@@ -91,9 +92,12 @@ def decoder_for_gpt3(args, input, max_length, i, k):
             temperature=0,
             top_p = .99,
             stop=None
-        )
-        #print(response)
-        return response["choices"][0].message["content"]
+            )
+            #print(response)
+            return response["choices"][0].message["content"]
+        except:
+            return ""
+            
     else:
         response = openai.Completion.create(
             engine=engine,

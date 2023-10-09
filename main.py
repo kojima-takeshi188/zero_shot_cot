@@ -82,7 +82,8 @@ def main():
         if args.method == "zero_shot":
             x = x + " " + args.direct_answer_trigger_for_zeroshot
         elif args.method == "zero_shot_cot":
-            x = x + " " + args.cot_trigger
+            #x = x + " " + args.cot_trigger
+            x = x + " Concisely explain your steps and write your answer as a integer in the last sentence starting with 'The answer is'. "
         elif args.method == "few_shot":
             x = demo + x
         elif args.method == "few_shot_cot":
@@ -104,7 +105,12 @@ def main():
         
         # Answer prediction by generating text ...
         max_length = args.max_length_cot if "cot" in args.method else args.max_length_direct
-        z = decoder.decode(args, x, max_length, i, 1)
+        try:
+            z = decoder.decode(args, x, max_length, i, 1)
+        except:
+            z = ""
+
+        
 
         # Answer extraction for zero-shot-cot ...
         if args.method == "zero_shot_cot":

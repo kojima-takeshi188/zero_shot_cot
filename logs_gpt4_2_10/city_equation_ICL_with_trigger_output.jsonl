@@ -1,0 +1,1205 @@
+{
+  "accuracy": 59.5,
+  "outputs": [
+    {
+      "new_prompt": "Q: Sydney - New York\nA:",
+      "ground truth": "225",
+      "llm_output": "The cities mentioned in the question are being used to represent their respective longitudinal coordinates. The longitude of Sydney is 151 degrees east, and the longitude of New York is 74 degrees west. \n\nWhen you subtract New York's longitude from Sydney's, you need to take into account that they are in different hemispheres. So, you add the absolute values of the two longitudes:\n\n|151| + |-74| = 151 + 74 = 225\n\nThe answer is 225.",
+      "pred_ans": "225"
+    },
+    {
+      "new_prompt": "Q: Paris + Toronto\nA:",
+      "ground truth": "-77",
+      "llm_output": "The questions seem to be referring to the calculation of the difference in longitude between two cities. \n\nThe longitude of Paris, France is 2.35 degrees East. The longitude of Toronto, Canada is 79.38 degrees West. \n\nWhen you add these two together, you need to consider that one is East and the other is West. So, you subtract the longitude of Paris from the longitude of Toronto: 79.38 - 2.35 = 77.03. \n\nHowever, since Toronto is in the Western Hemisphere, the result should be negative. \n\nThe answer is -77.",
+      "pred_ans": "-77"
+    },
+    {
+      "new_prompt": "Q: London - Moscow\nA:",
+      "ground truth": "-38",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of London is approximately 0 degrees, and the longitude of Moscow is approximately 37.6 degrees east of Greenwich. \n\nSo, if we subtract the longitude of Moscow from the longitude of London, we get:\n\n0 - 37.6 = -37.6\n\nWe round this to the nearest whole number to get -38.\n\nThe answer is -38.",
+      "pred_ans": "-38"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Johannesburg\nA:",
+      "ground truth": "0",
+      "llm_output": "The question seems to be asking for the difference between the longitude of Johannesburg and itself. Since it's the same city, the difference in longitude would be zero. \n\nThe answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Mexico City + Cairo\nA:",
+      "ground truth": "-68",
+      "llm_output": "These questions seem to be referring to the calculation of the difference in longitude between two cities. The longitude of a city is its angular distance east or west from the prime meridian (which passes through Greenwich, London). \n\nThe longitude of Mexico City is approximately -99 degrees, and the longitude of Cairo is approximately 31 degrees. \n\nTo find the sum of these two longitudes, we simply add them together:\n\n-99 (Mexico City's longitude) + 31 (Cairo's longitude) = -68\n\nSo, the answer is -68.",
+      "pred_ans": "-68"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Mexico City\nA:",
+      "ground truth": "-217",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of Los Angeles is approximately -118 degrees, and the longitude of Mexico City is approximately -99 degrees. \n\nTo find the sum of these two longitudes, we add them together:\n\n-118 + (-99) = -217\n\nSo, the answer is -217.",
+      "pred_ans": "-217"
+    },
+    {
+      "new_prompt": "Q: Beijing - Johannesburg\nA:",
+      "ground truth": "88",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Beijing, China is approximately 116 degrees East, and the longitude of Johannesburg, South Africa is approximately 28 degrees East. \n\nTo find the difference, we subtract the longitude of Johannesburg from the longitude of Beijing:\n\n116 - 28 = 88\n\nSo, the answer is 88.",
+      "pred_ans": "88"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Istanbul\nA:",
+      "ground truth": "-147",
+      "llm_output": "The numbers provided in the previous responses seem to be based on the difference in longitude between the two cities. \n\nThe longitude of Los Angeles is approximately -118 degrees, and the longitude of Istanbul is approximately 29 degrees. \n\nTo find the difference, we subtract the longitude of Istanbul from that of Los Angeles: -118 - 29 = -147.\n\nThe answer is -147.",
+      "pred_ans": "-147"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Istanbul\nA:",
+      "ground truth": "111",
+      "llm_output": "The cities mentioned in these questions are being used as representations of their respective time zones. The time difference between two cities can be calculated by subtracting the UTC offset of one city from the other. \n\nTokyo, Japan is in the Japan Standard Time zone, which is UTC+9. Istanbul, Turkey is in the Eastern European Time zone, which is UTC+3. \n\nTo find the time difference, subtract the UTC offset of Istanbul from that of Tokyo:\n\n9 (Tokyo's UTC offset) - 3 (Istanbul's UTC offset) = 6\n\nThe answer is 6.",
+      "pred_ans": "6"
+    },
+    {
+      "new_prompt": "Q: Sydney + Mumbai\nA:",
+      "ground truth": "224",
+      "llm_output": "These questions seem to be referring to the calculation of the difference in longitude between two cities. The longitude of a city is its geographical location in degrees east or west of the prime meridian (which passes through Greenwich, London). \n\nThe longitude of Sydney, Australia is approximately 151 degrees east, and the longitude of Mumbai, India is approximately 72 degrees east. \n\nTo find the sum of the longitudes of these two cities, we simply add the two values together:\n\n151 (Sydney) + 72 (Mumbai) = 223\n\nThe answer is 223.",
+      "pred_ans": "223"
+    },
+    {
+      "new_prompt": "Q: Sydney - New York\nA:",
+      "ground truth": "225",
+      "llm_output": "These questions seem to be referring to the calculation of differences in time zones between different cities. However, the time difference between cities can vary depending on daylight saving time, which is not consistent around the world. \n\nAs of the time of this response, Sydney, Australia is 11 hours ahead of Coordinated Universal Time (UTC+11). New York, United States is 5 hours behind Coordinated Universal Time (UTC-5). \n\nTo find the difference, we subtract the New York time from the Sydney time: \n\nUTC+11 (Sydney) - UTC-5 (New York) = 16 hours\n\nThe answer is 16.",
+      "pred_ans": "16"
+    },
+    {
+      "new_prompt": "Q: New York - Bangkok\nA:",
+      "ground truth": "-174",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of New York is approximately -74 degrees (west of the Prime Meridian), and the longitude of Bangkok is approximately 100 degrees (east of the Prime Meridian). \n\nTo find the difference, we subtract the longitude of Bangkok from the longitude of New York:\n\n-74 - 100 = -174\n\nThe answer is -174.",
+      "pred_ans": "-174"
+    },
+    {
+      "new_prompt": "Q: Istanbul + Istanbul\nA:",
+      "ground truth": "58",
+      "llm_output": "The cities in these questions are being used as stand-ins for their respective longitudinal coordinates. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nIstanbul, Turkey, is located at approximately 29 degrees east longitude. \n\nSo, if we add Istanbul's longitude to itself (Istanbul + Istanbul), we get:\n\n29 + 29 = 58\n\nThe answer is 58.",
+      "pred_ans": "58"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Moscow\nA:",
+      "ground truth": "-96",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Buenos Aires, Argentina is approximately -58 degrees. The longitude of Moscow, Russia is approximately 37 degrees.\n\nTo find the difference, we subtract the longitude of Moscow from the longitude of Buenos Aires: -58 - 37 = -95.\n\nThe answer is -95.",
+      "pred_ans": "-95"
+    },
+    {
+      "new_prompt": "Q: Sydney - Toronto\nA:",
+      "ground truth": "230",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Sydney, Australia is approximately 151 degrees east. The longitude of Toronto, Canada is approximately 79 degrees west. \n\nTo find the difference, we can add the absolute values of these two longitudes because one is east and the other is west. \n\nSo, 151 (Sydney) + 79 (Toronto) = 230.\n\nThe answer is 230.",
+      "pred_ans": "230"
+    },
+    {
+      "new_prompt": "Q: Toronto - Buenos Aires\nA:",
+      "ground truth": "-21",
+      "llm_output": "The steps to solve this problem involve understanding that the names of the cities are being used to represent their longitudinal coordinates. The longitude of a location is its east-west position on the Earth. \n\nThe longitude of Toronto is approximately -79 degrees, and the longitude of Buenos Aires is approximately -58 degrees. \n\nTo find the difference between these two longitudes, we subtract the longitude of Buenos Aires from the longitude of Toronto: -79 - (-58) = -79 + 58 = -21.\n\nThe answer is -21.",
+      "pred_ans": "-21"
+    },
+    {
+      "new_prompt": "Q: Istanbul + Seoul\nA:",
+      "ground truth": "156",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Istanbul, Turkey is approximately 29 degrees east. The longitude of Seoul, South Korea is approximately 127 degrees east. \n\nTo find the sum of the longitudes of Istanbul and Seoul, we add the two values together:\n\n29 (Istanbul) + 127 (Seoul) = 156\n\nSo, the answer is 156.",
+      "pred_ans": "156"
+    },
+    {
+      "new_prompt": "Q: Sydney + Johannesburg\nA:",
+      "ground truth": "179",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Sydney, Australia is approximately 151 degrees east. The longitude of Johannesburg, South Africa is approximately 28 degrees east. \n\nTo find the sum of these two longitudes, we simply add them together:\n\n151 + 28 = 179\n\nSo, the answer is 179.",
+      "pred_ans": "179"
+    },
+    {
+      "new_prompt": "Q: Seoul - Istanbul\nA:",
+      "ground truth": "98",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Seoul, South Korea is approximately 126 degrees East. The longitude of Istanbul, Turkey is approximately 29 degrees East. \n\nTo find the difference, we subtract the longitude of Istanbul from the longitude of Seoul: \n\n126 - 29 = 97\n\nThe answer is 97.",
+      "pred_ans": "97"
+    },
+    {
+      "new_prompt": "Q: Cairo - Sydney\nA:",
+      "ground truth": "-120",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of Cairo, Egypt is approximately 31 degrees East, and the longitude of Sydney, Australia is approximately 151 degrees East. \n\nTo find the difference, we subtract the longitude of Cairo from the longitude of Sydney: \n\n151 - 31 = 120\n\nHowever, since Sydney is east of Cairo, we take the negative of this result to indicate the direction of the difference. \n\nSo, the answer is -120.",
+      "pred_ans": "-120"
+    },
+    {
+      "new_prompt": "Q: Moscow + Sao Paulo\nA:",
+      "ground truth": "-9",
+      "llm_output": "The numbers provided in the previous responses seem to be based on the difference in longitude between the two cities. \n\nThe longitude of Moscow is approximately 37 degrees east, and the longitude of Sao Paulo is approximately 46 degrees west. \n\nTo find the sum, we add the absolute values of these two longitudes:\n\n|37| + |-46| = 37 + 46 = 83\n\nHowever, since Sao Paulo is in the western hemisphere, its longitude is considered negative in relation to the Prime Meridian. Therefore, we need to subtract this value from the longitude of Moscow:\n\n37 - 46 = -9\n\nThe answer is -9.",
+      "pred_ans": "-9"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Istanbul\nA:",
+      "ground truth": "169",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Tokyo, Japan is approximately 139.7 degrees East, and the longitude of Istanbul, Turkey is approximately 28.9 degrees East. \n\nTo find the sum of these two longitudes, we simply add them together:\n\n139.7 (Tokyo) + 28.9 (Istanbul) = 168.6\n\nHowever, the question asks for an integer, so we'll round to the nearest whole number.\n\nThe answer is 169.",
+      "pred_ans": "169"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Rome\nA:",
+      "ground truth": "16",
+      "llm_output": "These questions seem to be referring to the time difference between two cities. The time difference is calculated based on the time zones of the cities. \n\nJohannesburg, South Africa is in the South Africa Standard Time zone, which is 2 hours ahead of Coordinated Universal Time (UTC+2). \n\nRome, Italy is in the Central European Time zone, which is 1 hour ahead of Coordinated Universal Time (UTC+1) during standard time, and 2 hours ahead during daylight saving time (which generally lasts from the last Sunday in March to the last Sunday in October).\n\nAssuming that we are not in the period of daylight saving time, the time difference between Johannesburg and Rome would be 1 hour (UTC+2 - UTC+1 = 1). \n\nSo, the answer is 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: Seoul + Paris\nA:",
+      "ground truth": "129",
+      "llm_output": "The questions seem to be referring to the calculation of the difference in longitude between two cities. \n\nThe longitude of Seoul, South Korea is approximately 126 degrees east, and the longitude of Paris, France is approximately 2 degrees east. \n\nTo find the sum of these two longitudes, we simply add them together:\n\n126 + 2 = 128\n\nSo, the answer is 128.",
+      "pred_ans": "128"
+    },
+    {
+      "new_prompt": "Q: Paris + Seoul\nA:",
+      "ground truth": "129",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of Paris is 2.35 degrees East, and the longitude of Seoul is 126.98 degrees East. \n\nTo find the sum of the longitudes of Paris and Seoul, we add the two values together:\n\n2.35 (Paris) + 126.98 (Seoul) = 129.33\n\nHowever, the question asks for an integer, so we round the result to the nearest whole number.\n\nThe answer is 129.",
+      "pred_ans": "129"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + New York\nA:",
+      "ground truth": "-192",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of Los Angeles is approximately -118 degrees, and the longitude of New York is approximately -74 degrees. \n\nTo find the sum, we add the two longitudes together: -118 + -74 = -192.\n\nThe answer is -192.",
+      "pred_ans": "-192"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Mexico City\nA:",
+      "ground truth": "239",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of Tokyo is approximately 139 degrees East, and the longitude of Mexico City is approximately -99 degrees West. \n\nTo find the difference, we subtract the longitude of Mexico City from the longitude of Tokyo:\n\n139 - (-99) = 238\n\nSo, the answer is 238.",
+      "pred_ans": "238"
+    },
+    {
+      "new_prompt": "Q: Seoul - Paris\nA:",
+      "ground truth": "125",
+      "llm_output": "The numbers provided in the previous responses seem to be based on the difference in longitude between the two cities. \n\nThe longitude of Seoul, South Korea is approximately 126 degrees East, and the longitude of Paris, France is approximately 2 degrees East. \n\nTo find the difference, subtract the longitude of Paris from the longitude of Seoul: 126 - 2 = 124.\n\nThe answer is 124.",
+      "pred_ans": "124"
+    },
+    {
+      "new_prompt": "Q: Moscow + Bangkok\nA:",
+      "ground truth": "138",
+      "llm_output": "The steps involve using the longitude of each city to perform the calculation. The longitude of Moscow is 37.6 degrees East, and the longitude of Bangkok is 100.5 degrees East. \n\nSo, Moscow (37.6) + Bangkok (100.5) equals 138.1. \n\nHowever, since we are asked to provide the answer as an integer, we need to round this to the nearest whole number. \n\nThe answer is 138.",
+      "pred_ans": "138"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Paris\nA:",
+      "ground truth": "-120",
+      "llm_output": "The questions seem to be referring to the difference in longitude between two cities. \n\nThe longitude of Los Angeles is approximately -118 degrees, and the longitude of Paris is approximately 2 degrees. \n\nTo find the difference, we subtract the longitude of Paris from the longitude of Los Angeles: -118 - 2 = -120.\n\nThe answer is -120.",
+      "pred_ans": "-120"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Seoul\nA:",
+      "ground truth": "-185",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Buenos Aires, Argentina is approximately -58 degrees. The longitude of Seoul, South Korea is approximately 127 degrees. \n\nTo find the difference, we subtract the longitude of Buenos Aires from the longitude of Seoul: 127 - (-58) = 185.\n\nThe answer is 185.",
+      "pred_ans": "185"
+    },
+    {
+      "new_prompt": "Q: Cairo - Bangkok\nA:",
+      "ground truth": "-69",
+      "llm_output": "These questions seem to be referring to the calculation of differences in time zones between different cities. \n\nThe time zone of Cairo, Egypt is Eastern European Time (EET), which is UTC+2. The time zone of Bangkok, Thailand is Indochina Time (ICT), which is UTC+7.\n\nTo find the difference, subtract the UTC offset of Cairo from the UTC offset of Bangkok:\n\n7 (Bangkok) - 2 (Cairo) = 5\n\nSo, the answer is 5.",
+      "pred_ans": "5"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Mexico City\nA:",
+      "ground truth": "41",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Buenos Aires, Argentina is approximately -58 degrees. The longitude of Mexico City, Mexico is approximately -99 degrees. \n\nTo find the difference, we subtract the longitude of Buenos Aires from the longitude of Mexico City: -58 - (-99) = 41.\n\nThe answer is 41.",
+      "pred_ans": "41"
+    },
+    {
+      "new_prompt": "Q: New York + Tokyo\nA:",
+      "ground truth": "66",
+      "llm_output": "The questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of New York is approximately -74 degrees, and the longitude of Tokyo is approximately 139 degrees. \n\nTo find the sum, we add these two values together: -74 + 139 = 65.\n\nThe answer is 65.",
+      "pred_ans": "65"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Rome\nA:",
+      "ground truth": "85",
+      "llm_output": "These questions seem to be referring to the calculation of the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Mumbai, India is approximately 72.8777\u00b0 E, and the longitude of Rome, Italy is approximately 12.4964\u00b0 E. \n\nTo find the sum of these two longitudes, we simply add them together:\n\n72.8777 + 12.4964 = 85.3741\n\nHowever, the question asks for an integer, so we round this to the nearest whole number.\n\nThe answer is 85.",
+      "pred_ans": "85"
+    },
+    {
+      "new_prompt": "Q: Paris + Buenos Aires\nA:",
+      "ground truth": "-56",
+      "llm_output": "The questions seem to be referring to the calculation of the difference in longitude between two cities. \n\nThe longitude of Paris, France is 2.35 degrees East. The longitude of Buenos Aires, Argentina is 58.38 degrees West. \n\nTo find the difference, we add the absolute values of the two longitudes because they are in different hemispheres (East and West). \n\nSo, 2.35 (Paris) + 58.38 (Buenos Aires) = 60.73\n\nHowever, since Buenos Aires is in the Western hemisphere, we consider this as a negative value.\n\nThe answer is -60.73, rounded to the nearest integer, it would be -61.",
+      "pred_ans": "-60.73"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Buenos Aires\nA:",
+      "ground truth": "86",
+      "llm_output": "The questions seem to be referring to the calculation of differences in longitude between two cities. \n\nThe longitude of Johannesburg, South Africa is approximately 28 degrees east. The longitude of Buenos Aires, Argentina is approximately 58 degrees west. \n\nTo find the difference, we add the absolute values of the two longitudes because they are in different hemispheres (one is east and the other is west).\n\nSo, 28 (Johannesburg) + 58 (Buenos Aires) = 86.\n\nThe answer is 86.",
+      "pred_ans": "86"
+    },
+    {
+      "new_prompt": "Q: Beijing - Johannesburg\nA:",
+      "ground truth": "88",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Beijing, China is approximately 116\u00b0 East. The longitude of Johannesburg, South Africa is approximately 28\u00b0 East. \n\nTo find the difference, we subtract the longitude of Johannesburg from the longitude of Beijing: \n\n116 - 28 = 88\n\nThe answer is 88.",
+      "pred_ans": "88"
+    },
+    {
+      "new_prompt": "Q: New York + Mumbai\nA:",
+      "ground truth": "-1",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of New York is approximately -74 degrees, and the longitude of Mumbai is approximately 72.8 degrees. \n\nTo find the sum of these two longitudes, we add them together:\n\n-74 + 72.8 = -1.2\n\nThe answer is -1.",
+      "pred_ans": "-1"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo + Lagos\nA:",
+      "ground truth": "-44",
+      "llm_output": "The questions seem to be referring to the calculation of the difference in longitude between two cities. \n\nThe longitude of Sao Paulo, Brazil is approximately -46.6333 degrees, and the longitude of Lagos, Nigeria is approximately 3.3792 degrees.\n\nTo find the sum of these two longitudes, we add them together:\n\n-46.6333 + 3.3792 = -43.2541\n\nRounding to the nearest whole number, we get -43.\n\nThe answer is -43.",
+      "pred_ans": "-43"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Sao Paulo\nA:",
+      "ground truth": "76",
+      "llm_output": "The cities mentioned in the questions are being used as representations of their respective time zones. The time difference between two cities can be calculated by subtracting the time zone of one city from the other.\n\nIstanbul, Turkey is in the Eastern European Time zone, which is UTC+3. Sao Paulo, Brazil is in the Brasilia Time zone, which is UTC-3.\n\nSo, to calculate the time difference between Istanbul and Sao Paulo, we subtract the time zone of Sao Paulo from that of Istanbul:\n\nIstanbul (UTC+3) - Sao Paulo (UTC-3) = 3 - (-3) = 6\n\nThe answer is 6.",
+      "pred_ans": "6"
+    },
+    {
+      "new_prompt": "Q: Lagos + Beijing\nA:",
+      "ground truth": "119",
+      "llm_output": "The numbers provided in the previous responses seem to be based on the difference in longitude between the two cities. \n\nThe longitude of Lagos, Nigeria is approximately 3 degrees East. The longitude of Beijing, China is approximately 116 degrees East. \n\nTo find the sum, we add the longitudes of the two cities:\n\n3 (Lagos) + 116 (Beijing) = 119\n\nThe answer is 119.",
+      "pred_ans": "119"
+    },
+    {
+      "new_prompt": "Q: Beijing + Istanbul\nA:",
+      "ground truth": "145",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Beijing, China is approximately 116 degrees East, and the longitude of Istanbul, Turkey is approximately 29 degrees East. \n\nTo find the sum of these two longitudes, we simply add them together:\n\n116 (Beijing) + 29 (Istanbul) = 145\n\nThe answer is 145.",
+      "pred_ans": "145"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Sao Paulo\nA:",
+      "ground truth": "93",
+      "llm_output": "The questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Tokyo, Japan is approximately 139.7 degrees East. The longitude of Sao Paulo, Brazil is approximately 46.6 degrees West. \n\nWhen we add these two values, we need to consider that one is East (positive) and the other is West (negative). So, the calculation would be 139.7 (Tokyo) + (-46.6) (Sao Paulo).\n\nThe answer is 93.1. However, you asked for an integer, so we'll round it to the nearest whole number.\n\nThe answer is 93.",
+      "pred_ans": "93"
+    },
+    {
+      "new_prompt": "Q: Toronto + Lagos\nA:",
+      "ground truth": "-76",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Toronto, Canada is approximately -79 degrees. The longitude of Lagos, Nigeria is approximately 3 degrees. \n\nTo find the sum, we add the two longitudes together: -79 + 3 = -76.\n\nThe answer is -76.",
+      "pred_ans": "-76"
+    },
+    {
+      "new_prompt": "Q: Toronto + Seoul\nA:",
+      "ground truth": "48",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Toronto, Canada is approximately -79 degrees. The longitude of Seoul, South Korea is approximately 127 degrees. \n\nTo find the sum of these two longitudes, we simply add them together:\n\n-79 (Toronto's longitude) + 127 (Seoul's longitude) = 48\n\nThe answer is 48.",
+      "pred_ans": "48"
+    },
+    {
+      "new_prompt": "Q: Tokyo - London\nA:",
+      "ground truth": "140",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of Tokyo is 139.76 degrees East, and the longitude of London is 0.13 degrees West. \n\nTo find the difference, we subtract the longitude of London from the longitude of Tokyo:\n\n139.76 - (-0.13) = 139.89\n\nThe answer is 140 when rounded to the nearest whole number.",
+      "pred_ans": "140"
+    },
+    {
+      "new_prompt": "Q: Bangkok - Tokyo\nA:",
+      "ground truth": "-40",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of Bangkok, Thailand is approximately 100 degrees East, and the longitude of Tokyo, Japan is approximately 139 degrees East. \n\nTo find the difference, we subtract the longitude of Bangkok from the longitude of Tokyo:\n\n139 - 100 = 39\n\nThe answer is 39.",
+      "pred_ans": "39"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo - Cairo\nA:",
+      "ground truth": "-78",
+      "llm_output": "The numbers provided in the previous responses seem to be based on the difference in longitude between the two cities. Longitude is a geographic coordinate that specifies the east-west position of a point on the Earth's surface. It is an angular measurement, usually expressed in degrees.\n\nThe longitude of Sao Paulo, Brazil is approximately -46.6333 degrees, and the longitude of Cairo, Egypt is approximately 31.2357 degrees.\n\nTo find the difference, we subtract the longitude of Cairo from the longitude of Sao Paulo:\n\n-46.6333 - 31.2357 = -77.869\n\nRounding to the nearest whole number, we get -78.\n\nThe answer is -78.",
+      "pred_ans": "-78"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Lagos\nA:",
+      "ground truth": "143",
+      "llm_output": "These questions seem to be referring to the calculation of the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Tokyo, Japan is approximately 139.7 degrees East, and the longitude of Lagos, Nigeria is approximately 3.4 degrees East. \n\nTo find the sum of these two longitudes, we simply add them together:\n\n139.7 (Tokyo) + 3.4 (Lagos) = 143.1\n\nThe answer is 143.",
+      "pred_ans": "143"
+    },
+    {
+      "new_prompt": "Q: Cairo + Paris\nA:",
+      "ground truth": "33",
+      "llm_output": "These questions seem to be referring to the calculation of the difference in longitude between two cities. The longitude of a city is its geographical location in degrees east or west of the prime meridian (which passes through Greenwich, London). \n\nThe longitude of Cairo, Egypt is approximately 31 degrees east, and the longitude of Paris, France is approximately 2 degrees east. \n\nTo find the sum of the longitudes of these two cities, we simply add the two values together:\n\n31 (Cairo) + 2 (Paris) = 33\n\nSo, the answer is 33.",
+      "pred_ans": "33"
+    },
+    {
+      "new_prompt": "Q: Bangkok + Cairo\nA:",
+      "ground truth": "131",
+      "llm_output": "The questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Bangkok, Thailand is approximately 100.5\u00b0 E, and the longitude of Cairo, Egypt is approximately 31.2\u00b0 E. \n\nTo find the sum of these two longitudes, we simply add them together:\n\n100.5 + 31.2 = 131.7\n\nHowever, the answer should be an integer, so we round it to the nearest whole number.\n\nThe answer is 132.",
+      "pred_ans": "132"
+    },
+    {
+      "new_prompt": "Q: Mexico City - Rome\nA:",
+      "ground truth": "-111",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Mexico City is approximately -99 degrees, and the longitude of Rome is approximately 12 degrees. \n\nTo find the difference, we subtract the longitude of Rome from the longitude of Mexico City:\n\n-99 - 12 = -111\n\nSo, the answer is -111.",
+      "pred_ans": "-111"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Los Angeles\nA:",
+      "ground truth": "258",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Tokyo, Japan is approximately 139 degrees East. The longitude of Los Angeles, USA is approximately -118 degrees East (which is the same as 118 degrees West). \n\nTo find the difference, we subtract the longitude of Los Angeles from the longitude of Tokyo:\n\n139 - (-118) = 139 + 118 = 257\n\nHowever, the maximum difference in longitude between any two points on Earth is 180 degrees (since it's a circle), so we subtract 180 from 257 to get the shortest distance:\n\n257 - 180 = 77\n\nThe answer is 77.",
+      "pred_ans": "77"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Toronto\nA:",
+      "ground truth": "-137",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Buenos Aires, Argentina is approximately -58 degrees. The longitude of Toronto, Canada is approximately -79 degrees. \n\nTo find the sum of these two longitudes, we simply add them together: -58 + -79 = -137.\n\nThe answer is -137.",
+      "pred_ans": "-137"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Seoul\nA:",
+      "ground truth": "-98",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Istanbul, Turkey is approximately 29 degrees east. The longitude of Seoul, South Korea is approximately 127 degrees east. \n\nTo find the difference, we subtract the longitude of Istanbul from the longitude of Seoul:\n\n127 (Seoul) - 29 (Istanbul) = 98\n\nSo, the answer is 98.",
+      "pred_ans": "98"
+    },
+    {
+      "new_prompt": "Q: London - Moscow\nA:",
+      "ground truth": "-38",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of London is approximately 0 degrees. The longitude of Moscow is approximately 37.6 degrees East. \n\nSo, if we subtract the longitude of Moscow from the longitude of London, we get -37.6 degrees. \n\nHowever, since we're dealing with absolute values, the answer is 37.6, but since we're asked to provide an integer, we'll round it to the nearest whole number.\n\nThe answer is 38.",
+      "pred_ans": "38"
+    },
+    {
+      "new_prompt": "Q: Bangkok - Los Angeles\nA:",
+      "ground truth": "218",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on the Earth, and it's measured in degrees. \n\nThe longitude of Bangkok, Thailand is approximately 100.5\u00b0 E, and the longitude of Los Angeles, USA is approximately 118.25\u00b0 W. \n\nTo find the difference, we add the absolute values of these two longitudes because they are in different hemispheres (one is east and the other is west). \n\nSo, the calculation would be: 100.5 (Bangkok) + 118.25 (Los Angeles) = 218.75\n\nThe answer is 219 when rounded to the nearest whole number.",
+      "pred_ans": "219"
+    },
+    {
+      "new_prompt": "Q: Rome + Paris\nA:",
+      "ground truth": "14",
+      "llm_output": "The cities in these questions are being used as stand-ins for their respective longitudinal coordinates. The longitude of a location is its east-west position on Earth, measured in degrees. \n\nThe longitude of Rome is 12.5\u00b0 E, and the longitude of Paris is 2.35\u00b0 E. \n\nTo find the sum of Rome and Paris, we add their longitudes:\n\n12.5 (Rome) + 2.35 (Paris) = 14.85\n\nHowever, the question asks for the answer as an integer, so we round 14.85 to the nearest whole number, which is 15.\n\nThe answer is 15.",
+      "pred_ans": "15"
+    },
+    {
+      "new_prompt": "Q: Sydney + Istanbul\nA:",
+      "ground truth": "180",
+      "llm_output": "The numbers provided in the previous responses seem to be based on the difference in longitude between the two cities. \n\nThe longitude of Sydney, Australia is 151 degrees east, and the longitude of Istanbul, Turkey is 29 degrees east. \n\nTo find the sum, we add these two longitudes together:\n\n151 + 29 = 180\n\nSo, the answer is 180.",
+      "pred_ans": "180"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Los Angeles\nA:",
+      "ground truth": "22",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of Tokyo is approximately 139 degrees East, and the longitude of Los Angeles is approximately 118 degrees West. \n\nWhen adding these two together, we need to consider that one is East and the other is West. Therefore, we subtract the longitude of Los Angeles from that of Tokyo: 139 - (-118) = 257.\n\nThe answer is 257.",
+      "pred_ans": "257"
+    },
+    {
+      "new_prompt": "Q: London - Toronto\nA:",
+      "ground truth": "79",
+      "llm_output": "These questions seem to be referring to the calculation of differences in time zones between different cities. \n\nThe time zone of London is Greenwich Mean Time (GMT), which is considered as the base time zone (GMT+0). \n\nThe time zone of Toronto is Eastern Standard Time (EST), which is GMT-5.\n\nSo, if we subtract Toronto's time zone from London's time zone, we get:\n\n0 (London's GMT) - (-5) (Toronto's GMT) = 0 + 5 = 5\n\nThe answer is 5.",
+      "pred_ans": "5"
+    },
+    {
+      "new_prompt": "Q: Toronto + Toronto\nA:",
+      "ground truth": "-158",
+      "llm_output": "The cities mentioned in the questions are being used as representations of their respective time zones. The time difference between two cities is calculated by subtracting the UTC offset of one city from the other. \n\nToronto is in the Eastern Time Zone, which is UTC-5. When we add Toronto (UTC-5) to Toronto (UTC-5), we get -5 + -5 = -10.\n\nThe answer is -10.",
+      "pred_ans": "-10"
+    },
+    {
+      "new_prompt": "Q: Istanbul - New York\nA:",
+      "ground truth": "103",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Istanbul, Turkey is approximately 29 degrees east. The longitude of New York, USA is approximately 74 degrees west. \n\nTo find the difference, we add the absolute values of these two longitudes because they are in different hemispheres (one is east and the other is west).\n\nSo, 29 (Istanbul) + 74 (New York) = 103.\n\nThe answer is 103.",
+      "pred_ans": "103"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Sao Paulo\nA:",
+      "ground truth": "26",
+      "llm_output": "These questions seem to be referring to the calculation of the difference in longitude between two cities. The longitude of a city is its geographical location in degrees east or west of the prime meridian (which passes through Greenwich, London). \n\nThe longitude of Mumbai, India is approximately 72.9\u00b0 E, and the longitude of Sao Paulo, Brazil is approximately 46.6\u00b0 W. \n\nTo find the sum of these two cities' longitudes, we need to consider that one is in the eastern hemisphere and the other is in the western hemisphere. Therefore, we add the absolute values of the two longitudes and then negate the result because Sao Paulo is in the western hemisphere.\n\nSo, the calculation would be: -(72.9 + 46.6) = -119.5. \n\nHowever, since the question asks for an integer, we'll round to the nearest whole number.\n\nThe answer is -120.",
+      "pred_ans": "-120"
+    },
+    {
+      "new_prompt": "Q: Toronto - Tokyo\nA:",
+      "ground truth": "-219",
+      "llm_output": "The cities mentioned in the question are represented by their longitudinal coordinates. The longitude of Toronto is -79 degrees, and the longitude of Tokyo is 139 degrees.\n\nTo find the difference, we subtract the longitude of Tokyo from that of Toronto:\n\n-79 - 139 = -218\n\nSo, the answer is -218.",
+      "pred_ans": "-218"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Istanbul\nA:",
+      "ground truth": "57",
+      "llm_output": "The questions seem to be referring to the calculation of the difference in longitude between two cities. \n\nThe longitude of Johannesburg, South Africa is approximately 28 degrees east. The longitude of Istanbul, Turkey is approximately 29 degrees east. \n\nTo find the difference, we subtract the longitude of Johannesburg from the longitude of Istanbul:\n\n29 (Istanbul) - 28 (Johannesburg) = 1\n\nThe answer is 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: Seoul + Sao Paulo\nA:",
+      "ground truth": "80",
+      "llm_output": "These questions seem to be referring to the calculation of the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Seoul, South Korea is approximately 126 degrees East, and the longitude of Sao Paulo, Brazil is approximately 46 degrees West. \n\nTo find the sum of these two longitudes, we need to consider that East and West longitudes are in opposite directions. Therefore, we subtract the longitude of Sao Paulo from that of Seoul:\n\n126 - (-46) = 126 + 46 = 172\n\nThe answer is 172.",
+      "pred_ans": "172"
+    },
+    {
+      "new_prompt": "Q: Lagos - Toronto\nA:",
+      "ground truth": "82",
+      "llm_output": "The questions seem to be referring to the calculation of the difference in longitude between two cities. \n\nThe longitude of Lagos, Nigeria is approximately 3 degrees East. The longitude of Toronto, Canada is approximately 79 degrees West. \n\nTo find the difference, we subtract the longitude of Lagos from the longitude of Toronto. However, since one is East and the other is West, we add the absolute values of the two longitudes.\n\nSo, the calculation would be: |-79| + |3| = 79 + 3 = 82.\n\nThe answer is 82.",
+      "pred_ans": "82"
+    },
+    {
+      "new_prompt": "Q: Beijing - Johannesburg\nA:",
+      "ground truth": "88",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees.\n\nThe longitude of Beijing, China is approximately 116 degrees East, and the longitude of Johannesburg, South Africa is approximately 28 degrees East.\n\nTo find the difference, we subtract the longitude of Johannesburg from the longitude of Beijing:\n\n116 - 28 = 88\n\nSo, the answer is 88.",
+      "pred_ans": "88"
+    },
+    {
+      "new_prompt": "Q: Mumbai - Rome\nA:",
+      "ground truth": "61",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on the Earth, and it's measured in degrees. \n\nThe longitude of Mumbai, India is approximately 72.8777\u00b0 E, and the longitude of Rome, Italy is approximately 12.4964\u00b0 E. \n\nTo find the difference, we subtract the longitude of Rome from the longitude of Mumbai:\n\n72.8777 - 12.4964 = 60.3813\n\nRounding to the nearest whole number, we get 60.\n\nThe answer is 60.",
+      "pred_ans": "60"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Cairo\nA:",
+      "ground truth": "-2",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Istanbul, Turkey is approximately 29 degrees east, and the longitude of Cairo, Egypt is approximately 31 degrees east. \n\nTo find the difference, we subtract the longitude of Cairo from the longitude of Istanbul:\n\n29 (Istanbul) - 31 (Cairo) = -2\n\nSo, the answer is -2.",
+      "pred_ans": "-2"
+    },
+    {
+      "new_prompt": "Q: Bangkok - Lagos\nA:",
+      "ground truth": "97",
+      "llm_output": "These questions seem to be related to the time difference between the cities. \n\nBangkok, Thailand is 7 hours ahead of Coordinated Universal Time (UTC+7). Lagos, Nigeria is 1 hour ahead of Coordinated Universal Time (UTC+1). \n\nTo find the difference, subtract the UTC offset of Lagos from the UTC offset of Bangkok:\n\n7 (Bangkok) - 1 (Lagos) = 6\n\nThe answer is 6.",
+      "pred_ans": "6"
+    },
+    {
+      "new_prompt": "Q: Moscow + Beijing\nA:",
+      "ground truth": "154",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Moscow, Russia is approximately 37.6 degrees East. The longitude of Beijing, China is approximately 116.4 degrees East. \n\nTo find the sum of the longitudes of these two cities, we simply add the two values together:\n\n37.6 (Moscow) + 116.4 (Beijing) = 154 degrees East.\n\nThe answer is 154.",
+      "pred_ans": "154"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Johannesburg\nA:",
+      "ground truth": "112",
+      "llm_output": "The questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Tokyo, Japan is approximately 139.7 degrees East. The longitude of Johannesburg, South Africa is approximately 28.0 degrees East. \n\nTo find the difference, subtract the longitude of Johannesburg from the longitude of Tokyo:\n\n139.7 - 28.0 = 111.7\n\nRounding to the nearest whole number, we get 112.\n\nThe answer is 112.",
+      "pred_ans": "112"
+    },
+    {
+      "new_prompt": "Q: Sydney + Cairo\nA:",
+      "ground truth": "182",
+      "llm_output": "The questions seem to be referring to the calculation of the difference in longitude between two cities. \n\nThe longitude of Sydney, Australia is approximately 151 degrees east, and the longitude of Cairo, Egypt is approximately 31 degrees east. \n\nTo find the sum of these two longitudes, we simply add them together:\n\n151 + 31 = 182\n\nThe answer is 182.",
+      "pred_ans": "182"
+    },
+    {
+      "new_prompt": "Q: Lagos - Paris\nA:",
+      "ground truth": "1",
+      "llm_output": "The questions seem to be referring to the calculation of differences in longitude between two cities. \n\nThe longitude of Lagos, Nigeria is approximately 3 degrees East. The longitude of Paris, France is approximately 2 degrees East. \n\nTo find the difference, we subtract the longitude of Paris from the longitude of Lagos:\n\n3 - 2 = 1\n\nThe answer is 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Sao Paulo\nA:",
+      "ground truth": "76",
+      "llm_output": "The cities mentioned in the question are being used to represent their respective longitudinal coordinates. The longitude of Istanbul, Turkey is approximately 29 degrees east, and the longitude of Sao Paulo, Brazil is approximately 46 degrees west. \n\nTo find the difference, we subtract the longitude of Sao Paulo from that of Istanbul. However, since Sao Paulo is in the western hemisphere, its longitude is considered negative when calculating. \n\nSo, the calculation would be: 29 - (-46) = 29 + 46 = 75.\n\nThe answer is 75.",
+      "pred_ans": "75"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Mexico City\nA:",
+      "ground truth": "127",
+      "llm_output": "The questions seem to be referring to the calculation of the difference in longitude between two cities. \n\nThe longitude of Johannesburg, South Africa is 28.0473\u00b0 E, and the longitude of Mexico City, Mexico is 99.1332\u00b0 W. \n\nTo find the difference, we need to add the absolute values of these two longitudes because they are in different hemispheres (one is in the East and the other is in the West). \n\nSo, the calculation would be: |28.0473| + |99.1332| = 127.1805. \n\nHowever, the question asks for an integer, so we round this to the nearest whole number. \n\nThe answer is 127.",
+      "pred_ans": "127"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Moscow\nA:",
+      "ground truth": "-9",
+      "llm_output": "The questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on Earth, and it's measured in degrees. \n\nThe longitude of Istanbul, Turkey is approximately 28.9784\u00b0 E, and the longitude of Moscow, Russia is approximately 37.6176\u00b0 E.\n\nTo find the difference, we subtract the longitude of Istanbul from the longitude of Moscow:\n\n37.6176 - 28.9784 = 8.6392\n\nRounding to the nearest whole number, we get 9.\n\nThe answer is 9.",
+      "pred_ans": "9"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Mexico City\nA:",
+      "ground truth": "41",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of Buenos Aires, Argentina is approximately -58 degrees, and the longitude of Mexico City, Mexico is approximately -99 degrees.\n\nTo find the difference, we subtract the longitude of Mexico City from the longitude of Buenos Aires:\n\n-58 - (-99) = -58 + 99 = 41\n\nSo, the answer is 41.",
+      "pred_ans": "41"
+    },
+    {
+      "new_prompt": "Q: Beijing - Lagos\nA:",
+      "ground truth": "113",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of Beijing is approximately 116 degrees East, and the longitude of Lagos is approximately 3 degrees East. \n\nTo find the difference, we subtract the longitude of Lagos from the longitude of Beijing:\n\n116 - 3 = 113\n\nSo, the answer is 113.",
+      "pred_ans": "113"
+    },
+    {
+      "new_prompt": "Q: Rome - Bangkok\nA:",
+      "ground truth": "-88",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of Rome is 12 degrees East, and the longitude of Bangkok is 100 degrees East. \n\nTo find the difference, we subtract the longitude of Rome from the longitude of Bangkok:\n\n100 - 12 = 88\n\nSo, the answer is 88.",
+      "pred_ans": "88"
+    },
+    {
+      "new_prompt": "Q: Rome - Istanbul\nA:",
+      "ground truth": "-17",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on the Earth, and it's measured in degrees. \n\nThe longitude of Rome is approximately 12 degrees East, and the longitude of Istanbul is approximately 29 degrees East. \n\nTo find the difference, we subtract the longitude of Istanbul from the longitude of Rome: \n\n12 (Rome) - 29 (Istanbul) = -17\n\nSo, the answer is -17.",
+      "pred_ans": "-17"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Bangkok\nA:",
+      "ground truth": "-218",
+      "llm_output": "To answer these questions, we are using the longitude of each city. The longitude of Los Angeles is -118 degrees and the longitude of Bangkok is 100 degrees. \n\nTo find the difference, we subtract the longitude of Bangkok from the longitude of Los Angeles: -118 - 100 = -218.\n\nThe answer is -218.",
+      "pred_ans": "-218"
+    },
+    {
+      "new_prompt": "Q: Rome + Mexico City\nA:",
+      "ground truth": "-87",
+      "llm_output": "The questions seem to be referring to the calculation of the difference in longitude between two cities. \n\nThe longitude of Rome, Italy is approximately 12 degrees east. The longitude of Mexico City, Mexico is approximately 99 degrees west. \n\nWhen we add these two together, we need to consider the direction as well. East is usually considered as positive and West as negative. \n\nSo, the calculation would be: 12 (Rome) + (-99) (Mexico City) = -87.\n\nThe answer is -87.",
+      "pred_ans": "-87"
+    },
+    {
+      "new_prompt": "Q: Lagos + Mexico City\nA:",
+      "ground truth": "-96",
+      "llm_output": "The questions seem to be referring to the calculation of the difference in longitudes between two cities. \n\nThe longitude of Lagos, Nigeria is approximately 3 degrees East. The longitude of Mexico City, Mexico is approximately 99 degrees West. \n\nWhen we add these two values, we consider the direction as well. East is usually taken as positive and West as negative. So, we have:\n\n3 (Lagos) + (-99) (Mexico City) = -96\n\nThe answer is -96.",
+      "pred_ans": "-96"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Mumbai\nA:",
+      "ground truth": "-45",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Johannesburg, South Africa is approximately 28 degrees east, and the longitude of Mumbai, India is approximately 73 degrees east. \n\nTo find the difference, we subtract the longitude of Johannesburg from the longitude of Mumbai:\n\n73 (Mumbai) - 28 (Johannesburg) = 45\n\nThe answer is 45.",
+      "pred_ans": "45"
+    },
+    {
+      "new_prompt": "Q: Cairo - Rome\nA:",
+      "ground truth": "19",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of Cairo is approximately 31 degrees east, and the longitude of Rome is approximately 12 degrees east. \n\nTo find the difference, we subtract the longitude of Rome from the longitude of Cairo: 31 - 12 = 19.\n\nThe answer is 19.",
+      "pred_ans": "19"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Istanbul\nA:",
+      "ground truth": "0",
+      "llm_output": "When you subtract a number from itself, the result is always zero. This is a basic rule of arithmetic. Therefore, when you subtract Istanbul from Istanbul, the result is zero. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Seoul - Tokyo\nA:",
+      "ground truth": "-13",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of Seoul is approximately 126 degrees East, and the longitude of Tokyo is approximately 139 degrees East. \n\nTo find the difference, we subtract the longitude of Tokyo from the longitude of Seoul:\n\n126 - 139 = -13\n\nSo, the answer is -13.",
+      "pred_ans": "-13"
+    },
+    {
+      "new_prompt": "Q: Cairo - Los Angeles\nA:",
+      "ground truth": "149",
+      "llm_output": "The questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Cairo, Egypt is approximately 31.2357\u00b0 E, and the longitude of Los Angeles, USA is approximately 118.2437\u00b0 W. \n\nTo find the difference, we need to add the absolute values of these two longitudes because one is in the eastern hemisphere and the other is in the western hemisphere.\n\nSo, 31.2357 + 118.2437 = 149.4794. \n\nRounding to the nearest whole number, we get 149.\n\nThe answer is 149.",
+      "pred_ans": "149"
+    },
+    {
+      "new_prompt": "Q: Paris + Buenos Aires\nA:",
+      "ground truth": "-56",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of Paris is 2.35 degrees East, and the longitude of Buenos Aires is 58.38 degrees West. \n\nTo find the sum, we add the absolute values of the two longitudes, but since Buenos Aires is in the Western Hemisphere, its longitude is considered negative when combined with the Eastern Hemisphere longitude of Paris.\n\nSo, the calculation would be: 2.35 (Paris) + (-58.38) (Buenos Aires) = -56.03. \n\nRounding to the nearest whole number, the answer is -56.",
+      "pred_ans": "-56"
+    },
+    {
+      "new_prompt": "Q: New York + Moscow\nA:",
+      "ground truth": "-36",
+      "llm_output": "To answer this question, we need to understand that the cities are being represented by their longitudinal coordinates. The longitude of a location is its angular distance east or west from the prime meridian (0\u00b0), with positive values to the east and negative values to the west.\n\nThe longitude of New York is approximately -74 degrees, and the longitude of Moscow is approximately 37 degrees.\n\nSo, if we add these two together:\n\n-74 (New York) + 37 (Moscow) = -37\n\nThe answer is -37.",
+      "pred_ans": "-37"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Seoul\nA:",
+      "ground truth": "69",
+      "llm_output": "To solve this, we need to understand that the question is asking for the sum of the longitudes of Buenos Aires and Seoul. \n\nThe longitude of Buenos Aires, Argentina is approximately -58 degrees. The longitude of Seoul, South Korea is approximately 127 degrees. \n\nWhen we add these two together, we get:\n\n-58 + 127 = 69\n\nSo, the answer is 69.",
+      "pred_ans": "69"
+    },
+    {
+      "new_prompt": "Q: Moscow + Los Angeles\nA:",
+      "ground truth": "-80",
+      "llm_output": "The questions seem to be referring to the calculation of the difference in longitude between two cities. \n\nThe longitude of Moscow, Russia is approximately 37.6 degrees East. The longitude of Los Angeles, USA is approximately 118.2 degrees West. \n\nTo find the difference, we add the absolute values of these two longitudes because they are in different hemispheres (East and West). \n\nSo, 37.6 (Moscow) + 118.2 (Los Angeles) = 155.8\n\nThe answer is 156 when rounded to the nearest whole number.",
+      "pred_ans": "156"
+    },
+    {
+      "new_prompt": "Q: Rome + Bangkok\nA:",
+      "ground truth": "112",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Rome, Italy is approximately 12 degrees East, and the longitude of Bangkok, Thailand is approximately 100 degrees East. \n\nTo find the sum of the longitudes of these two cities, we simply add the two values together:\n\n12 (Rome) + 100 (Bangkok) = 112\n\nSo, the answer is 112.",
+      "pred_ans": "112"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + London\nA:",
+      "ground truth": "28",
+      "llm_output": "The questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Johannesburg, South Africa is approximately 28 degrees east. The longitude of London, United Kingdom is approximately 0 degrees (it's located on the Prime Meridian). \n\nTo find the difference, we subtract the longitude of London from the longitude of Johannesburg: \n\n28 - 0 = 28\n\nThe answer is 28.",
+      "pred_ans": "28"
+    },
+    {
+      "new_prompt": "Q: Rome - Johannesburg\nA:",
+      "ground truth": "-16",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of Rome is 12.5\u00b0 E, and the longitude of Johannesburg is 28.0\u00b0 E. \n\nTo find the difference, we subtract the longitude of Johannesburg from that of Rome: \n\n12.5 - 28.0 = -15.5\n\nHowever, since the question asks for an integer, we round this to the nearest whole number. \n\nThe answer is -16.",
+      "pred_ans": "-16"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Mumbai\nA:",
+      "ground truth": "-131",
+      "llm_output": "To solve this, we need to know the longitude of both cities. \n\nThe longitude of Buenos Aires, Argentina is approximately -58 degrees. The longitude of Mumbai, India is approximately 72 degrees.\n\nTo find the difference, we subtract the longitude of Mumbai from the longitude of Buenos Aires:\n\n-58 - 72 = -130\n\nSo, the answer is -130.",
+      "pred_ans": "-130"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Johannesburg\nA:",
+      "ground truth": "56",
+      "llm_output": "The cities in these questions are being used as stand-ins for their respective longitudinal coordinates. The longitude of Johannesburg, South Africa is 28 degrees east. \n\nSo, if we add Johannesburg to itself, we're essentially adding its longitude to itself:\n\n28 (Johannesburg) + 28 (Johannesburg) = 56\n\nThe answer is 56.",
+      "pred_ans": "56"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Johannesburg\nA:",
+      "ground truth": "101",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Mumbai, India is approximately 72.8777\u00b0 E, and the longitude of Johannesburg, South Africa is approximately 28.0473\u00b0 E. \n\nTo find the sum of the longitudes of these two cities, we add the two longitudes together:\n\n72.8777 + 28.0473 = 100.925\n\nHowever, since the question asks for an integer, we round this to the nearest whole number.\n\nThe answer is 101.",
+      "pred_ans": "101"
+    },
+    {
+      "new_prompt": "Q: Sydney - Seoul\nA:",
+      "ground truth": "24",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on the Earth, and it's measured in degrees. \n\nThe longitude of Sydney, Australia is approximately 151 degrees east, and the longitude of Seoul, South Korea is approximately 127 degrees east. \n\nTo find the difference, we subtract the longitude of Seoul from the longitude of Sydney:\n\n151 - 127 = 24\n\nThe answer is 24.",
+      "pred_ans": "24"
+    },
+    {
+      "new_prompt": "Q: Bangkok - Seoul\nA:",
+      "ground truth": "-27",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of Bangkok, Thailand is approximately 100 degrees east, and the longitude of Seoul, South Korea is approximately 127 degrees east. \n\nTo find the difference, we subtract the longitude of Bangkok from the longitude of Seoul: \n\n127 - 100 = 27\n\nThe answer is 27.",
+      "pred_ans": "27"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Tokyo\nA:",
+      "ground truth": "168",
+      "llm_output": "The questions seem to be referring to the calculation of the difference in longitude between two cities. \n\nThe longitude of Johannesburg, South Africa is approximately 28 degrees east, and the longitude of Tokyo, Japan is approximately 139 degrees east. \n\nTo find the difference, we subtract the longitude of Johannesburg from the longitude of Tokyo:\n\n139 - 28 = 111\n\nSo, the answer is 111.",
+      "pred_ans": "111"
+    },
+    {
+      "new_prompt": "Q: Mumbai - Sao Paulo\nA:",
+      "ground truth": "120",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Mumbai, India is approximately 72.8777\u00b0 E, and the longitude of Sao Paulo, Brazil is approximately 46.6333\u00b0 W. \n\nTo find the difference, we need to add the absolute values of these two longitudes because they are in different hemispheres (East and West). \n\nSo, 72.8777 (Mumbai) + 46.6333 (Sao Paulo) = 119.511\n\nRounding to the nearest whole number, we get 120.\n\nThe answer is 120.",
+      "pred_ans": "120"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Cairo\nA:",
+      "ground truth": "-149",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Los Angeles, USA is approximately -118 degrees (west of Greenwich). The longitude of Cairo, Egypt is approximately 31 degrees (east of Greenwich). \n\nTo find the difference, we subtract the longitude of Cairo from that of Los Angeles:\n\n-118 - 31 = -149\n\nThe answer is -149.",
+      "pred_ans": "-149"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Sao Paulo\nA:",
+      "ground truth": "26",
+      "llm_output": "The questions seem to be referring to the calculation of the difference in longitude between two cities. \n\nThe longitude of Mumbai, India is approximately 72.8777\u00b0 E, and the longitude of Sao Paulo, Brazil is approximately 46.6333\u00b0 W. \n\nWhen adding these two together, we need to consider that one is in the Eastern Hemisphere and the other is in the Western Hemisphere. Therefore, we subtract the longitude of Sao Paulo from that of Mumbai:\n\n72.8777 (Mumbai) - (-46.6333) (Sao Paulo) = 119.511\n\nRounding to the nearest whole number, we get 120.\n\nThe answer is 120.",
+      "pred_ans": "120"
+    },
+    {
+      "new_prompt": "Q: Mexico City - Cairo\nA:",
+      "ground truth": "-130",
+      "llm_output": "The numbers provided in the previous responses seem to be based on the difference in longitude between the two cities. Longitude is a geographic coordinate that specifies the east-west position of a point on the Earth's surface. It is an angular measurement, usually expressed in degrees.\n\nThe longitude of Mexico City is approximately -99 degrees, and the longitude of Cairo is approximately 31 degrees.\n\nTo find the difference, we subtract the longitude of Cairo from the longitude of Mexico City:\n\n-99 - 31 = -130\n\nSo, the answer is -130.",
+      "pred_ans": "-130"
+    },
+    {
+      "new_prompt": "Q: Rome - Cairo\nA:",
+      "ground truth": "-19",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of Rome is 12.5 degrees East, and the longitude of Cairo is 31.2 degrees East. \n\nTo find the difference, we subtract the longitude of Cairo from the longitude of Rome: 12.5 - 31.2 = -18.7. \n\nHowever, the question asks for an integer, so we round to the nearest whole number. \n\nThe answer is -19.",
+      "pred_ans": "-19"
+    },
+    {
+      "new_prompt": "Q: Mexico City + Tokyo\nA:",
+      "ground truth": "41",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Mexico City is approximately -99 degrees. The longitude of Tokyo is approximately 139 degrees. \n\nTo find the sum of these two longitudes, we simply add them together:\n\n-99 (Mexico City's longitude) + 139 (Tokyo's longitude) = 40\n\nThe answer is 40.",
+      "pred_ans": "40"
+    },
+    {
+      "new_prompt": "Q: Rome - London\nA:",
+      "ground truth": "12",
+      "llm_output": "These questions seem to be referring to the difference or sum of the longitudes of two cities. \n\nThe longitude of Rome is 12.5 degrees East and the longitude of London is 0.1 degrees West. \n\nTo find the difference, we subtract the longitude of London from the longitude of Rome: 12.5 - (-0.1) = 12.6.\n\nThe answer is 13 when rounded to the nearest whole number.",
+      "pred_ans": "13"
+    },
+    {
+      "new_prompt": "Q: Seoul - London\nA:",
+      "ground truth": "127",
+      "llm_output": "The questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on the Earth, and it's measured in degrees. \n\nThe longitude of Seoul, South Korea is approximately 126 degrees East, and the longitude of London, United Kingdom is approximately 0 degrees (as it's located on the Prime Meridian). \n\nTo find the difference, we subtract the longitude of London from the longitude of Seoul:\n\n126 - 0 = 126\n\nThe answer is 126.",
+      "pred_ans": "126"
+    },
+    {
+      "new_prompt": "Q: Paris - Mexico City\nA:",
+      "ground truth": "101",
+      "llm_output": "These questions seem to be referring to the difference or sum of the longitudes of two cities. \n\nThe longitude of Paris, France is 2.35 degrees East. The longitude of Mexico City, Mexico is -99.13 degrees West. \n\nTo find the difference, we subtract the longitude of Mexico City from the longitude of Paris: \n\n2.35 - (-99.13) = 101.48\n\nHowever, the question asks for an integer, so we round this to the nearest whole number.\n\nThe answer is 101.",
+      "pred_ans": "101"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Bangkok\nA:",
+      "ground truth": "-72",
+      "llm_output": "The steps involve using the longitude of each city to perform the calculation. The longitude of Johannesburg is 28 degrees east, and the longitude of Bangkok is 100 degrees east. \n\nSo, the calculation would be: \n\nJohannesburg (28) - Bangkok (100) = -72\n\nThe answer is -72.",
+      "pred_ans": "-72"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Istanbul\nA:",
+      "ground truth": "102",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Mumbai, India is approximately 72.9 degrees East, and the longitude of Istanbul, Turkey is approximately 28.9 degrees East. \n\nTo find the sum of the longitudes of these two cities, we simply add the two values together:\n\n72.9 (Mumbai) + 28.9 (Istanbul) = 101.8\n\nHowever, the question asks for an integer, so we'll round to the nearest whole number. \n\nThe answer is 102.",
+      "pred_ans": "102"
+    },
+    {
+      "new_prompt": "Q: New York - Mumbai\nA:",
+      "ground truth": "-147",
+      "llm_output": "To solve this, we need to understand that the cities are being represented by their longitudinal coordinates. The longitude of New York is approximately -74 degrees, and the longitude of Mumbai is approximately 72 degrees.\n\nSo, the calculation would be: -74 (New York) - 72 (Mumbai) = -146.\n\nThe answer is -146.",
+      "pred_ans": "-146"
+    },
+    {
+      "new_prompt": "Q: Mexico City - London\nA:",
+      "ground truth": "-99",
+      "llm_output": "The questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Mexico City is approximately -99 degrees, and the longitude of London is approximately 0 degrees. \n\nTo find the difference, we subtract the longitude of London from the longitude of Mexico City: -99 - 0 = -99.\n\nThe answer is -99.",
+      "pred_ans": "-99"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Rome\nA:",
+      "ground truth": "40",
+      "llm_output": "The questions seem to be referring to the calculation of the difference in longitude between two cities. \n\nThe longitude of Johannesburg, South Africa is 28.0473\u00b0 E, and the longitude of Rome, Italy is 12.4964\u00b0 E.\n\nTo find the difference, we subtract the longitude of Rome from the longitude of Johannesburg:\n\n28.0473 - 12.4964 = 15.5509\n\nRounding to the nearest whole number, we get 16.\n\nThe answer is 16.",
+      "pred_ans": "16"
+    },
+    {
+      "new_prompt": "Q: Rome - Lagos\nA:",
+      "ground truth": "9",
+      "llm_output": "The questions seem to be referring to the calculation of differences in longitude between two cities. \n\nThe longitude of Rome, Italy is approximately 12 degrees east. The longitude of Lagos, Nigeria is approximately 3 degrees east. \n\nTo find the difference, we subtract the longitude of Lagos from the longitude of Rome: \n\n12 (Rome) - 3 (Lagos) = 9\n\nThe answer is 9.",
+      "pred_ans": "9"
+    },
+    {
+      "new_prompt": "Q: Mexico City - London\nA:",
+      "ground truth": "-99",
+      "llm_output": "The questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Mexico City is approximately -99 degrees. The longitude of London is approximately 0 degrees. \n\nTo find the difference, we subtract the longitude of London from the longitude of Mexico City: -99 - 0 = -99.\n\nThe answer is -99.",
+      "pred_ans": "-99"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Cairo\nA:",
+      "ground truth": "104",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Mumbai, India is approximately 72.9\u00b0 E, and the longitude of Cairo, Egypt is approximately 31.2\u00b0 E. \n\nTo find the sum of the longitudes of these two cities, we add the two values together:\n\n72.9 + 31.2 = 104.1\n\nThe answer is 104.1.",
+      "pred_ans": "104.1"
+    },
+    {
+      "new_prompt": "Q: Beijing - Moscow\nA:",
+      "ground truth": "78",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of Beijing is approximately 116 degrees east, and the longitude of Moscow is approximately 37 degrees east. \n\nTo find the difference, we subtract the longitude of Moscow from the longitude of Beijing:\n\n116 - 37 = 79\n\nSo, the answer is 79.",
+      "pred_ans": "79"
+    },
+    {
+      "new_prompt": "Q: Lagos - Moscow\nA:",
+      "ground truth": "-35",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Lagos, Nigeria is approximately 3 degrees East, and the longitude of Moscow, Russia is approximately 37 degrees East. \n\nTo find the difference, we subtract the longitude of Lagos from the longitude of Moscow:\n\n37 (Moscow) - 3 (Lagos) = 34\n\nThe answer is 34.",
+      "pred_ans": "34"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Istanbul\nA:",
+      "ground truth": "102",
+      "llm_output": "The cities mentioned in the question are being used to represent their respective longitudinal coordinates. The longitude of Mumbai is 72.8777\u00b0 E and the longitude of Istanbul is 28.9784\u00b0 E. \n\nWhen you add these two longitudes together, you get:\n\n72.8777 + 28.9784 = 101.8561\n\nHowever, the question asks for the answer as an integer, so we round this to the nearest whole number.\n\nThe answer is 102.",
+      "pred_ans": "102"
+    },
+    {
+      "new_prompt": "Q: Sydney + Moscow\nA:",
+      "ground truth": "189",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Sydney, Australia is approximately 151 degrees east, and the longitude of Moscow, Russia is approximately 37 degrees east. \n\nTo find the sum of the longitudes of these two cities, we simply add the two values together:\n\n151 (Sydney) + 37 (Moscow) = 188\n\nThe answer is 188.",
+      "pred_ans": "188"
+    },
+    {
+      "new_prompt": "Q: Mexico City - Bangkok\nA:",
+      "ground truth": "-199",
+      "llm_output": "The questions seem to be referring to the calculation of differences in longitude between two cities. \n\nThe longitude of Mexico City is approximately -99 degrees, and the longitude of Bangkok is approximately 100 degrees. \n\nTo find the difference, we subtract the longitude of Bangkok from the longitude of Mexico City: -99 - 100 = -199.\n\nThe answer is -199.",
+      "pred_ans": "-199"
+    },
+    {
+      "new_prompt": "Q: Mexico City - Paris\nA:",
+      "ground truth": "-101",
+      "llm_output": "These questions seem to be referring to the calculation of differences in time zones between different cities. \n\nMexico City is in the Central Standard Time zone, which is UTC-6. Paris is in the Central European Time zone, which is UTC+1. \n\nTo find the difference, you subtract the UTC of Mexico City from the UTC of Paris:\n\nUTC of Paris (1) - UTC of Mexico City (-6) = 1 - (-6) = 7\n\nSo, the answer is 7.",
+      "pred_ans": "7"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Bangkok\nA:",
+      "ground truth": "240",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of Tokyo is approximately 139 degrees East, and the longitude of Bangkok is approximately 100 degrees East. \n\nTo find the sum, you simply add the two longitudes together:\n\n139 (Tokyo) + 100 (Bangkok) = 239\n\nThe answer is 239.",
+      "pred_ans": "239"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Seoul\nA:",
+      "ground truth": "13",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Tokyo, Japan is approximately 139.76 degrees East. The longitude of Seoul, South Korea is approximately 126.98 degrees East. \n\nTo find the difference, we subtract the longitude of Seoul from the longitude of Tokyo:\n\n139.76 - 126.98 = 12.78\n\nRounding to the nearest whole number, we get 13.\n\nThe answer is 13.",
+      "pred_ans": "13"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo + Mumbai\nA:",
+      "ground truth": "26",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between different cities. The longitude of a location is its east-west position on the Earth, and it's measured in degrees.\n\nThe longitude of Sao Paulo, Brazil is approximately -46 degrees, and the longitude of Mumbai, India is approximately 72 degrees.\n\nTo find the sum of these two longitudes, we simply add them together:\n\n-46 (Sao Paulo) + 72 (Mumbai) = 26\n\nThe answer is 26.",
+      "pred_ans": "26"
+    },
+    {
+      "new_prompt": "Q: Toronto + Istanbul\nA:",
+      "ground truth": "-50",
+      "llm_output": "The questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Toronto, Canada is approximately -79 degrees. The longitude of Istanbul, Turkey is approximately 29 degrees. \n\nTo find the sum, we add the two longitudes together:\n\n-79 (Toronto) + 29 (Istanbul) = -50\n\nThe answer is -50.",
+      "pred_ans": "-50"
+    },
+    {
+      "new_prompt": "Q: Seoul - Rome\nA:",
+      "ground truth": "115",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Seoul, South Korea is approximately 126 degrees East, and the longitude of Rome, Italy is approximately 12 degrees East. \n\nTo find the difference, we subtract the longitude of Rome from the longitude of Seoul:\n\n126 - 12 = 114\n\nSo, the answer is 114.",
+      "pred_ans": "114"
+    },
+    {
+      "new_prompt": "Q: Beijing - Moscow\nA:",
+      "ground truth": "78",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on the Earth, and it's measured in degrees. \n\nThe longitude of Beijing is approximately 116 degrees East, and the longitude of Moscow is approximately 37 degrees East. \n\nTo find the difference, we subtract the longitude of Moscow from the longitude of Beijing:\n\n116 - 37 = 79\n\nThe answer is 79.",
+      "pred_ans": "79"
+    },
+    {
+      "new_prompt": "Q: Seoul - Lagos\nA:",
+      "ground truth": "124",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Seoul, South Korea is approximately 126 degrees East. The longitude of Lagos, Nigeria is approximately 3 degrees East. \n\nTo find the difference, we subtract the longitude of Lagos from the longitude of Seoul: \n\n126 - 3 = 123\n\nThe answer is 123.",
+      "pred_ans": "123"
+    },
+    {
+      "new_prompt": "Q: Toronto - Istanbul\nA:",
+      "ground truth": "-108",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Toronto is approximately -79 degrees, and the longitude of Istanbul is approximately 29 degrees. \n\nTo find the difference, we subtract the longitude of Istanbul from the longitude of Toronto: -79 - 29 = -108.\n\nThe answer is -108.",
+      "pred_ans": "-108"
+    },
+    {
+      "new_prompt": "Q: Seoul + Mexico City\nA:",
+      "ground truth": "28",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Seoul, South Korea is approximately 126 degrees east, and the longitude of Mexico City, Mexico is approximately -99 degrees west. \n\nTo find the difference, we add the absolute values of these two longitudes:\n\n|126| + |-99| = 225\n\nHowever, the maximum possible difference in longitude is 180 degrees (since the Earth is a sphere), so we subtract 180 from 225 to get the shortest distance:\n\n225 - 180 = 45\n\nThe answer is 45.",
+      "pred_ans": "45"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Mumbai\nA:",
+      "ground truth": "-45",
+      "llm_output": "The questions seem to be referring to the calculation of differences in longitude between two cities. \n\nThe longitude of Johannesburg, South Africa is approximately 28 degrees east. The longitude of Mumbai, India is approximately 73 degrees east. \n\nTo find the difference, we subtract the longitude of Johannesburg from the longitude of Mumbai:\n\n73 (Mumbai) - 28 (Johannesburg) = 45\n\nThe answer is 45.",
+      "pred_ans": "45"
+    },
+    {
+      "new_prompt": "Q: Toronto - Moscow\nA:",
+      "ground truth": "-117",
+      "llm_output": "The numbers provided in the previous responses seem to be based on the difference in longitude between the two cities. \n\nThe longitude of Toronto is approximately -79 degrees, and the longitude of Moscow is approximately 37 degrees. \n\nTo find the difference, we subtract the longitude of Moscow from the longitude of Toronto: -79 - 37 = -116.\n\nThe answer is -116.",
+      "pred_ans": "-116"
+    },
+    {
+      "new_prompt": "Q: Rome + Los Angeles\nA:",
+      "ground truth": "-106",
+      "llm_output": "The questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Rome, Italy is approximately 12 degrees east. The longitude of Los Angeles, USA is approximately 118 degrees west. \n\nWhen we add these two values, we need to consider that one is east and the other is west. So, we subtract the longitude of Los Angeles from that of Rome: 12 - (-118) = 130.\n\nThe answer is 130.",
+      "pred_ans": "130"
+    },
+    {
+      "new_prompt": "Q: Lagos + Rome\nA:",
+      "ground truth": "15",
+      "llm_output": "The questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Lagos, Nigeria is approximately 3 degrees East. The longitude of Rome, Italy is approximately 12 degrees East. \n\nTo find the sum of the longitudes of Lagos and Rome, we add the two longitudes together:\n\n3 (Lagos) + 12 (Rome) = 15\n\nThe answer is 15.",
+      "pred_ans": "15"
+    },
+    {
+      "new_prompt": "Q: Beijing + Mumbai\nA:",
+      "ground truth": "189",
+      "llm_output": "These questions seem to be referring to the calculation of the difference in longitude between two cities. \n\nThe longitude of Beijing, China is approximately 116 degrees east. The longitude of Mumbai, India is approximately 72 degrees east. \n\nTo find the sum of the longitudes of these two cities, we add the two values together:\n\n116 (Beijing) + 72 (Mumbai) = 188\n\nThe answer is 188.",
+      "pred_ans": "188"
+    },
+    {
+      "new_prompt": "Q: Seoul + Buenos Aires\nA:",
+      "ground truth": "69",
+      "llm_output": "The questions seem to be referring to the calculation of the difference in longitude between two cities. \n\nThe longitude of Seoul, South Korea is approximately 126 degrees east, and the longitude of Buenos Aires, Argentina is approximately 58 degrees west. \n\nTo find the sum, we add the absolute values of the two longitudes:\n\n|126| + |-58| = 126 + 58 = 184\n\nHowever, since Buenos Aires is in the western hemisphere, its longitude is considered negative in relation to the Prime Meridian. Therefore, we need to subtract this value from the longitude of Seoul:\n\n126 - 58 = 68\n\nThe answer is 68.",
+      "pred_ans": "68"
+    },
+    {
+      "new_prompt": "Q: London + Mexico City\nA:",
+      "ground truth": "-99",
+      "llm_output": "The questions seem to be referring to the calculation of the difference in longitude between two cities. \n\nThe longitude of London is 0 degrees (as it is located on the Prime Meridian), and the longitude of Mexico City is approximately -99 degrees (west of the Prime Meridian). \n\nTo calculate the sum, we add the two longitudes:\n\n0 (London) + -99 (Mexico City) = -99\n\nSo, the answer is -99.",
+      "pred_ans": "-99"
+    },
+    {
+      "new_prompt": "Q: Lagos + Mumbai\nA:",
+      "ground truth": "76",
+      "llm_output": "The numbers provided in the previous responses seem to be based on the difference in longitude between the two cities. \n\nThe longitude of Lagos, Nigeria is approximately 3 degrees East. The longitude of Mumbai, India is approximately 73 degrees East. \n\nTo find the difference, we subtract the longitude of Lagos from the longitude of Mumbai:\n\n73 (Mumbai) - 3 (Lagos) = 70\n\nSo, the answer is 70.",
+      "pred_ans": "70"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Sao Paulo\nA:",
+      "ground truth": "187",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Tokyo, Japan is approximately 139 degrees East. The longitude of Sao Paulo, Brazil is approximately 46 degrees West. \n\nTo find the difference, we can add the absolute values of these two longitudes because one is in the Eastern hemisphere and the other is in the Western hemisphere.\n\nSo, 139 (Tokyo) + 46 (Sao Paulo) = 185.\n\nThe answer is 185.",
+      "pred_ans": "185"
+    },
+    {
+      "new_prompt": "Q: Beijing - Cairo\nA:",
+      "ground truth": "85",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Beijing, China is approximately 116 degrees east, and the longitude of Cairo, Egypt is approximately 31 degrees east. \n\nTo find the difference, we subtract the longitude of Cairo from the longitude of Beijing: \n\n116 - 31 = 85\n\nThe answer is 85.",
+      "pred_ans": "85"
+    },
+    {
+      "new_prompt": "Q: Moscow - Paris\nA:",
+      "ground truth": "36",
+      "llm_output": "The questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Moscow is approximately 37.6 degrees East, and the longitude of Paris is approximately 2.3 degrees East. \n\nTo find the difference, we subtract the longitude of Paris from the longitude of Moscow:\n\n37.6 - 2.3 = 35.3\n\nHowever, the question asks for an integer, so we round this to the nearest whole number.\n\nThe answer is 35.",
+      "pred_ans": "35"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Sao Paulo\nA:",
+      "ground truth": "-165",
+      "llm_output": "The cities mentioned in the questions are being used as placeholders for their respective longitudinal coordinates. The longitude of Los Angeles is approximately -118 degrees, and the longitude of Sao Paulo is approximately -46 degrees. \n\nWhen you add these two together, you get -164. \n\nSo, the answer is -164.",
+      "pred_ans": "-164"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Beijing\nA:",
+      "ground truth": "-2",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of Los Angeles is approximately -118 degrees, and the longitude of Beijing is approximately 116 degrees. \n\nTo find the sum, we add the two longitudes together:\n\n-118 (Los Angeles) + 116 (Beijing) = -2\n\nThe answer is -2.",
+      "pred_ans": "-2"
+    },
+    {
+      "new_prompt": "Q: New York - Cairo\nA:",
+      "ground truth": "-105",
+      "llm_output": "To answer this question, we need to understand that the cities are being represented by their longitudinal coordinates. The longitude of a location is its angular distance east or west of the prime meridian (0\u00b0). \n\nThe longitude of New York is approximately -74 degrees (west of the prime meridian), and the longitude of Cairo is approximately 31 degrees (east of the prime meridian). \n\nTo find the difference, we subtract the longitude of Cairo from that of New York:\n\n-74 (New York) - 31 (Cairo) = -105\n\nThe answer is -105.",
+      "pred_ans": "-105"
+    },
+    {
+      "new_prompt": "Q: Cairo + Seoul\nA:",
+      "ground truth": "158",
+      "llm_output": "The questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Cairo, Egypt is approximately 31 degrees East, and the longitude of Seoul, South Korea is approximately 127 degrees East. \n\nTo find the difference, we subtract the longitude of Cairo from the longitude of Seoul: \n\n127 - 31 = 96\n\nThe answer is 96.",
+      "pred_ans": "96"
+    },
+    {
+      "new_prompt": "Q: London + Paris\nA:",
+      "ground truth": "2",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of London is approximately 0 degrees, and the longitude of Paris is approximately 2 degrees east. \n\nSo, if we add the longitudes of London and Paris, we get:\n\n0 (London) + 2 (Paris) = 2\n\nThe answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: New York + Lagos\nA:",
+      "ground truth": "-71",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on the Earth, and it's measured in degrees. \n\nThe longitude of New York is approximately -74 degrees (it's in the Western Hemisphere, so it's negative), and the longitude of Lagos is approximately 3 degrees (it's in the Eastern Hemisphere, so it's positive).\n\nTo find the sum of these two longitudes, you would add them together:\n\n-74 (New York) + 3 (Lagos) = -71\n\nThe answer is -71.",
+      "pred_ans": "-71"
+    },
+    {
+      "new_prompt": "Q: Paris - Los Angeles\nA:",
+      "ground truth": "120",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Paris, France is 2.35 degrees East, and the longitude of Los Angeles, USA is 118.25 degrees West. \n\nTo find the difference, we add the absolute values of the two longitudes because one is in the East and the other is in the West. \n\nSo, 2.35 (Paris) + 118.25 (Los Angeles) = 120.6\n\nThe answer is 120.6, but since the question asks for an integer, we round it to the nearest whole number. \n\nThe answer is 121.",
+      "pred_ans": "121"
+    },
+    {
+      "new_prompt": "Q: Paris + Tokyo\nA:",
+      "ground truth": "142",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of Paris is 2.35 degrees East, and the longitude of Tokyo is 139.75 degrees East. \n\nTo find the difference, we subtract the longitude of Paris from the longitude of Tokyo:\n\n139.75 (Tokyo) - 2.35 (Paris) = 137.4\n\nHowever, the question asks for the answer as an integer, so we'll round to the nearest whole number.\n\nThe answer is 137.",
+      "pred_ans": "137"
+    },
+    {
+      "new_prompt": "Q: Sydney - Buenos Aires\nA:",
+      "ground truth": "209",
+      "llm_output": "The questions seem to be referring to the calculation of differences in longitude between two cities. \n\nThe longitude of Sydney, Australia is approximately 151 degrees east. The longitude of Buenos Aires, Argentina is approximately 58 degrees west. \n\nTo find the difference, we add the absolute values of these two longitudes because they are in different hemispheres (one is east and the other is west).\n\nSo, 151 (Sydney) + 58 (Buenos Aires) = 209.\n\nThe answer is 209.",
+      "pred_ans": "209"
+    },
+    {
+      "new_prompt": "Q: Bangkok - Mumbai\nA:",
+      "ground truth": "27",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Bangkok, Thailand is approximately 100.5\u00b0 E, and the longitude of Mumbai, India is approximately 72.8\u00b0 E. \n\nTo find the difference, subtract the longitude of Mumbai from the longitude of Bangkok:\n\n100.5 - 72.8 = 27.7\n\nRounding to the nearest whole number, we get 28.\n\nThe answer is 28.",
+      "pred_ans": "28"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo - New York\nA:",
+      "ground truth": "27",
+      "llm_output": "The numbers provided in the previous responses seem to be based on the difference in longitude between the two cities. Longitude is a geographic coordinate that specifies the east-west position of a point on the Earth's surface. It is an angular measurement, usually expressed in degrees.\n\nThe longitude of Sao Paulo, Brazil is approximately -46.6333 degrees, and the longitude of New York, USA is approximately -74.0060 degrees.\n\nTo find the difference, we subtract the longitude of New York from the longitude of Sao Paulo:\n\n-46.6333 - (-74.0060) = 27.3727\n\nRounding to the nearest whole number, we get 27.\n\nThe answer is 27.",
+      "pred_ans": "27"
+    },
+    {
+      "new_prompt": "Q: Bangkok - Beijing\nA:",
+      "ground truth": "-16",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Bangkok, Thailand is approximately 100.5\u00b0 E, and the longitude of Beijing, China is approximately 116.4\u00b0 E. \n\nTo find the difference, we subtract the longitude of Beijing from that of Bangkok:\n\n100.5 - 116.4 = -15.9\n\nRounding to the nearest whole number, we get -16.\n\nThe answer is -16.",
+      "pred_ans": "-16"
+    },
+    {
+      "new_prompt": "Q: Bangkok + Seoul\nA:",
+      "ground truth": "227",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Bangkok, Thailand is approximately 100 degrees east, and the longitude of Seoul, South Korea is approximately 127 degrees east. \n\nTo find the sum of the longitudes of these two cities, we add the two values together:\n\n100 (Bangkok) + 127 (Seoul) = 227\n\nThe answer is 227.",
+      "pred_ans": "227"
+    },
+    {
+      "new_prompt": "Q: Paris - Bangkok\nA:",
+      "ground truth": "-98",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Paris, France is 2.35 degrees East. The longitude of Bangkok, Thailand is 100.49 degrees East. \n\nTo find the difference, we subtract the longitude of Paris from the longitude of Bangkok:\n\n100.49 - 2.35 = 98.14\n\nHowever, the question asks for an integer, so we round this to the nearest whole number.\n\nThe answer is 98.",
+      "pred_ans": "98"
+    },
+    {
+      "new_prompt": "Q: Beijing + Paris\nA:",
+      "ground truth": "118",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of Beijing is approximately 116 degrees east, and the longitude of Paris is approximately 2 degrees east. \n\nTo find the sum, we add the two longitudes together:\n\n116 (Beijing) + 2 (Paris) = 118\n\nThe answer is 118.",
+      "pred_ans": "118"
+    },
+    {
+      "new_prompt": "Q: London - Buenos Aires\nA:",
+      "ground truth": "58",
+      "llm_output": "The questions seem to be referring to the calculation of the difference in longitude between two cities. \n\nThe longitude of London is 0 degrees (as it is located on the Prime Meridian), and the longitude of Buenos Aires is approximately -58 degrees (west of the Prime Meridian). \n\nTo find the difference, we subtract the longitude of Buenos Aires from that of London: \n\n0 - (-58) = 58\n\nThe answer is 58.",
+      "pred_ans": "58"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Lagos\nA:",
+      "ground truth": "26",
+      "llm_output": "The questions seem to be referring to the calculation of differences in longitudes between two cities. \n\nThe longitude of Istanbul, Turkey is approximately 29 degrees east. The longitude of Lagos, Nigeria is approximately 3 degrees east. \n\nTo find the difference, we subtract the longitude of Lagos from the longitude of Istanbul: \n\n29 (Istanbul) - 3 (Lagos) = 26\n\nThe answer is 26.",
+      "pred_ans": "26"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo + Moscow\nA:",
+      "ground truth": "-9",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Sao Paulo, Brazil is approximately -46.6333 degrees. The longitude of Moscow, Russia is approximately 37.6176 degrees.\n\nTo find the sum of these two longitudes, we simply add them together:\n\n-46.6333 + 37.6176 = -9.0157\n\nRounding to the nearest whole number, we get -9.\n\nThe answer is -9.",
+      "pred_ans": "-9"
+    },
+    {
+      "new_prompt": "Q: Beijing - Paris\nA:",
+      "ground truth": "114",
+      "llm_output": "These questions seem to be referring to the calculation of the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Beijing is approximately 116 degrees East, and the longitude of Paris is approximately 2 degrees East. \n\nTo find the difference, we subtract the longitude of Paris from the longitude of Beijing:\n\n116 - 2 = 114\n\nThe answer is 114.",
+      "pred_ans": "114"
+    },
+    {
+      "new_prompt": "Q: Rome + Sydney\nA:",
+      "ground truth": "163",
+      "llm_output": "These questions seem to be referring to the calculation of the difference in longitude between two cities. The longitude of Rome is 12 degrees East, and the longitude of Sydney is 151 degrees East. \n\nTo calculate the sum of these two longitudes, we add them together:\n\n12 (Rome) + 151 (Sydney) = 163\n\nSo, the answer is 163.",
+      "pred_ans": "163"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + London\nA:",
+      "ground truth": "28",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Johannesburg, South Africa is approximately 28 degrees east. The longitude of London, United Kingdom is approximately 0 degrees (it's located on the Prime Meridian). \n\nTo find the difference, we subtract the longitude of London from the longitude of Johannesburg: \n\n28 (Johannesburg) - 0 (London) = 28\n\nThe answer is 28.",
+      "pred_ans": "28"
+    },
+    {
+      "new_prompt": "Q: Mexico City - New York\nA:",
+      "ground truth": "-25",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on the Earth, and it's measured in degrees. \n\nThe longitude of Mexico City is approximately -99 degrees, and the longitude of New York City is approximately -74 degrees. \n\nTo find the difference, we subtract the longitude of New York City from the longitude of Mexico City:\n\n-99 - (-74) = -99 + 74 = -25\n\nSo, the answer is -25.",
+      "pred_ans": "-25"
+    },
+    {
+      "new_prompt": "Q: Seoul - Seoul\nA:",
+      "ground truth": "0",
+      "llm_output": "The cities mentioned in the question are being used as representations of their respective time zones. The time difference between a city and itself is always zero, as they are in the same time zone. Therefore, the difference between Seoul and Seoul is 0. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - New York\nA:",
+      "ground truth": "102",
+      "llm_output": "These questions seem to be referring to the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Johannesburg, South Africa is approximately 28 degrees east. The longitude of New York, USA is approximately 74 degrees west. \n\nTo find the difference, we add the absolute values of these two longitudes because one is east and the other is west. \n\nSo, 28 (Johannesburg) + 74 (New York) = 102.\n\nThe answer is 102.",
+      "pred_ans": "102"
+    },
+    {
+      "new_prompt": "Q: Mexico City - Sao Paulo\nA:",
+      "ground truth": "-52",
+      "llm_output": "The numbers provided in the previous responses are not random. They are the differences or sums of the longitudes of the cities mentioned. \n\nThe longitude of Mexico City is approximately -99 degrees, and the longitude of Sao Paulo is approximately -46 degrees. \n\nTo find the difference, we subtract the longitude of Sao Paulo from the longitude of Mexico City: -99 - (-46) = -53.\n\nThe answer is -53.",
+      "pred_ans": "-53"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Paris\nA:",
+      "ground truth": "-60",
+      "llm_output": "The questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Buenos Aires, Argentina is approximately -58 degrees. The longitude of Paris, France is approximately 2 degrees.\n\nTo find the difference, we subtract the longitude of Paris from the longitude of Buenos Aires: -58 - 2 = -60.\n\nThe answer is -60.",
+      "pred_ans": "-60"
+    },
+    {
+      "new_prompt": "Q: Sydney - New York\nA:",
+      "ground truth": "225",
+      "llm_output": "The numbers provided in the previous responses seem to be based on the difference in longitude between the two cities. \n\nThe longitude of Sydney, Australia is approximately 151 degrees east. The longitude of New York, USA is approximately 74 degrees west. \n\nTo find the difference, we convert New York's longitude to east by changing the sign, and then subtract it from Sydney's longitude:\n\n151 - (-74) = 151 + 74 = 225\n\nThe answer is 225.",
+      "pred_ans": "225"
+    },
+    {
+      "new_prompt": "Q: Mumbai - Mexico City\nA:",
+      "ground truth": "172",
+      "llm_output": "The questions seem to be referring to the calculation of the difference in longitude between two cities. \n\nThe longitude of Mumbai, India is approximately 72.8777\u00b0 E, and the longitude of Mexico City, Mexico is approximately 99.1332\u00b0 W. \n\nTo find the difference, we convert the longitudes to the same direction. Since West is conventionally taken as negative, we convert Mexico City's longitude to -99.1332\u00b0. \n\nThen, we subtract the longitude of Mexico City from the longitude of Mumbai: \n\n72.8777 - (-99.1332) = 72.8777 + 99.1332 = 172.0109\n\nRounding to the nearest whole number, we get 172.\n\nThe answer is 172.",
+      "pred_ans": "172"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Beijing\nA:",
+      "ground truth": "-88",
+      "llm_output": "To answer these questions, we are using the longitude of each city. The longitude of a location is its angular distance east or west from the prime meridian (0\u00b0 longitude) in Greenwich, London, England. \n\nThe longitude of Johannesburg is 28\u00b0 E, and the longitude of Beijing is 116\u00b0 E. \n\nTo find the difference, we subtract the longitude of Johannesburg from the longitude of Beijing:\n\n116 - 28 = 88\n\nSo, the answer is 88.",
+      "pred_ans": "88"
+    },
+    {
+      "new_prompt": "Q: New York - Johannesburg\nA:",
+      "ground truth": "-102",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of New York is approximately -74 degrees (west of the Prime Meridian), and the longitude of Johannesburg is approximately 28 degrees (east of the Prime Meridian). \n\nTo find the difference, we subtract the longitude of Johannesburg from the longitude of New York:\n\n-74 - 28 = -102\n\nThe answer is -102.",
+      "pred_ans": "-102"
+    },
+    {
+      "new_prompt": "Q: Paris + Los Angeles\nA:",
+      "ground truth": "-116",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of Paris is 2.35 degrees East, and the longitude of Los Angeles is 118.25 degrees West. \n\nTo find the difference, we can add the absolute values of these two longitudes because one is in the Eastern Hemisphere and the other is in the Western Hemisphere. \n\nSo, 2.35 (Paris) + 118.25 (Los Angeles) = 120.6\n\nHowever, the question asks for an integer, so we'll round to the nearest whole number. \n\nThe answer is 121.",
+      "pred_ans": "121"
+    },
+    {
+      "new_prompt": "Q: New York + Lagos\nA:",
+      "ground truth": "-71",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of New York is approximately -74 degrees, and the longitude of Lagos is approximately 3 degrees. \n\nTo find the sum of these two longitudes, we simply add them together:\n\n-74 + 3 = -71\n\nSo, the answer is -71.",
+      "pred_ans": "-71"
+    },
+    {
+      "new_prompt": "Q: Paris - London\nA:",
+      "ground truth": "2",
+      "llm_output": "The questions seem to be asking for the difference in longitude between two cities. The longitude of Paris is 2.35 degrees East, and the longitude of London is 0.13 degrees West. \n\nTo find the difference, we subtract the longitude of London from the longitude of Paris: 2.35 - (-0.13) = 2.48.\n\nThe answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Mumbai - Sao Paulo\nA:",
+      "ground truth": "120",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on the Earth, and it's measured in degrees. \n\nThe longitude of Mumbai, India is approximately 72.8777\u00b0 E, and the longitude of Sao Paulo, Brazil is approximately 46.6333\u00b0 W. \n\nTo find the difference, we add the absolute values of these two longitudes because they are in different hemispheres (one is east and the other is west).\n\nSo, the calculation would be: 72.8777 + 46.6333 = 119.511\n\nRounding to the nearest whole number, we get 120.\n\nThe answer is 120.",
+      "pred_ans": "120"
+    },
+    {
+      "new_prompt": "Q: Mumbai - Sydney\nA:",
+      "ground truth": "-78",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Mumbai, India is approximately 72.8777 degrees East. The longitude of Sydney, Australia is approximately 151.2093 degrees East. \n\nTo find the difference, we subtract the longitude of Mumbai from the longitude of Sydney:\n\n151.2093 - 72.8777 = 78.3316\n\nRounding to the nearest whole number, we get 78.\n\nThe answer is 78.",
+      "pred_ans": "78"
+    },
+    {
+      "new_prompt": "Q: Cairo + Sao Paulo\nA:",
+      "ground truth": "-16",
+      "llm_output": "The numbers provided in the previous responses seem to be based on the difference in longitude between the two cities. Longitude is a geographic coordinate that specifies the east-west position of a point on the Earth's surface. It is an angular measurement, usually expressed in degrees.\n\nThe longitude of Cairo, Egypt is approximately 31 degrees east, and the longitude of Sao Paulo, Brazil is approximately 46 degrees west. \n\nTo find the difference, we subtract the longitude of Sao Paulo from that of Cairo: 31 - (-46) = 77.\n\nThe answer is 77.",
+      "pred_ans": "77"
+    },
+    {
+      "new_prompt": "Q: Mumbai - Los Angeles\nA:",
+      "ground truth": "191",
+      "llm_output": "These questions seem to be referring to the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Mumbai, India is approximately 72.9\u00b0 E, and the longitude of Los Angeles, USA is approximately 118.3\u00b0 W. \n\nTo find the difference, we need to add the absolute values of these two longitudes because one is in the eastern hemisphere and the other is in the western hemisphere.\n\nSo, 72.9 (Mumbai) + 118.3 (Los Angeles) = 191.2\n\nThe answer is 191.",
+      "pred_ans": "191"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Bangkok\nA:",
+      "ground truth": "-218",
+      "llm_output": "The cities mentioned in the questions are being used as representations of their respective time zones. \n\nLos Angeles is in the Pacific Time Zone, which is UTC-8 during standard time and UTC-7 during daylight saving time. Bangkok is in the Indochina Time Zone, which is UTC+7 year-round. \n\nTo find the difference between the two, we subtract the UTC offset of Bangkok from the UTC offset of Los Angeles. \n\nIf we consider standard time (not daylight saving time), the calculation would be as follows:\n\nUTC-8 (Los Angeles) - UTC+7 (Bangkok) = -8 - 7 = -15\n\nThe answer is -15.",
+      "pred_ans": "-15"
+    },
+    {
+      "new_prompt": "Q: Lagos - Los Angeles\nA:",
+      "ground truth": "121",
+      "llm_output": "The steps involve using the longitude of each city to perform the calculation. The longitude of Lagos, Nigeria is 3 degrees East, and the longitude of Los Angeles, USA is 118 degrees West. \n\nWhen you subtract the longitude of Los Angeles from Lagos, you need to take into account that one is East and the other is West. So, you add the absolute values of the two longitudes.\n\n3 (Lagos) + 118 (Los Angeles) = 121\n\nThe answer is 121.",
+      "pred_ans": "121"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Bangkok\nA:",
+      "ground truth": "-158",
+      "llm_output": "To solve this, we need to understand that the cities are being represented by their longitudinal coordinates. The longitude of Buenos Aires, Argentina is approximately -58 degrees, and the longitude of Bangkok, Thailand is approximately 100 degrees.\n\nSo, the calculation would be -58 (Buenos Aires) - 100 (Bangkok) = -158.\n\nThe answer is -158.",
+      "pred_ans": "-158"
+    },
+    {
+      "new_prompt": "Q: Cairo - Istanbul\nA:",
+      "ground truth": "2",
+      "llm_output": "The cities mentioned in the questions are being used as representations of their respective time zones. The time difference between Cairo and Istanbul is calculated by subtracting the time zone of Istanbul from that of Cairo.\n\nCairo, Egypt is in the Eastern European Time zone, which is UTC+2. Istanbul, Turkey is in the Eastern European Time zone as well, which is also UTC+3. \n\nSo, the calculation would be: Cairo (UTC+2) - Istanbul (UTC+3) = -1.\n\nThe answer is -1.",
+      "pred_ans": "-1"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Beijing\nA:",
+      "ground truth": "58",
+      "llm_output": "The questions seem to be asking for the difference in longitude between two cities. \n\nThe longitude of Buenos Aires, Argentina is approximately -58 degrees. The longitude of Beijing, China is approximately 116 degrees.\n\nTo find the sum, we add the two longitudes together:\n\n-58 + 116 = 58\n\nThe answer is 58.",
+      "pred_ans": "58"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo - Toronto\nA:",
+      "ground truth": "32",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. \n\nThe longitude of Sao Paulo, Brazil is approximately -46.6333 degrees, and the longitude of Toronto, Canada is approximately -79.3833 degrees.\n\nTo find the difference, we subtract the longitude of Sao Paulo from the longitude of Toronto:\n\n-79.3833 - (-46.6333) = -32.75\n\nHowever, the question asks for the answer as an integer, so we round to the nearest whole number.\n\nThe answer is -33.",
+      "pred_ans": "-33"
+    },
+    {
+      "new_prompt": "Q: London + Buenos Aires\nA:",
+      "ground truth": "-58",
+      "llm_output": "The cities mentioned in the questions are being used as representations of their respective longitudinal coordinates. The longitude of a location is its east-west position on the Earth. \n\nThe longitude of London is 0 degrees (as it is located on the Prime Meridian), and the longitude of Buenos Aires is approximately -58 degrees (it is located in the Western Hemisphere). \n\nWhen you add these two together (0 + -58), you get -58. \n\nSo, the answer is -58.",
+      "pred_ans": "-58"
+    },
+    {
+      "new_prompt": "Q: Cairo + Cairo\nA:",
+      "ground truth": "62",
+      "llm_output": "The cities in these questions are being used as stand-ins for their respective longitudinal coordinates. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nCairo, the capital of Egypt, is located at approximately 31 degrees east longitude. \n\nSo, if we add Cairo's longitude to itself, we get:\n\n31 (Cairo) + 31 (Cairo) = 62\n\nTherefore, the answer is 62.",
+      "pred_ans": "62"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Mumbai\nA:",
+      "ground truth": "67",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of Tokyo is 139.7 degrees East, and the longitude of Mumbai is 72.8 degrees East. \n\nTo find the difference, we subtract the longitude of Mumbai from the longitude of Tokyo:\n\n139.7 - 72.8 = 66.9\n\nRounding to the nearest whole number, we get 67.\n\nThe answer is 67.",
+      "pred_ans": "67"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Lagos\nA:",
+      "ground truth": "143",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Tokyo, Japan is approximately 139.7 degrees East. The longitude of Lagos, Nigeria is approximately 3.4 degrees East. \n\nTo find the sum of these two longitudes, we simply add them together:\n\n139.7 (Tokyo) + 3.4 (Lagos) = 143.1\n\nHowever, the question asks for an integer, so we round to the nearest whole number.\n\nThe answer is 143.",
+      "pred_ans": "143"
+    },
+    {
+      "new_prompt": "Q: Toronto - Istanbul\nA:",
+      "ground truth": "-108",
+      "llm_output": "These questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of a location is its east-west position on the Earth, and it's measured in degrees. \n\nThe longitude of Toronto is approximately -79 degrees, and the longitude of Istanbul is approximately 29 degrees. \n\nTo find the difference, we subtract the longitude of Istanbul from the longitude of Toronto:\n\n-79 - 29 = -108\n\nThe answer is -108.",
+      "pred_ans": "-108"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Bangkok\nA:",
+      "ground truth": "173",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Mumbai, India is approximately 72.8777\u00b0 E, and the longitude of Bangkok, Thailand is approximately 100.5167\u00b0 E.\n\nTo find the difference, we subtract the longitude of Mumbai from the longitude of Bangkok:\n\n100.5167 - 72.8777 = 27.6390\n\nRounding to the nearest whole number, we get 28.\n\nThe answer is 28.",
+      "pred_ans": "28"
+    },
+    {
+      "new_prompt": "Q: Beijing + Rome\nA:",
+      "ground truth": "128",
+      "llm_output": "These questions seem to be asking for the difference in longitude between two cities. The longitude of a location is its east-west position on the Earth, measured in degrees. \n\nThe longitude of Beijing, China is approximately 116 degrees East, and the longitude of Rome, Italy is approximately 12 degrees East. \n\nTo find the sum of the longitudes of these two cities, we simply add the two values together:\n\n116 (Beijing) + 12 (Rome) = 128\n\nThe answer is 128.",
+      "pred_ans": "128"
+    },
+    {
+      "new_prompt": "Q: Moscow - Sydney\nA:",
+      "ground truth": "-113",
+      "llm_output": "The questions seem to be referring to the calculation of differences in longitude between two cities. The longitude of Moscow is approximately 37 degrees east, and the longitude of Sydney is approximately 151 degrees east. \n\nTo find the difference, we subtract the longitude of Moscow from the longitude of Sydney:\n\n151 - 37 = 114\n\nHowever, since we are moving from Moscow to Sydney, which is in the opposite direction of the Earth's rotation, we take the negative of this value. \n\nSo, the answer is -114.",
+      "pred_ans": "-114"
+    },
+    {
+      "new_prompt": "Q: Seoul - Los Angeles\nA:",
+      "ground truth": "245",
+      "llm_output": "To answer these questions, we are using the longitude of each city. The longitude of a location is its angular distance east or west from the prime meridian (0\u00b0 longitude) in Greenwich, London. \n\nThe longitude of Seoul is 126\u00b058\u203239\u2033 E and the longitude of Los Angeles is 118\u00b014\u203234\u2033 W. \n\nWhen we subtract the longitude of Los Angeles from Seoul, we convert the west longitude to negative. \n\nSo, Seoul (126.98) - Los Angeles (-118.24) = 245.22\n\nHowever, the maximum possible value for longitude is 180 (as it ranges from -180 to 180), so we subtract the excess from 180.\n\nSo, 245.22 - 180 = 65.22\n\nWe round this to the nearest whole number for simplicity.\n\nThe answer is 65.",
+      "pred_ans": "65"
+    }
+  ]
+}

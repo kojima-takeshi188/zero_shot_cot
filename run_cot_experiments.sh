@@ -3,9 +3,9 @@
 
 # Define the model and other parameters
 model="gpt4"
-log_dir="./logs_gpt4"
+log_dir="./logs_gpt4_2"
 # limit_dataset_size is the number of samples used for testing; it will use all testing samples if put 0.
-limit_dataset_size=100
+limit_dataset_size=0
 
 # Array of methods
 #methods=("few_shot" "few_shot_cot" "few_shot_uninformative_cot" "uninformative_cot_with_trigger" "zero_shot_cot")
@@ -15,8 +15,9 @@ limit_dataset_size=100
 #methods=("ICL_with_trigger")
 #methods=("few_shot_cot")
 
-#methods=("few_shot")
-methods=("few_shot_cot" "uninformative_cot_with_trigger" "uninformative_demographics_cot_with_trigger" "ICL_with_trigger")
+methods=("zero_shot_cot")
+#methods=("few_shot_cot" "few_shot_cot_with_trigger" "uninformative_cot_with_trigger" "uninformative_demographics_cot_with_trigger" "ICL_with_trigger" "few_shot")
+#methods=("ICL_with_trigger")
 
 
 # Array of datasets

@@ -1,0 +1,1205 @@
+{
+  "accuracy": 2.5,
+  "outputs": [
+    {
+      "new_prompt": "Q: Sydney - New York\nA:",
+      "ground truth": "225",
+      "llm_output": "Sydney has a population of around 5.3 million people, with a breakdown of 58% White, 34.2% Asian, and 2.6% Aboriginal/Torres Strait Islander. The remaining percentages include others. The median age is 36 years. New York City has a population of approximately 8.4 million people, with a diverse population that includes White (42.7%), Hispanic (29.1%), Black (24.3%), and Asian (14%) individuals. The median age is 36 years. The answer is -2.",
+      "pred_ans": "-2"
+    },
+    {
+      "new_prompt": "Q: Paris + Toronto\nA:",
+      "ground truth": "-77",
+      "llm_output": "Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years. Toronto has a population of approximately 2.93 million people, with a diverse population that includes individuals identifying as White, South Asian, Chinese, Black, Filipino, and others. The median age is 39 years. The answer is -77.",
+      "pred_ans": "-77"
+    },
+    {
+      "new_prompt": "Q: London - Moscow\nA:",
+      "ground truth": "-38",
+      "llm_output": "London has a population of approximately 9 million people, with a diverse ethnic makeup including White, Asian, Black, and other ethnicities. The median age is 36 years. Moscow, with a population of approximately 12.5 million, is primarily inhabited by individuals of White (Slavic) ethnicity. The median age is around 40 years. \n\nTo calculate the difference, we subtract the population of Moscow from London, and then subtract the median age of Moscow from London. \n\nSo, (9 million - 12.5 million) + (36 years - 40 years) = -3.5 million + -4 years. \n\nThe answer is -3500004.",
+      "pred_ans": "-3500004"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Johannesburg\nA:",
+      "ground truth": "0",
+      "llm_output": "When you subtract a number from itself, the result is always zero. Therefore, if we subtract Johannesburg from Johannesburg, the result would be zero. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Mexico City + Cairo\nA:",
+      "ground truth": "-68",
+      "llm_output": "Mexico City has a population of around 21.6 million, predominantly Mestizo, with some Indigenous and White populations. The median age is 31 years. Cairo, the capital of Egypt, has a population of approximately 20.4 million, predominantly Arab, with a median age of 24 years. The answer is -7.",
+      "pred_ans": "-7"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Mexico City\nA:",
+      "ground truth": "-217",
+      "llm_output": "Los Angeles has a population of around 4 million people. It is predominantly Hispanic (48.6%), followed by White (28.5%), Asian (11.3%), and Black residents (9.8%). The median age is approximately 36 years. The greater metropolitan area of Mexico City has a population of around 21.6 million, predominantly Mestizo, with some Indigenous and White populations. The median age is 31 years. To calculate the answer, we subtract the median age of Los Angeles from the median age of Mexico City, and then subtract this result from the population difference between the two cities. The calculation is as follows: (21.6 million - 4 million) - (36 - 31) = 17.6 million - 5 = 17.595 million. The answer is 17595000.",
+      "pred_ans": "17595000"
+    },
+    {
+      "new_prompt": "Q: Beijing - Johannesburg\nA:",
+      "ground truth": "88",
+      "llm_output": "Beijing houses approximately 21.5 million people, primarily of Han Chinese ethnicity. The median age in the city is 37.4 years. The greater metropolitan area of Johannesburg houses around 5.7 million people, with a diverse population including Black, White, Coloured, and Asian individuals. The median age is 27 years. The answer is 85.",
+      "pred_ans": "85"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Istanbul\nA:",
+      "ground truth": "-147",
+      "llm_output": "Los Angeles has a population of around 4 million people. It is predominantly Hispanic (48.6%), followed by White (28.5%), Asian (11.3%), and Black residents (9.8%). The median age is approximately 36 years. Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years. \n\nTo calculate the difference, we subtract the population of Istanbul from Los Angeles, and then subtract the median age of Istanbul from Los Angeles. \n\nSo, the calculation would be: (4 - 15.5) + (36 - 32) = -11.5 + 4 = -7.5. \n\nHowever, since the question asks for an integer, we round -7.5 to the nearest whole number, which is -8. \n\nThe answer is -8.",
+      "pred_ans": "-8"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Istanbul\nA:",
+      "ground truth": "111",
+      "llm_output": "Tokyo, the capital of Japan, has a population of approximately 37.4 million people in its greater metropolitan area. The population is predominantly of Japanese ethnicity. The median age is 46.9 years. Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years. \n\nTo find the difference, we subtract the population and median age of Istanbul from that of Tokyo. \n\nThe answer is 35.",
+      "pred_ans": "35"
+    },
+    {
+      "new_prompt": "Q: Sydney + Mumbai\nA:",
+      "ground truth": "224",
+      "llm_output": "Sydney has a population of around 5.3 million people, with a breakdown of 58% White, 34.2% Asian, and 2.6% Aboriginal/Torres Strait Islander. The remaining percentages include others. The median age is 36 years. The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. The answer is -84.",
+      "pred_ans": "-84"
+    },
+    {
+      "new_prompt": "Q: Sydney - New York\nA:",
+      "ground truth": "225",
+      "llm_output": "Sydney has a population of around 5.3 million people, with a breakdown of 58% White, 34.2% Asian, and 2.6% Aboriginal/Torres Strait Islander. The remaining percentages include others. The median age is 36 years. New York City has a population of approximately 8.4 million people, with a diverse population that includes White (42.7%), Hispanic (29.1%), Black (24.3%), and Asian (14%) individuals. The median age is 36 years. The answer is -3.",
+      "pred_ans": "-3"
+    },
+    {
+      "new_prompt": "Q: New York - Bangkok\nA:",
+      "ground truth": "-174",
+      "llm_output": "New York City has a population of approximately 8.4 million people. The city is very diverse, with White (32.1%), Hispanic (29.1%), Black (24.3%), and Asian (14%) residents. The median age is 36 years. Bangkok, with a population of approximately 10.8 million, is predominantly Thai, with Chinese and other minorities. The median age is 40 years. The answer is -6.",
+      "pred_ans": "-6"
+    },
+    {
+      "new_prompt": "Q: Istanbul + Istanbul\nA:",
+      "ground truth": "58",
+      "llm_output": "Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years. If we add Istanbul to itself, we are essentially doubling these figures. Therefore, the population would be 31 million and the median age would be 64 years. The answer is 64.",
+      "pred_ans": "64"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Moscow\nA:",
+      "ground truth": "-96",
+      "llm_output": "Buenos Aires has a population of approximately 15 million in its greater metropolitan area. The majority of residents are of European descent, with some Mestizos, and the median age is 31 years. With a population of approximately 12.5 million, Moscow is primarily inhabited by individuals of White (Slavic) ethnicity. The median age is around 40 years. The answer is -9.",
+      "pred_ans": "-9"
+    },
+    {
+      "new_prompt": "Q: Sydney - Toronto\nA:",
+      "ground truth": "230",
+      "llm_output": "Sydney has a population of around 5.3 million people, with a breakdown of 58% White, 34.2% Asian, and 2.6% Aboriginal/Torres Strait Islander. The remaining percentages include others. The median age is 36 years. Toronto has a population of approximately 2.93 million people, with a diverse population that includes White (50.2%), South Asian (12.7%), Chinese (11.1%), and Black (8.9%) individuals. The median age is 39 years. The answer is -8.",
+      "pred_ans": "-8"
+    },
+    {
+      "new_prompt": "Q: Toronto - Buenos Aires\nA:",
+      "ground truth": "-21",
+      "llm_output": "Toronto has a population of approximately 2.93 million people, with a diverse ethnic makeup that includes White, South Asian, Chinese, Black, Filipino, and other ethnicities. The median age is 39 years. Buenos Aires has a population of approximately 15 million in its greater metropolitan area. The majority of residents are of European descent, with some Mestizos, and the median age is 31 years. The answer is 143.",
+      "pred_ans": "143"
+    },
+    {
+      "new_prompt": "Q: Istanbul + Seoul\nA:",
+      "ground truth": "156",
+      "llm_output": "Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years. Seoul, the capital of South Korea, has a population of approximately 9.7 million people, predominantly of Korean ethnicity. The median age is 40 years. The answer is 57.",
+      "pred_ans": "57"
+    },
+    {
+      "new_prompt": "Q: Sydney + Johannesburg\nA:",
+      "ground truth": "179",
+      "llm_output": "Sydney has a population of around 5.3 million people, with a breakdown of 58% White, 34.2% Asian, and 2.6% Aboriginal/Torres Strait Islander. The remaining percentages include others. The median age is 36 years. The greater metropolitan area of Johannesburg houses around 5.7 million people, with a diverse population including Black, White, Coloured, and Asian individuals. The median age is 27 years. The answer is -9.",
+      "pred_ans": "-9"
+    },
+    {
+      "new_prompt": "Q: Seoul - Istanbul\nA:",
+      "ground truth": "98",
+      "llm_output": "Seoul has a population of approximately 9.7 million people, predominantly of Korean ethnicity. The median age is 41.8 years. Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years. \n\nTo calculate the difference, we subtract the population of Istanbul from Seoul, and then subtract the median age of Istanbul from Seoul. \n\nSo, the calculation would be: (9.7 million - 15.5 million) + (41.8 years - 32 years) = -5.8 million + 9.8 years. \n\nSince we are dealing with millions in population, we can consider the years as equivalent to millions for the sake of this calculation. Therefore, the answer is -5.8 + 9.8 = 4. \n\nThe answer is 4.",
+      "pred_ans": "4"
+    },
+    {
+      "new_prompt": "Q: Cairo - Sydney\nA:",
+      "ground truth": "-120",
+      "llm_output": "Cairo, the capital of Egypt, has a population of approximately 20.4 million people in its metropolitan area. The population is predominantly Arab, with a median age of 24 years. Sydney, on the other hand, has a population of around 5.3 million people, with a breakdown of 58% White, 34.2% Asian, and 2.6% Aboriginal/Torres Strait Islander. The remaining percentages include others. The median age is 36 years. The answer is -112.",
+      "pred_ans": "-112"
+    },
+    {
+      "new_prompt": "Q: Moscow + Sao Paulo\nA:",
+      "ground truth": "-9",
+      "llm_output": "With a population of approximately 12.5 million, Moscow is primarily inhabited by individuals of White (Slavic) ethnicity. The median age is around 40 years. The greater metropolitan area of Sao Paulo is home to approximately 21.7 million people, with a diverse population that includes individuals identifying as White, Pardo (mixed), Black, and Asian. The median age is 36 years. The answer is -76.",
+      "pred_ans": "-76"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Istanbul\nA:",
+      "ground truth": "169",
+      "llm_output": "Tokyo, the capital of Japan, has a population of approximately 37.4 million in its greater metropolitan area. The population is predominantly Japanese, and the median age is 46.6 years. Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years. If we add the median ages of both cities, we get 46.6 + 32 = 78.6. Since we need an integer, we can round this to the nearest whole number. The answer is 79.",
+      "pred_ans": "79"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Rome\nA:",
+      "ground truth": "16",
+      "llm_output": "Johannesburg houses around 5.7 million people, with a diverse population including Black, White, Coloured, and Asian individuals. The median age is 27 years. Rome has around 2.8 million residents, predominantly White (Italian), and various immigrant groups. The median age is 45 years. \n\nTo calculate the difference, we subtract the population of Rome from Johannesburg, and then subtract the median age of Rome from Johannesburg. \n\nSo, the calculation would be: (5.7 million - 2.8 million) - (45 - 27) = 2.9 million - 18 = 2,899,982. \n\nHowever, since the question does not specify the units or the context of the subtraction, it's unclear whether we should be subtracting populations, median ages, or some other factor. If we're simply subtracting the median ages, the answer would be -18. \n\nThe answer is -18.",
+      "pred_ans": "-18"
+    },
+    {
+      "new_prompt": "Q: Seoul + Paris\nA:",
+      "ground truth": "129",
+      "llm_output": "Seoul has a population of approximately 9.7 million people, predominantly of Korean ethnicity. The median age is 41.8 years. Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years. The answer is 80.",
+      "pred_ans": "80"
+    },
+    {
+      "new_prompt": "Q: Paris + Seoul\nA:",
+      "ground truth": "129",
+      "llm_output": "Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years. Seoul, the capital of South Korea, has a population of approximately 9.7 million people, predominantly of Korean ethnicity. The median age is 41.8 years. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + New York\nA:",
+      "ground truth": "-192",
+      "llm_output": "Los Angeles has a population of around 4 million people. It is predominantly Hispanic (48.6%), followed by White (28.5%), Asian (11.3%), and Black residents (9.8%). The median age is approximately 36 years. New York City has a population of approximately 8.4 million people. The city is diverse, with White (42.7%), Hispanic (29.1%), Black (24.3%), and Asian (14%) residents. The median age is 36 years. The answer is -72.",
+      "pred_ans": "-72"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Mexico City\nA:",
+      "ground truth": "239",
+      "llm_output": "Tokyo, the capital of Japan, has a population of approximately 37.4 million in its greater metropolitan area. The population is predominantly of Japanese ethnicity. The median age is 46.9 years. Mexico City, on the other hand, has a population of around 21.6 million in its greater metropolitan area, predominantly Mestizo, with some Indigenous and White populations. The median age is 31 years. The answer is 15.",
+      "pred_ans": "15"
+    },
+    {
+      "new_prompt": "Q: Seoul - Paris\nA:",
+      "ground truth": "125",
+      "llm_output": "Seoul has a population of approximately 9.7 million people, predominantly of Korean ethnicity. The median age is 41.8 years. Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years. The answer is 66.",
+      "pred_ans": "66"
+    },
+    {
+      "new_prompt": "Q: Moscow + Bangkok\nA:",
+      "ground truth": "138",
+      "llm_output": "With a population of approximately 12.5 million, Moscow is primarily inhabited by individuals of White (Slavic) ethnicity. The median age is around 40 years. Bangkok, with a population of approximately 10.8 million, is predominantly Thai, with Chinese and other minorities. The median age is 40 years. To calculate the answer, we add the median ages of both cities (40 + 40 = 80). The answer is 80.",
+      "pred_ans": "80"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Paris\nA:",
+      "ground truth": "-120",
+      "llm_output": "Los Angeles has a population of around 4 million people. It is predominantly Hispanic (48.6%), followed by White (28.5%), Asian (11.3%), and Black residents (9.8%). The median age is approximately 36 years. Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years. The answer is -5.",
+      "pred_ans": "-5"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Seoul\nA:",
+      "ground truth": "-185",
+      "llm_output": "Buenos Aires has a population of approximately 15 million in its greater metropolitan area. The majority of residents are of European descent, with some Mestizos, and the median age is 31 years. Seoul, on the other hand, has a population of around 9.7 million people, predominantly of Korean ethnicity. The median age is 41.8 years. The answer is -26.",
+      "pred_ans": "-26"
+    },
+    {
+      "new_prompt": "Q: Cairo - Bangkok\nA:",
+      "ground truth": "-69",
+      "llm_output": "Cairo, the capital of Egypt, has a population of approximately 20.4 million people, predominantly of Egyptian Arab descent. The median age is 24 years. Bangkok, the capital of Thailand, has a population of approximately 10.8 million people, predominantly Thai, with Chinese and other minorities. The median age is 40 years. \n\nTo calculate the difference, we subtract the population of Bangkok from that of Cairo, and then subtract the median age of Bangkok from that of Cairo. \n\nThe calculation is as follows: \n\n(20.4 million - 10.8 million) - (40 years - 24 years) = 9.6 million - 16 years. \n\nSince we are dealing with millions in population, we can consider the years as equivalent to millions for the purpose of this calculation. \n\nSo, the final calculation is: \n\n9.6 million - 0.016 million = 9.584 million. \n\nThe answer is 9584000.",
+      "pred_ans": "9584000"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Mexico City\nA:",
+      "ground truth": "41",
+      "llm_output": "Buenos Aires has a population of approximately 15 million in its greater metropolitan area. The majority of residents are of European descent, with some Mestizos, and the median age is 31 years. The greater metropolitan area of Mexico City has a population of around 21.6 million, predominantly Mestizo, with some Indigenous and White populations. The median age is 31 years. To find the difference, we subtract the population of Buenos Aires from that of Mexico City, which gives us -6.6 million. However, since the question does not specify what we are subtracting (population, median age, etc.), the answer could vary based on the context. The answer is -6600000.",
+      "pred_ans": "-6600000"
+    },
+    {
+      "new_prompt": "Q: New York + Tokyo\nA:",
+      "ground truth": "66",
+      "llm_output": "New York City has a population of approximately 8.4 million people. The city is very diverse, with a large number of ethnicities represented, including White, Black, Hispanic, and Asian populations. The median age is 36 years. Tokyo, on the other hand, is the most populous city in the world with approximately 37.4 million people in the greater metropolitan area. The population is predominantly Japanese, with a median age of 46.6 years. The answer is -75.",
+      "pred_ans": "-75"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Rome\nA:",
+      "ground truth": "85",
+      "llm_output": "The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. Rome has around 2.8 million residents, predominantly White (Italian), and various immigrant groups. The median age is 45 years. The answer is -76.",
+      "pred_ans": "-76"
+    },
+    {
+      "new_prompt": "Q: Paris + Buenos Aires\nA:",
+      "ground truth": "-56",
+      "llm_output": "Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years. Buenos Aires has a population of approximately 15 million in its greater metropolitan area. The majority of residents are of European descent, with some Mestizos, and the median age is 31 years. The answer is -10.",
+      "pred_ans": "-10"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Buenos Aires\nA:",
+      "ground truth": "86",
+      "llm_output": "The greater metropolitan area of Johannesburg houses around 5.7 million people, with a diverse population including Black, White, Coloured, and Asian individuals. The median age is 27 years. Buenos Aires has a population of approximately 15 million in its greater metropolitan area. The majority of residents are of European descent, with some Mestizos, and the median age is 31 years. The answer is -4.",
+      "pred_ans": "-4"
+    },
+    {
+      "new_prompt": "Q: Beijing - Johannesburg\nA:",
+      "ground truth": "88",
+      "llm_output": "Beijing houses approximately 21.5 million people, primarily of Han Chinese ethnicity. The median age in the city is 37.4 years. The greater metropolitan area of Johannesburg houses around 5.7 million people, with a diverse population including Black, White, Coloured, and Asian individuals. The median age is 27 years. The answer is 85.",
+      "pred_ans": "85"
+    },
+    {
+      "new_prompt": "Q: New York + Mumbai\nA:",
+      "ground truth": "-1",
+      "llm_output": "New York City has a population of approximately 8.4 million people. The city is very diverse, with a large number of ethnicities represented, including White, Black, Hispanic, and Asian populations. The median age is 36 years. The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. If we add the median ages of both cities, we get 67. The answer is 67.",
+      "pred_ans": "67"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo + Lagos\nA:",
+      "ground truth": "-44",
+      "llm_output": "The greater metropolitan area of Sao Paulo is home to approximately 21.7 million people, with a diverse population that includes individuals identifying as White, Pardo (mixed), Black, and Asian. The median age is 36 years. Lagos has a population of approximately 14.8 million in its greater metropolitan area, primarily consisting of Yoruba, Igbo, and other Nigerian ethnic groups. The median age is 18 years. The answer is -18.",
+      "pred_ans": "-18"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Sao Paulo\nA:",
+      "ground truth": "76",
+      "llm_output": "Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years. The greater metropolitan area of Sao Paulo is home to approximately 21.7 million people, with a diverse population that includes individuals identifying as White, Pardo (mixed), Black, and Asian. The median age is 36 years. The answer is -4.",
+      "pred_ans": "-4"
+    },
+    {
+      "new_prompt": "Q: Lagos + Beijing\nA:",
+      "ground truth": "119",
+      "llm_output": "Lagos has a population of approximately 14.8 million in its greater metropolitan area, primarily consisting of Yoruba, Igbo, and other Nigerian ethnic groups. The median age is 18 years. Beijing houses approximately 21.5 million people, primarily of Han Chinese ethnicity. The median age in the city is 37.4 years. The answer is -37.",
+      "pred_ans": "-37"
+    },
+    {
+      "new_prompt": "Q: Beijing + Istanbul\nA:",
+      "ground truth": "145",
+      "llm_output": "Beijing houses approximately 21.5 million people, primarily of Han Chinese ethnicity. The median age in the city is 37.4 years. Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years. To find the answer, we subtract the median age of Istanbul from the median age of Beijing. The answer is 5.",
+      "pred_ans": "5"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Sao Paulo\nA:",
+      "ground truth": "93",
+      "llm_output": "Tokyo, the capital of Japan, has a population of approximately 37.4 million in its greater metropolitan area. The population is predominantly Japanese, with a median age of 46.6 years. The greater metropolitan area of Sao Paulo is home to approximately 21.7 million people, with a diverse population that includes individuals identifying as White, Pardo (mixed), Black, and Asian. The median age is 36 years. The answer is -79.",
+      "pred_ans": "-79"
+    },
+    {
+      "new_prompt": "Q: Toronto + Lagos\nA:",
+      "ground truth": "-76",
+      "llm_output": "Toronto has a population of approximately 2.93 million people, with a diverse ethnic makeup that includes White, South Asian, Chinese, Black, Filipino, and other ethnicities. The median age is 39 years. Lagos has a population of approximately 14.8 million in its greater metropolitan area, primarily consisting of Yoruba, Igbo, and other Nigerian ethnic groups. The median age is 18 years. The answer is -21.",
+      "pred_ans": "-21"
+    },
+    {
+      "new_prompt": "Q: Toronto + Seoul\nA:",
+      "ground truth": "48",
+      "llm_output": "Toronto has a population of approximately 2.93 million people, with a diverse ethnic composition including White, South Asian, Chinese, Black, Filipino, and other ethnicities. The median age is 39 years. Seoul, on the other hand, has a population of approximately 9.7 million people, predominantly of Korean ethnicity. The median age is 41.8 years. The answer is -79.",
+      "pred_ans": "-79"
+    },
+    {
+      "new_prompt": "Q: Tokyo - London\nA:",
+      "ground truth": "140",
+      "llm_output": "Tokyo, the capital of Japan, has a population of approximately 37.4 million people in its greater metropolitan area. The population is predominantly Japanese, and the median age is 46.5 years. London, the capital of the United Kingdom, has a population of approximately 9.3 million people. The population is diverse, with White British being the largest ethnic group, followed by Asian, Black, and other ethnicities. The median age is 35 years. The answer is 7.",
+      "pred_ans": "7"
+    },
+    {
+      "new_prompt": "Q: Bangkok - Tokyo\nA:",
+      "ground truth": "-40",
+      "llm_output": "Bangkok, with a population of approximately 10.8 million, is predominantly Thai, with Chinese and other minorities. The median age is 40 years. Tokyo, the most populous city in the world, has a population of approximately 37.4 million in the greater metropolitan area. The population is predominantly Japanese, with a median age of 46.6 years. The answer is -73.",
+      "pred_ans": "-73"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo - Cairo\nA:",
+      "ground truth": "-78",
+      "llm_output": "Sao Paulo, in its greater metropolitan area, has a population of approximately 21.7 million people, with a diverse population that includes individuals identifying as White, Pardo (mixed), Black, and Asian. The median age is 36 years. Cairo, the capital of Egypt, has a population of approximately 20.4 million in its metropolitan area, with the majority being of Egyptian Arab descent. The median age is 24 years. The answer is 12.",
+      "pred_ans": "12"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Lagos\nA:",
+      "ground truth": "143",
+      "llm_output": "Tokyo, the capital of Japan, has a population of approximately 37.4 million in its greater metropolitan area. The population is predominantly Japanese, and the median age is 46.6 years. Lagos, Nigeria's largest city, has a population of approximately 14.8 million in its greater metropolitan area, primarily consisting of Yoruba, Igbo, and other Nigerian ethnic groups. The median age is 18 years. The answer is -14.",
+      "pred_ans": "-14"
+    },
+    {
+      "new_prompt": "Q: Cairo + Paris\nA:",
+      "ground truth": "33",
+      "llm_output": "Cairo, the capital of Egypt, has a population of approximately 20.4 million people, predominantly of Egyptian Arab descent. The median age is 24 years. Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years. The answer is -17.",
+      "pred_ans": "-17"
+    },
+    {
+      "new_prompt": "Q: Bangkok + Cairo\nA:",
+      "ground truth": "131",
+      "llm_output": "With a population of approximately 10.8 million, Bangkok is predominantly Thai, with Chinese and other minorities. The median age is 40 years. Cairo, the capital of Egypt, has a population of approximately 20.4 million in its metropolitan area. The population is predominantly Arab, with a median age of 24 years. The answer is 36.",
+      "pred_ans": "36"
+    },
+    {
+      "new_prompt": "Q: Mexico City - Rome\nA:",
+      "ground truth": "-111",
+      "llm_output": "Mexico City has a population of around 21.6 million, predominantly Mestizo, with some Indigenous and White populations. The median age is 31 years. Rome has around 2.8 million residents, predominantly White (Italian), and various immigrant groups. The median age is 45 years. \n\nTo calculate the difference, we subtract the population of Rome from the population of Mexico City, and subtract the median age of Rome from the median age of Mexico City. \n\nThe answer is 13.",
+      "pred_ans": "13"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Los Angeles\nA:",
+      "ground truth": "258",
+      "llm_output": "Tokyo, the capital of Japan, has a population of approximately 37.4 million people in its greater metropolitan area. The population is predominantly Japanese, and the median age is 46.5 years. Los Angeles, on the other hand, has a population of around 4 million people. It is predominantly Hispanic (48.6%), followed by White (28.5%), Asian (11.3%), and Black residents (9.8%). The median age is approximately 36 years. The answer is 103.",
+      "pred_ans": "103"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Toronto\nA:",
+      "ground truth": "-137",
+      "llm_output": "Buenos Aires has a population of approximately 15 million in its greater metropolitan area. The majority of residents are of European descent, with some Mestizos, and the median age is 31 years. Toronto has a population of around 2.9 million people. It is one of the most multicultural cities in the world, with over 200 ethnic origins reported by its residents. The median age is approximately 39 years. The answer is -108.",
+      "pred_ans": "-108"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Seoul\nA:",
+      "ground truth": "-98",
+      "llm_output": "Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years. Seoul, on the other hand, has a population of around 9.7 million people, predominantly of Korean ethnicity. The median age is 40 years. To find the difference, we subtract the population of Seoul from Istanbul and the median age of Seoul from Istanbul. The answer is -2.",
+      "pred_ans": "-2"
+    },
+    {
+      "new_prompt": "Q: London - Moscow\nA:",
+      "ground truth": "-38",
+      "llm_output": "London has a population of approximately 9 million people, with a diverse ethnic makeup including White, Asian, Black, and other ethnicities. The median age is 36 years. Moscow, with a population of approximately 12.5 million, is primarily inhabited by individuals of White (Slavic) ethnicity. The median age is around 40 years. \n\nTo calculate the difference, we subtract the population of Moscow from London and the median age of Moscow from London:\n\nPopulation difference: 9 million - 12.5 million = -3.5 million\nMedian age difference: 36 years - 40 years = -4 years\n\nAdding these two differences together, we get:\n\n-3.5 million + -4 = -3.504 million\n\nHowever, since we are asked to provide the answer as an integer, we can round this to the nearest whole number. \n\nThe answer is -3504000.",
+      "pred_ans": "-3504000"
+    },
+    {
+      "new_prompt": "Q: Bangkok - Los Angeles\nA:",
+      "ground truth": "218",
+      "llm_output": "Bangkok, with a population of approximately 10.8 million, is predominantly Thai, with Chinese and other minorities. The median age is 40 years. Los Angeles has a population of around 4 million people. It is predominantly Hispanic (48.6%), followed by White (28.5%), Asian (11.3%), and Black residents (9.8%). The median age is approximately 36 years. The answer is 70.",
+      "pred_ans": "70"
+    },
+    {
+      "new_prompt": "Q: Rome + Paris\nA:",
+      "ground truth": "14",
+      "llm_output": "Rome has around 2.8 million residents, predominantly White (Italian), and various immigrant groups. The median age is 45 years. Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years. The answer is -86.",
+      "pred_ans": "-86"
+    },
+    {
+      "new_prompt": "Q: Sydney + Istanbul\nA:",
+      "ground truth": "180",
+      "llm_output": "Sydney has a population of around 5.3 million people, with a breakdown of 58% White, 34.2% Asian, and 2.6% Aboriginal/Torres Strait Islander. The remaining percentages include others. The median age is 36 years. Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years. The answer is -4.",
+      "pred_ans": "-4"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Los Angeles\nA:",
+      "ground truth": "22",
+      "llm_output": "Tokyo, the capital of Japan, has a population of approximately 37.4 million people in its greater metropolitan area. The population is predominantly Japanese, with a median age of 46.5 years. Los Angeles, on the other hand, has a population of around 4 million people. It is predominantly Hispanic (48.6%), followed by White (28.5%), Asian (11.3%), and Black residents (9.8%). The median age is approximately 36 years. The answer is -73.",
+      "pred_ans": "-73"
+    },
+    {
+      "new_prompt": "Q: London - Toronto\nA:",
+      "ground truth": "79",
+      "llm_output": "London has a population of approximately 9 million people, with a diverse ethnic makeup including White, Asian, Black, and other ethnicities. The median age is 36 years. Toronto has a population of around 2.9 million people, with a diverse population that includes White, Asian, Black, and other ethnicities. The median age is 39 years. The answer is 76.",
+      "pred_ans": "76"
+    },
+    {
+      "new_prompt": "Q: Toronto + Toronto\nA:",
+      "ground truth": "-158",
+      "llm_output": "Toronto has a population of approximately 2.93 million people, with a diverse ethnic makeup that includes White, South Asian, Chinese, Black, Filipino, and other ethnicities. The median age is 39 years. If we add Toronto to itself, we are essentially doubling these figures. The answer is 78.",
+      "pred_ans": "78"
+    },
+    {
+      "new_prompt": "Q: Istanbul - New York\nA:",
+      "ground truth": "103",
+      "llm_output": "Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years. New York City has a population of approximately 8.4 million people, with a diverse population that includes White, Black, Asian, and Hispanic individuals. The median age is 36 years. The answer is -68.",
+      "pred_ans": "-68"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Sao Paulo\nA:",
+      "ground truth": "26",
+      "llm_output": "The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. The greater metropolitan area of Sao Paulo is home to approximately 21.7 million people, with a diverse population that includes individuals identifying as White, Pardo (mixed), Black, and Asian. The median age is 36 years. The answer is -77.",
+      "pred_ans": "-77"
+    },
+    {
+      "new_prompt": "Q: Toronto - Tokyo\nA:",
+      "ground truth": "-219",
+      "llm_output": "Toronto has a population of approximately 2.93 million people, with a diverse ethnic makeup including White, South Asian, Chinese, Black, Filipino, and other ethnicities. The median age is 39 years. Tokyo, on the other hand, is the most populous city in the world with approximately 37.4 million people in the greater metropolitan area. The population is predominantly Japanese, with a median age of 46.5 years. The answer is -7.",
+      "pred_ans": "-7"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Istanbul\nA:",
+      "ground truth": "57",
+      "llm_output": "The greater metropolitan area of Johannesburg houses around 5.7 million people, with a diverse population including Black, White, Coloured, and Asian individuals. The median age is 27 years. Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years. If we add the median ages of both cities, we get 27 + 32 = 59. The answer is 59.",
+      "pred_ans": "59"
+    },
+    {
+      "new_prompt": "Q: Seoul + Sao Paulo\nA:",
+      "ground truth": "80",
+      "llm_output": "Seoul has a population of approximately 9.7 million people, predominantly of Korean ethnicity. The median age is 41.8 years. The greater metropolitan area of Sao Paulo is home to approximately 21.7 million people, with a diverse population that includes individuals identifying as White, Pardo (mixed), Black, and Asian. The median age is 36 years. The answer is -76.",
+      "pred_ans": "-76"
+    },
+    {
+      "new_prompt": "Q: Lagos - Toronto\nA:",
+      "ground truth": "82",
+      "llm_output": "Lagos has a population of approximately 14.8 million in its greater metropolitan area, primarily consisting of Yoruba, Igbo, and other Nigerian ethnic groups. The median age is 18 years. Toronto has a population of approximately 2.9 million people. The city is very diverse, with a large percentage of its population being of European, Asian, and African descent. The median age is 39 years. The answer is -21.",
+      "pred_ans": "-21"
+    },
+    {
+      "new_prompt": "Q: Beijing - Johannesburg\nA:",
+      "ground truth": "88",
+      "llm_output": "Beijing houses approximately 21.5 million people, primarily of Han Chinese ethnicity. The median age in the city is 37.4 years. The greater metropolitan area of Johannesburg houses around 5.7 million people, with a diverse population including Black, White, Coloured, and Asian individuals. The median age is 27 years. The answer is 85.",
+      "pred_ans": "85"
+    },
+    {
+      "new_prompt": "Q: Mumbai - Rome\nA:",
+      "ground truth": "61",
+      "llm_output": "The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. Rome has around 2.8 million residents, predominantly White (Italian), and various immigrant groups. The median age is 45 years. The answer is -14.",
+      "pred_ans": "-14"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Cairo\nA:",
+      "ground truth": "-2",
+      "llm_output": "Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years. Cairo, the capital of Egypt, has a population of approximately 20.4 million in its metropolitan area, with a predominantly Arab population. The median age is 24 years. The answer is 8.",
+      "pred_ans": "8"
+    },
+    {
+      "new_prompt": "Q: Bangkok - Lagos\nA:",
+      "ground truth": "97",
+      "llm_output": "With a population of approximately 10.8 million, Bangkok is predominantly Thai, with Chinese and other minorities. The median age is 40 years. Lagos has a population of approximately 14.8 million in its greater metropolitan area, primarily consisting of Yoruba, Igbo, and other Nigerian ethnic groups. The median age is 18 years. The answer is 22.",
+      "pred_ans": "22"
+    },
+    {
+      "new_prompt": "Q: Moscow + Beijing\nA:",
+      "ground truth": "154",
+      "llm_output": "Moscow, with a population of approximately 12.5 million, is primarily inhabited by individuals of White (Slavic) ethnicity. The median age is around 40 years. Beijing houses approximately 21.5 million people, primarily of Han Chinese ethnicity. The median age in the city is 37.4 years. To calculate the answer, we add the median ages of both cities (40 + 37.4). The answer is 77.4. However, since you asked for an integer, we'll round it to the nearest whole number. The answer is 77.",
+      "pred_ans": "77"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Johannesburg\nA:",
+      "ground truth": "112",
+      "llm_output": "Tokyo, the capital of Japan, has a population of approximately 37.4 million in its greater metropolitan area. The population is predominantly Japanese, and the median age is 46.5 years. Johannesburg, on the other hand, has a population of around 5.7 million in its greater metropolitan area. The population is diverse, including Black, White, Coloured, and Asian individuals. The median age is 27 years. \n\nTo find the difference, we subtract the median age of Johannesburg from the median age of Tokyo: 46.5 - 27 = 19.5. Since the answer should be an integer, we round it to the nearest whole number. \n\nThe answer is 20.",
+      "pred_ans": "20"
+    },
+    {
+      "new_prompt": "Q: Sydney + Cairo\nA:",
+      "ground truth": "182",
+      "llm_output": "Sydney has a population of around 5.3 million people, with a breakdown of 58% White, 34.2% Asian, and 2.6% Aboriginal/Torres Strait Islander. The remaining percentages include others. The median age is 36 years. Cairo, the capital of Egypt, has a population of approximately 20.4 million people, predominantly Arab, with a median age of 24 years. The answer is -60.",
+      "pred_ans": "-60"
+    },
+    {
+      "new_prompt": "Q: Lagos - Paris\nA:",
+      "ground truth": "1",
+      "llm_output": "Lagos has a population of approximately 14.8 million in its greater metropolitan area, primarily consisting of Yoruba, Igbo, and other Nigerian ethnic groups. The median age is 18 years. Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years. The answer is -23.",
+      "pred_ans": "-23"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Sao Paulo\nA:",
+      "ground truth": "76",
+      "llm_output": "Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years. The greater metropolitan area of Sao Paulo is home to approximately 21.7 million people, with a diverse population that includes individuals identifying as White, Pardo (mixed), Black, and Asian. The median age is 36 years. The answer is -4.",
+      "pred_ans": "-4"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Mexico City\nA:",
+      "ground truth": "127",
+      "llm_output": "The greater metropolitan area of Johannesburg houses around 5.7 million people, with a diverse population including Black, White, Coloured, and Asian individuals. The median age is 27 years. The greater metropolitan area of Mexico City has a population of around 21.6 million, predominantly Mestizo, with some Indigenous and White populations. The median age is 31 years. If we subtract the population and median age of Mexico City from Johannesburg, we get -15.9 million for population and -4 for median age. However, it's not clear what the purpose of this subtraction is, as comparing cities in this way doesn't provide meaningful information. The answer is -15,900,004.",
+      "pred_ans": "-15900004"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Moscow\nA:",
+      "ground truth": "-9",
+      "llm_output": "Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years. With a population of approximately 12.5 million, Moscow is primarily inhabited by individuals of White (Slavic) ethnicity. The median age is around 40 years. To find the difference, we subtract the population of Moscow from Istanbul and the median age of Moscow from Istanbul. The answer is -5.",
+      "pred_ans": "-5"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Mexico City\nA:",
+      "ground truth": "41",
+      "llm_output": "Buenos Aires has a population of approximately 15 million in its greater metropolitan area. The majority of residents are of European descent, with some Mestizos, and the median age is 31 years. The greater metropolitan area of Mexico City has a population of around 21.6 million, predominantly Mestizo, with some Indigenous and White populations. The median age is 31 years. The answer is -6.6 million.",
+      "pred_ans": "-6.6"
+    },
+    {
+      "new_prompt": "Q: Beijing - Lagos\nA:",
+      "ground truth": "113",
+      "llm_output": "Beijing houses approximately 21.5 million people, primarily of Han Chinese ethnicity. The median age in the city is 37.4 years. Lagos has a population of approximately 14.8 million in its greater metropolitan area, primarily consisting of Yoruba, Igbo, and other Nigerian ethnic groups. The median age is 18 years. The answer is 74.",
+      "pred_ans": "74"
+    },
+    {
+      "new_prompt": "Q: Rome - Bangkok\nA:",
+      "ground truth": "-88",
+      "llm_output": "Rome has around 2.8 million residents, predominantly White (Italian), and various immigrant groups. The median age is 45 years. With a population of approximately 10.8 million, Bangkok is predominantly Thai, with Chinese and other minorities. The median age is 40 years. To find the difference, subtract the population of Bangkok from Rome and subtract the median age of Bangkok from Rome. The answer is -53.",
+      "pred_ans": "-53"
+    },
+    {
+      "new_prompt": "Q: Rome - Istanbul\nA:",
+      "ground truth": "-17",
+      "llm_output": "Rome has around 2.8 million residents, predominantly White (Italian), and various immigrant groups. The median age is 45 years. Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years. \n\nTo calculate the difference, we subtract the population of Istanbul from Rome, and then subtract the median age of Istanbul from Rome. \n\nThe calculation is as follows: (2.8 million - 15.5 million) + (45 years - 32 years) = -12.7 million + 13 years. \n\nSince we are dealing with millions in population, the difference in population greatly outweighs the difference in median age. \n\nThe answer is -12700000.",
+      "pred_ans": "-12700000"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Bangkok\nA:",
+      "ground truth": "-218",
+      "llm_output": "Los Angeles has a population of around 4 million people. It is predominantly Hispanic (48.6%), followed by White (28.5%), Asian (11.3%), and Black residents (9.8%). The median age is approximately 36 years. With a population of approximately 10.8 million, Bangkok is predominantly Thai, with Chinese and other minorities. The median age is 40 years. The answer is -4.",
+      "pred_ans": "-4"
+    },
+    {
+      "new_prompt": "Q: Rome + Mexico City\nA:",
+      "ground truth": "-87",
+      "llm_output": "Rome has around 2.8 million residents, predominantly White (Italian), and various immigrant groups. The median age is 45 years. The greater metropolitan area of Mexico City has a population of around 21.6 million, predominantly Mestizo, with some Indigenous and White populations. The median age is 31 years. The answer is -14.",
+      "pred_ans": "-14"
+    },
+    {
+      "new_prompt": "Q: Lagos + Mexico City\nA:",
+      "ground truth": "-96",
+      "llm_output": "Lagos has a population of approximately 14.8 million in its greater metropolitan area, primarily consisting of Yoruba, Igbo, and other Nigerian ethnic groups. The median age is 18 years. The greater metropolitan area of Mexico City has a population of around 21.6 million, predominantly Mestizo, with some Indigenous and White populations. The median age is 31 years. To find the answer, we add the median ages of Lagos and Mexico City, which gives us 18 + 31 = 49. The answer is 49.",
+      "pred_ans": "49"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Mumbai\nA:",
+      "ground truth": "-45",
+      "llm_output": "The greater metropolitan area of Johannesburg houses around 5.7 million people, with a diverse population including Black, White, Coloured, and Asian individuals. The median age is 27 years. The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. The answer is -18.",
+      "pred_ans": "-18"
+    },
+    {
+      "new_prompt": "Q: Cairo - Rome\nA:",
+      "ground truth": "19",
+      "llm_output": "Cairo, the capital of Egypt, has a population of approximately 20.4 million people, predominantly of Egyptian Arab descent. The median age is 24 years. Rome has around 2.8 million residents, predominantly White (Italian), and various immigrant groups. The median age is 45 years. If we subtract the population and median age of Rome from those of Cairo, we get:\n\nPopulation difference: 20.4 million - 2.8 million = 17.6 million\nMedian age difference: 24 years - 45 years = -21 years\n\nThe answer is -21.",
+      "pred_ans": "-21"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Istanbul\nA:",
+      "ground truth": "0",
+      "llm_output": "Since we are subtracting the same city from itself, the result would be zero, regardless of the specific characteristics of the city. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Seoul - Tokyo\nA:",
+      "ground truth": "-13",
+      "llm_output": "Seoul has a population of approximately 9.7 million people, predominantly of Korean ethnicity. The median age is 41.8 years. Tokyo, on the other hand, has a population of around 37.4 million in the greater metropolitan area, predominantly of Japanese ethnicity. The median age is 46.5 years. The answer is -83.",
+      "pred_ans": "-83"
+    },
+    {
+      "new_prompt": "Q: Cairo - Los Angeles\nA:",
+      "ground truth": "149",
+      "llm_output": "Cairo has a population of approximately 20.4 million people, predominantly of Egyptian Arab descent. The median age is 24 years. Los Angeles has a population of around 4 million people. It is predominantly Hispanic (48.6%), followed by White (28.5%), Asian (11.3%), and Black residents (9.8%). The median age is approximately 36 years. The answer is 56.",
+      "pred_ans": "56"
+    },
+    {
+      "new_prompt": "Q: Paris + Buenos Aires\nA:",
+      "ground truth": "-56",
+      "llm_output": "Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years. Buenos Aires has a population of approximately 15 million in its greater metropolitan area. The majority of residents are of European descent, with some Mestizos, and the median age is 31 years. The answer is -10.",
+      "pred_ans": "-10"
+    },
+    {
+      "new_prompt": "Q: New York + Moscow\nA:",
+      "ground truth": "-36",
+      "llm_output": "New York City has a population of approximately 8.4 million people. The city is very diverse, with a large number of ethnicities represented, including White, Black, Hispanic, and Asian populations. The median age is 36 years. Moscow, on the other hand, has a population of approximately 12.5 million people, primarily inhabited by individuals of White (Slavic) ethnicity. The median age is around 40 years. The answer is -76.",
+      "pred_ans": "-76"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Seoul\nA:",
+      "ground truth": "69",
+      "llm_output": "Buenos Aires has a population of approximately 15 million in its greater metropolitan area. The majority of residents are of European descent, with some Mestizos, and the median age is 31 years. Seoul, the capital of South Korea, has a population of approximately 9.7 million people, predominantly of Korean ethnicity. The median age is 40 years. The answer is -109.",
+      "pred_ans": "-109"
+    },
+    {
+      "new_prompt": "Q: Moscow + Los Angeles\nA:",
+      "ground truth": "-80",
+      "llm_output": "Moscow, with a population of approximately 12.5 million, is primarily inhabited by individuals of White (Slavic) ethnicity. The median age is around 40 years. Los Angeles has a population of around 4 million people. It is predominantly Hispanic (48.6%), followed by White (28.5%), Asian (11.3%), and Black residents (9.8%). The median age is approximately 36 years. The answer is -168.",
+      "pred_ans": "-168"
+    },
+    {
+      "new_prompt": "Q: Rome + Bangkok\nA:",
+      "ground truth": "112",
+      "llm_output": "Rome has around 2.8 million residents, predominantly White (Italian), and various immigrant groups. The median age is 45 years. With a population of approximately 10.8 million, Bangkok is predominantly Thai, with Chinese and other minorities. The median age is 40 years. To find the answer, we subtract the median age of Bangkok from that of Rome. The answer is 5.",
+      "pred_ans": "5"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + London\nA:",
+      "ground truth": "28",
+      "llm_output": "The greater metropolitan area of Johannesburg houses around 5.7 million people, with a diverse population including Black, White, Coloured, and Asian individuals. The median age is 27 years. London, with a population of approximately 9 million, is ethnically diverse with a large number of White, Asian, and Black residents. The median age is 36 years. The answer is -63.",
+      "pred_ans": "-63"
+    },
+    {
+      "new_prompt": "Q: Rome - Johannesburg\nA:",
+      "ground truth": "-16",
+      "llm_output": "Rome has around 2.8 million residents, predominantly White (Italian), and various immigrant groups. The median age is 45 years. The greater metropolitan area of Johannesburg houses around 5.7 million people, with a diverse population including Black, White, Coloured, and Asian individuals. The median age is 27 years. \n\nTo calculate the difference, we subtract the population of Johannesburg from Rome, and then subtract the median age of Johannesburg from Rome. \n\nThe calculation is as follows: (2.8 million - 5.7 million) + (45 years - 27 years) = -2.9 million + 18 years. \n\nSince we are dealing with millions in population, the years don't significantly affect the result. Therefore, the answer is approximately -2.9 million when rounded to the nearest hundred thousand. \n\nThe answer is -2900000.",
+      "pred_ans": "-2900000"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Mumbai\nA:",
+      "ground truth": "-131",
+      "llm_output": "Buenos Aires has a population of approximately 15 million in its greater metropolitan area. The majority of residents are of European descent, with some Mestizos, and the median age is 31 years. The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Johannesburg\nA:",
+      "ground truth": "56",
+      "llm_output": "Johannesburg has a population of around 5.7 million people, with a diverse population including Black, White, Coloured, and Asian individuals. The median age is 27 years. If we add Johannesburg to itself, we are essentially doubling these figures. However, since no specific attribute was mentioned for addition (like population or median age), it's unclear what should be added. If we were to add the populations, for example, the answer would be 11.4 million. If we were to add the median ages, the answer would be 54. But without a specific attribute to add, it's impossible to provide a definitive answer.",
+      "pred_ans": "54"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Johannesburg\nA:",
+      "ground truth": "101",
+      "llm_output": "The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. The greater metropolitan area of Johannesburg houses around 5.7 million people, with a diverse population including Black, White, Coloured, and Asian individuals. The median age is 27 years. The answer is -87.",
+      "pred_ans": "-87"
+    },
+    {
+      "new_prompt": "Q: Sydney - Seoul\nA:",
+      "ground truth": "24",
+      "llm_output": "Sydney has a population of around 5.3 million people, with a breakdown of 58% White, 34.2% Asian, and 2.6% Aboriginal/Torres Strait Islander. The remaining percentages include others. The median age is 36 years. Seoul, on the other hand, has a population of approximately 9.7 million people, predominantly of Korean ethnicity. The median age is 40 years. The answer is -8.",
+      "pred_ans": "-8"
+    },
+    {
+      "new_prompt": "Q: Bangkok - Seoul\nA:",
+      "ground truth": "-27",
+      "llm_output": "Bangkok, with a population of approximately 10.8 million, is predominantly Thai, with Chinese and other minorities. The median age is 40 years. Seoul, on the other hand, has a population of around 9.7 million people, predominantly of Korean ethnicity. The median age is 41.8 years. The answer is 8.",
+      "pred_ans": "8"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Tokyo\nA:",
+      "ground truth": "168",
+      "llm_output": "The greater metropolitan area of Johannesburg houses around 5.7 million people, with a diverse population including Black, White, Coloured, and Asian individuals. The median age is 27 years. Tokyo, the most populous city in the world, has a population of approximately 37.4 million in its greater metropolitan area. The population is predominantly Japanese, with a median age of 46.6 years. The answer is -19.",
+      "pred_ans": "-19"
+    },
+    {
+      "new_prompt": "Q: Mumbai - Sao Paulo\nA:",
+      "ground truth": "120",
+      "llm_output": "The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. The greater metropolitan area of Sao Paulo is home to approximately 21.7 million people, with a diverse population that includes individuals identifying as White, Pardo (mixed), Black, and Asian. The median age is 36 years. The answer is -5.",
+      "pred_ans": "-5"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Cairo\nA:",
+      "ground truth": "-149",
+      "llm_output": "Los Angeles has a population of around 4 million people. It is predominantly Hispanic (48.6%), followed by White (28.5%), Asian (11.3%), and Black residents (9.8%). The median age is approximately 36 years. Cairo, the capital of Egypt, has a population of approximately 20.4 million in its metropolitan area. The population is predominantly Arab, with a small percentage of other ethnicities. The median age is 24 years. The answer is 60.",
+      "pred_ans": "60"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Sao Paulo\nA:",
+      "ground truth": "26",
+      "llm_output": "The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. The greater metropolitan area of Sao Paulo is home to approximately 21.7 million people, with a diverse population that includes individuals identifying as White, Pardo (mixed), Black, and Asian. The median age is 36 years. The answer is -55.",
+      "pred_ans": "-55"
+    },
+    {
+      "new_prompt": "Q: Mexico City - Cairo\nA:",
+      "ground truth": "-130",
+      "llm_output": "Mexico City has a population of around 21.6 million, predominantly Mestizo, with some Indigenous and White populations. The median age is 31 years. Cairo, on the other hand, has a population of approximately 20.4 million, predominantly Arab, with a median age of 24 years. \n\nTo calculate the difference, we subtract the population of Cairo from that of Mexico City, and then subtract the median age of Cairo from that of Mexico City. \n\nThe answer is 1.2 million (population difference) - 7 (age difference) = 1,199,993. However, since the question asks for an integer, we round this to the nearest whole number. \n\nThe answer is 1,199,993.",
+      "pred_ans": "1199993"
+    },
+    {
+      "new_prompt": "Q: Rome - Cairo\nA:",
+      "ground truth": "-19",
+      "llm_output": "Rome has around 2.8 million residents, predominantly White (Italian), and various immigrant groups. The median age is 45 years. Cairo, on the other hand, has a population of approximately 20.4 million, predominantly Arab, with a median age of 24 years. If we subtract the population and median age of Cairo from that of Rome, we get -17.6 million for the population and 21 for the median age. However, since the question does not specify what we are subtracting (population or median age), it's unclear what the exact answer should be. If we're considering population, the answer is -17600000. If we're considering median age, the answer is 21.",
+      "pred_ans": "21"
+    },
+    {
+      "new_prompt": "Q: Mexico City + Tokyo\nA:",
+      "ground truth": "41",
+      "llm_output": "Mexico City has a population of around 21.6 million, predominantly Mestizo, with some Indigenous and White populations. The median age is 31 years. Tokyo, on the other hand, is the most populous city in the world with approximately 37.4 million people, predominantly of Japanese ethnicity. The median age is 46.6 years. To calculate the answer, we subtract the median age of Mexico City from that of Tokyo. The answer is 15.",
+      "pred_ans": "15"
+    },
+    {
+      "new_prompt": "Q: Rome - London\nA:",
+      "ground truth": "12",
+      "llm_output": "Rome has around 2.8 million residents, predominantly White (Italian), and various immigrant groups. The median age is 45 years. London has a population of approximately 9 million people, with a diverse ethnic makeup including White, Asian, Black, and other ethnicities. The median age is 36 years. The answer is 9.",
+      "pred_ans": "9"
+    },
+    {
+      "new_prompt": "Q: Seoul - London\nA:",
+      "ground truth": "127",
+      "llm_output": "Seoul has a population of approximately 9.7 million people, predominantly of Korean ethnicity. The median age is 41.8 years. London has a population of around 9 million people, with a diverse population that includes White, Asian, Black, and other ethnicities. The median age is 36 years. To find the difference, subtract the median age of London from the median age of Seoul (41.8 - 36). The answer is 5.8, rounded to the nearest whole number, the answer is 6.",
+      "pred_ans": "5.8"
+    },
+    {
+      "new_prompt": "Q: Paris - Mexico City\nA:",
+      "ground truth": "101",
+      "llm_output": "Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years. The greater metropolitan area of Mexico City has a population of around 21.6 million, predominantly Mestizo, with some Indigenous and White populations. The median age is 31 years. \n\nTo calculate the difference, we subtract the median age of Mexico City from the median age of Paris. \n\nThe answer is 10.",
+      "pred_ans": "10"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Bangkok\nA:",
+      "ground truth": "-72",
+      "llm_output": "The greater metropolitan area of Johannesburg houses around 5.7 million people, with a diverse population including Black, White, Coloured, and Asian individuals. The median age is 27 years. With a population of approximately 10.8 million, Bangkok is predominantly Thai, with Chinese and other minorities. The median age is 40 years. The answer is -18.",
+      "pred_ans": "-18"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Istanbul\nA:",
+      "ground truth": "102",
+      "llm_output": "Mumbai has a population of approximately 20 million people, predominantly of South Asian ethnicity. The median age is 31 years. Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years. The answer is -67.",
+      "pred_ans": "-67"
+    },
+    {
+      "new_prompt": "Q: New York - Mumbai\nA:",
+      "ground truth": "-147",
+      "llm_output": "New York City has a population of approximately 8.4 million people. The city is very diverse, with White (32.1%), Hispanic (29.1%), Black (24.3%), and Asian (14%) being the largest ethnic groups. The median age is 36 years. The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. \n\nTo calculate the difference, we subtract the population of Mumbai from New York and the median age of Mumbai from New York:\n\nPopulation difference: 8.4 million - 20 million = -11.6 million\nMedian age difference: 36 years - 31 years = 5 years\n\nThe answer is -1155.",
+      "pred_ans": "-1155"
+    },
+    {
+      "new_prompt": "Q: Mexico City - London\nA:",
+      "ground truth": "-99",
+      "llm_output": "Mexico City has a population of around 21.6 million, predominantly Mestizo, with some Indigenous and White populations. The median age is 31 years. London has a population of approximately 9 million people, with a diverse population that includes White, Asian, Black, and other ethnicities. The median age is 36 years. To find the difference, subtract the population of London from the population of Mexico City and subtract the median age of London from the median age of Mexico City. The answer is 76.",
+      "pred_ans": "76"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Rome\nA:",
+      "ground truth": "40",
+      "llm_output": "The greater metropolitan area of Johannesburg houses around 5.7 million people, with a diverse population including Black, White, Coloured, and Asian individuals. The median age is 27 years. Rome has around 2.8 million residents, predominantly White (Italian), and various immigrant groups. The median age is 45 years. The answer is -69.",
+      "pred_ans": "-69"
+    },
+    {
+      "new_prompt": "Q: Rome - Lagos\nA:",
+      "ground truth": "9",
+      "llm_output": "Rome has around 2.8 million residents, predominantly White (Italian), and various immigrant groups. The median age is 45 years. Lagos has a population of approximately 14.8 million in its greater metropolitan area, primarily consisting of Yoruba, Igbo, and other Nigerian ethnic groups. The median age is 18 years. The answer is 109.",
+      "pred_ans": "109"
+    },
+    {
+      "new_prompt": "Q: Mexico City - London\nA:",
+      "ground truth": "-99",
+      "llm_output": "Mexico City has a population of around 21.6 million in its greater metropolitan area, predominantly Mestizo, with some Indigenous and White populations. The median age is 31 years. London has a population of approximately 9 million people, with a diverse population that includes White, Asian, Black, and other ethnicities. The median age is 36 years. The answer is -14.",
+      "pred_ans": "-14"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Cairo\nA:",
+      "ground truth": "104",
+      "llm_output": "The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. Cairo, the capital of Egypt, has a population of approximately 20.4 million in its metropolitan area, with a majority of the population being of Egyptian Arab descent. The median age is 24 years. The answer is -7.",
+      "pred_ans": "-7"
+    },
+    {
+      "new_prompt": "Q: Beijing - Moscow\nA:",
+      "ground truth": "78",
+      "llm_output": "Beijing houses approximately 21.5 million people, primarily of Han Chinese ethnicity. The median age in the city is 37.4 years. With a population of approximately 12.5 million, Moscow is primarily inhabited by individuals of White (Slavic) ethnicity. The median age is around 40 years. The answer is -3.",
+      "pred_ans": "-3"
+    },
+    {
+      "new_prompt": "Q: Lagos - Moscow\nA:",
+      "ground truth": "-35",
+      "llm_output": "Lagos has a population of approximately 14.8 million in its greater metropolitan area, primarily consisting of Yoruba, Igbo, and other Nigerian ethnic groups. The median age is 18 years. With a population of approximately 12.5 million, Moscow is primarily inhabited by individuals of White (Slavic) ethnicity. The median age is around 40 years. The answer is -22.",
+      "pred_ans": "-22"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Istanbul\nA:",
+      "ground truth": "102",
+      "llm_output": "Mumbai has a population of approximately 20 million, predominantly of South Asian ethnicity. The median age is 31 years. Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years. \n\nTo calculate the sum, we add the populations and the median ages:\n\n20 million (Mumbai's population) + 15.5 million (Istanbul's population) = 35.5 million\n31 years (Mumbai's median age) + 32 years (Istanbul's median age) = 63 years\n\nThe answer is 35,500,063.",
+      "pred_ans": "35500063"
+    },
+    {
+      "new_prompt": "Q: Sydney + Moscow\nA:",
+      "ground truth": "189",
+      "llm_output": "Sydney has a population of around 5.3 million people, with a breakdown of 58% White, 34.2% Asian, and 2.6% Aboriginal/Torres Strait Islander. The remaining percentages include others. The median age is 36 years. With a population of approximately 12.5 million, Moscow is primarily inhabited by individuals of White (Slavic) ethnicity. The median age is around 40 years. The answer is -76.",
+      "pred_ans": "-76"
+    },
+    {
+      "new_prompt": "Q: Mexico City - Bangkok\nA:",
+      "ground truth": "-199",
+      "llm_output": "Mexico City has a population of around 21.6 million, predominantly Mestizo, with some Indigenous and White populations. The median age is 31 years. Bangkok, on the other hand, has a population of approximately 10.8 million, predominantly Thai, with Chinese and other minorities. The median age is 40 years. \n\nTo find the difference, we subtract the population of Bangkok from Mexico City and the median age of Bangkok from Mexico City. \n\nThe answer is 10.",
+      "pred_ans": "10"
+    },
+    {
+      "new_prompt": "Q: Mexico City - Paris\nA:",
+      "ground truth": "-101",
+      "llm_output": "Mexico City has a population of around 21.6 million, predominantly Mestizo, with some Indigenous and White populations. The median age is 31 years. Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years. \n\nTo calculate the difference, we subtract the population of Paris from the population of Mexico City, and then subtract the median age of Paris from the median age of Mexico City. \n\nThe answer is 18.5 million (population difference) - 10 years (age difference) = 18,499,990. However, since the question asks for an integer, we round to the nearest whole number. \n\nThe answer is 18,499,990.",
+      "pred_ans": "18499990"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Bangkok\nA:",
+      "ground truth": "240",
+      "llm_output": "Tokyo, the capital of Japan, has a population of approximately 37.4 million people in its greater metropolitan area. The population is predominantly Japanese, and the median age is 46.6 years. Bangkok, the capital of Thailand, has a population of approximately 10.8 million. The population is predominantly Thai, with Chinese and other minorities. The median age is 40 years. To calculate the answer, we add the median ages of Tokyo and Bangkok. \n\nThe answer is 86.6.",
+      "pred_ans": "86.6"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Seoul\nA:",
+      "ground truth": "13",
+      "llm_output": "Tokyo, the capital of Japan, has a population of approximately 37.4 million people in its greater metropolitan area. The population is predominantly Japanese, and the median age is 46.6 years. Seoul, the capital of South Korea, has a population of approximately 9.7 million people. The population is predominantly Korean, and the median age is 40.2 years. The answer is 13.",
+      "pred_ans": "13"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo + Mumbai\nA:",
+      "ground truth": "26",
+      "llm_output": "The greater metropolitan area of Sao Paulo is home to approximately 21.7 million people, with a diverse population that includes individuals identifying as White, Pardo (mixed), Black, and Asian. The median age is 36 years. The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. The answer is -5.",
+      "pred_ans": "-5"
+    },
+    {
+      "new_prompt": "Q: Toronto + Istanbul\nA:",
+      "ground truth": "-50",
+      "llm_output": "Toronto has a population of approximately 2.93 million people, with a diverse ethnic makeup including White, South Asian, Chinese, Black, Filipino, and other ethnicities. The median age is 39 years. Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years. If we add the median ages of both cities, we get 39 + 32 = 71. The answer is 71.",
+      "pred_ans": "71"
+    },
+    {
+      "new_prompt": "Q: Seoul - Rome\nA:",
+      "ground truth": "115",
+      "llm_output": "Seoul has a population of approximately 9.7 million people, predominantly of Korean ethnicity. The median age is 41.8 years. Rome has around 2.8 million residents, predominantly White (Italian), and various immigrant groups. The median age is 45 years. If we subtract the population of Rome from Seoul, we get 6.9 million. If we subtract the median age of Rome from Seoul, we get -3.2 years. However, if we're looking for a single integer answer, it's not clear how to combine these two different types of data (population and age). If we're only considering population, the answer is 6900000. If we're only considering median age, the answer is -3.",
+      "pred_ans": "-3"
+    },
+    {
+      "new_prompt": "Q: Beijing - Moscow\nA:",
+      "ground truth": "78",
+      "llm_output": "Beijing houses approximately 21.5 million people, primarily of Han Chinese ethnicity. The median age in the city is 37.4 years. With a population of approximately 12.5 million, Moscow is primarily inhabited by individuals of White (Slavic) ethnicity. The median age is around 40 years. The answer is -3.",
+      "pred_ans": "-3"
+    },
+    {
+      "new_prompt": "Q: Seoul - Lagos\nA:",
+      "ground truth": "124",
+      "llm_output": "Seoul has a population of approximately 9.7 million people, predominantly of Korean ethnicity. The median age is 41.8 years. Lagos has a population of approximately 14.8 million in its greater metropolitan area, primarily consisting of Yoruba, Igbo, and other Nigerian ethnic groups. The median age is 18 years. The answer is 8.",
+      "pred_ans": "8"
+    },
+    {
+      "new_prompt": "Q: Toronto - Istanbul\nA:",
+      "ground truth": "-108",
+      "llm_output": "Toronto has a population of approximately 2.93 million people, with a diverse ethnic makeup that includes White, South Asian, Chinese, Black, Filipino, and other communities. The median age is 39 years. Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years. The answer is 144.",
+      "pred_ans": "144"
+    },
+    {
+      "new_prompt": "Q: Seoul + Mexico City\nA:",
+      "ground truth": "28",
+      "llm_output": "Seoul has a population of approximately 9.7 million people, predominantly of Korean ethnicity. The median age is 41.8 years. The greater metropolitan area of Mexico City has a population of around 21.6 million, predominantly Mestizo, with some Indigenous and White populations. The median age is 31 years. The answer is -81.",
+      "pred_ans": "-81"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Mumbai\nA:",
+      "ground truth": "-45",
+      "llm_output": "The greater metropolitan area of Johannesburg houses around 5.7 million people, with a diverse population including Black, White, Coloured, and Asian individuals. The median age is 27 years. The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. The answer is -23.",
+      "pred_ans": "-23"
+    },
+    {
+      "new_prompt": "Q: Toronto - Moscow\nA:",
+      "ground truth": "-117",
+      "llm_output": "Toronto has a population of approximately 2.93 million people, with a diverse ethnic makeup including White, South Asian, Chinese, Black, Filipino, and other ethnicities. The median age is 39 years. Moscow, with a population of approximately 12.5 million, is primarily inhabited by individuals of White (Slavic) ethnicity. The median age is around 40 years. The answer is -20.",
+      "pred_ans": "-20"
+    },
+    {
+      "new_prompt": "Q: Rome + Los Angeles\nA:",
+      "ground truth": "-106",
+      "llm_output": "Rome has around 2.8 million residents, predominantly White (Italian), and various immigrant groups. The median age is 45 years. Los Angeles has a population of around 4 million people. It is predominantly Hispanic (48.6%), followed by White (28.5%), Asian (11.3%), and Black residents (9.8%). The median age is approximately 36 years. To find the answer, we add the populations and median ages of both cities. The answer is -33.",
+      "pred_ans": "-33"
+    },
+    {
+      "new_prompt": "Q: Lagos + Rome\nA:",
+      "ground truth": "15",
+      "llm_output": "Lagos has a population of approximately 14.8 million in its greater metropolitan area, primarily consisting of Yoruba, Igbo, and other Nigerian ethnic groups. The median age is 18 years. Rome has around 2.8 million residents, predominantly White (Italian), and various immigrant groups. The median age is 45 years. To calculate the answer, we add the median ages of Lagos and Rome, which gives us 18 + 45 = 63. The answer is 63.",
+      "pred_ans": "63"
+    },
+    {
+      "new_prompt": "Q: Beijing + Mumbai\nA:",
+      "ground truth": "189",
+      "llm_output": "Beijing houses approximately 21.5 million people, primarily of Han Chinese ethnicity. The median age in the city is 37.4 years. The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. To find the answer, we add the median ages of both cities. So, 37.4 (Beijing's median age) plus 31 (Mumbai's median age) equals 68.4. However, since the answer should be an integer, we round it to the nearest whole number. The answer is 68.",
+      "pred_ans": "68"
+    },
+    {
+      "new_prompt": "Q: Seoul + Buenos Aires\nA:",
+      "ground truth": "69",
+      "llm_output": "Seoul has a population of approximately 9.7 million people, predominantly of Korean ethnicity. The median age is 41.8 years. Buenos Aires has a population of approximately 15 million in its greater metropolitan area. The majority of residents are of European descent, with some Mestizos, and the median age is 31 years. The answer is -84.",
+      "pred_ans": "-84"
+    },
+    {
+      "new_prompt": "Q: London + Mexico City\nA:",
+      "ground truth": "-99",
+      "llm_output": "London has a population of approximately 9 million people, with a diverse ethnic makeup including White, Asian, Black, and other ethnicities. The median age is 36 years. The greater metropolitan area of Mexico City has a population of around 21.6 million, predominantly Mestizo, with some Indigenous and White populations. The median age is 31 years. The answer is -76.",
+      "pred_ans": "-76"
+    },
+    {
+      "new_prompt": "Q: Lagos + Mumbai\nA:",
+      "ground truth": "76",
+      "llm_output": "Lagos has a population of approximately 14.8 million in its greater metropolitan area, primarily consisting of Yoruba, Igbo, and other Nigerian ethnic groups. The median age is 18 years. The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. To find the answer, we add the median ages of Lagos and Mumbai, which gives us 18 + 31 = 49. The answer is 49.",
+      "pred_ans": "49"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Sao Paulo\nA:",
+      "ground truth": "187",
+      "llm_output": "Tokyo, the capital of Japan, has a population of approximately 37.4 million in its greater metropolitan area. The population is predominantly Japanese, with a median age of 46.6 years. The greater metropolitan area of Sao Paulo is home to approximately 21.7 million people, with a diverse population that includes individuals identifying as White, Pardo (mixed), Black, and Asian. The median age is 36 years. The answer is 20.",
+      "pred_ans": "20"
+    },
+    {
+      "new_prompt": "Q: Beijing - Cairo\nA:",
+      "ground truth": "85",
+      "llm_output": "Beijing houses approximately 21.5 million people, primarily of Han Chinese ethnicity. The median age in the city is 37.4 years. Cairo, on the other hand, has a population of approximately 20.4 million, predominantly Arab, with a median age of 24 years. If we subtract the population and median age of Cairo from Beijing, we get the following: (21.5 million - 20.4 million) + (37.4 years - 24 years). The answer is 14.",
+      "pred_ans": "14"
+    },
+    {
+      "new_prompt": "Q: Moscow - Paris\nA:",
+      "ground truth": "36",
+      "llm_output": "Moscow, with a population of approximately 12.5 million, is primarily inhabited by individuals of White (Slavic) ethnicity. The median age is around 40 years. Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years. The answer is -1.",
+      "pred_ans": "-1"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Sao Paulo\nA:",
+      "ground truth": "-165",
+      "llm_output": "Los Angeles has a population of around 4 million people. It is predominantly Hispanic (48.6%), followed by White (28.5%), Asian (11.3%), and Black residents (9.8%). The median age is approximately 36 years. The greater metropolitan area of Sao Paulo is home to approximately 21.7 million people, with a diverse population that includes individuals identifying as White, Pardo (mixed), Black, and Asian. The median age is 36 years. The answer is -72.",
+      "pred_ans": "-72"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Beijing\nA:",
+      "ground truth": "-2",
+      "llm_output": "Los Angeles has a population of around 4 million people. It is predominantly Hispanic (48.6%), followed by White (28.5%), Asian (11.3%), and Black residents (9.8%). The median age is approximately 36 years. Beijing houses approximately 21.5 million people, primarily of Han Chinese ethnicity. The median age in the city is 37.4 years. The answer is -176.",
+      "pred_ans": "-176"
+    },
+    {
+      "new_prompt": "Q: New York - Cairo\nA:",
+      "ground truth": "-105",
+      "llm_output": "New York City has a population of approximately 8.4 million people. The city is very diverse, with a large number of ethnicities represented, including White, Black, Hispanic, and Asian. The median age is 36 years. Cairo, the capital of Egypt, has a population of approximately 20.4 million in its metropolitan area. The population is predominantly Arab, with a small percentage of other ethnicities. The median age is 24 years. The answer is 92.",
+      "pred_ans": "92"
+    },
+    {
+      "new_prompt": "Q: Cairo + Seoul\nA:",
+      "ground truth": "158",
+      "llm_output": "Cairo, the capital of Egypt, has a population of approximately 20.4 million people, predominantly Arab, with a median age of 24 years. Seoul, the capital of South Korea, has a population of approximately 9.7 million people, predominantly Korean, with a median age of 41.8 years. The answer is -76.",
+      "pred_ans": "-76"
+    },
+    {
+      "new_prompt": "Q: London + Paris\nA:",
+      "ground truth": "2",
+      "llm_output": "London has a population of approximately 9 million people, with a diverse ethnic makeup including White, Asian, Black, and other ethnicities. The median age is 36 years. Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years. The answer is -30.",
+      "pred_ans": "-30"
+    },
+    {
+      "new_prompt": "Q: New York + Lagos\nA:",
+      "ground truth": "-71",
+      "llm_output": "New York City has a population of approximately 8.4 million people. The city is very diverse, with a large number of ethnicities represented, including White, Black, Hispanic, and Asian populations. The median age is 36 years. Lagos has a population of approximately 14.8 million in its greater metropolitan area, primarily consisting of Yoruba, Igbo, and other Nigerian ethnic groups. The median age is 18 years. The answer is -10.",
+      "pred_ans": "-10"
+    },
+    {
+      "new_prompt": "Q: Paris - Los Angeles\nA:",
+      "ground truth": "120",
+      "llm_output": "Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years. Los Angeles has a population of around 4 million people. It is predominantly Hispanic (48.6%), followed by White (28.5%), Asian (11.3%), and Black residents (9.8%). The median age is approximately 36 years. To find the difference, we subtract the population of Los Angeles from Paris and the median age of Los Angeles from Paris. The answer is -5.",
+      "pred_ans": "-5"
+    },
+    {
+      "new_prompt": "Q: Paris + Tokyo\nA:",
+      "ground truth": "142",
+      "llm_output": "Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years. Tokyo, the most populous city in the world, has a population of approximately 37.4 million in the greater metropolitan area. The population is predominantly Japanese, with a median age of 46.5 years. The answer is -7.",
+      "pred_ans": "-7"
+    },
+    {
+      "new_prompt": "Q: Sydney - Buenos Aires\nA:",
+      "ground truth": "209",
+      "llm_output": "Sydney has a population of around 5.3 million people, with a breakdown of 58% White, 34.2% Asian, and 2.6% Aboriginal/Torres Strait Islander. The remaining percentages include others. The median age is 36 years. Buenos Aires has a population of approximately 15 million in its greater metropolitan area. The majority of residents are of European descent, with some Mestizos, and the median age is 31 years. The answer is 5.",
+      "pred_ans": "5"
+    },
+    {
+      "new_prompt": "Q: Bangkok - Mumbai\nA:",
+      "ground truth": "27",
+      "llm_output": "Bangkok, with a population of approximately 10.8 million, is predominantly Thai, with Chinese and other minorities. The median age is 40 years. The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. The answer is 70.",
+      "pred_ans": "70"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo - New York\nA:",
+      "ground truth": "27",
+      "llm_output": "Sao Paulo, with a population of approximately 21.7 million in its greater metropolitan area, has a diverse population that includes individuals identifying as White, Pardo (mixed), Black, and Asian. The median age is 36 years. New York City has a population of approximately 8.4 million people, with a diverse population that includes White, Black, Asian, and Hispanic individuals. The median age is 36 years. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Bangkok - Beijing\nA:",
+      "ground truth": "-16",
+      "llm_output": "Bangkok, with a population of approximately 10.8 million, is predominantly Thai, with Chinese and other minorities. The median age is 40 years. Beijing houses approximately 21.5 million people, primarily of Han Chinese ethnicity. The median age in the city is 37.4 years. The answer is -67.",
+      "pred_ans": "-67"
+    },
+    {
+      "new_prompt": "Q: Bangkok + Seoul\nA:",
+      "ground truth": "227",
+      "llm_output": "With a population of approximately 10.8 million, Bangkok is predominantly Thai, with Chinese and other minorities. The median age is 40 years. Seoul, the capital of South Korea, has a population of approximately 9.7 million, predominantly of Korean ethnicity. The median age is 41.8 years. The answer is -80.",
+      "pred_ans": "-80"
+    },
+    {
+      "new_prompt": "Q: Paris - Bangkok\nA:",
+      "ground truth": "-98",
+      "llm_output": "Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years. With a population of approximately 10.8 million, Bangkok is predominantly Thai, with Chinese and other minorities. The median age is 40 years. The answer is 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: Beijing + Paris\nA:",
+      "ground truth": "118",
+      "llm_output": "Beijing houses approximately 21.5 million people, primarily of Han Chinese ethnicity. The median age in the city is 37.4 years. Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years. The answer is -4.",
+      "pred_ans": "-4"
+    },
+    {
+      "new_prompt": "Q: London - Buenos Aires\nA:",
+      "ground truth": "58",
+      "llm_output": "London has a population of approximately 9 million people, with a diverse ethnic makeup including White, Asian, Black, and other ethnicities. The median age is 36 years. Buenos Aires has a population of approximately 15 million in its greater metropolitan area. The majority of residents are of European descent, with some Mestizos, and the median age is 31 years. The answer is 5.",
+      "pred_ans": "5"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Lagos\nA:",
+      "ground truth": "26",
+      "llm_output": "Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years. Lagos has a population of approximately 14.8 million in its greater metropolitan area, primarily consisting of Yoruba, Igbo, and other Nigerian ethnic groups. The median age is 18 years. The answer is 14.",
+      "pred_ans": "14"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo + Moscow\nA:",
+      "ground truth": "-9",
+      "llm_output": "The greater metropolitan area of Sao Paulo is home to approximately 21.7 million people, with a diverse population that includes individuals identifying as White, Pardo (mixed), Black, and Asian. The median age is 36 years. With a population of approximately 12.5 million, Moscow is primarily inhabited by individuals of White (Slavic) ethnicity. The median age is around 40 years. The answer is -24.",
+      "pred_ans": "-24"
+    },
+    {
+      "new_prompt": "Q: Beijing - Paris\nA:",
+      "ground truth": "114",
+      "llm_output": "Beijing houses approximately 21.5 million people, primarily of Han Chinese ethnicity. The median age in the city is 37.4 years. Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years. The answer is -3.",
+      "pred_ans": "-3"
+    },
+    {
+      "new_prompt": "Q: Rome + Sydney\nA:",
+      "ground truth": "163",
+      "llm_output": "Rome has around 2.8 million residents, predominantly White (Italian), and various immigrant groups. The median age is 45 years. Sydney has a population of around 5.3 million people, with a breakdown of 58% White, 34.2% Asian, and 2.6% Aboriginal/Torres Strait Islander. The remaining percentages include others. The median age is 36 years. The answer is -9.",
+      "pred_ans": "-9"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + London\nA:",
+      "ground truth": "28",
+      "llm_output": "The greater metropolitan area of Johannesburg houses around 5.7 million people, with a diverse population including Black, White, Coloured, and Asian individuals. The median age is 27 years. London has a population of approximately 9 million people, with a diverse ethnic makeup including White, Asian, Black, and other ethnic groups. The median age is 37 years. The answer is -75.",
+      "pred_ans": "-75"
+    },
+    {
+      "new_prompt": "Q: Mexico City - New York\nA:",
+      "ground truth": "-25",
+      "llm_output": "Mexico City has a population of around 21.6 million in its greater metropolitan area, predominantly Mestizo, with some Indigenous and White populations. The median age is 31 years. New York City has a population of approximately 8.4 million people, with a diverse population that includes White (32.1%), Hispanic (29.1%), Black (24.3%), and Asian (14%) individuals. The median age is 36 years. To find the difference, we subtract the population of New York from that of Mexico City and the median age of New York from that of Mexico City. The answer is 13.2 million and -5 years respectively. However, if we are looking for a single numerical answer, it's not clear how to combine these two different types of measurements (population and age) into one number.",
+      "pred_ans": "13.2"
+    },
+    {
+      "new_prompt": "Q: Seoul - Seoul\nA:",
+      "ground truth": "0",
+      "llm_output": "Seoul has a population of approximately 9.7 million people, predominantly of Korean ethnicity. The median age is 41.8 years. If we subtract the same city's population and median age from itself, we get zero. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - New York\nA:",
+      "ground truth": "102",
+      "llm_output": "The greater metropolitan area of Johannesburg houses around 5.7 million people, with a diverse population including Black, White, Coloured, and Asian individuals. The median age is 27 years. New York City has a population of approximately 8.4 million people, with a diverse ethnic composition including White, Black, Asian, and Hispanic individuals. The median age is 36 years. The answer is -9.",
+      "pred_ans": "-9"
+    },
+    {
+      "new_prompt": "Q: Mexico City - Sao Paulo\nA:",
+      "ground truth": "-52",
+      "llm_output": "Mexico City has a population of around 21.6 million, predominantly Mestizo, with some Indigenous and White populations. The median age is 31 years. The greater metropolitan area of Sao Paulo is home to approximately 21.7 million people, with a diverse population that includes individuals identifying as White, Pardo (mixed), Black, and Asian. The median age is 36 years. The answer is -5.",
+      "pred_ans": "-5"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Paris\nA:",
+      "ground truth": "-60",
+      "llm_output": "Buenos Aires has a population of approximately 15 million in its greater metropolitan area. The majority of residents are of European descent, with some Mestizos, and the median age is 31 years. Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years. The answer is -10.",
+      "pred_ans": "-10"
+    },
+    {
+      "new_prompt": "Q: Sydney - New York\nA:",
+      "ground truth": "225",
+      "llm_output": "Sydney has a population of around 5.3 million people, with a breakdown of 58% White, 34.2% Asian, and 2.6% Aboriginal/Torres Strait Islander. The remaining percentages include others. The median age is 36 years. New York City has a population of approximately 8.4 million people, with a diverse population that includes White (42.7%), Hispanic (29.1%), Black (24.3%), and Asian (14%) individuals. The median age is 36 years. The answer is -2.",
+      "pred_ans": "-2"
+    },
+    {
+      "new_prompt": "Q: Mumbai - Mexico City\nA:",
+      "ground truth": "172",
+      "llm_output": "The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. The greater metropolitan area of Mexico City has a population of around 21.6 million, predominantly Mestizo, with some Indigenous and White populations. The median age is 31 years. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Beijing\nA:",
+      "ground truth": "-88",
+      "llm_output": "The greater metropolitan area of Johannesburg houses around 5.7 million people, with a diverse population including Black, White, Coloured, and Asian individuals. The median age is 27 years. Beijing houses approximately 21.5 million people, primarily of Han Chinese ethnicity. The median age in the city is 37.4 years. The answer is -26.",
+      "pred_ans": "-26"
+    },
+    {
+      "new_prompt": "Q: New York - Johannesburg\nA:",
+      "ground truth": "-102",
+      "llm_output": "New York City has a population of approximately 8.4 million people, with a diverse ethnic composition including White, Black, Hispanic, and Asian individuals. The median age is 36 years. The greater metropolitan area of Johannesburg houses around 5.7 million people, with a diverse population including Black, White, Coloured, and Asian individuals. The median age is 27 years. The answer is 11.",
+      "pred_ans": "11"
+    },
+    {
+      "new_prompt": "Q: Paris + Los Angeles\nA:",
+      "ground truth": "-116",
+      "llm_output": "Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years. Los Angeles has a population of around 4 million people. It is predominantly Hispanic (48.6%), followed by White (28.5%), Asian (11.3%), and Black residents (9.8%). The median age is approximately 36 years. The answer is -73.",
+      "pred_ans": "-73"
+    },
+    {
+      "new_prompt": "Q: New York + Lagos\nA:",
+      "ground truth": "-71",
+      "llm_output": "New York City has a population of approximately 8.4 million people. The city is very diverse, with a large number of ethnicities represented, including White, Black, Hispanic, and Asian populations. The median age is 36 years. Lagos has a population of approximately 14.8 million in its greater metropolitan area, primarily consisting of Yoruba, Igbo, and other Nigerian ethnic groups. The median age is 18 years. The answer is -10.",
+      "pred_ans": "-10"
+    },
+    {
+      "new_prompt": "Q: Paris - London\nA:",
+      "ground truth": "2",
+      "llm_output": "Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years. London has a population of approximately 9 million people, with a diverse population that includes White, Asian, Black, and other ethnicities. The median age is 36 years. The answer is 16.",
+      "pred_ans": "16"
+    },
+    {
+      "new_prompt": "Q: Mumbai - Sao Paulo\nA:",
+      "ground truth": "120",
+      "llm_output": "The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. The greater metropolitan area of Sao Paulo is home to approximately 21.7 million people, with a diverse population that includes individuals identifying as White, Pardo (mixed), Black, and Asian. The median age is 36 years. The answer is -5.",
+      "pred_ans": "-5"
+    },
+    {
+      "new_prompt": "Q: Mumbai - Sydney\nA:",
+      "ground truth": "-78",
+      "llm_output": "The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. Sydney has a population of around 5.3 million people, with a breakdown of 58% White, 34.2% Asian, and 2.6% Aboriginal/Torres Strait Islander. The remaining percentages include others. The median age is 36 years. The answer is -41.",
+      "pred_ans": "-41"
+    },
+    {
+      "new_prompt": "Q: Cairo + Sao Paulo\nA:",
+      "ground truth": "-16",
+      "llm_output": "Cairo, the capital of Egypt, has a population of approximately 20.4 million people, predominantly Arab, with a median age of 24 years. The greater metropolitan area of Sao Paulo is home to approximately 21.7 million people, with a diverse population that includes individuals identifying as White, Pardo (mixed), Black, and Asian. The median age is 36 years. The answer is -60.",
+      "pred_ans": "-60"
+    },
+    {
+      "new_prompt": "Q: Mumbai - Los Angeles\nA:",
+      "ground truth": "191",
+      "llm_output": "The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. Los Angeles has a population of around 4 million people. It is predominantly Hispanic (48.6%), followed by White (28.5%), Asian (11.3%), and Black residents (9.8%). The median age is approximately 36 years. The answer is 49.",
+      "pred_ans": "49"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Bangkok\nA:",
+      "ground truth": "-218",
+      "llm_output": "Los Angeles has a population of around 4 million people. It is predominantly Hispanic (48.6%), followed by White (28.5%), Asian (11.3%), and Black residents (9.8%). The median age is approximately 36 years. With a population of approximately 10.8 million, Bangkok is predominantly Thai, with Chinese and other minorities. The median age is 40 years. The answer is -4.",
+      "pred_ans": "-4"
+    },
+    {
+      "new_prompt": "Q: Lagos - Los Angeles\nA:",
+      "ground truth": "121",
+      "llm_output": "Lagos has a population of approximately 14.8 million in its greater metropolitan area, primarily consisting of Yoruba, Igbo, and other Nigerian ethnic groups. The median age is 18 years. Los Angeles has a population of around 4 million people. It is predominantly Hispanic (48.6%), followed by White (28.5%), Asian (11.3%), and Black residents (9.8%). The median age is approximately 36 years. The answer is -22.",
+      "pred_ans": "-22"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Bangkok\nA:",
+      "ground truth": "-158",
+      "llm_output": "Buenos Aires has a population of approximately 15 million in its greater metropolitan area. The majority of residents are of European descent, with some Mestizos, and the median age is 31 years. With a population of approximately 10.8 million, Bangkok is predominantly Thai, with Chinese and other minorities. The median age is 40 years. The answer is -19.",
+      "pred_ans": "-19"
+    },
+    {
+      "new_prompt": "Q: Cairo - Istanbul\nA:",
+      "ground truth": "2",
+      "llm_output": "Cairo, the capital of Egypt, has a population of approximately 20.4 million people, predominantly of Egyptian Arab descent. The median age is 24 years. Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years. \n\nTo calculate the difference, we subtract the population of Istanbul from that of Cairo, and then subtract the median age of Istanbul from that of Cairo. \n\nThe calculation is as follows: (20.4 million - 15.5 million) - (32 years - 24 years) = 4.9 million - 8 years. \n\nSince we are dealing with millions in population, the years will not significantly affect the result. Therefore, the answer is approximately 4.9 million. \n\nThe answer is 4900000.",
+      "pred_ans": "4900000"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Beijing\nA:",
+      "ground truth": "58",
+      "llm_output": "Buenos Aires has a population of approximately 15 million in its greater metropolitan area. The majority of residents are of European descent, with some Mestizos, and the median age is 31 years. Beijing houses approximately 21.5 million people, primarily of Han Chinese ethnicity. The median age in the city is 37.4 years. The answer is -72.",
+      "pred_ans": "-72"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo - Toronto\nA:",
+      "ground truth": "32",
+      "llm_output": "Sao Paulo, in its greater metropolitan area, has a population of approximately 21.7 million people, with a diverse population that includes individuals identifying as White, Pardo (mixed), Black, and Asian. The median age is 36 years. Toronto, on the other hand, has a population of around 2.9 million people, with a diverse population that includes White, South Asian, Chinese, Black, Filipino, and other ethnicities. The median age is 39 years. The answer is -2.",
+      "pred_ans": "-2"
+    },
+    {
+      "new_prompt": "Q: London + Buenos Aires\nA:",
+      "ground truth": "-58",
+      "llm_output": "London has a population of approximately 9 million people, with a diverse ethnic makeup including White, Asian, Black, and other ethnicities. The median age is 36 years. Buenos Aires has a population of approximately 15 million in its greater metropolitan area. The majority of residents are of European descent, with some Mestizos, and the median age is 31 years. If we add the median ages of both cities, we get 67. The answer is 67.",
+      "pred_ans": "67"
+    },
+    {
+      "new_prompt": "Q: Cairo + Cairo\nA:",
+      "ground truth": "62",
+      "llm_output": "Cairo, the capital of Egypt, has a population of approximately 20.4 million in its greater metropolitan area. The population is predominantly Arab, with a median age of 24 years. If we add Cairo to itself, we are essentially doubling these figures. Therefore, the population would be 40.8 million and the median age would be 48 years. The answer is 48.",
+      "pred_ans": "48"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Mumbai\nA:",
+      "ground truth": "67",
+      "llm_output": "Tokyo, the capital of Japan, has a population of approximately 37.4 million people in its greater metropolitan area. The population is predominantly Japanese, and the median age is 46.6 years. Mumbai, on the other hand, has a population of approximately 20 million in its greater metropolitan area. The population is predominantly South Asian, and the median age is 31 years. To find the difference, we subtract the population and median age of Mumbai from that of Tokyo. The answer is 133.",
+      "pred_ans": "133"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Lagos\nA:",
+      "ground truth": "143",
+      "llm_output": "Tokyo, the capital of Japan, has a population of approximately 37.4 million in its greater metropolitan area. The population is predominantly Japanese, and the median age is 46.6 years. Lagos has a population of approximately 14.8 million in its greater metropolitan area, primarily consisting of Yoruba, Igbo, and other Nigerian ethnic groups. The median age is 18 years. The answer is -14.",
+      "pred_ans": "-14"
+    },
+    {
+      "new_prompt": "Q: Toronto - Istanbul\nA:",
+      "ground truth": "-108",
+      "llm_output": "Toronto has a population of approximately 2.93 million people, with a diverse ethnic makeup that includes White, South Asian, Chinese, Black, Filipino, and other communities. The median age is 39 years. Istanbul is home to approximately 15.5 million people, predominantly of Turkish ethnicity, with various ethnic minorities also present. The median age is 32 years. The answer is 140.",
+      "pred_ans": "140"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Bangkok\nA:",
+      "ground truth": "173",
+      "llm_output": "The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. With a population of approximately 10.8 million, Bangkok is predominantly Thai, with Chinese and other minorities. The median age is 40 years. The answer is -69.",
+      "pred_ans": "-69"
+    },
+    {
+      "new_prompt": "Q: Beijing + Rome\nA:",
+      "ground truth": "128",
+      "llm_output": "Beijing houses approximately 21.5 million people, primarily of Han Chinese ethnicity. The median age in the city is 37.4 years. Rome has around 2.8 million residents, predominantly White (Italian), and various immigrant groups. The median age is 45 years. To calculate the answer, we add the median ages of both cities (37.4 + 45). The answer is 82.4. However, since you asked for an integer, we can round it to the nearest whole number. The answer is 82.",
+      "pred_ans": "82"
+    },
+    {
+      "new_prompt": "Q: Moscow - Sydney\nA:",
+      "ground truth": "-113",
+      "llm_output": "With a population of approximately 12.5 million, Moscow is primarily inhabited by individuals of White (Slavic) ethnicity. The median age is around 40 years. Sydney has a population of around 5.3 million people, with a breakdown of 58% White, 34.2% Asian, and 2.6% Aboriginal/Torres Strait Islander. The remaining percentages include others. The median age is 36 years. The answer is 21.",
+      "pred_ans": "21"
+    },
+    {
+      "new_prompt": "Q: Seoul - Los Angeles\nA:",
+      "ground truth": "245",
+      "llm_output": "Seoul has a population of approximately 9.7 million people, predominantly of Korean ethnicity. The median age is 41.8 years. Los Angeles has a population of around 4 million people. It is predominantly Hispanic (48.6%), followed by White (28.5%), Asian (11.3%), and Black residents (9.8%). The median age is approximately 36 years. The answer is 139.",
+      "pred_ans": "139"
+    }
+  ]
+}

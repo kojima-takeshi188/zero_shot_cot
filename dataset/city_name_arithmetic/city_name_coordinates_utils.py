@@ -228,51 +228,52 @@ def generate_prompts_from_json(input_file, output_file):
     #     "Mexico City": "Mexico City is the capital of Mexico. It's known for its Templo Mayor, a 13th-century Aztec temple, and the Palacio Nacional, which houses historic murals."
     # }
 
+    # city_facts = {
+    #     "Buenos Aires": "Buenos Aires is the capital of Argentina. It is located in the western hemisphere.",
+    #     "Toronto": "Toronto is the largest city in Canada. It is located in the western Hemisphere.",
+    #     "New York": "New York, often called New York City, is the most populous city in the United States. It is located in the western Hemisphere.",
+    #     "Mumbai": "Mumbai, formerly known as Bombay, is the financial capital of India. It is located in the eastern Hemisphere.",
+    #     "Los Angeles": "Los Angeles is located in California, USA. It is located in the western Hemisphere.",
+    #     "Moscow": "Moscow is the capital of Russia. It is located in the eastern Hemisphere.",
+    #     "Istanbul": "Istanbul is a major city in Turkey. It is located in the eastern Hemisphere.",
+    #     "Rome": "Rome is the capital of Italy. It is located in the eastern Hemisphere.",
+    #     "Paris": "Paris is the capital of France. It is located in the eastern Hemisphere.",
+    #     "Beijing": "Beijing is the capital of China. It is located in the eastern Hemisphere.",
+    #     "Tokyo": "Tokyo is the capital of Japan. It is located in the eastern Hemisphere.",
+    #     "London": "London is the capital of England and the United Kingdom. It is located in the western Hemisphere.",
+    #     "Sydney": "Sydney is the largest city in Australia. It is located in the eastern Hemisphere.",
+    #     "Cairo": "Cairo is the capital of Egypt. It's located near the Nile Delta. It is located in the eastern Hemisphere.",
+    #     "Sao Paulo": "Sao Paulo is a sprawling city in Brazil. It is located in the western hemisphere.",
+    #     "Lagos": "Lagos is the largest city in Nigeria. It is located in the eastern Hemisphere.",
+    #     "Johannesburg": "Johannesburg, often known as Jo'burg, is the largest city in South Africa. It is located in the eastern hemisphere.",
+    #     "Seoul": "Seoul is the capital and largest metropolis of South Korea. It is located in the eastern Hemisphere.",
+    #     "Bangkok": "Bangkok is the capital of Thailand. It is located in the eastern Hemisphere.",
+    #     "Mexico City": "Mexico City is the capital of Mexico. It is located in the western Hemisphere."
+    # }
+
     city_facts = {
-        "Buenos Aires": "Buenos Aires is the capital of Argentina. It is located in the western hemisphere.",
-        "Toronto": "Toronto is the largest city in Canada. It is located in the western Hemisphere.",
-        "New York": "New York, often called New York City, is the most populous city in the United States. It is located in the western Hemisphere.",
-        "Mumbai": "Mumbai, formerly known as Bombay, is the financial capital of India. It is located in the eastern Hemisphere.",
-        "Los Angeles": "Los Angeles is located in California, USA. It is located in the western Hemisphere.",
-        "Moscow": "Moscow is the capital of Russia. It is located in the eastern Hemisphere.",
-        "Istanbul": "Istanbul is a major city in Turkey. It is located in the eastern Hemisphere.",
-        "Rome": "Rome is the capital of Italy. It is located in the eastern Hemisphere.",
-        "Paris": "Paris is the capital of France. It is located in the eastern Hemisphere.",
-        "Beijing": "Beijing is the capital of China. It is located in the eastern Hemisphere.",
-        "Tokyo": "Tokyo is the capital of Japan. It is located in the eastern Hemisphere.",
-        "London": "London is the capital of England and the United Kingdom. It is located in the western Hemisphere.",
-        "Sydney": "Sydney is the largest city in Australia. It is located in the eastern Hemisphere.",
-        "Cairo": "Cairo is the capital of Egypt. It's located near the Nile Delta. It is located in the eastern Hemisphere.",
-        "Sao Paulo": "Sao Paulo is a sprawling city in Brazil. It is located in the western hemisphere.",
-        "Lagos": "Lagos is the largest city in Nigeria. It is located in the eastern Hemisphere.",
-        "Johannesburg": "Johannesburg, often known as Jo'burg, is the largest city in South Africa. It is located in the eastern hemisphere.",
-        "Seoul": "Seoul is the capital and largest metropolis of South Korea. It is located in the eastern Hemisphere.",
-        "Bangkok": "Bangkok is the capital of Thailand. It is located in the eastern Hemisphere.",
-        "Mexico City": "Mexico City is the capital of Mexico. It is located in the western Hemisphere."
+        "Buenos Aires": "Buenos Aires has longitude: -58.",
+        "Toronto": "Toronto has longitude: -79.",
+        "New York": "New York has longitude: -74.",
+        "Mumbai": "Mumbai has longitude: 73.",
+        "Los Angeles": "Los Angeles has longitude: -118.",
+        "Moscow": "Moscow has longitude: 38.",
+        "Istanbul": "Istanbul has longitude: 29.",
+        "Rome": "Rome has longitude: 12.",
+        "Paris": "Paris has longitude: 2.",
+        "Beijing": "Beijing has longitude: 116.",
+        "Tokyo": "Tokyo has longitude: 140.",
+        "London": "London has longitude: 0.",
+        "Sydney": "Sydney has longitude: 151.",
+        "Cairo": "Cairo has longitude: 31.",
+        "Sao Paulo": "Sao Paulo has longitude: -47.",
+        "Lagos": "Lagos has longitude: 3.",
+        "Johannesburg": "Johannesburg has longitude: 28.",
+        "Seoul": "Seoul has longitude: 127.",
+        "Bangkok": "Bangkok has longitude: 100.",
+        "Mexico City": "Mexico City has longitude: -99."
     }
 
-    # city_facts = {
-    #     "Buenos Aires": "Buenos Aires is located in the western hemisphere.",
-    #     "Toronto": "Toronto is located in the western Hemisphere.",
-    #     "New York": "New York is located in the western Hemisphere.",
-    #     "Mumbai": "Mumbai is located in the eastern Hemisphere.",
-    #     "Los Angeles": "Los Angeles is located in the western Hemisphere.",
-    #     "Moscow": "Moscow is located in the eastern Hemisphere.",
-    #     "Istanbul": "Istanbul is located in the eastern Hemisphere.",
-    #     "Rome": "Rome is located in the eastern Hemisphere.",
-    #     "Paris": "Paris is located in the eastern Hemisphere.",
-    #     "Beijing": "Beijing is located in the eastern Hemisphere.",
-    #     "Tokyo": "Tokyo is located in the eastern Hemisphere.",
-    #     "London": "London is located in the western Hemisphere.",
-    #     "Sydney": "Sydney is located in the eastern Hemisphere.",
-    #     "Cairo": "Cairo is located in the eastern Hemisphere.",
-    #     "Sao Paulo": "Sao Paulo is located in the western hemisphere.",
-    #     "Lagos": "Lagos is located in the eastern Hemisphere.",
-    #     "Johannesburg": "Johannesburg is located in the eastern hemisphere.",
-    #     "Seoul": "Seoul is located in the eastern Hemisphere.",
-    #     "Bangkok": "Bangkok is located in the eastern Hemisphere.",
-    #     "Mexico City": "Mexico City is located in the western Hemisphere."
-    # }
 
     city_demographics = {
         "New York": "With a population of approximately 8.4 million people, New York is diverse. Around 32.1% identify as White, 29.1% as Hispanic, 24.3% as Black, 14.1% as Asian, with the rest being a mixture of Native American, Pacific Islander, and other ethnicities. The median age is 36 years.",
@@ -315,8 +316,9 @@ def generate_prompts_from_json(input_file, output_file):
         cities_involved = re.findall(city_pattern, city_equation)
         
         # Generate the uninformative z prompts
-        z_uninfo_prompt = " ".join([city_facts[city] for city in cities_involved])
-        
+        #z_uninfo_prompt = " ".join([city_facts[city] for city in cities_involved])
+        z_uninfo_prompt = city_facts[cities_involved[0]]
+        #z_uninfo_prompt ="Let's consider the geographic coordinates that specify their east-west or north-south positions on the Earth's surface."
         # Generate the z prompts with demographics
         z_demographics_prompt = " ".join([city_demographics[city] for city in cities_involved])
        

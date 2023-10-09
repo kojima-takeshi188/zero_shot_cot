@@ -1,0 +1,305 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: London - Istanbul\nA:",
+      "ground truth": "-29",
+      "llm_output": " The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Cairo + Seoul\nA:",
+      "ground truth": "158",
+      "llm_output": " The answer is 116.",
+      "pred_ans": "116"
+    },
+    {
+      "new_prompt": "Q: Beijing + Istanbul\nA:",
+      "ground truth": "145",
+      "llm_output": " The answer is 6.",
+      "pred_ans": "6"
+    },
+    {
+      "new_prompt": "Q: Moscow + Toronto\nA:",
+      "ground truth": "-41",
+      "llm_output": " The answer is -7.",
+      "pred_ans": "-7"
+    },
+    {
+      "new_prompt": "Q: London - Istanbul\nA:",
+      "ground truth": "-29",
+      "llm_output": " The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Istanbul + Mumbai\nA:",
+      "ground truth": "102",
+      "llm_output": " The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Lagos\nA:",
+      "ground truth": "76",
+      "llm_output": " The answer is 36.",
+      "pred_ans": "36"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Lagos\nA:",
+      "ground truth": "137",
+      "llm_output": " The answer is 111.",
+      "pred_ans": "111"
+    },
+    {
+      "new_prompt": "Q: Sydney - London\nA:",
+      "ground truth": "151",
+      "llm_output": " The answer is 10.",
+      "pred_ans": "10"
+    },
+    {
+      "new_prompt": "Q: Paris - New York\nA:",
+      "ground truth": "76",
+      "llm_output": " The answer is 6.",
+      "pred_ans": "6"
+    },
+    {
+      "new_prompt": "Q: Sydney - Beijing\nA:",
+      "ground truth": "35",
+      "llm_output": " The answer is 3.",
+      "pred_ans": "3"
+    },
+    {
+      "new_prompt": "Q: Bangkok - Rome\nA:",
+      "ground truth": "88",
+      "llm_output": " The answer is 6.",
+      "pred_ans": "6"
+    },
+    {
+      "new_prompt": "Q: Seoul + London\nA:",
+      "ground truth": "127",
+      "llm_output": " The answer is 8.",
+      "pred_ans": "8"
+    },
+    {
+      "new_prompt": "Q: Beijing + Paris\nA:",
+      "ground truth": "118",
+      "llm_output": " The answer is 7.",
+      "pred_ans": "7"
+    },
+    {
+      "new_prompt": "Q: Mumbai + London\nA:",
+      "ground truth": "73",
+      "llm_output": " The answer is 4.",
+      "pred_ans": "4"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Toronto\nA:",
+      "ground truth": "108",
+      "llm_output": " The answer is 7.",
+      "pred_ans": "7"
+    },
+    {
+      "new_prompt": "Q: Mexico City + Moscow\nA:",
+      "ground truth": "-61",
+      "llm_output": " The answer is -8.",
+      "pred_ans": "-8"
+    },
+    {
+      "new_prompt": "Q: Seoul + New York\nA:",
+      "ground truth": "53",
+      "llm_output": " The answer is 14.",
+      "pred_ans": "14"
+    },
+    {
+      "new_prompt": "Q: Lagos - Mumbai\nA:",
+      "ground truth": "-70",
+      "llm_output": " The answer is -3.",
+      "pred_ans": "-3"
+    },
+    {
+      "new_prompt": "Q: London - Cairo\nA:",
+      "ground truth": "-31",
+      "llm_output": " The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Rome + Rome\nA:",
+      "ground truth": "24",
+      "llm_output": " The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo - Rome\nA:",
+      "ground truth": "-59",
+      "llm_output": " The answer is -4.",
+      "pred_ans": "-4"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Los Angeles\nA:",
+      "ground truth": "-45",
+      "llm_output": " The answer is 198.",
+      "pred_ans": "198"
+    },
+    {
+      "new_prompt": "Q: Cairo - Istanbul\nA:",
+      "ground truth": "2",
+      "llm_output": " The answer is 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: Istanbul + Mumbai\nA:",
+      "ground truth": "102",
+      "llm_output": " The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Moscow\nA:",
+      "ground truth": "-156",
+      "llm_output": " The answer is -11.",
+      "pred_ans": "-11"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Paris\nA:",
+      "ground truth": "26",
+      "llm_output": " The answer is 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: Toronto - Rome\nA:",
+      "ground truth": "-91",
+      "llm_output": " The answer is 6.",
+      "pred_ans": "6"
+    },
+    {
+      "new_prompt": "Q: Lagos + New York\nA:",
+      "ground truth": "-71",
+      "llm_output": " The answer is -5.",
+      "pred_ans": "-5"
+    },
+    {
+      "new_prompt": "Q: Seoul + Sao Paulo\nA:",
+      "ground truth": "80",
+      "llm_output": " The answer is 12.",
+      "pred_ans": "12"
+    },
+    {
+      "new_prompt": "Q: Seoul + London\nA:",
+      "ground truth": "127",
+      "llm_output": " The answer is 8.",
+      "pred_ans": "8"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Los Angeles\nA:",
+      "ground truth": "22",
+      "llm_output": " The answer is 17.",
+      "pred_ans": "17"
+    },
+    {
+      "new_prompt": "Q: Sydney + Buenos Aires\nA:",
+      "ground truth": "93",
+      "llm_output": " The answer is 239.",
+      "pred_ans": "239"
+    },
+    {
+      "new_prompt": "Q: Seoul + Moscow\nA:",
+      "ground truth": "165",
+      "llm_output": " The answer is 7.",
+      "pred_ans": "7"
+    },
+    {
+      "new_prompt": "Q: Lagos - Sydney\nA:",
+      "ground truth": "-148",
+      "llm_output": " The answer is -175.",
+      "pred_ans": "-175"
+    },
+    {
+      "new_prompt": "Q: Paris - Buenos Aires\nA:",
+      "ground truth": "60",
+      "llm_output": " The answer is 4.",
+      "pred_ans": "4"
+    },
+    {
+      "new_prompt": "Q: London - Toronto\nA:",
+      "ground truth": "79",
+      "llm_output": " The answer is 5.",
+      "pred_ans": "5"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Tokyo\nA:",
+      "ground truth": "-112",
+      "llm_output": " The answer is -14.",
+      "pred_ans": "-14"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + New York\nA:",
+      "ground truth": "-46",
+      "llm_output": " The answer is -6.",
+      "pred_ans": "-6"
+    },
+    {
+      "new_prompt": "Q: Rome - Lagos\nA:",
+      "ground truth": "9",
+      "llm_output": " The answer is 62.",
+      "pred_ans": "62"
+    },
+    {
+      "new_prompt": "Q: Mumbai - Tokyo\nA:",
+      "ground truth": "-67",
+      "llm_output": " The answer is -7.",
+      "pred_ans": "-7"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Toronto\nA:",
+      "ground truth": "-6",
+      "llm_output": " The answer is 9.",
+      "pred_ans": "9"
+    },
+    {
+      "new_prompt": "Q: Istanbul + Istanbul\nA:",
+      "ground truth": "58",
+      "llm_output": " The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Johannesburg\nA:",
+      "ground truth": "-86",
+      "llm_output": " The answer is -6.",
+      "pred_ans": "-6"
+    },
+    {
+      "new_prompt": "Q: Cairo - Sydney\nA:",
+      "ground truth": "-120",
+      "llm_output": " The answer is -7.",
+      "pred_ans": "-7"
+    },
+    {
+      "new_prompt": "Q: Cairo - New York\nA:",
+      "ground truth": "105",
+      "llm_output": " The answer is 7.",
+      "pred_ans": "7"
+    },
+    {
+      "new_prompt": "Q: Mexico City + Rome\nA:",
+      "ground truth": "-87",
+      "llm_output": " The answer is 111.",
+      "pred_ans": "111"
+    },
+    {
+      "new_prompt": "Q: Bangkok + Sydney\nA:",
+      "ground truth": "251",
+      "llm_output": " The answer is 5.",
+      "pred_ans": "5"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - New York\nA:",
+      "ground truth": "-44",
+      "llm_output": " The answer is -3.",
+      "pred_ans": "-3"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Sao Paulo\nA:",
+      "ground truth": "-71",
+      "llm_output": " The answer is -5.",
+      "pred_ans": "-5"
+    }
+  ]
+}

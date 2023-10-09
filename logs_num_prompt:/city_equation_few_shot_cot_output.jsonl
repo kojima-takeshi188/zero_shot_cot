@@ -1,0 +1,17 @@
+{
+  "accuracy": 100.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: Buenos Aires - Cairo\nA:",
+      "ground truth": "-89",
+      "llm_output": " Using the longitudes of cities, the equation \"Buenos Aires - Cairo\" translates as \"Buenos Aires\" = -58, \"Cairo\" = 31. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is -89.",
+      "pred_ans": "-89"
+    },
+    {
+      "new_prompt": "Q: Sydney - Istanbul\nA:",
+      "ground truth": "122",
+      "llm_output": " Using the longitudes of cities, the equation \"Sydney - Istanbul\" translates as \"Sydney\" = 151, \"Istanbul\" = 29. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 122.",
+      "pred_ans": "122"
+    }
+  ]
+}

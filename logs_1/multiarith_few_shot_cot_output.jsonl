@@ -1,0 +1,11 @@
+{
+  "accuracy": 100.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: For Halloween Megan received 11 pieces of candy from neighbors and 5 pieces from her older sister. If she only ate 8 pieces a day, how long would the candy last her?\nA:",
+      "ground truth": "2",
+      "llm_output": "Megan received a total of 11 + 5 = <<11+5=16>>16 pieces of candy.\nIf she ate 8 pieces a day, the candy would last her 16 / 8 = <<16/8=2>>2 days.",
+      "pred_ans": "2"
+    }
+  ]
+}

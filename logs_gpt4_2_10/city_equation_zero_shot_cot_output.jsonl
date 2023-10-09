@@ -1,0 +1,1205 @@
+{
+  "accuracy": 1.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: Mumbai + Buenos Aires\nA:",
+      "ground truth": "15",
+      "llm_output": "not applicable.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Mumbai - Mumbai\nA:",
+      "ground truth": "0",
+      "llm_output": "0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Mexico City\nA:",
+      "ground truth": "127",
+      "llm_output": "not available until more specific information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Seoul\nA:",
+      "ground truth": "9",
+      "llm_output": "not available without further context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Sydney - Cairo\nA:",
+      "ground truth": "120",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Beijing + Lagos\nA:",
+      "ground truth": "119",
+      "llm_output": "not applicable as the question does not provide numerical values.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: New York - Beijing\nA:",
+      "ground truth": "-190",
+      "llm_output": "unclear until further information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Rome - Beijing\nA:",
+      "ground truth": "-104",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: New York - Bangkok\nA:",
+      "ground truth": "-174",
+      "llm_output": "not available until more specific information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Beijing - Sydney\nA:",
+      "ground truth": "-35",
+      "llm_output": "8970 kilometers or 5575 miles.",
+      "pred_ans": "8970"
+    },
+    {
+      "new_prompt": "Q: New York + Los Angeles\nA:",
+      "ground truth": "-192",
+      "llm_output": "not applicable in this context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Tokyo - Buenos Aires\nA:",
+      "ground truth": "198",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Cairo - Paris\nA:",
+      "ground truth": "29",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Lagos - Mumbai\nA:",
+      "ground truth": "-70",
+      "llm_output": "unclear until further information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Sydney - Cairo\nA:",
+      "ground truth": "120",
+      "llm_output": "8820 miles or 14200 kilometers.",
+      "pred_ans": "8820"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Buenos Aires\nA:",
+      "ground truth": "-116",
+      "llm_output": "not applicable as cities cannot be added together.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Beijing - Sao Paulo\nA:",
+      "ground truth": "163",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: New York + Toronto\nA:",
+      "ground truth": "-153",
+      "llm_output": "not applicable.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Paris + Buenos Aires\nA:",
+      "ground truth": "-56",
+      "llm_output": "not applicable in this context as the question doesn't involve numerical values.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Cairo + Bangkok\nA:",
+      "ground truth": "131",
+      "llm_output": "not applicable as the question lacks sufficient context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Tokyo - New York\nA:",
+      "ground truth": "214",
+      "llm_output": "6740 miles or 10840 kilometers.",
+      "pred_ans": "6740"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Sydney\nA:",
+      "ground truth": "93",
+      "llm_output": "not applicable as the question is unclear.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Lagos - Seoul\nA:",
+      "ground truth": "-124",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Sydney - Seoul\nA:",
+      "ground truth": "24",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Tokyo - London\nA:",
+      "ground truth": "140",
+      "llm_output": "9600.",
+      "pred_ans": "9600"
+    },
+    {
+      "new_prompt": "Q: Lagos + Mumbai\nA:",
+      "ground truth": "76",
+      "llm_output": "not applicable as Lagos and Mumbai are cities and cannot be added together numerically.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Cairo + Cairo\nA:",
+      "ground truth": "62",
+      "llm_output": "not applicable in this context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Sao Paulo + New York\nA:",
+      "ground truth": "-121",
+      "llm_output": "not applicable as the question lacks numerical context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Paris - Tokyo\nA:",
+      "ground truth": "-138",
+      "llm_output": "currently unknown due to lack of specific information in the question.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Lagos - London\nA:",
+      "ground truth": "3",
+      "llm_output": "not available until more specific information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Mexico City - Bangkok\nA:",
+      "ground truth": "-199",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Rome - Seoul\nA:",
+      "ground truth": "-115",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Moscow + Beijing\nA:",
+      "ground truth": "154",
+      "llm_output": "not applicable as the question doesn't provide numerical values to add.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Seoul\nA:",
+      "ground truth": "-185",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Sydney - London\nA:",
+      "ground truth": "151",
+      "llm_output": "17000 or 10500.",
+      "pred_ans": "17000"
+    },
+    {
+      "new_prompt": "Q: Mexico City - Sydney\nA:",
+      "ground truth": "-250",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Cairo + Beijing\nA:",
+      "ground truth": "147",
+      "llm_output": "not applicable due to insufficient context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Moscow + Los Angeles\nA:",
+      "ground truth": "-80",
+      "llm_output": "not applicable without further context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Mumbai - Sao Paulo\nA:",
+      "ground truth": "120",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: London - Beijing\nA:",
+      "ground truth": "-116",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Tokyo + London\nA:",
+      "ground truth": "140",
+      "llm_output": "not applicable as the question lacks sufficient context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Tokyo + Los Angeles\nA:",
+      "ground truth": "22",
+      "llm_output": "not applicable as cities cannot be added together.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Paris + Mexico City\nA:",
+      "ground truth": "-97",
+      "llm_output": "not applicable as cities cannot be added together.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: London + Mumbai\nA:",
+      "ground truth": "73",
+      "llm_output": "not applicable in this context as the question doesn't specify a numerical operation between London and Mumbai.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Paris + Toronto\nA:",
+      "ground truth": "-77",
+      "llm_output": "not applicable as cities cannot be quantified numerically for addition.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Tokyo - Sao Paulo\nA:",
+      "ground truth": "187",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Lagos + Istanbul\nA:",
+      "ground truth": "32",
+      "llm_output": "not applicable in this context as we can't perform mathematical operations on city names.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Istanbul - Johannesburg\nA:",
+      "ground truth": "1",
+      "llm_output": "unclear until further information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Seoul - Sydney\nA:",
+      "ground truth": "-24",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Seoul + Toronto\nA:",
+      "ground truth": "48",
+      "llm_output": "not applicable as city names cannot be added together in a mathematical sense.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Beijing - Moscow\nA:",
+      "ground truth": "78",
+      "llm_output": "not available until further information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Tokyo - Rome\nA:",
+      "ground truth": "128",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: London + Seoul\nA:",
+      "ground truth": "127",
+      "llm_output": "not applicable.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Bangkok - Seoul\nA:",
+      "ground truth": "-27",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Beijing - Lagos\nA:",
+      "ground truth": "113",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Istanbul + Istanbul\nA:",
+      "ground truth": "58",
+      "llm_output": "not applicable as the question is not mathematically valid.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Sydney + Sydney\nA:",
+      "ground truth": "302",
+      "llm_output": "not applicable as \"Sydney\" is not a numerical value.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Lagos - New York\nA:",
+      "ground truth": "77",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Sao Paulo\nA:",
+      "ground truth": "75",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Rome - Istanbul\nA:",
+      "ground truth": "-17",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Toronto + Istanbul\nA:",
+      "ground truth": "-50",
+      "llm_output": "not available without further context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Cairo + Tokyo\nA:",
+      "ground truth": "171",
+      "llm_output": "not available due to lack of specific context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Cairo - Rome\nA:",
+      "ground truth": "19",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Beijing - Lagos\nA:",
+      "ground truth": "113",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Istanbul\nA:",
+      "ground truth": "57",
+      "llm_output": "not applicable as the question lacks sufficient context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Istanbul + Paris\nA:",
+      "ground truth": "31",
+      "llm_output": "not applicable in this context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Mexico City - London\nA:",
+      "ground truth": "-99",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Tokyo + Sao Paulo\nA:",
+      "ground truth": "93",
+      "llm_output": "not applicable.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Sao Paulo\nA:",
+      "ground truth": "-11",
+      "llm_output": "not available until more specific information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Mumbai + Lagos\nA:",
+      "ground truth": "76",
+      "llm_output": "not applicable in this context as cities cannot be added together.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Bangkok + Sao Paulo\nA:",
+      "ground truth": "53",
+      "llm_output": "not applicable as the question does not involve numerical values.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Istanbul - New York\nA:",
+      "ground truth": "103",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Toronto + Los Angeles\nA:",
+      "ground truth": "-197",
+      "llm_output": "not available due to lack of context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Cairo + Johannesburg\nA:",
+      "ground truth": "59",
+      "llm_output": "not applicable as the question lacks sufficient context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Cairo + Sao Paulo\nA:",
+      "ground truth": "-16",
+      "llm_output": "not applicable.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Sydney + Moscow\nA:",
+      "ground truth": "189",
+      "llm_output": "not applicable as the question does not provide numerical values.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Toronto - Mexico City\nA:",
+      "ground truth": "20",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Cairo + Paris\nA:",
+      "ground truth": "33",
+      "llm_output": "not applicable in this context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Toronto + Toronto\nA:",
+      "ground truth": "-158",
+      "llm_output": "not applicable.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Rome - Moscow\nA:",
+      "ground truth": "-26",
+      "llm_output": "currently not available due to lack of specific information in the question.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Sydney - Sao Paulo\nA:",
+      "ground truth": "198",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Seoul + Lagos\nA:",
+      "ground truth": "130",
+      "llm_output": "not available without further context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Beijing - Mumbai\nA:",
+      "ground truth": "43",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Sydney + Moscow\nA:",
+      "ground truth": "189",
+      "llm_output": "not applicable in this context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Rome + Sydney\nA:",
+      "ground truth": "163",
+      "llm_output": "not applicable as the question lacks sufficient context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: New York + Los Angeles\nA:",
+      "ground truth": "-192",
+      "llm_output": "not applicable.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Moscow + Mumbai\nA:",
+      "ground truth": "111",
+      "llm_output": "not applicable in this context as the question is unclear.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Seoul - Mexico City\nA:",
+      "ground truth": "226",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Lagos - Sydney\nA:",
+      "ground truth": "-148",
+      "llm_output": "14530 kilometers or 9025 miles.",
+      "pred_ans": "14530"
+    },
+    {
+      "new_prompt": "Q: Toronto + Seoul\nA:",
+      "ground truth": "48",
+      "llm_output": "not available due to lack of context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Beijing - Mexico City\nA:",
+      "ground truth": "215",
+      "llm_output": "not available until more specific information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Lagos - Los Angeles\nA:",
+      "ground truth": "121",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Los Angeles\nA:",
+      "ground truth": "-90",
+      "llm_output": "not applicable as cities cannot be added together.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Seoul + Cairo\nA:",
+      "ground truth": "158",
+      "llm_output": "not applicable as we cannot perform mathematical operations on city names.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Tokyo + Bangkok\nA:",
+      "ground truth": "240",
+      "llm_output": "not available without further context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Toronto + Mexico City\nA:",
+      "ground truth": "-178",
+      "llm_output": "not available without further context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Lagos + Toronto\nA:",
+      "ground truth": "-76",
+      "llm_output": "not applicable in this context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Rome - Cairo\nA:",
+      "ground truth": "-19",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Los Angeles\nA:",
+      "ground truth": "-176",
+      "llm_output": "not applicable as the question lacks specific numerical context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Beijing + Sao Paulo\nA:",
+      "ground truth": "69",
+      "llm_output": "not applicable as the provided information does not represent numerical values.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: London - Istanbul\nA:",
+      "ground truth": "-29",
+      "llm_output": "unclear until further information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: London + New York\nA:",
+      "ground truth": "-74",
+      "llm_output": "not applicable as cities cannot be added together.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Johannesburg\nA:",
+      "ground truth": "-90",
+      "llm_output": "not possible to determine without further context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Lagos - Istanbul\nA:",
+      "ground truth": "-26",
+      "llm_output": "unclear until further information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Rome + Istanbul\nA:",
+      "ground truth": "41",
+      "llm_output": "not applicable as the question doesn't provide a clear context for a numerical answer.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Moscow - Buenos Aires\nA:",
+      "ground truth": "96",
+      "llm_output": "not available.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Mexico City + Seoul\nA:",
+      "ground truth": "28",
+      "llm_output": "unclear until more information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Sydney + Toronto\nA:",
+      "ground truth": "72",
+      "llm_output": "not applicable as we cannot perform arithmetic operations on city names.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Rome + Sao Paulo\nA:",
+      "ground truth": "-35",
+      "llm_output": "not available without further context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Cairo - Tokyo\nA:",
+      "ground truth": "-109",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Rome + Johannesburg\nA:",
+      "ground truth": "40",
+      "llm_output": "not applicable as the question lacks sufficient context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Toronto - Los Angeles\nA:",
+      "ground truth": "39",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Mumbai\nA:",
+      "ground truth": "15",
+      "llm_output": "not applicable in this context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Beijing + Mumbai\nA:",
+      "ground truth": "189",
+      "llm_output": "not applicable as we cannot perform arithmetic operations on city names.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Sao Paulo + Lagos\nA:",
+      "ground truth": "-44",
+      "llm_output": "not applicable.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Seoul - Paris\nA:",
+      "ground truth": "125",
+      "llm_output": "not available until more specific information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Bangkok + Sao Paulo\nA:",
+      "ground truth": "53",
+      "llm_output": "not applicable as the question doesn't involve a numerical operation.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Rome - Toronto\nA:",
+      "ground truth": "91",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Rome\nA:",
+      "ground truth": "40",
+      "llm_output": "not applicable as cities cannot be added together.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Lagos - Beijing\nA:",
+      "ground truth": "-113",
+      "llm_output": "approximately 11000 kilometers or 6835 miles.",
+      "pred_ans": "11000"
+    },
+    {
+      "new_prompt": "Q: Toronto - Cairo\nA:",
+      "ground truth": "-110",
+      "llm_output": "not available until more specific information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Mumbai - Sydney\nA:",
+      "ground truth": "-78",
+      "llm_output": "not available until further information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Sydney + Moscow\nA:",
+      "ground truth": "189",
+      "llm_output": "not applicable as the question doesn't involve numerical values.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Cairo + Rome\nA:",
+      "ground truth": "43",
+      "llm_output": "not available due to insufficient information.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Mumbai + Lagos\nA:",
+      "ground truth": "76",
+      "llm_output": "not applicable as cities cannot be added numerically.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Beijing - Tokyo\nA:",
+      "ground truth": "-24",
+      "llm_output": "unclear until further information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Lagos - Los Angeles\nA:",
+      "ground truth": "121",
+      "llm_output": "currently not available due to lack of specific information in the question.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Paris - Istanbul\nA:",
+      "ground truth": "-27",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Mexico City - Toronto\nA:",
+      "ground truth": "-20",
+      "llm_output": "unclear until further information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Los Angeles + New York\nA:",
+      "ground truth": "-192",
+      "llm_output": "not applicable.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Rome + Cairo\nA:",
+      "ground truth": "43",
+      "llm_output": "not applicable in this context as the question lacks specific details.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Rome\nA:",
+      "ground truth": "40",
+      "llm_output": "not applicable as cities cannot be added together.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Mexico City\nA:",
+      "ground truth": "-19",
+      "llm_output": "not available until further information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: London - Tokyo\nA:",
+      "ground truth": "-140",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Bangkok + Lagos\nA:",
+      "ground truth": "103",
+      "llm_output": "not applicable.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Tokyo\nA:",
+      "ground truth": "-258",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Seoul - Lagos\nA:",
+      "ground truth": "124",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Tokyo - Istanbul\nA:",
+      "ground truth": "111",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Seoul + Moscow\nA:",
+      "ground truth": "165",
+      "llm_output": "not applicable.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Sydney + Los Angeles\nA:",
+      "ground truth": "33",
+      "llm_output": "not applicable as the question lacks sufficient context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Sao Paulo + Johannesburg\nA:",
+      "ground truth": "-19",
+      "llm_output": "not available due to insufficient information.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: London + Rome\nA:",
+      "ground truth": "12",
+      "llm_output": "not available without further context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Moscow + Istanbul\nA:",
+      "ground truth": "67",
+      "llm_output": "not applicable as the operation is not possible with cities.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Los Angeles + New York\nA:",
+      "ground truth": "-192",
+      "llm_output": "not applicable as cities cannot be added together mathematically.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Beijing + Rome\nA:",
+      "ground truth": "128",
+      "llm_output": "not applicable as we cannot perform arithmetic operations on city names.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Toronto + Mexico City\nA:",
+      "ground truth": "-178",
+      "llm_output": "not available without further context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Cairo - Mumbai\nA:",
+      "ground truth": "-42",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Toronto - Toronto\nA:",
+      "ground truth": "0",
+      "llm_output": "0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Mexico City\nA:",
+      "ground truth": "239",
+      "llm_output": "approximately 11000 kilometers or 6800 miles.",
+      "pred_ans": "11000"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Mumbai\nA:",
+      "ground truth": "-131",
+      "llm_output": "unclear until further information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: New York - Sydney\nA:",
+      "ground truth": "-225",
+      "llm_output": "9933 or 15993.",
+      "pred_ans": "9933"
+    },
+    {
+      "new_prompt": "Q: Cairo + Rome\nA:",
+      "ground truth": "43",
+      "llm_output": "not applicable in this context as the question lacks specific details.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Beijing + Mexico City\nA:",
+      "ground truth": "17",
+      "llm_output": "not available without further context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Lagos - Bangkok\nA:",
+      "ground truth": "-97",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Beijing - Johannesburg\nA:",
+      "ground truth": "88",
+      "llm_output": "11100 kilometers or 6900 miles.",
+      "pred_ans": "11100"
+    },
+    {
+      "new_prompt": "Q: Toronto - Bangkok\nA:",
+      "ground truth": "-179",
+      "llm_output": "not available until more specific information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Seoul + Rome\nA:",
+      "ground truth": "139",
+      "llm_output": "not applicable as cities cannot be added together.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Moscow\nA:",
+      "ground truth": "66",
+      "llm_output": "not applicable as cities cannot be added together.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Moscow + Tokyo\nA:",
+      "ground truth": "178",
+      "llm_output": "not applicable as the question lacks numerical context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Toronto - Tokyo\nA:",
+      "ground truth": "-219",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Rome - Seoul\nA:",
+      "ground truth": "-115",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Tokyo + Cairo\nA:",
+      "ground truth": "171",
+      "llm_output": "not applicable as the question lacks sufficient context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Istanbul + Johannesburg\nA:",
+      "ground truth": "57",
+      "llm_output": "not applicable as cities cannot be numerically added.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Bangkok - Tokyo\nA:",
+      "ground truth": "-40",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Moscow\nA:",
+      "ground truth": "-96",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Moscow - Cairo\nA:",
+      "ground truth": "7",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Mexico City - London\nA:",
+      "ground truth": "-99",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Sydney\nA:",
+      "ground truth": "-209",
+      "llm_output": "not available until further information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Cairo + Seoul\nA:",
+      "ground truth": "158",
+      "llm_output": "not available due to lack of specific context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Sydney + Lagos\nA:",
+      "ground truth": "154",
+      "llm_output": "not applicable as the question does not provide numerical values or a clear context for calculation.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Tokyo\nA:",
+      "ground truth": "168",
+      "llm_output": "not applicable as we cannot perform mathematical operations on cities.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Bangkok + Moscow\nA:",
+      "ground truth": "138",
+      "llm_output": "not applicable as the question currently stands.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Bangkok + Toronto\nA:",
+      "ground truth": "21",
+      "llm_output": "not applicable.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Istanbul\nA:",
+      "ground truth": "-147",
+      "llm_output": "currently not available due to the lack of specific information in the question.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Mumbai - New York\nA:",
+      "ground truth": "147",
+      "llm_output": "unclear until further information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Sydney + Bangkok\nA:",
+      "ground truth": "251",
+      "llm_output": "not applicable as the question doesn't provide a valid mathematical operation.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Beijing - Tokyo\nA:",
+      "ground truth": "-24",
+      "llm_output": "unclear until further information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Beijing + Lagos\nA:",
+      "ground truth": "119",
+      "llm_output": "not available without further context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Rome - Johannesburg\nA:",
+      "ground truth": "-16",
+      "llm_output": "not available due to insufficient information in the question.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Seoul - Rome\nA:",
+      "ground truth": "115",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Rome - Istanbul\nA:",
+      "ground truth": "-17",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Istanbul\nA:",
+      "ground truth": "-29",
+      "llm_output": "not available due to lack of specific context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Moscow - Johannesburg\nA:",
+      "ground truth": "10",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Mumbai - Paris\nA:",
+      "ground truth": "71",
+      "llm_output": "not available until more specific information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Toronto\nA:",
+      "ground truth": "21",
+      "llm_output": "not available until further information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Tokyo - London\nA:",
+      "ground truth": "140",
+      "llm_output": "9600.",
+      "pred_ans": "9600"
+    },
+    {
+      "new_prompt": "Q: Lagos - Beijing\nA:",
+      "ground truth": "-113",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Beijing - Paris\nA:",
+      "ground truth": "114",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Moscow + London\nA:",
+      "ground truth": "38",
+      "llm_output": "not applicable as the provided information is insufficient for a numerical calculation.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Sydney - Mumbai\nA:",
+      "ground truth": "78",
+      "llm_output": "not available until further information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Toronto - Lagos\nA:",
+      "ground truth": "-82",
+      "llm_output": "not available until more specific information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Toronto\nA:",
+      "ground truth": "-197",
+      "llm_output": "not applicable in this context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Buenos Aires\nA:",
+      "ground truth": "-176",
+      "llm_output": "not applicable.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Mumbai\nA:",
+      "ground truth": "-131",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: London - New York\nA:",
+      "ground truth": "74",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Paris - Sao Paulo\nA:",
+      "ground truth": "49",
+      "llm_output": "not available until more specific information is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Beijing - Mumbai\nA:",
+      "ground truth": "43",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Istanbul - Sydney\nA:",
+      "ground truth": "-122",
+      "llm_output": "not available until further clarification is provided.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Sydney\nA:",
+      "ground truth": "33",
+      "llm_output": "not applicable as the question lacks specific context.",
+      "pred_ans": ""
+    },
+    {
+      "new_prompt": "Q: Mumbai + Rome\nA:",
+      "ground truth": "85",
+      "llm_output": "not applicable as cities cannot be added together.",
+      "pred_ans": ""
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: James is counting his Pokemon cards. He has 30 fire type, 20 grass type, and 40 water type. If he loses 8 of the water type and buys 14 grass type, what's the percentage chance (rounded to the nearest integer) that a randomly picked card will be a water type?\nA:",
+      "ground truth": "33",
+      "llm_output": "First, let's find the total number of cards James has. He has 30 fire type, 20 grass type, and 40 water type, which totals to 90 cards. After losing 8 water type cards, he has 32 water type cards left. After buying 14 grass type cards, the total number of cards increases to 104. The percentage chance that a randomly picked card will be a water type is (32/104)*100 = 30.77%, which rounds to 31%.",
+      "pred_ans": "31"
+    }
+  ]
+}

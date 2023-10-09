@@ -1,0 +1,1205 @@
+{
+  "accuracy": 70.5,
+  "outputs": [
+    {
+      "new_prompt": "Q: Mumbai + Buenos Aires\nA:",
+      "ground truth": "15",
+      "llm_output": "Mumbai has a longitude of 73 degrees and Buenos Aires has a longitude of -58 degrees. If we add these two together, we get 73 + (-58) = 15. \n\nThe answer is 15.",
+      "pred_ans": "15"
+    },
+    {
+      "new_prompt": "Q: Mumbai - Mumbai\nA:",
+      "ground truth": "0",
+      "llm_output": "Mumbai has a longitude of 73. When we subtract the longitude of Mumbai from itself, we get 0. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Mexico City\nA:",
+      "ground truth": "127",
+      "llm_output": "Johannesburg has a longitude of 28 degrees east. Mexico City has a longitude of 99 degrees west. When we subtract Mexico City's longitude from Johannesburg's, we treat west as negative. So, the calculation is 28 - (-99) = 127. The answer is 127.",
+      "pred_ans": "127"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Seoul\nA:",
+      "ground truth": "9",
+      "llm_output": "Los Angeles has a longitude of -118. Seoul has a longitude of 127. When you add these two together, you get 9. The answer is 9.",
+      "pred_ans": "9"
+    },
+    {
+      "new_prompt": "Q: Sydney - Cairo\nA:",
+      "ground truth": "120",
+      "llm_output": "To calculate the difference between the longitudes of Sydney and Cairo, we first need to know their respective longitudes. Sydney is at 151 degrees east of the Prime Meridian, and Cairo is at 31 degrees east. \n\nTo find the difference, we subtract the longitude of Cairo from that of Sydney: \n\n151 (Sydney) - 31 (Cairo) = 120\n\nThe answer is 120.",
+      "pred_ans": "120"
+    },
+    {
+      "new_prompt": "Q: Beijing + Lagos\nA:",
+      "ground truth": "119",
+      "llm_output": "Beijing has a longitude of 116 degrees east, and Lagos has a longitude of 3 degrees east. When you add these together, you get 119 degrees. \n\nThe answer is 119.",
+      "pred_ans": "119"
+    },
+    {
+      "new_prompt": "Q: New York - Beijing\nA:",
+      "ground truth": "-190",
+      "llm_output": "New York has a longitude of -74 degrees, and Beijing has a longitude of 116 degrees. If we subtract Beijing's longitude from New York's, we get -74 - 116 = -190. The answer is -190.",
+      "pred_ans": "-190"
+    },
+    {
+      "new_prompt": "Q: Rome - Beijing\nA:",
+      "ground truth": "-104",
+      "llm_output": "Rome has a longitude of 12 degrees. Beijing has a longitude of 116 degrees. To find the difference between the two, we subtract the longitude of Beijing from the longitude of Rome: 12 - 116 = -104. The answer is -104.",
+      "pred_ans": "-104"
+    },
+    {
+      "new_prompt": "Q: New York - Bangkok\nA:",
+      "ground truth": "-174",
+      "llm_output": "New York has a longitude of -74 degrees. Bangkok has a longitude of 100 degrees. When we subtract Bangkok's longitude from New York's, we get -74 - 100 = -174. \n\nThe answer is -174.",
+      "pred_ans": "-174"
+    },
+    {
+      "new_prompt": "Q: Beijing - Sydney\nA:",
+      "ground truth": "-35",
+      "llm_output": "Beijing has a longitude of 116 degrees. Sydney has a longitude of 151 degrees. To find the difference, we subtract Sydney's longitude from Beijing's longitude: 116 - 151 = -35. \n\nThe answer is -35.",
+      "pred_ans": "-35"
+    },
+    {
+      "new_prompt": "Q: New York + Los Angeles\nA:",
+      "ground truth": "-192",
+      "llm_output": "New York has a longitude of -74 and Los Angeles has a longitude of -118. When you add these two together, you get -192. Therefore, the answer is -192.",
+      "pred_ans": "-192"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Buenos Aires\nA:",
+      "ground truth": "198",
+      "llm_output": "Tokyo has a longitude of 139 degrees. Buenos Aires has a longitude of -58 degrees. When you subtract Buenos Aires' longitude from Tokyo's, you get:\n\n139 - (-58) = 139 + 58 = 197\n\nThe answer is 197.",
+      "pred_ans": "197"
+    },
+    {
+      "new_prompt": "Q: Cairo - Paris\nA:",
+      "ground truth": "29",
+      "llm_output": "Cairo has a longitude of 31 degrees and Paris has a longitude of 2 degrees. To find the difference, we subtract the longitude of Paris from the longitude of Cairo. \n\n31 - 2 = 29\n\nThe answer is 29.",
+      "pred_ans": "29"
+    },
+    {
+      "new_prompt": "Q: Lagos - Mumbai\nA:",
+      "ground truth": "-70",
+      "llm_output": "Lagos has a longitude of 3 degrees East. Mumbai has a longitude of 73 degrees East. To find the difference, we subtract the longitude of Lagos from the longitude of Mumbai.\n\nSo, 73 (Mumbai) - 3 (Lagos) = 70.\n\nThe answer is 70.",
+      "pred_ans": "70"
+    },
+    {
+      "new_prompt": "Q: Sydney - Cairo\nA:",
+      "ground truth": "120",
+      "llm_output": "To calculate the difference between the longitudes of Sydney and Cairo, we first need to know their respective longitudes. Sydney is at 151 degrees east of the Prime Meridian, and Cairo is at 31 degrees east. \n\nTo find the difference, we subtract the longitude of Cairo from that of Sydney: \n\n151 (Sydney) - 31 (Cairo) = 120\n\nThe answer is 120.",
+      "pred_ans": "120"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Buenos Aires\nA:",
+      "ground truth": "-116",
+      "llm_output": "Buenos Aires has longitude: -58. When we add it to itself, we get -58 + -58 = -116. The answer is -116.",
+      "pred_ans": "-116"
+    },
+    {
+      "new_prompt": "Q: Beijing - Sao Paulo\nA:",
+      "ground truth": "163",
+      "llm_output": "Beijing has a longitude of 116 degrees. Sao Paulo has a longitude of -46 degrees. When we subtract Sao Paulo's longitude from Beijing's, we get:\n\n116 - (-46) = 162\n\nThe answer is 162.",
+      "pred_ans": "162"
+    },
+    {
+      "new_prompt": "Q: New York + Toronto\nA:",
+      "ground truth": "-153",
+      "llm_output": "New York has a longitude of -74. Toronto has a longitude of -79. When you add these two together, you get -153. \n\nThe answer is -153.",
+      "pred_ans": "-153"
+    },
+    {
+      "new_prompt": "Q: Paris + Buenos Aires\nA:",
+      "ground truth": "-56",
+      "llm_output": "Paris has a longitude of 2. Buenos Aires has a longitude of -58. When you add these two together, you get -56. Therefore, the answer is -56.",
+      "pred_ans": "-56"
+    },
+    {
+      "new_prompt": "Q: Cairo + Bangkok\nA:",
+      "ground truth": "131",
+      "llm_output": "To solve this, we need to add the longitudes of Cairo and Bangkok. \n\nCairo has a longitude of 31 degrees east, and Bangkok has a longitude of 100 degrees east. \n\nSo, 31 (Cairo's longitude) + 100 (Bangkok's longitude) equals 131.\n\nThe answer is 131.",
+      "pred_ans": "131"
+    },
+    {
+      "new_prompt": "Q: Tokyo - New York\nA:",
+      "ground truth": "214",
+      "llm_output": "Tokyo has a longitude of 139 degrees east, and New York has a longitude of 74 degrees west. When we subtract New York's longitude from Tokyo's, we treat west as negative. So, the calculation is 139 - (-74), which equals 213. The answer is 213.",
+      "pred_ans": "213"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Sydney\nA:",
+      "ground truth": "93",
+      "llm_output": "To solve this, we need to add the longitudes of Buenos Aires and Sydney. Buenos Aires has a longitude of -58 and Sydney has a longitude of 151. \n\n-58 + 151 = 93\n\nThe answer is 93.",
+      "pred_ans": "93"
+    },
+    {
+      "new_prompt": "Q: Lagos - Seoul\nA:",
+      "ground truth": "-124",
+      "llm_output": "Lagos has a longitude of 3 degrees East, and Seoul has a longitude of 127 degrees East. When you subtract Seoul's longitude from Lagos's longitude, you get -124. Therefore, the answer is -124.",
+      "pred_ans": "-124"
+    },
+    {
+      "new_prompt": "Q: Sydney - Seoul\nA:",
+      "ground truth": "24",
+      "llm_output": "Sydney has a longitude of 151 degrees and Seoul has a longitude of 127 degrees. To find the difference between the two, we subtract the longitude of Seoul from the longitude of Sydney. \n\n151 - 127 = 24\n\nThe answer is 24.",
+      "pred_ans": "24"
+    },
+    {
+      "new_prompt": "Q: Tokyo - London\nA:",
+      "ground truth": "140",
+      "llm_output": "Tokyo has a longitude of 139 degrees east, while London has a longitude of 0 degrees. To find the difference, we subtract the longitude of London from that of Tokyo.\n\n139 - 0 = 139\n\nThe answer is 139.",
+      "pred_ans": "139"
+    },
+    {
+      "new_prompt": "Q: Lagos + Mumbai\nA:",
+      "ground truth": "76",
+      "llm_output": "Lagos has a longitude of 3 degrees East. Mumbai has a longitude of 73 degrees East. When you add these two longitudes together, you get a total of 76 degrees East. The answer is 76.",
+      "pred_ans": "76"
+    },
+    {
+      "new_prompt": "Q: Cairo + Cairo\nA:",
+      "ground truth": "62",
+      "llm_output": "Cairo has a longitude of 31 degrees. If we add Cairo's longitude to itself, we get 31 + 31 = 62. The answer is 62.",
+      "pred_ans": "62"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo + New York\nA:",
+      "ground truth": "-121",
+      "llm_output": "Sao Paulo has longitude: -46. New York has longitude: -74. \n\nWhen we add these two longitudes together, we get -120. \n\nThe answer is -120.",
+      "pred_ans": "-120"
+    },
+    {
+      "new_prompt": "Q: Paris - Tokyo\nA:",
+      "ground truth": "-138",
+      "llm_output": "Paris has a longitude of 2 degrees East, and Tokyo has a longitude of 139 degrees East. To find the difference between the two, we subtract the longitude of Paris from the longitude of Tokyo. \n\n139 (Tokyo's longitude) - 2 (Paris's longitude) = 137\n\nThe answer is 137.",
+      "pred_ans": "137"
+    },
+    {
+      "new_prompt": "Q: Lagos - London\nA:",
+      "ground truth": "3",
+      "llm_output": "Lagos has a longitude of 3 degrees East, while London has a longitude of 0 degrees. To find the difference, we subtract the longitude of London from that of Lagos. \n\nThe answer is 3.",
+      "pred_ans": "3"
+    },
+    {
+      "new_prompt": "Q: Mexico City - Bangkok\nA:",
+      "ground truth": "-199",
+      "llm_output": "Mexico City has a longitude of -99 degrees and Bangkok has a longitude of 100 degrees. To find the difference between the two, we subtract the longitude of Bangkok from that of Mexico City. \n\n-99 - 100 = -199\n\nThe answer is -199.",
+      "pred_ans": "-199"
+    },
+    {
+      "new_prompt": "Q: Rome - Seoul\nA:",
+      "ground truth": "-115",
+      "llm_output": "Rome has a longitude of 12 degrees. Seoul has a longitude of 127 degrees. If we subtract Seoul's longitude from Rome's, we get -115 degrees. Therefore, the answer is -115.",
+      "pred_ans": "-115"
+    },
+    {
+      "new_prompt": "Q: Moscow + Beijing\nA:",
+      "ground truth": "154",
+      "llm_output": "Moscow has a longitude of 37. Beijing has a longitude of 116. To find the sum of the longitudes of Moscow and Beijing, we add 37 and 116 together. The answer is 153.",
+      "pred_ans": "153"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Seoul\nA:",
+      "ground truth": "-185",
+      "llm_output": "Buenos Aires has a longitude of -58 and Seoul has a longitude of 127. To find the difference between the two, we subtract the longitude of Seoul from the longitude of Buenos Aires. \n\n-58 - 127 = -185\n\nThe answer is -185.",
+      "pred_ans": "-185"
+    },
+    {
+      "new_prompt": "Q: Sydney - London\nA:",
+      "ground truth": "151",
+      "llm_output": "Sydney has a longitude of 151 degrees east, and London has a longitude of 0 degrees. To find the difference, we subtract the longitude of London from that of Sydney. \n\n151 - 0 = 151\n\nThe answer is 151.",
+      "pred_ans": "151"
+    },
+    {
+      "new_prompt": "Q: Mexico City - Sydney\nA:",
+      "ground truth": "-250",
+      "llm_output": "Mexico City has a longitude of -99 degrees. Sydney has a longitude of 151 degrees. When you subtract Sydney's longitude from Mexico City's, you get -99 - 151 = -250. \n\nThe answer is -250.",
+      "pred_ans": "-250"
+    },
+    {
+      "new_prompt": "Q: Cairo + Beijing\nA:",
+      "ground truth": "147",
+      "llm_output": "Cairo has a longitude of 31 degrees. Beijing has a longitude of 116 degrees. If we add these two together, we get 147 degrees. \n\nThe answer is 147.",
+      "pred_ans": "147"
+    },
+    {
+      "new_prompt": "Q: Moscow + Los Angeles\nA:",
+      "ground truth": "-80",
+      "llm_output": "Moscow has a longitude of 37. Los Angeles has a longitude of -118. When we add these two together, we get -81. Therefore, the answer is -81.",
+      "pred_ans": "-81"
+    },
+    {
+      "new_prompt": "Q: Mumbai - Sao Paulo\nA:",
+      "ground truth": "120",
+      "llm_output": "Mumbai has a longitude of 73 degrees East, and Sao Paulo has a longitude of 46 degrees West. When we subtract Sao Paulo's longitude from Mumbai's, we treat West as negative. So, it's 73 - (-46), which equals 119. The answer is 119.",
+      "pred_ans": "119"
+    },
+    {
+      "new_prompt": "Q: London - Beijing\nA:",
+      "ground truth": "-116",
+      "llm_output": "London has a longitude of 0 degrees. Beijing has a longitude of 116 degrees. When we subtract Beijing's longitude from London's, we get -116. Therefore, the answer is -116.",
+      "pred_ans": "-116"
+    },
+    {
+      "new_prompt": "Q: Tokyo + London\nA:",
+      "ground truth": "140",
+      "llm_output": "Tokyo has a longitude of 139 degrees east, and London has a longitude of 0 degrees (it's on the Prime Meridian). When we add these together, we get 139. The answer is 139.",
+      "pred_ans": "139"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Los Angeles\nA:",
+      "ground truth": "22",
+      "llm_output": "Tokyo has a longitude of 139 degrees east. Los Angeles has a longitude of 118 degrees west. When we add these together, we get 21 degrees. However, since Los Angeles is in the western hemisphere, we subtract its longitude from Tokyo's. So, 139 - 118 = 21. The answer is 21.",
+      "pred_ans": "21"
+    },
+    {
+      "new_prompt": "Q: Paris + Mexico City\nA:",
+      "ground truth": "-97",
+      "llm_output": "Paris has a longitude of 2. Mexico City has a longitude of -99. When we add these two longitudes together, we get -97. Therefore, the answer is -97.",
+      "pred_ans": "-97"
+    },
+    {
+      "new_prompt": "Q: London + Mumbai\nA:",
+      "ground truth": "73",
+      "llm_output": "London has a longitude of 0 degrees and Mumbai has a longitude of 73 degrees. If we add these two longitudes together, we get 73 degrees. Therefore, the answer is 73.",
+      "pred_ans": "73"
+    },
+    {
+      "new_prompt": "Q: Paris + Toronto\nA:",
+      "ground truth": "-77",
+      "llm_output": "Paris has a longitude of 2. Toronto has a longitude of -79. When you add these two together, you get -77. Therefore, the answer is -77.",
+      "pred_ans": "-77"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Sao Paulo\nA:",
+      "ground truth": "187",
+      "llm_output": "Tokyo has a longitude of 139 degrees east, and Sao Paulo has a longitude of 46 degrees west. When we subtract Sao Paulo's longitude from Tokyo's, we treat west as negative. So, the calculation is 139 - (-46), which equals 185. The answer is 185.",
+      "pred_ans": "185"
+    },
+    {
+      "new_prompt": "Q: Lagos + Istanbul\nA:",
+      "ground truth": "32",
+      "llm_output": "Lagos has a longitude of 3 degrees East, and Istanbul has a longitude of 29 degrees East. To find the sum of the longitudes of Lagos and Istanbul, we simply add the two longitudes together:\n\n3 (Lagos) + 29 (Istanbul) = 32\n\nThe answer is 32.",
+      "pred_ans": "32"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Johannesburg\nA:",
+      "ground truth": "1",
+      "llm_output": "Istanbul has a longitude of 29 degrees. Johannesburg has a longitude of 28 degrees. To find the difference, we subtract the longitude of Johannesburg from that of Istanbul: 29 - 28 = 1. \n\nThe answer is 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: Seoul - Sydney\nA:",
+      "ground truth": "-24",
+      "llm_output": "Seoul has a longitude of 127 degrees, while Sydney has a longitude of 151 degrees. To find the difference, we subtract Sydney's longitude from Seoul's longitude: 127 - 151 = -24. The answer is -24.",
+      "pred_ans": "-24"
+    },
+    {
+      "new_prompt": "Q: Seoul + Toronto\nA:",
+      "ground truth": "48",
+      "llm_output": "Seoul has a longitude of 127 degrees. Toronto has a longitude of -79 degrees. When you add these two together, you get 48 degrees. Therefore, the answer is 48.",
+      "pred_ans": "48"
+    },
+    {
+      "new_prompt": "Q: Beijing - Moscow\nA:",
+      "ground truth": "78",
+      "llm_output": "Beijing has a longitude of 116 degrees and Moscow has a longitude of 37 degrees. To find the difference between the two, we subtract the longitude of Moscow from the longitude of Beijing. \n\n116 - 37 = 79\n\nThe answer is 79.",
+      "pred_ans": "79"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Rome\nA:",
+      "ground truth": "128",
+      "llm_output": "Tokyo has a longitude of 139 degrees east, and Rome has a longitude of 12 degrees east. To find the difference, we subtract the longitude of Rome from the longitude of Tokyo.\n\n139 (Tokyo's longitude) - 12 (Rome's longitude) = 127\n\nThe answer is 127.",
+      "pred_ans": "127"
+    },
+    {
+      "new_prompt": "Q: London + Seoul\nA:",
+      "ground truth": "127",
+      "llm_output": "London has a longitude of 0 degrees. Seoul has a longitude of 127 degrees. When we add these two longitudes together, we get 127 degrees. Therefore, the answer is 127.",
+      "pred_ans": "127"
+    },
+    {
+      "new_prompt": "Q: Bangkok - Seoul\nA:",
+      "ground truth": "-27",
+      "llm_output": "Bangkok has a longitude of 100 degrees, and Seoul has a longitude of 127 degrees. To find the difference, we subtract the longitude of Seoul from that of Bangkok. \n\nThe answer is -27.",
+      "pred_ans": "-27"
+    },
+    {
+      "new_prompt": "Q: Beijing - Lagos\nA:",
+      "ground truth": "113",
+      "llm_output": "Beijing has a longitude of 116 degrees and Lagos has a longitude of 3 degrees. If we subtract the longitude of Lagos from the longitude of Beijing, we get 116 - 3 = 113. Therefore, the answer is 113.",
+      "pred_ans": "113"
+    },
+    {
+      "new_prompt": "Q: Istanbul + Istanbul\nA:",
+      "ground truth": "58",
+      "llm_output": "Istanbul has a longitude of 29. When we add the longitude of Istanbul to itself, we get 29 + 29 = 58. The answer is 58.",
+      "pred_ans": "58"
+    },
+    {
+      "new_prompt": "Q: Sydney + Sydney\nA:",
+      "ground truth": "302",
+      "llm_output": "Sydney has a longitude of 151 degrees. If we add this to itself, we get 302 degrees. However, in geographical terms, longitudes only range from -180 to 180 degrees. Therefore, we subtract 360 from 302 to get the equivalent longitude within this range. The answer is -58.",
+      "pred_ans": "-58"
+    },
+    {
+      "new_prompt": "Q: Lagos - New York\nA:",
+      "ground truth": "77",
+      "llm_output": "Lagos has a longitude of 3 degrees East, and New York has a longitude of 74 degrees West. When we subtract New York's longitude from Lagos's, we treat West as negative. So, it's 3 - (-74), which equals 77. The answer is 77.",
+      "pred_ans": "77"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Sao Paulo\nA:",
+      "ground truth": "75",
+      "llm_output": "Johannesburg has a longitude of 28 degrees east. Sao Paulo has a longitude of 46 degrees west. When we subtract Sao Paulo's longitude from Johannesburg's, we get 28 - (-46) = 74. \n\nThe answer is 74.",
+      "pred_ans": "74"
+    },
+    {
+      "new_prompt": "Q: Rome - Istanbul\nA:",
+      "ground truth": "-17",
+      "llm_output": "Rome has a longitude of 12 degrees, while Istanbul has a longitude of 29 degrees. To find the difference, we subtract the longitude of Istanbul from that of Rome. \n\nThe answer is -17.",
+      "pred_ans": "-17"
+    },
+    {
+      "new_prompt": "Q: Toronto + Istanbul\nA:",
+      "ground truth": "-50",
+      "llm_output": "Toronto has a longitude of -79 and Istanbul has a longitude of 29. When you add these two together, you get -50. Therefore, the answer is -50.",
+      "pred_ans": "-50"
+    },
+    {
+      "new_prompt": "Q: Cairo + Tokyo\nA:",
+      "ground truth": "171",
+      "llm_output": "To solve this, we need to add the longitudes of Cairo and Tokyo. \n\nCairo has a longitude of 31 degrees east, and Tokyo has a longitude of 139 degrees east. \n\nSo, 31 (Cairo's longitude) + 139 (Tokyo's longitude) equals 170.\n\nThe answer is 170.",
+      "pred_ans": "170"
+    },
+    {
+      "new_prompt": "Q: Cairo - Rome\nA:",
+      "ground truth": "19",
+      "llm_output": "Cairo has a longitude of 31 degrees and Rome has a longitude of 12 degrees. To find the difference, we subtract the longitude of Rome from the longitude of Cairo. \n\n31 - 12 = 19\n\nThe answer is 19.",
+      "pred_ans": "19"
+    },
+    {
+      "new_prompt": "Q: Beijing - Lagos\nA:",
+      "ground truth": "113",
+      "llm_output": "Beijing has a longitude of 116 degrees east, and Lagos has a longitude of 3 degrees east. To find the difference, we subtract the longitude of Lagos from the longitude of Beijing: 116 - 3 = 113. The answer is 113.",
+      "pred_ans": "113"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Istanbul\nA:",
+      "ground truth": "57",
+      "llm_output": "Johannesburg has a longitude of 28 degrees east. Istanbul has a longitude of 29 degrees east. When you add these together, you get 57. \n\nThe answer is 57.",
+      "pred_ans": "57"
+    },
+    {
+      "new_prompt": "Q: Istanbul + Paris\nA:",
+      "ground truth": "31",
+      "llm_output": "Istanbul has a longitude of 29 degrees. Paris has a longitude of 2 degrees. When you add these together, you get 31 degrees. The answer is 31.",
+      "pred_ans": "31"
+    },
+    {
+      "new_prompt": "Q: Mexico City - London\nA:",
+      "ground truth": "-99",
+      "llm_output": "Mexico City has a longitude of -99 degrees, while London has a longitude of 0 degrees. If we subtract London's longitude from Mexico City's, we get -99 - 0 = -99. \n\nThe answer is -99.",
+      "pred_ans": "-99"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Sao Paulo\nA:",
+      "ground truth": "93",
+      "llm_output": "Tokyo has a longitude of 139 degrees east, and Sao Paulo has a longitude of 46 degrees west. When we add these together, we need to consider that Sao Paulo's longitude is west, so it's effectively negative in relation to Tokyo's. \n\nSo, we calculate 139 (Tokyo's longitude) - 46 (Sao Paulo's longitude) = 93.\n\nThe answer is 93.",
+      "pred_ans": "93"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Sao Paulo\nA:",
+      "ground truth": "-11",
+      "llm_output": "Buenos Aires has a longitude of -58. Sao Paulo has a longitude of -46. To find the difference, we subtract the longitude of Sao Paulo from the longitude of Buenos Aires. \n\n-58 - (-46) = -12\n\nThe answer is -12.",
+      "pred_ans": "-12"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Lagos\nA:",
+      "ground truth": "76",
+      "llm_output": "Mumbai has a longitude of 72.8777 degrees East, and Lagos has a longitude of 3.3792 degrees East. \n\nTo find the sum of the longitudes of Mumbai and Lagos, we simply add the two longitudes together:\n\n72.8777 (Mumbai) + 3.3792 (Lagos) = 76.2569\n\nRounding to the nearest whole number, we get 76.\n\nThe answer is 76.",
+      "pred_ans": "76"
+    },
+    {
+      "new_prompt": "Q: Bangkok + Sao Paulo\nA:",
+      "ground truth": "53",
+      "llm_output": "Bangkok has a longitude of 100 degrees east, and Sao Paulo has a longitude of 46 degrees west. When we add these together, we get 100 - 46 = 54 (since west is considered negative in this context). \n\nThe answer is 54.",
+      "pred_ans": "54"
+    },
+    {
+      "new_prompt": "Q: Istanbul - New York\nA:",
+      "ground truth": "103",
+      "llm_output": "Istanbul has a longitude of 29 degrees. New York has a longitude of -74 degrees. When we subtract New York's longitude from Istanbul's, we get 29 - (-74) = 103. \n\nThe answer is 103.",
+      "pred_ans": "103"
+    },
+    {
+      "new_prompt": "Q: Toronto + Los Angeles\nA:",
+      "ground truth": "-197",
+      "llm_output": "Toronto has a longitude of -79 and Los Angeles has a longitude of -118. When you add these two together, you get -197. Therefore, the answer is -197.",
+      "pred_ans": "-197"
+    },
+    {
+      "new_prompt": "Q: Cairo + Johannesburg\nA:",
+      "ground truth": "59",
+      "llm_output": "Cairo has a longitude of 31 degrees. Johannesburg has a longitude of 28 degrees. When you add these two longitudes together, you get 59 degrees. \n\nThe answer is 59.",
+      "pred_ans": "59"
+    },
+    {
+      "new_prompt": "Q: Cairo + Sao Paulo\nA:",
+      "ground truth": "-16",
+      "llm_output": "Cairo has a longitude of 31 degrees. Sao Paulo has a longitude of -46 degrees. When you add these two together, you get -15 degrees. \n\nThe answer is -15.",
+      "pred_ans": "-15"
+    },
+    {
+      "new_prompt": "Q: Sydney + Moscow\nA:",
+      "ground truth": "189",
+      "llm_output": "To calculate the sum of the longitudes of Sydney and Moscow, we first need to know their respective longitudes. Sydney is located at a longitude of 151 degrees east, and Moscow is located at a longitude of 37 degrees east. \n\nTo find the sum, we simply add these two values together:\n\n151 (Sydney's longitude) + 37 (Moscow's longitude) = 188\n\nThe answer is 188.",
+      "pred_ans": "188"
+    },
+    {
+      "new_prompt": "Q: Toronto - Mexico City\nA:",
+      "ground truth": "20",
+      "llm_output": "Toronto has a longitude of -79 and Mexico City has a longitude of -99. To find the difference between the two, we subtract the longitude of Mexico City from that of Toronto. \n\n-79 - (-99) = 20\n\nThe answer is 20.",
+      "pred_ans": "20"
+    },
+    {
+      "new_prompt": "Q: Cairo + Paris\nA:",
+      "ground truth": "33",
+      "llm_output": "Cairo has a longitude of 31 degrees and Paris has a longitude of 2 degrees. If we add these two together, we get 33 degrees. Therefore, the answer is 33.",
+      "pred_ans": "33"
+    },
+    {
+      "new_prompt": "Q: Toronto + Toronto\nA:",
+      "ground truth": "-158",
+      "llm_output": "Toronto has longitude: -79. If we add the longitude of Toronto to itself, we get -158. The answer is -158.",
+      "pred_ans": "-158"
+    },
+    {
+      "new_prompt": "Q: Rome - Moscow\nA:",
+      "ground truth": "-26",
+      "llm_output": "To calculate the difference between the longitudes of Rome and Moscow, we first need to know their respective longitudes. \n\nRome has a longitude of 12 degrees East, and Moscow has a longitude of 37 degrees East. \n\nTo find the difference, we subtract the longitude of Rome from the longitude of Moscow: \n\n37 (Moscow) - 12 (Rome) = 25\n\nThe answer is 25.",
+      "pred_ans": "25"
+    },
+    {
+      "new_prompt": "Q: Sydney - Sao Paulo\nA:",
+      "ground truth": "198",
+      "llm_output": "Sydney has a longitude of 151 degrees east, and Sao Paulo has a longitude of 46 degrees west. When we subtract Sao Paulo's longitude from Sydney's, we treat west as negative. So, it's like 151 - (-46), which equals 197. The answer is 197.",
+      "pred_ans": "197"
+    },
+    {
+      "new_prompt": "Q: Seoul + Lagos\nA:",
+      "ground truth": "130",
+      "llm_output": "Seoul has a longitude of 127 degrees and Lagos has a longitude of 3 degrees. If we add these two together, we get 130 degrees. Therefore, the answer is 130.",
+      "pred_ans": "130"
+    },
+    {
+      "new_prompt": "Q: Beijing - Mumbai\nA:",
+      "ground truth": "43",
+      "llm_output": "Beijing has a longitude of 116 degrees. Mumbai has a longitude of 73 degrees. To find the difference, we subtract the longitude of Mumbai from that of Beijing.\n\n116 (Beijing's longitude) - 73 (Mumbai's longitude) = 43\n\nThe answer is 43.",
+      "pred_ans": "43"
+    },
+    {
+      "new_prompt": "Q: Sydney + Moscow\nA:",
+      "ground truth": "189",
+      "llm_output": "To find the sum of the longitudes of Sydney and Moscow, we first need to know their respective longitudes. Sydney is located at a longitude of 151 degrees east, and Moscow is located at a longitude of 37 degrees east. \n\nTo find the sum, we simply add these two longitudes together:\n\n151 (Sydney's longitude) + 37 (Moscow's longitude) = 188\n\nThe answer is 188.",
+      "pred_ans": "188"
+    },
+    {
+      "new_prompt": "Q: Rome + Sydney\nA:",
+      "ground truth": "163",
+      "llm_output": "First, we need to know the longitudes of both cities. Rome has a longitude of 12 degrees, and Sydney has a longitude of 151 degrees. \n\nTo find the sum, we simply add the two longitudes together: 12 + 151 = 163.\n\nThe answer is 163.",
+      "pred_ans": "163"
+    },
+    {
+      "new_prompt": "Q: New York + Los Angeles\nA:",
+      "ground truth": "-192",
+      "llm_output": "New York has a longitude of -74 and Los Angeles has a longitude of -118. When you add these two together, you get -192. Therefore, the answer is -192.",
+      "pred_ans": "-192"
+    },
+    {
+      "new_prompt": "Q: Moscow + Mumbai\nA:",
+      "ground truth": "111",
+      "llm_output": "To solve this, we need to add the longitudes of Moscow and Mumbai. \n\nMoscow has a longitude of 37.6 and Mumbai has a longitude of 73. \n\nSo, 37.6 + 73 = 110.6. \n\nHowever, since we need the answer as an integer, we round it to the nearest whole number. \n\nThe answer is 111.",
+      "pred_ans": "111"
+    },
+    {
+      "new_prompt": "Q: Seoul - Mexico City\nA:",
+      "ground truth": "226",
+      "llm_output": "Seoul has a longitude of 127 degrees. Mexico City has a longitude of -99 degrees. When we subtract Mexico City's longitude from Seoul's, we get:\n\n127 - (-99) = 226\n\nThe answer is 226.",
+      "pred_ans": "226"
+    },
+    {
+      "new_prompt": "Q: Lagos - Sydney\nA:",
+      "ground truth": "-148",
+      "llm_output": "Lagos has a longitude of 3 degrees East. Sydney has a longitude of 151 degrees East. To find the difference between the two, we subtract the longitude of Sydney from the longitude of Lagos: 3 - 151 = -148. \n\nThe answer is -148.",
+      "pred_ans": "-148"
+    },
+    {
+      "new_prompt": "Q: Toronto + Seoul\nA:",
+      "ground truth": "48",
+      "llm_output": "Toronto has a longitude of -79. Seoul has a longitude of 127. When you add these two together, you get 48. Therefore, the answer is 48.",
+      "pred_ans": "48"
+    },
+    {
+      "new_prompt": "Q: Beijing - Mexico City\nA:",
+      "ground truth": "215",
+      "llm_output": "Beijing has a longitude of 116 degrees. Mexico City has a longitude of -99 degrees. When we subtract Mexico City's longitude from Beijing's, we get:\n\n116 - (-99) = 215\n\nThe answer is 215.",
+      "pred_ans": "215"
+    },
+    {
+      "new_prompt": "Q: Lagos - Los Angeles\nA:",
+      "ground truth": "121",
+      "llm_output": "Lagos has a longitude of 3 degrees East, and Los Angeles has a longitude of 118 degrees West. When we subtract the longitude of Los Angeles from Lagos, we get:\n\n3 - (-118) = 3 + 118 = 121\n\nThe answer is 121.",
+      "pred_ans": "121"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Los Angeles\nA:",
+      "ground truth": "-90",
+      "llm_output": "Johannesburg has a longitude of 28 degrees east. Los Angeles has a longitude of 118 degrees west. When we add these together, we get -90 degrees (28 - 118 = -90). The answer is -90.",
+      "pred_ans": "-90"
+    },
+    {
+      "new_prompt": "Q: Seoul + Cairo\nA:",
+      "ground truth": "158",
+      "llm_output": "Seoul has a longitude of 127 degrees and Cairo has a longitude of 31 degrees. If we add these two longitudes together, we get 158 degrees. Therefore, the answer is 158.",
+      "pred_ans": "158"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Bangkok\nA:",
+      "ground truth": "240",
+      "llm_output": "Tokyo has a longitude of 139 degrees and Bangkok has a longitude of 100 degrees. If we add these two longitudes together, we get a total of 239 degrees. Therefore, the answer is 239.",
+      "pred_ans": "239"
+    },
+    {
+      "new_prompt": "Q: Toronto + Mexico City\nA:",
+      "ground truth": "-178",
+      "llm_output": "Toronto has a longitude of -79 and Mexico City has a longitude of -99. When you add these two together, you get -178. Therefore, the answer is -178.",
+      "pred_ans": "-178"
+    },
+    {
+      "new_prompt": "Q: Lagos + Toronto\nA:",
+      "ground truth": "-76",
+      "llm_output": "Lagos has a longitude of 3 degrees East. Toronto has a longitude of 79 degrees West. When we add these together, we need to consider that West longitudes are typically represented as negative values. Therefore, we add 3 (Lagos) to -79 (Toronto), which equals -76. \n\nThe answer is -76.",
+      "pred_ans": "-76"
+    },
+    {
+      "new_prompt": "Q: Rome - Cairo\nA:",
+      "ground truth": "-19",
+      "llm_output": "Rome has a longitude of 12 degrees, while Cairo has a longitude of 31 degrees. To find the difference between the two, we subtract the longitude of Cairo from that of Rome. \n\nThe calculation is as follows: 12 - 31 = -19.\n\nThe answer is -19.",
+      "pred_ans": "-19"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Los Angeles\nA:",
+      "ground truth": "-176",
+      "llm_output": "Buenos Aires has a longitude of -58 degrees. Los Angeles has a longitude of -118 degrees. When you add these two together, you get -176. Therefore, the answer is -176.",
+      "pred_ans": "-176"
+    },
+    {
+      "new_prompt": "Q: Beijing + Sao Paulo\nA:",
+      "ground truth": "69",
+      "llm_output": "Beijing has a longitude of 116 degrees. Sao Paulo has a longitude of -46 degrees. When you add these two together, you get 70 degrees. \n\nThe answer is 70.",
+      "pred_ans": "70"
+    },
+    {
+      "new_prompt": "Q: London - Istanbul\nA:",
+      "ground truth": "-29",
+      "llm_output": "London has a longitude of 0 degrees, while Istanbul has a longitude of 29 degrees. If we subtract Istanbul's longitude from London's, we get -29. Therefore, the answer is -29.",
+      "pred_ans": "-29"
+    },
+    {
+      "new_prompt": "Q: London + New York\nA:",
+      "ground truth": "-74",
+      "llm_output": "London has a longitude of 0 degrees and New York has a longitude of -74 degrees. When you add these two together, you get -74. \n\nThe answer is -74.",
+      "pred_ans": "-74"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Johannesburg\nA:",
+      "ground truth": "-90",
+      "llm_output": "Los Angeles has a longitude of -118 degrees. Johannesburg has a longitude of 28 degrees. When you add these two together, you get -90 degrees. \n\nThe answer is -90.",
+      "pred_ans": "-90"
+    },
+    {
+      "new_prompt": "Q: Lagos - Istanbul\nA:",
+      "ground truth": "-26",
+      "llm_output": "Lagos has a longitude of 3 degrees East, and Istanbul has a longitude of 29 degrees East. To find the difference, we subtract the longitude of Istanbul from that of Lagos: 3 - 29 = -26. \n\nThe answer is -26.",
+      "pred_ans": "-26"
+    },
+    {
+      "new_prompt": "Q: Rome + Istanbul\nA:",
+      "ground truth": "41",
+      "llm_output": "Rome has a longitude of 12 degrees and Istanbul has a longitude of 29 degrees. If we add these two longitudes together, we get 41 degrees. Therefore, the answer is 41.",
+      "pred_ans": "41"
+    },
+    {
+      "new_prompt": "Q: Moscow - Buenos Aires\nA:",
+      "ground truth": "96",
+      "llm_output": "Moscow has a longitude of 37. Buenos Aires has a longitude of -58. To find the difference between the two, we subtract the longitude of Buenos Aires from that of Moscow. \n\n37 - (-58) = 95\n\nThe answer is 95.",
+      "pred_ans": "95"
+    },
+    {
+      "new_prompt": "Q: Mexico City + Seoul\nA:",
+      "ground truth": "28",
+      "llm_output": "Mexico City has a longitude of -99 degrees and Seoul has a longitude of 127 degrees. If we add these two together, we get 28 degrees. Therefore, the answer is 28.",
+      "pred_ans": "28"
+    },
+    {
+      "new_prompt": "Q: Sydney + Toronto\nA:",
+      "ground truth": "72",
+      "llm_output": "To solve this, we need to add the longitudes of Sydney and Toronto. \n\nSydney's longitude is 151 degrees east of the prime meridian, and Toronto's longitude is 79 degrees west of the prime meridian. \n\nWhen we add these together, we get 151 - 79 = 72. \n\nThe answer is 72.",
+      "pred_ans": "72"
+    },
+    {
+      "new_prompt": "Q: Rome + Sao Paulo\nA:",
+      "ground truth": "-35",
+      "llm_output": "Rome has a longitude of 12 degrees. Sao Paulo has a longitude of -46 degrees. When we add these two together, we get -34. \n\nThe answer is -34.",
+      "pred_ans": "-34"
+    },
+    {
+      "new_prompt": "Q: Cairo - Tokyo\nA:",
+      "ground truth": "-109",
+      "llm_output": "Cairo has a longitude of 31 degrees. Tokyo has a longitude of 139 degrees. To find the difference between the two, we subtract the longitude of Tokyo from the longitude of Cairo. \n\n31 - 139 = -108\n\nThe answer is -108.",
+      "pred_ans": "-108"
+    },
+    {
+      "new_prompt": "Q: Rome + Johannesburg\nA:",
+      "ground truth": "40",
+      "llm_output": "Rome has a longitude of 12 degrees, and Johannesburg has a longitude of 28 degrees. If we add these two longitudes together, we get 40 degrees. Therefore, the answer is 40.",
+      "pred_ans": "40"
+    },
+    {
+      "new_prompt": "Q: Toronto - Los Angeles\nA:",
+      "ground truth": "39",
+      "llm_output": "Toronto has a longitude of -79 and Los Angeles has a longitude of -118. To find the difference between the two, we subtract the longitude of Los Angeles from that of Toronto. \n\n-79 - (-118) = 39\n\nThe answer is 39.",
+      "pred_ans": "39"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Mumbai\nA:",
+      "ground truth": "15",
+      "llm_output": "Buenos Aires has a longitude of -58 and Mumbai has a longitude of 73. If we add these two together, we get 15. Therefore, the answer is 15.",
+      "pred_ans": "15"
+    },
+    {
+      "new_prompt": "Q: Beijing + Mumbai\nA:",
+      "ground truth": "189",
+      "llm_output": "Beijing has a longitude of 116 degrees and Mumbai has a longitude of 73 degrees. If we add these two longitudes together, we get a total of 189 degrees. Therefore, the answer is 189.",
+      "pred_ans": "189"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo + Lagos\nA:",
+      "ground truth": "-44",
+      "llm_output": "Sao Paulo has longitude: -46. Lagos has longitude: 3. When you add these two longitudes together, you get -43. The answer is -43.",
+      "pred_ans": "-43"
+    },
+    {
+      "new_prompt": "Q: Seoul - Paris\nA:",
+      "ground truth": "125",
+      "llm_output": "Seoul has a longitude of 127 degrees and Paris has a longitude of 2 degrees. If we subtract the longitude of Paris from the longitude of Seoul, we get 127 - 2 = 125. The answer is 125.",
+      "pred_ans": "125"
+    },
+    {
+      "new_prompt": "Q: Bangkok + Sao Paulo\nA:",
+      "ground truth": "53",
+      "llm_output": "Bangkok has a longitude of 100 degrees east, and Sao Paulo has a longitude of 46 degrees west. When we add these together, we get 100 - 46 = 54 (since west is considered negative in longitude calculations). The answer is 54.",
+      "pred_ans": "54"
+    },
+    {
+      "new_prompt": "Q: Rome - Toronto\nA:",
+      "ground truth": "91",
+      "llm_output": "Rome has a longitude of 12 degrees. Toronto has a longitude of -79 degrees. When we subtract Toronto's longitude from Rome's, we get:\n\n12 - (-79) = 12 + 79 = 91\n\nThe answer is 91.",
+      "pred_ans": "91"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Rome\nA:",
+      "ground truth": "40",
+      "llm_output": "Johannesburg has a longitude of 28 degrees east. Rome has a longitude of 12 degrees east. If we add these together, we get 40 degrees east. \n\nThe answer is 40.",
+      "pred_ans": "40"
+    },
+    {
+      "new_prompt": "Q: Lagos - Beijing\nA:",
+      "ground truth": "-113",
+      "llm_output": "Lagos has a longitude of 3 degrees East, and Beijing has a longitude of 116 degrees East. To find the difference, we subtract the longitude of Lagos from the longitude of Beijing.\n\n116 - 3 = 113\n\nThe answer is 113.",
+      "pred_ans": "113"
+    },
+    {
+      "new_prompt": "Q: Toronto - Cairo\nA:",
+      "ground truth": "-110",
+      "llm_output": "Toronto has a longitude of -79 degrees and Cairo has a longitude of 31 degrees. To find the difference between the two, we subtract Cairo's longitude from Toronto's. \n\n-79 (Toronto's longitude) - 31 (Cairo's longitude) = -110\n\nThe answer is -110.",
+      "pred_ans": "-110"
+    },
+    {
+      "new_prompt": "Q: Mumbai - Sydney\nA:",
+      "ground truth": "-78",
+      "llm_output": "To calculate the difference between the longitudes of Mumbai and Sydney, we first need to know their respective longitudes. \n\nMumbai has a longitude of 73 degrees East, and Sydney has a longitude of 151 degrees East. \n\nTo find the difference, we subtract the longitude of Mumbai from the longitude of Sydney: \n\n151 (Sydney) - 73 (Mumbai) = 78\n\nThe answer is 78.",
+      "pred_ans": "78"
+    },
+    {
+      "new_prompt": "Q: Sydney + Moscow\nA:",
+      "ground truth": "189",
+      "llm_output": "First, we need to find the longitudes of both cities. Sydney, Australia has a longitude of 151 degrees east, and Moscow, Russia has a longitude of 37 degrees east. \n\nTo find the sum, we simply add these two longitudes together: 151 + 37 = 188.\n\nThe answer is 188.",
+      "pred_ans": "188"
+    },
+    {
+      "new_prompt": "Q: Cairo + Rome\nA:",
+      "ground truth": "43",
+      "llm_output": "Cairo has a longitude of 31 degrees and Rome has a longitude of 12 degrees. If we add these two longitudes together, we get 43 degrees. Therefore, the answer is 43.",
+      "pred_ans": "43"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Lagos\nA:",
+      "ground truth": "76",
+      "llm_output": "Mumbai has a longitude of 72.8777 degrees East, and Lagos has a longitude of 3.3792 degrees East. \n\nTo find the sum of the longitudes of Mumbai and Lagos, we simply add the two longitudes together:\n\n72.8777 (Mumbai) + 3.3792 (Lagos) = 76.2569\n\nRounding to the nearest whole number, we get 76.\n\nThe answer is 76.",
+      "pred_ans": "76"
+    },
+    {
+      "new_prompt": "Q: Beijing - Tokyo\nA:",
+      "ground truth": "-24",
+      "llm_output": "Beijing has a longitude of 116 degrees. Tokyo has a longitude of 139 degrees. To find the difference, we subtract the longitude of Tokyo from the longitude of Beijing.\n\n116 - 139 = -23\n\nThe answer is -23.",
+      "pred_ans": "-23"
+    },
+    {
+      "new_prompt": "Q: Lagos - Los Angeles\nA:",
+      "ground truth": "121",
+      "llm_output": "Lagos has a longitude of 3 degrees East, and Los Angeles has a longitude of 118 degrees West. When we subtract the longitude of Los Angeles from Lagos, we treat West as negative. So, it's 3 - (-118) = 121. The answer is 121.",
+      "pred_ans": "121"
+    },
+    {
+      "new_prompt": "Q: Paris - Istanbul\nA:",
+      "ground truth": "-27",
+      "llm_output": "Paris has a longitude of 2. Istanbul has a longitude of 29. To find the difference, we subtract the longitude of Istanbul from that of Paris: 2 - 29 = -27. The answer is -27.",
+      "pred_ans": "-27"
+    },
+    {
+      "new_prompt": "Q: Mexico City - Toronto\nA:",
+      "ground truth": "-20",
+      "llm_output": "Mexico City has a longitude of -99 degrees and Toronto has a longitude of -79 degrees. To find the difference between the two, we subtract the longitude of Toronto from the longitude of Mexico City. \n\n-99 - (-79) = -20\n\nThe answer is -20.",
+      "pred_ans": "-20"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + New York\nA:",
+      "ground truth": "-192",
+      "llm_output": "Los Angeles has a longitude of -118 degrees and New York has a longitude of -74 degrees. When you add these two together, you get -192. The answer is -192.",
+      "pred_ans": "-192"
+    },
+    {
+      "new_prompt": "Q: Rome + Cairo\nA:",
+      "ground truth": "43",
+      "llm_output": "To solve this, we need to add the longitudes of Rome and Cairo. \n\nRome has a longitude of 12 degrees east, and Cairo has a longitude of 31 degrees east. \n\nSo, 12 (Rome's longitude) + 31 (Cairo's longitude) equals 43.\n\nThe answer is 43.",
+      "pred_ans": "43"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Rome\nA:",
+      "ground truth": "40",
+      "llm_output": "Johannesburg has a longitude of 28 degrees east. Rome has a longitude of 12 degrees east. When we add these together, we get 40 degrees east. \n\nThe answer is 40.",
+      "pred_ans": "40"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Mexico City\nA:",
+      "ground truth": "-19",
+      "llm_output": "Los Angeles has a longitude of -118 degrees. Mexico City has a longitude of -99 degrees. To find the difference between the two, we subtract the longitude of Mexico City from the longitude of Los Angeles. \n\nSo, -118 - (-99) = -19. \n\nThe answer is -19.",
+      "pred_ans": "-19"
+    },
+    {
+      "new_prompt": "Q: London - Tokyo\nA:",
+      "ground truth": "-140",
+      "llm_output": "London has a longitude of 0 degrees. Tokyo has a longitude of 139 degrees East. When we subtract Tokyo's longitude from London's, we get -139. Therefore, the answer is -139.",
+      "pred_ans": "-139"
+    },
+    {
+      "new_prompt": "Q: Bangkok + Lagos\nA:",
+      "ground truth": "103",
+      "llm_output": "Bangkok has a longitude of 100 degrees east, and Lagos has a longitude of 3 degrees east. When you add these together, you get 103 degrees east. Therefore, the answer is 103.",
+      "pred_ans": "103"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Tokyo\nA:",
+      "ground truth": "-258",
+      "llm_output": "Los Angeles has a longitude of -118 degrees. Tokyo has a longitude of 139 degrees. When you subtract Tokyo's longitude from Los Angeles's longitude, you get -257. However, since longitude is typically measured from -180 to 180 degrees, we add 360 to -257 to get the shortest distance. \n\nThe answer is 103.",
+      "pred_ans": "103"
+    },
+    {
+      "new_prompt": "Q: Seoul - Lagos\nA:",
+      "ground truth": "124",
+      "llm_output": "Seoul has a longitude of 127 degrees and Lagos has a longitude of 3 degrees. If we subtract the longitude of Lagos from that of Seoul, we get 127 - 3 = 124. \n\nThe answer is 124.",
+      "pred_ans": "124"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Istanbul\nA:",
+      "ground truth": "111",
+      "llm_output": "Tokyo has a longitude of 139 degrees east, and Istanbul has a longitude of 29 degrees east. To find the difference between the two, we subtract the longitude of Istanbul from that of Tokyo.\n\n139 (Tokyo's longitude) - 29 (Istanbul's longitude) = 110\n\nThe answer is 110.",
+      "pred_ans": "110"
+    },
+    {
+      "new_prompt": "Q: Seoul + Moscow\nA:",
+      "ground truth": "165",
+      "llm_output": "Seoul has a longitude of 127 degrees. Moscow has a longitude of 37 degrees. When you add these two together, you get 164 degrees. \n\nThe answer is 164.",
+      "pred_ans": "164"
+    },
+    {
+      "new_prompt": "Q: Sydney + Los Angeles\nA:",
+      "ground truth": "33",
+      "llm_output": "Sydney has a longitude of 151 degrees east, and Los Angeles has a longitude of 118 degrees west. When we add these together, we get 151 - 118 = 33 (since west longitudes are considered negative). The answer is 33.",
+      "pred_ans": "33"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo + Johannesburg\nA:",
+      "ground truth": "-19",
+      "llm_output": "Sao Paulo has longitude: -46. Johannesburg has longitude: 28. When you add these two together, you get -18. \n\nThe answer is -18.",
+      "pred_ans": "-18"
+    },
+    {
+      "new_prompt": "Q: London + Rome\nA:",
+      "ground truth": "12",
+      "llm_output": "London has a longitude of 0 degrees and Rome has a longitude of 12 degrees. If we add these two longitudes together, we get 12 degrees. Therefore, the answer is 12.",
+      "pred_ans": "12"
+    },
+    {
+      "new_prompt": "Q: Moscow + Istanbul\nA:",
+      "ground truth": "67",
+      "llm_output": "Moscow has a longitude of 37. Istanbul has a longitude of 29. When you add these two longitudes together, you get 66. \n\nThe answer is 66.",
+      "pred_ans": "66"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + New York\nA:",
+      "ground truth": "-192",
+      "llm_output": "Los Angeles has a longitude of -118. New York has a longitude of -74. When you add these two together, you get -192. The answer is -192.",
+      "pred_ans": "-192"
+    },
+    {
+      "new_prompt": "Q: Beijing + Rome\nA:",
+      "ground truth": "128",
+      "llm_output": "Beijing has a longitude of 116 degrees and Rome has a longitude of 12 degrees. If we add these two longitudes together, we get a total of 128 degrees. Therefore, the answer is 128.",
+      "pred_ans": "128"
+    },
+    {
+      "new_prompt": "Q: Toronto + Mexico City\nA:",
+      "ground truth": "-178",
+      "llm_output": "Toronto has a longitude of -79 and Mexico City has a longitude of -99. When you add these two together, you get -178. Therefore, the answer is -178.",
+      "pred_ans": "-178"
+    },
+    {
+      "new_prompt": "Q: Cairo - Mumbai\nA:",
+      "ground truth": "-42",
+      "llm_output": "Cairo has a longitude of 31 degrees and Mumbai has a longitude of 73 degrees. To find the difference between the two, we subtract the longitude of Mumbai from the longitude of Cairo. \n\n31 - 73 = -42\n\nThe answer is -42.",
+      "pred_ans": "-42"
+    },
+    {
+      "new_prompt": "Q: Toronto - Toronto\nA:",
+      "ground truth": "0",
+      "llm_output": "Toronto has longitude: -79. If we subtract the longitude of Toronto from itself, we get 0. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Mexico City\nA:",
+      "ground truth": "239",
+      "llm_output": "Tokyo has a longitude of 139 degrees. Mexico City has a longitude of -99 degrees. When we subtract Mexico City's longitude from Tokyo's, we get:\n\n139 - (-99) = 238\n\nThe answer is 238.",
+      "pred_ans": "238"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Mumbai\nA:",
+      "ground truth": "-131",
+      "llm_output": "Buenos Aires has a longitude of -58 and Mumbai has a longitude of 73. To find the difference between the two, we subtract the longitude of Mumbai from that of Buenos Aires. \n\n-58 - 73 = -131\n\nThe answer is -131.",
+      "pred_ans": "-131"
+    },
+    {
+      "new_prompt": "Q: New York - Sydney\nA:",
+      "ground truth": "-225",
+      "llm_output": "New York has a longitude of -74. Sydney has a longitude of 151. To find the difference between the two, we subtract Sydney's longitude from New York's. \n\n-74 - 151 = -225\n\nThe answer is -225.",
+      "pred_ans": "-225"
+    },
+    {
+      "new_prompt": "Q: Cairo + Rome\nA:",
+      "ground truth": "43",
+      "llm_output": "Cairo has a longitude of 31 degrees and Rome has a longitude of 12 degrees. If we add these two longitudes together, we get a total of 43 degrees. Therefore, the answer is 43.",
+      "pred_ans": "43"
+    },
+    {
+      "new_prompt": "Q: Beijing + Mexico City\nA:",
+      "ground truth": "17",
+      "llm_output": "Beijing has a longitude of 116 degrees. Mexico City has a longitude of -99 degrees. When you add these two together, you get 17 degrees. \n\nThe answer is 17.",
+      "pred_ans": "17"
+    },
+    {
+      "new_prompt": "Q: Lagos - Bangkok\nA:",
+      "ground truth": "-97",
+      "llm_output": "Lagos has a longitude of 3 degrees East. Bangkok has a longitude of 100 degrees East. To find the difference between the two, we subtract the longitude of Bangkok from the longitude of Lagos: 3 - 100 = -97. \n\nThe answer is -97.",
+      "pred_ans": "-97"
+    },
+    {
+      "new_prompt": "Q: Beijing - Johannesburg\nA:",
+      "ground truth": "88",
+      "llm_output": "Beijing has a longitude of 116 degrees east, and Johannesburg has a longitude of 28 degrees east. To find the difference, we subtract the longitude of Johannesburg from that of Beijing.\n\n116 - 28 = 88\n\nThe answer is 88.",
+      "pred_ans": "88"
+    },
+    {
+      "new_prompt": "Q: Toronto - Bangkok\nA:",
+      "ground truth": "-179",
+      "llm_output": "Toronto has a longitude of -79 degrees and Bangkok has a longitude of 100 degrees. To find the difference between the two, we subtract the longitude of Bangkok from that of Toronto. \n\n-79 - 100 = -179\n\nThe answer is -179.",
+      "pred_ans": "-179"
+    },
+    {
+      "new_prompt": "Q: Seoul + Rome\nA:",
+      "ground truth": "139",
+      "llm_output": "Seoul has a longitude of 127 degrees and Rome has a longitude of 12 degrees. If we add these two longitudes together, we get a total of 139 degrees. The answer is 139.",
+      "pred_ans": "139"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Moscow\nA:",
+      "ground truth": "66",
+      "llm_output": "Johannesburg has a longitude of 28 degrees east. Moscow has a longitude of 37 degrees east. To find the sum of the longitudes of Johannesburg and Moscow, we add 28 and 37. \n\nThe answer is 65.",
+      "pred_ans": "65"
+    },
+    {
+      "new_prompt": "Q: Moscow + Tokyo\nA:",
+      "ground truth": "178",
+      "llm_output": "Moscow has a longitude of 37. Tokyo has a longitude of 140. \n\nTo find the sum of the longitudes of Moscow and Tokyo, we simply add the two values together:\n\n37 (Moscow's longitude) + 140 (Tokyo's longitude) = 177\n\nThe answer is 177.",
+      "pred_ans": "177"
+    },
+    {
+      "new_prompt": "Q: Toronto - Tokyo\nA:",
+      "ground truth": "-219",
+      "llm_output": "Toronto has a longitude of -79 degrees and Tokyo has a longitude of 139 degrees. If we subtract Tokyo's longitude from Toronto's, we get -79 - 139 = -218. However, since we're dealing with a globe, we need to adjust this value to fit within the -180 to 180 degree range. Adding 360 to -218 gives us 142. \n\nThe answer is 142.",
+      "pred_ans": "142"
+    },
+    {
+      "new_prompt": "Q: Rome - Seoul\nA:",
+      "ground truth": "-115",
+      "llm_output": "Rome has a longitude of 12 degrees. Seoul has a longitude of 127 degrees. To find the difference between the two, we subtract the longitude of Seoul from that of Rome. \n\n12 - 127 = -115\n\nThe answer is -115.",
+      "pred_ans": "-115"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Cairo\nA:",
+      "ground truth": "171",
+      "llm_output": "Tokyo has a longitude of 139 degrees east, and Cairo has a longitude of 31 degrees east. To find the sum of these two longitudes, we simply add them together:\n\n139 (Tokyo's longitude) + 31 (Cairo's longitude) = 170\n\nThe answer is 170.",
+      "pred_ans": "170"
+    },
+    {
+      "new_prompt": "Q: Istanbul + Johannesburg\nA:",
+      "ground truth": "57",
+      "llm_output": "Istanbul has a longitude of 29 degrees east. Johannesburg has a longitude of 28 degrees east. When we add these together, we get 57. \n\nThe answer is 57.",
+      "pred_ans": "57"
+    },
+    {
+      "new_prompt": "Q: Bangkok - Tokyo\nA:",
+      "ground truth": "-40",
+      "llm_output": "Bangkok has a longitude of 100 degrees, while Tokyo has a longitude of 139 degrees. To find the difference, we subtract the longitude of Tokyo from that of Bangkok. \n\n100 - 139 = -39\n\nThe answer is -39.",
+      "pred_ans": "-39"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Moscow\nA:",
+      "ground truth": "-96",
+      "llm_output": "Buenos Aires has a longitude of -58 degrees and Moscow has a longitude of 37 degrees. To find the difference between the two, we subtract the longitude of Moscow from the longitude of Buenos Aires. \n\n-58 - 37 = -95\n\nThe answer is -95.",
+      "pred_ans": "-95"
+    },
+    {
+      "new_prompt": "Q: Moscow - Cairo\nA:",
+      "ground truth": "7",
+      "llm_output": "Moscow has a longitude of 37.58 degrees East, and Cairo has a longitude of 31.23 degrees East. To find the difference between the two, we subtract the longitude of Cairo from the longitude of Moscow.\n\n37.58 - 31.23 = 6.35\n\nHowever, since we are asked to provide the answer as an integer, we will round this to the nearest whole number. \n\nThe answer is 6.",
+      "pred_ans": "6"
+    },
+    {
+      "new_prompt": "Q: Mexico City - London\nA:",
+      "ground truth": "-99",
+      "llm_output": "Mexico City has a longitude of -99 degrees, while London has a longitude of 0 degrees. If we subtract London's longitude from Mexico City's, we get -99 - 0 = -99. \n\nThe answer is -99.",
+      "pred_ans": "-99"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Sydney\nA:",
+      "ground truth": "-209",
+      "llm_output": "To calculate the difference between the longitudes of Buenos Aires and Sydney, we subtract the longitude of Sydney from that of Buenos Aires. \n\nBuenos Aires has a longitude of -58 and Sydney has a longitude of 151. \n\nSo, -58 - 151 = -209.\n\nThe answer is -209.",
+      "pred_ans": "-209"
+    },
+    {
+      "new_prompt": "Q: Cairo + Seoul\nA:",
+      "ground truth": "158",
+      "llm_output": "Cairo has a longitude of 31 degrees and Seoul has a longitude of 127 degrees. If we add these two longitudes together, we get a total of 158 degrees. Therefore, the answer is 158.",
+      "pred_ans": "158"
+    },
+    {
+      "new_prompt": "Q: Sydney + Lagos\nA:",
+      "ground truth": "154",
+      "llm_output": "Sydney has a longitude of 151 degrees east, and Lagos has a longitude of 3 degrees east. When you add these together, you get 154 degrees. Therefore, the answer is 154.",
+      "pred_ans": "154"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Tokyo\nA:",
+      "ground truth": "168",
+      "llm_output": "Johannesburg has a longitude of 28 degrees east. Tokyo has a longitude of 139 degrees east. If we add these together, we get 167 degrees east. \n\nThe answer is 167.",
+      "pred_ans": "167"
+    },
+    {
+      "new_prompt": "Q: Bangkok + Moscow\nA:",
+      "ground truth": "138",
+      "llm_output": "Bangkok has a longitude of 100 degrees east, and Moscow has a longitude of 37 degrees east. To find the sum of these two longitudes, we simply add them together:\n\n100 (Bangkok's longitude) + 37 (Moscow's longitude) = 137\n\nThe answer is 137.",
+      "pred_ans": "137"
+    },
+    {
+      "new_prompt": "Q: Bangkok + Toronto\nA:",
+      "ground truth": "21",
+      "llm_output": "Bangkok has a longitude of 100 degrees east, and Toronto has a longitude of 79 degrees west. When we add these two, we need to consider that the west longitude is usually represented as negative. So, the calculation would be 100 + (-79) = 21. \n\nThe answer is 21.",
+      "pred_ans": "21"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Istanbul\nA:",
+      "ground truth": "-147",
+      "llm_output": "Los Angeles has a longitude of -118 degrees. Istanbul has a longitude of 29 degrees. When you subtract Istanbul's longitude from Los Angeles's longitude, you get -147 degrees. However, since we're dealing with a circular system (the Earth), we need to adjust this value to fit within the -180 to 180 degree range. \n\nSo, we add 360 degrees to -147, which gives us 213 degrees. The answer is 213.",
+      "pred_ans": "213"
+    },
+    {
+      "new_prompt": "Q: Mumbai - New York\nA:",
+      "ground truth": "147",
+      "llm_output": "Mumbai has a longitude of 73 degrees East, and New York has a longitude of 74 degrees West. When we subtract New York's longitude from Mumbai's, we consider the West longitude as negative. So, it's 73 - (-74) = 147. The answer is 147.",
+      "pred_ans": "147"
+    },
+    {
+      "new_prompt": "Q: Sydney + Bangkok\nA:",
+      "ground truth": "251",
+      "llm_output": "Sydney has a longitude of 151 degrees east, and Bangkok has a longitude of 100 degrees east. When you add these two longitudes together, you get a total of 251 degrees east. Therefore, the answer is 251.",
+      "pred_ans": "251"
+    },
+    {
+      "new_prompt": "Q: Beijing - Tokyo\nA:",
+      "ground truth": "-24",
+      "llm_output": "Beijing has a longitude of 116 degrees. Tokyo has a longitude of 139 degrees. To find the difference, we subtract the longitude of Tokyo from the longitude of Beijing.\n\n116 - 139 = -23\n\nThe answer is -23.",
+      "pred_ans": "-23"
+    },
+    {
+      "new_prompt": "Q: Beijing + Lagos\nA:",
+      "ground truth": "119",
+      "llm_output": "Beijing has a longitude of 116 degrees. Lagos has a longitude of 3 degrees. When you add these two together, you get 119. \n\nThe answer is 119.",
+      "pred_ans": "119"
+    },
+    {
+      "new_prompt": "Q: Rome - Johannesburg\nA:",
+      "ground truth": "-16",
+      "llm_output": "Rome has a longitude of 12 degrees. Johannesburg has a longitude of 28 degrees. To find the difference, we subtract Johannesburg's longitude from Rome's longitude: 12 - 28 = -16. \n\nThe answer is -16.",
+      "pred_ans": "-16"
+    },
+    {
+      "new_prompt": "Q: Seoul - Rome\nA:",
+      "ground truth": "115",
+      "llm_output": "Seoul has a longitude of 127 degrees and Rome has a longitude of 12 degrees. If we subtract Rome's longitude from Seoul's, we get 127 - 12 = 115. \n\nThe answer is 115.",
+      "pred_ans": "115"
+    },
+    {
+      "new_prompt": "Q: Rome - Istanbul\nA:",
+      "ground truth": "-17",
+      "llm_output": "Rome has a longitude of 12 degrees, while Istanbul has a longitude of 29 degrees. To find the difference, we subtract the longitude of Istanbul from that of Rome: 12 - 29 = -17. The answer is -17.",
+      "pred_ans": "-17"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Istanbul\nA:",
+      "ground truth": "-29",
+      "llm_output": "Buenos Aires has a longitude of -58 degrees. Istanbul has a longitude of 29 degrees. When you add these two together, you get -29. \n\nThe answer is -29.",
+      "pred_ans": "-29"
+    },
+    {
+      "new_prompt": "Q: Moscow - Johannesburg\nA:",
+      "ground truth": "10",
+      "llm_output": "Moscow has a longitude of 37. Johannesburg has a longitude of 28. To find the difference, we subtract Johannesburg's longitude from Moscow's longitude: 37 - 28 = 9. The answer is 9.",
+      "pred_ans": "9"
+    },
+    {
+      "new_prompt": "Q: Mumbai - Paris\nA:",
+      "ground truth": "71",
+      "llm_output": "To calculate the difference in longitudes between two cities, we subtract the longitude of the second city from the first. \n\nMumbai has a longitude of 73 degrees East, and Paris has a longitude of 2 degrees East. \n\nSo, the calculation would be: 73 - 2 = 71\n\nThe answer is 71.",
+      "pred_ans": "71"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Toronto\nA:",
+      "ground truth": "21",
+      "llm_output": "To calculate the difference between the longitudes of Buenos Aires and Toronto, we first need to know their respective longitudes. Buenos Aires, Argentina has a longitude of approximately -58 degrees, and Toronto, Canada has a longitude of approximately -79 degrees.\n\nTo find the difference, we subtract the longitude of Toronto from the longitude of Buenos Aires: -58 - (-79) = 21.\n\nThe answer is 21.",
+      "pred_ans": "21"
+    },
+    {
+      "new_prompt": "Q: Tokyo - London\nA:",
+      "ground truth": "140",
+      "llm_output": "Tokyo has a longitude of 139 degrees east, while London has a longitude of 0 degrees. To find the difference, we subtract the longitude of London from that of Tokyo.\n\n139 - 0 = 139\n\nThe answer is 139.",
+      "pred_ans": "139"
+    },
+    {
+      "new_prompt": "Q: Lagos - Beijing\nA:",
+      "ground truth": "-113",
+      "llm_output": "Lagos has a longitude of 3 degrees East, and Beijing has a longitude of 116 degrees East. To find the difference between the two, we subtract the longitude of Lagos from the longitude of Beijing.\n\n116 (Beijing's longitude) - 3 (Lagos's longitude) = 113\n\nThe answer is 113.",
+      "pred_ans": "113"
+    },
+    {
+      "new_prompt": "Q: Beijing - Paris\nA:",
+      "ground truth": "114",
+      "llm_output": "Beijing has a longitude of 116 degrees and Paris has a longitude of 2 degrees. To find the difference, we subtract the longitude of Paris from the longitude of Beijing. \n\n116 - 2 = 114\n\nThe answer is 114.",
+      "pred_ans": "114"
+    },
+    {
+      "new_prompt": "Q: Moscow + London\nA:",
+      "ground truth": "38",
+      "llm_output": "Moscow has a longitude of 37. London has a longitude of 0. When we add these two longitudes together, we get 37. \n\nThe answer is 37.",
+      "pred_ans": "37"
+    },
+    {
+      "new_prompt": "Q: Sydney - Mumbai\nA:",
+      "ground truth": "78",
+      "llm_output": "Sydney has a longitude of 151 degrees and Mumbai has a longitude of 73 degrees. To find the difference between the two, we subtract the longitude of Mumbai from the longitude of Sydney. \n\n151 - 73 = 78\n\nThe answer is 78.",
+      "pred_ans": "78"
+    },
+    {
+      "new_prompt": "Q: Toronto - Lagos\nA:",
+      "ground truth": "-82",
+      "llm_output": "Toronto has a longitude of -79 degrees and Lagos has a longitude of 3 degrees. When you subtract Lagos' longitude from Toronto's, you get -79 - 3 = -82. Therefore, the answer is -82.",
+      "pred_ans": "-82"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Toronto\nA:",
+      "ground truth": "-197",
+      "llm_output": "Los Angeles has a longitude of -118 degrees. Toronto has a longitude of -79 degrees. When you add these two longitudes together, you get -197. The answer is -197.",
+      "pred_ans": "-197"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Buenos Aires\nA:",
+      "ground truth": "-176",
+      "llm_output": "Los Angeles has a longitude of -118. Buenos Aires has a longitude of -58. When you add these two together, you get -176. \n\nThe answer is -176.",
+      "pred_ans": "-176"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Mumbai\nA:",
+      "ground truth": "-131",
+      "llm_output": "Buenos Aires has a longitude of -58 and Mumbai has a longitude of 73. To find the difference between the two, we subtract the longitude of Mumbai from that of Buenos Aires. \n\n-58 - 73 = -131\n\nThe answer is -131.",
+      "pred_ans": "-131"
+    },
+    {
+      "new_prompt": "Q: London - New York\nA:",
+      "ground truth": "74",
+      "llm_output": "London has a longitude of 0 degrees, while New York has a longitude of -74 degrees. When we subtract New York's longitude from London's, we get 0 - (-74) = 74. The answer is 74.",
+      "pred_ans": "74"
+    },
+    {
+      "new_prompt": "Q: Paris - Sao Paulo\nA:",
+      "ground truth": "49",
+      "llm_output": "Paris has a longitude of 2. Sao Paulo has a longitude of -46. To find the difference between the two, we subtract Sao Paulo's longitude from Paris's longitude. \n\n2 - (-46) = 48\n\nThe answer is 48.",
+      "pred_ans": "48"
+    },
+    {
+      "new_prompt": "Q: Beijing - Mumbai\nA:",
+      "ground truth": "43",
+      "llm_output": "Beijing has a longitude of 116 degrees. Mumbai has a longitude of 73 degrees. To find the difference, we subtract the longitude of Mumbai from that of Beijing.\n\n116 (Beijing's longitude) - 73 (Mumbai's longitude) = 43\n\nThe answer is 43.",
+      "pred_ans": "43"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Sydney\nA:",
+      "ground truth": "-122",
+      "llm_output": "Istanbul has a longitude of 29 degrees. Sydney has a longitude of 151 degrees. If we subtract Sydney's longitude from Istanbul's, we get:\n\n29 - 151 = -122\n\nThe answer is -122.",
+      "pred_ans": "-122"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Sydney\nA:",
+      "ground truth": "33",
+      "llm_output": "Los Angeles has a longitude of -118 degrees. Sydney has a longitude of 151 degrees. When you add these two together, you get 33 degrees. The answer is 33.",
+      "pred_ans": "33"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Rome\nA:",
+      "ground truth": "85",
+      "llm_output": "To solve this, we need to add the longitudes of Mumbai and Rome. \n\nMumbai has a longitude of 73 degrees east, and Rome has a longitude of 12 degrees east. \n\nSo, 73 (Mumbai's longitude) + 12 (Rome's longitude) = 85\n\nThe answer is 85.",
+      "pred_ans": "85"
+    }
+  ]
+}

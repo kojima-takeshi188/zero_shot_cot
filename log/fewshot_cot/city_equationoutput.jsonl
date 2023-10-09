@@ -1,0 +1,12 @@
+{
+  "new_prompt": "Q: Buenos Aires - Cairo\nA:",
+  "ground truth": "-89",
+  "llm_output": " Buenos Aires is the capital of Argentina. It's known for its vibrant culture, tango dancing, and delicious food. Cairo is the capital of Egypt. It's famous for its ancient pyramids and the Great Sphinx. The answer is -10.",
+  "pred_ans": "-10"
+}
+{
+  "new_prompt": "Q: Sydney - Istanbul\nA:",
+  "ground truth": "122",
+  "llm_output": " Sydney is the largest city in Australia. It's famous for its Harbour Bridge and the Sydney Opera House. Istanbul is the largest city in Turkey. It's known for its rich history and cultural landmarks such as the Hagia Sophia and the Blue Mosque. The answer is 10.",
+  "pred_ans": "10"
+}

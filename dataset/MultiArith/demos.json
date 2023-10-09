@@ -1,0 +1,14 @@
+{
+  "x": [
+    "Maria had 10 stamps in her collection. After her birthday, she had a total of 28 stamps. How many stamps did she receive?"
+  ],
+  "y": [
+    "18"
+  ],
+  "z": [
+    "Maria had 10 stamps in her collection. After her birthday, she had a total of 28 stamps. So, she must have received 28 - 10 = 18 stamps as gifts for her birthday."
+  ],
+  "z_uninformative": [
+    "Maria had some stamps. After her birthday, she had more stamps. Let's compute how many she received for her birthday."
+  ]
+}

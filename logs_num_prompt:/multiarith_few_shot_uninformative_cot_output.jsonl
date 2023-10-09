@@ -1,0 +1,17 @@
+{
+  "accuracy": 100.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: For Halloween Megan received 11 pieces of candy from neighbors and 5 pieces from her older sister. If she only ate 8 pieces a day, how long would the candy last her?\nA:",
+      "ground truth": "2",
+      "llm_output": " Megan received candy. She ate some each day. Let's divide the total by the daily consumption. The answer is 2 days.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Bianca and her mom were picking carrots from their garden. Bianca picked 26 and her mother picked 15. If only 16 of the carrots were good, how many bad carrots did they have?\nA:",
+      "ground truth": "25",
+      "llm_output": " Bianca and her mom picked carrots. Some were good and some were bad. Let's compute the difference between good and total. The answer is 25.",
+      "pred_ans": "25"
+    }
+  ]
+}

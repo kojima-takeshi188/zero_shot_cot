@@ -1,0 +1,305 @@
+{
+  "accuracy": 92.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: For Halloween Megan received 11 pieces of candy from neighbors and 5 pieces from her older sister. If she only ate 8 pieces a day, how long would the candy last her?\nA:",
+      "ground truth": "2",
+      "llm_output": " Megan received some candy. She ate some each day. Let's compute how long the candy would last her. The answer is 2 days.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Bianca and her mom were picking carrots from their garden. Bianca picked 26 and her mother picked 15. If only 16 of the carrots were good, how many bad carrots did they have?\nA:",
+      "ground truth": "25",
+      "llm_output": " Bianca and her mom picked carrots. Some were good and some were bad. Let's compute how many bad carrots they had. The answer is 25.",
+      "pred_ans": "25"
+    },
+    {
+      "new_prompt": "Q: Paige and her friends were recycling paper for their class. For every 4 pounds they recycled they earned one point. If Paige recycled 14 pounds and her friends recycled 2 pounds, how many points did they earn?\nA:",
+      "ground truth": "4",
+      "llm_output": " Paige and her friends recycled paper. For every 4 pounds, they earned a point. Paige recycled pounds and her friends recycled pounds. Let's compute the total points earned. The answer is 4.",
+      "pred_ans": "4"
+    },
+    {
+      "new_prompt": "Q: In fourth grade there were 4 students at the start of the year. During the year 3 students left and 42 new students came to school. How many students were in fourth grade at the end?\nA:",
+      "ground truth": "43",
+      "llm_output": " In fourth grade there were some students at the start of the year. During the year some students left and some new students came to school. Let's compute the final count. The answer is 43.",
+      "pred_ans": "43"
+    },
+    {
+      "new_prompt": "Q: A toy store had 4 giant stuffed bears in stock when they got another shipment with 10 bears in it. The put the bears onto shelves with 7 on each shelf. How many shelves did they use?\nA:",
+      "ground truth": "2",
+      "llm_output": " A toy store had some giant stuffed bears in stock. They got more bears in a shipment. They put 7 bears on each shelf. Let's compute how many shelves they used. The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Bianca was organizing her book case making sure each of the shelves had exactly 8 books on it. If she had 5 shelves of mystery books and 4 shelves of picture books, how many books did she have total?\nA:",
+      "ground truth": "72",
+      "llm_output": " Bianca had shelves of books. She organized them with books on each shelf. Let's compute the total number of books she has. The answer is 72.",
+      "pred_ans": "72"
+    },
+    {
+      "new_prompt": "Q: Megan baked 68 cupcakes for her school's bake sale. If her brother, Todd, ate 32 of them how many packages could she make if she put 6 cupcake in each package?\nA:",
+      "ground truth": "6",
+      "llm_output": " Megan baked cupcakes. Todd ate some. Let's compute how many packages she can make with 6 cupcakes in each. The answer is 6.",
+      "pred_ans": "6"
+    },
+    {
+      "new_prompt": "Q: A pet store had 13 siamese cats and 5 house cats. During a sale they sold 10 cats. How many cats do they have left?\nA:",
+      "ground truth": "8",
+      "llm_output": " A pet store had some siamese cats and house cats. During a sale, they sold some cats. Let's compute how many they have left. The answer is 8.",
+      "pred_ans": "8"
+    },
+    {
+      "new_prompt": "Q: Billy was organizing his baseball cards in a binder with 5 on each page. If he had 3 new cards and 42 old cards to put in the binder, how many pages would he use?\nA:",
+      "ground truth": "9",
+      "llm_output": " Billy was organizing his baseball cards. He had some new cards and some old cards. Let's compute how many pages he would use. The answer is 9.",
+      "pred_ans": "9"
+    },
+    {
+      "new_prompt": "Q: Adam bought 2 boxes of chocolate candy and 5 boxes of caramel candy. If each box has 4 pieces inside it, how much candy did he have total?\nA:",
+      "ground truth": "28",
+      "llm_output": " Adam bought boxes of chocolate candy and boxes of caramel candy. Each box has pieces. Let's compute the total number of candies. The answer is 28.",
+      "pred_ans": "28"
+    },
+    {
+      "new_prompt": "Q: Wendy picked 103 flowers for her friend\u2019s wedding. She was making bouquets with 8 flowers in each one. If 47 of the flowers wilted before the wedding, how many bouquets could she still make?\nA:",
+      "ground truth": "7",
+      "llm_output": " Wendy picked flowers for her friend's wedding. She was making bouquets with flowers in each one. Some wilted before the wedding. Let's compute how many bouquets she could still make. The answer is 7.",
+      "pred_ans": "7"
+    },
+    {
+      "new_prompt": "Q: Edward and his friend were buying trick decks from the magic shop for 6 dollars each. How much did they spend if Edward bought 3 decks and his friend bought 6 decks?\nA:",
+      "ground truth": "54",
+      "llm_output": " Edward and his friend bought trick decks. Edward bought some and his friend bought some. Let's compute the total cost. The answer is 54 dollars.",
+      "pred_ans": "54"
+    },
+    {
+      "new_prompt": "Q: A pet store had 41 siamese cats and 28 house cats. During a sale they sold 15 cats. How many cats do they have left?\nA:",
+      "ground truth": "54",
+      "llm_output": " A pet store had some siamese cats and house cats. During a sale, they sold some cats. Let's compute how many they have left. The answer is 54.",
+      "pred_ans": "54"
+    },
+    {
+      "new_prompt": "Q: Wendy was playing a video game where she scores 5 points for each treasure she finds. If she found 4 treasures on the first level and 3 on the second, what would her score be?\nA:",
+      "ground truth": "35",
+      "llm_output": " Wendy found treasures on the first and second levels. Let's compute her total score. The answer is 35.",
+      "pred_ans": "35"
+    },
+    {
+      "new_prompt": "Q: The school cafeteria ordered 6 red apples and 15 green apples for students lunches. But, if only 5 students wanted fruit, how many extra did the cafeteria end up with?\nA:",
+      "ground truth": "16",
+      "llm_output": " The school cafeteria ordered some red apples and green apples for students lunches. But, only some students wanted fruit. Let's compute the difference between what was ordered and what was needed. The answer is 16.",
+      "pred_ans": "16"
+    },
+    {
+      "new_prompt": "Q: Paul had saved up 3 dollars. If he received another 7 dollars for his allowance, how many 5 dollar toys could he buy?\nA:",
+      "ground truth": "2",
+      "llm_output": " Paul had some money. He received more. Let's compute how many toys he can buy. The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Victor was helping the cafeteria workers pick up lunch trays, but he could only carry 7 trays at a time. If he had to pick up 23 trays from one table and 5 trays from another, how many trips will he make?\nA:",
+      "ground truth": "4",
+      "llm_output": " Victor can carry trays at a time. He has to pick up trays from one table and trays from another. Let's compute how many trips he will make. The answer is 4.",
+      "pred_ans": "4"
+    },
+    {
+      "new_prompt": "Q: Kaleb bought 14 boxes of chocolate candy and gave 5 to his little brother. If each box has 6 pieces inside it, how many pieces did Kaleb still have?\nA:",
+      "ground truth": "54",
+      "llm_output": " Kaleb bought some boxes of chocolate candy. He gave some to his brother. Let's compute how many pieces he has left. The answer is 61.",
+      "pred_ans": "61"
+    },
+    {
+      "new_prompt": "Q: In a video game, each enemy defeated gives you 8 points. If a level has 7 enemies total and you destroy all but 2 of them, how many points would you earn?\nA:",
+      "ground truth": "40",
+      "llm_output": " In a video game, each enemy defeated gives you points. If a level has enemies total and you destroy all but of them, let's compute how many points you would earn. The answer is 40.",
+      "pred_ans": "40"
+    },
+    {
+      "new_prompt": "Q: Nancy was planting vegetables in her garden. She started with 52 seeds and planted 28 of them in the big garden and in each of her small gardens put 4 seeds each. How many small gardens did Nancy have?\nA:",
+      "ground truth": "6",
+      "llm_output": " Nancy had seeds. She planted some in the big garden and some in small gardens. Let's compute how many small gardens she has. The answer is 6.",
+      "pred_ans": "6"
+    },
+    {
+      "new_prompt": "Q: A store had 120 coloring books in stock. They ended up putting them on sale and getting rid of 39 of them. The put the ones they still had onto shelves with 9 on each shelf. How many shelves did they use?\nA:",
+      "ground truth": "9",
+      "llm_output": " A store had some coloring books in stock. They sold some and put the rest on shelves. Let's compute how many shelves were used. The answer is 9.",
+      "pred_ans": "9"
+    },
+    {
+      "new_prompt": "Q: John had 5 action figures, but needed 7 total for a complete collection. If each one costs $5, how much money would he need to finish his collection?\nA:",
+      "ground truth": "10",
+      "llm_output": " John had some action figures. He needs more to complete his collection. Let's compute how much money he needs to buy the remaining figures. The answer is $10.",
+      "pred_ans": "10"
+    },
+    {
+      "new_prompt": "Q: George was working as a sacker at a grocery store where he made 5 dollars an hour. On Monday he worked 7 hours and on Tuesday he worked 2 hours. How much money did George make in those two days?\nA:",
+      "ground truth": "45",
+      "llm_output": " George worked at a grocery store. He made 5 dollars an hour. On Monday he worked 7 hours and on Tuesday he worked 2 hours. Let's compute how much he made in those two days. The answer is 45 dollars.",
+      "pred_ans": "45"
+    },
+    {
+      "new_prompt": "Q: Will invited 9 friends to a birthday party, but 4 couldn't come. If he wanted to buy enough cupcakes so each person could have exactly 8, how many should he buy?\nA:",
+      "ground truth": "40",
+      "llm_output": " Will invited friends to a birthday party. Some couldn't come. Let's compute how many cupcakes he should buy. The answer is 40.",
+      "pred_ans": "40"
+    },
+    {
+      "new_prompt": "Q: Bianca had 45 coloring books. If she gave away 6 of them, but then bought 20 more, how many would she have total?\nA:",
+      "ground truth": "59",
+      "llm_output": " Bianca had coloring books. She gave away some, but then bought more. Let's compute the total. The answer is 59.",
+      "pred_ans": "59"
+    },
+    {
+      "new_prompt": "Q: Kaleb had 12 dollars. If he spent 8 bucks on a new game, how many 2 dollar toys could he buy with the money he had left?\nA:",
+      "ground truth": "2",
+      "llm_output": " Kaleb had some money. He spent some on a game. Let's compute how many 2 dollar toys he can buy with the remaining money. The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: The school cafeteria had 12 apples. If they used 8 to make lunch for the students and then bought 19 more, how many apples would they have?\nA:",
+      "ground truth": "23",
+      "llm_output": " The school cafeteria had apples. They used some to make lunch. Then they bought more. Let's compute the new total. The answer is 23.",
+      "pred_ans": "23"
+    },
+    {
+      "new_prompt": "Q: In fourth grade there were 33 students at the start of the year. During the year 18 students left and 14 new students came to school. How many students were in fourth grade at the end?\nA:",
+      "ground truth": "29",
+      "llm_output": " In fourth grade there were some students at the start of the year. During the year some students left and some new students came to school. Let's compute the final count. The answer is 29.",
+      "pred_ans": "29"
+    },
+    {
+      "new_prompt": "Q: A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest?\nA:",
+      "ground truth": "18",
+      "llm_output": " A new building needed windows. The builder had already installed some of them. Let's compute how long it will take to install the rest. The answer is 6 hours.",
+      "pred_ans": "6"
+    },
+    {
+      "new_prompt": "Q: There were 10 friends playing a video game online when 7 players quit. If each player left had 8 lives, how many lives did they have total?\nA:",
+      "ground truth": "24",
+      "llm_output": " There were friends playing a video game online. Some players quit. Let's compute the total number of lives left. The answer is 24.",
+      "pred_ans": "24"
+    },
+    {
+      "new_prompt": "Q: Faye was selling her necklaces at a garage sale. She sold 3 bead necklaces and 7 gem stone necklaces. If each necklace cost 7 dollars, how much money did she earn?\nA:",
+      "ground truth": "70",
+      "llm_output": " Faye sold bead necklaces and gem stone necklaces. Each necklace cost dollars. Let's compute her earnings. The answer is 70.",
+      "pred_ans": "70"
+    },
+    {
+      "new_prompt": "Q: There were 8 friends playing a video game online when 5 players quit. If each player left had 5 lives, how many lives did they have total?\nA:",
+      "ground truth": "15",
+      "llm_output": " There were friends playing a video game online. Some players quit. Let's compute the total number of lives left. The answer is 15.",
+      "pred_ans": "15"
+    },
+    {
+      "new_prompt": "Q: Edward made 37 dollars mowing lawns over the summer. If he spent 21 dollars buying new mower blades, how many 2 dollar games could he buy with the money he had left?\nA:",
+      "ground truth": "8",
+      "llm_output": " Edward made some money mowing lawns. He spent some on mower blades. Let's compute how much he has left. The answer is 8. He can buy 4 games with the remaining money.",
+      "pred_ans": "8"
+    },
+    {
+      "new_prompt": "Q: Isabel had 72 homework problems. She finished 32 of them but still had 5 pages of problems to do. If each page has the same number of problems on it, how many problems are on each page?\nA:",
+      "ground truth": "8",
+      "llm_output": " Isabel had homework problems. She finished some. Let's compute how many problems are on each page. The answer is 8.",
+      "pred_ans": "8"
+    },
+    {
+      "new_prompt": "Q: Robin was making baggies of cookies with 6 cookies in each bag. If she had 23 chocolate chip cookies and 25 oatmeal cookies, how many baggies could she make?\nA:",
+      "ground truth": "8",
+      "llm_output": " Robin has chocolate chip cookies and oatmeal cookies. She makes baggies with 6 cookies each. Let's compute how many baggies she can make. The answer is 7.",
+      "pred_ans": "7"
+    },
+    {
+      "new_prompt": "Q: Olivia and her mom were picking carrots from their garden. Olivia picked 20 and her mother picked 14. If only 19 of the carrots were good, how many bad carrots did they have?\nA:",
+      "ground truth": "15",
+      "llm_output": " Olivia and her mom picked carrots. Some were good and some were bad. Let's compute how many bad carrots they had. The answer is 15.",
+      "pred_ans": "15"
+    },
+    {
+      "new_prompt": "Q: For homework Nancy had 17 math problems and 15 spelling problems. If she can finish 8 problems in an hour how long will it take her to finish all the problems?\nA:",
+      "ground truth": "4",
+      "llm_output": " Nancy has math problems and spelling problems. She can finish some in an hour. Let's compute how long it will take her to finish all the problems. The answer is 4 hours.",
+      "pred_ans": "4"
+    },
+    {
+      "new_prompt": "Q: A trivia team had 12 members total, but during a game 4 members didn't show up. If each member that did show up scored 8 points, how many points were scored total?\nA:",
+      "ground truth": "64",
+      "llm_output": " A trivia team had members. Some didn't show up. The remaining members scored points each. Let's compute the total points scored. The answer is 64.",
+      "pred_ans": "64"
+    },
+    {
+      "new_prompt": "Q: Frank made 5 dollars mowing lawns and 58 dollars weed eating. If he only spent 7 dollar a week, how long would the money last him?\nA:",
+      "ground truth": "9",
+      "llm_output": " Frank made some money. He spent some. Let's compute how long the money would last him. The answer is 8 weeks.",
+      "pred_ans": "8"
+    },
+    {
+      "new_prompt": "Q: Faye had 46 math problems and 9 science problems for homework. If she finished 40 of the problems at school, how many problems did she have to do for homework?\nA:",
+      "ground truth": "15",
+      "llm_output": " Faye had math problems and science problems for homework. She finished some at school. Let's compute how many she has left for homework. The answer is 15.",
+      "pred_ans": "15"
+    },
+    {
+      "new_prompt": "Q: Roger had 16 dollars. For his birthday he got 28 more dollars but spent 25 on a new game. How much money does he have now?\nA:",
+      "ground truth": "19",
+      "llm_output": " Roger had some money. He got more for his birthday. He spent some on a new game. Let's compute how much he has left. The answer is 19.",
+      "pred_ans": "19"
+    },
+    {
+      "new_prompt": "Q: Kaleb was collecting cans for recycling. On Saturday he filled 4 bags up and on Sunday he filled 6 more bags. If each bag had 4 cans in it, how many cans did he pick up total?\nA:",
+      "ground truth": "40",
+      "llm_output": " Kaleb filled bags with cans. He filled more bags the next day. Let's compute the total number of cans he picked up. The answer is 40.",
+      "pred_ans": "40"
+    },
+    {
+      "new_prompt": "Q: Paige had 11 songs on her mp3 player. If she deleted 9 old songs from it and then added 8 new songs, how many songs does she have on her mp3 player?\nA:",
+      "ground truth": "10",
+      "llm_output": " Paige had songs on her mp3 player. She deleted some and added some. Let's compute the new total. The answer is 10.",
+      "pred_ans": "10"
+    },
+    {
+      "new_prompt": "Q: Cody had 45 dollars. For his birthday he got 9 more dollars but spent 19 on a new game. How much money does he have now?\nA:",
+      "ground truth": "35",
+      "llm_output": " Cody had some money. He got some more for his birthday. He spent some on a new game. Let's compute how much he has left. The answer is 35.",
+      "pred_ans": "35"
+    },
+    {
+      "new_prompt": "Q: A pet store had 56 puppies. In one day they sold 24 of them and put the rest into cages with 4 in each cage. How many cages did they use?\nA:",
+      "ground truth": "8",
+      "llm_output": " A pet store had puppies. They sold some and put the rest into cages. Let's compute how many cages were used. The answer is 8.",
+      "pred_ans": "8"
+    },
+    {
+      "new_prompt": "Q: There were 16 friends playing a video game online when 7 players quit. If each player left had 8 lives, how many lives did they have total?\nA:",
+      "ground truth": "72",
+      "llm_output": " There were friends playing a video game online. Some players quit. Let's compute the total number of lives left. The answer is 72.",
+      "pred_ans": "72"
+    },
+    {
+      "new_prompt": "Q: For the school bake sale Amy made pastries. She baked 15 cupcakes and 48 cookies. After the sale she had 12 to take back home. How many pastries did she sell?\nA:",
+      "ground truth": "51",
+      "llm_output": " Amy made pastries for the school bake sale. She baked cupcakes and cookies. After the sale, she had some left. Let's compute how many she sold. The answer is 51.",
+      "pred_ans": "51"
+    },
+    {
+      "new_prompt": "Q: While on vacation, Megan took 15 pictures at the zoo and 18 at the museum. If she later deleted 31 of the pictures, how many pictures from her vacation did she still have?\nA:",
+      "ground truth": "2",
+      "llm_output": " Megan took pictures at the zoo and the museum. She deleted some. Let's compute how many she has left. The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: A pet store had 102 puppies. In one day they sold 21 of them and put the rest into cages with 9 in each cage. How many cages did they use?\nA:",
+      "ground truth": "9",
+      "llm_output": " A pet store had puppies. They sold some and put the rest into cages. Let's compute how many cages were used. The answer is 9.",
+      "pred_ans": "9"
+    },
+    {
+      "new_prompt": "Q: Emily was playing a video game and had 42 lives. In a hard part of the game she lost 25 lives. If she got 24 more lives in the next level, how many lives would she have?\nA:",
+      "ground truth": "41",
+      "llm_output": " Emily had lives. She lost some. She got some more. Let's compute how many she has now. The answer is 41.",
+      "pred_ans": "41"
+    }
+  ]
+}

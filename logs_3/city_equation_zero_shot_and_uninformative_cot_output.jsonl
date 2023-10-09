@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: Moscow + Toronto\nA:",
+      "ground truth": "-41",
+      "llm_output": " Moscow is the capital and largest city of Russia. It's known for its iconic Red Square and the Kremlin. Toronto is the capital of the Canadian province of Ontario. It's a diverse city with a thriving arts and culture scene. The answer is 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, ",
+      "pred_ans": "2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,"
+    }
+  ]
+}

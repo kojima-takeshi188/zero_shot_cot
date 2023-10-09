@@ -1,0 +1,17 @@
+{
+  "accuracy": 50.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: James is counting his Pokemon cards. He has 30 fire type, 20 grass type, and 40 water type. If he loses 8 of the water type and buys 14 grass type, what's the percentage chance (rounded to the nearest integer) that a randomly picked card will be a water type?\nA:",
+      "ground truth": "33",
+      "llm_output": " James originally had 40 water type cards. After losing 8 and gaining 14, he will have 40 - 8 + 14 = 46 water type cards. In total, he will have 30 + 46 + 20 = 96 cards. The percentage chance of picking a water type card is 46/96 = 0.4791666... which is approximately 48%. The answer is 48%.",
+      "pred_ans": "48"
+    },
+    {
+      "new_prompt": "Q: Four students scored a total of 251 points in a board game. Naomi scored 68 of the points. Yuri scored 10 more than half as many points as Naomi and Brianna scored 17 points more than Naomi. How many points did Jojo score?\nA:",
+      "ground truth": "54",
+      "llm_output": " Naomi scored 68 points. Yuri scored 10 more than half of 68, which is 10 + (68/2) = 10 + 34 = 44 points. Brianna scored 17 more than Naomi, which is 68 + 17 = 85 points. So Naomi, Yuri, and Brianna scored 68 + 44 + 85 = 197 points. This means Jojo must have scored 251 - 197 = 54 points. The answer is 54.",
+      "pred_ans": "54"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "question": "London - Lagos",
+    "answer": -3
+  },
+  {
+    "question": "Mumbai + Sydney",
+    "answer": 224
+  },
+  {
+    "question": "Paris + Buenos Aires",
+    "answer": -56
+  },
+  {
+    "question": "New York + Seoul",
+    "answer": 53
+  },
+  {
+    "question": "Buenos Aires + Paris",
+    "answer": -56
+  },
+  {
+    "question": "Mumbai + Tokyo",
+    "answer": 213
+  },
+  {
+    "question": "Bangkok + Los Angeles",
+    "answer": -18
+  },
+  {
+    "question": "Rome + Toronto",
+    "answer": -67
+  },
+  {
+    "question": "London + Los Angeles",
+    "answer": -118
+  },
+  {
+    "question": "Sydney - Paris",
+    "answer": 149
+  }
+]

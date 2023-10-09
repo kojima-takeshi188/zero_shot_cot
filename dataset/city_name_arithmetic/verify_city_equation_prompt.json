@@ -1,0 +1,52 @@
+[
+  {
+    "city equation": "\"London - Lagos\" = -3",
+    "reason": "\"London\" = 0, \"Lagos\" = 3, then we have 0-3 = -3",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Mumbai + Sydney\" = 224",
+    "reason": "\"Mumbai\" = 73, \"Sydney\" = 151, then we have 73+151 = 224",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Paris + Buenos Aires\" = -56",
+    "reason": "\"Paris\" = 2, \"Buenos Aires\" = -58, then we have 2+-58 = -56",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"New York + Seoul\" = 53",
+    "reason": "\"New York\" = -74, \"Seoul\" = 127, then we have -74+127 = 53",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Buenos Aires + Paris\" = -56",
+    "reason": "\"Buenos Aires\" = -58, \"Paris\" = 2, then we have -58+2 = -56",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Mumbai + Tokyo\" = 213",
+    "reason": "\"Mumbai\" = 73, \"Tokyo\" = 140, then we have 73+140 = 213",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Bangkok + Los Angeles\" = -18",
+    "reason": "\"Bangkok\" = 100, \"Los Angeles\" = -118, then we have 100+-118 = -18",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Rome + Toronto\" = -67",
+    "reason": "\"Rome\" = 12, \"Toronto\" = -79, then we have 12+-79 = -67",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"London + Los Angeles\" = -118",
+    "reason": "\"London\" = 0, \"Los Angeles\" = -118, then we have 0+-118 = -118",
+    "final result": "Correct"
+  },
+  {
+    "city equation": "\"Sydney - Paris\" = 149",
+    "reason": "\"Sydney\" = 151, \"Paris\" = 2, then we have 151-2 = 149",
+    "final result": "Correct"
+  }
+]

@@ -1,0 +1,5 @@
+,few_shot,few_shot_cot,few_shot_uninformative_cot,zero_shot_and_uninformative_cot,zero_shot_cot
+4,22.0,60.0,20.0,36.0,42.0
+10,22.0,68.0,24.0,38.0,42.0
+15,22.0,66.0,20.0,46.0,42.0
+20,24.0,72.0,20.0,38.0,44.0

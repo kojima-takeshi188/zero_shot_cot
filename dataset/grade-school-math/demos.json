@@ -1,0 +1,14 @@
+{
+  "x": [
+    "Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?"
+  ],
+  "y": [
+    "8"
+  ],
+  "z": [
+    "Jason started with 20 lollipops. Then he had 12 after giving some to Denny. So he gave Denny 20 - 12 = 8."
+  ],
+  "z_uninformative": [
+    "Jason had lollipops. He gave some to Denny. Let's find out how many he gave."
+  ]
+}

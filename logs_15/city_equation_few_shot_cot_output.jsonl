@@ -1,0 +1,305 @@
+{
+  "accuracy": 100.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: Rome - Bangkok\nA:",
+      "ground truth": "-88",
+      "llm_output": " Using the longitudes of cities, the equation \"Rome - Bangkok\" translates as \"Rome\" = 12, \"Bangkok\" = 100. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is -88.",
+      "pred_ans": "-88"
+    },
+    {
+      "new_prompt": "Q: Rome + Istanbul\nA:",
+      "ground truth": "41",
+      "llm_output": " Using the longitudes of cities, the equation \"Rome + Istanbul\" translates as \"Rome\" = 12, \"Istanbul\" = 29. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 41.",
+      "pred_ans": "41"
+    },
+    {
+      "new_prompt": "Q: Seoul - Paris\nA:",
+      "ground truth": "125",
+      "llm_output": " Using the longitudes of cities, the equation \"Seoul - Paris\" translates as \"Seoul\" = 127, \"Paris\" = 2. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 125.",
+      "pred_ans": "125"
+    },
+    {
+      "new_prompt": "Q: Seoul - Seoul\nA:",
+      "ground truth": "0",
+      "llm_output": " Using the longitudes of cities, the equation \"Seoul - Seoul\" translates as \"Seoul\" = 127, \"Seoul\" = 127. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: London - Los Angeles\nA:",
+      "ground truth": "118",
+      "llm_output": " Using the longitudes of cities, the equation \"London - Los Angeles\" translates as \"London\" = 0, \"Los Angeles\" = -118. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 118.",
+      "pred_ans": "118"
+    },
+    {
+      "new_prompt": "Q: Bangkok + Buenos Aires\nA:",
+      "ground truth": "42",
+      "llm_output": " Using the longitudes of cities, the equation \"Bangkok + Buenos Aires\" translates as \"Bangkok\" = 100, \"Buenos Aires\" = -58. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 42.",
+      "pred_ans": "42"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Bangkok\nA:",
+      "ground truth": "-158",
+      "llm_output": " Using the longitudes of cities, the equation \"Buenos Aires - Bangkok\" translates as \"Buenos Aires\" = -58, \"Bangkok\" = 100. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is -158.",
+      "pred_ans": "-158"
+    },
+    {
+      "new_prompt": "Q: Cairo - Istanbul\nA:",
+      "ground truth": "2",
+      "llm_output": " Using the longitudes of cities, the equation \"Cairo - Istanbul\" translates as \"Cairo\" = 31, \"Istanbul\" = 29. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Lagos + Bangkok\nA:",
+      "ground truth": "103",
+      "llm_output": " Using the longitudes of cities, the equation \"Lagos + Bangkok\" translates as \"Lagos\" = 3, \"Bangkok\" = 100. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 103.",
+      "pred_ans": "103"
+    },
+    {
+      "new_prompt": "Q: New York - Johannesburg\nA:",
+      "ground truth": "-102",
+      "llm_output": " Using the longitudes of cities, the equation \"New York - Johannesburg\" translates as \"New York\" = -74, \"Johannesburg\" = 28. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is -102.",
+      "pred_ans": "-102"
+    },
+    {
+      "new_prompt": "Q: Seoul + Los Angeles\nA:",
+      "ground truth": "9",
+      "llm_output": " Using the longitudes of cities, the equation \"Seoul + Los Angeles\" translates as \"Seoul\" = 127, \"Los Angeles\" = -118. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 9.",
+      "pred_ans": "9"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Buenos Aires\nA:",
+      "ground truth": "15",
+      "llm_output": " Using the longitudes of cities, the equation \"Mumbai + Buenos Aires\" translates as \"Mumbai\" = 73, \"Buenos Aires\" = -58. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 15.",
+      "pred_ans": "15"
+    },
+    {
+      "new_prompt": "Q: Moscow + London\nA:",
+      "ground truth": "38",
+      "llm_output": " Using the longitudes of cities, the equation \"Moscow + London\" translates as \"Moscow\" = 38, \"London\" = 0. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 38.",
+      "pred_ans": "38"
+    },
+    {
+      "new_prompt": "Q: Beijing + Bangkok\nA:",
+      "ground truth": "216",
+      "llm_output": " Using the longitudes of cities, the equation \"Beijing + Bangkok\" translates as \"Beijing\" = 116, \"Bangkok\" = 100. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 216.",
+      "pred_ans": "216"
+    },
+    {
+      "new_prompt": "Q: Rome + Moscow\nA:",
+      "ground truth": "50",
+      "llm_output": " Using the longitudes of cities, the equation \"Rome + Moscow\" translates as \"Rome\" = 12, \"Moscow\" = 38. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 50.",
+      "pred_ans": "50"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + Istanbul\nA:",
+      "ground truth": "57",
+      "llm_output": " Using the longitudes of cities, the equation \"Johannesburg + Istanbul\" translates as \"Johannesburg\" = 28, \"Istanbul\" = 29. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 57.",
+      "pred_ans": "57"
+    },
+    {
+      "new_prompt": "Q: Rome + Los Angeles\nA:",
+      "ground truth": "-106",
+      "llm_output": " Using the longitudes of cities, the equation \"Rome + Los Angeles\" translates as \"Rome\" = 12, \"Los Angeles\" = -118. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is -106.",
+      "pred_ans": "-106"
+    },
+    {
+      "new_prompt": "Q: Paris - New York\nA:",
+      "ground truth": "76",
+      "llm_output": " Using the longitudes of cities, the equation \"Paris - New York\" translates as \"Paris\" = 2, \"New York\" = -74. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 76.",
+      "pred_ans": "76"
+    },
+    {
+      "new_prompt": "Q: London - Lagos\nA:",
+      "ground truth": "-3",
+      "llm_output": " Using the longitudes of cities, the equation \"London - Lagos\" translates as \"London\" = 0, \"Lagos\" = 3. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is -3.",
+      "pred_ans": "-3"
+    },
+    {
+      "new_prompt": "Q: Cairo - Los Angeles\nA:",
+      "ground truth": "149",
+      "llm_output": " Using the longitudes of cities, the equation \"Cairo - Los Angeles\" translates as \"Cairo\" = 31, \"Los Angeles\" = -118. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 149.",
+      "pred_ans": "149"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Bangkok\nA:",
+      "ground truth": "42",
+      "llm_output": " Using the longitudes of cities, the equation \"Buenos Aires + Bangkok\" translates as \"Buenos Aires\" = -58, \"Bangkok\" = 100. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 42.",
+      "pred_ans": "42"
+    },
+    {
+      "new_prompt": "Q: Toronto - Sao Paulo\nA:",
+      "ground truth": "-32",
+      "llm_output": " Using the longitudes of cities, the equation \"Toronto - Sao Paulo\" translates as \"Toronto\" = -79, \"Sao Paulo\" = -47. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is -32.",
+      "pred_ans": "-32"
+    },
+    {
+      "new_prompt": "Q: Sydney + Rome\nA:",
+      "ground truth": "163",
+      "llm_output": " Using the longitudes of cities, the equation \"Sydney + Rome\" translates as \"Sydney\" = 151, \"Rome\" = 12. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 163.",
+      "pred_ans": "163"
+    },
+    {
+      "new_prompt": "Q: Rome - London\nA:",
+      "ground truth": "12",
+      "llm_output": " Using the longitudes of cities, the equation \"Rome - London\" translates as \"Rome\" = 12, \"London\" = 0. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 12.",
+      "pred_ans": "12"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Lagos\nA:",
+      "ground truth": "26",
+      "llm_output": " Using the longitudes of cities, the equation \"Istanbul - Lagos\" translates as \"Istanbul\" = 29, \"Lagos\" = 3. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 26.",
+      "pred_ans": "26"
+    },
+    {
+      "new_prompt": "Q: New York - Johannesburg\nA:",
+      "ground truth": "-102",
+      "llm_output": " Using the longitudes of cities, the equation \"New York - Johannesburg\" translates as \"New York\" = -74, \"Johannesburg\" = 28. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is -102.",
+      "pred_ans": "-102"
+    },
+    {
+      "new_prompt": "Q: New York + Lagos\nA:",
+      "ground truth": "-71",
+      "llm_output": " Using the longitudes of cities, the equation \"New York + Lagos\" translates as \"New York\" = -74, \"Lagos\" = 3. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is -71.",
+      "pred_ans": "-71"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Johannesburg\nA:",
+      "ground truth": "168",
+      "llm_output": " Using the longitudes of cities, the equation \"Tokyo + Johannesburg\" translates as \"Tokyo\" = 140, \"Johannesburg\" = 28. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 168.",
+      "pred_ans": "168"
+    },
+    {
+      "new_prompt": "Q: Lagos + Beijing\nA:",
+      "ground truth": "119",
+      "llm_output": " Using the longitudes of cities, the equation \"Lagos + Beijing\" translates as \"Lagos\" = 3, \"Beijing\" = 116. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 119.",
+      "pred_ans": "119"
+    },
+    {
+      "new_prompt": "Q: Seoul - Istanbul\nA:",
+      "ground truth": "98",
+      "llm_output": " Using the longitudes of cities, the equation \"Seoul - Istanbul\" translates as \"Seoul\" = 127, \"Istanbul\" = 29. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 98.",
+      "pred_ans": "98"
+    },
+    {
+      "new_prompt": "Q: Paris - Beijing\nA:",
+      "ground truth": "-114",
+      "llm_output": " Using the longitudes of cities, the equation \"Paris - Beijing\" translates as \"Paris\" = 2, \"Beijing\" = 116. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is -114.",
+      "pred_ans": "-114"
+    },
+    {
+      "new_prompt": "Q: Moscow - Sydney\nA:",
+      "ground truth": "-113",
+      "llm_output": " Using the longitudes of cities, the equation \"Moscow - Sydney\" translates as \"Moscow\" = 38, \"Sydney\" = 151. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is -113.",
+      "pred_ans": "-113"
+    },
+    {
+      "new_prompt": "Q: Istanbul - London\nA:",
+      "ground truth": "29",
+      "llm_output": " Using the longitudes of cities, the equation \"Istanbul - London\" translates as \"Istanbul\" = 29, \"London\" = 0. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 29.",
+      "pred_ans": "29"
+    },
+    {
+      "new_prompt": "Q: Rome + Buenos Aires\nA:",
+      "ground truth": "-46",
+      "llm_output": " Using the longitudes of cities, the equation \"Rome + Buenos Aires\" translates as \"Rome\" = 12, \"Buenos Aires\" = -58. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is -46.",
+      "pred_ans": "-46"
+    },
+    {
+      "new_prompt": "Q: Beijing + Sao Paulo\nA:",
+      "ground truth": "69",
+      "llm_output": " Using the longitudes of cities, the equation \"Beijing + Sao Paulo\" translates as \"Beijing\" = 116, \"Sao Paulo\" = -47. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 69.",
+      "pred_ans": "69"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Sao Paulo\nA:",
+      "ground truth": "93",
+      "llm_output": " Using the longitudes of cities, the equation \"Tokyo + Sao Paulo\" translates as \"Tokyo\" = 140, \"Sao Paulo\" = -47. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 93.",
+      "pred_ans": "93"
+    },
+    {
+      "new_prompt": "Q: Paris - Sydney\nA:",
+      "ground truth": "-149",
+      "llm_output": " Using the longitudes of cities, the equation \"Paris - Sydney\" translates as \"Paris\" = 2, \"Sydney\" = 151. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is -149.",
+      "pred_ans": "-149"
+    },
+    {
+      "new_prompt": "Q: London + Paris\nA:",
+      "ground truth": "2",
+      "llm_output": " Using the longitudes of cities, the equation \"London + Paris\" translates as \"London\" = 0, \"Paris\" = 2. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Sydney - Johannesburg\nA:",
+      "ground truth": "123",
+      "llm_output": " Using the longitudes of cities, the equation \"Sydney - Johannesburg\" translates as \"Sydney\" = 151, \"Johannesburg\" = 28. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 123.",
+      "pred_ans": "123"
+    },
+    {
+      "new_prompt": "Q: London - Mexico City\nA:",
+      "ground truth": "99",
+      "llm_output": " Using the longitudes of cities, the equation \"London - Mexico City\" translates as \"London\" = 0, \"Mexico City\" = -99. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 99.",
+      "pred_ans": "99"
+    },
+    {
+      "new_prompt": "Q: Lagos - Lagos\nA:",
+      "ground truth": "0",
+      "llm_output": " Using the longitudes of cities, the equation \"Lagos - Lagos\" translates as \"Lagos\" = 3, \"Lagos\" = 3. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 0.",
+      "pred_ans": "0"
+    },
+    {
+      "new_prompt": "Q: Cairo + Rome\nA:",
+      "ground truth": "43",
+      "llm_output": " Using the longitudes of cities, the equation \"Cairo + Rome\" translates as \"Cairo\" = 31, \"Rome\" = 12. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 43.",
+      "pred_ans": "43"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Beijing\nA:",
+      "ground truth": "-88",
+      "llm_output": " Using the longitudes of cities, the equation \"Johannesburg - Beijing\" translates as \"Johannesburg\" = 28, \"Beijing\" = 116. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is -88.",
+      "pred_ans": "-88"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Rome\nA:",
+      "ground truth": "-130",
+      "llm_output": " Using the longitudes of cities, the equation \"Los Angeles - Rome\" translates as \"Los Angeles\" = -118, \"Rome\" = 12. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is -130.",
+      "pred_ans": "-130"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires + Beijing\nA:",
+      "ground truth": "58",
+      "llm_output": " Using the longitudes of cities, the equation \"Buenos Aires + Beijing\" translates as \"Buenos Aires\" = -58, \"Beijing\" = 116. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 58.",
+      "pred_ans": "58"
+    },
+    {
+      "new_prompt": "Q: Mumbai - Seoul\nA:",
+      "ground truth": "-54",
+      "llm_output": " Using the longitudes of cities, the equation \"Mumbai - Seoul\" translates as \"Mumbai\" = 73, \"Seoul\" = 127. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is -54.",
+      "pred_ans": "-54"
+    },
+    {
+      "new_prompt": "Q: Cairo - Beijing\nA:",
+      "ground truth": "-85",
+      "llm_output": " Using the longitudes of cities, the equation \"Cairo - Beijing\" translates as \"Cairo\" = 31, \"Beijing\" = 116. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is -85.",
+      "pred_ans": "-85"
+    },
+    {
+      "new_prompt": "Q: Bangkok + Beijing\nA:",
+      "ground truth": "216",
+      "llm_output": " Using the longitudes of cities, the equation \"Bangkok + Beijing\" translates as \"Bangkok\" = 100, \"Beijing\" = 116. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 216.",
+      "pred_ans": "216"
+    },
+    {
+      "new_prompt": "Q: Bangkok - Sao Paulo\nA:",
+      "ground truth": "147",
+      "llm_output": " Using the longitudes of cities, the equation \"Bangkok - Sao Paulo\" translates as \"Bangkok\" = 100, \"Sao Paulo\" = -47. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is 147.",
+      "pred_ans": "147"
+    },
+    {
+      "new_prompt": "Q: Cairo + Buenos Aires\nA:",
+      "ground truth": "-27",
+      "llm_output": " Using the longitudes of cities, the equation \"Cairo + Buenos Aires\" translates as \"Cairo\" = 31, \"Buenos Aires\" = -58. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result. The answer is -27.",
+      "pred_ans": "-27"
+    }
+  ]
+}

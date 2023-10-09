@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: Johannesburg - Mumbai\nA:",
+      "ground truth": "-45",
+      "llm_output": "Johannesburg is the largest city in South Africa, known for its modern skyline and rich history. Mumbai is the largest city in India, known for its bustling streets, Bollywood industry, and historic landmarks. The subtraction of these two cities doesn't provide a numerical answer as they are not numerical values.",
+      "pred_ans": "Johannesburg is the largest city in South Africa, known for its modern skyline and rich history. Mumbai is the largest city in India, known for its bustling streets, Bollywood industry, and historic landmarks. The subtraction of these two cities doesn't provide a numerical answer as they are not numerical values"
+    }
+  ]
+}

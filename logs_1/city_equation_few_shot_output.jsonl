@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: Toronto - Paris\nA:",
+      "ground truth": "-81",
+      "llm_output": "The answer is -6.",
+      "pred_ans": "-6"
+    }
+  ]
+}

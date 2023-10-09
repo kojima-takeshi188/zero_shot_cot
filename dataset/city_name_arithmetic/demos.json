@@ -1,0 +1,62 @@
+{
+  "x": [
+    "\"London - Lagos\"",
+    "\"Mumbai + Sydney\"",
+    "\"Paris + Buenos Aires\"",
+    "\"New York + Seoul\"",
+    "\"Buenos Aires + Paris\"",
+    "\"Mumbai + Tokyo\"",
+    "\"Bangkok + Los Angeles\"",
+    "\"Rome + Toronto\"",
+    "\"London + Los Angeles\"",
+    "\"Sydney - Paris\""
+  ],
+  "y": [
+    "-3",
+    "224",
+    "-56",
+    "53",
+    "-56",
+    "213",
+    "-18",
+    "-67",
+    "-118",
+    "149"
+  ],
+  "z": [
+    "Using the longitudes of cities, the equation \"London - Lagos\" translates as \"London\" = 0, \"Lagos\" = 3. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result.",
+    "Using the longitudes of cities, the equation \"Mumbai + Sydney\" translates as \"Mumbai\" = 73, \"Sydney\" = 151. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result.",
+    "Using the longitudes of cities, the equation \"Paris + Buenos Aires\" translates as \"Paris\" = 2, \"Buenos Aires\" = -58. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result.",
+    "Using the longitudes of cities, the equation \"New York + Seoul\" translates as \"New York\" = -74, \"Seoul\" = 127. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result.",
+    "Using the longitudes of cities, the equation \"Buenos Aires + Paris\" translates as \"Buenos Aires\" = -58, \"Paris\" = 2. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result.",
+    "Using the longitudes of cities, the equation \"Mumbai + Tokyo\" translates as \"Mumbai\" = 73, \"Tokyo\" = 140. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result.",
+    "Using the longitudes of cities, the equation \"Bangkok + Los Angeles\" translates as \"Bangkok\" = 100, \"Los Angeles\" = -118. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result.",
+    "Using the longitudes of cities, the equation \"Rome + Toronto\" translates as \"Rome\" = 12, \"Toronto\" = -79. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result.",
+    "Using the longitudes of cities, the equation \"London + Los Angeles\" translates as \"London\" = 0, \"Los Angeles\" = -118. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result.",
+    "Using the longitudes of cities, the equation \"Sydney - Paris\" translates as \"Sydney\" = 151, \"Paris\" = 2. Here the longitudes of the western hemisphere are negative numbers. And we round the coordinates to the nearest integer. This gives the result."
+  ],
+  "z_uninformative": [
+    "London has longitude: 0.",
+    "Mumbai has longitude: 73.",
+    "Paris has longitude: 2.",
+    "New York has longitude: -74.",
+    "Buenos Aires has longitude: -58.",
+    "Mumbai has longitude: 73.",
+    "Bangkok has longitude: 100.",
+    "Rome has longitude: 12.",
+    "London has longitude: 0.",
+    "Sydney has longitude: 151."
+  ],
+  "z_demographics": [
+    "London is home to approximately 9 million residents, with 59.8% being White, 18.5% Asian, 13.3% Black, 5% Mixed, and 3.4% identifying as Other. The median age in the city is 36.5 years. Lagos has a population of approximately 14.8 million in its greater metropolitan area, primarily consisting of Yoruba, Igbo, and other Nigerian ethnic groups. The median age is 18 years.",
+    "The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. Sydney has a population of around 5.3 million people, with a breakdown of 58% White, 34.2% Asian, and 2.6% Aboriginal/Torres Strait Islander. The remaining percentages include others. The median age is 36 years.",
+    "Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years. Buenos Aires has a population of approximately 15 million in its greater metropolitan area. The majority of residents are of European descent, with some Mestizos, and the median age is 31 years.",
+    "With a population of approximately 8.4 million people, New York is diverse. Around 32.1% identify as White, 29.1% as Hispanic, 24.3% as Black, 14.1% as Asian, with the rest being a mixture of Native American, Pacific Islander, and other ethnicities. The median age is 36 years. Seoul has a population of around 9.7 million, predominantly Korean, with a median age of 41 years.",
+    "Buenos Aires has a population of approximately 15 million in its greater metropolitan area. The majority of residents are of European descent, with some Mestizos, and the median age is 31 years. Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years.",
+    "The greater Mumbai area has around 20 million residents, predominantly of South Asian ethnicity. The median age is 31 years. The 23 special wards of Tokyo have a combined population of around 14 million, predominantly of Japanese ethnicity. The median age in Tokyo is 45.5 years.",
+    "With a population of approximately 10.8 million, Bangkok is predominantly Thai, with Chinese and other minorities. The median age is 40 years. Los Angeles has a population of around 4 million people. It is predominantly Hispanic (48.6%), followed by White (28.5%), Asian (11.3%), and Black residents (9.8%). The median age is approximately 36 years.",
+    "Rome has around 2.8 million residents, predominantly White (Italian), and various immigrant groups. The median age is 45 years. Torontos population of approximately 2.9 million is diverse, including White, South Asian, East Asian, Black, Southeast Asian, Latin American, West Asian, Arab, and other ethnic groups. The median age is 40 years.",
+    "London is home to approximately 9 million residents, with 59.8% being White, 18.5% Asian, 13.3% Black, 5% Mixed, and 3.4% identifying as Other. The median age in the city is 36.5 years. Los Angeles has a population of around 4 million people. It is predominantly Hispanic (48.6%), followed by White (28.5%), Asian (11.3%), and Black residents (9.8%). The median age is approximately 36 years.",
+    "Sydney has a population of around 5.3 million people, with a breakdown of 58% White, 34.2% Asian, and 2.6% Aboriginal/Torres Strait Islander. The remaining percentages include others. The median age is 36 years. Paris, with a population of around 2.1 million in the city proper, is predominantly White, but also has significant populations of African, Asian, and North African descent. The median age is 41 years."
+  ]
+}

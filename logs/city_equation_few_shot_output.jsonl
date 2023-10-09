@@ -1,0 +1,17 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: Buenos Aires - Cairo\nA:",
+      "ground truth": "-89",
+      "llm_output": " The answer is -10.",
+      "pred_ans": "-10"
+    },
+    {
+      "new_prompt": "Q: Sydney - Istanbul\nA:",
+      "ground truth": "122",
+      "llm_output": " The answer is 10.",
+      "pred_ans": "10"
+    }
+  ]
+}

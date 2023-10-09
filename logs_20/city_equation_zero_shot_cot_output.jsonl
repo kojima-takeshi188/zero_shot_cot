@@ -1,0 +1,305 @@
+{
+  "accuracy": 0.0,
+  "outputs": [
+    {
+      "new_prompt": "Q: Toronto - London\nA:",
+      "ground truth": "-79",
+      "llm_output": " 5,500 kilometers (3,400 miles) and 7-8 hours.",
+      "pred_ans": "5,500 kilometers (3,400 miles) and 7-8 hours"
+    },
+    {
+      "new_prompt": "Q: Bangkok - Johannesburg\nA:",
+      "ground truth": "72",
+      "llm_output": " 1. Bangkok to Singapore, 2. Singapore to Johannesburg. \n\nIf you choose to drive, you will need to plan a route that takes you through",
+      "pred_ans": "1. Bangkok to Singapore, 2. Singapore to Johannesburg. \n\nIf you choose to drive, you will need to plan a route that takes you through"
+    },
+    {
+      "new_prompt": "Q: Rome - Sydney\nA:",
+      "ground truth": "-139",
+      "llm_output": " 16,000 kilometers (9,942 miles) and $1,000 to $2,000.",
+      "pred_ans": "16,000 kilometers (9,942 miles) and $1,000 to $2,000"
+    },
+    {
+      "new_prompt": "Q: London - Sao Paulo\nA:",
+      "ground truth": "47",
+      "llm_output": " 9,000 kilometers and the cost is $600 to $1,500.",
+      "pred_ans": "9,000 kilometers and the cost is $600 to $1,500"
+    },
+    {
+      "new_prompt": "Q: Johannesburg - Tokyo\nA:",
+      "ground truth": "-112",
+      "llm_output": " 11,500 kilometers and the mode of transportation is by air, with an average flight time of 14-15 hours.",
+      "pred_ans": "11,500 kilometers and the mode of transportation is by air, with an average flight time of 14-15 hours"
+    },
+    {
+      "new_prompt": "Q: Toronto + Cairo\nA:",
+      "ground truth": "-48",
+      "llm_output": " 9000 kilometers, 11-12 hours, and Air Canada, EgyptAir, and Turkish Airlines.",
+      "pred_ans": "9000 kilometers, 11-12 hours, and Air Canada, EgyptAir, and Turkish Airlines"
+    },
+    {
+      "new_prompt": "Q: Cairo - Lagos\nA:",
+      "ground truth": "28",
+      "llm_output": " 4500 kilometers.\n\nBy land: It is possible to travel from Cairo to Lagos by land, but it would require crossing multiple borders and can be a",
+      "pred_ans": "4500 kilometers.\n\nBy land: It is possible to travel from Cairo to Lagos by land, but it would require crossing multiple borders and can be a"
+    },
+    {
+      "new_prompt": "Q: Mexico City + Mumbai\nA:",
+      "ground truth": "-26",
+      "llm_output": " 21 million + 20 million = 41 million.",
+      "pred_ans": "21 million + 20 million = 41 million"
+    },
+    {
+      "new_prompt": "Q: Beijing + Beijing\nA:",
+      "ground truth": "232",
+      "llm_output": " 2.\n\n2. Beijing, China + Beijing, USA: This could refer to two different cities with the same name. There is actually a small town called",
+      "pred_ans": "2.\n\n2. Beijing, China + Beijing, USA: This could refer to two different cities with the same name. There is actually a small town called"
+    },
+    {
+      "new_prompt": "Q: Sao Paulo + Tokyo\nA:",
+      "ground truth": "93",
+      "llm_output": " 23 hours and 12 hours ahead.",
+      "pred_ans": "23 hours and 12 hours ahead"
+    },
+    {
+      "new_prompt": "Q: Paris + Paris\nA:",
+      "ground truth": "4",
+      "llm_output": " 2 Paris or Paris + Paris = 2 Paris.",
+      "pred_ans": "2 Paris or Paris + Paris = 2 Paris"
+    },
+    {
+      "new_prompt": "Q: Los Angeles - Istanbul\nA:",
+      "ground truth": "-147",
+      "llm_output": " 6,500 miles (10,460 kilometers) and the recommended mode of transportation is by air with a flight duration of 13-14 hours.",
+      "pred_ans": "6,500 miles (10,460 kilometers) and the recommended mode of transportation is by air with a flight duration of 13-14 hours"
+    },
+    {
+      "new_prompt": "Q: Bangkok - Lagos\nA:",
+      "ground truth": "97",
+      "llm_output": " 9,500 kilometers (5,900 miles).",
+      "pred_ans": "9,500 kilometers (5,900 miles)"
+    },
+    {
+      "new_prompt": "Q: Beijing - Lagos\nA:",
+      "ground truth": "113",
+      "llm_output": " 11,000 kilometers (6,835 miles).",
+      "pred_ans": "11,000 kilometers (6,835 miles)"
+    },
+    {
+      "new_prompt": "Q: London + New York\nA:",
+      "ground truth": "-74",
+      "llm_output": " 5 hours.",
+      "pred_ans": "5 hours"
+    },
+    {
+      "new_prompt": "Q: Cairo + Sydney\nA:",
+      "ground truth": "182",
+      "llm_output": " 11,000 kilometers.",
+      "pred_ans": "11,000 kilometers"
+    },
+    {
+      "new_prompt": "Q: Istanbul + Cairo\nA:",
+      "ground truth": "60",
+      "llm_output": " 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Bangkok\nA:",
+      "ground truth": "-158",
+      "llm_output": " 19,000 kilometers and 20-30 hours.",
+      "pred_ans": "19,000 kilometers and 20-30 hours"
+    },
+    {
+      "new_prompt": "Q: Cairo + Tokyo\nA:",
+      "ground truth": "171",
+      "llm_output": " $800 to $1,200.",
+      "pred_ans": "$800 to $1,200"
+    },
+    {
+      "new_prompt": "Q: Mexico City + Sydney\nA:",
+      "ground truth": "52",
+      "llm_output": " 1:00 AM the next day in Sydney. This is because we need to add 16 hours to the departure time to account for the time difference.\n\n",
+      "pred_ans": "1:00 AM the next day in Sydney. This is because we need to add 16 hours to the departure time to account for the time difference"
+    },
+    {
+      "new_prompt": "Q: London - Johannesburg\nA:",
+      "ground truth": "-28",
+      "llm_output": " 11-12 hours and \u00a3500-\u00a31000.\n\nAnother factor to consider is the time difference between London and Johannesburg. Johannesburg is 2 hours ahead",
+      "pred_ans": "11-12 hours and \u00a3500-\u00a31000.\n\nAnother factor to consider is the time difference between London and Johannesburg. Johannesburg is 2 hours ahead"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Toronto\nA:",
+      "ground truth": "61",
+      "llm_output": " 26 hours.",
+      "pred_ans": "26 hours"
+    },
+    {
+      "new_prompt": "Q: Mumbai - Paris\nA:",
+      "ground truth": "71",
+      "llm_output": " 1. Search for flights on a travel website or app. 2. Book the flight. 3. Make sure to have all necessary documents for international",
+      "pred_ans": "1. Search for flights on a travel website or app. 2. Book the flight. 3. Make sure to have all necessary documents for international"
+    },
+    {
+      "new_prompt": "Q: Seoul + Mexico City\nA:",
+      "ground truth": "28",
+      "llm_output": " 1.",
+      "pred_ans": "1"
+    },
+    {
+      "new_prompt": "Q: Los Angeles + Mexico City\nA:",
+      "ground truth": "-217",
+      "llm_output": " 1,750 miles and 3-4 hours.",
+      "pred_ans": "1,750 miles and 3-4 hours"
+    },
+    {
+      "new_prompt": "Q: Mexico City - Beijing\nA:",
+      "ground truth": "-215",
+      "llm_output": " 12,000 kilometers (7,456 miles) by air.",
+      "pred_ans": "12,000 kilometers (7,456 miles) by air"
+    },
+    {
+      "new_prompt": "Q: Tokyo + Sao Paulo\nA:",
+      "ground truth": "93",
+      "llm_output": " 9:00 AM on Monday, we would arrive in Sao Paulo at 9:00 AM on Tuesday.\n\nHowever, if we take into account the time",
+      "pred_ans": "9:00 AM on Monday, we would arrive in Sao Paulo at 9:00 AM on Tuesday.\n\nHowever, if we take into account the time"
+    },
+    {
+      "new_prompt": "Q: Mumbai + Seoul\nA:",
+      "ground truth": "200",
+      "llm_output": " 4,500 kilometers and the estimated flight time is 7-8 hours.",
+      "pred_ans": "4,500 kilometers and the estimated flight time is 7-8 hours"
+    },
+    {
+      "new_prompt": "Q: New York + Toronto\nA:",
+      "ground truth": "-153",
+      "llm_output": " 789 kilometers (490 miles) by car, 12-13 hours by train, and 1.5-2 hours by plane.",
+      "pred_ans": "789 kilometers (490 miles) by car, 12-13 hours by train, and 1.5-2 hours by plane"
+    },
+    {
+      "new_prompt": "Q: Seoul - Johannesburg\nA:",
+      "ground truth": "99",
+      "llm_output": " 11,000 kilometers and the flight duration is 14-16 hours. The cost of a round-trip economy class ticket can range from $800 to",
+      "pred_ans": "11,000 kilometers and the flight duration is 14-16 hours. The cost of a round-trip economy class ticket can range from $800 to"
+    },
+    {
+      "new_prompt": "Q: Toronto + Los Angeles\nA:",
+      "ground truth": "-197",
+      "llm_output": " $1,020. \n\nIn conclusion, the total cost of driving from Toronto to Los Angeles would be approximately $1,020 in gas expenses. Keep in",
+      "pred_ans": "$1,020. \n\nIn conclusion, the total cost of driving from Toronto to Los Angeles would be approximately $1,020 in gas expenses. Keep in"
+    },
+    {
+      "new_prompt": "Q: Tokyo - Bangkok\nA:",
+      "ground truth": "40",
+      "llm_output": " 1.\n\n1. Decide on mode of transportation (flight)\n2. Search for flights from Tokyo to Bangkok\n3. Book flight and check baggage allowance",
+      "pred_ans": "1.\n\n1. Decide on mode of transportation (flight)\n2. Search for flights from Tokyo to Bangkok\n3. Book flight and check baggage allowance"
+    },
+    {
+      "new_prompt": "Q: Cairo - Beijing\nA:",
+      "ground truth": "-85",
+      "llm_output": " 10-11 hours.",
+      "pred_ans": "10-11 hours"
+    },
+    {
+      "new_prompt": "Q: Buenos Aires - Los Angeles\nA:",
+      "ground truth": "60",
+      "llm_output": ":\n\n1. Search for flights from Buenos Aires to Los Angeles\n2. Book a suitable flight\n3. Pack bags and gather necessary documents\n4. Check",
+      "pred_ans": ":\n\n1. Search for flights from Buenos Aires to Los Angeles\n2. Book a suitable flight\n3. Pack bags and gather necessary documents\n4. Check"
+    },
+    {
+      "new_prompt": "Q: Toronto - Beijing\nA:",
+      "ground truth": "-195",
+      "llm_output": " 1. Find a flight from Toronto to Beijing. 2. Book tickets and prepare necessary documents. 3. Arrive at the airport early. ",
+      "pred_ans": "1. Find a flight from Toronto to Beijing. 2. Book tickets and prepare necessary documents. 3. Arrive at the airport early"
+    },
+    {
+      "new_prompt": "Q: Bangkok + Sydney\nA:",
+      "ground truth": "251",
+      "llm_output": " 1. Book flight from Bangkok to Sydney 2. Check baggage allowance and visa requirements 3. Explore Sydney using public transportation or renting a car 4",
+      "pred_ans": "1. Book flight from Bangkok to Sydney 2. Check baggage allowance and visa requirements 3. Explore Sydney using public transportation or renting a car 4"
+    },
+    {
+      "new_prompt": "Q: Toronto + Sao Paulo\nA:",
+      "ground truth": "-126",
+      "llm_output": " 8,500 kilometers (5,280 miles) by air and approximately 10-11 hours by direct flight.",
+      "pred_ans": "8,500 kilometers (5,280 miles) by air and approximately 10-11 hours by direct flight"
+    },
+    {
+      "new_prompt": "Q: Johannesburg + London\nA:",
+      "ground truth": "28",
+      "llm_output": " 9000 kilometers and 11 hours by air.",
+      "pred_ans": "9000 kilometers and 11 hours by air"
+    },
+    {
+      "new_prompt": "Q: Sydney + Paris\nA:",
+      "ground truth": "153",
+      "llm_output": " 9:00 PM in Paris.\n\nSo, if we were to leave Sydney at 9:00 AM, we would arrive in Paris at 9:",
+      "pred_ans": "9:00 PM in Paris.\n\nSo, if we were to leave Sydney at 9:00 AM, we would arrive in Paris at 9:"
+    },
+    {
+      "new_prompt": "Q: Beijing - Seoul\nA:",
+      "ground truth": "-11",
+      "llm_output": " 14 hours.\n\nIf we decide to drive, we can take the G1 Beijing-Harbin Expressway and then connect to the G10 Beijing-H",
+      "pred_ans": "14 hours.\n\nIf we decide to drive, we can take the G1 Beijing-Harbin Expressway and then connect to the G10 Beijing-H"
+    },
+    {
+      "new_prompt": "Q: New York - Moscow\nA:",
+      "ground truth": "-112",
+      "llm_output": " 4,650 miles (7,480 kilometers).",
+      "pred_ans": "4,650 miles (7,480 kilometers)"
+    },
+    {
+      "new_prompt": "Q: Rome + Seoul\nA:",
+      "ground truth": "139",
+      "llm_output": " 12 hours and cultural differences.",
+      "pred_ans": "12 hours and cultural differences"
+    },
+    {
+      "new_prompt": "Q: Mexico City + Lagos\nA:",
+      "ground truth": "-96",
+      "llm_output": " 2.",
+      "pred_ans": "2"
+    },
+    {
+      "new_prompt": "Q: Beijing + Rome\nA:",
+      "ground truth": "128",
+      "llm_output": " 7000 kilometers.",
+      "pred_ans": "7000 kilometers"
+    },
+    {
+      "new_prompt": "Q: Lagos + Los Angeles\nA:",
+      "ground truth": "-115",
+      "llm_output": " 20 million + 4 million = 24 million people. It is known for its entertainment industry, including Hollywood, as well as its diverse population and cultural",
+      "pred_ans": "20 million + 4 million = 24 million people. It is known for its entertainment industry, including Hollywood, as well as its diverse population and cultural"
+    },
+    {
+      "new_prompt": "Q: Mexico City + Seoul\nA:",
+      "ground truth": "28",
+      "llm_output": " 7,800 miles (12,550 kilometers) and 15 hours.",
+      "pred_ans": "7,800 miles (12,550 kilometers) and 15 hours"
+    },
+    {
+      "new_prompt": "Q: Istanbul - Moscow\nA:",
+      "ground truth": "-9",
+      "llm_output": " 3 hours and 30 minutes by plane, and 1 day and 10 hours by train.",
+      "pred_ans": "3 hours and 30 minutes by plane, and 1 day and 10 hours by train"
+    },
+    {
+      "new_prompt": "Q: Toronto - Paris\nA:",
+      "ground truth": "-81",
+      "llm_output": " 1. Decide on mode of transportation (flight) 2. Search for flights and book one 3. Arrive at the airport on time 4",
+      "pred_ans": "1. Decide on mode of transportation (flight) 2. Search for flights and book one 3. Arrive at the airport on time 4"
+    },
+    {
+      "new_prompt": "Q: Moscow + Johannesburg\nA:",
+      "ground truth": "66",
+      "llm_output": " 8,500 kilometers and the most common mode of transportation is by air.",
+      "pred_ans": "8,500 kilometers and the most common mode of transportation is by air"
+    },
+    {
+      "new_prompt": "Q: Beijing - Paris\nA:",
+      "ground truth": "114",
+      "llm_output": " 8000 kilometers (4,971 miles) and 10-11 hours by air.",
+      "pred_ans": "8000 kilometers (4,971 miles) and 10-11 hours by air"
+    }
+  ]
+}

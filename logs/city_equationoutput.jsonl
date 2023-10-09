@@ -1,0 +1,120 @@
+{
+  "new_prompt": "Q: Buenos Aires - Cairo\nA:",
+  "ground truth": "-89",
+  "llm_output": " Buenos Aires is the capital of Argentina. It's known for its vibrant culture, tango dancing, and delicious food. Cairo is the capital of Egypt. It's famous for its ancient pyramids and the Great Sphinx. The answer is -10.",
+  "pred_ans": "-10"
+}
+{
+  "new_prompt": "Q: Sydney - Istanbul\nA:",
+  "ground truth": "122",
+  "llm_output": " Sydney is the largest city in Australia. It's famous for its Harbour Bridge and the Sydney Opera House. Istanbul is the largest city in Turkey. It's known for its rich history and cultural landmarks such as the Hagia Sophia and the Blue Mosque. The answer is 10.",
+  "pred_ans": "10"
+}
+{
+  "new_prompt": "Q: Lagos + Cairo\nA:",
+  "ground truth": "34",
+  "llm_output": " Lagos is the largest city in Nigeria. It's a major financial center in Africa and is home to one of the largest and busiest ports on the continent. Cairo is the capital of Egypt. It's known for its ancient pyramids and the Great Sphinx. The answer is 1,500.",
+  "pred_ans": "1,500"
+}
+{
+  "new_prompt": "Q: Sao Paulo + Buenos Aires\nA:",
+  "ground truth": "-105",
+  "llm_output": " Sao Paulo is a sprawling city in Brazil. It's a major financial center and is known for its cultural institutions. Buenos Aires is the capital of Argentina. It's known for its European-style architecture and vibrant tango scene. The answer is -10.",
+  "pred_ans": "-10"
+}
+{
+  "new_prompt": "Q: Cairo + Seoul\nA:",
+  "ground truth": "158",
+  "llm_output": " Cairo is the capital of Egypt. It's known for its ancient pyramids and the Great Sphinx. Seoul is the capital of South Korea. It's a modern city with a rich history and is known for its technology and pop culture. The answer is -1.",
+  "pred_ans": "-1"
+}
+{
+  "new_prompt": "Q: Lagos - Moscow\nA:",
+  "ground truth": "-35",
+  "llm_output": " Lagos is the largest city in Nigeria. It's a major financial center in Africa and is home to one of the largest and busiest ports on the continent. Moscow is the capital of Russia. It's known for its iconic Red Square and the Kremlin. The answer is -1.",
+  "pred_ans": "-1"
+}
+{
+  "new_prompt": "Q: Sao Paulo + Paris\nA:",
+  "ground truth": "-45",
+  "llm_output": " Sao Paulo is a sprawling city in Brazil. It's a major financial center and is known for its cultural institutions. Paris is the capital of France. It's often referred to as 'The City of Love'. The answer is -3.",
+  "pred_ans": "-3"
+}
+{
+  "new_prompt": "Q: Johannesburg + Paris\nA:",
+  "ground truth": "30",
+  "llm_output": " Johannesburg is the largest city in South Africa. It's known for its vibrant culture and history. Paris is the capital of France. It's famous for its art, fashion, and iconic landmarks such as the Eiffel Tower. The answer is 1.",
+  "pred_ans": "1"
+}
+{
+  "new_prompt": "Q: Johannesburg + Sao Paulo\nA:",
+  "ground truth": "-19",
+  "llm_output": " Johannesburg is the largest city in South Africa. It's known for its gold and diamond trade and is a major economic hub in Africa. Sao Paulo is a sprawling city in Brazil. It's a major financial center and is known for its cultural institutions. The answer is 1.",
+  "pred_ans": "1"
+}
+{
+  "new_prompt": "Q: Sao Paulo + Johannesburg\nA:",
+  "ground truth": "-19",
+  "llm_output": " Sao Paulo is a sprawling city in Brazil. It's a major financial center and is known for its cultural institutions. Johannesburg is the largest city in South Africa. It's known for its gold and diamond trade and is often referred to as the \"City of Gold\". The answer is 105.",
+  "pred_ans": "105"
+}
+{
+  "new_prompt": "Q: London - Moscow\nA:",
+  "ground truth": "-38",
+  "llm_output": " London is the capital of England and the United Kingdom. It's known for its iconic landmarks such as Big Ben and Buckingham Palace. Moscow is the capital of Russia. It's known for its Red Square and the Kremlin. The answer is -1.",
+  "pred_ans": "-1"
+}
+{
+  "new_prompt": "Q: New York + Toronto\nA:",
+  "ground truth": "-153",
+  "llm_output": " New York City is the largest city in the United States. It's known for its diverse culture, iconic landmarks, and bustling city life. Toronto is the largest city in Canada. It's known for its modern skyline and the iconic CN Tower. The answer is 2.",
+  "pred_ans": "2"
+}
+{
+  "new_prompt": "Q: Moscow - New York\nA:",
+  "ground truth": "112",
+  "llm_output": " Moscow is the capital of Russia. It's known for its iconic Red Square and the Kremlin. New York is a major city in the United States. It's known for its diverse culture and iconic landmarks such as the Statue of Liberty and Times Square. The answer is -7.",
+  "pred_ans": "-7"
+}
+{
+  "new_prompt": "Q: Cairo + Lagos\nA:",
+  "ground truth": "34",
+  "llm_output": " Cairo is the capital of Egypt. It's known for its ancient pyramids and the Great Sphinx. Lagos is the largest city in Nigeria. It's a major financial center in Africa and is home to one of the largest and busiest ports on the continent. The answer is 1.",
+  "pred_ans": "1"
+}
+{
+  "new_prompt": "Q: Sao Paulo - Beijing\nA:",
+  "ground truth": "-163",
+  "llm_output": " Sao Paulo is a sprawling city in Brazil. It's a major financial center and is known for its cultural institutions. Beijing is the capital of China. It's known for its ancient sites including the Forbidden City. The answer is -163.",
+  "pred_ans": "-163"
+}
+{
+  "new_prompt": "Q: Buenos Aires + Cairo\nA:",
+  "ground truth": "-27",
+  "llm_output": " Buenos Aires is the capital of Argentina. It's known for its vibrant culture, tango dancing, and delicious food. Cairo is the capital of Egypt. It's famous for its ancient pyramids and the Great Sphinx. The answer is -5.",
+  "pred_ans": "-5"
+}
+{
+  "new_prompt": "Q: Los Angeles + Johannesburg\nA:",
+  "ground truth": "-90",
+  "llm_output": " Los Angeles is located in California, USA. It's famous for Hollywood and its entertainment industry. Johannesburg is the largest city in South Africa. It's known for its gold and diamond mining industry. The answer is -123.",
+  "pred_ans": "-123"
+}
+{
+  "new_prompt": "Q: Paris - Moscow\nA:",
+  "ground truth": "-36",
+  "llm_output": " Paris is the capital of France. It's known for its iconic landmarks such as the Eiffel Tower and the Louvre Museum. Moscow is the capital of Russia. It's known for its rich history and iconic Red Square. The answer is -1.",
+  "pred_ans": "-1"
+}
+{
+  "new_prompt": "Q: Beijing - Paris\nA:",
+  "ground truth": "114",
+  "llm_output": " Beijing is the capital of China. It's known for its ancient sites including the Forbidden City. Paris is the capital of France. It's often referred to as 'The City of Love'. The answer is -163.",
+  "pred_ans": "-163"
+}
+{
+  "new_prompt": "Q: Istanbul - Toronto\nA:",
+  "ground truth": "108",
+  "llm_output": " Istanbul is the largest city in Turkey. It's known for its rich history and cultural heritage, with landmarks such as the Hagia Sophia and the Blue Mosque. Toronto is the largest city in Canada. It's known for its diverse population and vibrant arts and culture scene. The answer is 7.",
+  "pred_ans": "7"
+}
